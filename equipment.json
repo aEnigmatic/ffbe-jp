@@ -2718,6 +2718,40 @@
         "price_sell": 2000,
         "icon": "item_10260.png"
     },
+    "302006300": {
+        "name": "リオンサーブル",
+        "compendium_id": 1046,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 2,
+        "type": "Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 58,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": [
+                "Wind",
+                "Earth"
+            ],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "item_10261.png"
+    },
     "303000100": {
         "name": "グレートソード",
         "compendium_id": 16,
@@ -4021,6 +4055,37 @@
         "price_buy": 300000,
         "price_sell": 30000,
         "icon": "item_10342.png"
+    },
+    "303005100": {
+        "name": "ソードキュイジーヌ",
+        "compendium_id": 1044,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 72,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 91,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 75000,
+        "price_sell": 7500,
+        "icon": "item_10345.png"
     },
     "304000100": {
         "name": "虎鉄",
@@ -14056,6 +14121,37 @@
         "price_sell": 4000,
         "icon": "item_11119.png"
     },
+    "316002000": {
+        "name": "エレフィムハープ",
+        "compendium_id": 1042,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 11,
+        "type": "Harp",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.3, 1.7],
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100020],
+        "effects": ["Grants 'HP+20%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 12,
+            "DEF": 0,
+            "MAG": 23,
+            "SPR": 125,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 80000,
+        "price_sell": 8000,
+        "icon": "item_11120.png"
+    },
     "316004200": {
         "name": "AL式魔電粒子砲",
         "compendium_id": 1013,
@@ -15228,8 +15324,8 @@
         "dmg_variance": null,
         "accuracy": 0,
         "requirements": null,
-        "skills": null,
-        "effects": null,
+        "skills": [228182],
+        "effects": ["Grants '即死無効' passive."],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -22141,6 +22237,74 @@
         "price_sell": 30000,
         "icon": "item_20333.png"
     },
+    "407003500": {
+        "name": "源氏の鎧(FFBE)",
+        "compendium_id": 1034,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 52,
+        "type": "Heavy Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [228160, 228183],
+        "effects": [
+            "Grants '源氏の魂' passive.",
+            "Grants '即死耐性+50%' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 20,
+            "DEF": 45,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Blind": 100,
+                "Death": 100
+            },
+            "status_inflict": null
+        },
+        "price_buy": 150000,
+        "price_sell": 15000,
+        "icon": "item_20328.png"
+    },
+    "407003600": {
+        "name": "源氏の鎧・レプリカ",
+        "compendium_id": 1035,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 52,
+        "type": "Heavy Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 12,
+            "DEF": 32,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "item_20329.png"
+    },
     "408000100": {
         "name": "木綿のローブ",
         "compendium_id": 175,
@@ -23467,6 +23631,40 @@
         "price_sell": 2000,
         "icon": "item_20411.png"
     },
+    "408004200": {
+        "name": "エレフィムドレス",
+        "compendium_id": 1043,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 53,
+        "type": "Robe",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100020, 228150],
+        "effects": [
+            "Grants 'HP+20%' passive.",
+            "Grants '森羅の詠み人' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 25,
+            "MAG": 30,
+            "SPR": 75,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_20442.png"
+    },
     "409000100": {
         "name": "鉄の篭手",
         "compendium_id": 200,
@@ -23933,8 +24131,8 @@
         "dmg_variance": null,
         "accuracy": 0,
         "requirements": null,
-        "skills": null,
-        "effects": null,
+        "skills": [228182],
+        "effects": ["Grants '即死無効' passive."],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -29973,5 +30171,36 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_50338.png"
+    },
+    "409023000": {
+        "name": "カレイドムーン",
+        "compendium_id": 1045,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100110],
+        "effects": ["Grants '魔力+20%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 3,
+            "MAG": 15,
+            "SPR": 3,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_50339.png"
     }
 }

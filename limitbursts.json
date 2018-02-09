@@ -8283,7 +8283,7 @@
         "attack_damage": [[100]],
         "attack_frames": [[28]],
         "effect_frames": [[0,  0,  21]],
-        "move_type": 3,
+        "move_type": 1,
         "damage_type": "Physical",
         "element_inflict": null,
         "levels": 20,
@@ -8312,7 +8312,7 @@
         "attack_damage": [[100]],
         "attack_frames": [[28]],
         "effect_frames": [[0,  0,  0,  21]],
-        "move_type": 3,
+        "move_type": 1,
         "damage_type": "Physical",
         "element_inflict": null,
         "levels": 25,
@@ -8341,7 +8341,7 @@
         "attack_damage": [[100]],
         "attack_frames": [[28]],
         "effect_frames": [[0,  0,  0,  21,  1]],
-        "move_type": 3,
+        "move_type": 1,
         "damage_type": "Physical",
         "element_inflict": null,
         "levels": 30,
@@ -11784,6 +11784,312 @@
                 "Increase Charm resistance by 100% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 2, 8, [3000,  1,  8160,  3]], [2, 2, 30, [20,  1,  150,  3]], [2, 2, 7, [100,  100,  100,  100,  100,  100,  100,  100,  1,  3]], [2, 2, 89, [100,  100,  100,  100,  0,  100,  3,  1]]]},
+        "strings": []
+    },
+    "100017105": {
+        "name": "女王のパストラール",
+        "cost": 0,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[23,  23,  122,  122,  0,  120,  22], [220,  220]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 45,
+            "effects": [
+                "Reduce ATK, DEF, MAG and SPR by 35% for 3 turns to all enemies",
+                "Increase ATK, DEF, MAG and SPR by 95% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [-35,  -35,  -35,  -35,  3,  1]], [2, 2, 3, [95,  95,  95,  95,  3,  1]]]},
+        "max_level": {
+            "cost": 45,
+            "effects": [
+                "Reduce ATK, DEF, MAG and SPR by 55% for 3 turns to all enemies",
+                "Increase ATK, DEF, MAG and SPR by 115% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [-55,  -55,  -55,  -55,  3,  1]], [2, 2, 3, [115,  115,  115,  115,  3,  1]]]},
+        "strings": []
+    },
+    "100017106": {
+        "name": "女王のパストラール",
+        "cost": 0,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[23,  23,  122,  122,  0,  120,  22], [220,  220]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 45,
+            "effects": [
+                "Reduce ATK, DEF, MAG and SPR by 40% for 3 turns to all enemies",
+                "Increase ATK, DEF, MAG and SPR by 105% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [-40,  -40,  -40,  -40,  3,  1]], [2, 2, 3, [105,  105,  105,  105,  3,  1]]]},
+        "max_level": {
+            "cost": 45,
+            "effects": [
+                "Reduce ATK, DEF, MAG and SPR by 65% for 3 turns to all enemies",
+                "Increase ATK, DEF, MAG and SPR by 130% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [-65,  -65,  -65,  -65,  3,  1]], [2, 2, 3, [130,  130,  130,  130,  3,  1]]]},
+        "strings": []
+    },
+    "100017107": {
+        "name": "女王のパストラール",
+        "cost": 0,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[23,  23,  122,  122,  0,  120,  22,  24], [220,  220]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 45,
+            "effects": [
+                "Reduce ATK, DEF, MAG and SPR by 45% for 3 turns to all enemies",
+                "Increase ATK, DEF, MAG and SPR by 115% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [-45,  -45,  -45,  -45,  3,  1]], [2, 2, 3, [115,  115,  115,  115,  3,  1]]]},
+        "max_level": {
+            "cost": 45,
+            "effects": [
+                "Reduce ATK, DEF, MAG and SPR by 75% for 3 turns to all enemies",
+                "Increase ATK, DEF, MAG and SPR by 145% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [-75,  -75,  -75,  -75,  3,  1]], [2, 2, 3, [145,  145,  145,  145,  3,  1]]]},
+        "strings": []
+    },
+    "100017204": {
+        "name": "ガーダーハウル",
+        "cost": 0,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Reduce damage taken by 20% to all allies for 3 turns",
+                "Increase ATK by 80% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 101, [20,  3,  1]], [2, 2, 3, [80,  0,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Reduce damage taken by 27% to all allies for 3 turns",
+                "Increase ATK by 95% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 101, [27,  3,  1]], [2, 2, 3, [95,  0,  0,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100017205": {
+        "name": "ガーダーハウル",
+        "cost": 0,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[0,  0,  1]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Reduce damage taken by 25% to all allies for 3 turns",
+                "Increase ATK by 90% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 101, [25,  3,  1]], [2, 2, 3, [90,  0,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Reduce damage taken by 34% to all allies for 3 turns",
+                "Increase ATK by 110% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 101, [34,  3,  1]], [2, 2, 3, [110,  0,  0,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100017206": {
+        "name": "ガーダーハウル",
+        "cost": 0,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[0,  0,  1]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Reduce damage taken by 30% to all allies for 3 turns",
+                "Increase ATK by 100% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 101, [30,  3,  1]], [2, 2, 3, [100,  0,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Reduce damage taken by 42% to all allies for 3 turns",
+                "Increase ATK by 125% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 101, [42,  3,  1]], [2, 2, 3, [125,  0,  0,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100017304": {
+        "name": "フラッシュカラミティ",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[138,  158,  204]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Light"],
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Magic light damage (4x, MAG) to all enemies",
+                "Inflict Silence, Paralyze and Confusion (30%) on all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400]], [2, 1, 6, [0,  0,  0,  30,  30,  30,  0,  0,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Magic light damage (5.4x, MAG) to all enemies",
+                "Inflict Silence, Paralyze and Confusion (44%) on all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  540]], [2, 1, 6, [0,  0,  0,  44,  44,  44,  0,  0,  1]]]},
+        "strings": []
+    },
+    "100017305": {
+        "name": "フラッシュカラミティ",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[138,  158,  204]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Light"],
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Magic light damage (5x, MAG) to all enemies",
+                "Inflict Silence, Paralyze and Confusion (40%) on all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  500]], [2, 1, 6, [0,  0,  0,  40,  40,  40,  0,  0,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Magic light damage (6.9x, MAG) to all enemies",
+                "Inflict Silence, Paralyze and Confusion (59%) on all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  690]], [2, 1, 6, [0,  0,  0,  59,  59,  59,  0,  0,  1]]]},
+        "strings": []
+    },
+    "100017306": {
+        "name": "フラッシュカラミティ",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[138,  158,  204]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Light"],
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Magic light damage (6x, MAG) to all enemies",
+                "Inflict Silence, Paralyze and Confusion (50%) on all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  600]], [2, 1, 6, [0,  0,  0,  50,  50,  50,  0,  0,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Magic light damage (8.4x, MAG) to all enemies",
+                "Inflict Silence, Paralyze and Confusion (74%) on all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  840]], [2, 1, 6, [0,  0,  0,  74,  74,  74,  0,  0,  1]]]},
+        "strings": []
+    },
+    "100017403": {
+        "name": "絶品エルフ飯・風雷仕立て",
+        "cost": 0,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[198,  198,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": ["Increase resistance to Lightning and Wind by 40% for 3 turns to all allies"],
+            "effects_raw": [[2, 2, 33, [0,  0,  40,  0,  40,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": ["Increase resistance to Lightning and Wind by 49% for 3 turns to all allies"],
+            "effects_raw": [[2, 2, 33, [0,  0,  49,  0,  49,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "100017404": {
+        "name": "絶品エルフ飯・風雷仕立て",
+        "cost": 0,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[198,  198,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": ["Increase resistance to Lightning and Wind by 45% for 3 turns to all allies"],
+            "effects_raw": [[2, 2, 33, [0,  0,  45,  0,  45,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": ["Increase resistance to Lightning and Wind by 59% for 3 turns to all allies"],
+            "effects_raw": [[2, 2, 33, [0,  0,  59,  0,  59,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "100017405": {
+        "name": "絶品エルフ飯・風雷仕立て",
+        "cost": 0,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[198,  198,  0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Increase resistance to Lightning and Wind by 50% for 3 turns to all allies"],
+            "effects_raw": [[2, 2, 33, [0,  0,  50,  0,  50,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Increase resistance to Lightning and Wind by 69% for 3 turns to all allies"],
+            "effects_raw": [[2, 2, 33, [0,  0,  69,  0,  69,  0,  0,  0,  1,  3]]]},
         "strings": []
     },
     "201000104": {
@@ -26918,6 +27224,37 @@
                 "Gain 3 uses of the following skills for one turn:\n\tMartial Arts - Burst (224640)\n\tMartial Arts - Calm Mind (224690)\n\tMartial Arts - Flaming Spirit (224700)\n\tMartial Arts - Heaven Scar (224670)\n\tMartial Arts - Heaven Shift (224660)\n\tMartial Arts - Lightning Spirit (224710)\n\tMartial Arts - Opposing Fist (224720)\n\tMartial Arts - Overthrow (224650)\n\tMartial Arts - Tojin Combo (224680)\n\tMartial Arts - Twin Palms (224630)\n\t格闘術・壊盾突 (228062)\n\t格闘術・帰根復命 (228063)\n\t格闘術・燃心 (228061)\n\t格闘術・醒眼掌 (228060) [not usable with 2H weapon]"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1800,  0]], [2, 2, 63, [200,  3]], [0, 3, 98, [3, 506810, -1, [224630,  224640,  224650,  224660,  224670,  224680,  224690,  224700,  224710,  224720,  228060,  228061,  228062,  228063], 2, 1, 1, 0]]]},
+        "strings": []
+    },
+    "900000247": {
+        "name": "女王のパストラール",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_damage": [[100], [100]],
+        "attack_frames": [[220], [220]],
+        "effect_frames": [[23,  23,  122,  122,  0,  120,  22,  24], [220,  220,  160,  160]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 45,
+            "effects": [
+                "Reduce ATK, DEF, MAG and SPR by 45% for 3 turns to all enemies",
+                "Increase ATK, DEF, MAG and SPR by 115% for 3 turns to all allies",
+                "Restore 20% HP and MP to all allies",
+                "Gain access to following skills (1 use):\n\t虹翼のグリッサンド (228110)"
+            ],
+            "effects_raw": [[2, 1, 24, [-45,  -45,  -45,  -45,  3,  1]], [2, 2, 3, [115,  115,  115,  115,  3,  1]], [2, 2, 64, [20,  20]], [0, 3, 100, [2,  228110,  1,  9999,  1,  1]]]},
+        "max_level": {
+            "cost": 45,
+            "effects": [
+                "Reduce ATK, DEF, MAG and SPR by 75% for 3 turns to all enemies",
+                "Increase ATK, DEF, MAG and SPR by 145% for 3 turns to all allies",
+                "Restore 20% HP and MP to all allies",
+                "Gain access to following skills (1 use):\n\t虹翼のグリッサンド (228110)"
+            ],
+            "effects_raw": [[2, 1, 24, [-75,  -75,  -75,  -75,  3,  1]], [2, 2, 3, [145,  145,  145,  145,  3,  1]], [2, 2, 64, [20,  20]], [0, 3, 100, [2,  228110,  1,  9999,  1,  1]]]},
         "strings": []
     },
     "905000102": {
