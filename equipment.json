@@ -4087,6 +4087,37 @@
         "price_sell": 7500,
         "icon": "item_10345.png"
     },
+    "303005200": {
+        "name": "エクスカリバー(FFBE)",
+        "compendium_id": 1030,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1, 1.6],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 160,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Light"],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_10346.png"
+    },
     "304000100": {
         "name": "虎鉄",
         "compendium_id": 21,
@@ -8731,6 +8762,37 @@
         "price_buy": 20000,
         "price_sell": 2000,
         "icon": "item_11634.png"
+    },
+    "309003500": {
+        "name": "スカルディセクト",
+        "compendium_id": 1048,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 16,
+        "type": "Fist",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 172,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Dark"],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_11635.png"
     },
     "309020200": {
         "name": "ブロンズナックル",
@@ -18622,6 +18684,37 @@
         "price_sell": 12000,
         "icon": "item_30232.png"
     },
+    "404003400": {
+        "name": "グリフォンヘルム",
+        "compendium_id": 1049,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 41,
+        "type": "Helm",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [228300],
+        "effects": ["Grants '鷲獅子の瞳' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 20,
+            "DEF": 36,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 60000,
+        "price_sell": 6000,
+        "icon": "item_30234.png"
+    },
     "405000200": {
         "name": "皮の服",
         "compendium_id": 146,
@@ -20202,6 +20295,43 @@
         "price_sell": 20000,
         "icon": "item_20148.png"
     },
+    "405005300": {
+        "name": "バラのレオタード",
+        "compendium_id": 1051,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": [
+            "SEX",
+            2
+        ],
+        "skills": [228301],
+        "effects": ["Grants 'あふれる芳香' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 15,
+            "MAG": 0,
+            "SPR": 15,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Poison": 50,
+                "Sleep": 50
+            },
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_20149.png"
+    },
     "406000100": {
         "name": "レザープレート",
         "compendium_id": 159,
@@ -21293,6 +21423,42 @@
         "price_buy": 240000,
         "price_sell": 24000,
         "icon": "item_20233.png"
+    },
+    "406003700": {
+        "name": "魔法のヨロイ",
+        "compendium_id": 1052,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 51,
+        "type": "Light Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 30,
+            "MAG": 0,
+            "SPR": 20,
+            "element_resist": {
+                "Fire": 10,
+                "Water": 10,
+                "Wind": 10,
+                "Earth": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 12000,
+        "price_sell": 1200,
+        "icon": "item_20234.png"
     },
     "407000200": {
         "name": "ブロンズアーマー",
@@ -30202,5 +30368,105 @@
         "price_buy": 20000,
         "price_sell": 2000,
         "icon": "item_50339.png"
+    },
+    "409023100": {
+        "name": "風の太鼓",
+        "compendium_id": 1047,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100021],
+        "effects": ["Grants 'HP+20%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 50,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_50335.png"
+    },
+    "409023200": {
+        "name": "精霊のマント",
+        "compendium_id": 1050,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 25,
+            "MAG": 0,
+            "SPR": 25,
+            "element_resist": {
+                "Fire": 20,
+                "Water": 20,
+                "Wind": 20,
+                "Earth": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_50336.png"
+    },
+    "409023300": {
+        "name": "スノーマンリング",
+        "compendium_id": 1053,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 8,
+            "MAG": 0,
+            "SPR": 14,
+            "element_resist": {
+                "Ice": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "item_50337.png"
     }
 }
