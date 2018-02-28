@@ -2752,6 +2752,68 @@
         "price_sell": 1000,
         "icon": "item_10261.png"
     },
+    "302006500": {
+        "name": "エクスカリバー(FF零式)",
+        "compendium_id": 1054,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 2,
+        "type": "Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [101370],
+        "effects": ["Grants 'にとうりゅう' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 163,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_10262.png"
+    },
+    "302006600": {
+        "name": "氷剣ヒムロ",
+        "compendium_id": 1056,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 2,
+        "type": "Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 130,
+            "DEF": 0,
+            "MAG": 162,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Ice"],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_10263.png"
+    },
     "303000100": {
         "name": "グレートソード",
         "compendium_id": 16,
@@ -4993,6 +5055,37 @@
         "price_buy": 280000,
         "price_sell": 28000,
         "icon": "item_10435.png"
+    },
+    "304003300": {
+        "name": "ブシドーブレイド",
+        "compendium_id": 1057,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 4,
+        "type": "Katana",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [101040],
+        "effects": ["Grants 'マンイーター' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 75,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 28000,
+        "price_sell": 2800,
+        "icon": "item_10437.png"
     },
     "304020100": {
         "name": "阿修羅",
@@ -14245,6 +14338,37 @@
         "price_sell": 24000,
         "icon": "item_11434.png"
     },
+    "316004300": {
+        "name": "真・魔装銃改",
+        "compendium_id": 1058,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 14,
+        "type": "Gun",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100040],
+        "effects": ["Grants 'MP+10%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 60,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Ice"],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 12000,
+        "price_sell": 1200,
+        "icon": "item_11435.png"
+    },
     "316040300": {
         "name": "アポロンのハープ",
         "compendium_id": 550,
@@ -14911,6 +15035,39 @@
         "price_buy": 240000,
         "price_sell": 24000,
         "icon": "item_40122.png"
+    },
+    "401002500": {
+        "name": "トパーズシールド",
+        "compendium_id": 1060,
+        "compendium_shown": true,
+        "rarity": 4,
+        "type_id": 30,
+        "type": "Light Shield",
+        "slot_id": 2,
+        "slot": "Shield",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 24,
+            "MAG": 0,
+            "SPR": 12,
+            "element_resist": {
+                "Lightning": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 3600,
+        "price_sell": 360,
+        "icon": "item_40123.png"
     },
     "402000200": {
         "name": "ラージシールド",
@@ -22471,6 +22628,55 @@
         "price_sell": 3000,
         "icon": "item_20329.png"
     },
+    "407003700": {
+        "name": "王の鎧",
+        "compendium_id": 1061,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 52,
+        "type": "Heavy Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 54,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Fire": 20,
+                "Ice": 20,
+                "Lightning": 20,
+                "Water": 20,
+                "Wind": 20,
+                "Earth": 20,
+                "Light": 20,
+                "Dark": 20
+            },
+            "element_inflict": null,
+            "status_resist": {
+                "Poison": 50,
+                "Blind": 50,
+                "Sleep": 50,
+                "Silence": 50,
+                "Paralyze": 50,
+                "Confusion": 50,
+                "Disease": 50,
+                "Petrify": 50
+            },
+            "status_inflict": null
+        },
+        "price_buy": 75000,
+        "price_sell": 7500,
+        "icon": "item_20334.png"
+    },
     "408000100": {
         "name": "木綿のローブ",
         "compendium_id": 175,
@@ -23830,6 +24036,37 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_20442.png"
+    },
+    "408004300": {
+        "name": "ローブオブロード(FFBE)",
+        "compendium_id": 1031,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 53,
+        "type": "Robe",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100740],
+        "effects": ["Grants 'オートリフレシュ' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 45,
+            "MAG": 65,
+            "SPR": 65,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_20443.png"
     },
     "409000100": {
         "name": "鉄の篭手",
@@ -30338,6 +30575,40 @@
         "price_sell": 10000,
         "icon": "item_50338.png"
     },
+    "409021900": {
+        "name": "究防のペンダント",
+        "compendium_id": 1033,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [206870, 228170],
+        "effects": [
+            "Grants '防御+50%' passive.",
+            "Grants '究防のペンダント' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 20,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_50344.png"
+    },
     "409023000": {
         "name": "カレイドムーン",
         "compendium_id": 1045,
@@ -30468,5 +30739,107 @@
         "price_buy": 10000,
         "price_sell": 1000,
         "icon": "item_50337.png"
+    },
+    "409023400": {
+        "name": "氷剣の柄",
+        "compendium_id": 1055,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 50,
+            "ATK": 40,
+            "DEF": 0,
+            "MAG": 40,
+            "SPR": 0,
+            "element_resist": {
+                "Ice": 50
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_50359.png"
+    },
+    "409023500": {
+        "name": "シルバーブレス",
+        "compendium_id": 1059,
+        "compendium_shown": true,
+        "rarity": 4,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100010, 100040],
+        "effects": [
+            "Grants 'HP+10%' passive.",
+            "Grants 'MP+10%' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 3000,
+        "price_sell": 300,
+        "icon": "item_50340.png"
+    },
+    "409023600": {
+        "name": "呪いの人形",
+        "compendium_id": 1062,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 50,
+            "SPR": 0,
+            "element_resist": {
+                "Ice": 30
+            },
+            "element_inflict": null,
+            "status_resist": {
+                "Confusion": -50
+            },
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_50358.png"
     }
 }

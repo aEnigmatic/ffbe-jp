@@ -22359,6 +22359,69 @@
             "effects_raw": [[1, 1, 81, [0,  0,  0,  0,  0,  0,  365,  20,  0,  0]]]},
         "strings": []
     },
+    "254001103": {
+        "name": "フルチャージショット",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[267]],
+        "effect_frames": [[0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": ["Physical damage (4x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": ["Physical damage (4.9x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  490,  0]]]},
+        "strings": []
+    },
+    "254001104": {
+        "name": "フルチャージショット",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[267]],
+        "effect_frames": [[0,  265]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": ["Physical damage (5x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  500,  0]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": ["Physical damage (6.4x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  640,  0]]]},
+        "strings": []
+    },
+    "254001105": {
+        "name": "フルチャージショット",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[267]],
+        "effect_frames": [[0,  30]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Physical damage (6x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  600,  0]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Physical damage (7.9x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  790,  0]]]},
+        "strings": []
+    },
     "254001204": {
         "name": "エンドレスワルツ",
         "cost": 0,
@@ -22501,6 +22564,267 @@
                 "Inflict Blind (59%) on all enemies"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  345]], [2, 1, 6, [0,  59,  0,  0,  0,  0,  0,  0,  1]]]},
+        "strings": []
+    },
+    "254001805": {
+        "name": "スピンドライブ",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  45]],
+        "attack_frames": [[132,  138,  144,  150,  156,  162,  168,  174,  180,  186,  192,  198]],
+        "effect_frames": [[0,  1,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 26,
+            "effects": [
+                "Physical damage (10x, ATK) to one enemy (ignore cover)",
+                "Reduce ATK and MAG by 40% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  500,  -50]], [1, 1, 24, [-40,  0,  -40,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 26,
+            "effects": [
+                "Physical damage (11.9x, ATK) to one enemy (ignore cover)",
+                "Reduce ATK and MAG by 59% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  595,  -50]], [1, 1, 24, [-59,  0,  -59,  0,  3,  1]]]},
+        "strings": []
+    },
+    "254001806": {
+        "name": "スピンドライブ",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  45]],
+        "attack_frames": [[132,  138,  144,  150,  156,  162,  168,  174,  180,  186,  192,  198]],
+        "effect_frames": [[0,  1,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (11.6x, ATK) to one enemy (ignore cover)",
+                "Reduce ATK and MAG by 50% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  580,  -50]], [1, 1, 24, [-50,  0,  -50,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (14x, ATK) to one enemy (ignore cover)",
+                "Reduce ATK and MAG by 74% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  700,  -50]], [1, 1, 24, [-74,  0,  -74,  0,  3,  1]]]},
+        "strings": []
+    },
+    "254001807": {
+        "name": "スピンドライブ",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  45]],
+        "attack_frames": [[132,  138,  144,  150,  156,  162,  168,  174,  180,  186,  192,  198]],
+        "effect_frames": [[0,  1,  0,  0,  18]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 24,
+            "effects": [
+                "Physical damage (11.6x, ATK) to one enemy (ignore cover)",
+                "Reduce ATK and MAG by 50% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  580,  -50]], [1, 1, 24, [-50,  0,  -50,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": [
+                "Physical damage (14x, ATK) to one enemy (ignore cover)",
+                "Reduce ATK and MAG by 79% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  700,  -50]], [1, 1, 24, [-79,  0,  -79,  0,  3,  1]]]},
+        "strings": []
+    },
+    "254001905": {
+        "name": "絶対零度",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_damage": [[100], [100]],
+        "attack_frames": [[176], [176]],
+        "effect_frames": [[2,  1,  1,  0], [180,  180]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": ["Ice"],
+        "levels": 20,
+        "min_level": {
+            "cost": 24,
+            "effects": [
+                "Reduce resistance to Ice by 70% for 2 turns to all enemies",
+                "Hybrid ice damage (12.5x, ATK & MAG) to all enemies",
+                "Increase ATK and MAG by 150% for 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 33, [0,  -70,  0,  0,  0,  0,  0,  0,  1,  2]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  1250,  1250]], [0, 3, 3, [150,  0,  150,  0,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": [
+                "Reduce resistance to Ice by 89% for 2 turns to all enemies",
+                "Hybrid ice damage (22x, ATK & MAG) to all enemies",
+                "Increase ATK and MAG by 150% for 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 33, [0,  -89,  0,  0,  0,  0,  0,  0,  1,  2]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2200,  2200]], [0, 3, 3, [150,  0,  150,  0,  3,  1,  0]]]},
+        "strings": []
+    },
+    "254001906": {
+        "name": "絶対零度",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_damage": [[100], [100]],
+        "attack_frames": [[176], [176]],
+        "effect_frames": [[2,  1,  1,  0], [180,  180]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": ["Ice"],
+        "levels": 25,
+        "min_level": {
+            "cost": 27,
+            "effects": [
+                "Reduce resistance to Ice by 75% for 2 turns to all enemies",
+                "Hybrid ice damage (14x, ATK & MAG) to all enemies",
+                "Increase ATK and MAG by 200% for 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 33, [0,  -75,  0,  0,  0,  0,  0,  0,  1,  2]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  1400,  1400]], [0, 3, 3, [200,  0,  200,  0,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 27,
+            "effects": [
+                "Reduce resistance to Ice by 100% for 2 turns to all enemies",
+                "Hybrid ice damage (26x, ATK & MAG) to all enemies",
+                "Increase ATK and MAG by 200% for 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 33, [0,  -100,  0,  0,  0,  0,  0,  0,  1,  2]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2600,  2600]], [0, 3, 3, [200,  0,  200,  0,  3,  1,  0]]]},
+        "strings": []
+    },
+    "254001907": {
+        "name": "絶対零度",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_damage": [[100], [100]],
+        "attack_frames": [[176], [176]],
+        "effect_frames": [[2,  1,  1,  0,  2], [180,  180]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": ["Ice"],
+        "levels": 30,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Reduce resistance to Ice by 75% for 2 turns to all enemies",
+                "Hybrid ice damage (15.5x, ATK & MAG) to all enemies",
+                "Increase ATK and MAG by 250% for 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 33, [0,  -75,  0,  0,  0,  0,  0,  0,  1,  2]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  1550,  1550]], [0, 3, 3, [250,  0,  250,  0,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Reduce resistance to Ice by 100% for 2 turns to all enemies",
+                "Hybrid ice damage (30x, ATK & MAG) to all enemies",
+                "Increase ATK and MAG by 250% for 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 33, [0,  -100,  0,  0,  0,  0,  0,  0,  1,  2]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3000,  3000]], [0, 3, 3, [250,  0,  250,  0,  3,  1,  0]]]},
+        "strings": []
+    },
+    "254002004": {
+        "name": "コンチェルト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[231]],
+        "effect_frames": [[0,  0,  151,  151,  231,  231]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "30% chance to counter physical attacks to the rest of the party with physical damage (2x, ATK) for 3 turns (max 2 / turn)",
+                "Increase ATK and MAG by 80% for 3 turns to all allies while singing",
+                "Restore 850 (+6x, Heal) HP split over 3 turns to all allies while singing",
+                "Restore 10 (+0.3x, Heal) MP split over 3 turns to all allies while singing"
+            ],
+            "effects_raw": [[2, 2, 123, [30,  1,  200,  3,  1,  2]], [2, 2, 58, [80,  0,  80,  0,  3,  1]], [2, 2, 56, [600,  1,  850,  3]], [2, 2, 57, [30,  1,  10,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "30% chance to counter physical attacks to the rest of the party with physical damage (2x, ATK) for 3 turns (max 2 / turn)",
+                "Increase ATK and MAG by 94% for 3 turns to all allies while singing",
+                "Restore 850 (+6x, Heal) HP split over 3 turns to all allies while singing",
+                "Restore 10 (+0.3x, Heal) MP split over 3 turns to all allies while singing"
+            ],
+            "effects_raw": [[2, 2, 123, [30,  1,  200,  3,  1,  2]], [2, 2, 58, [94,  0,  94,  0,  3,  1]], [2, 2, 56, [600,  1,  850,  3]], [2, 2, 57, [30,  1,  10,  3]]]},
+        "strings": []
+    },
+    "254002005": {
+        "name": "コンチェルト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[231]],
+        "effect_frames": [[0,  0,  151,  151,  231,  231,  0,  200]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "30% chance to counter physical attacks to the rest of the party with physical damage (2x, ATK) for 3 turns (max 2 / turn)",
+                "Increase ATK and MAG by 90% for 3 turns to all allies while singing",
+                "Restore 850 (+6x, Heal) HP split over 3 turns to all allies while singing",
+                "Restore 10 (+0.3x, Heal) MP split over 3 turns to all allies while singing"
+            ],
+            "effects_raw": [[2, 2, 123, [30,  1,  200,  3,  1,  2]], [2, 2, 58, [90,  0,  90,  0,  3,  1]], [2, 2, 56, [600,  1,  850,  3]], [2, 2, 57, [30,  1,  10,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "30% chance to counter physical attacks to the rest of the party with physical damage (2x, ATK) for 3 turns (max 2 / turn)",
+                "Increase ATK and MAG by 109% for 3 turns to all allies while singing",
+                "Restore 850 (+6x, Heal) HP split over 3 turns to all allies while singing",
+                "Restore 10 (+0.3x, Heal) MP split over 3 turns to all allies while singing"
+            ],
+            "effects_raw": [[2, 2, 123, [30,  1,  200,  3,  1,  2]], [2, 2, 58, [109,  0,  109,  0,  3,  1]], [2, 2, 56, [600,  1,  850,  3]], [2, 2, 57, [30,  1,  10,  3]]]},
+        "strings": []
+    },
+    "254002006": {
+        "name": "コンチェルト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[231]],
+        "effect_frames": [[0,  0,  151,  151,  231,  231,  0,  200]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "30% chance to counter physical attacks to the rest of the party with physical damage (2x, ATK) for 3 turns (max 2 / turn)",
+                "Increase ATK and MAG by 100% for 3 turns to all allies while singing",
+                "Restore 850 (+6x, Heal) HP split over 3 turns to all allies while singing",
+                "Restore 10 (+0.3x, Heal) MP split over 3 turns to all allies while singing"
+            ],
+            "effects_raw": [[2, 2, 123, [30,  1,  200,  3,  1,  2]], [2, 2, 58, [100,  0,  100,  0,  3,  1]], [2, 2, 56, [600,  1,  850,  3]], [2, 2, 57, [30,  1,  10,  3]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "30% chance to counter physical attacks to the rest of the party with physical damage (2x, ATK) for 3 turns (max 2 / turn)",
+                "Increase ATK and MAG by 124% for 3 turns to all allies while singing",
+                "Restore 850 (+6x, Heal) HP split over 3 turns to all allies while singing",
+                "Restore 10 (+0.3x, Heal) MP split over 3 turns to all allies while singing"
+            ],
+            "effects_raw": [[2, 2, 123, [30,  1,  200,  3,  1,  2]], [2, 2, 58, [124,  0,  124,  0,  3,  1]], [2, 2, 56, [600,  1,  850,  3]], [2, 2, 57, [30,  1,  10,  3]]]},
         "strings": []
     },
     "255000104": {
@@ -27627,6 +27951,39 @@
                 "Reduce ATK, DEF, MAG and SPR by 79% for 2 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 21, [0,  0,  600,  -50]], [1, 1, 6, [60,  60,  0,  0,  0,  60,  0,  0,  1]], [1, 1, 24, [-79,  -79,  -79,  -79,  2,  1]]]},
+        "strings": []
+    },
+    "900000297": {
+        "name": "絶対零度",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_damage": [[100], [100]],
+        "attack_frames": [[176], [176]],
+        "effect_frames": [[2,  1,  1,  0,  2], [180,  180]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": ["Ice"],
+        "levels": 30,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Reduce resistance to Ice by 75% for 2 turns to all enemies",
+                "Hybrid ice damage (15.5x, ATK & MAG) to all enemies",
+                "Increase ATK and MAG by 250% for 3 turns to caster",
+                "Gain 3 uses of the following skills for one turn:\n\t絶剣・天泣 (228331)\n\t絶剣・暮雨 (508520)\n\t絶剣・氷雨 (228332)\n\t絶剣・驟雨 (228333)",
+                "Gain access to following skills for one turn:\n\t絶剣・暮雨 (508520)"
+            ],
+            "effects_raw": [[2, 1, 33, [0,  -75,  0,  0,  0,  0,  0,  0,  1,  2]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  1550,  1550]], [0, 3, 3, [250,  0,  250,  0,  3,  1,  0]], [0, 3, 98, [3, 508522, -1, [228331,  228332,  228333,  508520], 2, 1, 1, 0]], [0, 3, 100, [2,  508520,  9999,  2,  1,  1]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Reduce resistance to Ice by 100% for 2 turns to all enemies",
+                "Hybrid ice damage (30x, ATK & MAG) to all enemies",
+                "Increase ATK and MAG by 250% for 3 turns to caster",
+                "Gain 3 uses of the following skills for one turn:\n\t絶剣・天泣 (228331)\n\t絶剣・暮雨 (508520)\n\t絶剣・氷雨 (228332)\n\t絶剣・驟雨 (228333)",
+                "Gain access to following skills for one turn:\n\t絶剣・暮雨 (508520)"
+            ],
+            "effects_raw": [[2, 1, 33, [0,  -100,  0,  0,  0,  0,  0,  0,  1,  2]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3000,  3000]], [0, 3, 3, [250,  0,  250,  0,  3,  1,  0]], [0, 3, 98, [3, 508522, -1, [228331,  228332,  228333,  508520], 2, 1, 1, 0]], [0, 3, 100, [2,  508520,  9999,  2,  1,  1]]]},
         "strings": []
     },
     "905000102": {
