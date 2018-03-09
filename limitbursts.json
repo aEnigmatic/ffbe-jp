@@ -7149,11 +7149,11 @@
         "levels": 10,
         "min_level": {
             "cost": 12,
-            "effects": ["Critical physical damage (2x, ATK) to all enemies"],
+            "effects": ["Physical damage (3x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 43, [0,  0,  200,  0]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Critical physical damage (2.45x, ATK) to all enemies"],
+            "effects": ["Physical damage (3.68x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 43, [0,  0,  245,  0]]]},
         "strings": []
     },
@@ -7170,11 +7170,11 @@
         "levels": 15,
         "min_level": {
             "cost": 14,
-            "effects": ["Critical physical damage (2.5x, ATK) to all enemies"],
+            "effects": ["Physical damage (3.75x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 43, [0,  0,  250,  0]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Critical physical damage (3.2x, ATK) to all enemies"],
+            "effects": ["Physical damage (4.8x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 43, [0,  0,  320,  0]]]},
         "strings": []
     },
@@ -7191,11 +7191,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Critical physical damage (3x, ATK) to all enemies"],
+            "effects": ["Physical damage (4.5x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 43, [0,  0,  300,  0]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Critical physical damage (3.95x, ATK) to all enemies"],
+            "effects": ["Physical damage (5.93x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 43, [0,  0,  395,  0]]]},
         "strings": []
     },
@@ -7212,11 +7212,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Critical physical damage (3.75x, ATK) to all enemies"],
+            "effects": ["Physical damage (5.63x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 43, [0,  0,  375,  0]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Critical physical damage (4.95x, ATK) to all enemies"],
+            "effects": ["Physical damage (7.43x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 43, [0,  0,  495,  0]]]},
         "strings": []
     },
@@ -12090,6 +12090,312 @@
             "cost": 16,
             "effects": ["Increase resistance to Lightning and Wind by 69% for 3 turns to all allies"],
             "effects_raw": [[2, 2, 33, [0,  0,  69,  0,  69,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "100017905": {
+        "name": "ビューティアスサンクチュアリ",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[30,  30,  40]],
+        "attack_frames": [[4,  19,  34]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (6x, DEF) to all enemies",
+                "Reduce damage taken by 25% to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 102, [100,  99999,  600]], [2, 2, 101, [25,  3,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (7.9x, DEF) to all enemies",
+                "Reduce damage taken by 34% to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 102, [100,  99999,  790]], [2, 2, 101, [34,  3,  1]]]},
+        "strings": []
+    },
+    "100017906": {
+        "name": "ビューティアスサンクチュアリ",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[30,  30,  40]],
+        "attack_frames": [[4,  19,  34]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 24,
+            "effects": [
+                "Physical damage (8x, DEF) to all enemies",
+                "Reduce damage taken by 30% to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 102, [100,  99999,  800]], [2, 2, 101, [30,  3,  1]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": [
+                "Physical damage (10.4x, DEF) to all enemies",
+                "Reduce damage taken by 42% to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 102, [100,  99999,  1040]], [2, 2, 101, [42,  3,  1]]]},
+        "strings": []
+    },
+    "100017907": {
+        "name": "ビューティアスサンクチュアリ",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[30,  30,  40]],
+        "attack_frames": [[4,  19,  34]],
+        "effect_frames": [[0,  0,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (14x, DEF) to all enemies",
+                "Reduce damage taken by 30% to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 102, [100,  99999,  1400]], [2, 2, 101, [30,  3,  1]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (16.9x, DEF) to all enemies",
+                "Reduce damage taken by 45% to all allies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 102, [100,  99999,  1690]], [2, 2, 101, [45,  3,  1]]]},
+        "strings": []
+    },
+    "100018004": {
+        "name": "バレット・オブ・ミストレス",
+        "cost": 0,
+        "attack_count": [9],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  60]],
+        "attack_frames": [[66,  76,  86,  96,  106,  116,  126,  136,  201]],
+        "effect_frames": [[0,  0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (3x, ATK) to all enemies",
+                "Reduce DEF by 40% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300,  0]], [2, 1, 24, [0,  -40,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (4.4x, ATK) to all enemies",
+                "Reduce DEF by 54% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  440,  0]], [2, 1, 24, [0,  -54,  0,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100018005": {
+        "name": "バレット・オブ・ミストレス",
+        "cost": 0,
+        "attack_count": [9],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  60]],
+        "attack_frames": [[66,  76,  86,  96,  106,  116,  126,  136,  201]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (4x, ATK) to all enemies",
+                "Reduce DEF by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [2, 1, 24, [0,  -50,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (5.9x, ATK) to all enemies",
+                "Reduce DEF by 69% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  590,  0]], [2, 1, 24, [0,  -69,  0,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100018006": {
+        "name": "バレット・オブ・ミストレス",
+        "cost": 0,
+        "attack_count": [9],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  60]],
+        "attack_frames": [[66,  76,  86,  96,  106,  116,  126,  136,  201]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (5x, ATK) to all enemies",
+                "Reduce DEF by 60% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500,  0]], [2, 1, 24, [0,  -60,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (7.4x, ATK) to all enemies",
+                "Reduce DEF by 84% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  740,  0]], [2, 1, 24, [0,  -84,  0,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100018104": {
+        "name": "ノブレス・アンサンブル",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_damage": [[100], [100]],
+        "attack_frames": [[180], [180]],
+        "effect_frames": [[0,  140,  140,  0,  1,  80]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Increase the limit burst gauge fill rate by 100% for 3 turns to the rest of the party",
+                "Increase LB gauge by 1-3"
+            ],
+            "effects_raw": [[2, 5, 63, [100,  3]], [2, 5, 125, [100,  300]]]},
+        "max_level": {
+            "cost": 11,
+            "effects": [
+                "Increase the limit burst gauge fill rate by 100% for 3 turns to the rest of the party",
+                "Increase LB gauge by 1-3"
+            ],
+            "effects_raw": [[2, 5, 63, [100,  3]], [2, 5, 125, [100,  300]]]},
+        "strings": []
+    },
+    "100018105": {
+        "name": "ノブレス・アンサンブル",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_damage": [[100], [100]],
+        "attack_frames": [[180], [180]],
+        "effect_frames": [[0,  140,  140,  0,  1,  80]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Increase the limit burst gauge fill rate by 150% for 3 turns to the rest of the party",
+                "Increase LB gauge by 2-4"
+            ],
+            "effects_raw": [[2, 5, 63, [150,  3]], [2, 5, 125, [200,  400]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Increase the limit burst gauge fill rate by 150% for 3 turns to the rest of the party",
+                "Increase LB gauge by 2-4"
+            ],
+            "effects_raw": [[2, 5, 63, [150,  3]], [2, 5, 125, [200,  400]]]},
+        "strings": []
+    },
+    "100018106": {
+        "name": "ノブレス・アンサンブル",
+        "cost": 0,
+        "attack_count": [1, 1],
+        "attack_damage": [[100], [100]],
+        "attack_frames": [[180], [180]],
+        "effect_frames": [[0,  140,  140,  0,  1,  80]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Increase the limit burst gauge fill rate by 200% for 3 turns to the rest of the party",
+                "Increase LB gauge by 3-5"
+            ],
+            "effects_raw": [[2, 5, 63, [200,  3]], [2, 5, 125, [300,  500]]]},
+        "max_level": {
+            "cost": 15,
+            "effects": [
+                "Increase the limit burst gauge fill rate by 200% for 3 turns to the rest of the party",
+                "Increase LB gauge by 3-5"
+            ],
+            "effects_raw": [[2, 5, 63, [200,  3]], [2, 5, 125, [300,  500]]]},
+        "strings": []
+    },
+    "100018203": {
+        "name": "パーフェクト・サーブ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[256]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": ["Physical damage (4x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  200,  -50]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": ["Physical damage (5.8x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  290,  -50]]]},
+        "strings": []
+    },
+    "100018204": {
+        "name": "パーフェクト・サーブ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[256]],
+        "effect_frames": [[0,  0,  254]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": ["Physical damage (5x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  250,  -50]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": ["Physical damage (7.8x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  390,  -50]]]},
+        "strings": []
+    },
+    "100018205": {
+        "name": "パーフェクト・サーブ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[256]],
+        "effect_frames": [[0,  0,  254,  24]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Physical damage (6x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  300,  -50]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Physical damage (9.8x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  490,  -50]]]},
         "strings": []
     },
     "201000104": {
@@ -21895,11 +22201,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Critical physical damage (2.5x, ATK) to one enemy"],
+            "effects": ["Physical damage (3.75x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 43, [0,  0,  250,  0]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Critical physical damage (3.2x, ATK) to one enemy"],
+            "effects": ["Physical damage (4.8x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 43, [0,  0,  320,  0]]]},
         "strings": []
     },
@@ -21916,11 +22222,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Critical physical damage (2.7x, ATK) to one enemy"],
+            "effects": ["Physical damage (4.05x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 43, [0,  0,  270,  0]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Critical physical damage (3.65x, ATK) to one enemy"],
+            "effects": ["Physical damage (5.48x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 43, [0,  0,  365,  0]]]},
         "strings": []
     },
@@ -21937,11 +22243,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Critical physical damage (2.9x, ATK) to one enemy"],
+            "effects": ["Physical damage (4.35x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 43, [0,  0,  290,  0]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Critical physical damage (4.1x, ATK) to one enemy"],
+            "effects": ["Physical damage (6.15x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 43, [0,  0,  410,  0]]]},
         "strings": []
     },
@@ -24343,11 +24649,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Critical physical damage (6.1x, ATK) to one enemy"],
+            "effects": ["Physical damage (9.15x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 43, [0,  0,  610,  0]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Critical physical damage (8x, ATK) to one enemy"],
+            "effects": ["Physical damage (12x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 43, [0,  0,  800,  0]]]},
         "strings": []
     },
@@ -24364,11 +24670,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Critical physical damage (6.6x, ATK) to one enemy"],
+            "effects": ["Physical damage (9.9x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 43, [0,  0,  660,  0]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Critical physical damage (9x, ATK) to one enemy"],
+            "effects": ["Physical damage (13.5x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 43, [0,  0,  900,  0]]]},
         "strings": []
     },
@@ -24385,11 +24691,11 @@
         "levels": 30,
         "min_level": {
             "cost": 27,
-            "effects": ["Critical physical damage (11.1x, ATK) to one enemy"],
+            "effects": ["Physical damage (16.65x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 43, [0,  0,  1110,  0]]]},
         "max_level": {
             "cost": 27,
-            "effects": ["Critical physical damage (14x, ATK) to one enemy"],
+            "effects": ["Physical damage (21x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 43, [0,  0,  1400,  0]]]},
         "strings": []
     },
