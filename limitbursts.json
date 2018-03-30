@@ -13715,6 +13715,87 @@
         "max_level": [],
         "strings": []
     },
+    "203000604": {
+        "name": "ドーガの炎",
+        "cost": 0,
+        "attack_count": [7],
+        "attack_damage": [[14,  14,  14,  14,  14,  14,  16]],
+        "attack_frames": [[37,  52,  67,  82,  97,  112,  127]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Fire"],
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Magic fire damage (4x, MAG) to all enemies",
+                "Increase resistance to Fire by 65% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [2, 2, 33, [65,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Magic fire damage (5.4x, MAG) to all enemies",
+                "Increase resistance to Fire by 79% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  540,  0]], [2, 2, 33, [79,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "203000605": {
+        "name": "ドーガの炎",
+        "cost": 0,
+        "attack_count": [7],
+        "attack_damage": [[14,  14,  14,  14,  14,  14,  16]],
+        "attack_frames": [[37,  52,  67,  82,  97,  112,  127]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Fire"],
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Magic fire damage (4.5x, MAG) to all enemies",
+                "Increase resistance to Fire by 70% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  450,  0]], [2, 2, 33, [70,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Magic fire damage (6.4x, MAG) to all enemies",
+                "Increase resistance to Fire by 89% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  640,  0]], [2, 2, 33, [89,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "203000606": {
+        "name": "ドーガの炎",
+        "cost": 0,
+        "attack_count": [7],
+        "attack_damage": [[14,  14,  14,  14,  14,  14,  16]],
+        "attack_frames": [[37,  52,  67,  82,  97,  112,  127]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Fire"],
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Magic fire damage (5x, MAG) to all enemies",
+                "Increase resistance to Fire by 75% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  500,  0]], [2, 2, 33, [75,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Magic fire damage (7.4x, MAG) to all enemies",
+                "Increase resistance to Fire by 100% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  740,  0]], [2, 2, 33, [100,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
     "203000704": {
         "name": "古代の雷",
         "cost": 0,
@@ -14046,6 +14127,255 @@
                 "Increase resistance to Wind by 89% for 5 turns to all allies"
             ],
             "effects_raw": [[2, 2, 3, [0,  0,  69,  0,  3,  1]], [2, 2, 33, [0,  0,  0,  0,  89,  0,  0,  0,  1,  5]]]},
+        "strings": []
+    },
+    "203001305": {
+        "name": "トゥインクルソード",
+        "cost": 0,
+        "attack_count": [10],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  55]],
+        "attack_frames": [[61,  67,  73,  79,  101,  107,  113,  119,  125,  180]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (6x, ATK) to one enemy",
+                "Reduce resistance to Fire, Water, Wind and Earth by 50% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  600,  0]], [1, 1, 33, [-50,  0,  0,  -50,  -50,  -50,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (8x, ATK) to one enemy",
+                "Reduce resistance to Fire, Water, Wind and Earth by 70% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  800,  0]], [1, 1, 33, [-70,  0,  0,  -70,  -70,  -70,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "203001306": {
+        "name": "トゥインクルソード",
+        "cost": 0,
+        "attack_count": [10],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  55]],
+        "attack_frames": [[61,  67,  73,  79,  101,  107,  113,  119,  125,  180]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (8x, ATK) to one enemy",
+                "Reduce resistance to Fire, Water, Wind and Earth by 50% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  800,  0]], [1, 1, 33, [-50,  0,  0,  -50,  -50,  -50,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (11x, ATK) to one enemy",
+                "Reduce resistance to Fire, Water, Wind and Earth by 74% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1100,  0]], [1, 1, 33, [-74,  0,  0,  -74,  -74,  -74,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "203001307": {
+        "name": "トゥインクルソード",
+        "cost": 0,
+        "attack_count": [10],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  55]],
+        "attack_frames": [[61,  67,  73,  79,  101,  107,  113,  119,  125,  180]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 24,
+            "effects": [
+                "Physical damage (12x, ATK) to one enemy",
+                "Reduce resistance to Fire, Water, Wind and Earth by 50% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1200,  0]], [1, 1, 33, [-50,  0,  0,  -50,  -50,  -50,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": [
+                "Physical damage (16x, ATK) to one enemy",
+                "Reduce resistance to Fire, Water, Wind and Earth by 80% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1600,  0]], [1, 1, 33, [-80,  0,  0,  -80,  -80,  -80,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "203001405": {
+        "name": "魔滅刃",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[90]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 24,
+            "effects": [
+                "No effect",
+                "Increase physical damage against Aquatics and Demons by 50% to caster for one turn",
+                "Physical damage (14x, ATK) to one enemy (ignore cover)"
+            ],
+            "effects_raw": [[1, 1, 24, [0,  0,  0,  0,  0,  0]], [0, 3, 92, [[3,  50], [4,  50], -1, -1, -1, -1, -1, -1, 1, 1]], [1, 1, 21, [0,  0,  700,  -50]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": [
+                "No effect",
+                "Increase physical damage against Aquatics and Demons by 50% to caster for one turn",
+                "Physical damage (16x, ATK) to one enemy (ignore cover)"
+            ],
+            "effects_raw": [[1, 1, 24, [0,  0,  0,  0,  0,  0]], [0, 3, 92, [[3,  50], [4,  50], -1, -1, -1, -1, -1, -1, 1, 1]], [1, 1, 21, [0,  0,  800,  -50]]]},
+        "strings": []
+    },
+    "203001406": {
+        "name": "魔滅刃",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[90]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 27,
+            "effects": [
+                "No effect",
+                "Increase physical damage against Aquatics and Demons by 75% to caster for one turn",
+                "Physical damage (16.6x, ATK) to one enemy (ignore cover)"
+            ],
+            "effects_raw": [[1, 1, 24, [0,  0,  0,  0,  0,  0]], [0, 3, 92, [[3,  75], [4,  75], -1, -1, -1, -1, -1, -1, 1, 1]], [1, 1, 21, [0,  0,  830,  -50]]]},
+        "max_level": {
+            "cost": 27,
+            "effects": [
+                "No effect",
+                "Increase physical damage against Aquatics and Demons by 75% to caster for one turn",
+                "Physical damage (19x, ATK) to one enemy (ignore cover)"
+            ],
+            "effects_raw": [[1, 1, 24, [0,  0,  0,  0,  0,  0]], [0, 3, 92, [[3,  75], [4,  75], -1, -1, -1, -1, -1, -1, 1, 1]], [1, 1, 21, [0,  0,  950,  -50]]]},
+        "strings": []
+    },
+    "203001407": {
+        "name": "魔滅刃",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[90]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "No effect",
+                "Increase physical damage against Aquatics and Demons by 100% to caster for one turn",
+                "Physical damage (19x, ATK) to one enemy (ignore cover)"
+            ],
+            "effects_raw": [[1, 1, 24, [0,  0,  0,  0,  0,  0]], [0, 3, 92, [[3,  100], [4,  100], -1, -1, -1, -1, -1, -1, 1, 1]], [1, 1, 21, [0,  0,  950,  -50]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "No effect",
+                "Increase physical damage against Aquatics and Demons by 100% to caster for one turn",
+                "Physical damage (22x, ATK) to one enemy (ignore cover)"
+            ],
+            "effects_raw": [[1, 1, 24, [0,  0,  0,  0,  0,  0]], [0, 3, 92, [[3,  100], [4,  100], -1, -1, -1, -1, -1, -1, 1, 1]], [1, 1, 21, [0,  0,  1100,  -50]]]},
+        "strings": []
+    },
+    "203001503": {
+        "name": "魔導氷楔",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[16,  16,  16,  16,  16,  20]],
+        "attack_frames": [[30,  52,  74,  96,  118,  140]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Ice"],
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Magic ice damage (3.5x, MAG) to all enemies",
+                "Increase resistance to Ice by 60% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  350,  0]], [2, 2, 33, [0,  60,  0,  0,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Magic ice damage (4.4x, MAG) to all enemies",
+                "Increase resistance to Ice by 69% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  440,  0]], [2, 2, 33, [0,  69,  0,  0,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "203001504": {
+        "name": "魔導氷楔",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[16,  16,  16,  16,  16,  20]],
+        "attack_frames": [[30,  52,  74,  96,  118,  140]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Ice"],
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Magic ice damage (4x, MAG) to all enemies",
+                "Increase resistance to Ice by 65% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [2, 2, 33, [0,  65,  0,  0,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Magic ice damage (5.4x, MAG) to all enemies",
+                "Increase resistance to Ice by 79% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  540,  0]], [2, 2, 33, [0,  79,  0,  0,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "203001505": {
+        "name": "魔導氷楔",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[16,  16,  16,  16,  16,  20]],
+        "attack_frames": [[30,  52,  74,  96,  118,  140]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Ice"],
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Magic ice damage (4.5x, MAG) to all enemies",
+                "Increase resistance to Ice by 70% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  450,  0]], [2, 2, 33, [0,  70,  0,  0,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Magic ice damage (6.4x, MAG) to all enemies",
+                "Increase resistance to Ice by 89% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  640,  0]], [2, 2, 33, [0,  89,  0,  0,  0,  0,  0,  0,  1,  3]]]},
         "strings": []
     },
     "204000103": {
@@ -28563,6 +28893,35 @@
                 "Gain access to following skills for one turn:\n\t絶剣・暮雨 (508520)"
             ],
             "effects_raw": [[2, 1, 33, [0,  -100,  0,  0,  0,  0,  0,  0,  1,  2]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3000,  3000]], [0, 3, 3, [250,  0,  250,  0,  3,  1,  0]], [0, 3, 98, [3, 508522, -1, [228331,  228332,  228333,  508520], 2, 1, 1, 0]], [0, 3, 100, [2,  508520,  9999,  2,  1,  1]]]},
+        "strings": []
+    },
+    "900000307": {
+        "name": "トゥインクルソード",
+        "cost": 0,
+        "attack_count": [10],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  55]],
+        "attack_frames": [[61,  67,  73,  79,  101,  107,  113,  119,  125,  180]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 24,
+            "effects": [
+                "Physical damage (12x, ATK) to one enemy",
+                "Reduce resistance to Fire, Water, Wind and Earth by 50% for 5 turns to one enemy",
+                "Unknown active effect type '136': [[228551,508620,508622],0,0,300,5,1]"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1200,  0]], [1, 1, 33, [-50,  0,  0,  -50,  -50,  -50,  0,  0,  1,  5]], [0, 3, 136, [[228551,  508620,  508622], 0, 0, 300, 5, 1]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": [
+                "Physical damage (16x, ATK) to one enemy",
+                "Reduce resistance to Fire, Water, Wind and Earth by 80% for 5 turns to one enemy",
+                "Unknown active effect type '136': [[228551,508620,508622],0,0,300,5,1]"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1600,  0]], [1, 1, 33, [-80,  0,  0,  -80,  -80,  -80,  0,  0,  1,  5]], [0, 3, 136, [[228551,  508620,  508622], 0, 0, 300, 5, 1]]]},
         "strings": []
     },
     "905000102": {
