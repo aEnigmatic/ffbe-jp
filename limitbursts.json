@@ -12629,6 +12629,324 @@
             "effects_raw": [[1, 1, 21, [0,  0,  490,  -50]]]},
         "strings": []
     },
+    "100018305": {
+        "name": "アセンブル・アクア",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[60]],
+        "effect_frames": [[0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 56,
+            "effects": [
+                "Restore 10% HP to all allies",
+                "Cure all status effects for all allies",
+                "Remove ATK, DEF, MAG, SPR, Stop and Charm debuff from all allies",
+                "Increase resistance to Water by 80% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [10,  10,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 111, [1,  1,  1,  1,  1,  1]], [2, 2, 33, [0,  0,  0,  80,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 56,
+            "effects": [
+                "Restore 48% HP to all allies",
+                "Cure all status effects for all allies",
+                "Remove ATK, DEF, MAG, SPR, Stop and Charm debuff from all allies",
+                "Increase resistance to Water by 80% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [48,  48,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 111, [1,  1,  1,  1,  1,  1]], [2, 2, 33, [0,  0,  0,  80,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "100018306": {
+        "name": "アセンブル・アクア",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[60]],
+        "effect_frames": [[0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 56,
+            "effects": [
+                "Restore 50% HP to all allies",
+                "Cure all status effects for all allies",
+                "Remove ATK, DEF, MAG, SPR, Stop and Charm debuff from all allies",
+                "Increase resistance to Water by 90% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [50,  50,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 111, [1,  1,  1,  1,  1,  1]], [2, 2, 33, [0,  0,  0,  90,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 56,
+            "effects": [
+                "Restore 100% HP to all allies",
+                "Cure all status effects for all allies",
+                "Remove ATK, DEF, MAG, SPR, Stop and Charm debuff from all allies",
+                "Increase resistance to Water by 90% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [100,  100,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 111, [1,  1,  1,  1,  1,  1]], [2, 2, 33, [0,  0,  0,  90,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "100018307": {
+        "name": "アセンブル・アクア",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[60]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 56,
+            "effects": [
+                "Restore 50% HP to all allies",
+                "Cure all status effects for all allies",
+                "Remove ATK, DEF, MAG, SPR, Stop and Charm debuff from all allies",
+                "Increase resistance to Water by 100% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [50,  50,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 111, [1,  1,  1,  1,  1,  1]], [2, 2, 33, [0,  0,  0,  100,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 53,
+            "effects": [
+                "Restore 100% HP to all allies",
+                "Cure all status effects for all allies",
+                "Remove ATK, DEF, MAG, SPR, Stop and Charm debuff from all allies",
+                "Increase resistance to Water by 100% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [100,  100,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [2, 2, 111, [1,  1,  1,  1,  1,  1]], [2, 2, 33, [0,  0,  0,  100,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "100018403": {
+        "name": "逆水崩突",
+        "cost": 0,
+        "attack_count": [9],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  60]],
+        "attack_frames": [[33,  59,  85,  95,  105,  109,  115,  151,  229]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": ["Water"],
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": ["Physical water damage (4x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": ["Physical water damage (4.9x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  490,  0]]]},
+        "strings": []
+    },
+    "100018404": {
+        "name": "逆水崩突",
+        "cost": 0,
+        "attack_count": [9],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  60]],
+        "attack_frames": [[33,  59,  85,  95,  105,  109,  115,  151,  229]],
+        "effect_frames": [[0,  0,  227]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": ["Water"],
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": ["Physical water damage (4.5x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  450,  0]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": ["Physical water damage (5.9x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  590,  0]]]},
+        "strings": []
+    },
+    "100018405": {
+        "name": "逆水崩突",
+        "cost": 0,
+        "attack_count": [9],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  60]],
+        "attack_frames": [[33,  59,  85,  95,  105,  109,  115,  151,  229]],
+        "effect_frames": [[0,  0,  15,  227]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": ["Water"],
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Physical water damage (5x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500,  0]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Physical water damage (6.9x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  690,  0]]]},
+        "strings": []
+    },
+    "100018504": {
+        "name": "コンビネーションアタック",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[33,  33,  34]],
+        "attack_frames": [[142,  162,  182]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (4x, ATK) to all enemies",
+                "Reduce SPR by 35% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [2, 1, 24, [0,  0,  0,  -35,  3,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (5.4x, ATK) to all enemies",
+                "Reduce SPR by 49% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  540,  0]], [2, 1, 24, [0,  0,  0,  -49,  3,  1]]]},
+        "strings": []
+    },
+    "100018505": {
+        "name": "コンビネーションアタック",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[33,  33,  34]],
+        "attack_frames": [[142,  162,  182]],
+        "effect_frames": [[0,  0,  2]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (5x, ATK) to all enemies",
+                "Reduce SPR by 40% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500,  0]], [2, 1, 24, [0,  0,  0,  -40,  3,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (6.9x, ATK) to all enemies",
+                "Reduce SPR by 59% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  690,  0]], [2, 1, 24, [0,  0,  0,  -59,  3,  1]]]},
+        "strings": []
+    },
+    "100018506": {
+        "name": "コンビネーションアタック",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[33,  33,  34]],
+        "attack_frames": [[142,  162,  182]],
+        "effect_frames": [[0,  0,  2]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (6x, ATK) to all enemies",
+                "Reduce SPR by 45% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  600,  0]], [2, 1, 24, [0,  0,  0,  -45,  3,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (8.4x, ATK) to all enemies",
+                "Reduce SPR by 69% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  840,  0]], [2, 1, 24, [0,  0,  0,  -69,  3,  1]]]},
+        "strings": []
+    },
+    "100018604": {
+        "name": "淀みの呪毒",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[310]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Inflict Poison and Disease (40%) on all enemies",
+                "Physical* damage (0.5x, ATK) per turn to all enemies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 6, [40,  0,  0,  0,  0,  0,  40,  0,  1]], [2, 1, 139, [3,  50,  0,  1,  3,  1,  4]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Inflict Poison and Disease (54%) on all enemies",
+                "Physical* damage (1.9x, ATK) per turn to all enemies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 6, [54,  0,  0,  0,  0,  0,  54,  0,  1]], [2, 1, 139, [3,  190,  0,  1,  3,  1,  4]]]},
+        "strings": []
+    },
+    "100018605": {
+        "name": "淀みの呪毒",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[310]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Inflict Poison and Disease (50%) on all enemies",
+                "Physical* damage (1x, ATK) per turn to all enemies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 6, [50,  0,  0,  0,  0,  0,  50,  0,  1]], [2, 1, 139, [3,  100,  0,  1,  3,  1,  4]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Inflict Poison and Disease (69%) on all enemies",
+                "Physical* damage (2.9x, ATK) per turn to all enemies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 6, [69,  0,  0,  0,  0,  0,  69,  0,  1]], [2, 1, 139, [3,  290,  0,  1,  3,  1,  4]]]},
+        "strings": []
+    },
+    "100018606": {
+        "name": "淀みの呪毒",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[310]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Inflict Poison and Disease (60%) on all enemies",
+                "Physical* damage (1.5x, ATK) per turn to all enemies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 6, [60,  0,  0,  0,  0,  0,  60,  0,  1]], [2, 1, 139, [3,  150,  0,  1,  3,  1,  4]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Inflict Poison and Disease (84%) on all enemies",
+                "Physical* damage (3.9x, ATK) per turn to all enemies for 3 turns"
+            ],
+            "effects_raw": [[2, 1, 6, [84,  0,  0,  0,  0,  0,  84,  0,  1]], [2, 1, 139, [3,  390,  0,  1,  3,  1,  4]]]},
+        "strings": []
+    },
     "201000104": {
         "name": "シャイニングソード",
         "cost": 0,
@@ -28911,7 +29229,7 @@
             "effects": [
                 "Physical damage (12x, ATK) to one enemy",
                 "Reduce resistance to Fire, Water, Wind and Earth by 50% for 5 turns to one enemy",
-                "Unknown active effect type '136': [[228551,508620,508622],0,0,300,5,1]"
+                "Increase damage of the following skills by 3x:\nオニオンシュレッダー (228551)\n\tオニオンメテオ (508622)\n\tハックトゥピーシーズ (508620)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1200,  0]], [1, 1, 33, [-50,  0,  0,  -50,  -50,  -50,  0,  0,  1,  5]], [0, 3, 136, [[228551,  508620,  508622], 0, 0, 300, 5, 1]]]},
         "max_level": {
@@ -28919,7 +29237,7 @@
             "effects": [
                 "Physical damage (16x, ATK) to one enemy",
                 "Reduce resistance to Fire, Water, Wind and Earth by 80% for 5 turns to one enemy",
-                "Unknown active effect type '136': [[228551,508620,508622],0,0,300,5,1]"
+                "Increase damage of the following skills by 3x:\nオニオンシュレッダー (228551)\n\tオニオンメテオ (508622)\n\tハックトゥピーシーズ (508620)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1600,  0]], [1, 1, 33, [-80,  0,  0,  -80,  -80,  -80,  0,  0,  1,  5]], [0, 3, 136, [[228551,  508620,  508622], 0, 0, 300, 5, 1]]]},
         "strings": []

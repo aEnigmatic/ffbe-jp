@@ -9202,6 +9202,37 @@
         "price_sell": 300,
         "icon": "item_11636.png"
     },
+    "309003700": {
+        "name": "スプラッシュナックル",
+        "compendium_id": 1093,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 16,
+        "type": "Fist",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 125,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Water"],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_11637.png"
+    },
     "309020200": {
         "name": "ブロンズナックル",
         "compendium_id": 58,
@@ -10462,6 +10493,40 @@
         "price_sell": 3500,
         "icon": "item_10635.png"
     },
+    "310004200": {
+        "name": "コンジャラーロッド",
+        "compendium_id": 1095,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 6,
+        "type": "Rod",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [210680, 209550],
+        "effects": [
+            "Grants '風属性耐性+15%' passive.",
+            "Grants '土属性耐性+15%' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 12,
+            "DEF": 0,
+            "MAG": 60,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 7000,
+        "price_sell": 700,
+        "icon": "item_10638.png"
+    },
     "311000200": {
         "name": "サクラの杖",
         "compendium_id": 73,
@@ -11546,6 +11611,40 @@
         "price_buy": 40000,
         "price_sell": 4000,
         "icon": "item_10534.png"
+    },
+    "311004200": {
+        "name": "水輪の鐘杖",
+        "compendium_id": 1091,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 5,
+        "type": "Staff",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100060, 228671],
+        "effects": [
+            "Grants 'MP+30%' passive.",
+            "Grants '水属性耐性+50%' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 150,
+            "ATK": 12,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 166,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 160000,
+        "price_sell": 16000,
+        "icon": "item_10536.png"
     },
     "312000100": {
         "name": "ショートボウ",
@@ -31711,5 +31810,107 @@
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "item_50360.png"
+    },
+    "409024000": {
+        "name": "キハナの首飾り",
+        "compendium_id": 1092,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 45,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_50368.png"
+    },
+    "409024100": {
+        "name": "水巫女のチョーカー",
+        "compendium_id": 1094,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [208980, 228670],
+        "effects": [
+            "Grants '精神+15%' passive.",
+            "Grants '癒しの力' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 3,
+            "MAG": 0,
+            "SPR": 3,
+            "element_resist": {
+                "Water": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_50369.png"
+    },
+    "409024200": {
+        "name": "グランドスターズ",
+        "compendium_id": 1096,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [228680, 228681, 228682],
+        "effects": [
+            "Grants '自然を征する輝き' passive.",
+            "Grants '文明を征する輝き' passive.",
+            "Grants '人外を征する輝き' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 25,
+            "DEF": 25,
+            "MAG": 25,
+            "SPR": 25,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_50370.png"
     }
 }
