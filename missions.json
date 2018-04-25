@@ -93371,6 +93371,191 @@
         "exp": 50,
         "challenges": []
     },
+    "8190101": {
+        "dungeon_id": 81901,
+        "name": "エレメンツフォーメーション・中級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 20,
+        "exp": 50,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106305500, 100]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "魔法を使用してクリア",
+                "parsed": ["Use magic"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8190102": {
+        "dungeon_id": 81901,
+        "name": "エレメンツフォーメーション・上級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 50,
+        "exp": 155,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106305500, 200]
+            },
+            {
+                "string": "1ターンに4CHAIN以上してクリア",
+                "parsed": ["Get a chain of 4 or more in one turn"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "ＬＢを使用せずクリア",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8190103": {
+        "dungeon_id": 81901,
+        "name": "エレメンツフォーメーション・超級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 85,
+        "exp": 300,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106305500, 300]
+            },
+            {
+                "string": "1ターンに6CHAIN以上してクリア",
+                "parsed": ["Get a chain of 6 or more in one turn"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "アイテム使用回数5回以内",
+                "parsed": ["Use no more than 5 items"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8190104": {
+        "dungeon_id": 81901,
+        "name": "エレメンツフォーメーション・覚醒級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 117,
+        "exp": 365,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "1ターンに8CHAIN以上してクリア",
+                "parsed": ["Get a chain of 8 or more in one turn"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "「回復」魔法を使用せずにクリア",
+                "parsed": ["No recovery magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "アイテム使用回数3回以内",
+                "parsed": ["Use no more than 3 items"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "8200101": {
+        "dungeon_id": 82001,
+        "name": "緋の鬼神　悲しみは熱砂の海に",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 150,
+        "exp": 1100,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["EQUIP", 310004300, 1]
+            },
+            {
+                "string": "幻獣を2回以上召喚してクリア",
+                "parsed": ["Evoke 2 or more espers"],
+                "reward": ["ITEM", 106305500, 10000]
+            },
+            {
+                "string": "「ヴェルトール・イド」をＬＢでフィニッシュ",
+                "parsed": ["Defeat 406181000 with a limit burst"],
+                "reward": ["KEYITEM", 50, 2]
+            },
+            {
+                "string": "パーティ人数5人以下（同行者含む）",
+                "parsed": ["Party of 5 or less (Companion included)"],
+                "reward": ["UNIT", 904000104, 1]
+            }
+        ]
+    },
     "8980101": {
         "dungeon_id": 89801,
         "name": "十二武具・気高き軍師",
