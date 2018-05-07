@@ -94019,6 +94019,19 @@
         "challenges": []
     },
     "8220101": {
+        "dungeon_id": 82201,
+        "name": "エボン＝ドーム・探索(HARD)",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 20,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["UNIT", 904000104, 1],
+        "gil": 180,
+        "exp": 820,
         "challenges": [
             {
                 "string": "クエストをクリア",
@@ -94043,6 +94056,19 @@
         ]
     },
     "8220102": {
+        "dungeon_id": 82201,
+        "name": "エボン＝ドーム・探索(EASY)",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 3,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 106305600, 200],
+        "gil": 20,
+        "exp": 50,
         "challenges": [
             {
                 "string": "クエストをクリア",
@@ -99318,7 +99344,7 @@
         "dungeon_id": 89948,
         "name": "闇の魔物たちII・上級",
         "type": "BATTLE",
-        "wave_count": 2,
+        "wave_count": 1,
         "cost_type": "NRG",
         "cost": 10,
         "flags": {
@@ -99355,7 +99381,7 @@
         "dungeon_id": 89948,
         "name": "闇の魔物たちII・超級",
         "type": "BATTLE",
-        "wave_count": 2,
+        "wave_count": 1,
         "cost_type": "NRG",
         "cost": 20,
         "flags": {
@@ -99392,7 +99418,7 @@
         "dungeon_id": 89948,
         "name": "闇の魔物たちII・覚醒級",
         "type": "BATTLE",
-        "wave_count": 2,
+        "wave_count": 1,
         "cost_type": "NRG",
         "cost": 50,
         "flags": {
