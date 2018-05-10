@@ -12947,6 +12947,318 @@
             "effects_raw": [[2, 1, 6, [84,  0,  0,  0,  0,  0,  84,  0,  1]], [2, 1, 139, [3,  390,  0,  1,  3,  1,  4]]]},
         "strings": []
     },
+    "100018705": {
+        "name": "紅炎超熱爆砕撃",
+        "cost": 0,
+        "attack_count": [1, 6],
+        "attack_damage": [[100], [16,  16,  16,  16,  16,  20]],
+        "attack_frames": [[110], [70,  77,  82,  89,  96,  103]],
+        "effect_frames": [[0], [0,  0,  0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": ["Fire"],
+        "levels": 20,
+        "min_level": {
+            "cost": 18,
+            "effects": [
+                "Physical fire damage (8x, ATK) to one enemy (ignore cover)",
+                "Physical fire damage (1x, ATK) to all enemies"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  400,  -50]], [2, 1, 1, [0,  0,  0,  0,  0,  0,  100,  0]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": [
+                "Physical fire damage (11.8x, ATK) to one enemy (ignore cover)",
+                "Physical fire damage (1.95x, ATK) to all enemies"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  590,  -50]], [2, 1, 1, [0,  0,  0,  0,  0,  0,  195,  0]]]},
+        "strings": []
+    },
+    "100018706": {
+        "name": "紅炎超熱爆砕撃",
+        "cost": 0,
+        "attack_count": [1, 6],
+        "attack_damage": [[100], [16,  16,  16,  16,  16,  20]],
+        "attack_frames": [[110], [70,  77,  82,  89,  96,  103]],
+        "effect_frames": [[0], [0,  0,  0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": ["Fire"],
+        "levels": 25,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "Physical fire damage (9x, ATK) to one enemy (ignore cover)",
+                "Physical fire damage (1.5x, ATK) to all enemies"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  450,  -50]], [2, 1, 1, [0,  0,  0,  0,  0,  0,  150,  0]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "Physical fire damage (13.8x, ATK) to one enemy (ignore cover)",
+                "Physical fire damage (2.7x, ATK) to all enemies"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  690,  -50]], [2, 1, 1, [0,  0,  0,  0,  0,  0,  270,  0]]]},
+        "strings": []
+    },
+    "100018707": {
+        "name": "紅炎超熱爆砕撃",
+        "cost": 0,
+        "attack_count": [1, 6],
+        "attack_damage": [[100], [16,  16,  16,  16,  16,  20]],
+        "attack_frames": [[110], [70,  77,  82,  89,  96,  103]],
+        "effect_frames": [[0], [0,  0,  0,  0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": ["Fire"],
+        "levels": 30,
+        "min_level": {
+            "cost": 27,
+            "effects": [
+                "Physical fire damage (10x, ATK) to one enemy (ignore cover)",
+                "Physical fire damage (2x, ATK) to all enemies"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  500,  -50]], [2, 1, 1, [0,  0,  0,  0,  0,  0,  200,  0]]]},
+        "max_level": {
+            "cost": 27,
+            "effects": [
+                "Physical fire damage (15.8x, ATK) to one enemy (ignore cover)",
+                "Physical fire damage (3.45x, ATK) to all enemies"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  790,  -50]], [2, 1, 1, [0,  0,  0,  0,  0,  0,  345,  0]]]},
+        "strings": []
+    },
+    "100018804": {
+        "name": "居合・散り花",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[281]],
+        "effect_frames": [[0,  0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": ["Cast Death (55%) or deal physical damage (3.5x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 112, [350,  55,  281,  0]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": ["Cast Death (69%) or deal physical damage (4.9x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 112, [490,  69,  281,  0]]]},
+        "strings": []
+    },
+    "100018805": {
+        "name": "居合・散り花",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[281]],
+        "effect_frames": [[0,  0,  0,  200]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Cast Death (60%) or deal physical damage (4x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 112, [400,  60,  281,  0]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Cast Death (79%) or deal physical damage (5.9x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 112, [590,  79,  281,  0]]]},
+        "strings": []
+    },
+    "100018806": {
+        "name": "居合・散り花",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[281]],
+        "effect_frames": [[0,  0,  0,  200]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": ["Cast Death (65%) or deal physical damage (4.5x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 112, [450,  65,  281,  0]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": ["Cast Death (89%) or deal physical damage (6.9x, ATK) to all enemies"],
+            "effects_raw": [[2, 1, 112, [690,  89,  281,  0]]]},
+        "strings": []
+    },
+    "100018904": {
+        "name": "フルオ－プンミサイル",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[20,  20,  20,  20,  20]],
+        "attack_frames": [[174,  179,  187,  196,  205]],
+        "effect_frames": [[0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (4x, ATK) to all enemies",
+                "Gain access to following skills for one turn:\n\tPNK-2ミサイル・フルコース (508810)",
+                "Inflict Stop (30%) for 3 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [0, 3, 100, [2,  508810,  1,  2,  1,  0]], [2, 1, 88, [30,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (5.4x, ATK) to all enemies",
+                "Gain access to following skills for one turn:\n\tPNK-2ミサイル・フルコース (508810)",
+                "Inflict Stop (30%) for 3 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  540,  0]], [0, 3, 100, [2,  508810,  1,  2,  1,  0]], [2, 1, 88, [30,  3]]]},
+        "strings": []
+    },
+    "100018905": {
+        "name": "フルオ－プンミサイル",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[20,  20,  20,  20,  20]],
+        "attack_frames": [[174,  179,  187,  196,  205]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (5x, ATK) to all enemies",
+                "Gain access to following skills for one turn:\n\tPNK-2ミサイル・フルコース (508810)",
+                "Inflict Stop (30%) for 3 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500,  0]], [0, 3, 100, [2,  508810,  1,  2,  1,  0]], [2, 1, 88, [30,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (6.9x, ATK) to all enemies",
+                "Gain access to following skills for one turn:\n\tPNK-2ミサイル・フルコース (508810)",
+                "Inflict Stop (30%) for 3 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  690,  0]], [0, 3, 100, [2,  508810,  1,  2,  1,  0]], [2, 1, 88, [30,  3]]]},
+        "strings": []
+    },
+    "100018906": {
+        "name": "フルオ－プンミサイル",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[20,  20,  20,  20,  20]],
+        "attack_frames": [[174,  179,  187,  196,  205]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (6x, ATK) to all enemies",
+                "Gain access to following skills for one turn:\n\tPNK-2ミサイル・フルコース (508810)",
+                "Inflict Stop (30%) for 3 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  600,  0]], [0, 3, 100, [2,  508810,  1,  2,  1,  0]], [2, 1, 88, [30,  3]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (8.4x, ATK) to all enemies",
+                "Gain access to following skills for one turn:\n\tPNK-2ミサイル・フルコース (508810)",
+                "Inflict Stop (30%) for 3 turns on all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  840,  0]], [0, 3, 100, [2,  508810,  1,  2,  1,  0]], [2, 1, 88, [30,  3]]]},
+        "strings": []
+    },
+    "100019003": {
+        "name": "バーサクマター",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[450]],
+        "effect_frames": [[0,  420,  420]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Inflict berserk (+25% ATK) on one ally for 2 turns",
+                "Increase ATK by 100% for 3 turns to one ally"
+            ],
+            "effects_raw": [[1, 2, 68, [2,  25]], [1, 2, 3, [100,  0,  0,  0,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 10,
+            "effects": [
+                "Inflict berserk (+25% ATK) on one ally for 2 turns",
+                "Increase ATK by 100% for 3 turns to one ally"
+            ],
+            "effects_raw": [[1, 2, 68, [2,  25]], [1, 2, 3, [100,  0,  0,  0,  3,  1,  0]]]},
+        "strings": []
+    },
+    "100019004": {
+        "name": "バーサクマター",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[450]],
+        "effect_frames": [[0,  420,  420]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Inflict berserk (+50% ATK) on one ally for 2 turns",
+                "Increase ATK by 150% for 3 turns to one ally"
+            ],
+            "effects_raw": [[1, 2, 68, [2,  50]], [1, 2, 3, [150,  0,  0,  0,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 11,
+            "effects": [
+                "Inflict berserk (+50% ATK) on one ally for 2 turns",
+                "Increase ATK by 150% for 3 turns to one ally"
+            ],
+            "effects_raw": [[1, 2, 68, [2,  50]], [1, 2, 3, [150,  0,  0,  0,  3,  1,  0]]]},
+        "strings": []
+    },
+    "100019005": {
+        "name": "バーサクマター",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[450]],
+        "effect_frames": [[0,  420,  420,  173,  273,  373]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Inflict berserk (+100% ATK) on one ally for 2 turns",
+                "Increase ATK by 200% for 3 turns to one ally"
+            ],
+            "effects_raw": [[1, 2, 68, [2,  100]], [1, 2, 3, [200,  0,  0,  0,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Inflict berserk (+100% ATK) on one ally for 2 turns",
+                "Increase ATK by 200% for 3 turns to one ally"
+            ],
+            "effects_raw": [[1, 2, 68, [2,  100]], [1, 2, 3, [200,  0,  0,  0,  3,  1,  0]]]},
+        "strings": []
+    },
     "201000104": {
         "name": "シャイニングソード",
         "cost": 0,
@@ -27380,18 +27692,18 @@
                 "Physical damage (6.2x, ATK) to one enemy",
                 "Increase ATK by 80% for 3 turns to all allies",
                 "Gain access to following skills for one turn:\n\tGiant Overkill (505410)\n\tHeaven's Chalice (505420)\n\tShining Storm (505430)",
-                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)"
+                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)\n\tジャイアントキル+1 (707486)\n\tジャイアントキル+2 (707487)\n\tデスパレート+1 (707480)\n\tデスパレート+2 (707481)"
             ],
-            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  620,  0]], [2, 2, 3, [80,  0,  0,  0,  3,  1]], [0, 3, 100, [[2,  2,  2], [505410,  505420,  505430], 9999, 2, 1]], [0, 3, 98, [2, 505390, -1, [222230,  222240,  222250,  222260,  222270,  505410,  505420,  505430], 2, 1, 1]]]},
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  620,  0]], [2, 2, 3, [80,  0,  0,  0,  3,  1]], [0, 3, 100, [[2,  2,  2], [505410,  505420,  505430], 9999, 2, 1]], [0, 3, 98, [2, 505390, -1, [222230,  222240,  222250,  222260,  222270,  505410,  505420,  505430,  707480,  707481,  707486,  707487], 2, 1, 1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
                 "Physical damage (8.1x, ATK) to one enemy",
                 "Increase ATK by 99% for 3 turns to all allies",
                 "Gain access to following skills for one turn:\n\tGiant Overkill (505410)\n\tHeaven's Chalice (505420)\n\tShining Storm (505430)",
-                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)"
+                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)\n\tジャイアントキル+1 (707486)\n\tジャイアントキル+2 (707487)\n\tデスパレート+1 (707480)\n\tデスパレート+2 (707481)"
             ],
-            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  810,  0]], [2, 2, 3, [99,  0,  0,  0,  3,  1]], [0, 3, 100, [[2,  2,  2], [505410,  505420,  505430], 9999, 2, 1]], [0, 3, 98, [2, 505390, -1, [222230,  222240,  222250,  222260,  222270,  505410,  505420,  505430], 2, 1, 1]]]},
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  810,  0]], [2, 2, 3, [99,  0,  0,  0,  3,  1]], [0, 3, 100, [[2,  2,  2], [505410,  505420,  505430], 9999, 2, 1]], [0, 3, 98, [2, 505390, -1, [222230,  222240,  222250,  222260,  222270,  505410,  505420,  505430,  707480,  707481,  707486,  707487], 2, 1, 1]]]},
         "strings": []
     },
     "313000106": {
@@ -27411,18 +27723,18 @@
                 "Physical damage (7.2x, ATK) to one enemy",
                 "Increase ATK by 100% for 3 turns to all allies",
                 "Gain access to following skills for one turn:\n\tGiant Overkill (505410)\n\tHeaven's Chalice (505420)\n\tShining Storm (505430)",
-                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)"
+                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)\n\tジャイアントキル+1 (707486)\n\tジャイアントキル+2 (707487)\n\tデスパレート+1 (707480)\n\tデスパレート+2 (707481)"
             ],
-            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  720,  0]], [2, 2, 3, [100,  0,  0,  0,  3,  1]], [0, 3, 100, [[2,  2,  2], [505410,  505420,  505430], 9999, 2, 1]], [0, 3, 98, [2, 505390, -1, [222230,  222240,  222250,  222260,  222270,  505410,  505420,  505430], 2, 1, 1]]]},
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  720,  0]], [2, 2, 3, [100,  0,  0,  0,  3,  1]], [0, 3, 100, [[2,  2,  2], [505410,  505420,  505430], 9999, 2, 1]], [0, 3, 98, [2, 505390, -1, [222230,  222240,  222250,  222260,  222270,  505410,  505420,  505430,  707480,  707481,  707486,  707487], 2, 1, 1]]]},
         "max_level": {
             "cost": 20,
             "effects": [
                 "Physical damage (9.6x, ATK) to one enemy",
                 "Increase ATK by 124% for 3 turns to all allies",
                 "Gain access to following skills for one turn:\n\tGiant Overkill (505410)\n\tHeaven's Chalice (505420)\n\tShining Storm (505430)",
-                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)"
+                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)\n\tジャイアントキル+1 (707486)\n\tジャイアントキル+2 (707487)\n\tデスパレート+1 (707480)\n\tデスパレート+2 (707481)"
             ],
-            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  960,  0]], [2, 2, 3, [124,  0,  0,  0,  3,  1]], [0, 3, 100, [[2,  2,  2], [505410,  505420,  505430], 9999, 2, 1]], [0, 3, 98, [2, 505390, -1, [222230,  222240,  222250,  222260,  222270,  505410,  505420,  505430], 2, 1, 1]]]},
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  960,  0]], [2, 2, 3, [124,  0,  0,  0,  3,  1]], [0, 3, 100, [[2,  2,  2], [505410,  505420,  505430], 9999, 2, 1]], [0, 3, 98, [2, 505390, -1, [222230,  222240,  222250,  222260,  222270,  505410,  505420,  505430,  707480,  707481,  707486,  707487], 2, 1, 1]]]},
         "strings": []
     },
     "313000205": {

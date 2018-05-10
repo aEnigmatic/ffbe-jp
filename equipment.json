@@ -6213,6 +6213,37 @@
         "price_sell": 3600,
         "icon": "item_10824.png"
     },
+    "305002500": {
+        "name": "イグニッションアックス",
+        "compendium_id": 1116,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 8,
+        "type": "Axe",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.1, 1.9],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 170,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Fire"],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 360000,
+        "price_sell": 36000,
+        "icon": "item_10825.png"
+    },
     "306000100": {
         "name": "木づち",
         "compendium_id": 36,
@@ -9325,6 +9356,37 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_11637.png"
+    },
+    "309003800": {
+        "name": "PNK-2パンチ",
+        "compendium_id": 1120,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 16,
+        "type": "Fist",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 70,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 30,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "item_11638.png"
     },
     "309020200": {
         "name": "ブロンズナックル",
@@ -19921,6 +19983,39 @@
         "price_sell": 6000,
         "icon": "item_30234.png"
     },
+    "404003600": {
+        "name": "イグニシオの兜",
+        "compendium_id": 1119,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 41,
+        "type": "Helm",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 21,
+            "DEF": 20,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Fire": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 24000,
+        "price_sell": 2400,
+        "icon": "item_30236.png"
+    },
     "405000200": {
         "name": "皮の服",
         "compendium_id": 146,
@@ -21633,6 +21728,37 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_20153.png"
+    },
+    "405005800": {
+        "name": "スズメの長着",
+        "compendium_id": 1117,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [229000],
+        "effects": ["Grants '我流刀術' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 21,
+            "DEF": 36,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_20157.png"
     },
     "406000100": {
         "name": "レザープレート",
@@ -32520,5 +32646,36 @@
         "price_buy": 20000,
         "price_sell": 2000,
         "icon": "item_50372.png"
+    },
+    "409024900": {
+        "name": "PNK-2ブースター",
+        "compendium_id": 1118,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100750],
+        "effects": ["Grants 'オートリミット' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 35,
+            "DEF": 0,
+            "MAG": 35,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_50375.png"
     }
 }
