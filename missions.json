@@ -96806,6 +96806,191 @@
             }
         ]
     },
+    "8240101": {
+        "dungeon_id": 82401,
+        "name": "全ての始まりにして終わりなる者・中級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 20,
+        "exp": 50,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106305700, 100]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8240102": {
+        "dungeon_id": 82401,
+        "name": "全ての始まりにして終わりなる者・上級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 50,
+        "exp": 155,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106305700, 200]
+            },
+            {
+                "string": "ELEMENT CHAINを1ターンに1回以上発生させる",
+                "parsed": ["Activate an element chain 1 times or more in one turn"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8240103": {
+        "dungeon_id": 82401,
+        "name": "全ての始まりにして終わりなる者・超級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 85,
+        "exp": 300,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106305700, 300]
+            },
+            {
+                "string": "ELEMENT CHAINを1ターンに2回以上発生させる",
+                "parsed": ["Activate an element chain 2 times or more in one turn"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "アイテム使用回数5回以内",
+                "parsed": ["Use no more than 5 items"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8240104": {
+        "dungeon_id": 82401,
+        "name": "全ての始まりにして終わりなる者・覚醒級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 117,
+        "exp": 365,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "ELEMENT CHAINを1ターンに3回以上発生させる",
+                "parsed": ["Activate an element chain 3 times or more in one turn"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "3ターン以内にクリア",
+                "parsed": ["Clear within 3 turns"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "アイテム使用回数3回以内",
+                "parsed": ["Use no more than 3 items"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "8250101": {
+        "dungeon_id": 82501,
+        "name": "真紅のゼノギアス",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 150,
+        "exp": 1100,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["EQUIP", 304003800, 1]
+            },
+            {
+                "string": "幻獣を2回以上召喚してクリア",
+                "parsed": ["Evoke 2 or more espers"],
+                "reward": ["ITEM", 106305700, 10000]
+            },
+            {
+                "string": "ＬＢを使用せずクリア",
+                "parsed": ["No limit bursts"],
+                "reward": ["KEYITEM", 50, 2]
+            },
+            {
+                "string": "「イド」戦を10ターン以内でクリア",
+                "parsed": ["Clear in 10 turns or less"],
+                "reward": ["UNIT", 904000104, 1]
+            }
+        ]
+    },
     "8980101": {
         "dungeon_id": 89801,
         "name": "十二武具・気高き軍師",
