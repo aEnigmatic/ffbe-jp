@@ -23295,6 +23295,87 @@
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  325,  0]], [1, 1, 6, [0,  0,  0,  0,  0,  0,  0,  95,  1]]]},
         "strings": []
     },
+    "253000704": {
+        "name": "ホーリーブレス",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[110]],
+        "effect_frames": [[0,  145]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Light"],
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Magic light damage (6.6x, MAG) to all enemies (ignore cover and reflect)",
+                "Reduce resistance to Fire, Ice and Lightning by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  330,  50]], [2, 1, 33, [-50,  -50,  -50,  0,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Magic light damage (8x, MAG) to all enemies (ignore cover and reflect)",
+                "Reduce resistance to Fire, Ice and Lightning by 64% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  400,  50]], [2, 1, 33, [-64,  -64,  -64,  0,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "253000705": {
+        "name": "ホーリーブレス",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[110]],
+        "effect_frames": [[0,  145]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Light"],
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Magic light damage (8x, MAG) to all enemies (ignore cover and reflect)",
+                "Reduce resistance to Fire, Ice and Lightning by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  400,  50]], [2, 1, 33, [-50,  -50,  -50,  0,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Magic light damage (9.9x, MAG) to all enemies (ignore cover and reflect)",
+                "Reduce resistance to Fire, Ice and Lightning by 69% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  495,  50]], [2, 1, 33, [-69,  -69,  -69,  0,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "253000706": {
+        "name": "ホーリーブレス",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[110]],
+        "effect_frames": [[0,  145,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Light"],
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Magic light damage (9.6x, MAG) to all enemies (ignore cover and reflect)",
+                "Reduce resistance to Fire, Ice and Lightning by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  480,  50]], [2, 1, 33, [-50,  -50,  -50,  0,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Magic light damage (12x, MAG) to all enemies (ignore cover and reflect)",
+                "Reduce resistance to Fire, Ice and Lightning by 74% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  600,  50]], [2, 1, 33, [-74,  -74,  -74,  0,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
     "253000805": {
         "name": "全剣技『雷神』",
         "cost": 0,
@@ -23419,6 +23500,87 @@
             "cost": 16,
             "effects": ["Physical damage (7.8x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  390,  -50]]]},
+        "strings": []
+    },
+    "253001005": {
+        "name": "ショック！",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[197]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 24,
+            "effects": [
+                "Hybrid damage (22x, ATK & MAG) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 40% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2200,  2200]], [1, 1, 24, [-40,  -40,  -40,  -40,  3,  1]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": [
+                "Hybrid damage (23.9x, ATK & MAG) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 60% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2390,  2390]], [1, 1, 24, [-60,  -60,  -60,  -60,  3,  1]]]},
+        "strings": []
+    },
+    "253001006": {
+        "name": "ショック！",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[197]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 26,
+            "effects": [
+                "Hybrid damage (25.6x, ATK & MAG) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 50% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2560,  2560]], [1, 1, 24, [-50,  -50,  -50,  -50,  3,  1]]]},
+        "max_level": {
+            "cost": 26,
+            "effects": [
+                "Hybrid damage (28x, ATK & MAG) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 70% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2800,  2800]], [1, 1, 24, [-70,  -70,  -70,  -70,  3,  1]]]},
+        "strings": []
+    },
+    "253001007": {
+        "name": "ショック！",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[197]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 28,
+            "effects": [
+                "Hybrid damage (28.6x, ATK & MAG) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 50% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2860,  2860]], [1, 1, 24, [-50,  -50,  -50,  -50,  3,  1]]]},
+        "max_level": {
+            "cost": 28,
+            "effects": [
+                "Hybrid damage (32x, ATK & MAG) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 74% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3200,  3200]], [1, 1, 24, [-74,  -74,  -74,  -74,  3,  1]]]},
         "strings": []
     },
     "253001103": {
@@ -23581,6 +23743,168 @@
                 "Inflict Stop (84%) for 5 turns on all enemies"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  390,  0]], [2, 1, 88, [84,  5]]]},
+        "strings": []
+    },
+    "253001305": {
+        "name": "完全アルテマ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[560]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 28,
+            "effects": [
+                "Magic damage (12x, MAG) to all enemies (ignore cover and reflect)",
+                "Gain 4 uses of the following skills for one turn:\n\tアルマゲスト (229124)\n\tグランドクロス (229129)\n\tダークホーリー (229121)\n\tデスペジャ (229130)\n\tナノフレア (229122)\n\tハリケーン (229123)\n\tミュート (229127)\n\tリタンジャ (229128)\n\t究極魔法・アルテマ (229125)"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  600,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 2, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 28,
+            "effects": [
+                "Magic damage (16x, MAG) to all enemies (ignore cover and reflect)",
+                "Gain 4 uses of the following skills for one turn:\n\tアルマゲスト (229124)\n\tグランドクロス (229129)\n\tダークホーリー (229121)\n\tデスペジャ (229130)\n\tナノフレア (229122)\n\tハリケーン (229123)\n\tミュート (229127)\n\tリタンジャ (229128)\n\t究極魔法・アルテマ (229125)"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  800,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 2, 1, 1, 0]]]},
+        "strings": []
+    },
+    "253001306": {
+        "name": "完全アルテマ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[560]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Magic damage (15x, MAG) to all enemies (ignore cover and reflect)",
+                "Gain 4 uses of the following skills for 2 turns:\n\tアルマゲスト (229124)\n\tグランドクロス (229129)\n\tダークホーリー (229121)\n\tデスペジャ (229130)\n\tナノフレア (229122)\n\tハリケーン (229123)\n\tミュート (229127)\n\tリタンジャ (229128)\n\t究極魔法・アルテマ (229125)"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  750,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 3, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Magic damage (20x, MAG) to all enemies (ignore cover and reflect)",
+                "Gain 4 uses of the following skills for 2 turns:\n\tアルマゲスト (229124)\n\tグランドクロス (229129)\n\tダークホーリー (229121)\n\tデスペジャ (229130)\n\tナノフレア (229122)\n\tハリケーン (229123)\n\tミュート (229127)\n\tリタンジャ (229128)\n\t究極魔法・アルテマ (229125)"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  1000,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 3, 1, 1, 0]]]},
+        "strings": []
+    },
+    "253001307": {
+        "name": "完全アルテマ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[560]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Magic damage (21x, MAG) to all enemies (ignore cover and reflect)",
+                "Gain 4 uses of the following skills for 3 turns:\n\tアルマゲスト (229124)\n\tグランドクロス (229129)\n\tダークホーリー (229121)\n\tデスペジャ (229130)\n\tナノフレア (229122)\n\tハリケーン (229123)\n\tミュート (229127)\n\tリタンジャ (229128)\n\t究極魔法・アルテマ (229125)"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  1050,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 4, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Magic damage (27x, MAG) to all enemies (ignore cover and reflect)",
+                "Gain 4 uses of the following skills for 3 turns:\n\tアルマゲスト (229124)\n\tグランドクロス (229129)\n\tダークホーリー (229121)\n\tデスペジャ (229130)\n\tナノフレア (229122)\n\tハリケーン (229123)\n\tミュート (229127)\n\tリタンジャ (229128)\n\t究極魔法・アルテマ (229125)"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  1350,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 4, 1, 1, 0]]]},
+        "strings": []
+    },
+    "253001403": {
+        "name": "アイツをやっつけろ砲",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[10,  10,  10,  10,  10,  50]],
+        "attack_frames": [[78,  88,  98,  108,  118,  128]],
+        "effect_frames": [[0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Magic damage (4x, SPR) to one enemy",
+                "Reduce damage taken by 20% to caster for 2 turns"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  9999,  400]], [0, 3, 101, [20,  2,  1]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Magic damage (4.9x, SPR) to one enemy",
+                "Reduce damage taken by 20% to caster for 2 turns"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  9999,  490]], [0, 3, 101, [20,  2,  1]]]},
+        "strings": []
+    },
+    "253001404": {
+        "name": "アイツをやっつけろ砲",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[10,  10,  10,  10,  10,  50]],
+        "attack_frames": [[78,  88,  98,  108,  118,  128]],
+        "effect_frames": [[0,  126]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Magic damage (5x, SPR) to one enemy",
+                "Reduce damage taken by 30% to caster for 2 turns"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  9999,  500]], [0, 3, 101, [30,  2,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Magic damage (6.4x, SPR) to one enemy",
+                "Reduce damage taken by 30% to caster for 2 turns"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  9999,  640]], [0, 3, 101, [30,  2,  1]]]},
+        "strings": []
+    },
+    "253001405": {
+        "name": "アイツをやっつけろ砲",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[10,  10,  10,  10,  10,  50]],
+        "attack_frames": [[78,  88,  98,  108,  118,  128]],
+        "effect_frames": [[0,  126,  10]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Magic damage (6x, SPR) to one enemy",
+                "Reduce damage taken by 40% to caster for 2 turns"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  9999,  600]], [0, 3, 101, [40,  2,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Magic damage (7.9x, SPR) to one enemy",
+                "Reduce damage taken by 40% to caster for 2 turns"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  9999,  790]], [0, 3, 101, [40,  2,  1]]]},
         "strings": []
     },
     "254000105": {
@@ -30578,7 +30902,7 @@
                 "Reduce resistance to Fire, Water, Wind and Earth by 50% for 5 turns to one enemy",
                 "Increase damage of the following skills by 300% for 5 turns:\n\tオニオンシュレッダー (228551)\n\tオニオンメテオ (508622)\n\tハックトゥピーシーズ (508620)"
             ],
-            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1200,  0]], [1, 1, 33, [-50,  0,  0,  -50,  -50,  -50,  0,  0,  1,  5]], [0, 3, 136, [[228551,  508620,  508622], 0, 0, 300, 5, 1]]]},
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1200,  0]], [1, 1, 33, [-50,  0,  0,  -50,  -50,  -50,  0,  0,  1,  5]], [0, 3, 136, [[228551,  508620,  508622], 0, 0, 300, 5, 1, 1112, 1]]]},
         "max_level": {
             "cost": 24,
             "effects": [
@@ -30586,7 +30910,7 @@
                 "Reduce resistance to Fire, Water, Wind and Earth by 80% for 5 turns to one enemy",
                 "Increase damage of the following skills by 300% for 5 turns:\n\tオニオンシュレッダー (228551)\n\tオニオンメテオ (508622)\n\tハックトゥピーシーズ (508620)"
             ],
-            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1600,  0]], [1, 1, 33, [-80,  0,  0,  -80,  -80,  -80,  0,  0,  1,  5]], [0, 3, 136, [[228551,  508620,  508622], 0, 0, 300, 5, 1]]]},
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1600,  0]], [1, 1, 33, [-80,  0,  0,  -80,  -80,  -80,  0,  0,  1,  5]], [0, 3, 136, [[228551,  508620,  508622], 0, 0, 300, 5, 1, 1112, 1]]]},
         "strings": []
     },
     "900000317": {
