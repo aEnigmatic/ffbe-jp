@@ -13259,6 +13259,381 @@
             "effects_raw": [[1, 2, 68, [2,  100]], [1, 2, 3, [200,  0,  0,  0,  3,  1,  0]]]},
         "strings": []
     },
+    "100019505": {
+        "name": "インビンシブル・ハイウィンド",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[30]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 2,
+        "damage_type": "Physical",
+        "element_inflict": ["Wind"],
+        "levels": 20,
+        "min_level": {
+            "cost": 22,
+            "effects": ["Physical wind damage (12.2x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  610,  -50]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": ["Physical wind damage (16x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  800,  -50]]]},
+        "strings": []
+    },
+    "100019506": {
+        "name": "インビンシブル・ハイウィンド",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[30]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 2,
+        "damage_type": "Physical",
+        "element_inflict": ["Wind"],
+        "levels": 25,
+        "min_level": {
+            "cost": 27,
+            "effects": ["Physical wind damage (15.2x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  760,  -50]]]},
+        "max_level": {
+            "cost": 27,
+            "effects": ["Physical wind damage (20x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  1000,  -50]]]},
+        "strings": []
+    },
+    "100019507": {
+        "name": "インビンシブル・ハイウィンド",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[30]],
+        "effect_frames": [[0,  0,  0,  0,  0]],
+        "move_type": 2,
+        "damage_type": "Physical",
+        "element_inflict": ["Wind"],
+        "levels": 30,
+        "min_level": {
+            "cost": 35,
+            "effects": ["Physical wind damage (22.2x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  1110,  -50]]]},
+        "max_level": {
+            "cost": 35,
+            "effects": ["Physical wind damage (28x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  1400,  -50]]]},
+        "strings": []
+    },
+    "100019604": {
+        "name": "ノーピクチャーノーライフ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[190]],
+        "effect_frames": [[0,  0], [0,  187,  187]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Reduce DEF and SPR by 40% for 3 turns to all enemies",
+                "Increase DEF and SPR by 70% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  -40,  0,  -40,  3,  1]], [2, 2, 3, [0,  70,  0,  70,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Reduce DEF and SPR by 54% for 3 turns to all enemies",
+                "Increase DEF and SPR by 84% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  -54,  0,  -54,  3,  1]], [2, 2, 3, [0,  84,  0,  84,  3,  1,  0]]]},
+        "strings": []
+    },
+    "100019605": {
+        "name": "ノーピクチャーノーライフ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[190]],
+        "effect_frames": [[0,  0,  0], [0,  187,  187]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Reduce DEF and SPR by 45% for 3 turns to all enemies",
+                "Increase DEF and SPR by 75% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  -45,  0,  -45,  3,  1]], [2, 2, 3, [0,  75,  0,  75,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Reduce DEF and SPR by 64% for 3 turns to all enemies",
+                "Increase DEF and SPR by 94% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  -64,  0,  -64,  3,  1]], [2, 2, 3, [0,  94,  0,  94,  3,  1,  0]]]},
+        "strings": []
+    },
+    "100019606": {
+        "name": "ノーピクチャーノーライフ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[190]],
+        "effect_frames": [[0,  0,  0,  0], [0,  187,  187]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Reduce DEF and SPR by 50% for 3 turns to all enemies",
+                "Increase DEF and SPR by 80% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  -50,  0,  -50,  3,  1]], [2, 2, 3, [0,  80,  0,  80,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Reduce DEF and SPR by 74% for 3 turns to all enemies",
+                "Increase DEF and SPR by 104% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  -74,  0,  -74,  3,  1]], [2, 2, 3, [0,  104,  0,  104,  3,  1,  0]]]},
+        "strings": []
+    },
+    "100019704": {
+        "name": "大将の仕事道具",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[10,  10,  10,  10,  60]],
+        "attack_frames": [[108,  114,  126,  132,  146]],
+        "effect_frames": [[0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (5x, ATK) to one enemy",
+                "Reduce DEF by 50% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  500,  0]], [1, 1, 24, [0,  -50,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (6.4x, ATK) to one enemy",
+                "Reduce DEF by 50% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  640,  0]], [1, 1, 24, [0,  -50,  0,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100019705": {
+        "name": "大将の仕事道具",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[10,  10,  10,  10,  60]],
+        "attack_frames": [[108,  114,  126,  132,  146]],
+        "effect_frames": [[0,  0,  144]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (5.5x, ATK) to one enemy",
+                "Reduce DEF by 60% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  550,  0]], [1, 1, 24, [0,  -60,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (7.4x, ATK) to one enemy",
+                "Reduce DEF by 60% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  740,  0]], [1, 1, 24, [0,  -60,  0,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100019706": {
+        "name": "大将の仕事道具",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[10,  10,  10,  10,  60]],
+        "attack_frames": [[108,  114,  126,  132,  146]],
+        "effect_frames": [[0,  0,  144]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (6x, ATK) to one enemy",
+                "Reduce DEF by 65% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  600,  0]], [1, 1, 24, [0,  -65,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (8.4x, ATK) to one enemy",
+                "Reduce DEF by 65% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  840,  0]], [1, 1, 24, [0,  -65,  0,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100019803": {
+        "name": "シグナルバレット",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[33,  33,  34]],
+        "attack_frames": [[196,  216,  236]],
+        "effect_frames": [[0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": ["Physical damage (3x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  150,  -50]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": ["Physical damage (4.8x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  240,  -50]]]},
+        "strings": []
+    },
+    "100019804": {
+        "name": "シグナルバレット",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[33,  33,  34]],
+        "attack_frames": [[196,  216,  236]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": ["Physical damage (4x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  200,  -50]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": ["Physical damage (6.8x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  340,  -50]]]},
+        "strings": []
+    },
+    "100019805": {
+        "name": "シグナルバレット",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[33,  33,  34]],
+        "attack_frames": [[196,  216,  236]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Physical damage (5x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  250,  -50]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Physical damage (8.8x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  440,  -50]]]},
+        "strings": []
+    },
+    "100019905": {
+        "name": "ロード・オブ・エレメンタル",
+        "cost": 0,
+        "attack_count": [16],
+        "attack_damage": [[4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  13,  13,  7,  8,  15]],
+        "attack_frames": [[40,  49,  56,  65,  72,  81,  88,  97,  104,  113,  120,  174,  194,  214,  234,  254]],
+        "effect_frames": [[0,  0,  0,  160,  270,  270]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 28,
+            "effects": [
+                "Hybrid damage (26x, ATK & MAG) to all enemies",
+                "Reduce resistance to Fire, Lightning, Water and Wind by 40% for 3 turns to all enemies",
+                "Restore 240 MP split over 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2600,  2600]], [2, 1, 33, [-40,  0,  -40,  -40,  -40,  0,  0,  0,  1,  3]], [0, 3, 30, [0,  1,  240,  3]]]},
+        "max_level": {
+            "cost": 28,
+            "effects": [
+                "Hybrid damage (29.8x, ATK & MAG) to all enemies",
+                "Reduce resistance to Fire, Lightning, Water and Wind by 59% for 3 turns to all enemies",
+                "Restore 240 MP split over 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2980,  2980]], [2, 1, 33, [-59,  0,  -59,  -59,  -59,  0,  0,  0,  1,  3]], [0, 3, 30, [0,  1,  240,  3]]]},
+        "strings": []
+    },
+    "100019906": {
+        "name": "ロード・オブ・エレメンタル",
+        "cost": 0,
+        "attack_count": [16],
+        "attack_damage": [[4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  13,  13,  7,  8,  15]],
+        "attack_frames": [[40,  49,  56,  65,  72,  81,  88,  97,  104,  113,  120,  174,  194,  214,  234,  254]],
+        "effect_frames": [[0,  0,  0,  160,  270,  270]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Hybrid damage (28x, ATK & MAG) to all enemies",
+                "Reduce resistance to Fire, Lightning, Water and Wind by 50% for 3 turns to all enemies",
+                "Restore 360 MP split over 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2800,  2800]], [2, 1, 33, [-50,  0,  -50,  -50,  -50,  0,  0,  0,  1,  3]], [0, 3, 30, [0,  1,  360,  3]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Hybrid damage (32.8x, ATK & MAG) to all enemies",
+                "Reduce resistance to Fire, Lightning, Water and Wind by 74% for 3 turns to all enemies",
+                "Restore 360 MP split over 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3280,  3280]], [2, 1, 33, [-74,  0,  -74,  -74,  -74,  0,  0,  0,  1,  3]], [0, 3, 30, [0,  1,  360,  3]]]},
+        "strings": []
+    },
+    "100019907": {
+        "name": "ロード・オブ・エレメンタル",
+        "cost": 0,
+        "attack_count": [16],
+        "attack_damage": [[4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  13,  13,  7,  8,  15]],
+        "attack_frames": [[40,  49,  56,  65,  72,  81,  88,  97,  104,  113,  120,  174,  194,  214,  234,  254]],
+        "effect_frames": [[0,  0,  0,  160,  270,  270,  0]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Hybrid damage (30x, ATK & MAG) to all enemies",
+                "Reduce resistance to Fire, Lightning, Water and Wind by 60% for 3 turns to all enemies",
+                "Restore 480 MP split over 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3000,  3000]], [2, 1, 33, [-60,  0,  -60,  -60,  -60,  0,  0,  0,  1,  3]], [0, 3, 30, [0,  1,  480,  3]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Hybrid damage (36x, ATK & MAG) to all enemies",
+                "Reduce resistance to Fire, Lightning, Water and Wind by 80% for 3 turns to all enemies",
+                "Restore 480 MP split over 3 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3600,  3600]], [2, 1, 33, [-80,  0,  -80,  -80,  -80,  0,  0,  0,  1,  3]], [0, 3, 30, [0,  1,  480,  3]]]},
+        "strings": []
+    },
     "201000104": {
         "name": "シャイニングソード",
         "cost": 0,
