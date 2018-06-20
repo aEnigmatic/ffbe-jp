@@ -13259,6 +13259,312 @@
             "effects_raw": [[1, 2, 68, [2,  100]], [1, 2, 3, [200,  0,  0,  0,  3,  1,  0]]]},
         "strings": []
     },
+    "100019105": {
+        "name": "幻想憑依・狐火",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  45]],
+        "attack_frames": [[86,  96,  106,  116,  126,  136,  146,  156,  166,  176,  229,  372]],
+        "effect_frames": [[0,  0,  200,  200,  1,  1], [269,  269]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "Hybrid damage (20.1x, ATK & MAG) to one enemy",
+                "Increase ATK and MAG by 170% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2010,  2010]], [0, 3, 3, [170,  0,  170,  0,  3,  1,  1]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "Hybrid damage (22x, ATK & MAG) to one enemy",
+                "Increase ATK and MAG by 170% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2200,  2200]], [0, 3, 3, [170,  0,  170,  0,  3,  1,  1]]]},
+        "strings": []
+    },
+    "100019106": {
+        "name": "幻想憑依・狐火",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  45]],
+        "attack_frames": [[86,  96,  106,  116,  126,  136,  146,  156,  166,  176,  229,  372]],
+        "effect_frames": [[0,  200,  1,  1], [269,  269]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 26,
+            "effects": [
+                "Hybrid damage (23.6x, ATK & MAG) to one enemy",
+                "Increase ATK and MAG by 200% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2360,  2360]], [0, 3, 3, [200,  0,  200,  0,  3,  1,  1]]]},
+        "max_level": {
+            "cost": 26,
+            "effects": [
+                "Hybrid damage (26x, ATK & MAG) to one enemy",
+                "Increase ATK and MAG by 200% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2600,  2600]], [0, 3, 3, [200,  0,  200,  0,  3,  1,  1]]]},
+        "strings": []
+    },
+    "100019107": {
+        "name": "幻想憑依・狐火",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  45]],
+        "attack_frames": [[86,  96,  106,  116,  126,  136,  146,  156,  166,  176,  229,  372]],
+        "effect_frames": [[0,  200,  1,  1,  0,  200], [269,  269]],
+        "move_type": 1,
+        "damage_type": "Hybrid",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Hybrid damage (27.1x, ATK & MAG) to one enemy",
+                "Increase ATK and MAG by 230% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2710,  2710]], [0, 3, 3, [230,  0,  230,  0,  3,  1,  1]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Hybrid damage (30x, ATK & MAG) to one enemy",
+                "Increase ATK and MAG by 230% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3000,  3000]], [0, 3, 3, [230,  0,  230,  0,  3,  1,  1]]]},
+        "strings": []
+    },
+    "100019205": {
+        "name": "モルボルバイト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[156]],
+        "effect_frames": [[0,  0,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 28,
+            "effects": [
+                "Physical damage (18.1x, ATK) to all enemies",
+                "Inflict 4 random status effects (60%) to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1810,  0,  0,  0]], [2, 1, 34, [60,  60,  60,  60,  60,  60,  60,  60,  1,  4]]]},
+        "max_level": {
+            "cost": 28,
+            "effects": [
+                "Physical damage (20x, ATK) to all enemies",
+                "Inflict 4 random status effects (60%) to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2000,  0,  0,  0]], [2, 1, 34, [60,  60,  60,  60,  60,  60,  60,  60,  1,  4]]]},
+        "strings": []
+    },
+    "100019206": {
+        "name": "モルボルバイト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[156]],
+        "effect_frames": [[0,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (20.6x, ATK) to all enemies",
+                "Inflict 5 random status effects (70%) to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2060,  0,  0,  0]], [2, 1, 34, [70,  70,  70,  70,  70,  70,  70,  70,  1,  5]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (23x, ATK) to all enemies",
+                "Inflict 5 random status effects (70%) to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2300,  0,  0,  0]], [2, 1, 34, [70,  70,  70,  70,  70,  70,  70,  70,  1,  5]]]},
+        "strings": []
+    },
+    "100019207": {
+        "name": "モルボルバイト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[156]],
+        "effect_frames": [[0,  0,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Physical damage (23.1x, ATK) to all enemies",
+                "Inflict 6 random status effects (80%) to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2310,  0,  0,  0]], [2, 1, 34, [80,  80,  80,  80,  80,  80,  80,  80,  1,  6]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Physical damage (26x, ATK) to all enemies",
+                "Inflict 6 random status effects (80%) to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2600,  0,  0,  0]], [2, 1, 34, [80,  80,  80,  80,  80,  80,  80,  80,  1,  6]]]},
+        "strings": []
+    },
+    "100019304": {
+        "name": "ダーティ・コンビネーション",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[8,  8,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  29]],
+        "attack_frames": [[75,  81,  86,  91,  96,  101,  108,  118,  125,  133,  142,  152,  163,  184]],
+        "effect_frames": [[1,  1,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 15,
+            "effects": [
+                "Physical damage (6.3x, ATK) to all enemies",
+                "Reduce SPR by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  630,  0]], [2, 1, 24, [0,  0,  0,  -50,  3,  1]]]},
+        "max_level": {
+            "cost": 15,
+            "effects": [
+                "Physical damage (7x, ATK) to all enemies",
+                "Reduce SPR by 50% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  700,  0]], [2, 1, 24, [0,  0,  0,  -50,  3,  1]]]},
+        "strings": []
+    },
+    "100019305": {
+        "name": "ダーティ・コンビネーション",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[8,  8,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  29]],
+        "attack_frames": [[75,  81,  86,  91,  96,  101,  108,  118,  125,  133,  142,  152,  163,  184]],
+        "effect_frames": [[0,  1,  1,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 17,
+            "effects": [
+                "Physical damage (7.05x, ATK) to all enemies",
+                "Reduce SPR by 60% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  705,  0]], [2, 1, 24, [0,  0,  0,  -60,  3,  1]]]},
+        "max_level": {
+            "cost": 17,
+            "effects": [
+                "Physical damage (8x, ATK) to all enemies",
+                "Reduce SPR by 60% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  800,  0]], [2, 1, 24, [0,  0,  0,  -60,  3,  1]]]},
+        "strings": []
+    },
+    "100019306": {
+        "name": "ダーティ・コンビネーション",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[8,  8,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  29]],
+        "attack_frames": [[75,  81,  86,  91,  96,  101,  108,  118,  125,  133,  142,  152,  163,  184]],
+        "effect_frames": [[0,  1,  1,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 19,
+            "effects": [
+                "Physical damage (7.8x, ATK) to all enemies",
+                "Reduce SPR by 70% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  780,  0]], [2, 1, 24, [0,  0,  0,  -70,  3,  1]]]},
+        "max_level": {
+            "cost": 19,
+            "effects": [
+                "Physical damage (9x, ATK) to all enemies",
+                "Reduce SPR by 70% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  900,  0]], [2, 1, 24, [0,  0,  0,  -70,  3,  1]]]},
+        "strings": []
+    },
+    "100019403": {
+        "name": "スパーキング・デストロイヤー",
+        "cost": 0,
+        "attack_count": [17],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  52]],
+        "attack_frames": [[139,  145,  157,  160,  166,  172,  180,  190,  196,  202,  208,  214,  220,  226,  232,  238,  244]],
+        "effect_frames": [[0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 13,
+            "effects": ["Physical damage (5.5x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  550,  0]]]},
+        "max_level": {
+            "cost": 13,
+            "effects": ["Physical damage (6.4x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  640,  0]]]},
+        "strings": []
+    },
+    "100019404": {
+        "name": "スパーキング・デストロイヤー",
+        "cost": 0,
+        "attack_count": [17],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  52]],
+        "attack_frames": [[139,  145,  157,  160,  166,  172,  180,  190,  196,  202,  208,  214,  220,  226,  232,  238,  244]],
+        "effect_frames": [[0,  236]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 15,
+            "effects": ["Physical damage (5.8x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  580,  0]]]},
+        "max_level": {
+            "cost": 15,
+            "effects": ["Physical damage (7.2x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  720,  0]]]},
+        "strings": []
+    },
+    "100019405": {
+        "name": "スパーキング・デストロイヤー",
+        "cost": 0,
+        "attack_count": [17],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  52]],
+        "attack_frames": [[139,  145,  157,  160,  166,  172,  180,  190,  196,  202,  208,  214,  220,  226,  232,  238,  244]],
+        "effect_frames": [[0,  236,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 17,
+            "effects": ["Physical damage (6.1x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  610,  0]]]},
+        "max_level": {
+            "cost": 17,
+            "effects": ["Physical damage (8x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  800,  0]]]},
+        "strings": []
+    },
     "100019505": {
         "name": "インビンシブル・ハイウィンド",
         "cost": 0,

@@ -100252,6 +100252,191 @@
             }
         ]
     },
+    "8290101": {
+        "dungeon_id": 82901,
+        "name": "オーダーズと魔導の遺跡・中級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 20,
+        "exp": 50,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106305900, 100]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8290102": {
+        "dungeon_id": 82901,
+        "name": "オーダーズと魔導の遺跡・上級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 50,
+        "exp": 155,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106305900, 200]
+            },
+            {
+                "string": "闇属性で敵にダメージを与える",
+                "parsed": ["Deal Dark damage"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8290103": {
+        "dungeon_id": 82901,
+        "name": "オーダーズと魔導の遺跡・超級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 85,
+        "exp": 300,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106305900, 300]
+            },
+            {
+                "string": "闇属性で2回以上敵にダメージを与える",
+                "parsed": ["Deal Dark damage 2 times or more"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "アイテム使用回数5回以内",
+                "parsed": ["Use no more than 5 items"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8290104": {
+        "dungeon_id": 82901,
+        "name": "オーダーズと魔導の遺跡・覚醒級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 117,
+        "exp": 365,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "ＬＢを使用してクリア",
+                "parsed": ["Use a limit burst"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "3ターン以内にクリア",
+                "parsed": ["Clear within 3 turns"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "アイテム使用回数3回以内",
+                "parsed": ["Use no more than 3 items"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "8300101": {
+        "dungeon_id": 83001,
+        "name": "魔導の遺跡・中枢区画",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 150,
+        "exp": 1100,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["EQUIP", 403046200, 1]
+            },
+            {
+                "string": "「緑」魔法を使用してクリア",
+                "parsed": ["Use Green magic"],
+                "reward": ["ITEM", 106305900, 10000]
+            },
+            {
+                "string": "ＬＢを使用せずクリア",
+                "parsed": ["No limit bursts"],
+                "reward": ["KEYITEM", 50, 2]
+            },
+            {
+                "string": "氷・雷・水・土属性で敵にダメージを与える",
+                "parsed": ["Deal Ice damage", "Deal Lightning damage", "Deal Water damage", "Deal Earth damage"],
+                "reward": ["UNIT", 904000104, 1]
+            }
+        ]
+    },
     "8980101": {
         "dungeon_id": 89801,
         "name": "十二武具・気高き軍師",
