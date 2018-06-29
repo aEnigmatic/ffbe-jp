@@ -56788,12 +56788,12 @@
             },
             {
                 "string": "「無の境地」を使用してクリア",
-                "parsed": ["Use "],
+                "parsed": ["Use Way of the Void"],
                 "reward": ["UNIT", 900002101, 3]
             },
             {
                 "string": "「ブレイドスレイブ」を使用してクリア",
-                "parsed": ["Use "],
+                "parsed": ["Use Servant of the Blade"],
                 "reward": ["ITEM", 106200100, 1]
             }
         ]
@@ -56825,12 +56825,12 @@
             },
             {
                 "string": "「リデュースソーサリー」を使用してクリア",
-                "parsed": ["Use "],
+                "parsed": ["Use Sorcercy Dampener"],
                 "reward": ["UNIT", 900005101, 3]
             },
             {
                 "string": "「マインドホーリーフラット」を使用してクリア",
-                "parsed": ["Use "],
+                "parsed": ["Use Holy Mind"],
                 "reward": ["ITEM", 106200100, 1]
             }
         ]
@@ -99264,7 +99264,7 @@
         "challenges": [
             {
                 "string": "白魔法「デスペル」「デスペガ」を使用せずにクリア",
-                "parsed": ["Don't use Dispel", "Don't use Dispelga"],
+                "parsed": ["Unknown type 8", "Unknown type 8"],
                 "reward": ["ITEM", 107003100, 5]
             },
             {
@@ -100433,6 +100433,489 @@
             {
                 "string": "氷・雷・水・土属性で敵にダメージを与える",
                 "parsed": ["Deal Ice damage", "Deal Lightning damage", "Deal Water damage", "Deal Earth damage"],
+                "reward": ["UNIT", 904000104, 1]
+            }
+        ]
+    },
+    "8310101": {
+        "dungeon_id": 83101,
+        "name": "ゾットの塔・初級",
+        "type": "BATTLE",
+        "wave_count": 2,
+        "cost_type": "NRG",
+        "cost": 3,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["KEYITEM", 50, 1],
+        "gil": 20,
+        "exp": 50,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101000300, 1]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "「白」魔法を使用してクリア",
+                "parsed": ["Use White magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8310102": {
+        "dungeon_id": 83101,
+        "name": "ゾットの塔・中級",
+        "type": "BATTLE",
+        "wave_count": 3,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 106306000, 200],
+        "gil": 35,
+        "exp": 105,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 102007100, 1]
+            },
+            {
+                "string": "ＬＢを使用せずクリア",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "「黒」魔法を使用してクリア",
+                "parsed": ["Use Black magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8310103": {
+        "dungeon_id": 83101,
+        "name": "ゾットの塔・上級",
+        "type": "BATTLE",
+        "wave_count": 3,
+        "cost_type": "NRG",
+        "cost": 8,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 106306000, 300],
+        "gil": 60,
+        "exp": 208,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101003100, 1]
+            },
+            {
+                "string": "魔法を2回以上使用する",
+                "parsed": ["Use magic 2 or more times"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8310104": {
+        "dungeon_id": 83101,
+        "name": "ゾットの塔・超級",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 106306000, 500],
+        "gil": 80,
+        "exp": 310,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101002100, 1]
+            },
+            {
+                "string": "光属性で2回以上敵にダメージを与える",
+                "parsed": ["Deal Light damage 2 times or more"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8310105": {
+        "dungeon_id": 83101,
+        "name": "ゾットの塔・覚醒級",
+        "type": "BATTLE",
+        "wave_count": 5,
+        "cost_type": "NRG",
+        "cost": 13,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 500],
+        "gil": 113,
+        "exp": 468,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "幻獣を召喚してクリア",
+                "parsed": ["Evoke an esper"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["MATERIA", 504100110, 1]
+            }
+        ]
+    },
+    "8310106": {
+        "dungeon_id": 83101,
+        "name": "ゾットの塔・魔人級",
+        "type": "BATTLE",
+        "wave_count": 5,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 106306000, 5000],
+        "gil": 353,
+        "exp": 1450,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "全ての魔法を使用せずにクリア",
+                "parsed": ["No magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "ＬＢを4回以上使用する",
+                "parsed": ["Use 4 or more limit bursts"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "8310107": {
+        "dungeon_id": 83101,
+        "name": "一日一回！スペシャルクエスト 7/1",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 105,
+        "challenges": []
+    },
+    "8310108": {
+        "dungeon_id": 83101,
+        "name": "一日一回！スペシャルクエスト 7/2",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 105,
+        "challenges": []
+    },
+    "8310109": {
+        "dungeon_id": 83101,
+        "name": "一日一回！スペシャルクエスト 7/3",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 105,
+        "challenges": []
+    },
+    "8310110": {
+        "dungeon_id": 83101,
+        "name": "一日一回！スペシャルクエスト 7/4",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 105,
+        "challenges": []
+    },
+    "8310111": {
+        "dungeon_id": 83101,
+        "name": "一日一回！スペシャルクエスト 7/5",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 105,
+        "challenges": []
+    },
+    "8310112": {
+        "dungeon_id": 83101,
+        "name": "一日一回！スペシャルクエスト 7/6",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 105,
+        "challenges": []
+    },
+    "8310113": {
+        "dungeon_id": 83101,
+        "name": "一日一回！スペシャルクエスト 7/7",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 105,
+        "challenges": []
+    },
+    "8310114": {
+        "dungeon_id": 83101,
+        "name": "一日一回！スペシャルクエスト 7/8",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 105,
+        "challenges": []
+    },
+    "8310115": {
+        "dungeon_id": 83101,
+        "name": "一日一回！スペシャルクエスト 7/9",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 105,
+        "challenges": []
+    },
+    "8310116": {
+        "dungeon_id": 83101,
+        "name": "一日一回！スペシャルクエスト 7/10",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 105,
+        "challenges": []
+    },
+    "8310117": {
+        "dungeon_id": 83101,
+        "name": "一日一回！スペシャルクエスト 7/11",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 105,
+        "challenges": []
+    },
+    "8310118": {
+        "dungeon_id": 83101,
+        "name": "一日一回！スペシャルクエスト 7/12",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 105,
+        "challenges": []
+    },
+    "8310119": {
+        "dungeon_id": 83101,
+        "name": "一日一回！スペシャルクエスト 7/13",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 105,
+        "challenges": []
+    },
+    "8310120": {
+        "dungeon_id": 83101,
+        "name": "一日一回！スペシャルクエスト 7/14",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 5,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 35,
+        "exp": 105,
+        "challenges": []
+    },
+    "8320101": {
+        "dungeon_id": 83201,
+        "name": "ドワーフの城",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["UNIT", 904000104, 1],
+        "gil": 400,
+        "exp": 1500,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["EQUIP", 409026200, 1]
+            },
+            {
+                "string": "アイテム使用回数3回以内",
+                "parsed": ["Use no more than 3 items"],
+                "reward": ["ITEM", 106306000, 10000]
+            },
+            {
+                "string": "「ゴルベーザ」を魔法でフィニッシュ",
+                "parsed": ["Defeat 505121000 with magic"],
+                "reward": ["MATERIA", 504226896, 1]
+            },
+            {
+                "string": "「黒龍」を幻獣でフィニッシュ",
+                "parsed": ["Defeat 307121000 with an esper"],
                 "reward": ["UNIT", 904000104, 1]
             }
         ]
@@ -104608,6 +105091,43 @@
             {
                 "string": "ＬＢを8回以上使用する",
                 "parsed": ["Use 8 or more limit bursts"],
+                "reward": ["KEYITEM", 260, 1]
+            }
+        ]
+    },
+    "8993601": {
+        "dungeon_id": 89737,
+        "name": "闇の魔物たち 真降臨",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 1500,
+        "exp": 3100,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["EQUIP", 309004100, 1]
+            },
+            {
+                "string": "雷属性で6回以上敵にダメージを与える",
+                "parsed": ["Deal Lightning damage 6 times or more"],
+                "reward": ["UNIT", 904000105, 1]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["KEYITEM", 300, 50]
+            },
+            {
+                "string": "「リヴァイアサン」「フェニックス」を召喚してクリア",
+                "parsed": ["Evoke Leviathan", "Evoke Phoenix"],
                 "reward": ["KEYITEM", 260, 1]
             }
         ]
@@ -123283,6 +123803,1116 @@
             {
                 "string": "「大型対空兵器」を幻獣でフィニッシュ",
                 "parsed": ["Defeat 306111004 with an esper"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620101": {
+        "dungeon_id": 116201,
+        "name": "明暗の谷・レインを追って",
+        "type": "BATTLE",
+        "wave_count": 3,
+        "cost_type": "NRG",
+        "cost": 8,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 155,
+        "exp": 380,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101001200, 1]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620102": {
+        "dungeon_id": 116201,
+        "name": "明暗の谷・見通せぬ道",
+        "type": "BATTLE",
+        "wave_count": 3,
+        "cost_type": "NRG",
+        "cost": 8,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 159,
+        "exp": 383,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 102007100, 1]
+            },
+            {
+                "string": "火属性で敵にダメージを与える",
+                "parsed": ["Deal Fire damage"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "「黒」魔法を使用してクリア",
+                "parsed": ["Use Black magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620103": {
+        "dungeon_id": 116201,
+        "name": "明暗の谷・迷う心",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 8,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 162,
+        "exp": 388,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101003100, 1]
+            },
+            {
+                "string": "雷属性で敵にダメージを与える",
+                "parsed": ["Deal Lightning damage"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "「回復」魔法を使用せずにクリア",
+                "parsed": ["No recovery magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620104": {
+        "dungeon_id": 116201,
+        "name": "明暗の谷・光と闇",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 8,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 170,
+        "exp": 390,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "「白」魔法を使用せずにクリア",
+                "parsed": ["No White magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "「クエレブレ」をＬＢでフィニッシュ",
+                "parsed": ["Defeat 207006004 with a limit burst"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620201": {
+        "dungeon_id": 116202,
+        "name": "人知れずの荒野・逃走",
+        "type": "BATTLE",
+        "wave_count": 3,
+        "cost_type": "NRG",
+        "cost": 9,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 192,
+        "exp": 425,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101000300, 1]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620202": {
+        "dungeon_id": 116202,
+        "name": "人知れずの荒野・増援",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 9,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 199,
+        "exp": 429,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106000100, 1]
+            },
+            {
+                "string": "雷属性で2回以上敵にダメージを与える",
+                "parsed": ["Deal Lightning damage 2 times or more"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "「黒」魔法を使用せずにクリア",
+                "parsed": ["No Black magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620203": {
+        "dungeon_id": 116202,
+        "name": "人知れずの荒野・途切れぬ追手",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 9,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 206,
+        "exp": 435,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101002100, 1]
+            },
+            {
+                "string": "1ターンに5CHAIN以上してクリア",
+                "parsed": ["Get a chain of 5 or more in one turn"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "雷・水属性で敵にダメージを与える",
+                "parsed": ["Deal Lightning damage", "Deal Water damage"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620204": {
+        "dungeon_id": 116202,
+        "name": "人知れずの荒野・かすかな光",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 9,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 212,
+        "exp": 438,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "氷・水属性で敵にダメージを与える",
+                "parsed": ["Deal Ice damage", "Deal Water damage"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "「野戦型A式魔導アーマー」を魔法でフィニッシュ",
+                "parsed": ["Defeat 206095001 with magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620301": {
+        "dungeon_id": 116203,
+        "name": "悲しみと嘆きの街ザッハ・変わらぬ絆",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 9,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 219,
+        "exp": 440,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101001200, 1]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620302": {
+        "dungeon_id": 116203,
+        "name": "悲しみと嘆きの街ザッハ・一心同体",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 9,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 224,
+        "exp": 449,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 102007100, 1]
+            },
+            {
+                "string": "「緑」魔法を使用してクリア",
+                "parsed": ["Use Green magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "魔法を2回以上使用する",
+                "parsed": ["Use magic 2 or more times"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620303": {
+        "dungeon_id": 116203,
+        "name": "悲しみと嘆きの街ザッハ・無敵の三人",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 9,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 229,
+        "exp": 455,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101003100, 1]
+            },
+            {
+                "string": "ＬＢを2回以上使用する",
+                "parsed": ["Use 2 or more limit bursts"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "全ての魔法を使用せずにクリア",
+                "parsed": ["No magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620304": {
+        "dungeon_id": 116203,
+        "name": "悲しみと嘆きの街ザッハ・力を合わせて",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 9,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 234,
+        "exp": 461,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "幻獣を召喚してクリア",
+                "parsed": ["Evoke an esper"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "「野戦型A式魔導アーマー」をＬＢでフィニッシュ",
+                "parsed": ["Defeat 206095001 with a limit burst"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620401": {
+        "dungeon_id": 116204,
+        "name": "魔導兵器生産工場・奇襲",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 264,
+        "exp": 522,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101000300, 1]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620402": {
+        "dungeon_id": 116204,
+        "name": "魔導兵器生産工場・防衛ライン",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 272,
+        "exp": 527,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106000100, 1]
+            },
+            {
+                "string": "雷属性で3回以上敵にダメージを与える",
+                "parsed": ["Deal Lightning damage 3 times or more"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "ELEMENT CHAINを1ターンに2回以上発生させる",
+                "parsed": ["Activate an element chain 2 times or more in one turn"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620403": {
+        "dungeon_id": 116204,
+        "name": "魔導兵器生産工場・三闘星のヒョウ",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 279,
+        "exp": 532,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "白魔法「デスペガ」を使用せずにクリア",
+                "parsed": ["Unknown type 8"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "「三闘星のヒョウ」を魔法でフィニッシュ",
+                "parsed": ["Defeat 305521000 with magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620404": {
+        "dungeon_id": 116204,
+        "name": "魔導兵器生産工場・新型魔導兵器",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 282,
+        "exp": 536,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "火属性で2回以上敵にダメージを与える",
+                "parsed": ["Deal Fire damage 2 times or more"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "「新型魔導兵器」戦を5ターン以内でクリア",
+                "parsed": ["Clear in 5 turns or less"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620501": {
+        "dungeon_id": 116205,
+        "name": "強制労働場・天才戦士",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 290,
+        "exp": 542,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101001200, 1]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620502": {
+        "dungeon_id": 116205,
+        "name": "強制労働場・続く試練",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 298,
+        "exp": 546,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 102007100, 1]
+            },
+            {
+                "string": "魔法を3回以上使用する",
+                "parsed": ["Use magic 3 or more times"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "「回復」魔法を使用せずにクリア",
+                "parsed": ["No recovery magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620503": {
+        "dungeon_id": 116205,
+        "name": "強制労働場・価値観",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 305,
+        "exp": 551,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101003100, 1]
+            },
+            {
+                "string": "雷属性で3回以上敵にダメージを与える",
+                "parsed": ["Deal Lightning damage 3 times or more"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "ＬＢを使用せずクリア",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620504": {
+        "dungeon_id": 116205,
+        "name": "強制労働場・七闘星のシャムリン",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 10,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 330,
+        "exp": 556,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "雷・土属性で各2回以上敵にダメージを与える",
+                "parsed": ["Deal Lightning damage 2 times or more", "Deal Earth damage 2 times or more"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "「七闘星のシャムリン」をＬＢでフィニッシュ",
+                "parsed": ["Defeat 305451000 with a limit burst"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620601": {
+        "dungeon_id": 116206,
+        "name": "新エネルギー変換施設・奪還",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 11,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 370,
+        "exp": 615,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101000300, 1]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620602": {
+        "dungeon_id": 116206,
+        "name": "新エネルギー変換施設・警報",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 11,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 375,
+        "exp": 624,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106000100, 1]
+            },
+            {
+                "string": "火属性で2回以上敵にダメージを与える",
+                "parsed": ["Deal Fire damage 2 times or more"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "全ての魔法を使用せずにクリア",
+                "parsed": ["No magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620603": {
+        "dungeon_id": 116206,
+        "name": "新エネルギー変換施設・不安",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 11,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 379,
+        "exp": 629,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101002100, 1]
+            },
+            {
+                "string": "ラムウを召喚してクリア",
+                "parsed": ["Evoke Ramuh"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "「緑」魔法を使用してクリア",
+                "parsed": ["Use Green magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620604": {
+        "dungeon_id": 116206,
+        "name": "新エネルギー変換施設・連戦",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 11,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 395,
+        "exp": 636,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101003100, 1]
+            },
+            {
+                "string": "魔法を2回以上使用する",
+                "parsed": ["Use magic 2 or more times"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "ＬＢを使用せずクリア",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620605": {
+        "dungeon_id": 116206,
+        "name": "新エネルギー変換施設・激闘",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 11,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 400,
+        "exp": 641,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "雷属性で3回以上敵にダメージを与える",
+                "parsed": ["Deal Lightning damage 3 times or more"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "「オベロン」戦を3ターン以内でクリア",
+                "parsed": ["Clear in 3 turns or less"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620701": {
+        "dungeon_id": 116207,
+        "name": "禁断の地・王の救出",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 12,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 410,
+        "exp": 701,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101001200, 1]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620702": {
+        "dungeon_id": 116207,
+        "name": "禁断の地・乾いた風",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 12,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 421,
+        "exp": 709,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 102007100, 1]
+            },
+            {
+                "string": "全ての魔法を使用せずにクリア",
+                "parsed": ["No magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "火・光属性で敵にダメージを与える",
+                "parsed": ["Deal Fire damage", "Deal Light damage"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620703": {
+        "dungeon_id": 116207,
+        "name": "禁断の地・近づく気配",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 12,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 430,
+        "exp": 715,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101003100, 1]
+            },
+            {
+                "string": "幻獣を2回以上召喚してクリア",
+                "parsed": ["Evoke 2 or more espers"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "ＬＢを使用せずクリア",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620704": {
+        "dungeon_id": 116207,
+        "name": "禁断の地・立ちふさがる影",
+        "type": "BATTLE",
+        "wave_count": 4,
+        "cost_type": "NRG",
+        "cost": 12,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 439,
+        "exp": 726,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 101002100, 1]
+            },
+            {
+                "string": "「黒」魔法を使用してクリア",
+                "parsed": ["Use Black magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "コンティニューせずにクリア",
+                "parsed": ["No continues"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "11620705": {
+        "dungeon_id": 116207,
+        "name": "禁断の地・九闘星のナギ",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 12,
+        "flags": {
+            "continue_allowed": true,
+            "escape_allowed": true
+        },
+        "reward": ["LAPIS", 0, 100],
+        "gil": 450,
+        "exp": 745,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "「回復」魔法を使用せずにクリア",
+                "parsed": ["No recovery magic"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "「九闘星のナギ」を魔法でフィニッシュ",
+                "parsed": ["Defeat 305291001 with magic"],
                 "reward": ["LAPIS", 1, 20]
             },
             {

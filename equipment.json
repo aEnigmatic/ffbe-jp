@@ -4591,6 +4591,37 @@
         "price_sell": 7500,
         "icon": "item_10349.png"
     },
+    "303005600": {
+        "name": "ダイヤセイバー",
+        "compendium_id": 1167,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 85,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "item_10308.png"
+    },
     "304000100": {
         "name": "虎鉄",
         "compendium_id": 21,
@@ -7060,6 +7091,37 @@
         "price_buy": 17000,
         "price_sell": 1700,
         "icon": "item_10921.png"
+    },
+    "306002600": {
+        "name": "だいちのハンマー(FFIV)",
+        "compendium_id": 1161,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 9,
+        "type": "Hammer",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [101030],
+        "effects": ["Grants 'マシーンキラー' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 90,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Fire"],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 34000,
+        "price_sell": 3400,
+        "icon": "item_10922.png"
     },
     "307000200": {
         "name": "ブロンズメイス",
@@ -9793,6 +9855,70 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_11325.png"
+    },
+    "309004000": {
+        "name": "じごくのつめ",
+        "compendium_id": 1162,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 16,
+        "type": "Fist",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 79,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": {
+                "Poison": 50
+            }
+        },
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "item_11639.png"
+    },
+    "309004100": {
+        "name": "タイガーファング(FFBE)",
+        "compendium_id": 1166,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 16,
+        "type": "Fist",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [229552],
+        "effects": ["Grants '奥義・水棲噛み' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 173,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_11641.png"
     },
     "309020200": {
         "name": "ブロンズナックル",
@@ -14064,6 +14190,37 @@
         "price_sell": 1200,
         "icon": "item_11442.png"
     },
+    "313005000": {
+        "name": "ヒールガン",
+        "compendium_id": 1168,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 14,
+        "type": "Gun",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [229550],
+        "effects": ["Grants 'ヒールショット' ability."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 76,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 24000,
+        "price_sell": 2400,
+        "icon": "item_11443.png"
+    },
     "314000200": {
         "name": "レザーウィップ",
         "compendium_id": 92,
@@ -16648,6 +16805,37 @@
         "price_sell": 2400,
         "icon": "item_40125.png"
     },
+    "401002800": {
+        "name": "忘れられた古盾",
+        "compendium_id": 1169,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 30,
+        "type": "Light Shield",
+        "slot_id": 2,
+        "slot": "Shield",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [229551],
+        "effects": ["Grants '忘れられた古盾' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 34,
+            "MAG": 0,
+            "SPR": 22,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 24000,
+        "price_sell": 2400,
+        "icon": "item_40126.png"
+    },
     "402000200": {
         "name": "ラージシールド",
         "compendium_id": 117,
@@ -17577,6 +17765,39 @@
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "item_40230.png"
+    },
+    "402003200": {
+        "name": "ダイヤシールド(FFIV)",
+        "compendium_id": 1163,
+        "compendium_shown": true,
+        "rarity": 4,
+        "type_id": 31,
+        "type": "Heavy Shield",
+        "slot_id": 2,
+        "slot": "Shield",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 30,
+            "MAG": 0,
+            "SPR": 25,
+            "element_resist": {
+                "Lightning": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 4500,
+        "price_sell": 450,
+        "icon": "item_40231.png"
     },
     "403000100": {
         "name": "皮の帽子",
@@ -19749,6 +19970,37 @@
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "item_30165.png"
+    },
+    "403046400": {
+        "name": "ガラスのマスク",
+        "compendium_id": 1164,
+        "compendium_shown": true,
+        "rarity": 4,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 35,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 1500,
+        "price_sell": 150,
+        "icon": "item_30164.png"
     },
     "404000200": {
         "name": "ブロンズヘルム",
@@ -24938,6 +25190,39 @@
         "price_buy": 150000,
         "price_sell": 15000,
         "icon": "item_20336.png"
+    },
+    "407004100": {
+        "name": "ゴルベーザの甲冑",
+        "compendium_id": 1159,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 52,
+        "type": "Heavy Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 45,
+            "MAG": 100,
+            "SPR": 0,
+            "element_resist": {
+                "Dark": 50
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_20337.png"
     },
     "408000100": {
         "name": "木綿のローブ",
@@ -33863,5 +34148,75 @@
         "price_buy": 20000,
         "price_sell": 2000,
         "icon": "item_50379.png"
+    },
+    "409026100": {
+        "name": "炎のマント",
+        "compendium_id": 1160,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100120, 100180],
+        "effects": [
+            "Grants '魔力+30%' passive.",
+            "Grants '精神+30%' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 20,
+            "SPR": 0,
+            "element_resist": {
+                "Fire": 20,
+                "Ice": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_50382.png"
+    },
+    "409026200": {
+        "name": "黒龍の鱗",
+        "compendium_id": 1165,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 30,
+            "SPR": 0,
+            "element_resist": {
+                "Dark": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_50383.png"
     }
 }
