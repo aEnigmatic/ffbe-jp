@@ -13940,6 +13940,306 @@
             "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3600,  3600]], [2, 1, 33, [-80,  0,  -80,  -80,  -80,  0,  0,  0,  1,  3]], [0, 3, 30, [0,  1,  480,  3]]]},
         "strings": []
     },
+    "100020005": {
+        "name": "必殺剣・雨曝",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  61]],
+        "attack_frames": [[3,  9,  15,  21,  27,  33,  39,  45,  51,  57,  63,  69,  75,  81]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 23,
+            "effects": [
+                "Physical damage (14x, ATK) to all enemies (ignore cover)",
+                "Gain 3 uses of the following skills for 2 turns:\n\t三十連斬 (229562)\n\t完全なる無の境地 (229569)\n\t明鏡・乱 (229564)\n\t明鏡・虚 (229571)\n\t明鏡・覇 (229565)\n\t明鏡・鋭 (229563)\n\t極・明鏡 (229561)\n\t氷砕　─凍─ (229566)\n\t炎熱　─灰─ (229567)\n\t無残　─石火─ (229568)\n\t真・明鏡 (229570)",
+                "Increase damage of the following skills by 100% for 2 turns:\n\t明鏡・乱 (229564)\n\t明鏡・覇 (229565)\n\t明鏡・鋭 (229563)"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  700,  -50]], [0, 3, 98, [3, 229574, -1, [229561,  229562,  229563,  229564,  229565,  229566,  229567,  229568,  229569,  229570,  229571], 3, 1, 1, 0]], [0, 3, 136, [[229563,  229564,  229565], 0, 0, 100, 2, 1, 1117, 0]]]},
+        "max_level": {
+            "cost": 23,
+            "effects": [
+                "Physical damage (17.8x, ATK) to all enemies (ignore cover)",
+                "Gain 3 uses of the following skills for 2 turns:\n\t三十連斬 (229562)\n\t完全なる無の境地 (229569)\n\t明鏡・乱 (229564)\n\t明鏡・虚 (229571)\n\t明鏡・覇 (229565)\n\t明鏡・鋭 (229563)\n\t極・明鏡 (229561)\n\t氷砕　─凍─ (229566)\n\t炎熱　─灰─ (229567)\n\t無残　─石火─ (229568)\n\t真・明鏡 (229570)",
+                "Increase damage of the following skills by 100% for 2 turns:\n\t明鏡・乱 (229564)\n\t明鏡・覇 (229565)\n\t明鏡・鋭 (229563)"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  890,  -50]], [0, 3, 98, [3, 229574, -1, [229561,  229562,  229563,  229564,  229565,  229566,  229567,  229568,  229569,  229570,  229571], 3, 1, 1, 0]], [0, 3, 136, [[229563,  229564,  229565], 0, 0, 100, 2, 1, 1117, 0]]]},
+        "strings": []
+    },
+    "100020006": {
+        "name": "必殺剣・雨曝",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  61]],
+        "attack_frames": [[3,  9,  15,  21,  27,  33,  39,  45,  51,  57,  63,  69,  75,  81]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 28,
+            "effects": [
+                "Physical damage (17x, ATK) to all enemies (ignore cover)",
+                "Gain 3 uses of the following skills for 2 turns:\n\t三十連斬 (229562)\n\t完全なる無の境地 (229569)\n\t明鏡・乱 (229564)\n\t明鏡・虚 (229571)\n\t明鏡・覇 (229565)\n\t明鏡・鋭 (229563)\n\t極・明鏡 (229561)\n\t氷砕　─凍─ (229566)\n\t炎熱　─灰─ (229567)\n\t無残　─石火─ (229568)\n\t真・明鏡 (229570)",
+                "Increase damage of the following skills by 200% for 2 turns:\n\t明鏡・乱 (229564)\n\t明鏡・覇 (229565)\n\t明鏡・鋭 (229563)",
+                "Increase damage of 極・明鏡 (229561) by 300% for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  850,  -50]], [0, 3, 98, [3, 229574, -1, [229561,  229562,  229563,  229564,  229565,  229566,  229567,  229568,  229569,  229570,  229571], 3, 1, 1, 0]], [0, 3, 136, [[229563,  229564,  229565], 0, 0, 200, 2, 1, 1117, 0]], [0, 3, 136, [229561,  0,  0,  300,  2,  1,  1118,  0]]]},
+        "max_level": {
+            "cost": 28,
+            "effects": [
+                "Physical damage (21.8x, ATK) to all enemies (ignore cover)",
+                "Gain 3 uses of the following skills for 2 turns:\n\t三十連斬 (229562)\n\t完全なる無の境地 (229569)\n\t明鏡・乱 (229564)\n\t明鏡・虚 (229571)\n\t明鏡・覇 (229565)\n\t明鏡・鋭 (229563)\n\t極・明鏡 (229561)\n\t氷砕　─凍─ (229566)\n\t炎熱　─灰─ (229567)\n\t無残　─石火─ (229568)\n\t真・明鏡 (229570)",
+                "Increase damage of the following skills by 200% for 2 turns:\n\t明鏡・乱 (229564)\n\t明鏡・覇 (229565)\n\t明鏡・鋭 (229563)",
+                "Increase damage of 極・明鏡 (229561) by 300% for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1090,  -50]], [0, 3, 98, [3, 229574, -1, [229561,  229562,  229563,  229564,  229565,  229566,  229567,  229568,  229569,  229570,  229571], 3, 1, 1, 0]], [0, 3, 136, [[229563,  229564,  229565], 0, 0, 200, 2, 1, 1117, 0]], [0, 3, 136, [229561,  0,  0,  300,  2,  1,  1118,  0]]]},
+        "strings": []
+    },
+    "100020007": {
+        "name": "必殺剣・雨曝",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  61]],
+        "attack_frames": [[3,  9,  15,  21,  27,  33,  39,  45,  51,  57,  63,  69,  75,  81]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 36,
+            "effects": [
+                "Physical damage (24x, ATK) to all enemies (ignore cover)",
+                "Gain 3 uses of the following skills for 2 turns:\n\t三十連斬 (229562)\n\t完全なる無の境地 (229569)\n\t明鏡・乱 (229564)\n\t明鏡・虚 (229571)\n\t明鏡・覇 (229565)\n\t明鏡・鋭 (229563)\n\t極・明鏡 (229561)\n\t氷砕　─凍─ (229566)\n\t炎熱　─灰─ (229567)\n\t無残　─石火─ (229568)\n\t真・明鏡 (229570)",
+                "Increase damage of the following skills by 300% for 2 turns:\n\t明鏡・乱 (229564)\n\t明鏡・虚 (229571)\n\t明鏡・覇 (229565)\n\t明鏡・鋭 (229563)",
+                "Increase damage of 極・明鏡 (229561) by 500% for 2 turns",
+                "Increase damage of 真・明鏡 (509112) by 100% for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1200,  -50]], [0, 3, 98, [3, 229574, -1, [229561,  229562,  229563,  229564,  229565,  229566,  229567,  229568,  229569,  229570,  229571], 3, 1, 1, 0]], [0, 3, 136, [[229563,  229564,  229565,  229571], 0, 0, 300, 2, 1, 1117, 0]], [0, 3, 136, [229561,  0,  0,  500,  2,  1,  1118,  0]], [0, 3, 136, [509112,  0,  0,  100,  2,  1,  1119,  0]]]},
+        "max_level": {
+            "cost": 36,
+            "effects": [
+                "Physical damage (29.8x, ATK) to all enemies (ignore cover)",
+                "Gain 3 uses of the following skills for 2 turns:\n\t三十連斬 (229562)\n\t完全なる無の境地 (229569)\n\t明鏡・乱 (229564)\n\t明鏡・虚 (229571)\n\t明鏡・覇 (229565)\n\t明鏡・鋭 (229563)\n\t極・明鏡 (229561)\n\t氷砕　─凍─ (229566)\n\t炎熱　─灰─ (229567)\n\t無残　─石火─ (229568)\n\t真・明鏡 (229570)",
+                "Increase damage of the following skills by 300% for 2 turns:\n\t明鏡・乱 (229564)\n\t明鏡・虚 (229571)\n\t明鏡・覇 (229565)\n\t明鏡・鋭 (229563)",
+                "Increase damage of 極・明鏡 (229561) by 500% for 2 turns",
+                "Increase damage of 真・明鏡 (509112) by 100% for 2 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1490,  -50]], [0, 3, 98, [3, 229574, -1, [229561,  229562,  229563,  229564,  229565,  229566,  229567,  229568,  229569,  229570,  229571], 3, 1, 1, 0]], [0, 3, 136, [[229563,  229564,  229565,  229571], 0, 0, 300, 2, 1, 1117, 0]], [0, 3, 136, [229561,  0,  0,  500,  2,  1,  1118,  0]], [0, 3, 136, [509112,  0,  0,  100,  2,  1,  1119,  0]]]},
+        "strings": []
+    },
+    "100020104": {
+        "name": "スナッチスラッシャー",
+        "cost": 0,
+        "attack_count": [4],
+        "attack_damage": [[20,  20,  20,  40]],
+        "attack_frames": [[120,  130,  145,  168]],
+        "effect_frames": [[1,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (4x, ATK) to all enemies",
+                "Reduce DEF by 35% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [2, 1, 24, [0,  -35,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (5.4x, ATK) to all enemies",
+                "Reduce DEF by 49% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  540,  0]], [2, 1, 24, [0,  -49,  0,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100020105": {
+        "name": "スナッチスラッシャー",
+        "cost": 0,
+        "attack_count": [4],
+        "attack_damage": [[20,  20,  20,  40]],
+        "attack_frames": [[120,  130,  145,  168]],
+        "effect_frames": [[0,  1,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (5x, ATK) to all enemies",
+                "Reduce DEF by 40% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500,  0]], [2, 1, 24, [0,  -40,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (6.9x, ATK) to all enemies",
+                "Reduce DEF by 59% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  690,  0]], [2, 1, 24, [0,  -59,  0,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100020106": {
+        "name": "スナッチスラッシャー",
+        "cost": 0,
+        "attack_count": [4],
+        "attack_damage": [[20,  20,  20,  40]],
+        "attack_frames": [[120,  130,  145,  168]],
+        "effect_frames": [[0,  1,  1]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (6x, ATK) to all enemies",
+                "Reduce DEF by 45% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  600,  0]], [2, 1, 24, [0,  -45,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (8.4x, ATK) to all enemies",
+                "Reduce DEF by 69% for 3 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  840,  0]], [2, 1, 24, [0,  -69,  0,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100020204": {
+        "name": "バーストスナイパー",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[235]],
+        "effect_frames": [[0,  233]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": ["Physical damage (5x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  250,  -50]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": ["Physical damage (7.8x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  390,  -50]]]},
+        "strings": []
+    },
+    "100020205": {
+        "name": "バーストスナイパー",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[233]],
+        "effect_frames": [[0,  233,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Physical damage (6x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  300,  -50]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Physical damage (9.8x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  490,  -50]]]},
+        "strings": []
+    },
+    "100020206": {
+        "name": "バーストスナイパー",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[233]],
+        "effect_frames": [[0,  233,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": ["Physical damage (7x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  350,  -50]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": ["Physical damage (11.8x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  590,  -50]]]},
+        "strings": []
+    },
+    "100020303": {
+        "name": "インファナル・ミスト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[114]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": ["Inflict 2 random status effects (30%) to all enemies"],
+            "effects_raw": [[2, 1, 34, [30,  30,  30,  30,  30,  30,  30,  30,  1,  2]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": ["Inflict 2 random status effects (39%) to all enemies"],
+            "effects_raw": [[2, 1, 34, [39,  39,  39,  39,  39,  39,  39,  39,  1,  2]]]},
+        "strings": []
+    },
+    "100020304": {
+        "name": "インファナル・ミスト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[114]],
+        "effect_frames": [[0,  0,  112]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": ["Inflict 3 random status effects (40%) to all enemies"],
+            "effects_raw": [[2, 1, 34, [40,  40,  40,  40,  40,  40,  40,  40,  1,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": ["Inflict 3 random status effects (54%) to all enemies"],
+            "effects_raw": [[2, 1, 34, [54,  54,  54,  54,  54,  54,  54,  54,  1,  3]]]},
+        "strings": []
+    },
+    "100020305": {
+        "name": "インファナル・ミスト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[114]],
+        "effect_frames": [[0,  0,  0,  112]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": ["Inflict 4 random status effects (50%) to all enemies"],
+            "effects_raw": [[2, 1, 34, [50,  50,  50,  50,  50,  50,  50,  50,  1,  4]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": ["Inflict 4 random status effects (69%) to all enemies"],
+            "effects_raw": [[2, 1, 34, [69,  69,  69,  69,  69,  69,  69,  69,  1,  4]]]},
+        "strings": []
+    },
     "201000104": {
         "name": "シャイニングソード",
         "cost": 0,
@@ -29854,14 +30154,14 @@
             "cost": 12,
             "effects": [
                 "Physical damage (5x, ATK) to all enemies",
-                "Gain 2 uses of the following skills for 3 turns:\n\tChaotic Blossoms (225620)\n\tCrescent Wings (225640)\n\tRed Rain (225630)"
+                "Gain 2 uses of the following skills for 3 turns:\n\tChaotic Blossoms (225620)\n\tCrescent Wings (225640)\n\tCrimson Squall (225630)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500,  0]], [0, 3, 98, [2, 507030, -1, [225620,  225630,  225640], 4, 1, 0]]]},
         "max_level": {
             "cost": 12,
             "effects": [
                 "Physical damage (5.7x, ATK) to all enemies",
-                "Gain 2 uses of the following skills for 3 turns:\n\tChaotic Blossoms (225620)\n\tCrescent Wings (225640)\n\tRed Rain (225630)"
+                "Gain 2 uses of the following skills for 3 turns:\n\tChaotic Blossoms (225620)\n\tCrescent Wings (225640)\n\tCrimson Squall (225630)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  570,  0]], [0, 3, 98, [2, 507030, -1, [225620,  225630,  225640], 4, 1, 0]]]},
         "strings": []
@@ -29881,14 +30181,14 @@
             "cost": 16,
             "effects": [
                 "Physical damage (5.5x, ATK) to all enemies",
-                "Gain 2 uses of the following skills for 3 turns:\n\tChaotic Blossoms (225620)\n\tCrescent Wings (225640)\n\tRed Rain (225630)"
+                "Gain 2 uses of the following skills for 3 turns:\n\tChaotic Blossoms (225620)\n\tCrescent Wings (225640)\n\tCrimson Squall (225630)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  550,  0]], [0, 3, 98, [2, 507030, -1, [225620,  225630,  225640], 4, 1, 0]]]},
         "max_level": {
             "cost": 16,
             "effects": [
                 "Physical damage (6.45x, ATK) to all enemies",
-                "Gain 2 uses of the following skills for 3 turns:\n\tChaotic Blossoms (225620)\n\tCrescent Wings (225640)\n\tRed Rain (225630)"
+                "Gain 2 uses of the following skills for 3 turns:\n\tChaotic Blossoms (225620)\n\tCrescent Wings (225640)\n\tCrimson Squall (225630)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  645,  0]], [0, 3, 98, [2, 507030, -1, [225620,  225630,  225640], 4, 1, 0]]]},
         "strings": []
@@ -29908,14 +30208,14 @@
             "cost": 20,
             "effects": [
                 "Physical damage (6x, ATK) to all enemies",
-                "Gain 2 uses of the following skills for 3 turns:\n\tChaotic Blossoms (225620)\n\tCrescent Wings (225640)\n\tRed Rain (225630)"
+                "Gain 2 uses of the following skills for 3 turns:\n\tChaotic Blossoms (225620)\n\tCrescent Wings (225640)\n\tCrimson Squall (225630)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  600,  0]], [0, 3, 98, [2, 507030, -1, [225620,  225630,  225640], 4, 1, 0]]]},
         "max_level": {
             "cost": 20,
             "effects": [
                 "Physical damage (7.2x, ATK) to all enemies",
-                "Gain 2 uses of the following skills for 3 turns:\n\tChaotic Blossoms (225620)\n\tCrescent Wings (225640)\n\tRed Rain (225630)"
+                "Gain 2 uses of the following skills for 3 turns:\n\tChaotic Blossoms (225620)\n\tCrescent Wings (225640)\n\tCrimson Squall (225630)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  720,  0]], [0, 3, 98, [2, 507030, -1, [225620,  225630,  225640], 4, 1, 0]]]},
         "strings": []
