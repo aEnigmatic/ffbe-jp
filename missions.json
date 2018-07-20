@@ -103666,6 +103666,191 @@
             }
         ]
     },
+    "8340101": {
+        "dungeon_id": 83401,
+        "name": "山賊の根城・中級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 20,
+        "exp": 50,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106306100, 100]
+            },
+            {
+                "string": "ELEMENT CHAINを1ターンに1回以上発生させる",
+                "parsed": ["Activate an element chain 1 times or more in one turn"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8340102": {
+        "dungeon_id": 83401,
+        "name": "山賊の根城・上級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 50,
+        "exp": 155,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106306100, 200]
+            },
+            {
+                "string": "ELEMENT CHAINを1ターンに2回以上発生させる",
+                "parsed": ["Activate an element chain 2 times or more in one turn"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "誰も戦闘不能になることなくクリア",
+                "parsed": ["Clear without an ally being KO'd"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8340103": {
+        "dungeon_id": 83401,
+        "name": "山賊の根城・超級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 85,
+        "exp": 300,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106306100, 300]
+            },
+            {
+                "string": "ELEMENT CHAINを1ターンに3回以上発生させる",
+                "parsed": ["Activate an element chain 3 times or more in one turn"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "アイテム使用回数3回以内",
+                "parsed": ["Use no more than 3 items"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8340104": {
+        "dungeon_id": 83401,
+        "name": "山賊の根城・覚醒級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "STA",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 117,
+        "exp": 365,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "ELEMENT CHAINを1ターンに4回以上発生させる",
+                "parsed": ["Activate an element chain 4 times or more in one turn"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "3ターン以内にクリア",
+                "parsed": ["Clear within 3 turns"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "8350101": {
+        "dungeon_id": 83501,
+        "name": "リーオ洞窟",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 150,
+        "exp": 1100,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["EQUIP", 409026500, 1]
+            },
+            {
+                "string": "「白」魔法を使用してクリア",
+                "parsed": ["Use White magic"],
+                "reward": ["ITEM", 106306100, 10000]
+            },
+            {
+                "string": "「マンダラヘビ」をＬＢでフィニッシュ",
+                "parsed": ["Defeat 401131000 with a limit burst"],
+                "reward": ["KEYITEM", 50, 2]
+            },
+            {
+                "string": "パーティ人数5人以下（同行者含む）",
+                "parsed": ["Party of 5 or less (Companion included)"],
+                "reward": ["UNIT", 904000104, 1]
+            }
+        ]
+    },
     "8980101": {
         "dungeon_id": 89801,
         "name": "十二武具・気高き軍師",
