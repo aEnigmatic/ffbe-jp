@@ -14240,6 +14240,330 @@
             "effects_raw": [[2, 1, 34, [69,  69,  69,  69,  69,  69,  69,  69,  1,  4]]]},
         "strings": []
     },
+    "100020505": {
+        "name": "ガールズサマーバケーション",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[156]],
+        "effect_frames": [[0,  0,  0], [0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 28,
+            "effects": [
+                "Reduce ATK, DEF, MAG and SPR by 35% for 3 turns to all enemies",
+                "Increase resistance to Water by 50% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [-35,  -35,  -35,  -35,  3,  1]], [2, 2, 33, [0,  0,  0,  50,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 28,
+            "effects": [
+                "Reduce ATK, DEF, MAG and SPR by 55% for 3 turns to all enemies",
+                "Increase resistance to Water by 70% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [-55,  -55,  -55,  -55,  3,  1]], [2, 2, 33, [0,  0,  0,  70,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "100020506": {
+        "name": "ガールズサマーバケーション",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[156]],
+        "effect_frames": [[0,  0,  0], [0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 28,
+            "effects": [
+                "Reduce ATK, DEF, MAG and SPR by 40% for 3 turns to all enemies",
+                "Increase resistance to Water by 60% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [-40,  -40,  -40,  -40,  3,  1]], [2, 2, 33, [0,  0,  0,  60,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 28,
+            "effects": [
+                "Reduce ATK, DEF, MAG and SPR by 65% for 3 turns to all enemies",
+                "Increase resistance to Water by 85% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [-65,  -65,  -65,  -65,  3,  1]], [2, 2, 33, [0,  0,  0,  85,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "100020507": {
+        "name": "ガールズサマーバケーション",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[156]],
+        "effect_frames": [[0,  0,  0,  0], [0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 28,
+            "effects": [
+                "Reduce ATK, DEF, MAG and SPR by 45% for 3 turns to all enemies",
+                "Increase resistance to Water by 70% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [-45,  -45,  -45,  -45,  3,  1]], [2, 2, 33, [0,  0,  0,  70,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 28,
+            "effects": [
+                "Reduce ATK, DEF, MAG and SPR by 75% for 3 turns to all enemies",
+                "Increase resistance to Water by 100% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 24, [-75,  -75,  -75,  -75,  3,  1]], [2, 2, 33, [0,  0,  0,  100,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "100020605": {
+        "name": "討チ払ウ剣",
+        "cost": 0,
+        "attack_count": [24],
+        "attack_damage": [[4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  5,  5,  5,  5]],
+        "attack_frames": [[106,  112,  118,  124,  130,  136,  142,  148,  154,  160,  166,  172,  178,  184,  190,  196,  202,  208,  214,  220,  226,  232,  238,  244]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Physical damage (18x, ATK) to all enemies",
+                "Increase ATK and DEF by 110% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1800,  0]], [2, 2, 3, [110,  110,  0,  0,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Physical damage (20x, ATK) to all enemies",
+                "Increase ATK and DEF by 130% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2000,  0]], [2, 2, 3, [130,  130,  0,  0,  3,  1,  0]]]},
+        "strings": []
+    },
+    "100020606": {
+        "name": "討チ払ウ剣",
+        "cost": 0,
+        "attack_count": [24],
+        "attack_damage": [[4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  5,  5,  5,  5]],
+        "attack_frames": [[106,  112,  118,  124,  130,  136,  142,  148,  154,  160,  166,  172,  178,  184,  190,  196,  202,  208,  214,  220,  226,  232,  238,  244]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Physical damage (20.5x, ATK) to all enemies",
+                "Increase ATK and DEF by 120% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2050,  0]], [2, 2, 3, [120,  120,  0,  0,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Physical damage (23x, ATK) to all enemies",
+                "Increase ATK and DEF by 145% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2300,  0]], [2, 2, 3, [145,  145,  0,  0,  3,  1,  0]]]},
+        "strings": []
+    },
+    "100020607": {
+        "name": "討チ払ウ剣",
+        "cost": 0,
+        "attack_count": [24],
+        "attack_damage": [[4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  4,  5,  5,  5,  5]],
+        "attack_frames": [[106,  112,  118,  124,  130,  136,  142,  148,  154,  160,  166,  172,  178,  184,  190,  196,  202,  208,  214,  220,  226,  232,  238,  244]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Physical damage (23x, ATK) to all enemies",
+                "Increase ATK and DEF by 130% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2300,  0]], [2, 2, 3, [130,  130,  0,  0,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Physical damage (26x, ATK) to all enemies",
+                "Increase ATK and DEF by 160% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2600,  0]], [2, 2, 3, [160,  160,  0,  0,  3,  1,  0]]]},
+        "strings": []
+    },
+    "100020704": {
+        "name": "昇天猛襲斬",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[10,  10,  10,  10,  30,  30]],
+        "attack_frames": [[47,  65,  85,  130,  169,  204]],
+        "effect_frames": [[0], [239,  239]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (6.5x, ATK) to one enemy",
+                "Increase ATK and DEF by 130% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  650,  0]], [0, 3, 3, [130,  130,  0,  0,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (8x, ATK) to one enemy",
+                "Increase ATK and DEF by 145% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  800,  0]], [0, 3, 3, [145,  145,  0,  0,  3,  1,  0]]]},
+        "strings": []
+    },
+    "100020705": {
+        "name": "昇天猛襲斬",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[10,  10,  10,  10,  30,  30]],
+        "attack_frames": [[47,  65,  85,  130,  169,  204]],
+        "effect_frames": [[0,  0], [239,  239]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (7x, ATK) to one enemy",
+                "Increase ATK and DEF by 140% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  700,  0]], [0, 3, 3, [140,  140,  0,  0,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (9x, ATK) to one enemy",
+                "Increase ATK and DEF by 160% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  900,  0]], [0, 3, 3, [160,  160,  0,  0,  3,  1,  0]]]},
+        "strings": []
+    },
+    "100020706": {
+        "name": "昇天猛襲斬",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[10,  10,  10,  10,  30,  30]],
+        "attack_frames": [[47,  65,  85,  130,  169,  204]],
+        "effect_frames": [[0,  0], [239,  239]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (7.5x, ATK) to one enemy",
+                "Increase ATK and DEF by 150% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  750,  0]], [0, 3, 3, [150,  150,  0,  0,  3,  1,  0]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (10x, ATK) to one enemy",
+                "Increase ATK and DEF by 175% for 3 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1000,  0]], [0, 3, 3, [175,  175,  0,  0,  3,  1,  0]]]},
+        "strings": []
+    },
+    "100020803": {
+        "name": "わけあう",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[180]],
+        "effect_frames": [[0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Restore 10% HP to one ally",
+                "Restore 3000 (+12x, Heal) HP split over 3 turns to one ally"
+            ],
+            "effects_raw": [[1, 2, 26, [10,  10,  100]], [1, 2, 8, [1200,  1,  3000,  3]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Restore 20% HP to one ally",
+                "Restore 3000 (+12x, Heal) HP split over 3 turns to one ally"
+            ],
+            "effects_raw": [[1, 2, 26, [20,  20,  100]], [1, 2, 8, [1200,  1,  3000,  3]]]},
+        "strings": []
+    },
+    "100020804": {
+        "name": "わけあう",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[180]],
+        "effect_frames": [[0,  0,  180]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Restore 30% HP to one ally",
+                "Restore 3000 (+12x, Heal) HP split over 3 turns to one ally"
+            ],
+            "effects_raw": [[1, 2, 26, [30,  30,  100]], [1, 2, 8, [1200,  1,  3000,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Restore 45% HP to one ally",
+                "Restore 3000 (+12x, Heal) HP split over 3 turns to one ally"
+            ],
+            "effects_raw": [[1, 2, 26, [45,  45,  100]], [1, 2, 8, [1200,  1,  3000,  3]]]},
+        "strings": []
+    },
+    "100020805": {
+        "name": "わけあう",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[180]],
+        "effect_frames": [[0,  0,  0,  180]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Restore 50% HP to one ally",
+                "Restore 3000 (+12x, Heal) HP split over 3 turns to one ally"
+            ],
+            "effects_raw": [[1, 2, 26, [50,  50,  100]], [1, 2, 8, [1200,  1,  3000,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Restore 70% HP to one ally",
+                "Restore 3000 (+12x, Heal) HP split over 3 turns to one ally"
+            ],
+            "effects_raw": [[1, 2, 26, [70,  70,  100]], [1, 2, 8, [1200,  1,  3000,  3]]]},
+        "strings": []
+    },
     "201000104": {
         "name": "シャイニングソード",
         "cost": 0,
@@ -18953,9 +19277,9 @@
     "207000405": {
         "name": "大いなる福音",
         "cost": 0,
-        "attack_count": [1, 1, 1],
-        "attack_damage": [[100], [100], [100]],
-        "attack_frames": [[320], [320], [320]],
+        "attack_count": [1, 1, 1, 1, 1],
+        "attack_damage": [[100], [100], [100], [100], [100]],
+        "attack_frames": [[320], [320], [320], [320], [320]],
         "effect_frames": [[0,  0,  0,  0]],
         "move_type": 4,
         "damage_type": "Magic",
@@ -18986,9 +19310,9 @@
     "207000406": {
         "name": "大いなる福音",
         "cost": 0,
-        "attack_count": [1, 1, 1],
-        "attack_damage": [[100], [100], [100]],
-        "attack_frames": [[320], [320], [320]],
+        "attack_count": [1, 1, 1, 1, 1],
+        "attack_damage": [[100], [100], [100], [100], [100]],
+        "attack_frames": [[320], [320], [320], [320], [320]],
         "effect_frames": [[0,  0,  0,  0]],
         "move_type": 4,
         "damage_type": "Magic",
@@ -19019,9 +19343,9 @@
     "207000407": {
         "name": "大いなる福音",
         "cost": 0,
-        "attack_count": [1, 1, 1],
-        "attack_damage": [[100], [100], [100]],
-        "attack_frames": [[320], [320], [320]],
+        "attack_count": [1, 1, 1, 1, 1],
+        "attack_damage": [[100], [100], [100], [100], [100]],
+        "attack_frames": [[320], [320], [320], [320], [320]],
         "effect_frames": [[0,  0,  0,  0,  0]],
         "move_type": 4,
         "damage_type": "Magic",
@@ -26750,7 +27074,7 @@
                 "Increase ATK, DEF, MAG and SPR by 68% for 3 turns to all allies",
                 "Increase resistance to all elements by 20% for 3 turns to all allies",
                 "Increase resistance to all status effects by 30% for all allies for 3 turns",
-                "Restore 30 MP to all allies",
+                "Restore 0 HP and 30 MP to all allies",
                 "Grant a 100 HP shield to all allies for 3 turns"
             ],
             "effects_raw": [[2, 2, 3, [68,  68,  68,  68,  3,  1,  0]], [2, 2, 33, [20,  20,  20,  20,  20,  20,  20,  20,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
@@ -26760,7 +27084,7 @@
                 "Increase ATK, DEF, MAG and SPR by 70% for 3 turns to all allies",
                 "Increase resistance to all elements by 20% for 3 turns to all allies",
                 "Increase resistance to all status effects by 30% for all allies for 3 turns",
-                "Restore 30 MP to all allies",
+                "Restore 0 HP and 30 MP to all allies",
                 "Grant a 100 HP shield to all allies for 3 turns"
             ],
             "effects_raw": [[2, 2, 3, [70,  70,  70,  70,  3,  1,  0]], [2, 2, 33, [20,  20,  20,  20,  20,  20,  20,  20,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
@@ -26783,7 +27107,7 @@
                 "Increase ATK, DEF, MAG and SPR by 76% for 3 turns to all allies",
                 "Increase resistance to all elements by 22% for 3 turns to all allies",
                 "Increase resistance to all status effects by 30% for all allies for 3 turns",
-                "Restore 30 MP to all allies",
+                "Restore 0 HP and 30 MP to all allies",
                 "Grant a 100 HP shield to all allies for 3 turns"
             ],
             "effects_raw": [[2, 2, 3, [76,  76,  76,  76,  3,  1,  0]], [2, 2, 33, [22,  22,  22,  22,  22,  22,  22,  22,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
@@ -26793,7 +27117,7 @@
                 "Increase ATK, DEF, MAG and SPR by 80% for 3 turns to all allies",
                 "Increase resistance to all elements by 22% for 3 turns to all allies",
                 "Increase resistance to all status effects by 30% for all allies for 3 turns",
-                "Restore 30 MP to all allies",
+                "Restore 0 HP and 30 MP to all allies",
                 "Grant a 100 HP shield to all allies for 3 turns"
             ],
             "effects_raw": [[2, 2, 3, [80,  80,  80,  80,  3,  1,  0]], [2, 2, 33, [22,  22,  22,  22,  22,  22,  22,  22,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
@@ -26816,7 +27140,7 @@
                 "Increase ATK, DEF, MAG and SPR by 81% for 3 turns to all allies",
                 "Increase resistance to all elements by 24% for 3 turns to all allies",
                 "Increase resistance to all status effects by 30% for all allies for 3 turns",
-                "Restore 30 MP to all allies",
+                "Restore 0 HP and 30 MP to all allies",
                 "Grant a 100 HP shield to all allies for 3 turns"
             ],
             "effects_raw": [[2, 2, 3, [81,  81,  81,  81,  3,  1,  0]], [2, 2, 33, [24,  24,  24,  24,  24,  24,  24,  24,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
@@ -26826,7 +27150,7 @@
                 "Increase ATK, DEF, MAG and SPR by 90% for 3 turns to all allies",
                 "Increase resistance to all elements by 24% for 3 turns to all allies",
                 "Increase resistance to all status effects by 30% for all allies for 3 turns",
-                "Restore 30 MP to all allies",
+                "Restore 0 HP and 30 MP to all allies",
                 "Grant a 100 HP shield to all allies for 3 turns"
             ],
             "effects_raw": [[2, 2, 3, [90,  90,  90,  90,  3,  1,  0]], [2, 2, 33, [24,  24,  24,  24,  24,  24,  24,  24,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
@@ -26849,7 +27173,7 @@
                 "Increase ATK, DEF, MAG and SPR by 86% for 3 turns to all allies",
                 "Increase resistance to all elements by 26% for 3 turns to all allies",
                 "Increase resistance to all status effects by 30% for all allies for 3 turns",
-                "Restore 30 MP to all allies",
+                "Restore 0 HP and 30 MP to all allies",
                 "Grant a 100 HP shield to all allies for 3 turns"
             ],
             "effects_raw": [[2, 2, 3, [86,  86,  86,  86,  3,  1,  0]], [2, 2, 33, [26,  26,  26,  26,  26,  26,  26,  26,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
@@ -26859,7 +27183,7 @@
                 "Increase ATK, DEF, MAG and SPR by 100% for 3 turns to all allies",
                 "Increase resistance to all elements by 26% for 3 turns to all allies",
                 "Increase resistance to all status effects by 30% for all allies for 3 turns",
-                "Restore 30 MP to all allies",
+                "Restore 0 HP and 30 MP to all allies",
                 "Grant a 100 HP shield to all allies for 3 turns"
             ],
             "effects_raw": [[2, 2, 3, [100,  100,  100,  100,  3,  1,  0]], [2, 2, 33, [26,  26,  26,  26,  26,  26,  26,  26,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
@@ -26882,7 +27206,7 @@
                 "Increase ATK, DEF, MAG and SPR by 91% for 3 turns to all allies",
                 "Increase resistance to all elements by 28% for 3 turns to all allies",
                 "Increase resistance to all status effects by 30% for all allies for 3 turns",
-                "Restore 30 MP to all allies",
+                "Restore 0 HP and 30 MP to all allies",
                 "Grant a 100 HP shield to all allies for 3 turns"
             ],
             "effects_raw": [[2, 2, 3, [91,  91,  91,  91,  3,  1,  0]], [2, 2, 33, [28,  28,  28,  28,  28,  28,  28,  28,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
@@ -26892,7 +27216,7 @@
                 "Increase ATK, DEF, MAG and SPR by 110% for 3 turns to all allies",
                 "Increase resistance to all elements by 28% for 3 turns to all allies",
                 "Increase resistance to all status effects by 30% for all allies for 3 turns",
-                "Restore 30 MP to all allies",
+                "Restore 0 HP and 30 MP to all allies",
                 "Grant a 100 HP shield to all allies for 3 turns"
             ],
             "effects_raw": [[2, 2, 3, [110,  110,  110,  110,  3,  1,  0]], [2, 2, 33, [28,  28,  28,  28,  28,  28,  28,  28,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
@@ -26915,7 +27239,7 @@
                 "Increase ATK, DEF, MAG and SPR by 96% for 3 turns to all allies",
                 "Increase resistance to all elements by 30% for 3 turns to all allies",
                 "Increase resistance to all status effects by 30% for all allies for 3 turns",
-                "Restore 30 MP to all allies",
+                "Restore 0 HP and 30 MP to all allies",
                 "Grant a 100 HP shield to all allies for 3 turns"
             ],
             "effects_raw": [[2, 2, 3, [96,  96,  96,  96,  3,  1,  0]], [2, 2, 33, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
@@ -26925,7 +27249,7 @@
                 "Increase ATK, DEF, MAG and SPR by 120% for 3 turns to all allies",
                 "Increase resistance to all elements by 30% for 3 turns to all allies",
                 "Increase resistance to all status effects by 30% for all allies for 3 turns",
-                "Restore 30 MP to all allies",
+                "Restore 0 HP and 30 MP to all allies",
                 "Grant a 100 HP shield to all allies for 3 turns"
             ],
             "effects_raw": [[2, 2, 3, [120,  120,  120,  120,  3,  1,  0]], [2, 2, 33, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 7, [30,  30,  30,  30,  30,  30,  30,  30,  1,  3]], [2, 2, 65, [0,  30]], [2, 2, 127, [100,  3,  1]]]},
@@ -32575,14 +32899,14 @@
             "cost": 26,
             "effects": [
                 "Increase ATK, DEF, MAG and SPR by 91% for 5 turns to caster",
-                "Gain access to following skills for 4 turns:\n\t【秘剣】エクスカリバー (507934)\n\t【秘剣】斬鉄剣 (507936)\n\t【秘剣】村正 (507935)\n\t【秘剣】源氏の刀 (507937)"
+                "Gain access to following skills for 4 turns:\n\tSecret Sword Art - Excalibur (507934)\n\tSecret Sword Art - Genji Blade (507937)\n\tSecret Sword Art - Muramasa (507935)\n\tSecret Sword Art - Zantetsuken (507936)"
             ],
             "effects_raw": [[0, 3, 3, [91,  91,  91,  91,  5,  1]], [0, 3, 100, [[2,  2,  2,  2], [507934,  507935,  507936,  507937], 99999, 5, 1, 2]]]},
         "max_level": {
             "cost": 26,
             "effects": [
                 "Increase ATK, DEF, MAG and SPR by 120% for 5 turns to caster",
-                "Gain access to following skills for 4 turns:\n\t【秘剣】エクスカリバー (507934)\n\t【秘剣】斬鉄剣 (507936)\n\t【秘剣】村正 (507935)\n\t【秘剣】源氏の刀 (507937)"
+                "Gain access to following skills for 4 turns:\n\tSecret Sword Art - Excalibur (507934)\n\tSecret Sword Art - Genji Blade (507937)\n\tSecret Sword Art - Muramasa (507935)\n\tSecret Sword Art - Zantetsuken (507936)"
             ],
             "effects_raw": [[0, 3, 3, [120,  120,  120,  120,  5,  1]], [0, 3, 100, [[2,  2,  2,  2], [507934,  507935,  507936,  507937], 99999, 5, 1, 2]]]},
         "strings": []
@@ -32814,17 +33138,17 @@
             "effects": [
                 "Physical damage (15.1x, ATK) to one enemy",
                 "Increase the limit burst gauge fill rate by 200% for 3 turns to all allies",
-                "Gain 3 uses of the following skills for one turn:\n\tMartial Arts - Burst (224640)\n\tMartial Arts - Calm Mind (224690)\n\tMartial Arts - Flaming Spirit (224700)\n\tMartial Arts - Heaven Scar (224670)\n\tMartial Arts - Heaven Shift (224660)\n\tMartial Arts - Lightning Spirit (224710)\n\tMartial Arts - Opposing Fist (224720)\n\tMartial Arts - Overthrow (224650)\n\tMartial Arts - Tojin Combo (224680)\n\tMartial Arts - Twin Palms (224630)\n\t格闘術・壊盾突 (228062)\n\t格闘術・帰根復命 (228063)\n\t格闘術・燃心 (228061)\n\t格闘術・醒眼掌 (228060)"
+                "Gain 3 uses of the following skills for one turn:\n\tMartial Arts - Burst (224640)\n\tMartial Arts - Calm Mind (224690)\n\tMartial Arts - Flaming Spirit (224700)\n\tMartial Arts - Heaven Scar (224670)\n\tMartial Arts - Heaven Shift (224660)\n\tMartial Arts - Lightning Spirit (224710)\n\tMartial Arts - Opposing Fist (224720)\n\tMartial Arts - Overthrow (224650)\n\tMartial Arts - Tojin Combo (224680)\n\tMartial Arts - Twin Palms (224630)\n\t格闘術・壊盾突 (228062)\n\t格闘術・帰根復命 (228063)\n\t格闘術・操気天衝+1 (707607)\n\t格闘術・操気天衝+2 (707608)\n\t格闘術・燃心 (228061)\n\t格闘術・醒眼掌 (228060)\n\t格闘術・闘神連撃+1 (707609)\n\t格闘術・闘神連撃+2 (707610)"
             ],
-            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1510,  0]], [2, 2, 63, [200,  3]], [0, 3, 98, [3, 506810, -1, [224630,  224640,  224650,  224660,  224670,  224680,  224690,  224700,  224710,  224720,  228060,  228061,  228062,  228063], 2, 1, 1, 0]]]},
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1510,  0]], [2, 2, 63, [200,  3]], [0, 3, 98, [3, 506810, -1, [224630,  224640,  224650,  224660,  224670,  224680,  224690,  224700,  224710,  224720,  228060,  228061,  228062,  228063,  707607,  707608,  707609,  707610], 2, 1, 1, 0]]]},
         "max_level": {
             "cost": 24,
             "effects": [
                 "Physical damage (18x, ATK) to one enemy",
                 "Increase the limit burst gauge fill rate by 200% for 3 turns to all allies",
-                "Gain 3 uses of the following skills for one turn:\n\tMartial Arts - Burst (224640)\n\tMartial Arts - Calm Mind (224690)\n\tMartial Arts - Flaming Spirit (224700)\n\tMartial Arts - Heaven Scar (224670)\n\tMartial Arts - Heaven Shift (224660)\n\tMartial Arts - Lightning Spirit (224710)\n\tMartial Arts - Opposing Fist (224720)\n\tMartial Arts - Overthrow (224650)\n\tMartial Arts - Tojin Combo (224680)\n\tMartial Arts - Twin Palms (224630)\n\t格闘術・壊盾突 (228062)\n\t格闘術・帰根復命 (228063)\n\t格闘術・燃心 (228061)\n\t格闘術・醒眼掌 (228060)"
+                "Gain 3 uses of the following skills for one turn:\n\tMartial Arts - Burst (224640)\n\tMartial Arts - Calm Mind (224690)\n\tMartial Arts - Flaming Spirit (224700)\n\tMartial Arts - Heaven Scar (224670)\n\tMartial Arts - Heaven Shift (224660)\n\tMartial Arts - Lightning Spirit (224710)\n\tMartial Arts - Opposing Fist (224720)\n\tMartial Arts - Overthrow (224650)\n\tMartial Arts - Tojin Combo (224680)\n\tMartial Arts - Twin Palms (224630)\n\t格闘術・壊盾突 (228062)\n\t格闘術・帰根復命 (228063)\n\t格闘術・操気天衝+1 (707607)\n\t格闘術・操気天衝+2 (707608)\n\t格闘術・燃心 (228061)\n\t格闘術・醒眼掌 (228060)\n\t格闘術・闘神連撃+1 (707609)\n\t格闘術・闘神連撃+2 (707610)"
             ],
-            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1800,  0]], [2, 2, 63, [200,  3]], [0, 3, 98, [3, 506810, -1, [224630,  224640,  224650,  224660,  224670,  224680,  224690,  224700,  224710,  224720,  228060,  228061,  228062,  228063], 2, 1, 1, 0]]]},
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1800,  0]], [2, 2, 63, [200,  3]], [0, 3, 98, [3, 506810, -1, [224630,  224640,  224650,  224660,  224670,  224680,  224690,  224700,  224710,  224720,  228060,  228061,  228062,  228063,  707607,  707608,  707609,  707610], 2, 1, 1, 0]]]},
         "strings": []
     },
     "900000247": {
