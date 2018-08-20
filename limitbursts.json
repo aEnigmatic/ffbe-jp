@@ -10785,7 +10785,7 @@
             "effects": [
                 "Increase ATK and DEF by 80% for 3 turns to caster",
                 "Physical damage (4.6x, ATK) to all enemies",
-                "Gain access to following skills for one turn:\n\tシェルフキルガル (507500)"
+                "Gain access to following skills for one turn:\n\tGlorious Wind (507500)"
             ],
             "effects_raw": [[0, 3, 3, [80,  80,  0,  0,  3,  1]], [2, 1, 1, [0,  0,  0,  0,  0,  0,  460,  0]], [0, 3, 100, [2,  507500,  9999,  2,  1,  1]]]},
         "max_level": {
@@ -10793,7 +10793,7 @@
             "effects": [
                 "Increase ATK and DEF by 94% for 3 turns to caster",
                 "Physical damage (6x, ATK) to all enemies",
-                "Gain access to following skills for one turn:\n\tシェルフキルガル (507500)"
+                "Gain access to following skills for one turn:\n\tGlorious Wind (507500)"
             ],
             "effects_raw": [[0, 3, 3, [94,  94,  0,  0,  3,  1]], [2, 1, 1, [0,  0,  0,  0,  0,  0,  600,  0]], [0, 3, 100, [2,  507500,  9999,  2,  1,  1]]]},
         "strings": []
@@ -10814,7 +10814,7 @@
             "effects": [
                 "Increase ATK and DEF by 90% for 3 turns to caster",
                 "Physical damage (4.6x, ATK) to all enemies",
-                "Gain access to following skills for one turn:\n\tシェルフキルガル (507500)"
+                "Gain access to following skills for one turn:\n\tGlorious Wind (507500)"
             ],
             "effects_raw": [[0, 3, 3, [90,  90,  0,  0,  3,  1]], [2, 1, 1, [0,  0,  0,  0,  0,  0,  460,  0]], [0, 3, 100, [2,  507500,  9999,  2,  1,  1]]]},
         "max_level": {
@@ -10822,7 +10822,7 @@
             "effects": [
                 "Increase ATK and DEF by 109% for 3 turns to caster",
                 "Physical damage (6.5x, ATK) to all enemies",
-                "Gain access to following skills for one turn:\n\tシェルフキルガル (507500)"
+                "Gain access to following skills for one turn:\n\tGlorious Wind (507500)"
             ],
             "effects_raw": [[0, 3, 3, [109,  109,  0,  0,  3,  1]], [2, 1, 1, [0,  0,  0,  0,  0,  0,  650,  0]], [0, 3, 100, [2,  507500,  9999,  2,  1,  1]]]},
         "strings": []
@@ -10843,7 +10843,7 @@
             "effects": [
                 "Increase ATK and DEF by 100% for 3 turns to caster",
                 "Physical damage (4.6x, ATK) to all enemies",
-                "Gain access to following skills for one turn:\n\tシェルフキルガル (507500)"
+                "Gain access to following skills for one turn:\n\tGlorious Wind (507500)"
             ],
             "effects_raw": [[0, 3, 3, [100,  100,  0,  0,  3,  1]], [2, 1, 1, [0,  0,  0,  0,  0,  0,  460,  0]], [0, 3, 100, [2,  507500,  9999,  2,  1,  1]]]},
         "max_level": {
@@ -10851,7 +10851,7 @@
             "effects": [
                 "Increase ATK and DEF by 124% for 3 turns to caster",
                 "Physical damage (7x, ATK) to all enemies",
-                "Gain access to following skills for one turn:\n\tシェルフキルガル (507500)"
+                "Gain access to following skills for one turn:\n\tGlorious Wind (507500)"
             ],
             "effects_raw": [[0, 3, 3, [124,  124,  0,  0,  3,  1]], [2, 1, 1, [0,  0,  0,  0,  0,  0,  700,  0]], [0, 3, 100, [2,  507500,  9999,  2,  1,  1]]]},
         "strings": []
@@ -19460,6 +19460,87 @@
             "effects_raw": [[2, 1, 21, [0,  0,  790,  -50]], [2, 1, 33, [-84,  0,  0,  0,  -84,  0,  0,  -84,  1,  3]], [0, 3, 98, [3, 509204, -1, [229780,  229781,  229782,  229783,  229784,  229785,  229786,  229787,  229788,  229790,  229791], 4, 1, 1, 0]]]},
         "strings": []
     },
+    "207000605": {
+        "name": "森羅万象",
+        "cost": 0,
+        "attack_count": [20],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5]],
+        "attack_frames": [[203,  208,  213,  218,  223,  228,  233,  238,  243,  248,  253,  258,  263,  268,  273,  278,  283,  288,  293,  298]],
+        "effect_frames": [[0,  0,  200,  200,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "Physical damage (23.2x, ATK) to all enemies (ignore cover)",
+                "Increase physical damage against Avians by 50% to caster for 5 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1160,  -50]], [0, 3, 92, [[2,  50], -1, -1, -1, -1, -1, -1, -1, 5, 1]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "Physical damage (27x, ATK) to all enemies (ignore cover)",
+                "Increase physical damage against Avians by 50% to caster for 5 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1350,  -50]], [0, 3, 92, [[2,  50], -1, -1, -1, -1, -1, -1, -1, 5, 1]]]},
+        "strings": []
+    },
+    "207000606": {
+        "name": "森羅万象",
+        "cost": 0,
+        "attack_count": [20],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5]],
+        "attack_frames": [[203,  208,  213,  218,  223,  228,  233,  238,  243,  248,  253,  258,  263,  268,  273,  278,  283,  288,  293,  298]],
+        "effect_frames": [[0,  0,  200,  200,  0,  0,  200,  298]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 26,
+            "effects": [
+                "Physical damage (27.7x, ATK) to all enemies (ignore cover)",
+                "Increase physical damage against Avians by 60% to caster for 5 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1385,  -50]], [0, 3, 92, [[2,  60], -1, -1, -1, -1, -1, -1, -1, 5, 1]]]},
+        "max_level": {
+            "cost": 26,
+            "effects": [
+                "Physical damage (32.5x, ATK) to all enemies (ignore cover)",
+                "Increase physical damage against Avians by 60% to caster for 5 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1625,  -50]], [0, 3, 92, [[2,  60], -1, -1, -1, -1, -1, -1, -1, 5, 1]]]},
+        "strings": []
+    },
+    "207000607": {
+        "name": "森羅万象",
+        "cost": 0,
+        "attack_count": [20],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5]],
+        "attack_frames": [[203,  208,  213,  218,  223,  228,  233,  238,  243,  248,  253,  258,  263,  268,  273,  278,  283,  288,  293,  298]],
+        "effect_frames": [[0,  0,  200,  200,  0,  0,  200,  298,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (32.2x, ATK) to all enemies (ignore cover)",
+                "Increase physical damage against Avians by 75% to caster for 5 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1610,  -50]], [0, 3, 92, [[2,  75], -1, -1, -1, -1, -1, -1, -1, 5, 1]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (38x, ATK) to all enemies (ignore cover)",
+                "Increase physical damage against Avians by 75% to caster for 5 turns"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1900,  -50]], [0, 3, 92, [[2,  75], -1, -1, -1, -1, -1, -1, -1, 5, 1]]]},
+        "strings": []
+    },
     "207000703": {
         "name": "オールオーバー",
         "cost": 0,
@@ -19665,6 +19746,69 @@
                 "Reduce resistance to Light and Dark by 100% for 5 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  1150,  -50]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  -100,  -100,  1,  5]]]},
+        "strings": []
+    },
+    "207001105": {
+        "name": "連続斬",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[10,  10,  10,  10,  60]],
+        "attack_frames": [[96,  104,  152,  160,  214]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 24,
+            "effects": ["Physical damage (33.15x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 43, [0,  0,  2210,  0]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": ["Physical damage (36x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 43, [0,  0,  2400,  0]]]},
+        "strings": []
+    },
+    "207001106": {
+        "name": "連続斬",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[10,  10,  10,  10,  60]],
+        "attack_frames": [[96,  104,  152,  160,  214]],
+        "effect_frames": [[0,  0,  0,  0,  96,  104,  152,  160,  214]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 29,
+            "effects": ["Physical damage (36.9x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 43, [0,  0,  2460,  0]]]},
+        "max_level": {
+            "cost": 29,
+            "effects": ["Physical damage (40.5x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 43, [0,  0,  2700,  0]]]},
+        "strings": []
+    },
+    "207001107": {
+        "name": "連続斬",
+        "cost": 0,
+        "attack_count": [5],
+        "attack_damage": [[10,  10,  10,  10,  60]],
+        "attack_frames": [[96,  104,  152,  160,  214]],
+        "effect_frames": [[0,  0,  0,  0,  96,  104,  152,  160,  214,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 34,
+            "effects": ["Physical damage (40.65x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 43, [0,  0,  2710,  0]]]},
+        "max_level": {
+            "cost": 34,
+            "effects": ["Physical damage (45x, ATK) to one enemy"],
+            "effects_raw": [[1, 1, 43, [0,  0,  3000,  0]]]},
         "strings": []
     },
     "208000105": {
