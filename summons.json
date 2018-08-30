@@ -1531,5 +1531,41 @@
                 "stat_pattern": 2
             }
         ]
+    },
+    "18": {
+        "names": ["阿修羅"],
+        "image": "beast201.png",
+        "icon": "beast_thum201.png",
+        "skill": {
+            "11801": {
+                "effects": ["Physical* damage (280x, EVO ATK) to all enemies"],
+                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  28000]]],
+                "attack_count": [1],
+                "attack_damage": [[100]],
+                "attack_frames": [[40]],
+                "effect_frames": [[0,  0]],
+                "strings": {
+                    "name": "三千大千世界",
+                    "desc": "敵全体にダメージ"
+                }
+            }
+        },
+        "color": null,
+        "entries": [
+            {
+                "stats": {
+                    "HP": [4300, 5700],
+                    "MP": [4800, 6500],
+                    "ATK": [5200, 6800],
+                    "DEF": [4800, 6300],
+                    "MAG": [4100, 5500],
+                    "SPR": [4300, 5700]
+                },
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "exp_pattern": 31,
+                "stat_pattern": 2
+            }
+        ]
     }
 }
