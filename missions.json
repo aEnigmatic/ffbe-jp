@@ -107698,6 +107698,19 @@
         ]
     },
     "8420101": {
+        "dungeon_id": 84201,
+        "name": "フィガロ城・探索(HARD)",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 20,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["UNIT", 904000104, 1],
+        "gil": 180,
+        "exp": 820,
         "challenges": [
             {
                 "string": "クエストをクリア",
@@ -107722,6 +107735,19 @@
         ]
     },
     "8420102": {
+        "dungeon_id": 84201,
+        "name": "フィガロ城・探索(EASY)",
+        "type": "EXPLORATION",
+        "wave_count": 0,
+        "cost_type": "NRG",
+        "cost": 3,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": ["ITEM", 106306400, 200],
+        "gil": 20,
+        "exp": 50,
         "challenges": [
             {
                 "string": "クエストをクリア",
@@ -107742,6 +107768,191 @@
                 "string": "誰も戦闘不能になることなくクリア",
                 "parsed": ["Clear without an ally being KO'd"],
                 "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8430101": {
+        "dungeon_id": 84301,
+        "name": "工場廃墟・中級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 20,
+        "exp": 50,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106303200, 100]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "魔法を使用してクリア",
+                "parsed": ["Use magic"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8430102": {
+        "dungeon_id": 84301,
+        "name": "工場廃墟・上級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 50,
+        "exp": 155,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106303200, 200]
+            },
+            {
+                "string": "「黒」魔法を使用してクリア",
+                "parsed": ["Use Black magic"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "ＬＢを使用せずクリア",
+                "parsed": ["No limit bursts"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8430103": {
+        "dungeon_id": 84301,
+        "name": "工場廃墟・超級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 85,
+        "exp": 300,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 106303200, 300]
+            },
+            {
+                "string": "魔法を3回以上使用する",
+                "parsed": ["Use magic 3 or more times"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "5ターン以内にクリア",
+                "parsed": ["Clear within 5 turns"],
+                "reward": ["LAPIS", 1, 10]
+            },
+            {
+                "string": "アイテム使用回数5回以内",
+                "parsed": ["Use no more than 5 items"],
+                "reward": ["LAPIS", 1, 10]
+            }
+        ]
+    },
+    "8430104": {
+        "dungeon_id": 84301,
+        "name": "工場廃墟・覚醒級",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "Raid",
+        "cost": 1,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 117,
+        "exp": 365,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["LAPIS", 1, 40]
+            },
+            {
+                "string": "幻獣を召喚してクリア",
+                "parsed": ["Evoke an esper"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "ＬＢを2回以上使用する",
+                "parsed": ["Use 2 or more limit bursts"],
+                "reward": ["LAPIS", 1, 20]
+            },
+            {
+                "string": "アイテム使用回数3回以内",
+                "parsed": ["Use no more than 3 items"],
+                "reward": ["LAPIS", 1, 20]
+            }
+        ]
+    },
+    "8440101": {
+        "dungeon_id": 84401,
+        "name": "強敵：エンゲルス",
+        "type": "BATTLE",
+        "wave_count": 1,
+        "cost_type": "NRG",
+        "cost": 40,
+        "flags": {
+            "continue_allowed": false,
+            "escape_allowed": true
+        },
+        "reward": null,
+        "gil": 150,
+        "exp": 1100,
+        "challenges": [
+            {
+                "string": "クエストをクリア",
+                "parsed": ["Complete the quest"],
+                "reward": ["ITEM", 217000600, 1]
+            },
+            {
+                "string": "アイテムを使用せずにクリア",
+                "parsed": ["No items"],
+                "reward": ["ITEM", 106303200, 10000]
+            },
+            {
+                "string": "「エンゲルス」戦を10ターン以内でクリア",
+                "parsed": ["Clear in 10 turns or less"],
+                "reward": ["KEYITEM", 50, 2]
+            },
+            {
+                "string": "パーティ人数5人以下（同行者含む）",
+                "parsed": ["Party of 5 or less (Companion included)"],
+                "reward": ["UNIT", 904000104, 1]
             }
         ]
     },

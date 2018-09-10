@@ -4779,6 +4779,40 @@
         "price_sell": 15000,
         "icon": "item_10350.png"
     },
+    "303005900": {
+        "name": "百獣の剣王",
+        "compendium_id": 1220,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1, 1.6],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [100140, 230012],
+        "effects": [
+            "Grants '防御+20%' passive.",
+            "Grants '百獣王の咆哮' ability."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 143,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 150000,
+        "price_sell": 15000,
+        "icon": "item_60301.png"
+    },
     "304000100": {
         "name": "虎鉄",
         "compendium_id": 21,
@@ -10961,7 +10995,7 @@
         "accuracy": 0,
         "requirements": [
             "UNIT_ID",
-            [211000103, 211000805]
+            211000103
         ],
         "skills": [100730],
         "effects": ["Grants 'オートリジェネ' passive."],
@@ -22692,7 +22726,7 @@
         "accuracy": 0,
         "requirements": [
             "UNIT_ID",
-            [211000103, 211000805]
+            211000103
         ],
         "skills": [100010, 100040],
         "effects": [
@@ -30476,7 +30510,7 @@
         "accuracy": 0,
         "requirements": [
             "UNIT_ID",
-            [211000103, 211000805]
+            211000103
         ],
         "skills": [100010, 100110, 100040],
         "effects": [
