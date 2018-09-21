@@ -9653,6 +9653,87 @@
             "effects_raw": [[2, 2, 101, [42,  3,  1]], [2, 2, 33, [0,  0,  0,  0,  0,  0,  30,  30,  1,  3]]]},
         "strings": []
     },
+    "100013704": {
+        "name": "ウォーターフォール",
+        "cost": 0,
+        "attack_count": [30],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  4,  3,  4,  4,  4,  4,  4,  4,  4,  4,  4]],
+        "attack_frames": [[6,  11,  16,  21,  26,  31,  36,  41,  46,  51,  56,  61,  66,  71,  76,  81,  86,  91,  96,  101,  106,  111,  116,  121,  126,  131,  136,  141,  146,  210]],
+        "effect_frames": [[0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Water"],
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Magic water damage (5x, MAG) to all enemies (ignore cover and reflect)",
+                "Increase resistance to Water by 40% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  250,  50]], [2, 2, 33, [0,  0,  0,  40,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Magic water damage (8x, MAG) to all enemies (ignore cover and reflect)",
+                "Increase resistance to Water by 55% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  400,  50]], [2, 2, 33, [0,  0,  0,  55,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "100013705": {
+        "name": "ウォーターフォール",
+        "cost": 0,
+        "attack_count": [30],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  4,  3,  4,  4,  4,  4,  4,  4,  4,  4,  4]],
+        "attack_frames": [[6,  11,  16,  21,  26,  31,  36,  41,  46,  51,  56,  61,  66,  71,  76,  81,  86,  91,  96,  101,  106,  111,  116,  121,  126,  131,  136,  141,  146,  210]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Water"],
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Magic water damage (6x, MAG) to all enemies (ignore cover and reflect)",
+                "Increase resistance to Water by 50% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  300,  50]], [2, 2, 33, [0,  0,  0,  50,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Magic water damage (10x, MAG) to all enemies (ignore cover and reflect)",
+                "Increase resistance to Water by 70% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  500,  50]], [2, 2, 33, [0,  0,  0,  70,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "100013706": {
+        "name": "ウォーターフォール",
+        "cost": 0,
+        "attack_count": [30],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  4,  3,  4,  4,  4,  4,  4,  4,  4,  4,  4]],
+        "attack_frames": [[6,  11,  16,  21,  26,  31,  36,  41,  46,  51,  56,  61,  66,  71,  76,  81,  86,  91,  96,  101,  106,  111,  116,  121,  126,  131,  136,  141,  146,  210]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Water"],
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Magic water damage (7x, MAG) to all enemies (ignore cover and reflect)",
+                "Increase resistance to Water by 60% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  350,  50]], [2, 2, 33, [0,  0,  0,  60,  0,  0,  0,  0,  1,  3]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Magic water damage (12x, MAG) to all enemies (ignore cover and reflect)",
+                "Increase resistance to Water by 85% for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 1, 70, [0,  0,  600,  50]], [2, 2, 33, [0,  0,  0,  85,  0,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
     "100013805": {
         "name": "六華仙裂",
         "cost": 0,
@@ -12090,6 +12171,93 @@
             "cost": 16,
             "effects": ["Increase resistance to Lightning and Wind by 69% for 3 turns to all allies"],
             "effects_raw": [[2, 2, 33, [0,  0,  69,  0,  69,  0,  0,  0,  1,  3]]]},
+        "strings": []
+    },
+    "100017505": {
+        "name": "エリミネイトエネミー",
+        "cost": 0,
+        "attack_count": [23],
+        "attack_damage": [[1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  78]],
+        "attack_frames": [[118,  124,  130,  136,  142,  148,  154,  160,  166,  172,  178,  184,  190,  196,  202,  208,  214,  220,  226,  232,  238,  244,  250]],
+        "effect_frames": [[20,  250,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 100,
+            "effects": [
+                "Physical damage (14x, ATK) to all enemies (ignore cover)",
+                "Reduce ATK, DEF, MAG and SPR by 200% for 3 turns to caster",
+                "Inflict Stop (100%) for 3 turns on caster"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  700,  -50]], [0, 3, 24, [-200,  -200,  -200,  -200,  3,  1]], [0, 3, 88, [100,  3]]]},
+        "max_level": {
+            "cost": 100,
+            "effects": [
+                "Physical damage (18x, ATK) to all enemies (ignore cover)",
+                "Reduce ATK, DEF, MAG and SPR by 200% for 3 turns to caster",
+                "Inflict Stop (100%) for 3 turns on caster"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  900,  -50]], [0, 3, 24, [-200,  -200,  -200,  -200,  3,  1]], [0, 3, 88, [100,  3]]]},
+        "strings": []
+    },
+    "100017506": {
+        "name": "エリミネイトエネミー",
+        "cost": 0,
+        "attack_count": [23],
+        "attack_damage": [[1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  78]],
+        "attack_frames": [[118,  124,  130,  136,  142,  148,  154,  160,  166,  172,  178,  184,  190,  196,  202,  208,  214,  220,  226,  232,  238,  244,  250]],
+        "effect_frames": [[0,  80,  250,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 100,
+            "effects": [
+                "Physical damage (20x, ATK) to all enemies (ignore cover)",
+                "Reduce ATK, DEF, MAG and SPR by 200% for 3 turns to caster",
+                "Inflict Stop (100%) for 3 turns on caster"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1000,  -50]], [0, 3, 24, [-200,  -200,  -200,  -200,  3,  1]], [0, 3, 88, [100,  3]]]},
+        "max_level": {
+            "cost": 100,
+            "effects": [
+                "Physical damage (25x, ATK) to all enemies (ignore cover)",
+                "Reduce ATK, DEF, MAG and SPR by 200% for 3 turns to caster",
+                "Inflict Stop (100%) for 3 turns on caster"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1250,  -50]], [0, 3, 24, [-200,  -200,  -200,  -200,  3,  1]], [0, 3, 88, [100,  3]]]},
+        "strings": []
+    },
+    "100017507": {
+        "name": "エリミネイトエネミー",
+        "cost": 0,
+        "attack_count": [23],
+        "attack_damage": [[1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  78]],
+        "attack_frames": [[118,  124,  130,  136,  142,  148,  154,  160,  166,  172,  178,  184,  190,  196,  202,  208,  214,  220,  226,  232,  238,  244,  250]],
+        "effect_frames": [[0,  80,  250,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 100,
+            "effects": [
+                "Physical damage (26x, ATK) to all enemies (ignore cover)",
+                "Reduce ATK, DEF, MAG and SPR by 200% for 3 turns to caster",
+                "Inflict Stop (100%) for 3 turns on caster"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1300,  -50]], [0, 3, 24, [-200,  -200,  -200,  -200,  3,  1]], [0, 3, 88, [100,  3]]]},
+        "max_level": {
+            "cost": 100,
+            "effects": [
+                "Physical damage (32x, ATK) to all enemies (ignore cover)",
+                "Reduce ATK, DEF, MAG and SPR by 200% for 3 turns to caster",
+                "Inflict Stop (100%) for 3 turns on caster"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1600,  -50]], [0, 3, 24, [-200,  -200,  -200,  -200,  3,  1]], [0, 3, 88, [100,  3]]]},
         "strings": []
     },
     "100017605": {
@@ -14562,6 +14730,249 @@
                 "Restore 3000 (+12x, Heal) HP split over 3 turns to one ally"
             ],
             "effects_raw": [[1, 2, 26, [70,  70,  100]], [1, 2, 8, [1200,  1,  3000,  3]]]},
+        "strings": []
+    },
+    "100020905": {
+        "name": "セクシーサマーバケーション",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[64,  110,  256]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": ["Water"],
+        "levels": 20,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Magic* water damage (14x, MAG/SPR/Evo MAG) to all enemies",
+                "Reduce resistance to Water and Light by 50% for 5 turns to all enemies",
+                "Restore 100 MP to all allies",
+                "Fill Esper gauge by 3-4"
+            ],
+            "effects_raw": [[2, 1, 124, [0, 0, 0, 0, 0, 0, 0, 1400, 1400, [50,  50]]], [2, 1, 33, [0,  0,  0,  -50,  0,  0,  -50,  0,  1,  5]], [2, 2, 17, [100]], [0, 3, 32, [3,  4]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Magic* water damage (16x, MAG/SPR/Evo MAG) to all enemies",
+                "Reduce resistance to Water and Light by 70% for 5 turns to all enemies",
+                "Restore 140 MP to all allies",
+                "Fill Esper gauge by 3-4"
+            ],
+            "effects_raw": [[2, 1, 124, [0, 0, 0, 0, 0, 0, 0, 1600, 1600, [50,  50]]], [2, 1, 33, [0,  0,  0,  -70,  0,  0,  -70,  0,  1,  5]], [2, 2, 17, [140]], [0, 3, 32, [3,  4]]]},
+        "strings": []
+    },
+    "100020906": {
+        "name": "セクシーサマーバケーション",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[64,  110,  256]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": ["Water"],
+        "levels": 25,
+        "min_level": {
+            "cost": 34,
+            "effects": [
+                "Magic* water damage (20x, MAG/SPR/Evo MAG) to all enemies",
+                "Reduce resistance to Water and Light by 60% for 5 turns to all enemies",
+                "Restore 120 MP to all allies",
+                "Fill Esper gauge by 4-5"
+            ],
+            "effects_raw": [[2, 1, 124, [0, 0, 0, 0, 0, 0, 0, 2000, 2000, [50,  50]]], [2, 1, 33, [0,  0,  0,  -60,  0,  0,  -60,  0,  1,  5]], [2, 2, 17, [120]], [0, 3, 32, [4,  5]]]},
+        "max_level": {
+            "cost": 34,
+            "effects": [
+                "Magic* water damage (22.5x, MAG/SPR/Evo MAG) to all enemies",
+                "Reduce resistance to Water and Light by 85% for 5 turns to all enemies",
+                "Restore 170 MP to all allies",
+                "Fill Esper gauge by 4-5"
+            ],
+            "effects_raw": [[2, 1, 124, [0, 0, 0, 0, 0, 0, 0, 2250, 2250, [50,  50]]], [2, 1, 33, [0,  0,  0,  -85,  0,  0,  -85,  0,  1,  5]], [2, 2, 17, [170]], [0, 3, 32, [4,  5]]]},
+        "strings": []
+    },
+    "100020907": {
+        "name": "セクシーサマーバケーション",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[64,  110,  256]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": ["Water"],
+        "levels": 30,
+        "min_level": {
+            "cost": 38,
+            "effects": [
+                "Magic* water damage (27x, MAG/SPR/Evo MAG) to all enemies",
+                "Reduce resistance to Water and Light by 70% for 5 turns to all enemies",
+                "Restore 140 MP to all allies",
+                "Fill Esper gauge by 5-6"
+            ],
+            "effects_raw": [[2, 1, 124, [0, 0, 0, 0, 0, 0, 0, 2700, 2700, [50,  50]]], [2, 1, 33, [0,  0,  0,  -70,  0,  0,  -70,  0,  1,  5]], [2, 2, 17, [140]], [0, 3, 32, [5,  6]]]},
+        "max_level": {
+            "cost": 38,
+            "effects": [
+                "Magic* water damage (30x, MAG/SPR/Evo MAG) to all enemies",
+                "Reduce resistance to Water and Light by 100% for 5 turns to all enemies",
+                "Restore 230 MP to all allies",
+                "Fill Esper gauge by 5-6"
+            ],
+            "effects_raw": [[2, 1, 124, [0, 0, 0, 0, 0, 0, 0, 3000, 3000, [50,  50]]], [2, 1, 33, [0,  0,  0,  -100,  0,  0,  -100,  0,  1,  5]], [2, 2, 17, [230]], [0, 3, 32, [5,  6]]]},
+        "strings": []
+    },
+    "100021504": {
+        "name": "エネミークラッシャー",
+        "cost": 0,
+        "attack_count": [2],
+        "attack_damage": [[30,  70]],
+        "attack_frames": [[67,  167]],
+        "effect_frames": [[0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 18,
+            "effects": ["Physical damage (6x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  300,  -50]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": ["Physical damage (9x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  450,  -50]]]},
+        "strings": []
+    },
+    "100021505": {
+        "name": "エネミークラッシャー",
+        "cost": 0,
+        "attack_count": [2],
+        "attack_damage": [[30,  70]],
+        "attack_frames": [[67,  167]],
+        "effect_frames": [[0,  167,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 22,
+            "effects": ["Physical damage (7x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  350,  -50]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": ["Physical damage (11x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  550,  -50]]]},
+        "strings": []
+    },
+    "100021506": {
+        "name": "エネミークラッシャー",
+        "cost": 0,
+        "attack_count": [2],
+        "attack_damage": [[30,  70]],
+        "attack_frames": [[67,  167]],
+        "effect_frames": [[0,  167,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 26,
+            "effects": ["Physical damage (8x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  400,  -50]]]},
+        "max_level": {
+            "cost": 26,
+            "effects": ["Physical damage (13x, ATK) to all enemies (ignore cover)"],
+            "effects_raw": [[2, 1, 21, [0,  0,  650,  -50]]]},
+        "strings": []
+    },
+    "100021603": {
+        "name": "インテンシファイオーラ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[236]],
+        "effect_frames": [[0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Restore 400 (+5x, Heal) HP split over 3 turns to caster",
+                "Restore 110 (+0.2x, Heal) MP split over 3 turns to caster",
+                "Increase break resistance to ATK, DEF, MAG and SPR by 100% for 3 turns to caster"
+            ],
+            "effects_raw": [[0, 3, 8, [500,  1,  400,  3]], [0, 3, 30, [20,  1,  110,  3]], [0, 3, 89, [100,  100,  100,  100,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Restore 400 (+6x, Heal) HP split over 3 turns to caster",
+                "Restore 120 (+0.2x, Heal) MP split over 3 turns to caster",
+                "Increase break resistance to ATK, DEF, MAG and SPR by 100% for 3 turns to caster"
+            ],
+            "effects_raw": [[0, 3, 8, [600,  1,  400,  3]], [0, 3, 30, [20,  1,  120,  3]], [0, 3, 89, [100,  100,  100,  100,  0,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100021604": {
+        "name": "インテンシファイオーラ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[236]],
+        "effect_frames": [[186,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Restore 400 (+6.5x, Heal) HP split over 3 turns to caster",
+                "Restore 115 (+0.2x, Heal) MP split over 3 turns to caster",
+                "Increase break resistance to ATK, DEF, MAG and SPR by 100% for 3 turns to caster"
+            ],
+            "effects_raw": [[0, 3, 8, [650,  1,  400,  3]], [0, 3, 30, [20,  1,  115,  3]], [0, 3, 89, [100,  100,  100,  100,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Restore 400 (+8x, Heal) HP split over 3 turns to caster",
+                "Restore 130 (+0.2x, Heal) MP split over 3 turns to caster",
+                "Increase break resistance to ATK, DEF, MAG and SPR by 100% for 3 turns to caster"
+            ],
+            "effects_raw": [[0, 3, 8, [800,  1,  400,  3]], [0, 3, 30, [20,  1,  130,  3]], [0, 3, 89, [100,  100,  100,  100,  0,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100021605": {
+        "name": "インテンシファイオーラ",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[236]],
+        "effect_frames": [[0,  186,  0]],
+        "move_type": 4,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Restore 400 (+8x, Heal) HP split over 3 turns to caster",
+                "Restore 120 (+0.2x, Heal) MP split over 3 turns to caster",
+                "Increase break resistance to ATK, DEF, MAG and SPR by 100% for 3 turns to caster"
+            ],
+            "effects_raw": [[0, 3, 8, [800,  1,  400,  3]], [0, 3, 30, [20,  1,  120,  3]], [0, 3, 89, [100,  100,  100,  100,  0,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Restore 400 (+10x, Heal) HP split over 3 turns to caster",
+                "Restore 140 (+0.2x, Heal) MP split over 3 turns to caster",
+                "Increase break resistance to ATK, DEF, MAG and SPR by 100% for 3 turns to caster"
+            ],
+            "effects_raw": [[0, 3, 8, [1000,  1,  400,  3]], [0, 3, 30, [20,  1,  140,  3]], [0, 3, 89, [100,  100,  100,  100,  0,  0,  3,  1]]]},
         "strings": []
     },
     "201000104": {

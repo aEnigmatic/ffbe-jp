@@ -10359,6 +10359,37 @@
         "price_sell": 300,
         "icon": "item_11640.png"
     },
+    "309004300": {
+        "name": "フェイタルナックル",
+        "compendium_id": 1225,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 16,
+        "type": "Fist",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.4, 1.6],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 130,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_11642.png"
+    },
     "309020200": {
         "name": "ブロンズナックル",
         "compendium_id": 58,
@@ -10995,7 +11026,7 @@
         "accuracy": 0,
         "requirements": [
             "UNIT_ID",
-            211000103
+            [211000103, 211000805]
         ],
         "skills": [100730],
         "effects": ["Grants 'オートリジェネ' passive."],
@@ -12958,6 +12989,40 @@
         "price_sell": 4000,
         "icon": "item_10537.png"
     },
+    "311004500": {
+        "name": "サマーパラソル",
+        "compendium_id": 1223,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 5,
+        "type": "Staff",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100170, 230130],
+        "effects": [
+            "Grants '精神+20%' passive.",
+            "Grants 'パッションハート' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 15,
+            "DEF": 0,
+            "MAG": 58,
+            "SPR": 120,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 80000,
+        "price_sell": 8000,
+        "icon": "item_10538.png"
+    },
     "312000100": {
         "name": "ショートボウ",
         "compendium_id": 79,
@@ -14783,6 +14848,37 @@
         "price_buy": 120000,
         "price_sell": 12000,
         "icon": "item_11444.png"
+    },
+    "313005200": {
+        "name": "ハンドガトリング",
+        "compendium_id": 1221,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 14,
+        "type": "Gun",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.3, 1.7],
+        "accuracy": 70,
+        "requirements": null,
+        "skills": [230134],
+        "effects": ["Grants 'LB威力上昇機構' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 84,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 24000,
+        "price_sell": 2400,
+        "icon": "item_11445.png"
     },
     "314000200": {
         "name": "レザーウィップ",
@@ -20887,6 +20983,37 @@
         "price_sell": 1000,
         "icon": "item_30168.png"
     },
+    "403046900": {
+        "name": "パワーアンプリファー",
+        "compendium_id": 1224,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [208730],
+        "effects": ["Grants 'ガンスリンガー' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 40,
+            "DEF": 25,
+            "MAG": 0,
+            "SPR": 25,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_30169.png"
+    },
     "404000200": {
         "name": "ブロンズヘルム",
         "compendium_id": 140,
@@ -22726,7 +22853,7 @@
         "accuracy": 0,
         "requirements": [
             "UNIT_ID",
-            211000103
+            [211000103, 211000805]
         ],
         "skills": [100010, 100040],
         "effects": [
@@ -30510,7 +30637,7 @@
         "accuracy": 0,
         "requirements": [
             "UNIT_ID",
-            211000103
+            [211000103, 211000805]
         ],
         "skills": [100010, 100110, 100040],
         "effects": [
@@ -35858,5 +35985,67 @@
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "item_50403.png"
+    },
+    "409028200": {
+        "name": "マジッククローク",
+        "compendium_id": 1222,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [203240],
+        "effects": ["Grants 'MP+15%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 20,
+            "SPR": 20,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "item_50405.png"
+    },
+    "409028300": {
+        "name": "ナッツイーターヘアピン",
+        "compendium_id": 1226,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100125],
+        "effects": ["Grants '魔力+40%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 40,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_50404.png"
     }
 }
