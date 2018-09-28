@@ -1217,6 +1217,22 @@
         "effects_raw": [[2, 1, 71, [300750,  1]]],
         "icon": "item_2019.png"
     },
+    "105007300": {
+        "name": "水彩の魔法書",
+        "type": "Consumable",
+        "compendium_id": 783,
+        "compendium_shown": true,
+        "usable_in_combat": true,
+        "usable_in_exploration": false,
+        "flags": [true, false, false, false, false, false],
+        "carry_limit": 1,
+        "stack_size": 99,
+        "price_buy": 4000,
+        "price_sell": 400,
+        "effects": ["Increase resistance to Water by 50% for 3 turns to all allies"],
+        "effects_raw": [[2, 2, 71, [300760,  1]]],
+        "icon": "item_2020.png"
+    },
     "106000100": {
         "name": "テント",
         "type": "Consumable",
@@ -1632,6 +1648,38 @@
         "effects": null,
         "effects_raw": "",
         "icon": "item_9219.png"
+    },
+    "106211270": {
+        "name": "3周年記念召喚チケット",
+        "type": "Consumable",
+        "compendium_id": 778,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9220.png"
+    },
+    "106211280": {
+        "name": "[期間限定]★5確定SP召喚チケット",
+        "type": "Consumable",
+        "compendium_id": 781,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9203.png"
     },
     "106300100": {
         "name": "聖石の欠片",
@@ -2672,6 +2720,22 @@
         "effects": null,
         "effects_raw": "",
         "icon": "item_9214.png"
+    },
+    "106306500": {
+        "name": "ギサールの種",
+        "type": "Consumable",
+        "compendium_id": 782,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9221.png"
     },
     "107000100": {
         "name": "魔石のカケラ",
