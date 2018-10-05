@@ -1823,11 +1823,11 @@
         "levels": 10,
         "min_level": {
             "cost": 10,
-            "effects": ["Physical dark damage (1.2x) as HP drain (100%) to all enemies"],
+            "effects": ["Physical dark damage (1.2x, ATK) as HP drain (100%) to all enemies"],
             "effects_raw": [[2, 1, 25, [100,  120,  100]]]},
         "max_level": {
             "cost": 10,
-            "effects": ["Physical dark damage (1.65x) as HP drain (100%) to all enemies"],
+            "effects": ["Physical dark damage (1.65x, ATK) as HP drain (100%) to all enemies"],
             "effects_raw": [[2, 1, 25, [100,  165,  100]]]},
         "strings": []
     },
@@ -1844,11 +1844,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Physical dark damage (1.4x) as HP drain (100%) to all enemies"],
+            "effects": ["Physical dark damage (1.4x, ATK) as HP drain (100%) to all enemies"],
             "effects_raw": [[2, 1, 25, [100,  140,  100]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Physical dark damage (2.1x) as HP drain (100%) to all enemies"],
+            "effects": ["Physical dark damage (2.1x, ATK) as HP drain (100%) to all enemies"],
             "effects_raw": [[2, 1, 25, [100,  210,  100]]]},
         "strings": []
     },
@@ -1865,11 +1865,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical dark damage (1.6x) as HP drain (100%) to all enemies"],
+            "effects": ["Physical dark damage (1.6x, ATK) as HP drain (100%) to all enemies"],
             "effects_raw": [[2, 1, 25, [100,  160,  100]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical dark damage (2.55x) as HP drain (100%) to all enemies"],
+            "effects": ["Physical dark damage (2.55x, ATK) as HP drain (100%) to all enemies"],
             "effects_raw": [[2, 1, 25, [100,  255,  100]]]},
         "strings": []
     },
@@ -13049,14 +13049,14 @@
             "cost": 14,
             "effects": [
                 "Inflict Poison and Disease (40%) on all enemies",
-                "Magic damage (0.5x, MAG) per turn to all enemies for 3 turns"
+                "Magic damage (0.5x) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 6, [40,  0,  0,  0,  0,  0,  40,  0,  1]], [2, 1, 139, [3,  50,  0,  1,  3,  1,  4]]]},
         "max_level": {
             "cost": 14,
             "effects": [
                 "Inflict Poison and Disease (54%) on all enemies",
-                "Magic damage (1.9x, MAG) per turn to all enemies for 3 turns"
+                "Magic damage (1.9x) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 6, [54,  0,  0,  0,  0,  0,  54,  0,  1]], [2, 1, 139, [3,  190,  0,  1,  3,  1,  4]]]},
         "strings": []
@@ -13076,14 +13076,14 @@
             "cost": 16,
             "effects": [
                 "Inflict Poison and Disease (50%) on all enemies",
-                "Magic damage (1x, MAG) per turn to all enemies for 3 turns"
+                "Magic damage (1x) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 6, [50,  0,  0,  0,  0,  0,  50,  0,  1]], [2, 1, 139, [3,  100,  0,  1,  3,  1,  4]]]},
         "max_level": {
             "cost": 16,
             "effects": [
                 "Inflict Poison and Disease (69%) on all enemies",
-                "Magic damage (2.9x, MAG) per turn to all enemies for 3 turns"
+                "Magic damage (2.9x) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 6, [69,  0,  0,  0,  0,  0,  69,  0,  1]], [2, 1, 139, [3,  290,  0,  1,  3,  1,  4]]]},
         "strings": []
@@ -13103,14 +13103,14 @@
             "cost": 20,
             "effects": [
                 "Inflict Poison and Disease (60%) on all enemies",
-                "Magic damage (1.5x, MAG) per turn to all enemies for 3 turns"
+                "Magic damage (1.5x) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 6, [60,  0,  0,  0,  0,  0,  60,  0,  1]], [2, 1, 139, [3,  150,  0,  1,  3,  1,  4]]]},
         "max_level": {
             "cost": 20,
             "effects": [
                 "Inflict Poison and Disease (84%) on all enemies",
-                "Magic damage (3.9x, MAG) per turn to all enemies for 3 turns"
+                "Magic damage (3.9x) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 6, [84,  0,  0,  0,  0,  0,  84,  0,  1]], [2, 1, 139, [3,  390,  0,  1,  3,  1,  4]]]},
         "strings": []
@@ -17769,7 +17769,7 @@
             "effects": [
                 "Magic fire damage (10x, MAG) to all enemies",
                 "Reduce resistance to Fire by 70% for 3 turns to all enemies",
-                "Magic fire damage (3x, MAG) per turn to all enemies for 3 turns"
+                "Magic fire damage (3x) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000,  0]], [2, 1, 33, [-70,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
         "max_level": {
@@ -17777,7 +17777,7 @@
             "effects": [
                 "Magic fire damage (19.5x, MAG) to all enemies",
                 "Reduce resistance to Fire by 89% for 3 turns to all enemies",
-                "Magic fire damage (3x, MAG) per turn to all enemies for 3 turns"
+                "Magic fire damage (3x) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1950,  0]], [2, 1, 33, [-89,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
         "strings": []
@@ -17798,7 +17798,7 @@
             "effects": [
                 "Magic fire damage (10x, MAG) to all enemies",
                 "Reduce resistance to Fire by 75% for 3 turns to all enemies",
-                "Magic fire damage (3x, MAG) per turn to all enemies for 3 turns"
+                "Magic fire damage (3x) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000,  0]], [2, 1, 33, [-75,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
         "max_level": {
@@ -17806,7 +17806,7 @@
             "effects": [
                 "Magic fire damage (22x, MAG) to all enemies",
                 "Reduce resistance to Fire by 100% for 3 turns to all enemies",
-                "Magic fire damage (3x, MAG) per turn to all enemies for 3 turns"
+                "Magic fire damage (3x) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2200,  0]], [2, 1, 33, [-100,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
         "strings": []
@@ -17827,7 +17827,7 @@
             "effects": [
                 "Magic fire damage (10x, MAG) to all enemies",
                 "Reduce resistance to Fire by 75% for 3 turns to all enemies",
-                "Magic fire damage (3x, MAG) per turn to all enemies for 3 turns"
+                "Magic fire damage (3x) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000,  0]], [2, 1, 33, [-75,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
         "max_level": {
@@ -17835,7 +17835,7 @@
             "effects": [
                 "Magic fire damage (27x, MAG) to all enemies",
                 "Reduce resistance to Fire by 100% for 3 turns to all enemies",
-                "Magic fire damage (3x, MAG) per turn to all enemies for 3 turns"
+                "Magic fire damage (3x) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2700,  0]], [2, 1, 33, [-100,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
         "strings": []
@@ -17952,7 +17952,7 @@
             "effects": [
                 "Physical damage (4x, ATK) to one enemy",
                 "Reduce ATK and DEF by 40% for 3 turns to one enemy",
-                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
+                "Physical damage (1.5x) per turn to one enemy for 3 turns"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [1, 1, 24, [-40,  -40,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
         "max_level": {
@@ -17960,7 +17960,7 @@
             "effects": [
                 "Physical damage (5.8x, ATK) to one enemy",
                 "Reduce ATK and DEF by 49% for 3 turns to one enemy",
-                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
+                "Physical damage (1.5x) per turn to one enemy for 3 turns"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  580,  0]], [1, 1, 24, [-49,  -49,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
         "strings": []
@@ -17981,7 +17981,7 @@
             "effects": [
                 "Physical damage (4x, ATK) to one enemy",
                 "Reduce ATK and DEF by 40% for 3 turns to one enemy",
-                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
+                "Physical damage (1.5x) per turn to one enemy for 3 turns"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [1, 1, 24, [-40,  -40,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
         "max_level": {
@@ -17989,7 +17989,7 @@
             "effects": [
                 "Physical damage (6.8x, ATK) to one enemy",
                 "Reduce ATK and DEF by 54% for 3 turns to one enemy",
-                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
+                "Physical damage (1.5x) per turn to one enemy for 3 turns"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  680,  0]], [1, 1, 24, [-54,  -54,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
         "strings": []
@@ -18010,7 +18010,7 @@
             "effects": [
                 "Physical damage (4x, ATK) to one enemy",
                 "Reduce ATK and DEF by 40% for 3 turns to one enemy",
-                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
+                "Physical damage (1.5x) per turn to one enemy for 3 turns"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [1, 1, 24, [-40,  -40,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
         "max_level": {
@@ -18018,7 +18018,7 @@
             "effects": [
                 "Physical damage (7.8x, ATK) to one enemy",
                 "Reduce ATK and DEF by 59% for 3 turns to one enemy",
-                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
+                "Physical damage (1.5x) per turn to one enemy for 3 turns"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  780,  0]], [1, 1, 24, [-59,  -59,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
         "strings": []
@@ -25909,11 +25909,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Physical damage (2.2x) as HP drain (100%) to one enemy"],
+            "effects": ["Physical damage (2.2x, ATK) as HP drain (100%) to one enemy"],
             "effects_raw": [[1, 1, 25, [100,  220,  100]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Physical damage (2.9x) as HP drain (100%) to one enemy"],
+            "effects": ["Physical damage (2.9x, ATK) as HP drain (100%) to one enemy"],
             "effects_raw": [[1, 1, 25, [100,  290,  100]]]},
         "strings": []
     },
@@ -25930,11 +25930,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical damage (2.4x) as HP drain (100%) to one enemy"],
+            "effects": ["Physical damage (2.4x, ATK) as HP drain (100%) to one enemy"],
             "effects_raw": [[1, 1, 25, [100,  240,  100]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical damage (3.35x) as HP drain (100%) to one enemy"],
+            "effects": ["Physical damage (3.35x, ATK) as HP drain (100%) to one enemy"],
             "effects_raw": [[1, 1, 25, [100,  335,  100]]]},
         "strings": []
     },
@@ -25951,11 +25951,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical damage (2.6x) as HP drain (100%) to one enemy"],
+            "effects": ["Physical damage (2.6x, ATK) as HP drain (100%) to one enemy"],
             "effects_raw": [[1, 1, 25, [100,  260,  100]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical damage (3.8x) as HP drain (100%) to one enemy"],
+            "effects": ["Physical damage (3.8x, ATK) as HP drain (100%) to one enemy"],
             "effects_raw": [[1, 1, 25, [100,  380,  100]]]},
         "strings": []
     },
@@ -26728,11 +26728,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Physical light damage (1.6x) as HP drain (100%) to all enemies"],
+            "effects": ["Physical light damage (1.6x, ATK) as HP drain (100%) to all enemies"],
             "effects_raw": [[2, 1, 25, [100,  160,  100]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Physical light damage (2.55x) as HP drain (100%) to all enemies"],
+            "effects": ["Physical light damage (2.55x, ATK) as HP drain (100%) to all enemies"],
             "effects_raw": [[2, 1, 25, [100,  255,  100]]]},
         "strings": []
     },
@@ -26749,11 +26749,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Physical light damage (1.8x) as HP drain (100%) to all enemies"],
+            "effects": ["Physical light damage (1.8x, ATK) as HP drain (100%) to all enemies"],
             "effects_raw": [[2, 1, 25, [100,  180,  100]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Physical light damage (3x) as HP drain (100%) to all enemies"],
+            "effects": ["Physical light damage (3x, ATK) as HP drain (100%) to all enemies"],
             "effects_raw": [[2, 1, 25, [100,  300,  100]]]},
         "strings": []
     },
@@ -26770,11 +26770,11 @@
         "levels": 30,
         "min_level": {
             "cost": 24,
-            "effects": ["Physical light damage (11.1x) as HP drain (100%) to all enemies"],
+            "effects": ["Physical light damage (11.1x, ATK) as HP drain (100%) to all enemies"],
             "effects_raw": [[2, 1, 25, [100,  1110,  100]]]},
         "max_level": {
             "cost": 24,
-            "effects": ["Physical light damage (14x) as HP drain (100%) to all enemies"],
+            "effects": ["Physical light damage (14x, ATK) as HP drain (100%) to all enemies"],
             "effects_raw": [[2, 1, 25, [100,  1400,  100]]]},
         "strings": []
     },
@@ -33546,14 +33546,14 @@
             "cost": 18,
             "effects": [
                 "Magic water damage (4.55x * 2 = 9.1x, MAG) to all enemies (ignore cover and reflect)",
-                "Magic water damage (0.3x) as MP drain (30%) to all enemies"
+                "Magic water damage (0.3x, MAG) as MP drain (30%) to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  455,  50]], [2, 1, 10, [30,  30,  100]]]},
         "max_level": {
             "cost": 18,
             "effects": [
                 "Magic water damage (6x * 2 = 12x, MAG) to all enemies (ignore cover and reflect)",
-                "Magic water damage (0.3x) as MP drain (30%) to all enemies"
+                "Magic water damage (0.3x, MAG) as MP drain (30%) to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  600,  50]], [2, 1, 10, [30,  30,  100]]]},
         "strings": []
@@ -33750,7 +33750,7 @@
             "effects": [
                 "Magic fire damage (2.55x * 2 = 5.1x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 75% for 5 turns to one enemy",
-                "Gain access to following skills for one turn:\n\tエンハンス・氷 (507873)\n\tエンハンス・火 (507872)\n\tエンハンス・雷 (507874)"
+                "Gain access to following skills for one turn:\n\tEnhancement - Fire (507872)\n\tEnhancement - Ice (507873)\n\tEnhancement - Lightning (507874)"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  255,  50]], [1, 1, 33, [-75,  -75,  -75,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 100, [[2,  2,  2], [507872,  507873,  507874], 9999, 2, 1, 1]]]},
         "max_level": {
@@ -33758,7 +33758,7 @@
             "effects": [
                 "Magic fire damage (4x * 2 = 8x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 100% for 5 turns to one enemy",
-                "Gain access to following skills for one turn:\n\tエンハンス・氷 (507873)\n\tエンハンス・火 (507872)\n\tエンハンス・雷 (507874)"
+                "Gain access to following skills for one turn:\n\tEnhancement - Fire (507872)\n\tEnhancement - Ice (507873)\n\tEnhancement - Lightning (507874)"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  400,  50]], [1, 1, 33, [-100,  -100,  -100,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 100, [[2,  2,  2], [507872,  507873,  507874], 9999, 2, 1, 1]]]},
         "strings": []

@@ -300,7 +300,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1.2x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (1.2x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  120,  100]]]
     },
     "120160": {
@@ -324,7 +324,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.3x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (0.3x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 10, [30,  30,  100]]]
     },
     "120190": {
@@ -852,7 +852,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (1.2x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (1.2x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  120,  100]]]
     },
     "140050": {
@@ -1068,7 +1068,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (1.4x) as HP drain (30%) to one enemy\nMagic damage (1x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (1.4x, MAG) as HP drain (30%) to one enemy\nMagic damage (1x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  140,  100]], [1, 1, 10, [30,  100,  100]]]
     },
     "140320": {
@@ -1172,7 +1172,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (1.1x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (1.1x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  110,  100]]]
     },
     "150030": {
@@ -1212,7 +1212,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (1x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (1x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 10, [30,  100,  100]]]
     },
     "150080": {
@@ -1636,7 +1636,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (1.5x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (1.5x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  150,  100]]]
     },
     "150560": {
@@ -1748,7 +1748,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (1x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (1x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 10, [30,  100,  100]]]
     },
     "150700": {
@@ -1764,7 +1764,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (1.8x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (1.8x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  180,  100]]]
     },
     "150720": {
@@ -1892,7 +1892,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.13x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (0.13x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 10, [30,  13,  100]]]
     },
     "150870": {
@@ -2492,7 +2492,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (2x) as HP drain (50%) to one enemy",
+        "effects": "Magic damage (2x, MAG) as HP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 25, [50,  200,  100]]]
     },
     "151660": {
@@ -2524,7 +2524,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (1x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (1x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  100,  100]]]
     },
     "151710": {
@@ -2588,7 +2588,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (2x) as HP drain (50%) to one enemy",
+        "effects": "Magic damage (2x, MAG) as HP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 25, [50,  200,  100]]]
     },
     "151790": {
@@ -2636,7 +2636,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (2x) as HP drain (50%) to one enemy",
+        "effects": "Magic damage (2x, MAG) as HP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 25, [50,  200,  100]]]
     },
     "151860": {
@@ -2684,7 +2684,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (1.5x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (1.5x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  150,  100]]]
     },
     "151920": {
@@ -2748,7 +2748,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (2.4x) as HP drain (60%) to one enemy",
+        "effects": "Magic damage (2.4x, MAG) as HP drain (60%) to one enemy",
         "effects_raw": [[1, 1, 25, [60,  240,  100]]]
     },
     "152000": {
@@ -2756,7 +2756,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (1x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (1x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 10, [30,  100,  100]]]
     },
     "152010": {
@@ -2820,7 +2820,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1.3x) as HP drain (50%) to one enemy",
+        "effects": "Magic damage (1.3x, MAG) as HP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 25, [50,  130,  100]]]
     },
     "152090": {
@@ -2828,7 +2828,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1.5x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (1.5x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  150,  100]]]
     },
     "152100": {
@@ -2900,7 +2900,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1.2x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (1.2x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  120,  100]]]
     },
     "152190": {
@@ -3132,7 +3132,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (1.3x) as HP drain (50%) to one enemy",
+        "effects": "Magic damage (1.3x, MAG) as HP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 25, [50,  130,  100]]]
     },
     "152480": {
@@ -3740,7 +3740,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (0.1x) as MP drain (50%) to one enemy",
+        "effects": "Physical damage (0.1x, ATK) as MP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 10, [50,  10,  100]]]
     },
     "153240": {
@@ -4100,7 +4100,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (1x) as MP drain (50%) to one enemy",
+        "effects": "Magic damage (1x, MAG) as MP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 10, [50,  100,  100]]]
     },
     "153730": {
@@ -4132,7 +4132,7 @@
         "flags": [false,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1.5x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (1.5x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  150,  100]]]
     },
     "153770": {
@@ -4956,7 +4956,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1.5x) as HP drain (50%) to one enemy",
+        "effects": "Magic damage (1.5x, MAG) as HP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 25, [50,  150,  100]]]
     },
     "154800": {
@@ -4964,7 +4964,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1.5x) as HP drain (50%) to one enemy",
+        "effects": "Magic damage (1.5x, MAG) as HP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 25, [50,  150,  100]]]
     },
     "154810": {
@@ -5140,7 +5140,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (1x) as MP drain (50%) to one enemy",
+        "effects": "Magic damage (1x, MAG) as MP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 10, [50,  100,  100]]]
     },
     "155030": {
@@ -7252,7 +7252,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Hybrid* fire damage (1.9x, ATK & MAG) to one enemy\nReduce ATK and DEF by 50% for 3 turns to one enemy\nPhysical fire damage (0.1x) as MP drain (50%) to one enemy",
+        "effects": "Hybrid* fire damage (1.9x, ATK & MAG) to one enemy\nReduce ATK and DEF by 50% for 3 turns to one enemy\nPhysical fire damage (0.1x, ATK) as MP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  190,  190]], [1, 1, 24, [-50,  -50,  0,  0,  3,  1]], [1, 1, 10, [50,  10,  100]]]
     },
     "157620": {
@@ -7308,7 +7308,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (1x) as MP drain (50%) to one enemy",
+        "effects": "Magic damage (1x, MAG) as MP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 10, [50,  100,  100]]]
     },
     "157690": {
@@ -7812,7 +7812,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (3x) as HP drain (60%) to one enemy",
+        "effects": "Magic damage (3x, MAG) as HP drain (60%) to one enemy",
         "effects_raw": [[1, 1, 25, [60,  300,  100]]]
     },
     "158350": {
@@ -7844,7 +7844,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (2.4x) as HP drain (60%) to one enemy",
+        "effects": "Magic damage (2.4x, MAG) as HP drain (60%) to one enemy",
         "effects_raw": [[1, 1, 25, [60,  240,  100]]]
     },
     "158390": {
@@ -9092,7 +9092,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (1x) as MP drain (100%) to one enemy",
+        "effects": "Magic damage (1x, MAG) as MP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 10, [100,  100,  100]]]
     },
     "160040": {
@@ -10892,7 +10892,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (4x) as HP drain (100%) to all enemies",
+        "effects": "Magic damage (4x, MAG) as HP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 25, [100,  400,  100]]]
     },
     "162190": {
@@ -10900,7 +10900,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.05x) as MP drain (100%) to all enemies",
+        "effects": "Magic damage (0.05x, MAG) as MP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 10, [100,  5,  100]]]
     },
     "162200": {
@@ -11484,7 +11484,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1x) as HP drain (100%) to all enemies",
+        "effects": "Magic damage (1x, MAG) as HP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 25, [100,  100,  100]]]
     },
     "162930": {
@@ -11516,7 +11516,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (4x) as MP drain (400%) to one enemy",
+        "effects": "Magic damage (4x, MAG) as MP drain (400%) to one enemy",
         "effects_raw": [[1, 1, 10, [400,  400,  100]]]
     },
     "162970": {
@@ -12500,7 +12500,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (4x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (4x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  400,  100]]]
     },
     "164190": {
@@ -12508,7 +12508,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.3x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (0.3x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 10, [30,  30,  100]]]
     },
     "164200": {
@@ -12524,7 +12524,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (10x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (10x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  1000,  100]]]
     },
     "164220": {
@@ -13196,7 +13196,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (5x) as HP drain (100%) to all enemies\nMagic damage (0.5x) as MP drain (30%) to all enemies",
+        "effects": "Magic damage (5x, MAG) as HP drain (100%) to all enemies\nMagic damage (0.5x, MAG) as MP drain (30%) to all enemies",
         "effects_raw": [[2, 1, 25, [100,  500,  100]], [2, 1, 10, [30,  50,  100]]]
     },
     "165060": {
@@ -13908,7 +13908,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (2x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (2x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  200,  100]]]
     },
     "165970": {
@@ -13948,7 +13948,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (1.6x) as HP drain (50%) to one enemy",
+        "effects": "Physical damage (1.6x, ATK) as HP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 25, [50,  160,  100]]]
     },
     "166020": {
@@ -13956,7 +13956,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (1.8x) as HP drain (100%) to one enemy",
+        "effects": "Physical damage (1.8x, ATK) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  180,  100]]]
     },
     "166030": {
@@ -14636,7 +14636,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (2x) as HP drain (100%) to all enemies",
+        "effects": "Magic damage (2x, MAG) as HP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 25, [100,  200,  100]]]
     },
     "166920": {
@@ -14788,7 +14788,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (4x) as HP drain (100%) to all enemies",
+        "effects": "Magic damage (4x, MAG) as HP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 25, [100,  400,  100]]]
     },
     "167110": {
@@ -14908,7 +14908,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (3x) as HP drain (100%) to one enemy\nReduce DEF and SPR by 30% for 3 turns to one enemy\nIncrease DEF and SPR by 30% for 3 turns to caster",
+        "effects": "Magic damage (3x, MAG) as HP drain (100%) to one enemy\nReduce DEF and SPR by 30% for 3 turns to one enemy\nIncrease DEF and SPR by 30% for 3 turns to caster",
         "effects_raw": [[1, 1, 25, [100,  300,  100]], [1, 1, 24, [0,  -30,  0,  -30,  3,  1]], [0, 3, 3, [0,  30,  0,  30,  3,  1]]]
     },
     "167260": {
@@ -14916,7 +14916,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (1x) as MP drain (100%) to one enemy\nReduce ATK and MAG by 30% for 3 turns to one enemy\nIncrease ATK and MAG by 30% for 3 turns to caster",
+        "effects": "Magic damage (1x, MAG) as MP drain (100%) to one enemy\nReduce ATK and MAG by 30% for 3 turns to one enemy\nIncrease ATK and MAG by 30% for 3 turns to caster",
         "effects_raw": [[1, 1, 10, [100,  100,  100]], [1, 1, 24, [-30,  0,  -30,  0,  3,  1]], [0, 3, 3, [30,  0,  30,  0,  3,  1]]]
     },
     "167270": {
@@ -15828,7 +15828,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (5x) as HP drain (100%) to one enemy",
+        "effects": "Physical damage (5x, ATK) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  500,  100]]]
     },
     "168400": {
@@ -15892,7 +15892,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (1.5x) as HP drain (100%) to one enemy",
+        "effects": "Physical damage (1.5x, ATK) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  150,  100]]]
     },
     "168480": {
@@ -15956,7 +15956,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (3x) as HP drain (100%) to one enemy",
+        "effects": "Physical damage (3x, ATK) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  300,  100]]]
     },
     "168560": {
@@ -16140,7 +16140,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (5x) as HP drain (100%) to one enemy",
+        "effects": "Physical damage (5x, ATK) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  500,  100]]]
     },
     "168790": {
@@ -16164,7 +16164,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (8x) as HP drain (100%) to one enemy",
+        "effects": "Physical damage (8x, ATK) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  800,  100]]]
     },
     "168820": {
@@ -16220,7 +16220,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (1.5x) as HP drain (100%) to one enemy",
+        "effects": "Physical damage (1.5x, ATK) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  150,  100]]]
     },
     "168890": {
@@ -16236,7 +16236,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (4x) as HP drain (100%) to one enemy",
+        "effects": "Physical damage (4x, ATK) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  400,  100]]]
     },
     "168910": {
@@ -16508,7 +16508,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1x) as HP drain (100%) to all enemies",
+        "effects": "Magic damage (1x, MAG) as HP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 25, [100,  100,  100]]]
     },
     "169240": {
@@ -16820,7 +16820,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (3x) as HP drain (100%) to one enemy",
+        "effects": "Physical damage (3x, ATK) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  300,  100]]]
     },
     "169630": {
@@ -16908,7 +16908,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (1.5x) as HP drain (100%) to one enemy",
+        "effects": "Physical damage (1.5x, ATK) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  150,  100]]]
     },
     "169740": {
@@ -16980,7 +16980,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (2x) as HP drain (1000%) to one enemy",
+        "effects": "Physical damage (2x, ATK) as HP drain (1000%) to one enemy",
         "effects_raw": [[1, 1, 25, [1000,  200,  100]]]
     },
     "169830": {
@@ -17156,7 +17156,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (5x) as HP drain (60%) to one enemy",
+        "effects": "Magic damage (5x, MAG) as HP drain (60%) to one enemy",
         "effects_raw": [[1, 1, 25, [60,  500,  100]]]
     },
     "170050": {
@@ -17164,7 +17164,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (10x) as HP drain (60%) to one enemy",
+        "effects": "Magic damage (10x, MAG) as HP drain (60%) to one enemy",
         "effects_raw": [[1, 1, 25, [60,  1000,  100]]]
     },
     "170060": {
@@ -17628,7 +17628,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.15x) as MP drain (15%) to one enemy\nRestore 5000 HP to caster",
+        "effects": "Magic damage (0.15x, MAG) as MP drain (15%) to one enemy\nRestore 5000 HP to caster",
         "effects_raw": [[1, 1, 10, [15,  15,  100]], [0, 3, 16, [5000]]]
     },
     "170640": {
@@ -17636,7 +17636,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.2x) as MP drain (20%) to one enemy\nRestore 30000 HP to caster",
+        "effects": "Magic damage (0.2x, MAG) as MP drain (20%) to one enemy\nRestore 30000 HP to caster",
         "effects_raw": [[1, 1, 10, [20,  20,  100]], [0, 3, 16, [30000]]]
     },
     "170650": {
@@ -17684,7 +17684,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.2x) as MP drain (20%) to all enemies",
+        "effects": "Magic damage (0.2x, MAG) as MP drain (20%) to all enemies",
         "effects_raw": [[2, 1, 10, [20,  20,  100]]]
     },
     "170710": {
@@ -17756,7 +17756,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.5x) as MP drain (50%) to one enemy",
+        "effects": "Magic damage (0.5x, MAG) as MP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 10, [50,  50,  100]]]
     },
     "170800": {
@@ -17780,7 +17780,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (4x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (4x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  400,  100]]]
     },
     "170830": {
@@ -17796,7 +17796,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.6x) as MP drain (60%) to all enemies\nPhysical* damage (10x, ATK) to all enemies (+1% accuracy)\nRestore 500000 HP to all allies",
+        "effects": "Magic damage (0.6x, MAG) as MP drain (60%) to all enemies\nPhysical* damage (10x, ATK) to all enemies (+1% accuracy)\nRestore 500000 HP to all allies",
         "effects_raw": [[2, 1, 10, [60,  60,  100]], [2, 1, 1, [0,  0,  0,  0,  0,  0,  1000,  1]], [2, 2, 16, [500000]]]
     },
     "170850": {
@@ -17804,7 +17804,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (1.4x) as HP drain (50%) to one enemy",
+        "effects": "Physical damage (1.4x, ATK) as HP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 25, [50,  140,  100]]]
     },
     "170860": {
@@ -17892,7 +17892,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1.6x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (1.6x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  160,  100]]]
     },
     "170970": {
@@ -18420,7 +18420,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (5x) as MP drain (500%) to all enemies\nFixed* damage (99999) to all enemies\nRestore 100% HP to caster",
+        "effects": "Magic damage (5x, MAG) as MP drain (500%) to all enemies\nFixed* damage (99999) to all enemies\nRestore 100% HP to caster",
         "effects_raw": [[2, 1, 10, [500,  500,  100]], [2, 1, 41, [99999]], [0, 3, 26, [100,  100,  100]]]
     },
     "171620": {
@@ -19772,7 +19772,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Inflict Blind, Sleep and Confusion (100%) on all enemies\nMagic damage (0.1x) as MP drain (100%) to all enemies",
+        "effects": "Inflict Blind, Sleep and Confusion (100%) on all enemies\nMagic damage (0.1x, MAG) as MP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 6, [0,  100,  100,  0,  0,  100,  0,  0,  1]], [2, 1, 10, [100,  10,  100]]]
     },
     "173310": {
@@ -19908,7 +19908,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (1x) as MP drain (100%) to one enemy",
+        "effects": "Hybrid* damage (1x, ATK & MAG) as MP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 10, [100,  100,  100]]]
     },
     "173480": {
@@ -19972,7 +19972,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain HP",
-        "effects": "Fixed damage (2.3x) as HP drain (100%) to one enemy",
+        "effects": "Hybrid* damage (2.3x, ATK & MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  230,  100]]]
     },
     "173560": {
@@ -20028,7 +20028,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain HP",
-        "effects": "Fixed damage (4x) as HP drain (1000%) to one enemy",
+        "effects": "Hybrid* damage (4x, ATK & MAG) as HP drain (1000%) to one enemy",
         "effects_raw": [[1, 1, 25, [1000,  400,  100]]]
     },
     "173630": {
@@ -20572,7 +20572,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.15x) as MP drain (15%) to one enemy",
+        "effects": "Magic damage (0.15x, MAG) as MP drain (15%) to one enemy",
         "effects_raw": [[1, 1, 10, [15,  15,  100]]]
     },
     "174310": {
@@ -20596,7 +20596,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (2.5x, MAG) to one enemy\nMagic damage (0.1x) as MP drain (10%) to one enemy",
+        "effects": "Magic damage (2.5x, MAG) to one enemy\nMagic damage (0.1x, MAG) as MP drain (10%) to one enemy",
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  250]], [1, 1, 10, [10,  10,  100]]]
     },
     "174340": {
@@ -20796,7 +20796,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (10x) as MP drain (1000%) to all enemies",
+        "effects": "Magic damage (10x, MAG) as MP drain (1000%) to all enemies",
         "effects_raw": [[2, 1, 10, [1000,  1000,  100]]]
     },
     "174590": {
@@ -21636,7 +21636,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain HP",
-        "effects": "Fixed damage (3x) as HP drain (100%) to one enemy",
+        "effects": "Hybrid* damage (3x, ATK & MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  300,  100]]]
     },
     "175630": {
@@ -21668,7 +21668,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (1x) as MP drain (50%) to one enemy",
+        "effects": "Hybrid* damage (1x, ATK & MAG) as MP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 10, [50,  100,  100]]]
     },
     "175670": {
@@ -21684,7 +21684,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain HP",
-        "effects": "Fixed damage (5x) as HP drain (100%) to one enemy",
+        "effects": "Hybrid* damage (5x, ATK & MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  500,  100]]]
     },
     "175690": {
@@ -21900,7 +21900,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (100) to all enemies\nInflict Paralyze (10%) on all enemies\nFixed damage (0.01x) as MP drain (100%) to all enemies",
+        "effects": "Fixed damage (100) to all enemies\nInflict Paralyze (10%) on all enemies\nHybrid* damage (0.01x, ATK & MAG) as MP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 41, [100]], [2, 1, 6, [0,  0,  0,  0,  10,  0,  0,  0,  1]], [2, 1, 10, [100,  1,  100]]]
     },
     "175960": {
@@ -21908,7 +21908,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (300) to all enemies\nInflict Paralyze (30%) on all enemies\nFixed damage (0.01x) as MP drain (100%) to all enemies",
+        "effects": "Fixed damage (300) to all enemies\nInflict Paralyze (30%) on all enemies\nHybrid* damage (0.01x, ATK & MAG) as MP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 41, [300]], [2, 1, 6, [0,  0,  0,  0,  30,  0,  0,  0,  1]], [2, 1, 10, [100,  1,  100]]]
     },
     "175970": {
@@ -21916,7 +21916,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (1000) to all enemies\nInflict Paralyze (100%) on all enemies\nFixed damage (0.01x) as MP drain (100%) to all enemies",
+        "effects": "Fixed damage (1000) to all enemies\nInflict Paralyze (100%) on all enemies\nHybrid* damage (0.01x, ATK & MAG) as MP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 41, [1000]], [2, 1, 6, [0,  0,  0,  0,  100,  0,  0,  0,  1]], [2, 1, 10, [100,  1,  100]]]
     },
     "175980": {
@@ -21924,7 +21924,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (100) to all enemies\nInflict Paralyze (10%) on all enemies\nFixed damage (0.01x) as MP drain (100%) to all enemies",
+        "effects": "Fixed damage (100) to all enemies\nInflict Paralyze (10%) on all enemies\nHybrid* damage (0.01x, ATK & MAG) as MP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 41, [100]], [2, 1, 6, [0,  0,  0,  0,  10,  0,  0,  0,  1]], [2, 1, 10, [100,  1,  100]]]
     },
     "175990": {
@@ -21932,7 +21932,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (300) to all enemies\nInflict Paralyze (30%) on all enemies\nFixed damage (0.01x) as MP drain (100%) to all enemies",
+        "effects": "Fixed damage (300) to all enemies\nInflict Paralyze (30%) on all enemies\nHybrid* damage (0.01x, ATK & MAG) as MP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 41, [300]], [2, 1, 6, [0,  0,  0,  0,  30,  0,  0,  0,  1]], [2, 1, 10, [100,  1,  100]]]
     },
     "176000": {
@@ -21940,7 +21940,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (1000) to all enemies\nInflict Paralyze (100%) on all enemies\nFixed damage (0.01x) as MP drain (100%) to all enemies",
+        "effects": "Fixed damage (1000) to all enemies\nInflict Paralyze (100%) on all enemies\nHybrid* damage (0.01x, ATK & MAG) as MP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 41, [1000]], [2, 1, 6, [0,  0,  0,  0,  100,  0,  0,  0,  1]], [2, 1, 10, [100,  1,  100]]]
     },
     "176010": {
@@ -22188,7 +22188,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.3x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (0.3x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 10, [30,  30,  100]]]
     },
     "176320": {
@@ -22708,7 +22708,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic water damage (2.2x, MAG) to all enemies\nMagic water damage (0.1x) as MP drain (100%) to all enemies",
+        "effects": "Magic water damage (2.2x, MAG) to all enemies\nMagic water damage (0.1x, MAG) as MP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  220,  0]], [2, 1, 10, [100,  10,  100]]]
     },
     "176970": {
@@ -22740,7 +22740,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic water damage (2.8x, MAG) to all enemies\nMagic water damage (0.15x) as MP drain (100%) to all enemies",
+        "effects": "Magic water damage (2.8x, MAG) to all enemies\nMagic water damage (0.15x, MAG) as MP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  280,  0]], [2, 1, 10, [100,  15,  100]]]
     },
     "177010": {
@@ -23068,7 +23068,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (2.5x) as HP drain (30%) to one enemy\nMagic damage (2.5x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (2.5x, MAG) as HP drain (30%) to one enemy\nMagic damage (2.5x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  250,  100]], [1, 1, 10, [30,  250,  100]]]
     },
     "177420": {
@@ -23284,7 +23284,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain HP",
-        "effects": "Fixed damage (5x) as HP drain (100%) to one enemy",
+        "effects": "Hybrid* damage (5x, ATK & MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  500,  100]]]
     },
     "177690": {
@@ -23988,7 +23988,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (2x) as HP drain (30%) to one enemy\nPhysical damage (0.15x) as MP drain (30%) to one enemy",
+        "effects": "Physical damage (2x, ATK) as HP drain (30%) to one enemy\nPhysical damage (0.15x, ATK) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  200,  100]], [1, 1, 10, [30,  15,  100]]]
     },
     "178570": {
@@ -23996,7 +23996,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (2.5x) as HP drain (30%) to one enemy\nPhysical damage (0.15x) as MP drain (30%) to one enemy",
+        "effects": "Physical damage (2.5x, ATK) as HP drain (30%) to one enemy\nPhysical damage (0.15x, ATK) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  250,  100]], [1, 1, 10, [30,  15,  100]]]
     },
     "178580": {
@@ -24300,7 +24300,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.3x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (0.3x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 10, [30,  30,  100]]]
     },
     "178960": {
@@ -24692,7 +24692,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (2x) as HP drain (1000%) to one enemy",
+        "effects": "Physical damage (2x, ATK) as HP drain (1000%) to one enemy",
         "effects_raw": [[1, 1, 25, [1000,  200,  100]]]
     },
     "179440": {
@@ -25068,7 +25068,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (0.05x) as MP drain (5%) to all enemies\nReduce resistance to Fire and Ice by 15% for 3 turns to all enemies",
+        "effects": "Hybrid* damage (0.05x, ATK & MAG) as MP drain (5%) to all enemies\nReduce resistance to Fire and Ice by 15% for 3 turns to all enemies",
         "effects_raw": [[2, 1, 10, [5,  5,  100]], [2, 1, 33, [-15,  -15,  0,  0,  0,  0,  0,  0,  1,  3]]]
     },
     "179910": {
@@ -25212,7 +25212,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (0.3x) as MP drain (30%) to all enemies\nReduce resistance to Fire and Ice by 50% for 3 turns to all enemies",
+        "effects": "Hybrid* damage (0.3x, ATK & MAG) as MP drain (30%) to all enemies\nReduce resistance to Fire and Ice by 50% for 3 turns to all enemies",
         "effects_raw": [[2, 1, 10, [30,  30,  100]], [2, 1, 33, [-50,  -50,  0,  0,  0,  0,  0,  0,  1,  3]]]
     },
     "180090": {
@@ -25972,7 +25972,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (0.15x) as MP drain (15%) to all enemies",
+        "effects": "Hybrid* damage (0.15x, ATK & MAG) as MP drain (15%) to all enemies",
         "effects_raw": [[2, 1, 10, [15,  15,  100]]]
     },
     "180840": {
@@ -26068,7 +26068,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (0.05x) as MP drain (5%) to all enemies",
+        "effects": "Hybrid* damage (0.05x, ATK & MAG) as MP drain (5%) to all enemies",
         "effects_raw": [[2, 1, 10, [5,  5,  100]]]
     },
     "180960": {
@@ -26548,7 +26548,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.3x) as MP drain (80%) to one enemy",
+        "effects": "Magic damage (0.3x, MAG) as MP drain (80%) to one enemy",
         "effects_raw": [[1, 1, 10, [80,  30,  100]]]
     },
     "181480": {
@@ -26788,7 +26788,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (30x) as MP drain (30%) to all enemies",
+        "effects": "Magic damage (30x, MAG) as MP drain (30%) to all enemies",
         "effects_raw": [[2, 1, 10, [30,  3000,  100]]]
     },
     "181780": {
@@ -27260,7 +27260,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (2x) as HP drain (500%) to all enemies\nInflict Poison (100%) on all enemies\nInflict one random status effect (Poison, Blind and Sleep 100%) to all enemies\nInflict berserk (+30% ATK) on one enemy for 3 turns",
+        "effects": "Physical damage (2x, ATK) as HP drain (500%) to all enemies\nInflict Poison (100%) on all enemies\nInflict one random status effect (Poison, Blind and Sleep 100%) to all enemies\nInflict berserk (+30% ATK) on one enemy for 3 turns",
         "effects_raw": [[2, 1, 25, [500,  200,  100]], [2, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]], [2, 1, 34, [100,  100,  100,  0,  0,  0,  0,  0,  1,  1]], [1, 1, 68, [3,  30]]]
     },
     "182370": {
@@ -27764,7 +27764,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (2x) as HP drain (100%) to one enemy",
+        "effects": "Physical damage (2x, ATK) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  200,  100]]]
     },
     "182980": {
@@ -27812,7 +27812,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1.6x) as HP drain (1000%) to one enemy\nMagic damage (0.1x) as MP drain (15%) to one enemy",
+        "effects": "Magic damage (1.6x, MAG) as HP drain (1000%) to one enemy\nMagic damage (0.1x, MAG) as MP drain (15%) to one enemy",
         "effects_raw": [[1, 1, 25, [1000,  160,  100]], [1, 1, 10, [15,  10,  100]]]
     },
     "183040": {
@@ -27892,7 +27892,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (7.5x) as HP drain (100%) to all enemies\nMagic damage (0.5x) as MP drain (30%) to all enemies",
+        "effects": "Magic damage (7.5x, MAG) as HP drain (100%) to all enemies\nMagic damage (0.5x, MAG) as MP drain (30%) to all enemies",
         "effects_raw": [[2, 1, 25, [100,  750,  100]], [2, 1, 10, [30,  50,  100]]]
     },
     "183140": {
@@ -27956,7 +27956,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (3x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (3x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  300,  100]]]
     },
     "183220": {
@@ -28020,7 +28020,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (3x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (3x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  300,  100]]]
     },
     "183300": {
@@ -28052,7 +28052,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (5x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (5x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  500,  100]]]
     },
     "183340": {
@@ -28228,7 +28228,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain HP",
-        "effects": "Fixed damage (4x) as HP drain (100%) to one enemy",
+        "effects": "Hybrid* damage (4x, ATK & MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  400,  100]]]
     },
     "183560": {
@@ -28236,7 +28236,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (3x) as MP drain (100%) to one enemy",
+        "effects": "Hybrid* damage (3x, ATK & MAG) as MP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 10, [100,  300,  100]]]
     },
     "183570": {
@@ -28396,7 +28396,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain HP",
-        "effects": "Fixed damage (2x) as HP drain (50%) to one enemy",
+        "effects": "Hybrid* damage (2x, ATK & MAG) as HP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 25, [50,  200,  100]]]
     },
     "183770": {
@@ -28564,7 +28564,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (3x) as HP drain (100%) to all enemies\nMagic damage (0.4x) as MP drain (25%) to all enemies",
+        "effects": "Magic damage (3x, MAG) as HP drain (100%) to all enemies\nMagic damage (0.4x, MAG) as MP drain (25%) to all enemies",
         "effects_raw": [[2, 1, 25, [100,  300,  100]], [2, 1, 10, [25,  40,  100]]]
     },
     "183980": {
@@ -29908,7 +29908,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.3x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (0.3x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 10, [30,  30,  100]]]
     },
     "185660": {
@@ -29996,7 +29996,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (10x) as HP drain (100%) to one enemy\nMagic damage (0.3x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (10x, MAG) as HP drain (100%) to one enemy\nMagic damage (0.3x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  1000,  100]], [1, 1, 10, [30,  30,  100]]]
     },
     "185770": {
@@ -30044,7 +30044,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (10x) as HP drain (100%) to one enemy\nMagic damage (0.8x) as MP drain (80%) to one enemy",
+        "effects": "Magic damage (10x, MAG) as HP drain (100%) to one enemy\nMagic damage (0.8x, MAG) as MP drain (80%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  1000,  100]], [1, 1, 10, [80,  80,  100]]]
     },
     "185830": {
@@ -30572,7 +30572,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (3x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (3x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  300,  100]]]
     },
     "186490": {
@@ -30628,7 +30628,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (4x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (4x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  400,  100]]]
     },
     "186560": {
@@ -30908,7 +30908,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (2x) as HP drain (500%) to all enemies\nInflict Poison (100%) on all enemies\nInflict one random status effect (Poison, Blind and Sleep 100%) to all enemies\nInflict berserk (+30% ATK) on one enemy for 3 turns",
+        "effects": "Physical damage (2x, ATK) as HP drain (500%) to all enemies\nInflict Poison (100%) on all enemies\nInflict one random status effect (Poison, Blind and Sleep 100%) to all enemies\nInflict berserk (+30% ATK) on one enemy for 3 turns",
         "effects_raw": [[2, 1, 25, [500,  200,  100]], [2, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]], [2, 1, 34, [100,  100,  100,  0,  0,  0,  0,  0,  1,  1]], [1, 1, 68, [3,  30]]]
     },
     "186910": {
@@ -31076,7 +31076,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (50x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (50x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  5000,  100]]]
     },
     "187120": {
@@ -31316,7 +31316,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.8x) as MP drain (50%) to one enemy",
+        "effects": "Magic damage (0.8x, MAG) as MP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 10, [50,  80,  100]]]
     },
     "187420": {
@@ -31348,7 +31348,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (2x) as MP drain (70%) to all enemies",
+        "effects": "Magic damage (2x, MAG) as MP drain (70%) to all enemies",
         "effects_raw": [[2, 1, 10, [70,  200,  100]]]
     },
     "187460": {
@@ -31356,7 +31356,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (5.3x) as HP drain (80%) to one enemy",
+        "effects": "Magic damage (5.3x, MAG) as HP drain (80%) to one enemy",
         "effects_raw": [[1, 1, 25, [80,  530,  100]]]
     },
     "187470": {
@@ -32140,7 +32140,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.5x) as MP drain (100%) to all enemies",
+        "effects": "Magic damage (0.5x, MAG) as MP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 10, [100,  50,  100]]]
     },
     "188430": {
@@ -33164,7 +33164,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (2.5x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (2.5x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  250,  100]]]
     },
     "189710": {
@@ -34316,7 +34316,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1.5x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (1.5x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  150,  100]]]
     },
     "191150": {
@@ -34324,7 +34324,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1.6x) as HP drain (35%) to one enemy",
+        "effects": "Magic damage (1.6x, MAG) as HP drain (35%) to one enemy",
         "effects_raw": [[1, 1, 25, [35,  160,  100]]]
     },
     "191160": {
@@ -34332,7 +34332,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1.7x) as HP drain (40%) to one enemy",
+        "effects": "Magic damage (1.7x, MAG) as HP drain (40%) to one enemy",
         "effects_raw": [[1, 1, 25, [40,  170,  100]]]
     },
     "191170": {
@@ -35100,7 +35100,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (2.4x) as HP drain (60%) to one enemy",
+        "effects": "Magic damage (2.4x, MAG) as HP drain (60%) to one enemy",
         "effects_raw": [[1, 1, 25, [60,  240,  100]]]
     },
     "192130": {
@@ -35108,7 +35108,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.13x) as MP drain (15%) to one enemy",
+        "effects": "Magic damage (0.13x, MAG) as MP drain (15%) to one enemy",
         "effects_raw": [[1, 1, 10, [15,  13,  100]]]
     },
     "192140": {
@@ -35236,7 +35236,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.12x) as MP drain (10%) to all enemies",
+        "effects": "Magic damage (0.12x, MAG) as MP drain (10%) to all enemies",
         "effects_raw": [[2, 1, 10, [10,  12,  100]]]
     },
     "192300": {
@@ -35276,7 +35276,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (4x) as HP drain (20%) to one enemy",
+        "effects": "Magic damage (4x, MAG) as HP drain (20%) to one enemy",
         "effects_raw": [[1, 1, 25, [20,  400,  100]]]
     },
     "192350": {
@@ -35828,7 +35828,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (5x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (5x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  500,  100]]]
     },
     "193040": {
@@ -35956,7 +35956,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (4x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (4x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  400,  100]]]
     },
     "193200": {
@@ -36116,7 +36116,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (10x, MAG) to all enemies\nReduce resistance to Fire, Lightning and Water by 50% for 3 turns to all enemies\nMagic damage (0.1x) as MP drain (10%) to all enemies",
+        "effects": "Magic damage (10x, MAG) to all enemies\nReduce resistance to Fire, Lightning and Water by 50% for 3 turns to all enemies\nMagic damage (0.1x, MAG) as MP drain (10%) to all enemies",
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000]], [2, 1, 33, [-50,  0,  -50,  -50,  0,  0,  0,  0,  1,  3]], [2, 1, 10, [10,  10,  100]]]
     },
     "193400": {
@@ -36316,7 +36316,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (1.3x, MAG) to all enemies\nReduce resistance to Fire, Lightning and Water by 25% for 3 turns to all enemies\nMagic damage (0.01x) as MP drain (1%) to all enemies",
+        "effects": "Magic damage (1.3x, MAG) to all enemies\nReduce resistance to Fire, Lightning and Water by 25% for 3 turns to all enemies\nMagic damage (0.01x, MAG) as MP drain (1%) to all enemies",
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  130]], [2, 1, 33, [-25,  0,  -25,  -25,  0,  0,  0,  0,  1,  3]], [2, 1, 10, [1,  1,  100]]]
     },
     "193640": {
@@ -36412,7 +36412,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": "Magic* damage (2x, MAG) per turn to one enemy for 5 turns",
+        "effects": "Magic* damage (2x) per turn to one enemy for 5 turns",
         "effects_raw": [[1, 1, 139, [3,  200,  0,  0,  5,  1,  0]]]
     },
     "193750": {
@@ -36500,7 +36500,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": "Magic* damage (2.2x, MAG) per turn to one enemy for 5 turns",
+        "effects": "Magic* damage (2.2x) per turn to one enemy for 5 turns",
         "effects_raw": [[1, 1, 139, [3,  220,  0,  0,  5,  1,  0]]]
     },
     "193860": {
@@ -36508,7 +36508,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": "Magic* damage (2.5x, MAG) per turn to all enemies for 10 turns",
+        "effects": "Magic* damage (2.5x) per turn to all enemies for 10 turns",
         "effects_raw": [[2, 1, 139, [3,  250,  0,  0,  10,  1,  1]]]
     },
     "193870": {
@@ -36828,7 +36828,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (1.5x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (1.5x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  150,  100]]]
     },
     "194270": {
@@ -37788,7 +37788,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (0.1x) as MP drain (50%) to one enemy",
+        "effects": "Hybrid* damage (0.1x, ATK & MAG) as MP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 10, [50,  10,  100]]]
     },
     "195470": {
@@ -37828,7 +37828,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (0.05x) as MP drain (5%) to one enemy",
+        "effects": "Hybrid* damage (0.05x, ATK & MAG) as MP drain (5%) to one enemy",
         "effects_raw": [[1, 1, 10, [5,  5,  100]]]
     },
     "195520": {
@@ -37964,7 +37964,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.75x) as MP drain (75%) to one enemy",
+        "effects": "Magic damage (0.75x, MAG) as MP drain (75%) to one enemy",
         "effects_raw": [[1, 1, 10, [75,  75,  100]]]
     },
     "195690": {
@@ -38516,7 +38516,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Reduce resistance to Water by 50% for 3 turns to all enemies\nFixed damage (0.5x) as MP drain (50%) to all enemies",
+        "effects": "Reduce resistance to Water by 50% for 3 turns to all enemies\nHybrid* damage (0.5x, ATK & MAG) as MP drain (50%) to all enemies",
         "effects_raw": [[2, 1, 33, [0,  0,  0,  -50,  0,  0,  0,  0,  1,  3]], [2, 1, 10, [50,  50,  100]]]
     },
     "196380": {
@@ -38588,7 +38588,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (0.05x) as MP drain (5%) to one enemy",
+        "effects": "Hybrid* damage (0.05x, ATK & MAG) as MP drain (5%) to one enemy",
         "effects_raw": [[1, 1, 10, [5,  5,  100]]]
     },
     "196470": {
@@ -39324,7 +39324,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.8x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (0.8x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 10, [30,  80,  100]]]
     },
     "197380": {
@@ -39396,7 +39396,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (3x) as MP drain (100%) to one enemy",
+        "effects": "Hybrid* damage (3x, ATK & MAG) as MP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 10, [100,  300,  100]]]
     },
     "197470": {
@@ -39444,7 +39444,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (2x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (2x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  200,  100]]]
     },
     "197530": {
@@ -39508,7 +39508,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (5x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (5x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  500,  100]]]
     },
     "197610": {
@@ -39732,7 +39732,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.01x) as MP drain (1%) to one enemy",
+        "effects": "Magic damage (0.01x, MAG) as MP drain (1%) to one enemy",
         "effects_raw": [[1, 1, 10, [1,  1,  100]]]
     },
     "197881": {
@@ -39740,7 +39740,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.05x) as MP drain (5%) to one enemy",
+        "effects": "Magic damage (0.05x, MAG) as MP drain (5%) to one enemy",
         "effects_raw": [[1, 1, 10, [5,  5,  100]]]
     },
     "197882": {
@@ -39748,7 +39748,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.75x) as MP drain (75%) to one enemy",
+        "effects": "Magic damage (0.75x, MAG) as MP drain (75%) to one enemy",
         "effects_raw": [[1, 1, 10, [75,  75,  100]]]
     },
     "197883": {
@@ -40356,7 +40356,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (1x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  100,  100]]]
     },
     "197959": {
@@ -40828,7 +40828,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1.2x) as HP drain (100%) to one enemy",
+        "effects": "Magic damage (1.2x, MAG) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  120,  100]]]
     },
     "198020": {
@@ -40932,7 +40932,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (0.6x) as MP drain (100%) to all enemies",
+        "effects": "Hybrid* damage (0.6x, ATK & MAG) as MP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 10, [100,  60,  100]]]
     },
     "198150": {
@@ -41180,7 +41180,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (2.5x, MAG) to one enemy\nMagic damage (0.1x, MAG) per turn to one enemy for 3 turns",
+        "effects": "Magic damage (2.5x, MAG) to one enemy\nMagic damage (0.1x) per turn to one enemy for 3 turns",
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  250,  0]], [1, 1, 139, [3,  10,  1000,  1,  3,  1,  0]]]
     },
     "198460": {
@@ -41444,7 +41444,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain HP",
-        "effects": "Fixed damage (1.8x) as HP drain (30%) to one enemy",
+        "effects": "Hybrid* damage (1.8x, ATK & MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  180,  100]]]
     },
     "198790": {
@@ -41452,7 +41452,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain HP",
-        "effects": "Fixed damage (3x) as HP drain (30%) to one enemy",
+        "effects": "Hybrid* damage (3x, ATK & MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  300,  100]]]
     },
     "198800": {
@@ -41748,7 +41748,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "Physical",
         "execute_type": "Drain MP",
-        "effects": "Hybrid* fire damage (2x, ATK & MAG) to one enemy\nReduce ATK and MAG by 75% for 3 turns to one enemy\nPhysical fire damage (0.3x) as MP drain (50%) to one enemy",
+        "effects": "Hybrid* fire damage (2x, ATK & MAG) to one enemy\nReduce ATK and MAG by 75% for 3 turns to one enemy\nPhysical fire damage (0.3x, ATK) as MP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  200,  200]], [1, 1, 24, [-75,  0,  -75,  0,  3,  1]], [1, 1, 10, [50,  30,  100]]]
     },
     "199170": {
@@ -41756,7 +41756,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Hybrid* water damage (2x, ATK & MAG) to one enemy\nReduce DEF and SPR by 75% for 3 turns to one enemy\nPhysical water damage (1.2x) as HP drain (50%) to one enemy",
+        "effects": "Hybrid* water damage (2x, ATK & MAG) to one enemy\nReduce DEF and SPR by 75% for 3 turns to one enemy\nPhysical water damage (1.2x, ATK) as HP drain (50%) to one enemy",
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  200,  200]], [1, 1, 24, [0,  -75,  0,  -75,  3,  1]], [1, 1, 25, [50,  120,  100]]]
     },
     "199180": {
@@ -41812,7 +41812,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Hybrid* fire damage (2.1x, ATK & MAG) to all enemies\nReduce ATK and MAG by 90% for 3 turns to all enemies\nPhysical fire damage (0.07x) as MP drain (50%) to all enemies",
+        "effects": "Hybrid* fire damage (2.1x, ATK & MAG) to all enemies\nReduce ATK and MAG by 90% for 3 turns to all enemies\nPhysical fire damage (0.07x, ATK) as MP drain (50%) to all enemies",
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  210,  210]], [2, 1, 24, [-90,  0,  -90,  0,  3,  1]], [2, 1, 10, [50,  7,  100]]]
     },
     "199250": {
@@ -41820,7 +41820,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Hybrid* water damage (2.1x, ATK & MAG) to all enemies\nReduce DEF and SPR by 90% for 3 turns to all enemies\nPhysical water damage (1.5x) as HP drain (50%) to all enemies",
+        "effects": "Hybrid* water damage (2.1x, ATK & MAG) to all enemies\nReduce DEF and SPR by 90% for 3 turns to all enemies\nPhysical water damage (1.5x, ATK) as HP drain (50%) to all enemies",
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  210,  210]], [2, 1, 24, [0,  -90,  0,  -90,  3,  1]], [2, 1, 25, [50,  150,  100]]]
     },
     "199260": {
@@ -42612,7 +42612,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical fire damage (1.25x, ATK) per turn to all enemies for 3 turns",
+        "effects": "Physical fire damage (1.25x) per turn to all enemies for 3 turns",
         "effects_raw": [[2, 1, 139, [1,  125,  0,  1,  3,  1,  5]]]
     },
     "200250": {
@@ -44268,7 +44268,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain MP",
-        "effects": "Physical damage (2.5x, ATK) to one enemy (+100% accuracy)\nPhysical damage (0.02x) as MP drain (100%) to one enemy",
+        "effects": "Physical damage (2.5x, ATK) to one enemy (+100% accuracy)\nPhysical damage (0.02x, ATK) as MP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  250,  100]], [1, 1, 10, [100,  2,  100]]]
     },
     "202320": {
@@ -45076,7 +45076,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.3x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (0.3x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 10, [30,  30,  100]]]
     },
     "203330": {
@@ -47180,7 +47180,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (4x) as MP drain (400%) to one enemy",
+        "effects": "Magic damage (4x, MAG) as MP drain (400%) to one enemy",
         "effects_raw": [[1, 1, 10, [400,  400,  100]]]
     },
     "205960": {
@@ -47340,7 +47340,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (1.5x) as HP drain (30%) to one enemy\nPhysical damage (0.15x) as MP drain (30%) to one enemy",
+        "effects": "Physical damage (1.5x, ATK) as HP drain (30%) to one enemy\nPhysical damage (0.15x, ATK) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  150,  100]], [1, 1, 10, [30,  15,  100]]]
     },
     "206160": {
@@ -47700,7 +47700,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": "Magic* damage (0.5x, MAG) per turn to all enemies for 5 turns\nInflict Disease (100%) on all enemies",
+        "effects": "Magic* damage (0.5x) per turn to all enemies for 5 turns\nInflict Disease (100%) on all enemies",
         "effects_raw": [[2, 1, 139, [3,  50,  0,  0,  5,  1,  0]], [2, 1, 6, [0,  0,  0,  0,  0,  0,  100,  0,  1]]]
     },
     "206610": {
@@ -48188,7 +48188,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (3x) as HP drain (30%) to one enemy\nMagic damage (3x) as MP drain (30%) to one enemy",
+        "effects": "Magic damage (3x, MAG) as HP drain (30%) to one enemy\nMagic damage (3x, MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  300,  100]], [1, 1, 10, [30,  300,  100]]]
     },
     "207220": {
@@ -48268,7 +48268,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (1x) as MP drain (100%) to one enemy",
+        "effects": "Magic damage (1x, MAG) as MP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 10, [100,  100,  100]]]
     },
     "207320": {
@@ -48284,7 +48284,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (1.5x, ATK) to one enemy\nPhysical damage (1.25x, ATK) per turn to one enemy for 3 turns",
+        "effects": "Physical damage (1.5x, ATK) to one enemy\nPhysical damage (1.25x) per turn to one enemy for 3 turns",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  150]], [1, 1, 139, [1,  125,  0,  0,  3,  1,  5]]]
     },
     "207340": {
@@ -48292,7 +48292,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (1.8x, ATK) to one enemy\nPhysical damage (1.5x, ATK) per turn to one enemy for 3 turns",
+        "effects": "Physical damage (1.8x, ATK) to one enemy\nPhysical damage (1.5x) per turn to one enemy for 3 turns",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]], [1, 1, 139, [1,  150,  0,  0,  3,  1,  5]]]
     },
     "207350": {
@@ -48300,7 +48300,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (2x, ATK) to one enemy\nPhysical damage (2x, ATK) per turn to one enemy for 3 turns",
+        "effects": "Physical damage (2x, ATK) to one enemy\nPhysical damage (2x) per turn to one enemy for 3 turns",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  200]], [1, 1, 139, [1,  200,  0,  0,  3,  1,  5]]]
     },
     "207360": {
@@ -48316,7 +48316,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (3.5x, ATK) to one enemy\nPhysical damage (3x, ATK) per turn to one enemy for 3 turns",
+        "effects": "Physical damage (3.5x, ATK) to one enemy\nPhysical damage (3x) per turn to one enemy for 3 turns",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]], [1, 1, 139, [1,  300,  0,  0,  3,  1,  5]]]
     },
     "207380": {
@@ -48324,7 +48324,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (5x, ATK) to all enemies\nPhysical damage (2.5x, ATK) per turn to all enemies for 3 turns",
+        "effects": "Physical damage (5x, ATK) to all enemies\nPhysical damage (2.5x) per turn to all enemies for 3 turns",
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500]], [2, 1, 139, [1,  250,  0,  0,  3,  1,  5]]]
     },
     "207390": {
@@ -48404,7 +48404,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.5x) as MP drain (50%) to all enemies",
+        "effects": "Magic damage (0.5x, MAG) as MP drain (50%) to all enemies",
         "effects_raw": [[2, 1, 10, [50,  50,  100]]]
     },
     "207490": {
@@ -48532,7 +48532,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (4.5x, ATK) to one enemy\nPhysical damage (2.1x, ATK) per turn to one enemy for 3 turns",
+        "effects": "Physical damage (4.5x, ATK) to one enemy\nPhysical damage (2.1x) per turn to one enemy for 3 turns",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  450]], [1, 1, 139, [1,  210,  0,  0,  3,  1,  5]]]
     },
     "207650": {
@@ -48588,7 +48588,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain MP",
-        "effects": "Magic damage (0.2x) as MP drain (20%) to one enemy\nInflict Stop (100%) for 3 turns on one enemy\nInflict Petrify (100%) on one enemy",
+        "effects": "Magic damage (0.2x, MAG) as MP drain (20%) to one enemy\nInflict Stop (100%) for 3 turns on one enemy\nInflict Petrify (100%) on one enemy",
         "effects_raw": [[1, 1, 10, [20,  20,  100]], [1, 1, 88, [100,  3]], [1, 1, 6, [0,  0,  0,  0,  0,  0,  0,  100,  1]]]
     },
     "207720": {
@@ -48724,7 +48724,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (3.5x, ATK) to all enemies\nPhysical damage (2.5x, ATK) per turn to all enemies for 3 turns",
+        "effects": "Physical damage (3.5x, ATK) to all enemies\nPhysical damage (2.5x) per turn to all enemies for 3 turns",
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  350]], [2, 1, 139, [1,  250,  0,  0,  3,  1,  5]]]
     },
     "207890": {
@@ -49260,7 +49260,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Drain HP",
-        "effects": "Magic damage (1.5x) as HP drain (30%) to one enemy",
+        "effects": "Magic damage (1.5x, MAG) as HP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 25, [30,  150,  100]]]
     },
     "208560": {
@@ -49300,7 +49300,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical dark damage (2.5x, ATK) to all enemies\nPhysical dark damage (1.5x) as HP drain (100%) to all enemies",
+        "effects": "Physical dark damage (2.5x, ATK) to all enemies\nPhysical dark damage (1.5x, ATK) as HP drain (100%) to all enemies",
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  250]], [2, 1, 25, [100,  150,  100]]]
     },
     "208610": {
@@ -49564,7 +49564,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain HP",
-        "effects": "Fixed damage (10x) as HP drain (100%) to one enemy\nFixed damage (0.2x) as MP drain (20%) to one enemy",
+        "effects": "Hybrid* damage (10x, ATK & MAG) as HP drain (100%) to one enemy\nHybrid* damage (0.2x, ATK & MAG) as MP drain (20%) to one enemy",
         "effects_raw": [[1, 1, 25, [100,  1000,  100]], [1, 1, 10, [20,  20,  100]]]
     },
     "208940": {
@@ -50148,7 +50148,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (1.1x, ATK) to one enemy\nPhysical damage (2x) as HP drain (100%) to one enemy",
+        "effects": "Physical damage (1.1x, ATK) to one enemy\nPhysical damage (2x, ATK) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  110]], [1, 1, 25, [100,  200,  100]]]
     },
     "209670": {
@@ -50156,7 +50156,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain HP",
-        "effects": "Physical damage (1.5x, ATK) to one enemy\nPhysical damage (3x) as HP drain (100%) to one enemy",
+        "effects": "Physical damage (1.5x, ATK) to one enemy\nPhysical damage (3x, ATK) as HP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  150]], [1, 1, 25, [100,  300,  100]]]
     },
     "209680": {
@@ -50164,7 +50164,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain MP",
-        "effects": "Physical damage (1.1x, ATK) to one enemy\nPhysical damage (2x) as MP drain (100%) to one enemy",
+        "effects": "Physical damage (1.1x, ATK) to one enemy\nPhysical damage (2x, ATK) as MP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  110]], [1, 1, 10, [100,  200,  100]]]
     },
     "209690": {
@@ -50172,7 +50172,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Drain MP",
-        "effects": "Physical damage (1.5x, ATK) to one enemy\nPhysical damage (3x) as MP drain (100%) to one enemy",
+        "effects": "Physical damage (1.5x, ATK) to one enemy\nPhysical damage (3x, ATK) as MP drain (100%) to one enemy",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  150]], [1, 1, 10, [100,  300,  100]]]
     },
     "209700": {
@@ -50548,7 +50548,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Drain MP",
-        "effects": "Fixed damage (0.3x) as MP drain (30%) to one enemy",
+        "effects": "Hybrid* damage (0.3x, ATK & MAG) as MP drain (30%) to one enemy",
         "effects_raw": [[1, 1, 10, [30,  30,  100]]]
     },
     "210170": {
