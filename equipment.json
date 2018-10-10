@@ -1192,6 +1192,37 @@
         "price_sell": 1000,
         "icon": "item_10137.png"
     },
+    "301004400": {
+        "name": "スカウトブレード",
+        "compendium_id": 1237,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 1,
+        "type": "Dagger",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100040],
+        "effects": ["Grants 'MP+10%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 64,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Wind"],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 5000,
+        "price_sell": 500,
+        "icon": "item_10139.png"
+    },
     "302000100": {
         "name": "ブロードソード",
         "compendium_id": 8,
@@ -18056,7 +18087,7 @@
         "accuracy": 0,
         "requirements": [
             "UNIT_ID",
-            100004303
+            [100004303, 100021705]
         ],
         "skills": [203400],
         "effects": ["Grants '浄化の光' ability."],
@@ -18743,6 +18774,43 @@
         "price_buy": 4500,
         "price_sell": 450,
         "icon": "item_40232.png"
+    },
+    "402003500": {
+        "name": "ナイトオブグランシェルト",
+        "compendium_id": 1239,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 31,
+        "type": "Heavy Shield",
+        "slot_id": 2,
+        "slot": "Shield",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100020, 100170],
+        "effects": [
+            "Grants 'HP+20%' passive.",
+            "Grants '精神+20%' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 68,
+            "MAG": 0,
+            "SPR": 118,
+            "element_resist": {
+                "Ice": 50,
+                "Light": 50
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_40233.png"
     },
     "403000100": {
         "name": "皮の帽子",
@@ -22270,6 +22338,40 @@
         "price_buy": 24000,
         "price_sell": 2400,
         "icon": "item_30207.png"
+    },
+    "404003900": {
+        "name": "ロイヤルサークレット",
+        "compendium_id": 1238,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100010, 100040],
+        "effects": [
+            "Grants 'HP+10%' passive.",
+            "Grants 'MP+10%' passive."
+        ],
+        "stats": {
+            "HP": 200,
+            "MP": 50,
+            "ATK": 0,
+            "DEF": 25,
+            "MAG": 0,
+            "SPR": 50,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_30238.png"
     },
     "405000200": {
         "name": "皮の服",
@@ -26586,6 +26688,37 @@
         "price_buy": 300000,
         "price_sell": 30000,
         "icon": "item_20337.png"
+    },
+    "407004200": {
+        "name": "マインドプロテクター",
+        "compendium_id": 1240,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 52,
+        "type": "Heavy Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100740],
+        "effects": ["Grants 'オートリフレシュ' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 40,
+            "MAG": 0,
+            "SPR": 101,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 75000,
+        "price_sell": 7500,
+        "icon": "item_20338.png"
     },
     "408000100": {
         "name": "木綿のローブ",
@@ -36339,5 +36472,39 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_50406.png"
+    },
+    "409028600": {
+        "name": "白銀の騎士籠手",
+        "compendium_id": 1236,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 20,
+            "MAG": 0,
+            "SPR": 30,
+            "element_resist": {
+                "Ice": 30,
+                "Light": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_50408.png"
     }
 }

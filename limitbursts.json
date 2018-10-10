@@ -15056,6 +15056,255 @@
             "effects_raw": [[0, 3, 8, [1000,  1,  400,  3]], [0, 3, 30, [20,  1,  140,  3]], [0, 3, 89, [100,  100,  100,  100,  0,  0,  3,  1]]]},
         "strings": []
     },
+    "100021705": {
+        "name": "守護騎士の聖盾",
+        "cost": 0,
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[490], [490], [490]],
+        "effect_frames": [[0], [0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 18,
+            "effects": [
+                "No effect",
+                "80% chance to intercept magical damage to allies for 4 turns, reducing damage by 50%-70%",
+                "Reduce damage taken by 21% to all allies for 4 turns"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  0,  0,  0,  0,  0]], [0, 3, 96, [1,  0,  50,  70,  80,  100,  4,  1,  2]], [2, 2, 101, [21,  4,  1]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": [
+                "No effect",
+                "80% chance to intercept magical damage to allies for 4 turns, reducing damage by 50%-70%",
+                "Reduce damage taken by 40% to all allies for 4 turns"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  0,  0,  0,  0,  0]], [0, 3, 96, [1,  0,  50,  70,  80,  100,  4,  1,  2]], [2, 2, 101, [40,  4,  1]]]},
+        "strings": []
+    },
+    "100021706": {
+        "name": "守護騎士の聖盾",
+        "cost": 0,
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[490], [490], [490]],
+        "effect_frames": [[0], [0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "No effect",
+                "80% chance to intercept magical damage to allies for 4 turns, reducing damage by 50%-70%",
+                "Reduce damage taken by 21% to all allies for 4 turns"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  0,  0,  0,  0,  0]], [0, 3, 96, [1,  0,  50,  70,  80,  100,  4,  1,  2]], [2, 2, 101, [21,  4,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "No effect",
+                "80% chance to intercept magical damage to allies for 4 turns, reducing damage by 50%-70%",
+                "Reduce damage taken by 45% to all allies for 4 turns"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  0,  0,  0,  0,  0]], [0, 3, 96, [1,  0,  50,  70,  80,  100,  4,  1,  2]], [2, 2, 101, [45,  4,  1]]]},
+        "strings": []
+    },
+    "100021707": {
+        "name": "守護騎士の聖盾",
+        "cost": 0,
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[490], [490], [490]],
+        "effect_frames": [[0], [0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "No effect",
+                "80% chance to intercept magical damage to allies for 4 turns, reducing damage by 50%-70%",
+                "Reduce damage taken by 21% to all allies for 4 turns"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  0,  0,  0,  0,  0]], [0, 3, 96, [1,  0,  50,  70,  80,  100,  4,  1,  2]], [2, 2, 101, [21,  4,  1]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "No effect",
+                "80% chance to intercept magical damage to allies for 4 turns, reducing damage by 50%-70%",
+                "Reduce damage taken by 50% to all allies for 4 turns"
+            ],
+            "effects_raw": [[2, 1, 24, [0,  0,  0,  0,  0,  0]], [0, 3, 96, [1,  0,  50,  70,  80,  100,  4,  1,  2]], [2, 2, 101, [50,  4,  1]]]},
+        "strings": []
+    },
+    "100021803": {
+        "name": "アタックアンドリカバー",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[150]],
+        "effect_frames": [[0,  45,  122,  122,  142]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Magic* damage (5.1x, SPR) to one enemy",
+                "Cure all status effects for all allies"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  99999,  510]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Magic* damage (6x, SPR) to one enemy",
+                "Cure all status effects for all allies"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  99999,  600]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
+        "strings": []
+    },
+    "100021804": {
+        "name": "アタックアンドリカバー",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[150]],
+        "effect_frames": [[0,  45,  122,  122,  142]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Magic* damage (5.6x, SPR) to one enemy",
+                "Cure all status effects for all allies"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  99999,  560]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Magic* damage (7x, SPR) to one enemy",
+                "Cure all status effects for all allies"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  99999,  700]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
+        "strings": []
+    },
+    "100021805": {
+        "name": "アタックアンドリカバー",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[150]],
+        "effect_frames": [[0,  0,  45,  122,  122,  142]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 18,
+            "effects": [
+                "Magic* damage (6.1x, SPR) to one enemy",
+                "Cure all status effects for all allies"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  99999,  610]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": [
+                "Magic* damage (8x, SPR) to one enemy",
+                "Cure all status effects for all allies"
+            ],
+            "effects_raw": [[1, 1, 103, [100,  99999,  800]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
+        "strings": []
+    },
+    "100022104": {
+        "name": "ストームブレイド",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[12,  12,  12,  12,  12,  40]],
+        "attack_frames": [[18,  48,  62,  72,  88,  130]],
+        "effect_frames": [[0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (7.1x, ATK) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 41% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  710,  0]], [1, 1, 24, [-41,  -41,  -41,  -41,  3,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (8.5x, ATK) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 55% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  850,  0]], [1, 1, 24, [-55,  -55,  -55,  -55,  3,  1]]]},
+        "strings": []
+    },
+    "100022105": {
+        "name": "ストームブレイド",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[12,  12,  12,  12,  12,  40]],
+        "attack_frames": [[18,  48,  62,  72,  88,  130]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 18,
+            "effects": [
+                "Physical damage (7.6x, ATK) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 41% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  760,  0]], [1, 1, 24, [-41,  -41,  -41,  -41,  3,  1]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": [
+                "Physical damage (9.5x, ATK) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 60% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  950,  0]], [1, 1, 24, [-60,  -60,  -60,  -60,  3,  1]]]},
+        "strings": []
+    },
+    "100022106": {
+        "name": "ストームブレイド",
+        "cost": 0,
+        "attack_count": [6],
+        "attack_damage": [[12,  12,  12,  12,  12,  40]],
+        "attack_frames": [[18,  48,  62,  72,  88,  130]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (8.1x, ATK) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 41% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  810,  0]], [1, 1, 24, [-41,  -41,  -41,  -41,  3,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (10.5x, ATK) to one enemy",
+                "Reduce ATK, DEF, MAG and SPR by 65% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1050,  0]], [1, 1, 24, [-65,  -65,  -65,  -65,  3,  1]]]},
+        "strings": []
+    },
     "201000104": {
         "name": "シャイニングソード",
         "cost": 0,
@@ -33750,7 +33999,7 @@
             "effects": [
                 "Magic fire damage (2.55x * 2 = 5.1x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 75% for 5 turns to one enemy",
-                "Gain access to following skills for one turn:\n\tEnhancement - Fire (507872)\n\tEnhancement - Ice (507873)\n\tEnhancement - Lightning (507874)"
+                "Gain access to following skills for one turn:\n\tエンハンス・氷 (507873)\n\tエンハンス・火 (507872)\n\tエンハンス・雷 (507874)"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  255,  50]], [1, 1, 33, [-75,  -75,  -75,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 100, [[2,  2,  2], [507872,  507873,  507874], 9999, 2, 1, 1]]]},
         "max_level": {
@@ -33758,7 +34007,7 @@
             "effects": [
                 "Magic fire damage (4x * 2 = 8x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 100% for 5 turns to one enemy",
-                "Gain access to following skills for one turn:\n\tEnhancement - Fire (507872)\n\tEnhancement - Ice (507873)\n\tEnhancement - Lightning (507874)"
+                "Gain access to following skills for one turn:\n\tエンハンス・氷 (507873)\n\tエンハンス・火 (507872)\n\tエンハンス・雷 (507874)"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  400,  50]], [1, 1, 33, [-100,  -100,  -100,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 100, [[2,  2,  2], [507872,  507873,  507874], 9999, 2, 1, 1]]]},
         "strings": []
