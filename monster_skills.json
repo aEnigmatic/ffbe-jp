@@ -15700,7 +15700,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Instant KO",
-        "effects": "[Death]\nInstant KO (50%) to one enemy (Unknown value: 1)",
+        "effects": "[Death]\nInstant KO (50%) to one enemy (ignores death resist)",
         "effects_raw": [[1, 1, 35, [50,  1]]]
     },
     "168240": {
@@ -21652,7 +21652,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Instant KO",
-        "effects": "[Death]\nInstant KO (50%) to one enemy (Unknown value: 1)",
+        "effects": "[Death]\nInstant KO (50%) to one enemy (ignores death resist)",
         "effects_raw": [[1, 1, 35, [50,  1,  0]]]
     },
     "175650": {
@@ -22012,7 +22012,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Instant KO",
-        "effects": "[Death]\nInstant KO (100%) to one enemy (Unknown value: 1)",
+        "effects": "[Death]\nInstant KO (100%) to one enemy (ignores death resist)",
         "effects_raw": [[1, 1, 35, [100,  1,  0]]]
     },
     "176100": {
@@ -30636,7 +30636,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Instant KO",
-        "effects": "[Death]\nInstant KO (20%) to one enemy (Unknown value: 1)",
+        "effects": "[Death]\nInstant KO (20%) to one enemy (ignores death resist)",
         "effects_raw": [[1, 1, 35, [20,  1,  0]]]
     },
     "186570": {
@@ -31908,7 +31908,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Instant KO",
-        "effects": "[Death]\nInstant KO (20%) to one enemy (Unknown value: 1)",
+        "effects": "[Death]\nInstant KO (20%) to one enemy (ignores death resist)",
         "effects_raw": [[1, 1, 35, [20,  1,  0]]]
     },
     "188151": {
@@ -31964,7 +31964,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Instant KO",
-        "effects": "[Death]\nInstant KO (20%) to one enemy (Unknown value: 1)",
+        "effects": "[Death]\nInstant KO (20%) to one enemy (ignores death resist)",
         "effects_raw": [[1, 1, 35, [20,  1,  0]]]
     },
     "188220": {
@@ -32052,7 +32052,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Instant KO",
-        "effects": "[Death]\nInstant KO (40%) to one enemy (Unknown value: 1)",
+        "effects": "[Death]\nInstant KO (40%) to one enemy (ignores death resist)",
         "effects_raw": [[1, 1, 35, [40,  1,  0]]]
     },
     "188321": {
@@ -36044,7 +36044,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Instant KO (100%) to caster (Unknown value: 1)",
+        "effects": "Instant KO (100%) to caster (ignores death resist)",
         "effects_raw": [[1, 3, 35, [100,  1,  0]]]
     },
     "193310": {
@@ -36412,7 +36412,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": "Magic* damage (2x) per turn to one enemy for 5 turns",
+        "effects": "Magic* damage (2x, SPR) per turn to one enemy for 5 turns",
         "effects_raw": [[1, 1, 139, [3,  200,  0,  0,  5,  1,  0]]]
     },
     "193750": {
@@ -36500,7 +36500,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": "Magic* damage (2.2x) per turn to one enemy for 5 turns",
+        "effects": "Magic* damage (2.2x, SPR) per turn to one enemy for 5 turns",
         "effects_raw": [[1, 1, 139, [3,  220,  0,  0,  5,  1,  0]]]
     },
     "193860": {
@@ -36508,7 +36508,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": "Magic* damage (2.5x) per turn to all enemies for 10 turns",
+        "effects": "Magic* damage (2.5x, SPR) per turn to all enemies for 10 turns",
         "effects_raw": [[2, 1, 139, [3,  250,  0,  0,  10,  1,  1]]]
     },
     "193870": {
@@ -38468,7 +38468,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Instant KO (100%) to caster (Unknown value: 1)",
+        "effects": "Instant KO (100%) to caster (ignores death resist)",
         "effects_raw": [[1, 3, 35, [100,  1,  0]]]
     },
     "196320": {
@@ -40388,7 +40388,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Instant KO",
-        "effects": "[Death]\nInstant KO (10%) to one enemy (Unknown value: 1)",
+        "effects": "[Death]\nInstant KO (10%) to one enemy (ignores death resist)",
         "effects_raw": [[1, 1, 35, [10,  1,  0]]]
     },
     "197963": {
@@ -41180,7 +41180,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Magic damage (2.5x, MAG) to one enemy\nMagic damage (0.1x) per turn to one enemy for 3 turns",
+        "effects": "Magic damage (2.5x, MAG) to one enemy\nMagic damage (0.1x, SPR) per turn to one enemy for 3 turns",
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  250,  0]], [1, 1, 139, [3,  10,  1000,  1,  3,  1,  0]]]
     },
     "198460": {
@@ -41900,7 +41900,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "None",
         "execute_type": "Instant KO",
-        "effects": "[Death]\nHybrid* damage (5x, ATK & MAG) to all enemies\nInstant KO (100%) to all enemies (Unknown value: 1)\nRemove all buffs and debuffs from all enemies",
+        "effects": "[Death]\nHybrid* damage (5x, ATK & MAG) to all enemies\nInstant KO (100%) to all enemies (ignores death resist)\nRemove all buffs and debuffs from all enemies",
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  500,  500]], [2, 1, 35, [100,  1]], [2, 1, 59, ["none"]]]
     },
     "199360": {
@@ -41908,7 +41908,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "None",
         "execute_type": "Instant KO",
-        "effects": "[Death]\nHybrid* damage (5x, ATK & MAG) to all enemies\nInstant KO (100%) to all enemies (Unknown value: 2)\nRemove all buffs and debuffs from all enemies",
+        "effects": "[Death]\nHybrid* damage (5x, ATK & MAG) to all enemies\nInstant KO (100%) to all enemies (ignores death resist)\nRemove all buffs and debuffs from all enemies",
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  500,  500]], [2, 1, 35, [100,  2]], [2, 1, 59, ["none"]]]
     },
     "199370": {
@@ -41916,7 +41916,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "None",
         "execute_type": "Instant KO",
-        "effects": "[Death]\nHybrid* damage (5x, ATK & MAG) to all enemies\nInstant KO (100%) to all enemies (Unknown value: 3)\nRemove all buffs and debuffs from all enemies",
+        "effects": "[Death]\nHybrid* damage (5x, ATK & MAG) to all enemies\nInstant KO (100%) to all enemies (ignores death resist)\nRemove all buffs and debuffs from all enemies",
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  500,  500]], [2, 1, 35, [100,  3]], [2, 1, 59, ["none"]]]
     },
     "199380": {
@@ -42076,7 +42076,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Instant KO",
-        "effects": "[Death]\nRemove all buffs and debuffs from one enemy\nInstant KO (100%) to one enemy (Unknown value: 1)",
+        "effects": "[Death]\nRemove all buffs and debuffs from one enemy\nInstant KO (100%) to one enemy (ignores death resist)",
         "effects_raw": [[1, 1, 59, ["none"]], [1, 1, 35, [100,  1,  0]]]
     },
     "199580": {
@@ -42236,7 +42236,7 @@
         "flags": [true,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Instant KO",
-        "effects": "[Death]\nInstant KO (100%) to all enemies (Unknown value: 2)",
+        "effects": "[Death]\nInstant KO (100%) to all enemies (ignores death resist)",
         "effects_raw": [[2, 1, 35, [100,  2]]]
     },
     "199780": {
@@ -42612,7 +42612,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical fire damage (1.25x) per turn to all enemies for 3 turns",
+        "effects": "Physical fire damage (1.25x, ATK) per turn to all enemies for 3 turns",
         "effects_raw": [[2, 1, 139, [1,  125,  0,  1,  3,  1,  5]]]
     },
     "200250": {
@@ -47700,7 +47700,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": "Magic* damage (0.5x) per turn to all enemies for 5 turns\nInflict Disease (100%) on all enemies",
+        "effects": "Magic* damage (0.5x, SPR) per turn to all enemies for 5 turns\nInflict Disease (100%) on all enemies",
         "effects_raw": [[2, 1, 139, [3,  50,  0,  0,  5,  1,  0]], [2, 1, 6, [0,  0,  0,  0,  0,  0,  100,  0,  1]]]
     },
     "206610": {
@@ -48140,7 +48140,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Instant KO",
-        "effects": "[Death]\nInstant KO (70%) to all enemies (Unknown value: 2)",
+        "effects": "[Death]\nInstant KO (70%) to all enemies (ignores death resist)",
         "effects_raw": [[2, 1, 35, [70,  2]]]
     },
     "207160": {
@@ -48284,7 +48284,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (1.5x, ATK) to one enemy\nPhysical damage (1.25x) per turn to one enemy for 3 turns",
+        "effects": "Physical damage (1.5x, ATK) to one enemy\nPhysical damage (1.25x, ATK) per turn to one enemy for 3 turns",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  150]], [1, 1, 139, [1,  125,  0,  0,  3,  1,  5]]]
     },
     "207340": {
@@ -48292,7 +48292,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (1.8x, ATK) to one enemy\nPhysical damage (1.5x) per turn to one enemy for 3 turns",
+        "effects": "Physical damage (1.8x, ATK) to one enemy\nPhysical damage (1.5x, ATK) per turn to one enemy for 3 turns",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]], [1, 1, 139, [1,  150,  0,  0,  3,  1,  5]]]
     },
     "207350": {
@@ -48300,7 +48300,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (2x, ATK) to one enemy\nPhysical damage (2x) per turn to one enemy for 3 turns",
+        "effects": "Physical damage (2x, ATK) to one enemy\nPhysical damage (2x, ATK) per turn to one enemy for 3 turns",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  200]], [1, 1, 139, [1,  200,  0,  0,  3,  1,  5]]]
     },
     "207360": {
@@ -48316,7 +48316,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (3.5x, ATK) to one enemy\nPhysical damage (3x) per turn to one enemy for 3 turns",
+        "effects": "Physical damage (3.5x, ATK) to one enemy\nPhysical damage (3x, ATK) per turn to one enemy for 3 turns",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]], [1, 1, 139, [1,  300,  0,  0,  3,  1,  5]]]
     },
     "207380": {
@@ -48324,7 +48324,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (5x, ATK) to all enemies\nPhysical damage (2.5x) per turn to all enemies for 3 turns",
+        "effects": "Physical damage (5x, ATK) to all enemies\nPhysical damage (2.5x, ATK) per turn to all enemies for 3 turns",
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500]], [2, 1, 139, [1,  250,  0,  0,  3,  1,  5]]]
     },
     "207390": {
@@ -48532,7 +48532,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (4.5x, ATK) to one enemy\nPhysical damage (2.1x) per turn to one enemy for 3 turns",
+        "effects": "Physical damage (4.5x, ATK) to one enemy\nPhysical damage (2.1x, ATK) per turn to one enemy for 3 turns",
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  450]], [1, 1, 139, [1,  210,  0,  0,  3,  1,  5]]]
     },
     "207650": {
@@ -48724,7 +48724,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": "Physical damage (3.5x, ATK) to all enemies\nPhysical damage (2.5x) per turn to all enemies for 3 turns",
+        "effects": "Physical damage (3.5x, ATK) to all enemies\nPhysical damage (2.5x, ATK) per turn to all enemies for 3 turns",
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  350]], [2, 1, 139, [1,  250,  0,  0,  3,  1,  5]]]
     },
     "207890": {
@@ -50948,7 +50948,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": "Instant KO (100%) to caster (Unknown value: 1)",
+        "effects": "Instant KO (100%) to caster (ignores death resist)",
         "effects_raw": [[1, 3, 35, [100,  1,  0]]]
     },
     "210670": {
@@ -51821,12 +51821,348 @@
         "attack_type": "Magic",
         "execute_type": "Default",
         "effects": "Magic earth damage (1.5x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  150]]]
+    },
+    "211770": {
+        "name": "爆発",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (1.2x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  120]]]
+    },
+    "211780": {
+        "name": "ボムタックル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (1.1x, ATK) to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  110]]]
+    },
+    "211790": {
+        "name": "ボムクラッシュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (1.2x, ATK) to all enemies",
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  120]]]
+    },
+    "211800": {
+        "name": "フレア",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic fire damage (1.5x, MAG) to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  150]]]
+    },
+    "211810": {
+        "name": "爆発",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (1.4x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  140]]]
+    },
+    "211820": {
+        "name": "大爆発",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (1.7x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  170]]]
+    },
+    "211830": {
+        "name": "ボムタックル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (1.3x, ATK) to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  130]]]
+    },
+    "211840": {
+        "name": "ボムクラッシュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (1.5x, ATK) to all enemies",
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  150]]]
+    },
+    "211850": {
+        "name": "フレア",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic fire damage (2.5x, MAG) to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  250]]]
+    },
+    "211860": {
+        "name": "爆発",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (2.2x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  220]]]
+    },
+    "211870": {
+        "name": "大爆発",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (2.5x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  250]]]
+    },
+    "211880": {
+        "name": "バーングレネード",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical fire damage (2.2x, ATK) to one enemy\nPhysical fire damage (0.7x, ATK) per turn to one enemy for 3 turns",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  220]], [1, 1, 139, [1,  70,  0,  0,  3,  1,  5]]]
+    },
+    "211890": {
+        "name": "ボムタックル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (2.4x, ATK) to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  240]]]
+    },
+    "211900": {
+        "name": "ボムクラッシュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (2.4x, ATK) to all enemies",
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  240]]]
+    },
+    "211910": {
+        "name": "激しく震えている",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase MAG by 40% for 3 turns to caster",
+        "effects_raw": [[0, 3, 3, [0,  0,  40,  0,  3,  1]]]
+    },
+    "211920": {
+        "name": "特大爆発",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (4.5x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  450]]]
+    },
+    "211930": {
+        "name": "バーングレネード",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical fire damage (2.3x, ATK) to one enemy\nPhysical fire damage (0.8x, ATK) per turn to one enemy for 3 turns",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  230]], [1, 1, 139, [1,  80,  0,  0,  3,  1,  5]]]
+    },
+    "211940": {
+        "name": "フレア",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic fire damage (3.9x, MAG) to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  390]]]
+    },
+    "211950": {
+        "name": "爆発",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (3.5x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  350]]]
+    },
+    "211960": {
+        "name": "大爆発",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (3.8x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  380]]]
+    },
+    "211970": {
+        "name": "激しく震えている",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase MAG by 50% for 3 turns to caster",
+        "effects_raw": [[0, 3, 3, [0,  0,  50,  0,  3,  1]]]
+    },
+    "211980": {
+        "name": "特大爆発",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (12x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1200]]]
+    },
+    "211990": {
+        "name": "バーングレネード",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical fire damage (3.5x, ATK) to one enemy\nPhysical fire damage (1.2x, ATK) per turn to one enemy for 3 turns",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]], [1, 1, 139, [1,  120,  0,  0,  3,  1,  5]]]
+    },
+    "212000": {
+        "name": "ボムタックル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (3.7x, ATK) to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  370]]]
+    },
+    "212010": {
+        "name": "ボムクラッシュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (3.7x, ATK) to all enemies",
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  370]]]
+    },
+    "212020": {
+        "name": "力に反応している",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Intercept physical damage to allies for 2 turns, reducing damage by 90%",
+        "effects_raw": [[0, 3, 96, [1,  0,  90,  90,  100,  100,  2,  1,  1]]]
+    },
+    "212030": {
+        "name": "魔力に反応している",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Intercept magical damage to allies for 2 turns, reducing damage by 90%",
+        "effects_raw": [[0, 3, 96, [1,  0,  90,  90,  100,  100,  2,  1,  2]]]
+    },
+    "212040": {
+        "name": "金色の光で身を包んだ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Reduce damage taken by 40% to all allies for 3 turns",
+        "effects_raw": [[2, 2, 101, [40,  3,  1]]]
+    },
+    "212050": {
+        "name": "怒りに火をつける",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Inflict berserk (+0% ATK) on one enemy for 2 turns",
+        "effects_raw": [[1, 1, 68, [2,  0]]]
+    },
+    "212060": {
+        "name": "ゴールデンヒール",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Restore 200000 HP to all allies",
+        "effects_raw": [[2, 2, 16, [200000]]]
+    },
+    "212070": {
+        "name": "ゴールデンガード",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase DEF and SPR by 20% for 3 turns to all allies",
+        "effects_raw": [[2, 2, 3, [0,  20,  0,  20,  3,  1]]]
+    },
+    "212080": {
+        "name": "ゴールデンブロー",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (1.8x, MAG) to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  180]]]
+    },
+    "212090": {
+        "name": "ゴールデンフラッシュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Inflict Blind (70%) on all enemies",
+        "effects_raw": [[2, 1, 6, [0,  70,  0,  0,  0,  0,  0,  0,  1]]]
+    },
+    "212100": {
+        "name": "ヒートグレネード",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical fire damage (3.2x, ATK) to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  320]]]
+    },
+    "212110": {
+        "name": "ボムタックル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (3.3x, ATK) to one enemy",
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  330]]]
+    },
+    "212120": {
+        "name": "ボムクラッシュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Physical damage (3.3x, ATK) to all enemies",
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  330]]]
+    },
+    "212130": {
+        "name": "爆発",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic damage (3.1x, MAG) to all enemies",
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  310]]]
+    },
+    "212140": {
+        "name": "ボムアンガー",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": "Increase ATK by 20% for 2 turns to caster",
+        "effects_raw": [[0, 3, 3, [20,  0,  0,  0,  2,  1]]]
+    },
+    "212150": {
+        "name": "ファイア",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic fire damage (2.8x, MAG) to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  280]]]
+    },
+    "212160": {
+        "name": "ストーン",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic earth damage (2.8x, MAG) to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  280]]]
+    },
+    "212170": {
+        "name": "エアロ",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": "Magic wind damage (2.8x, MAG) to one enemy",
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  280]]]
+    },
+    "212180": {
+        "name": "ボムソーサリー",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": "Increase MAG by 20% for 3 turns to caster",
         "effects_raw": [
             [
-                2,
-                1,
-                15,
-                [0, 0, 0, 0, 0, 150]
+                0,
+                3,
+                3,
+                [0, 0, 20, 0, 3, 1]
             ]
         ]
     }

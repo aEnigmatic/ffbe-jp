@@ -13049,14 +13049,14 @@
             "cost": 14,
             "effects": [
                 "Inflict Poison and Disease (40%) on all enemies",
-                "Magic damage (0.5x) per turn to all enemies for 3 turns"
+                "Magic damage (0.5x, SPR) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 6, [40,  0,  0,  0,  0,  0,  40,  0,  1]], [2, 1, 139, [3,  50,  0,  1,  3,  1,  4]]]},
         "max_level": {
             "cost": 14,
             "effects": [
                 "Inflict Poison and Disease (54%) on all enemies",
-                "Magic damage (1.9x) per turn to all enemies for 3 turns"
+                "Magic damage (1.9x, SPR) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 6, [54,  0,  0,  0,  0,  0,  54,  0,  1]], [2, 1, 139, [3,  190,  0,  1,  3,  1,  4]]]},
         "strings": []
@@ -13076,14 +13076,14 @@
             "cost": 16,
             "effects": [
                 "Inflict Poison and Disease (50%) on all enemies",
-                "Magic damage (1x) per turn to all enemies for 3 turns"
+                "Magic damage (1x, SPR) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 6, [50,  0,  0,  0,  0,  0,  50,  0,  1]], [2, 1, 139, [3,  100,  0,  1,  3,  1,  4]]]},
         "max_level": {
             "cost": 16,
             "effects": [
                 "Inflict Poison and Disease (69%) on all enemies",
-                "Magic damage (2.9x) per turn to all enemies for 3 turns"
+                "Magic damage (2.9x, SPR) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 6, [69,  0,  0,  0,  0,  0,  69,  0,  1]], [2, 1, 139, [3,  290,  0,  1,  3,  1,  4]]]},
         "strings": []
@@ -13103,14 +13103,14 @@
             "cost": 20,
             "effects": [
                 "Inflict Poison and Disease (60%) on all enemies",
-                "Magic damage (1.5x) per turn to all enemies for 3 turns"
+                "Magic damage (1.5x, SPR) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 6, [60,  0,  0,  0,  0,  0,  60,  0,  1]], [2, 1, 139, [3,  150,  0,  1,  3,  1,  4]]]},
         "max_level": {
             "cost": 20,
             "effects": [
                 "Inflict Poison and Disease (84%) on all enemies",
-                "Magic damage (3.9x) per turn to all enemies for 3 turns"
+                "Magic damage (3.9x, SPR) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 6, [84,  0,  0,  0,  0,  0,  84,  0,  1]], [2, 1, 139, [3,  390,  0,  1,  3,  1,  4]]]},
         "strings": []
@@ -15222,6 +15222,174 @@
                 "Cure all status effects for all allies"
             ],
             "effects_raw": [[1, 1, 103, [100,  99999,  800]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]},
+        "strings": []
+    },
+    "100021905": {
+        "name": "吉祥煌爛ノ舞",
+        "cost": 0,
+        "attack_count": [30],
+        "attack_damage": [[1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  14,  20,  20,  20]],
+        "attack_frames": [[88,  93,  98,  103,  108,  113,  118,  123,  128,  133,  138,  143,  148,  153,  158,  163,  168,  173,  178,  183,  188,  193,  198,  203,  208,  213,  218,  223,  228,  233]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "Magic* damage (23.1x, SPR) to all enemies",
+                "Increase SPR by 150% for 5 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 103, [100,  99999,  2310]], [0, 3, 3, [0,  0,  0,  150,  5,  1,  0]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "Magic* damage (25x, SPR) to all enemies",
+                "Increase SPR by 150% for 5 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 103, [100,  99999,  2500]], [0, 3, 3, [0,  0,  0,  150,  5,  1,  0]]]},
+        "strings": []
+    },
+    "100021906": {
+        "name": "吉祥煌爛ノ舞",
+        "cost": 0,
+        "attack_count": [30],
+        "attack_damage": [[1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  14,  20,  20,  20]],
+        "attack_frames": [[88,  93,  98,  103,  108,  113,  118,  123,  128,  133,  138,  143,  148,  153,  158,  163,  168,  173,  178,  183,  188,  193,  198,  203,  208,  213,  218,  223,  228,  233]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 27,
+            "effects": [
+                "Magic* damage (25.6x, SPR) to all enemies",
+                "Increase SPR by 180% for 5 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 103, [100,  99999,  2560]], [0, 3, 3, [0,  0,  0,  180,  5,  1,  0]]]},
+        "max_level": {
+            "cost": 27,
+            "effects": [
+                "Magic* damage (28x, SPR) to all enemies",
+                "Increase SPR by 180% for 5 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 103, [100,  99999,  2800]], [0, 3, 3, [0,  0,  0,  180,  5,  1,  0]]]},
+        "strings": []
+    },
+    "100021907": {
+        "name": "吉祥煌爛ノ舞",
+        "cost": 0,
+        "attack_count": [30],
+        "attack_damage": [[1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  14,  20,  20,  20]],
+        "attack_frames": [[88,  93,  98,  103,  108,  113,  118,  123,  128,  133,  138,  143,  148,  153,  158,  163,  168,  173,  178,  183,  188,  193,  198,  203,  208,  213,  218,  223,  228,  233]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Magic* damage (28.1x, SPR) to all enemies",
+                "Increase SPR by 200% for 5 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 103, [100,  99999,  2810]], [0, 3, 3, [0,  0,  0,  200,  5,  1,  0]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Magic* damage (31x, SPR) to all enemies",
+                "Increase SPR by 200% for 5 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 103, [100,  99999,  3100]], [0, 3, 3, [0,  0,  0,  200,  5,  1,  0]]]},
+        "strings": []
+    },
+    "100022005": {
+        "name": "ファッシネイト・インパクト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[222]],
+        "effect_frames": [[0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (5.5x * 2 = 11x, ATK) to one enemy (ignore cover)",
+                "Increase physical damage against Machinas and Stones by 50% to caster for 5 turns",
+                "Increase damage of the following skills by 100% for 2 turns:\n\tソイルワークスII (230284)\n\tパイルショット (230283)"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  550,  -50]], [0, 3, 92, [[6,  50], [10,  50], -1, -1, -1, -1, -1, -1, 5, 1]], [0, 3, 136, [[230283,  230284], 0, 0, 100, 2, 1, 11158, 0]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (7.5x * 2 = 15x, ATK) to one enemy (ignore cover)",
+                "Increase physical damage against Machinas and Stones by 50% to caster for 5 turns",
+                "Increase damage of the following skills by 100% for 2 turns:\n\tソイルワークスII (230284)\n\tパイルショット (230283)"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  750,  -50]], [0, 3, 92, [[6,  50], [10,  50], -1, -1, -1, -1, -1, -1, 5, 1]], [0, 3, 136, [[230283,  230284], 0, 0, 100, 2, 1, 11158, 0]]]},
+        "strings": []
+    },
+    "100022006": {
+        "name": "ファッシネイト・インパクト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[222]],
+        "effect_frames": [[0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (8.5x * 2 = 17x, ATK) to one enemy (ignore cover)",
+                "Increase physical damage against Machinas and Stones by 75% to caster for 5 turns",
+                "Increase damage of the following skills by 200% for 2 turns:\n\tソイルワークスII (230284)\n\tダブルリバーススピン (230287)\n\tバレットダンス (230285)\n\tパイルショット (230283)"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  850,  -50]], [0, 3, 92, [[6,  75], [10,  75], -1, -1, -1, -1, -1, -1, 5, 1]], [0, 3, 136, [[230283,  230284,  230285,  230287], 0, 0, 200, 2, 1, 11158, 0]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (11x * 2 = 22x, ATK) to one enemy (ignore cover)",
+                "Increase physical damage against Machinas and Stones by 75% to caster for 5 turns",
+                "Increase damage of the following skills by 200% for 2 turns:\n\tソイルワークスII (230284)\n\tダブルリバーススピン (230287)\n\tバレットダンス (230285)\n\tパイルショット (230283)"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  1100,  -50]], [0, 3, 92, [[6,  75], [10,  75], -1, -1, -1, -1, -1, -1, 5, 1]], [0, 3, 136, [[230283,  230284,  230285,  230287], 0, 0, 200, 2, 1, 11158, 0]]]},
+        "strings": []
+    },
+    "100022007": {
+        "name": "ファッシネイト・インパクト",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[222]],
+        "effect_frames": [[0,  0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 25,
+            "effects": [
+                "Physical damage (11.5x * 2 = 23x, ATK) to one enemy (ignore cover)",
+                "Increase physical damage against Machinas and Stones by 100% to caster for 5 turns",
+                "Increase damage of the following skills by 300% for 2 turns:\n\tソイルワークスII (230284)\n\tダブルリバーススピン (230287)\n\tバレットダンス (230285)\n\tパイルショット (230283)\n\tライトワークス (230290)"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  1150,  -50]], [0, 3, 92, [[6,  100], [10,  100], -1, -1, -1, -1, -1, -1, 5, 1]], [0, 3, 136, [[230283,  230284,  230285,  230287,  230290], 0, 0, 300, 2, 1, 11158, 0]]]},
+        "max_level": {
+            "cost": 25,
+            "effects": [
+                "Physical damage (14.5x * 2 = 29x, ATK) to one enemy (ignore cover)",
+                "Increase physical damage against Machinas and Stones by 100% to caster for 5 turns",
+                "Increase damage of the following skills by 300% for 2 turns:\n\tソイルワークスII (230284)\n\tダブルリバーススピン (230287)\n\tバレットダンス (230285)\n\tパイルショット (230283)\n\tライトワークス (230290)"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  1450,  -50]], [0, 3, 92, [[6,  100], [10,  100], -1, -1, -1, -1, -1, -1, 5, 1]], [0, 3, 136, [[230283,  230284,  230285,  230287,  230290], 0, 0, 300, 2, 1, 11158, 0]]]},
         "strings": []
     },
     "100022104": {
@@ -18018,7 +18186,7 @@
             "effects": [
                 "Magic fire damage (10x, MAG) to all enemies",
                 "Reduce resistance to Fire by 70% for 3 turns to all enemies",
-                "Magic fire damage (3x) per turn to all enemies for 3 turns"
+                "Magic fire damage (3x, SPR) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000,  0]], [2, 1, 33, [-70,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
         "max_level": {
@@ -18026,7 +18194,7 @@
             "effects": [
                 "Magic fire damage (19.5x, MAG) to all enemies",
                 "Reduce resistance to Fire by 89% for 3 turns to all enemies",
-                "Magic fire damage (3x) per turn to all enemies for 3 turns"
+                "Magic fire damage (3x, SPR) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1950,  0]], [2, 1, 33, [-89,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
         "strings": []
@@ -18047,7 +18215,7 @@
             "effects": [
                 "Magic fire damage (10x, MAG) to all enemies",
                 "Reduce resistance to Fire by 75% for 3 turns to all enemies",
-                "Magic fire damage (3x) per turn to all enemies for 3 turns"
+                "Magic fire damage (3x, SPR) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000,  0]], [2, 1, 33, [-75,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
         "max_level": {
@@ -18055,7 +18223,7 @@
             "effects": [
                 "Magic fire damage (22x, MAG) to all enemies",
                 "Reduce resistance to Fire by 100% for 3 turns to all enemies",
-                "Magic fire damage (3x) per turn to all enemies for 3 turns"
+                "Magic fire damage (3x, SPR) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2200,  0]], [2, 1, 33, [-100,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
         "strings": []
@@ -18076,7 +18244,7 @@
             "effects": [
                 "Magic fire damage (10x, MAG) to all enemies",
                 "Reduce resistance to Fire by 75% for 3 turns to all enemies",
-                "Magic fire damage (3x) per turn to all enemies for 3 turns"
+                "Magic fire damage (3x, SPR) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000,  0]], [2, 1, 33, [-75,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
         "max_level": {
@@ -18084,7 +18252,7 @@
             "effects": [
                 "Magic fire damage (27x, MAG) to all enemies",
                 "Reduce resistance to Fire by 100% for 3 turns to all enemies",
-                "Magic fire damage (3x) per turn to all enemies for 3 turns"
+                "Magic fire damage (3x, SPR) per turn to all enemies for 3 turns"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2700,  0]], [2, 1, 33, [-100,  0,  0,  0,  0,  0,  0,  0,  1,  3]], [2, 1, 139, [3,  300,  0,  1,  3,  1,  11]]]},
         "strings": []
@@ -18201,7 +18369,7 @@
             "effects": [
                 "Physical damage (4x, ATK) to one enemy",
                 "Reduce ATK and DEF by 40% for 3 turns to one enemy",
-                "Physical damage (1.5x) per turn to one enemy for 3 turns"
+                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [1, 1, 24, [-40,  -40,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
         "max_level": {
@@ -18209,7 +18377,7 @@
             "effects": [
                 "Physical damage (5.8x, ATK) to one enemy",
                 "Reduce ATK and DEF by 49% for 3 turns to one enemy",
-                "Physical damage (1.5x) per turn to one enemy for 3 turns"
+                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  580,  0]], [1, 1, 24, [-49,  -49,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
         "strings": []
@@ -18230,7 +18398,7 @@
             "effects": [
                 "Physical damage (4x, ATK) to one enemy",
                 "Reduce ATK and DEF by 40% for 3 turns to one enemy",
-                "Physical damage (1.5x) per turn to one enemy for 3 turns"
+                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [1, 1, 24, [-40,  -40,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
         "max_level": {
@@ -18238,7 +18406,7 @@
             "effects": [
                 "Physical damage (6.8x, ATK) to one enemy",
                 "Reduce ATK and DEF by 54% for 3 turns to one enemy",
-                "Physical damage (1.5x) per turn to one enemy for 3 turns"
+                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  680,  0]], [1, 1, 24, [-54,  -54,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
         "strings": []
@@ -18259,7 +18427,7 @@
             "effects": [
                 "Physical damage (4x, ATK) to one enemy",
                 "Reduce ATK and DEF by 40% for 3 turns to one enemy",
-                "Physical damage (1.5x) per turn to one enemy for 3 turns"
+                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [1, 1, 24, [-40,  -40,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
         "max_level": {
@@ -18267,7 +18435,7 @@
             "effects": [
                 "Physical damage (7.8x, ATK) to one enemy",
                 "Reduce ATK and DEF by 59% for 3 turns to one enemy",
-                "Physical damage (1.5x) per turn to one enemy for 3 turns"
+                "Physical damage (1.5x, ATK) per turn to one enemy for 3 turns"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  780,  0]], [1, 1, 24, [-59,  -59,  0,  0,  3,  1]], [1, 1, 139, [1,  150,  0,  1,  3,  1,  12]]]},
         "strings": []
@@ -28746,6 +28914,87 @@
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  740,  0]]]},
         "strings": []
     },
+    "303000305": {
+        "name": "クロスブレイク",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[112,  154,  200]],
+        "effect_frames": [[0,  40,  186]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "Physical damage (5.5x * 2 = 11x, ATK) to one enemy (ignore cover)",
+                "Gain 3 uses of the following skills for 2 turns:\n\tコールドウェポン (230350)\n\tソードバリア (230351)\n\tダークソード (230354)\n\tムーングロウ (230360)\n\tライトボール (230357)\n\t二段斬り (230352)\n\t五月雨斬り (509485, 509486, 509487)\n\t太陽光線 (230353)\n\t慶雲昌光 (230359)\n\t真空斬り (509488, 509489)\n\t短冊斬り (509482, 509483, 509484)"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  550,  -50]], [0, 3, 98, [3, 509492, -1, [230350,  230351,  230352,  230353,  230354,  230357,  230359,  230360,  509482,  509483,  509484,  509485,  509486,  509487,  509488,  509489], 3, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "Physical damage (7.5x * 2 = 15x, ATK) to one enemy (ignore cover)",
+                "Gain 3 uses of the following skills for 2 turns:\n\tコールドウェポン (230350)\n\tソードバリア (230351)\n\tダークソード (230354)\n\tムーングロウ (230360)\n\tライトボール (230357)\n\t二段斬り (230352)\n\t五月雨斬り (509485, 509486, 509487)\n\t太陽光線 (230353)\n\t慶雲昌光 (230359)\n\t真空斬り (509488, 509489)\n\t短冊斬り (509482, 509483, 509484)"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  750,  -50]], [0, 3, 98, [3, 509492, -1, [230350,  230351,  230352,  230353,  230354,  230357,  230359,  230360,  509482,  509483,  509484,  509485,  509486,  509487,  509488,  509489], 3, 1, 1, 0]]]},
+        "strings": []
+    },
+    "303000306": {
+        "name": "クロスブレイク",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[112,  154,  200]],
+        "effect_frames": [[0,  40,  186]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 26,
+            "effects": [
+                "Physical damage (8.5x * 2 = 17x, ATK) to one enemy (ignore cover)",
+                "Gain 3 uses of the following skills for 2 turns:\n\tコールドウェポン (230350)\n\tソードバリア (230351)\n\tダークソード (230354)\n\tムーングロウ (230360)\n\tライトボール (230357)\n\t二段斬り (230352)\n\t五月雨斬り (509485, 509486, 509487)\n\t太陽光線 (230353)\n\t慶雲昌光 (230359)\n\t真空斬り (509488, 509489)\n\t短冊斬り (509482, 509483, 509484)"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  850,  -50]], [0, 3, 98, [3, 509492, -1, [230350,  230351,  230352,  230353,  230354,  230357,  230359,  230360,  509482,  509483,  509484,  509485,  509486,  509487,  509488,  509489], 3, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 26,
+            "effects": [
+                "Physical damage (11x * 2 = 22x, ATK) to one enemy (ignore cover)",
+                "Gain 3 uses of the following skills for 2 turns:\n\tコールドウェポン (230350)\n\tソードバリア (230351)\n\tダークソード (230354)\n\tムーングロウ (230360)\n\tライトボール (230357)\n\t二段斬り (230352)\n\t五月雨斬り (509485, 509486, 509487)\n\t太陽光線 (230353)\n\t慶雲昌光 (230359)\n\t真空斬り (509488, 509489)\n\t短冊斬り (509482, 509483, 509484)"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  1100,  -50]], [0, 3, 98, [3, 509492, -1, [230350,  230351,  230352,  230353,  230354,  230357,  230359,  230360,  509482,  509483,  509484,  509485,  509486,  509487,  509488,  509489], 3, 1, 1, 0]]]},
+        "strings": []
+    },
+    "303000307": {
+        "name": "クロスブレイク",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[112,  154,  200]],
+        "effect_frames": [[0,  40,  186,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (11.5x * 2 = 23x, ATK) to one enemy (ignore cover)",
+                "Gain 3 uses of the following skills for 2 turns:\n\tコールドウェポン (230350)\n\tソードバリア (230351)\n\tダークソード (230354)\n\tムーングロウ (230360)\n\tライトボール (230357)\n\t二段斬り (230352)\n\t五月雨斬り (509485, 509486, 509487)\n\t太陽光線 (230353)\n\t慶雲昌光 (230359)\n\t真空斬り (509488, 509489)\n\t短冊斬り (509482, 509483, 509484)"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  1150,  -50]], [0, 3, 98, [3, 509492, -1, [230350,  230351,  230352,  230353,  230354,  230357,  230359,  230360,  509482,  509483,  509484,  509485,  509486,  509487,  509488,  509489], 3, 1, 1, 0]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (14.5x * 2 = 29x, ATK) to one enemy (ignore cover)",
+                "Gain 3 uses of the following skills for 2 turns:\n\tコールドウェポン (230350)\n\tソードバリア (230351)\n\tダークソード (230354)\n\tムーングロウ (230360)\n\tライトボール (230357)\n\t二段斬り (230352)\n\t五月雨斬り (509485, 509486, 509487)\n\t太陽光線 (230353)\n\t慶雲昌光 (230359)\n\t真空斬り (509488, 509489)\n\t短冊斬り (509482, 509483, 509484)"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  1450,  -50]], [0, 3, 98, [3, 509492, -1, [230350,  230351,  230352,  230353,  230354,  230357,  230359,  230360,  509482,  509483,  509484,  509485,  509486,  509487,  509488,  509489], 3, 1, 1, 0]]]},
+        "strings": []
+    },
     "304000105": {
         "name": "魚雷旋風斬り",
         "cost": 0,
@@ -30372,6 +30621,27 @@
             "effects_raw": [[1, 1, 21, [0,  0,  640,  -50]]]},
         "strings": []
     },
+    "309000107": {
+        "name": "黄龍剣",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[130]],
+        "effect_frames": [[0,  119]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 24,
+            "effects": ["Physical damage (5x * 2 = 10x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  500,  -50]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": ["Physical damage (10.8x * 2 = 21.6x, ATK) to one enemy (ignore cover)"],
+            "effects_raw": [[1, 1, 21, [0,  0,  1080,  -50]]]},
+        "strings": []
+    },
     "309000205": {
         "name": "乱れ雪月花",
         "cost": 0,
@@ -30424,6 +30694,33 @@
                 "Increase ATK, DEF, MAG and SPR by 50% for 3 turns to all allies"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1040,  0]], [2, 2, 3, [50,  50,  50,  50,  3,  0]]]},
+        "strings": []
+    },
+    "309000207": {
+        "name": "乱れ雪月花",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[30,  30,  40]],
+        "attack_frames": [[64,  90,  148]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (18x, ATK) to one enemy",
+                "Increase ATK, DEF, MAG and SPR by 100% for 5 turns to all allies"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1800,  0]], [2, 2, 3, [100,  100,  100,  100,  5,  1]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (25.25x, ATK) to one enemy",
+                "Increase ATK, DEF, MAG and SPR by 130% for 5 turns to all allies"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  2525,  0]], [2, 2, 3, [130,  130,  130,  130,  5,  1]]]},
         "strings": []
     },
     "309000304": {
@@ -33999,7 +34296,7 @@
             "effects": [
                 "Magic fire damage (2.55x * 2 = 5.1x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 75% for 5 turns to one enemy",
-                "Gain access to following skills for one turn:\n\tエンハンス・氷 (507873)\n\tエンハンス・火 (507872)\n\tエンハンス・雷 (507874)"
+                "Gain access to following skills for one turn:\n\tEnhancement - Fire (507872)\n\tEnhancement - Ice (507873)\n\tEnhancement - Lightning (507874)"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  255,  50]], [1, 1, 33, [-75,  -75,  -75,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 100, [[2,  2,  2], [507872,  507873,  507874], 9999, 2, 1, 1]]]},
         "max_level": {
@@ -34007,7 +34304,7 @@
             "effects": [
                 "Magic fire damage (4x * 2 = 8x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 100% for 5 turns to one enemy",
-                "Gain access to following skills for one turn:\n\tエンハンス・氷 (507873)\n\tエンハンス・火 (507872)\n\tエンハンス・雷 (507874)"
+                "Gain access to following skills for one turn:\n\tEnhancement - Fire (507872)\n\tEnhancement - Ice (507873)\n\tEnhancement - Lightning (507874)"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  400,  50]], [1, 1, 33, [-100,  -100,  -100,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 100, [[2,  2,  2], [507872,  507873,  507874], 9999, 2, 1, 1]]]},
         "strings": []
@@ -34749,6 +35046,68 @@
                 "Increase damage of the following skills by 1400% for 2 turns:\n\t八連刃 (228081)\n\t八連刃+1 (707783)\n\t八連刃+2 (707784)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2100,  0]], [2, 1, 33, [-100,  -100,  0,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 136, [[228081,  707783,  707784], 0, 0, 1400, 2, 1, 11141, 1]]]},
+        "strings": []
+    },
+    "900000331": {
+        "name": "真・黄龍剣",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[130]],
+        "effect_frames": [[0,  119,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 24,
+            "effects": [
+                "Physical damage (5x * 2 = 10x, ATK) to one enemy (ignore cover)",
+                "Increase damage of 真・分身剣 (230311) by 500% for 2 turns",
+                "Increase damage of the following skills by 300% for 2 turns:\n\t五月雨斬り (230310)\n\t亜空間斬り (502200, 502210)\n\t亜空間斬り+1 (507759, 507760)\n\t亜空間斬り+2 (507774, 507775)\n\t剣閃 (502260, 502270)\n\t剣閃+1 (507762, 507763)\n\t剣閃+2 (507777, 507778)\n\t極意・亜空間斬り (509463)\n\t極意・剣閃 (509464)",
+                "Gain access to following skills (1 use):\n\t極意・亜空間斬り (509463)",
+                "Gain access to following skills (1 use):\n\t極意・剣閃 (509464)"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  500,  -50]], [0, 3, 136, [230311,  0,  0,  500,  2,  1,  11146,  0]], [0, 3, 136, [[230310,  502200,  502210,  502260,  502270,  507759,  507760,  507762,  507763,  507774,  507775,  507777,  507778,  509463,  509464], 0, 0, 300, 2, 1, 11147, 0]], [0, 3, 100, [2,  509463,  1,  9999,  1,  1]], [0, 3, 100, [2,  509464,  1,  9999,  1,  2]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": [
+                "Physical damage (15.15x * 2 = 30.3x, ATK) to one enemy (ignore cover)",
+                "Increase damage of 真・分身剣 (230311) by 500% for 2 turns",
+                "Increase damage of the following skills by 300% for 2 turns:\n\t五月雨斬り (230310)\n\t亜空間斬り (502200, 502210)\n\t亜空間斬り+1 (507759, 507760)\n\t亜空間斬り+2 (507774, 507775)\n\t剣閃 (502260, 502270)\n\t剣閃+1 (507762, 507763)\n\t剣閃+2 (507777, 507778)\n\t極意・亜空間斬り (509463)\n\t極意・剣閃 (509464)",
+                "Gain access to following skills (1 use):\n\t極意・亜空間斬り (509463)",
+                "Gain access to following skills (1 use):\n\t極意・剣閃 (509464)"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  1515,  -50]], [0, 3, 136, [230311,  0,  0,  500,  2,  1,  11146,  0]], [0, 3, 136, [[230310,  502200,  502210,  502260,  502270,  507759,  507760,  507762,  507763,  507774,  507775,  507777,  507778,  509463,  509464], 0, 0, 300, 2, 1, 11147, 0]], [0, 3, 100, [2,  509463,  1,  9999,  1,  1]], [0, 3, 100, [2,  509464,  1,  9999,  1,  2]]]},
+        "strings": []
+    },
+    "900000332": {
+        "name": "乱れ雪月花",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[30,  30,  40]],
+        "attack_frames": [[64,  90,  148]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (18x, ATK) to one enemy",
+                "Increase ATK, DEF, MAG and SPR by 100% for 5 turns to all allies",
+                "Reduce resistance to Fire and Ice by 75% for 5 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1800,  0]], [2, 2, 3, [100,  100,  100,  100,  5,  1]], [1, 1, 33, [-75,  -75,  0,  0,  0,  0,  0,  0,  1,  5]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (25.25x, ATK) to one enemy",
+                "Increase ATK, DEF, MAG and SPR by 130% for 5 turns to all allies",
+                "Reduce resistance to Fire and Ice by 100% for 5 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  2525,  0]], [2, 2, 3, [130,  130,  130,  130,  5,  1]], [1, 1, 33, [-100,  -100,  0,  0,  0,  0,  0,  0,  1,  5]]]},
         "strings": []
     },
     "905000102": {
