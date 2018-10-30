@@ -24525,6 +24525,213 @@
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  345,  0]], [1, 1, 24, [-49,  0,  0,  0,  3,  1]]]},
         "strings": []
     },
+    "213001005": {
+        "name": "斬鉄剣",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[3,  3,  4,  10,  10,  10,  10,  10,  10,  10,  10,  10]],
+        "attack_frames": [[48,  62,  91,  99,  105,  111,  117,  123,  129,  135,  141,  147]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (5x * 2 = 10x, ATK) to all enemies (ignore cover)",
+                "Reduce resistance to Lightning by 80% for 5 turns to all enemies",
+                "Increase damage of the following skills by 100% for 3 turns:\n\t烈破 (230382)\n\t絶影・改 (230383)\n\t連閃 (230380)"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  500,  -50]], [2, 1, 33, [0,  0,  -80,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 136, [[230380,  230382,  230383], 0, 0, 100, 3, 1, 11158, 0]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (7.85x * 2 = 15.7x, ATK) to all enemies (ignore cover)",
+                "Reduce resistance to Lightning by 99% for 5 turns to all enemies",
+                "Increase damage of the following skills by 100% for 3 turns:\n\t烈破 (230382)\n\t絶影・改 (230383)\n\t連閃 (230380)"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  785,  -50]], [2, 1, 33, [0,  0,  -99,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 136, [[230380,  230382,  230383], 0, 0, 100, 3, 1, 11158, 0]]]},
+        "strings": []
+    },
+    "213001006": {
+        "name": "斬鉄剣",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[3,  3,  4,  10,  10,  10,  10,  10,  10,  10,  10,  10]],
+        "attack_frames": [[48,  62,  91,  99,  105,  111,  117,  123,  129,  135,  141,  147]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (5x * 2 = 10x, ATK) to all enemies (ignore cover)",
+                "Reduce resistance to Lightning by 80% for 5 turns to all enemies",
+                "Increase damage of the following skills by 100% for 3 turns:\n\t烈破 (230382)\n\t絶影・改 (230383)\n\t連閃 (230380)",
+                "Increase damage of the following skills by 200% for 3 turns:\n\t天臨 (230381)\n\t天鳴万雷・改 (230385)\n\t真空破 (230386)\n\t轟剣 (230384)"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  500,  -50]], [2, 1, 33, [0,  0,  -80,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 136, [[230380,  230382,  230383], 0, 0, 100, 3, 1, 11158, 0]], [0, 3, 136, [[230381,  230384,  230385,  230386], 0, 0, 200, 3, 1, 11159, 0]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (8.6x * 2 = 17.2x, ATK) to all enemies (ignore cover)",
+                "Reduce resistance to Lightning by 100% for 5 turns to all enemies",
+                "Increase damage of the following skills by 100% for 3 turns:\n\t烈破 (230382)\n\t絶影・改 (230383)\n\t連閃 (230380)",
+                "Increase damage of the following skills by 200% for 3 turns:\n\t天臨 (230381)\n\t天鳴万雷・改 (230385)\n\t真空破 (230386)\n\t轟剣 (230384)"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  860,  -50]], [2, 1, 33, [0,  0,  -100,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 136, [[230380,  230382,  230383], 0, 0, 100, 3, 1, 11158, 0]], [0, 3, 136, [[230381,  230384,  230385,  230386], 0, 0, 200, 3, 1, 11159, 0]]]},
+        "strings": []
+    },
+    "213001007": {
+        "name": "斬鉄剣",
+        "cost": 0,
+        "attack_count": [12],
+        "attack_damage": [[3,  3,  4,  10,  10,  10,  10,  10,  10,  10,  10,  10]],
+        "attack_frames": [[48,  62,  91,  99,  105,  111,  117,  123,  129,  135,  141,  147]],
+        "effect_frames": [[0,  0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 40,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (5x * 2 = 10x, ATK) to all enemies (ignore cover)",
+                "Reduce resistance to Lightning by 80% for 5 turns to all enemies",
+                "Increase damage of the following skills by 100% for 3 turns:\n\t烈破 (230382)\n\t絶影・改 (230383)\n\t連閃 (230380)",
+                "Increase damage of the following skills by 200% for 3 turns:\n\t天臨 (230381)\n\t天鳴万雷・改 (230385)\n\t真空破 (230386)\n\t轟剣 (230384)",
+                "Increase damage of the following skills by 300% for 3 turns:\n\tシーンドライブ (509520)\n\tラッシュアサルト (230387)"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  500,  -50]], [2, 1, 33, [0,  0,  -80,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 136, [[230380,  230382,  230383], 0, 0, 100, 3, 1, 11158, 0]], [0, 3, 136, [[230381,  230384,  230385,  230386], 0, 0, 200, 3, 1, 11159, 0]], [0, 3, 136, [[230387,  509520], 0, 0, 300, 3, 1, 11160, 0]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Physical damage (10.85x * 2 = 21.7x, ATK) to all enemies (ignore cover)",
+                "Reduce resistance to Lightning by 120% for 5 turns to all enemies",
+                "Increase damage of the following skills by 100% for 3 turns:\n\t烈破 (230382)\n\t絶影・改 (230383)\n\t連閃 (230380)",
+                "Increase damage of the following skills by 200% for 3 turns:\n\t天臨 (230381)\n\t天鳴万雷・改 (230385)\n\t真空破 (230386)\n\t轟剣 (230384)",
+                "Increase damage of the following skills by 300% for 3 turns:\n\tシーンドライブ (509520)\n\tラッシュアサルト (230387)"
+            ],
+            "effects_raw": [[2, 1, 21, [0,  0,  1085,  -50]], [2, 1, 33, [0,  0,  -120,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 136, [[230380,  230382,  230383], 0, 0, 100, 3, 1, 11158, 0]], [0, 3, 136, [[230381,  230384,  230385,  230386], 0, 0, 200, 3, 1, 11159, 0]], [0, 3, 136, [[230387,  509520], 0, 0, 300, 3, 1, 11160, 0]]]},
+        "strings": []
+    },
+    "213001105": {
+        "name": "聖なる審判",
+        "cost": 0,
+        "attack_count": [27],
+        "attack_damage": [[10,  10,  10,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  47]],
+        "attack_frames": [[145,  189,  259,  279,  285,  291,  297,  303,  309,  315,  321,  327,  333,  339,  345,  375,  381,  387,  393,  399,  405,  411,  417,  423,  429,  435,  583]],
+        "effect_frames": [[0,  180,  360,  0,  180,  360,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": [
+            "Fire",
+            "Ice",
+            "Lightning",
+            "Water",
+            "Wind",
+            "Earth",
+            "Light",
+            "Dark"
+        ],
+        "levels": 20,
+        "min_level": {
+            "cost": 27,
+            "effects": [
+                "Reduce resistance to all elements by 75% for one turn to all enemies",
+                "Magic fire, ice, lightning, water, wind, earth, light and dark damage (8x, MAG) to all enemies",
+                "Restore 200 MP to caster"
+            ],
+            "effects_raw": [[2, 1, 33, [-75,  -75,  -75,  -75,  -75,  -75,  -75,  -75,  1,  1]], [2, 1, 15, [0,  0,  0,  0,  0,  800,  0]], [0, 3, 17, [200]]]},
+        "max_level": {
+            "cost": 27,
+            "effects": [
+                "Reduce resistance to all elements by 94% for one turn to all enemies",
+                "Magic fire, ice, lightning, water, wind, earth, light and dark damage (12.75x, MAG) to all enemies",
+                "Restore 200 MP to caster"
+            ],
+            "effects_raw": [[2, 1, 33, [-94,  -94,  -94,  -94,  -94,  -94,  -94,  -94,  1,  1]], [2, 1, 15, [0,  0,  0,  0,  0,  1275,  0]], [0, 3, 17, [200]]]},
+        "strings": []
+    },
+    "213001106": {
+        "name": "聖なる審判",
+        "cost": 0,
+        "attack_count": [27],
+        "attack_damage": [[10,  10,  10,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  47]],
+        "attack_frames": [[145,  189,  259,  279,  285,  291,  297,  303,  309,  315,  321,  327,  333,  339,  345,  375,  381,  387,  393,  399,  405,  411,  417,  423,  429,  435,  583]],
+        "effect_frames": [[0,  180,  360,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": [
+            "Fire",
+            "Ice",
+            "Lightning",
+            "Water",
+            "Wind",
+            "Earth",
+            "Light",
+            "Dark"
+        ],
+        "levels": 25,
+        "min_level": {
+            "cost": 27,
+            "effects": [
+                "Reduce resistance to all elements by 75% for one turn to all enemies",
+                "Magic fire, ice, lightning, water, wind, earth, light and dark damage (8x, MAG) to all enemies",
+                "Restore 300 MP to caster"
+            ],
+            "effects_raw": [[2, 1, 33, [-75,  -75,  -75,  -75,  -75,  -75,  -75,  -75,  1,  1]], [2, 1, 15, [0,  0,  0,  0,  0,  800,  0]], [0, 3, 17, [300]]]},
+        "max_level": {
+            "cost": 27,
+            "effects": [
+                "Reduce resistance to all elements by 100% for one turn to all enemies",
+                "Magic fire, ice, lightning, water, wind, earth, light and dark damage (14x, MAG) to all enemies",
+                "Restore 300 MP to caster"
+            ],
+            "effects_raw": [[2, 1, 33, [-100,  -100,  -100,  -100,  -100,  -100,  -100,  -100,  1,  1]], [2, 1, 15, [0,  0,  0,  0,  0,  1400,  0]], [0, 3, 17, [300]]]},
+        "strings": []
+    },
+    "213001107": {
+        "name": "聖なる審判",
+        "cost": 0,
+        "attack_count": [27],
+        "attack_damage": [[10,  10,  10,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  47]],
+        "attack_frames": [[145,  189,  259,  279,  285,  291,  297,  303,  309,  315,  321,  327,  333,  339,  345,  375,  381,  387,  393,  399,  405,  411,  417,  423,  429,  435,  583]],
+        "effect_frames": [[0,  180,  360,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": [
+            "Fire",
+            "Ice",
+            "Lightning",
+            "Water",
+            "Wind",
+            "Earth",
+            "Light",
+            "Dark"
+        ],
+        "levels": 30,
+        "min_level": {
+            "cost": 27,
+            "effects": [
+                "Reduce resistance to all elements by 75% for one turn to all enemies",
+                "Magic fire, ice, lightning, water, wind, earth, light and dark damage (8x, MAG) to all enemies",
+                "Restore 400 MP to caster"
+            ],
+            "effects_raw": [[2, 1, 33, [-75,  -75,  -75,  -75,  -75,  -75,  -75,  -75,  1,  1]], [2, 1, 15, [0,  0,  0,  0,  0,  800,  0]], [0, 3, 17, [400]]]},
+        "max_level": {
+            "cost": 27,
+            "effects": [
+                "Reduce resistance to all elements by 100% for one turn to all enemies",
+                "Magic fire, ice, lightning, water, wind, earth, light and dark damage (15.25x, MAG) to all enemies",
+                "Restore 400 MP to caster"
+            ],
+            "effects_raw": [[2, 1, 33, [-100,  -100,  -100,  -100,  -100,  -100,  -100,  -100,  1,  1]], [2, 1, 15, [0,  0,  0,  0,  0,  1525,  0]], [0, 3, 17, [400]]]},
+        "strings": []
+    },
     "214000105": {
         "name": "エーテリアルパルス",
         "cost": 0,
@@ -34862,8 +35069,8 @@
                 "Reduce resistance to Ice by 75% for 2 turns to all enemies",
                 "Hybrid ice damage (15.5x, ATK & MAG) to all enemies",
                 "Increase ATK and MAG by 250% for 3 turns to caster",
-                "Gain 3 uses of the following skills for one turn:\n\t絶剣・天泣 (228331)\n\t絶剣・暮雨 (508520)\n\t絶剣・氷雨 (228332)\n\t絶剣・驟雨 (228333)",
-                "Gain access to following skills for one turn:\n\t絶剣・暮雨 (508520)"
+                "Gain 3 uses of the following skills for one turn:\n\tZekken - Cloudless Rain (228331)\n\tZekken - Freezing Showers (228332)\n\tZekken - Sudden Downpour (228333)\n\tZekken - Twilight Rain (508520)",
+                "Gain access to following skills for one turn:\n\tZekken - Twilight Rain (508520)"
             ],
             "effects_raw": [[2, 1, 33, [0,  -75,  0,  0,  0,  0,  0,  0,  1,  2]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  1550,  1550]], [0, 3, 3, [250,  0,  250,  0,  3,  1,  0]], [0, 3, 98, [3, 508522, -1, [228331,  228332,  228333,  508520], 2, 1, 1, 0]], [0, 3, 100, [2,  508520,  9999,  2,  1,  1]]]},
         "max_level": {
@@ -34872,8 +35079,8 @@
                 "Reduce resistance to Ice by 100% for 2 turns to all enemies",
                 "Hybrid ice damage (30x, ATK & MAG) to all enemies",
                 "Increase ATK and MAG by 250% for 3 turns to caster",
-                "Gain 3 uses of the following skills for one turn:\n\t絶剣・天泣 (228331)\n\t絶剣・暮雨 (508520)\n\t絶剣・氷雨 (228332)\n\t絶剣・驟雨 (228333)",
-                "Gain access to following skills for one turn:\n\t絶剣・暮雨 (508520)"
+                "Gain 3 uses of the following skills for one turn:\n\tZekken - Cloudless Rain (228331)\n\tZekken - Freezing Showers (228332)\n\tZekken - Sudden Downpour (228333)\n\tZekken - Twilight Rain (508520)",
+                "Gain access to following skills for one turn:\n\tZekken - Twilight Rain (508520)"
             ],
             "effects_raw": [[2, 1, 33, [0,  -100,  0,  0,  0,  0,  0,  0,  1,  2]], [2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  3000,  3000]], [0, 3, 3, [250,  0,  250,  0,  3,  1,  0]], [0, 3, 98, [3, 508522, -1, [228331,  228332,  228333,  508520], 2, 1, 1, 0]], [0, 3, 100, [2,  508520,  9999,  2,  1,  1]]]},
         "strings": []
