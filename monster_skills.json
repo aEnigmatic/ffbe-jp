@@ -547,7 +547,7 @@
         "flags": [false,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2x * 1.33 = 2.67x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2x * 1.33 = 2.67x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  200,  25]]]
     },
     "120420": {
@@ -555,7 +555,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.3x * 1.33 = 3.07x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.3x * 1.33 = 3.07x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  230,  25]]]
     },
     "120430": {
@@ -563,7 +563,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  25]]]
     },
     "130010": {
@@ -2228,7 +2228,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (3x * 1.33 = 4x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (3x * 1.33 = 4x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  300,  25]]]
     },
     "151210": {
@@ -2276,7 +2276,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (1.1x * 1.33 = 1.47x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (1.1x * 1.33 = 1.47x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  110,  25]]]
     },
     "151270": {
@@ -2284,7 +2284,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  25]]]
     },
     "151280": {
@@ -4445,7 +4445,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (3x * 2 = 6x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (3x * 2 = 6x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  300,  50]]]
     },
     "153780": {
@@ -4831,7 +4831,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (4x * 1.33 = 5.33x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (4x * 1.33 = 5.33x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  400,  25]]]
     },
     "154220": {
@@ -6516,7 +6516,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (3x * 1.33 = 4x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (3x * 1.33 = 4x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  300,  25]]]
     },
     "156170": {
@@ -6524,7 +6524,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (3.3x * 1.33 = 4.4x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (3.3x * 1.33 = 4.4x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  330,  25]]]
     },
     "156180": {
@@ -10363,7 +10363,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic fire damage (2x * 2 = 4x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic fire damage (2x * 2 = 4x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  200,  50]]]
     },
     "160490": {
@@ -10409,7 +10409,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (3x * 2 = 6x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (3x * 2 = 6x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  300,  50]]]
     },
     "160550": {
@@ -10433,7 +10433,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": ["Magic* damage (3x * 2 = 6x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic* damage (3x * 2 = 6x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  300,  50]]]
     },
     "160580": {
@@ -12303,7 +12303,7 @@
         "flags": [false,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (1.5x * 1.33 = 2x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (1.5x * 1.33 = 2x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  150,  25]]]
     },
     "162660": {
@@ -12322,7 +12322,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (1.5x * 1.33 = 2x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (1.5x * 1.33 = 2x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  150,  25]]]
     },
     "162680": {
@@ -12346,7 +12346,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  25]]]
     },
     "162710": {
@@ -12362,7 +12362,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (1.8x * 1.33 = 2.4x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (1.8x * 1.33 = 2.4x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  180,  25]]]
     },
     "162730": {
@@ -12370,7 +12370,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.3x * 2 = 4.6x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.3x * 2 = 4.6x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  230,  50]]]
     },
     "162740": {
@@ -12607,7 +12607,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (4x * 1.33 = 5.33x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (4x * 1.33 = 5.33x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  400,  25]]]
     },
     "163010": {
@@ -12615,7 +12615,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  25]]]
     },
     "163020": {
@@ -13361,7 +13361,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.3x * 1.33 = 3.07x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.3x * 1.33 = 3.07x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  230,  25]]]
     },
     "163900": {
@@ -13462,7 +13462,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]
     },
     "164010": {
@@ -16899,7 +16899,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (1.2x * 1.05 = 1.26x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (1.2x * 1.05 = 1.26x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  120,  5]]]
     },
     "168010": {
@@ -16996,7 +16996,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.3x * 1.33 = 3.07x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.3x * 1.33 = 3.07x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  230,  25]]]
     },
     "168110": {
@@ -20486,7 +20486,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.3x * 1.33 = 3.07x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.3x * 1.33 = 3.07x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  230,  25]]]
     },
     "172100": {
@@ -21554,7 +21554,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (3x * 1.33 = 4x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (3x * 1.33 = 4x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  300,  25]]]
     },
     "173320": {
@@ -21562,7 +21562,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (8x * 1.33 = 10.67x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (8x * 1.33 = 10.67x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  800,  25]]]
     },
     "173330": {
@@ -23859,7 +23859,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (8x * 1.33 = 10.67x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (8x * 1.33 = 10.67x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  800,  25]]]
     },
     "175920": {
@@ -24011,7 +24011,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.2x * 1.33 = 2.93x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.2x * 1.33 = 2.93x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  220,  25]]]
     },
     "176080": {
@@ -24019,7 +24019,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (3.5x * 2 = 7x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (3.5x * 2 = 7x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  350,  50]]]
     },
     "176090": {
@@ -24097,7 +24097,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (7.5x * 2 = 15x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (7.5x * 2 = 15x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  750,  50]]]
     },
     "176180": {
@@ -25284,7 +25284,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (1.5x * 1.43 = 2.14x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (1.5x * 1.43 = 2.14x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  150,  30]]]
     },
     "177500": {
@@ -26469,7 +26469,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2x * 1.33 = 2.67x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2x * 1.33 = 2.67x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  200,  25]]]
     },
     "178840": {
@@ -26576,7 +26576,7 @@
         "flags": [false,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  25]]]
     },
     "178970": {
@@ -28121,7 +28121,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Magic* damage (3.4x * 2 = 6.8x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic* damage (3.4x * 2 = 6.8x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  340,  50]]]
     },
     "180540": {
@@ -31222,7 +31222,7 @@
         "flags": [false,  true,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2x * 1.33 = 2.67x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2x * 1.33 = 2.67x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  200,  25]]]
     },
     "183950": {
@@ -35234,7 +35234,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]
     },
     "188360": {
@@ -37275,7 +37275,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (7x * 1.33 = 9.33x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (7x * 1.33 = 9.33x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  700,  25]]]
     },
     "190530": {
@@ -37572,7 +37572,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic dark damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic dark damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  25]]]
     },
     "190860": {
@@ -37635,7 +37635,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic dark damage (3.75x * 1.33 = 5x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic dark damage (3.75x * 1.33 = 5x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  375,  25]]]
     },
     "190930": {
@@ -40501,7 +40501,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.5x * 1.67 = 4.17x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.5x * 1.67 = 4.17x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  40]]]
     },
     "194080": {
@@ -41144,7 +41144,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (1x * 2 = 2x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (1x * 2 = 2x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  100,  50]]]
     },
     "194820": {
@@ -41152,7 +41152,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (0.9x * 2 = 1.8x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (0.9x * 2 = 1.8x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  90,  50]]]
     },
     "194830": {
@@ -42909,7 +42909,7 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": [
-            "Magic* damage (4x * 1.54 = 6.15x, MAG) to all enemies (ignore cover and reflect)",
+            "Magic* damage (4x * 1.54 = 6.15x, MAG) to all enemies (ignore reflect)",
             "Reduce resistance to Light by 60% for 2 turns to all enemies"
         ],
         "effects_raw": [[2, 1, 70, [0,  0,  400,  35]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  -60,  0,  1,  2]]]
@@ -43446,7 +43446,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  25]]]
     },
     "197390": {
@@ -45548,7 +45548,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.3x * 1.33 = 3.07x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.3x * 1.33 = 3.07x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  230,  25]]]
     },
     "198450": {
@@ -45973,7 +45973,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.3x * 2 = 4.6x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.3x * 2 = 4.6x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  230,  50]]]
     },
     "198920": {
@@ -47053,7 +47053,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.5x * 1.67 = 4.17x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.5x * 1.67 = 4.17x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  40]]]
     },
     "200110": {
@@ -47115,7 +47115,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.5x * 1.67 = 4.17x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.5x * 1.67 = 4.17x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  40]]]
     },
     "200180": {
@@ -47490,7 +47490,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Magic* fire, water, wind and dark damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic* fire, water, wind and dark damage (2.5x * 2 = 5x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]
     },
     "200590": {
@@ -47700,7 +47700,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Magic* fire, water, wind and dark damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic* fire, water, wind and dark damage (2.5x * 2 = 5x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]
     },
     "200820": {
@@ -49583,7 +49583,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2x * 1.33 = 2.67x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2x * 1.33 = 2.67x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  200,  25]]]
     },
     "202900": {
@@ -52127,7 +52127,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.8x * 1.33 = 3.73x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.8x * 1.33 = 3.73x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  280,  25]]]
     },
     "205930": {
@@ -52192,7 +52192,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (5.5x * 1.33 = 7.33x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (5.5x * 1.33 = 7.33x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  550,  25]]]
     },
     "206000": {
@@ -52200,7 +52200,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (2.8x * 1.33 = 3.73x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (2.8x * 1.33 = 3.73x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  280,  25]]]
     },
     "206010": {
@@ -52679,7 +52679,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (10x * 1.33 = 13.33x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (10x * 1.33 = 13.33x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  1000,  25]]]
     },
     "206530": {
@@ -53350,7 +53350,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (3.5x * 1.33 = 4.67x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (3.5x * 1.33 = 4.67x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  350,  25]]]
     },
     "207300": {
@@ -53358,7 +53358,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (4.8x * 1.33 = 6.4x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic damage (4.8x * 1.33 = 6.4x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  480,  25]]]
     },
     "207310": {
@@ -57054,7 +57054,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic dark damage (2.75x * 1.33 = 3.67x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic dark damage (2.75x * 1.33 = 3.67x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  275,  25]]]
     },
     "211410": {
@@ -57117,7 +57117,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic dark damage (4x * 1.33 = 5.33x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic dark damage (4x * 1.33 = 5.33x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  400,  25]]]
     },
     "211480": {
@@ -57749,7 +57749,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Magic* damage (2.15x * 1.18 = 2.53x, MAG) to all enemies (ignore cover and reflect)"],
+        "effects": ["Magic* damage (2.15x * 1.18 = 2.53x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [[2, 1, 70, [0,  0,  215,  15]]]
     },
     "212240": {
@@ -58827,7 +58827,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Magic damage (10x * 2 = 20x, MAG) to all allies (ignore cover and reflect)"],
+        "effects": ["Magic damage (10x * 2 = 20x, MAG) to all allies (ignore reflect)"],
         "effects_raw": [[2, 6, 70, [0,  0,  1000,  50]]]
     },
     "213380": {
