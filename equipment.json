@@ -4408,7 +4408,7 @@
         "icon": "item_10333.png"
     },
     "303004000": {
-        "name": "ライオンハート",
+        "name": "ライオンハート(FFVIII)",
         "compendium_id": 885,
         "compendium_shown": true,
         "rarity": 8,
@@ -5060,6 +5060,37 @@
         "price_buy": 300000,
         "price_sell": 30000,
         "icon": "item_10352.png"
+    },
+    "303006100": {
+        "name": "ライオンハート(WOFF)",
+        "compendium_id": 1257,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1, 1.6],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [230461],
+        "effects": ["Grants 'レジェンダリービースト' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 140,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 150000,
+        "price_sell": 15000,
+        "icon": "item_10334.png"
     },
     "304000100": {
         "name": "虎鉄",
@@ -12792,7 +12823,7 @@
         "icon": "item_10524.png"
     },
     "311003000": {
-        "name": "ニルヴァーナ",
+        "name": "ニルヴァーナ(FFX)",
         "compendium_id": 722,
         "compendium_shown": true,
         "rarity": 8,
@@ -13301,6 +13332,37 @@
         "price_buy": 80000,
         "price_sell": 8000,
         "icon": "item_10538.png"
+    },
+    "311004600": {
+        "name": "ニルヴァーナ(WOFF)",
+        "compendium_id": 1258,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 5,
+        "type": "Staff",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100750],
+        "effects": ["Grants 'オートリミット' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 19,
+            "DEF": 0,
+            "MAG": 68,
+            "SPR": 116,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 80000,
+        "price_sell": 8000,
+        "icon": "item_10523.png"
     },
     "311004700": {
         "name": "ダイヤの杖",
@@ -28350,7 +28412,7 @@
         "icon": "item_20437.png"
     },
     "408003800": {
-        "name": "ユウナの服",
+        "name": "ユウナの服(FFX)",
         "compendium_id": 979,
         "compendium_shown": true,
         "rarity": 9,
@@ -28580,6 +28642,42 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_20444.png"
+    },
+    "408004500": {
+        "name": "ユウナの服(WOFF)",
+        "compendium_id": 1259,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 53,
+        "type": "Robe",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [227574],
+        "effects": ["Grants '召喚士の心' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 32,
+            "MAG": 44,
+            "SPR": 78,
+            "element_resist": {
+                "Fire": 20,
+                "Ice": 20,
+                "Lightning": 20,
+                "Water": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_20439.png"
     },
     "409000100": {
         "name": "鉄の篭手",
