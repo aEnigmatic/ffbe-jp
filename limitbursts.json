@@ -411,11 +411,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic dark damage (2.5x * 2 = 5x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic dark damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic dark damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic dark damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  345,  50]]]},
         "strings": []
     },
@@ -432,11 +432,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic dark damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic dark damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic dark damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic dark damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  390,  50]]]},
         "strings": []
     },
@@ -453,11 +453,11 @@
         "levels": 30,
         "min_level": {
             "cost": 18,
-            "effects": ["Magic dark damage (3.8x * 2 = 7.6x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic dark damage (3.8x * 2 = 7.6x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  380,  50]]]},
         "max_level": {
             "cost": 18,
-            "effects": ["Magic dark damage (5.25x * 2 = 10.5x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic dark damage (5.25x * 2 = 10.5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  525,  50]]]},
         "strings": []
     },
@@ -4137,11 +4137,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to one enemy (ignore reflect)"],
+            "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  250,  50]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Magic damage (3.2x * 2 = 6.4x, MAG) to one enemy (ignore reflect)"],
+            "effects": ["Magic damage (3.2x * 2 = 6.4x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  320,  50]]]},
         "strings": []
     },
@@ -4158,11 +4158,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic damage (2.7x * 2 = 5.4x, MAG) to one enemy (ignore reflect)"],
+            "effects": ["Magic damage (2.7x * 2 = 5.4x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic damage (3.65x * 2 = 7.3x, MAG) to one enemy (ignore reflect)"],
+            "effects": ["Magic damage (3.65x * 2 = 7.3x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  365,  50]]]},
         "strings": []
     },
@@ -4179,11 +4179,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic damage (2.9x * 2 = 5.8x, MAG) to one enemy (ignore reflect)"],
+            "effects": ["Magic damage (2.9x * 2 = 5.8x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  290,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic damage (4.1x * 2 = 8.2x, MAG) to one enemy (ignore reflect)"],
+            "effects": ["Magic damage (4.1x * 2 = 8.2x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  410,  50]]]},
         "strings": []
     },
@@ -4908,11 +4908,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic water damage (2.5x * 2 = 5x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic water damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic water damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic water damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  345,  50]]]},
         "strings": []
     },
@@ -4929,11 +4929,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic water damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic water damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic water damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic water damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  390,  50]]]},
         "strings": []
     },
@@ -4950,11 +4950,11 @@
         "levels": 30,
         "min_level": {
             "cost": 18,
-            "effects": ["Magic water damage (3.8x * 2 = 7.6x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic water damage (3.8x * 2 = 7.6x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  380,  50]]]},
         "max_level": {
             "cost": 18,
-            "effects": ["Magic water damage (5.25x * 2 = 10.5x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic water damage (5.25x * 2 = 10.5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  525,  50]]]},
         "strings": []
     },
@@ -9667,14 +9667,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Magic water damage (2.5x * 2 = 5x, MAG) to all enemies (ignore reflect)",
+                "Magic water damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase resistance to Water by 40% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]], [2, 2, 33, [0,  0,  0,  40,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Magic water damage (4x * 2 = 8x, MAG) to all enemies (ignore reflect)",
+                "Magic water damage (4x * 2 = 8x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase resistance to Water by 55% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  400,  50]], [2, 2, 33, [0,  0,  0,  55,  0,  0,  0,  0,  1,  3]]]},
@@ -9694,14 +9694,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Magic water damage (3x * 2 = 6x, MAG) to all enemies (ignore reflect)",
+                "Magic water damage (3x * 2 = 6x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase resistance to Water by 50% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  300,  50]], [2, 2, 33, [0,  0,  0,  50,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Magic water damage (5x * 2 = 10x, MAG) to all enemies (ignore reflect)",
+                "Magic water damage (5x * 2 = 10x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase resistance to Water by 70% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  500,  50]], [2, 2, 33, [0,  0,  0,  70,  0,  0,  0,  0,  1,  3]]]},
@@ -9721,14 +9721,14 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Magic water damage (3.5x * 2 = 7x, MAG) to all enemies (ignore reflect)",
+                "Magic water damage (3.5x * 2 = 7x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase resistance to Water by 60% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  350,  50]], [2, 2, 33, [0,  0,  0,  60,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 20,
             "effects": [
-                "Magic water damage (6x * 2 = 12x, MAG) to all enemies (ignore reflect)",
+                "Magic water damage (6x * 2 = 12x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase resistance to Water by 85% for 3 turns to all allies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  600,  50]], [2, 2, 33, [0,  0,  0,  85,  0,  0,  0,  0,  1,  3]]]},
@@ -9892,14 +9892,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]], [0, 3, 90, [100,  100,  0]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Magic damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  345,  50]], [0, 3, 90, [100,  100,  0]]]},
@@ -9919,14 +9919,14 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Magic damage (3x * 2 = 6x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (3x * 2 = 6x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  300,  50]], [0, 3, 90, [100,  100,  0]]]},
         "max_level": {
             "cost": 20,
             "effects": [
-                "Magic damage (4.2x * 2 = 8.4x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (4.2x * 2 = 8.4x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  420,  50]], [0, 3, 90, [100,  100,  0]]]},
@@ -9946,14 +9946,14 @@
         "min_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (6.35x * 2 = 12.7x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (6.35x * 2 = 12.7x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  635,  50]], [0, 3, 90, [100,  100,  0]]]},
         "max_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (7.8x * 2 = 15.6x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (7.8x * 2 = 15.6x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  780,  50]], [0, 3, 90, [100,  100,  0]]]},
@@ -15487,14 +15487,14 @@
         "min_level": {
             "cost": 23,
             "effects": [
-                "Magic damage (7x * 2 = 14x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (7x * 2 = 14x, MAG) to all enemies (ignore cover and reflect)",
                 "Gain 4 uses of the following skills for 2 turns:\n\tイグゾーストヒート (230496)\n\tエクスキューション (230480)\n\tエクストラチャージ (230470)\n\tオファリング (230477)\n\tカオスノヴァ (230483)\n\tソウルサクション (230473)\n\tディヴァインソーラー (230479)\n\tデストラクション (230476)\n\tマインドスクラッチ (230471)\n\t光闇の領域 (230475)\n\t混沌の力 (230487)\n\t滅びの光 (230474)\n\t滅びの火 (230495)\n\t滅びの闇 (230472)\n\t滅びへの道 (230481)\n\t賢者の知恵 (230482)"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  700,  50]], [0, 3, 98, [4, 230485, -1, [230470,  230471,  230472,  230473,  230474,  230475,  230476,  230477,  230479,  230480,  230481,  230482,  230483,  230487,  230495,  230496], 3, 1, 1, 0]]]},
         "max_level": {
             "cost": 23,
             "effects": [
-                "Magic damage (9x * 2 = 18x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (9x * 2 = 18x, MAG) to all enemies (ignore cover and reflect)",
                 "Gain 4 uses of the following skills for 2 turns:\n\tイグゾーストヒート (230496)\n\tエクスキューション (230480)\n\tエクストラチャージ (230470)\n\tオファリング (230477)\n\tカオスノヴァ (230483)\n\tソウルサクション (230473)\n\tディヴァインソーラー (230479)\n\tデストラクション (230476)\n\tマインドスクラッチ (230471)\n\t光闇の領域 (230475)\n\t混沌の力 (230487)\n\t滅びの光 (230474)\n\t滅びの火 (230495)\n\t滅びの闇 (230472)\n\t滅びへの道 (230481)\n\t賢者の知恵 (230482)"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  900,  50]], [0, 3, 98, [4, 230485, -1, [230470,  230471,  230472,  230473,  230474,  230475,  230476,  230477,  230479,  230480,  230481,  230482,  230483,  230487,  230495,  230496], 3, 1, 1, 0]]]},
@@ -15514,14 +15514,14 @@
         "min_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (8.5x * 2 = 17x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (8.5x * 2 = 17x, MAG) to all enemies (ignore cover and reflect)",
                 "Gain 4 uses of the following skills for 2 turns:\n\tイグゾーストヒート (230496)\n\tエクスキューション (230480)\n\tエクストラチャージ (230470)\n\tオファリング (230477)\n\tカオスノヴァ (230483)\n\tソウルサクション (230473)\n\tディヴァインソーラー (230479)\n\tデストラクション (230476)\n\tマインドスクラッチ (230471)\n\t光闇の領域 (230475)\n\t混沌の力 (230487)\n\t滅びの光 (230474)\n\t滅びの火 (230495)\n\t滅びの闇 (230472)\n\t滅びへの道 (230481)\n\t賢者の知恵 (230482)"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  850,  50]], [0, 3, 98, [4, 230485, -1, [230470,  230471,  230472,  230473,  230474,  230475,  230476,  230477,  230479,  230480,  230481,  230482,  230483,  230487,  230495,  230496], 3, 1, 1, 0]]]},
         "max_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (11x * 2 = 22x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (11x * 2 = 22x, MAG) to all enemies (ignore cover and reflect)",
                 "Gain 4 uses of the following skills for 2 turns:\n\tイグゾーストヒート (230496)\n\tエクスキューション (230480)\n\tエクストラチャージ (230470)\n\tオファリング (230477)\n\tカオスノヴァ (230483)\n\tソウルサクション (230473)\n\tディヴァインソーラー (230479)\n\tデストラクション (230476)\n\tマインドスクラッチ (230471)\n\t光闇の領域 (230475)\n\t混沌の力 (230487)\n\t滅びの光 (230474)\n\t滅びの火 (230495)\n\t滅びの闇 (230472)\n\t滅びへの道 (230481)\n\t賢者の知恵 (230482)"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  1100,  50]], [0, 3, 98, [4, 230485, -1, [230470,  230471,  230472,  230473,  230474,  230475,  230476,  230477,  230479,  230480,  230481,  230482,  230483,  230487,  230495,  230496], 3, 1, 1, 0]]]},
@@ -15541,14 +15541,14 @@
         "min_level": {
             "cost": 36,
             "effects": [
-                "Magic damage (12x * 2 = 24x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (12x * 2 = 24x, MAG) to all enemies (ignore cover and reflect)",
                 "Gain 4 uses of the following skills for 2 turns:\n\tイグゾーストヒート (230496)\n\tエクスキューション (230480)\n\tエクストラチャージ (230470)\n\tオファリング (230477)\n\tカオスノヴァ (230483)\n\tソウルサクション (230473)\n\tディヴァインソーラー (230479)\n\tデストラクション (230476)\n\tマインドスクラッチ (230471)\n\t光闇の領域 (230475)\n\t混沌の力 (230487)\n\t滅びの光 (230474)\n\t滅びの火 (230495)\n\t滅びの闇 (230472)\n\t滅びへの道 (230481)\n\t賢者の知恵 (230482)"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  1200,  50]], [0, 3, 98, [4, 230485, -1, [230470,  230471,  230472,  230473,  230474,  230475,  230476,  230477,  230479,  230480,  230481,  230482,  230483,  230487,  230495,  230496], 3, 1, 1, 0]]]},
         "max_level": {
             "cost": 36,
             "effects": [
-                "Magic damage (15x * 2 = 30x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (15x * 2 = 30x, MAG) to all enemies (ignore cover and reflect)",
                 "Gain 4 uses of the following skills for 2 turns:\n\tイグゾーストヒート (230496)\n\tエクスキューション (230480)\n\tエクストラチャージ (230470)\n\tオファリング (230477)\n\tカオスノヴァ (230483)\n\tソウルサクション (230473)\n\tディヴァインソーラー (230479)\n\tデストラクション (230476)\n\tマインドスクラッチ (230471)\n\t光闇の領域 (230475)\n\t混沌の力 (230487)\n\t滅びの光 (230474)\n\t滅びの火 (230495)\n\t滅びの闇 (230472)\n\t滅びへの道 (230481)\n\t賢者の知恵 (230482)"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  1500,  50]], [0, 3, 98, [4, 230485, -1, [230470,  230471,  230472,  230473,  230474,  230475,  230476,  230477,  230479,  230480,  230481,  230482,  230483,  230487,  230495,  230496], 3, 1, 1, 0]]]},
@@ -17625,11 +17625,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Sacrifice 20% HP to deal physical* dark damage (2.5x, ATK) to all enemies"],
+            "effects": ["Sacrifice 20% HP to deal physical dark damage (2.5x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 81, [0,  0,  0,  0,  0,  0,  250,  20,  0,  0]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Sacrifice 20% HP to deal physical* dark damage (3.45x, ATK) to all enemies"],
+            "effects": ["Sacrifice 20% HP to deal physical dark damage (3.45x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 81, [0,  0,  0,  0,  0,  0,  345,  20,  0,  0]]]},
         "strings": []
     },
@@ -17646,11 +17646,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Sacrifice 20% HP to deal physical* dark damage (2.7x, ATK) to all enemies"],
+            "effects": ["Sacrifice 20% HP to deal physical dark damage (2.7x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 81, [0,  0,  0,  0,  0,  0,  270,  20,  0,  0]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Sacrifice 20% HP to deal physical* dark damage (3.9x, ATK) to all enemies"],
+            "effects": ["Sacrifice 20% HP to deal physical dark damage (3.9x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 81, [0,  0,  0,  0,  0,  0,  390,  20,  0,  0]]]},
         "strings": []
     },
@@ -17667,11 +17667,11 @@
         "levels": 30,
         "min_level": {
             "cost": 18,
-            "effects": ["Sacrifice 20% HP to deal physical* dark damage (8.6x, ATK) to all enemies"],
+            "effects": ["Sacrifice 20% HP to deal physical dark damage (8.6x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 81, [0,  0,  0,  0,  0,  0,  860,  20,  0,  0]]]},
         "max_level": {
             "cost": 18,
-            "effects": ["Sacrifice 20% HP to deal physical* dark damage (11.5x, ATK) to all enemies"],
+            "effects": ["Sacrifice 20% HP to deal physical dark damage (11.5x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 81, [0,  0,  0,  0,  0,  0,  1150,  20,  0,  0]]]},
         "strings": []
     },
@@ -18403,7 +18403,7 @@
         "min_level": {
             "cost": 32,
             "effects": [
-                "Magic dark damage (5x * 2 = 10x, MAG) to all enemies (ignore reflect)",
+                "Magic dark damage (5x * 2 = 10x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Dark by 70% for 3 turns to all enemies",
                 "Fill Esper gauge by 5-5"
             ],
@@ -18411,7 +18411,7 @@
         "max_level": {
             "cost": 32,
             "effects": [
-                "Magic dark damage (9.75x * 2 = 19.5x, MAG) to all enemies (ignore reflect)",
+                "Magic dark damage (9.75x * 2 = 19.5x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Dark by 89% for 3 turns to all enemies",
                 "Fill Esper gauge by 5-5"
             ],
@@ -18432,7 +18432,7 @@
         "min_level": {
             "cost": 34,
             "effects": [
-                "Magic dark damage (5x * 2 = 10x, MAG) to all enemies (ignore reflect)",
+                "Magic dark damage (5x * 2 = 10x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Dark by 75% for 3 turns to all enemies",
                 "Fill Esper gauge by 5-5"
             ],
@@ -18440,7 +18440,7 @@
         "max_level": {
             "cost": 34,
             "effects": [
-                "Magic dark damage (11x * 2 = 22x, MAG) to all enemies (ignore reflect)",
+                "Magic dark damage (11x * 2 = 22x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Dark by 100% for 3 turns to all enemies",
                 "Fill Esper gauge by 5-5"
             ],
@@ -18461,7 +18461,7 @@
         "min_level": {
             "cost": 36,
             "effects": [
-                "Magic dark damage (5x * 2 = 10x, MAG) to all enemies (ignore reflect)",
+                "Magic dark damage (5x * 2 = 10x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Dark by 75% for 3 turns to all enemies",
                 "Fill Esper gauge by 5-5"
             ],
@@ -18469,7 +18469,7 @@
         "max_level": {
             "cost": 36,
             "effects": [
-                "Magic dark damage (13.5x * 2 = 27x, MAG) to all enemies (ignore reflect)",
+                "Magic dark damage (13.5x * 2 = 27x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Dark by 100% for 3 turns to all enemies",
                 "Fill Esper gauge by 5-5"
             ],
@@ -19539,11 +19539,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  345,  50]]]},
         "strings": []
     },
@@ -19560,11 +19560,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  390,  50]]]},
         "strings": []
     },
@@ -19581,11 +19581,11 @@
         "levels": 30,
         "min_level": {
             "cost": 22,
-            "effects": ["Magic damage (4.95x * 2 = 9.9x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (4.95x * 2 = 9.9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  495,  50]]]},
         "max_level": {
             "cost": 22,
-            "effects": ["Magic damage (6.4x * 2 = 12.8x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (6.4x * 2 = 12.8x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  640,  50]]]},
         "strings": []
     },
@@ -22500,11 +22500,11 @@
         "levels": 20,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic damage (3.5x * 2 = 7x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (3.5x * 2 = 7x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  350,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic damage (4.45x * 2 = 8.9x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (4.45x * 2 = 8.9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  445,  50]]]},
         "strings": []
     },
@@ -22521,11 +22521,11 @@
         "levels": 25,
         "min_level": {
             "cost": 20,
-            "effects": ["Magic damage (4.5x * 2 = 9x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (4.5x * 2 = 9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  450,  50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Magic damage (5.7x * 2 = 11.4x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (5.7x * 2 = 11.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  570,  50]]]},
         "strings": []
     },
@@ -22542,11 +22542,11 @@
         "levels": 30,
         "min_level": {
             "cost": 27,
-            "effects": ["Magic damage (6x * 2 = 12x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (6x * 2 = 12x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  600,  50]]]},
         "max_level": {
             "cost": 27,
-            "effects": ["Magic damage (7.5x * 2 = 15x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (7.5x * 2 = 15x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  750,  50]]]},
         "strings": []
     },
@@ -23399,7 +23399,7 @@
         "min_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (4.1x * 2 = 8.2x, MAG) to one enemy (ignore reflect)",
+                "Magic damage (4.1x * 2 = 8.2x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice, Lightning, Water, Wind and Earth by 30% for 3 turns to one enemy",
                 "Gain access to following skills for one turn:\n\tAeroga V (20650)\n\tBlizzaga V (20670)\n\tFiraga V (20660)\n\tStonega V (20630)\n\tThundaga V (20680)\n\tWaterga V (20640)"
             ],
@@ -23407,7 +23407,7 @@
         "max_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (6x * 2 = 12x, MAG) to one enemy (ignore reflect)",
+                "Magic damage (6x * 2 = 12x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice, Lightning, Water, Wind and Earth by 50% for 3 turns to one enemy",
                 "Gain access to following skills for one turn:\n\tAeroga V (20650)\n\tBlizzaga V (20670)\n\tFiraga V (20660)\n\tStonega V (20630)\n\tThundaga V (20680)\n\tWaterga V (20640)"
             ],
@@ -23428,7 +23428,7 @@
         "min_level": {
             "cost": 30,
             "effects": [
-                "Magic damage (6.6x * 2 = 13.2x, MAG) to one enemy (ignore reflect)",
+                "Magic damage (6.6x * 2 = 13.2x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice, Lightning, Water, Wind and Earth by 35% for 3 turns to one enemy",
                 "Gain access to following skills for 2 turns:\n\tAeroga V (20650)\n\tBlizzaga V (20670)\n\tFiraga V (20660)\n\tStonega V (20630)\n\tThundaga V (20680)\n\tWaterga V (20640)"
             ],
@@ -23436,7 +23436,7 @@
         "max_level": {
             "cost": 30,
             "effects": [
-                "Magic damage (9x * 2 = 18x, MAG) to one enemy (ignore reflect)",
+                "Magic damage (9x * 2 = 18x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice, Lightning, Water, Wind and Earth by 60% for 3 turns to one enemy",
                 "Gain access to following skills for 2 turns:\n\tAeroga V (20650)\n\tBlizzaga V (20670)\n\tFiraga V (20660)\n\tStonega V (20630)\n\tThundaga V (20680)\n\tWaterga V (20640)"
             ],
@@ -23457,7 +23457,7 @@
         "min_level": {
             "cost": 32,
             "effects": [
-                "Magic damage (9.1x * 2 = 18.2x, MAG) to one enemy (ignore reflect)",
+                "Magic damage (9.1x * 2 = 18.2x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice, Lightning, Water, Wind and Earth by 40% for 3 turns to one enemy",
                 "Gain access to following skills for 3 turns:\n\tAeroga V (20650)\n\tBlizzaga V (20670)\n\tFiraga V (20660)\n\tStonega V (20630)\n\tThundaga V (20680)\n\tWaterga V (20640)"
             ],
@@ -23465,7 +23465,7 @@
         "max_level": {
             "cost": 32,
             "effects": [
-                "Magic damage (12x * 2 = 24x, MAG) to one enemy (ignore reflect)",
+                "Magic damage (12x * 2 = 24x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice, Lightning, Water, Wind and Earth by 70% for 3 turns to one enemy",
                 "Gain access to following skills for 3 turns:\n\tAeroga V (20650)\n\tBlizzaga V (20670)\n\tFiraga V (20660)\n\tStonega V (20630)\n\tThundaga V (20680)\n\tWaterga V (20640)"
             ],
@@ -23725,11 +23725,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Magic lightning damage (2.3x * 2 = 4.6x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic lightning damage (2.3x * 2 = 4.6x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  230,  50]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Magic lightning damage (3x * 2 = 6x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic lightning damage (3x * 2 = 6x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  300,  50]]]},
         "strings": []
     },
@@ -23746,11 +23746,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic lightning damage (2.5x * 2 = 5x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic lightning damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic lightning damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic lightning damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  345,  50]]]},
         "strings": []
     },
@@ -23767,11 +23767,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic lightning damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic lightning damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic lightning damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic lightning damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  390,  50]]]},
         "strings": []
     },
@@ -24721,11 +24721,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Magic damage (3.2x * 2 = 6.4x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (3.2x * 2 = 6.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  320,  50]]]},
         "strings": []
     },
@@ -24742,11 +24742,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic damage (3.65x * 2 = 7.3x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (3.65x * 2 = 7.3x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  365,  50]]]},
         "strings": []
     },
@@ -25721,14 +25721,14 @@
         "min_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (2.05x * 2 = 4.1x, MAG) to one enemy (ignore reflect)",
+                "Magic fire damage (2.05x * 2 = 4.1x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire by 70% for 5 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  205,  50]], [1, 1, 33, [-70,  0,  0,  0,  0,  0,  0,  0,  1,  5]]]},
         "max_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (3x * 2 = 6x, MAG) to one enemy (ignore reflect)",
+                "Magic fire damage (3x * 2 = 6x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire by 89% for 5 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  300,  50]], [1, 1, 33, [-89,  0,  0,  0,  0,  0,  0,  0,  1,  5]]]},
@@ -25748,14 +25748,14 @@
         "min_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (2.3x * 2 = 4.6x, MAG) to one enemy (ignore reflect)",
+                "Magic fire damage (2.3x * 2 = 4.6x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire by 75% for 5 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  230,  50]], [1, 1, 33, [-75,  0,  0,  0,  0,  0,  0,  0,  1,  5]]]},
         "max_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (3.5x * 2 = 7x, MAG) to one enemy (ignore reflect)",
+                "Magic fire damage (3.5x * 2 = 7x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire by 100% for 5 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  350,  50]], [1, 1, 33, [-100,  0,  0,  0,  0,  0,  0,  0,  1,  5]]]},
@@ -25775,14 +25775,14 @@
         "min_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (2.55x * 2 = 5.1x, MAG) to one enemy (ignore reflect)",
+                "Magic fire damage (2.55x * 2 = 5.1x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire by 75% for 5 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  255,  50]], [1, 1, 33, [-75,  0,  0,  0,  0,  0,  0,  0,  1,  5]]]},
         "max_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (4x * 2 = 8x, MAG) to one enemy (ignore reflect)",
+                "Magic fire damage (4x * 2 = 8x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire by 100% for 5 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  400,  50]], [1, 1, 33, [-100,  0,  0,  0,  0,  0,  0,  0,  1,  5]]]},
@@ -26265,14 +26265,14 @@
             "cost": 12,
             "effects": [
                 "Physical damage (2x * 1.33 = 2.67x, ATK) to all enemies (ignore cover)",
-                "Sacrifice 30% HP to deal physical* damage (1.5x, ATK) to all enemies"
+                "Sacrifice 30% HP to deal physical damage (1.5x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  200,  -25]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  150,  30,  1,  1]]]},
         "max_level": {
             "cost": 12,
             "effects": [
                 "Physical damage (2.45x * 1.33 = 3.27x, ATK) to all enemies (ignore cover)",
-                "Sacrifice 30% HP to deal physical* damage (1.95x, ATK) to all enemies"
+                "Sacrifice 30% HP to deal physical damage (1.95x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  245,  -25]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  195,  30,  1,  1]]]},
         "strings": []
@@ -26292,14 +26292,14 @@
             "cost": 14,
             "effects": [
                 "Physical damage (2.5x * 1.33 = 3.33x, ATK) to all enemies (ignore cover)",
-                "Sacrifice 30% HP to deal physical* damage (1.5x, ATK) to all enemies"
+                "Sacrifice 30% HP to deal physical damage (1.5x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  250,  -25]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  150,  30,  1,  1]]]},
         "max_level": {
             "cost": 14,
             "effects": [
                 "Physical damage (3.2x * 1.33 = 4.27x, ATK) to all enemies (ignore cover)",
-                "Sacrifice 30% HP to deal physical* damage (2.2x, ATK) to all enemies"
+                "Sacrifice 30% HP to deal physical damage (2.2x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  320,  -25]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  220,  30,  1,  1]]]},
         "strings": []
@@ -26319,14 +26319,14 @@
             "cost": 16,
             "effects": [
                 "Physical damage (3x * 1.33 = 4x, ATK) to all enemies (ignore cover)",
-                "Sacrifice 30% HP to deal physical* damage (1.5x, ATK) to all enemies"
+                "Sacrifice 30% HP to deal physical damage (1.5x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  300,  -25]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  150,  30,  1,  1]]]},
         "max_level": {
             "cost": 16,
             "effects": [
                 "Physical damage (3.95x * 1.33 = 5.27x, ATK) to all enemies (ignore cover)",
-                "Sacrifice 30% HP to deal physical* damage (2.45x, ATK) to all enemies"
+                "Sacrifice 30% HP to deal physical damage (2.45x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  395,  -25]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  245,  30,  1,  1]]]},
         "strings": []
@@ -26346,14 +26346,14 @@
             "cost": 20,
             "effects": [
                 "Physical damage (4.8x * 2 = 9.6x, ATK) to all enemies (ignore cover)",
-                "Sacrifice 30% HP to deal physical* damage (1.5x, ATK) to all enemies"
+                "Sacrifice 30% HP to deal physical damage (1.5x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  480,  -50]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  150,  30,  1,  1]]]},
         "max_level": {
             "cost": 20,
             "effects": [
                 "Physical damage (6x * 2 = 12x, ATK) to all enemies (ignore cover)",
-                "Sacrifice 30% HP to deal physical* damage (1.5x, ATK) to all enemies"
+                "Sacrifice 30% HP to deal physical damage (1.5x, ATK) to all enemies"
             ],
             "effects_raw": [[2, 1, 21, [0,  0,  600,  -50]], [2, 1, 81, [0,  0,  0,  0,  0,  0,  150,  30,  1,  1]]]},
         "strings": []
@@ -26984,14 +26984,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Magic light damage (3.3x * 2 = 6.6x, MAG) to all enemies (ignore reflect)",
+                "Magic light damage (3.3x * 2 = 6.6x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 50% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  330,  50]], [2, 1, 33, [-50,  -50,  -50,  0,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Magic light damage (4x * 2 = 8x, MAG) to all enemies (ignore reflect)",
+                "Magic light damage (4x * 2 = 8x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 64% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  400,  50]], [2, 1, 33, [-64,  -64,  -64,  0,  0,  0,  0,  0,  1,  3]]]},
@@ -27011,14 +27011,14 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Magic light damage (4x * 2 = 8x, MAG) to all enemies (ignore reflect)",
+                "Magic light damage (4x * 2 = 8x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 50% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  400,  50]], [2, 1, 33, [-50,  -50,  -50,  0,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 16,
             "effects": [
-                "Magic light damage (4.95x * 2 = 9.9x, MAG) to all enemies (ignore reflect)",
+                "Magic light damage (4.95x * 2 = 9.9x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 69% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  495,  50]], [2, 1, 33, [-69,  -69,  -69,  0,  0,  0,  0,  0,  1,  3]]]},
@@ -27038,14 +27038,14 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Magic light damage (4.8x * 2 = 9.6x, MAG) to all enemies (ignore reflect)",
+                "Magic light damage (4.8x * 2 = 9.6x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 50% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  480,  50]], [2, 1, 33, [-50,  -50,  -50,  0,  0,  0,  0,  0,  1,  3]]]},
         "max_level": {
             "cost": 20,
             "effects": [
-                "Magic light damage (6x * 2 = 12x, MAG) to all enemies (ignore reflect)",
+                "Magic light damage (6x * 2 = 12x, MAG) to all enemies (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 74% for 3 turns to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  600,  50]], [2, 1, 33, [-74,  -74,  -74,  0,  0,  0,  0,  0,  1,  3]]]},
@@ -27434,14 +27434,14 @@
         "min_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (6x * 2 = 12x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (6x * 2 = 12x, MAG) to all enemies (ignore cover and reflect)",
                 "Gain 4 uses of the following skills for one turn:\n\tアルマゲスト (229124)\n\tグランドクロス (229129)\n\tダークホーリー (229121)\n\tデスペジャ (229130)\n\tナノフレア (229122)\n\tハリケーン (229123)\n\tミュート (229127)\n\tリタンジャ (229128)\n\t究極魔法・アルテマ (229125)"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  600,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 2, 1, 1, 0]]]},
         "max_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (8x * 2 = 16x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (8x * 2 = 16x, MAG) to all enemies (ignore cover and reflect)",
                 "Gain 4 uses of the following skills for one turn:\n\tアルマゲスト (229124)\n\tグランドクロス (229129)\n\tダークホーリー (229121)\n\tデスペジャ (229130)\n\tナノフレア (229122)\n\tハリケーン (229123)\n\tミュート (229127)\n\tリタンジャ (229128)\n\t究極魔法・アルテマ (229125)"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  800,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 2, 1, 1, 0]]]},
@@ -27461,14 +27461,14 @@
         "min_level": {
             "cost": 30,
             "effects": [
-                "Magic damage (7.5x * 2 = 15x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (7.5x * 2 = 15x, MAG) to all enemies (ignore cover and reflect)",
                 "Gain 4 uses of the following skills for 2 turns:\n\tアルマゲスト (229124)\n\tグランドクロス (229129)\n\tダークホーリー (229121)\n\tデスペジャ (229130)\n\tナノフレア (229122)\n\tハリケーン (229123)\n\tミュート (229127)\n\tリタンジャ (229128)\n\t究極魔法・アルテマ (229125)"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  750,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 3, 1, 1, 0]]]},
         "max_level": {
             "cost": 30,
             "effects": [
-                "Magic damage (10x * 2 = 20x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (10x * 2 = 20x, MAG) to all enemies (ignore cover and reflect)",
                 "Gain 4 uses of the following skills for 2 turns:\n\tアルマゲスト (229124)\n\tグランドクロス (229129)\n\tダークホーリー (229121)\n\tデスペジャ (229130)\n\tナノフレア (229122)\n\tハリケーン (229123)\n\tミュート (229127)\n\tリタンジャ (229128)\n\t究極魔法・アルテマ (229125)"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  1000,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 3, 1, 1, 0]]]},
@@ -27488,14 +27488,14 @@
         "min_level": {
             "cost": 32,
             "effects": [
-                "Magic damage (10.5x * 2 = 21x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (10.5x * 2 = 21x, MAG) to all enemies (ignore cover and reflect)",
                 "Gain 4 uses of the following skills for 3 turns:\n\tアルマゲスト (229124)\n\tグランドクロス (229129)\n\tダークホーリー (229121)\n\tデスペジャ (229130)\n\tナノフレア (229122)\n\tハリケーン (229123)\n\tミュート (229127)\n\tリタンジャ (229128)\n\t究極魔法・アルテマ (229125)"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  1050,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 4, 1, 1, 0]]]},
         "max_level": {
             "cost": 32,
             "effects": [
-                "Magic damage (13.5x * 2 = 27x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (13.5x * 2 = 27x, MAG) to all enemies (ignore cover and reflect)",
                 "Gain 4 uses of the following skills for 3 turns:\n\tアルマゲスト (229124)\n\tグランドクロス (229129)\n\tダークホーリー (229121)\n\tデスペジャ (229130)\n\tナノフレア (229122)\n\tハリケーン (229123)\n\tミュート (229127)\n\tリタンジャ (229128)\n\t究極魔法・アルテマ (229125)"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  1350,  50]], [0, 3, 98, [4, 508903, -1, [229121,  229122,  229123,  229124,  229125,  229127,  229128,  229129,  229130], 4, 1, 1, 0]]]},
@@ -27595,11 +27595,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic* damage (2.7x * 2 = 5.4x, MAG) to one enemy (ignore reflect)"],
+            "effects": ["Magic* damage (2.7x * 2 = 5.4x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic* damage (3.65x * 2 = 7.3x, MAG) to one enemy (ignore reflect)"],
+            "effects": ["Magic* damage (3.65x * 2 = 7.3x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  365,  50]]]},
         "strings": []
     },
@@ -27616,11 +27616,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic* damage (2.9x * 2 = 5.8x, MAG) to one enemy (ignore reflect)"],
+            "effects": ["Magic* damage (2.9x * 2 = 5.8x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  290,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic* damage (4.1x * 2 = 8.2x, MAG) to one enemy (ignore reflect)"],
+            "effects": ["Magic* damage (4.1x * 2 = 8.2x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  410,  50]]]},
         "strings": []
     },
@@ -27637,11 +27637,11 @@
         "levels": 30,
         "min_level": {
             "cost": 22,
-            "effects": ["Magic* damage (6.55x * 2 = 13.1x, MAG) to one enemy (ignore reflect)"],
+            "effects": ["Magic* damage (6.55x * 2 = 13.1x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  655,  50]]]},
         "max_level": {
             "cost": 22,
-            "effects": ["Magic* damage (8x * 2 = 16x, MAG) to one enemy (ignore reflect)"],
+            "effects": ["Magic* damage (8x * 2 = 16x, MAG) to one enemy (ignore cover and reflect)"],
             "effects_raw": [[1, 1, 70, [0,  0,  800,  50]]]},
         "strings": []
     },
@@ -27928,11 +27928,11 @@
         "levels": 10,
         "min_level": {
             "cost": 10,
-            "effects": ["Sacrifice 20% HP to deal physical* damage (2.1x, ATK) to all enemies"],
+            "effects": ["Sacrifice 20% HP to deal physical damage (2.1x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 81, [0,  0,  0,  0,  0,  0,  210,  20,  0,  0]]]},
         "max_level": {
             "cost": 10,
-            "effects": ["Sacrifice 20% HP to deal physical* damage (2.55x, ATK) to all enemies"],
+            "effects": ["Sacrifice 20% HP to deal physical damage (2.55x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 81, [0,  0,  0,  0,  0,  0,  255,  20,  0,  0]]]},
         "strings": []
     },
@@ -27949,11 +27949,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Sacrifice 20% HP to deal physical* damage (2.3x, ATK) to all enemies"],
+            "effects": ["Sacrifice 20% HP to deal physical damage (2.3x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 81, [0,  0,  0,  0,  0,  0,  230,  20,  0,  0]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Sacrifice 20% HP to deal physical* damage (3x, ATK) to all enemies"],
+            "effects": ["Sacrifice 20% HP to deal physical damage (3x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 81, [0,  0,  0,  0,  0,  0,  300,  20,  0,  0]]]},
         "strings": []
     },
@@ -27970,11 +27970,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Sacrifice 20% HP to deal physical* damage (2.5x, ATK) to all enemies"],
+            "effects": ["Sacrifice 20% HP to deal physical damage (2.5x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 81, [0,  0,  0,  0,  0,  0,  250,  20,  0,  0]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Sacrifice 20% HP to deal physical* damage (3.45x, ATK) to all enemies"],
+            "effects": ["Sacrifice 20% HP to deal physical damage (3.45x, ATK) to all enemies"],
             "effects_raw": [[2, 1, 81, [0,  0,  0,  0,  0,  0,  345,  20,  0,  0]]]},
         "strings": []
     },
@@ -28072,11 +28072,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Magic damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (3.45x * 2 = 6.9x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  345,  50]]]},
         "strings": []
     },
@@ -28093,11 +28093,11 @@
         "levels": 25,
         "min_level": {
             "cost": 16,
-            "effects": ["Magic damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (2.7x * 2 = 5.4x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  270,  50]]]},
         "max_level": {
             "cost": 16,
-            "effects": ["Magic damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (3.9x * 2 = 7.8x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  390,  50]]]},
         "strings": []
     },
@@ -28114,11 +28114,11 @@
         "levels": 30,
         "min_level": {
             "cost": 20,
-            "effects": ["Magic damage (4.55x * 2 = 9.1x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (4.55x * 2 = 9.1x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  455,  50]]]},
         "max_level": {
             "cost": 20,
-            "effects": ["Magic damage (6x * 2 = 12x, MAG) to all enemies (ignore reflect)"],
+            "effects": ["Magic damage (6x * 2 = 12x, MAG) to all enemies (ignore cover and reflect)"],
             "effects_raw": [[2, 1, 70, [0,  0,  600,  50]]]},
         "strings": []
     },
@@ -28135,11 +28135,11 @@
         "levels": 10,
         "min_level": {
             "cost": 10,
-            "effects": ["Sacrifice 20% HP to deal physical* damage (2.3x, ATK) to one enemy"],
+            "effects": ["Sacrifice 20% HP to deal physical damage (2.3x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 81, [0,  0,  0,  0,  0,  0,  230,  20,  0,  0]]]},
         "max_level": {
             "cost": 10,
-            "effects": ["Sacrifice 20% HP to deal physical* damage (2.75x, ATK) to one enemy"],
+            "effects": ["Sacrifice 20% HP to deal physical damage (2.75x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 81, [0,  0,  0,  0,  0,  0,  275,  20,  0,  0]]]},
         "strings": []
     },
@@ -28156,11 +28156,11 @@
         "levels": 15,
         "min_level": {
             "cost": 12,
-            "effects": ["Sacrifice 20% HP to deal physical* damage (2.5x, ATK) to one enemy"],
+            "effects": ["Sacrifice 20% HP to deal physical damage (2.5x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 81, [0,  0,  0,  0,  0,  0,  250,  20,  0,  0]]]},
         "max_level": {
             "cost": 12,
-            "effects": ["Sacrifice 20% HP to deal physical* damage (3.2x, ATK) to one enemy"],
+            "effects": ["Sacrifice 20% HP to deal physical damage (3.2x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 81, [0,  0,  0,  0,  0,  0,  320,  20,  0,  0]]]},
         "strings": []
     },
@@ -28177,11 +28177,11 @@
         "levels": 20,
         "min_level": {
             "cost": 14,
-            "effects": ["Sacrifice 20% HP to deal physical* damage (2.7x, ATK) to one enemy"],
+            "effects": ["Sacrifice 20% HP to deal physical damage (2.7x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 81, [0,  0,  0,  0,  0,  0,  270,  20,  0,  0]]]},
         "max_level": {
             "cost": 14,
-            "effects": ["Sacrifice 20% HP to deal physical* damage (3.65x, ATK) to one enemy"],
+            "effects": ["Sacrifice 20% HP to deal physical damage (3.65x, ATK) to one enemy"],
             "effects_raw": [[1, 1, 81, [0,  0,  0,  0,  0,  0,  365,  20,  0,  0]]]},
         "strings": []
     },
@@ -29015,14 +29015,14 @@
         "min_level": {
             "cost": 14,
             "effects": [
-                "Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (2.5x * 2 = 5x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase damage of the following skills by 50% for 2 turns:\n\t属性ハーモナイズ：光 (230446)\n\t属性ハーモナイズ：炎 (230447)\n\t属性ハーモナイズ：風 (230448)\n\t狐火 (230440)"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  250,  50]], [0, 3, 136, [[230440,  230446,  230447,  230448], 0, 0, 50, 2, 1, 1215, 0]]]},
         "max_level": {
             "cost": 14,
             "effects": [
-                "Magic damage (4x * 2 = 8x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (4x * 2 = 8x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase damage of the following skills by 50% for 2 turns:\n\t属性ハーモナイズ：光 (230446)\n\t属性ハーモナイズ：炎 (230447)\n\t属性ハーモナイズ：風 (230448)\n\t狐火 (230440)"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  400,  50]], [0, 3, 136, [[230440,  230446,  230447,  230448], 0, 0, 50, 2, 1, 1215, 0]]]},
@@ -29042,7 +29042,7 @@
         "min_level": {
             "cost": 16,
             "effects": [
-                "Magic damage (3x * 2 = 6x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (3x * 2 = 6x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase damage of the following skills by 50% for 2 turns:\n\t属性ハーモナイズ：光 (230446)\n\t属性ハーモナイズ：炎 (230447)\n\t属性ハーモナイズ：風 (230448)\n\t狐火 (230440)",
                 "Increase damage of the following skills by 100% for 2 turns:\n\tじしん (230443)\n\tほのお (230442)"
             ],
@@ -29050,7 +29050,7 @@
         "max_level": {
             "cost": 16,
             "effects": [
-                "Magic damage (5x * 2 = 10x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (5x * 2 = 10x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase damage of the following skills by 50% for 2 turns:\n\t属性ハーモナイズ：光 (230446)\n\t属性ハーモナイズ：炎 (230447)\n\t属性ハーモナイズ：風 (230448)\n\t狐火 (230440)",
                 "Increase damage of the following skills by 100% for 2 turns:\n\tじしん (230443)\n\tほのお (230442)"
             ],
@@ -29071,7 +29071,7 @@
         "min_level": {
             "cost": 20,
             "effects": [
-                "Magic damage (3.5x * 2 = 7x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (3.5x * 2 = 7x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase damage of the following skills by 50% for 2 turns:\n\t属性ハーモナイズ：光 (230446)\n\t属性ハーモナイズ：炎 (230447)\n\t属性ハーモナイズ：風 (230448)\n\t狐火 (230440)",
                 "Increase damage of the following skills by 100% for 2 turns:\n\tじしん (230443)\n\tほのお (230442)",
                 "Increase damage of the following skills by 150% for 2 turns:\n\tサイレントヴォイス (230444)\n\t百花繚乱 (230441)"
@@ -29080,7 +29080,7 @@
         "max_level": {
             "cost": 20,
             "effects": [
-                "Magic damage (6x * 2 = 12x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (6x * 2 = 12x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase damage of the following skills by 50% for 2 turns:\n\t属性ハーモナイズ：光 (230446)\n\t属性ハーモナイズ：炎 (230447)\n\t属性ハーモナイズ：風 (230448)\n\t狐火 (230440)",
                 "Increase damage of the following skills by 100% for 2 turns:\n\tじしん (230443)\n\tほのお (230442)",
                 "Increase damage of the following skills by 150% for 2 turns:\n\tサイレントヴォイス (230444)\n\t百花繚乱 (230441)"
@@ -34789,14 +34789,14 @@
         "min_level": {
             "cost": 22,
             "effects": [
-                "Magic* damage (7.55x * 2 = 15.1x, MAG) to one enemy (ignore reflect)",
+                "Magic* damage (7.55x * 2 = 15.1x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce SPR by 45% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  755,  50]], [1, 1, 24, [0,  0,  0,  -45,  3,  1]]]},
         "max_level": {
             "cost": 22,
             "effects": [
-                "Magic* damage (9x * 2 = 18x, MAG) to one enemy (ignore reflect)",
+                "Magic* damage (9x * 2 = 18x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce SPR by 74% for 3 turns to one enemy"
             ],
             "effects_raw": [[1, 1, 70, [0,  0,  900,  50]], [1, 1, 24, [0,  0,  0,  -74,  3,  1]]]},
@@ -34847,14 +34847,14 @@
         "min_level": {
             "cost": 18,
             "effects": [
-                "Magic water damage (4.55x * 2 = 9.1x, MAG) to all enemies (ignore reflect)",
+                "Magic water damage (4.55x * 2 = 9.1x, MAG) to all enemies (ignore cover and reflect)",
                 "Magic water damage (0.3x, MAG) as MP drain (30%) to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  455,  50]], [2, 1, 10, [30,  30,  100]]]},
         "max_level": {
             "cost": 18,
             "effects": [
-                "Magic water damage (6x * 2 = 12x, MAG) to all enemies (ignore reflect)",
+                "Magic water damage (6x * 2 = 12x, MAG) to all enemies (ignore cover and reflect)",
                 "Magic water damage (0.3x, MAG) as MP drain (30%) to all enemies"
             ],
             "effects_raw": [[2, 1, 70, [0,  0,  600,  50]], [2, 1, 10, [30,  30,  100]]]},
@@ -35050,7 +35050,7 @@
         "min_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (2.55x * 2 = 5.1x, MAG) to one enemy (ignore reflect)",
+                "Magic fire damage (2.55x * 2 = 5.1x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 75% for 5 turns to one enemy",
                 "Gain access to following skills for one turn:\n\tEnhancement - Fire (507872)\n\tEnhancement - Ice (507873)\n\tEnhancement - Lightning (507874)"
             ],
@@ -35058,7 +35058,7 @@
         "max_level": {
             "cost": 18,
             "effects": [
-                "Magic fire damage (4x * 2 = 8x, MAG) to one enemy (ignore reflect)",
+                "Magic fire damage (4x * 2 = 8x, MAG) to one enemy (ignore cover and reflect)",
                 "Reduce resistance to Fire, Ice and Lightning by 100% for 5 turns to one enemy",
                 "Gain access to following skills for one turn:\n\tEnhancement - Fire (507872)\n\tEnhancement - Ice (507873)\n\tEnhancement - Lightning (507874)"
             ],
@@ -35412,7 +35412,7 @@
         "min_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (6.35x * 2 = 12.7x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (6.35x * 2 = 12.7x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase ATK, DEF, MAG and SPR by 106% for 3 turns to all allies",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
@@ -35420,7 +35420,7 @@
         "max_level": {
             "cost": 28,
             "effects": [
-                "Magic damage (7.8x * 2 = 15.6x, MAG) to all enemies (ignore reflect)",
+                "Magic damage (7.8x * 2 = 15.6x, MAG) to all enemies (ignore cover and reflect)",
                 "Increase ATK, DEF, MAG and SPR by 135% for 3 turns to all allies",
                 "Increase MAG by an additional 100% (max 100%) for the next skill to caster"
             ],
