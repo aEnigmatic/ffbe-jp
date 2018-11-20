@@ -3444,6 +3444,37 @@
         "price_sell": 300,
         "icon": "item_10275.png"
     },
+    "302007900": {
+        "name": "ガラフの剣",
+        "compendium_id": 1274,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 2,
+        "type": "Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100020],
+        "effects": ["Grants 'HP+20%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 130,
+            "DEF": 30,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_10276.png"
+    },
     "303000100": {
         "name": "グレートソード",
         "compendium_id": 16,
@@ -12149,6 +12180,37 @@
         "price_sell": 700,
         "icon": "item_10642.png"
     },
+    "310004900": {
+        "name": "ポイズンロッド",
+        "compendium_id": 1268,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 6,
+        "type": "Rod",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [20070],
+        "effects": ["Grants 'バイオ' magic."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 6,
+            "DEF": 0,
+            "MAG": 104,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 35000,
+        "price_sell": 3500,
+        "icon": "item_10643.png"
+    },
     "311000200": {
         "name": "サクラの杖",
         "compendium_id": 73,
@@ -16678,6 +16740,37 @@
         "price_buy": 3000,
         "price_sell": 300,
         "icon": "item_11329.png"
+    },
+    "315022800": {
+        "name": "ライジングサン(FFBE)",
+        "compendium_id": 1275,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 13,
+        "type": "Throwing",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [230655],
+        "effects": ["Grants '昇りゆく太陽' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 186,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_11330.png"
     },
     "316000100": {
         "name": "ハープ",
@@ -21706,6 +21799,39 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_30171.png"
+    },
+    "403048300": {
+        "name": "クルルの髪どめ",
+        "compendium_id": 1272,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 100,
+            "ATK": 0,
+            "DEF": 32,
+            "MAG": 60,
+            "SPR": 32,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Paralyze": 100
+            },
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_30172.png"
     },
     "404000200": {
         "name": "ブロンズヘルム",
@@ -28771,6 +28897,39 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_20445.png"
+    },
+    "408004700": {
+        "name": "くろのローブ",
+        "compendium_id": 1269,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 53,
+        "type": "Robe",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 20,
+            "MAG": 33,
+            "SPR": 32,
+            "element_resist": {
+                "Dark": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_20446.png"
     },
     "409000100": {
         "name": "鉄の篭手",
@@ -37356,5 +37515,108 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_50413.png"
+    },
+    "409029300": {
+        "name": "ほのおのゆびわ",
+        "compendium_id": 1270,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 5,
+            "MAG": 0,
+            "SPR": 5,
+            "element_resist": {
+                "Fire": 25,
+                "Ice": 25,
+                "Water": -50
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_50416.png"
+    },
+    "409029400": {
+        "name": "さんごのゆびわ",
+        "compendium_id": 1271,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 5,
+            "MAG": 0,
+            "SPR": 5,
+            "element_resist": {
+                "Fire": 25,
+                "Lightning": -50,
+                "Water": 25
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_50417.png"
+    },
+    "409029500": {
+        "name": "暗黒の指輪",
+        "compendium_id": 1273,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [230562],
+        "effects": ["Grants '暗黒の力' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 6,
+            "MAG": 52,
+            "SPR": 0,
+            "element_resist": {
+                "Dark": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_50415.png"
     }
 }

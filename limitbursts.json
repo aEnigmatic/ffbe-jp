@@ -19400,6 +19400,255 @@
             "effects_raw": [[0, 3, 3, [110,  110,  110,  110,  5,  1]]]},
         "strings": []
     },
+    "205000905": {
+        "name": "永遠の虚無",
+        "cost": 0,
+        "attack_count": [20],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5]],
+        "attack_frames": [[184,  193,  202,  211,  220,  229,  238,  247,  256,  265,  274,  283,  292,  301,  310,  319,  328,  337,  346,  355]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 26,
+            "effects": [
+                "Magic damage (23.1x, MAG) to all enemies",
+                "Reduce SPR by 50% for 5 turns to all enemies",
+                "Restore 100 MP to caster"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2310,  0]], [2, 1, 24, [0,  0,  0,  -50,  5,  1]], [0, 3, 17, [100]]]},
+        "max_level": {
+            "cost": 26,
+            "effects": [
+                "Magic damage (25x, MAG) to all enemies",
+                "Reduce SPR by 50% for 5 turns to all enemies",
+                "Restore 100 MP to caster"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2500,  0]], [2, 1, 24, [0,  0,  0,  -50,  5,  1]], [0, 3, 17, [100]]]},
+        "strings": []
+    },
+    "205000906": {
+        "name": "永遠の虚無",
+        "cost": 0,
+        "attack_count": [20],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5]],
+        "attack_frames": [[184,  193,  202,  211,  220,  229,  238,  247,  256,  265,  274,  283,  292,  301,  310,  319,  328,  337,  346,  355]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Magic damage (27.6x, MAG) to all enemies",
+                "Reduce SPR by 55% for 5 turns to all enemies",
+                "Restore 150 MP to caster"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2760,  0]], [2, 1, 24, [0,  0,  0,  -55,  5,  1]], [0, 3, 17, [150]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Magic damage (30x, MAG) to all enemies",
+                "Reduce SPR by 55% for 5 turns to all enemies",
+                "Restore 150 MP to caster"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3000,  0]], [2, 1, 24, [0,  0,  0,  -55,  5,  1]], [0, 3, 17, [150]]]},
+        "strings": []
+    },
+    "205000907": {
+        "name": "永遠の虚無",
+        "cost": 0,
+        "attack_count": [20],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5]],
+        "attack_frames": [[184,  193,  202,  211,  220,  229,  238,  247,  256,  265,  274,  283,  292,  301,  310,  319,  328,  337,  346,  355]],
+        "effect_frames": [[0,  0,  0,  140]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 38,
+            "effects": [
+                "Magic damage (32.1x, MAG) to all enemies",
+                "Reduce SPR by 60% for 5 turns to all enemies",
+                "Restore 200 MP to caster"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3210,  0]], [2, 1, 24, [0,  0,  0,  -60,  5,  1]], [0, 3, 17, [200]]]},
+        "max_level": {
+            "cost": 38,
+            "effects": [
+                "Magic damage (35x, MAG) to all enemies",
+                "Reduce SPR by 60% for 5 turns to all enemies",
+                "Restore 200 MP to caster"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3500,  0]], [2, 1, 24, [0,  0,  0,  -60,  5,  1]], [0, 3, 17, [200]]]},
+        "strings": []
+    },
+    "205001005": {
+        "name": "暁の四戦士",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  61]],
+        "attack_frames": [[168,  204,  237,  243,  249,  255,  261,  267,  273,  279,  285,  291,  297,  359]],
+        "effect_frames": [[0,  0], [80,  80]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 18,
+            "effects": [
+                "Physical damage (8.1x, ATK) to one enemy",
+                "Reduce damage taken by 21% to all allies for 4 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  810,  0]], [2, 2, 101, [21,  4,  1]]]},
+        "max_level": {
+            "cost": 18,
+            "effects": [
+                "Physical damage (10x, ATK) to one enemy",
+                "Reduce damage taken by 40% to all allies for 4 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1000,  0]], [2, 2, 101, [40,  4,  1]]]},
+        "strings": []
+    },
+    "205001006": {
+        "name": "暁の四戦士",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  61]],
+        "attack_frames": [[168,  204,  237,  243,  249,  255,  261,  267,  273,  279,  285,  291,  297,  359]],
+        "effect_frames": [[0,  0], [80,  80]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (10.1x, ATK) to one enemy",
+                "Reduce damage taken by 21% to all allies for 4 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1010,  0]], [2, 2, 101, [21,  4,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (12.5x, ATK) to one enemy",
+                "Reduce damage taken by 45% to all allies for 4 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1250,  0]], [2, 2, 101, [45,  4,  1]]]},
+        "strings": []
+    },
+    "205001007": {
+        "name": "暁の四戦士",
+        "cost": 0,
+        "attack_count": [14],
+        "attack_damage": [[3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  61]],
+        "attack_frames": [[168,  204,  237,  243,  249,  255,  261,  267,  273,  279,  285,  291,  297,  359]],
+        "effect_frames": [[0,  0,  0], [80,  80]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 22,
+            "effects": [
+                "Physical damage (12.1x, ATK) to one enemy",
+                "Reduce damage taken by 21% to all allies for 4 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1210,  0]], [2, 2, 101, [21,  4,  1]]]},
+        "max_level": {
+            "cost": 22,
+            "effects": [
+                "Physical damage (15x, ATK) to one enemy",
+                "Reduce damage taken by 50% to all allies for 4 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1500,  0]], [2, 2, 101, [50,  4,  1]]]},
+        "strings": []
+    },
+    "205001305": {
+        "name": "飛竜よび",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[185,  197,  237]],
+        "effect_frames": [[0,  0,  0,  237]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Lightning"],
+        "levels": 20,
+        "min_level": {
+            "cost": 25,
+            "effects": [
+                "Magic lightning damage (23.2x, MAG) to one enemy",
+                "Increase MAG by 150% for 5 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  2320,  0]], [0, 3, 3, [0,  0,  150,  0,  5,  1,  0]]]},
+        "max_level": {
+            "cost": 25,
+            "effects": [
+                "Magic lightning damage (27x, MAG) to one enemy",
+                "Increase MAG by 150% for 5 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  2700,  0]], [0, 3, 3, [0,  0,  150,  0,  5,  1,  0]]]},
+        "strings": []
+    },
+    "205001306": {
+        "name": "飛竜よび",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[185,  197,  237]],
+        "effect_frames": [[0,  0,  0,  0,  237]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Lightning"],
+        "levels": 25,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Magic lightning damage (27.2x, MAG) to one enemy",
+                "Increase MAG by 175% for 5 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  2720,  0]], [0, 3, 3, [0,  0,  175,  0,  5,  1,  0]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Magic lightning damage (32x, MAG) to one enemy",
+                "Increase MAG by 175% for 5 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  3200,  0]], [0, 3, 3, [0,  0,  175,  0,  5,  1,  0]]]},
+        "strings": []
+    },
+    "205001307": {
+        "name": "飛竜よび",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[185,  197,  237]],
+        "effect_frames": [[0,  0,  0,  237,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": ["Lightning"],
+        "levels": 30,
+        "min_level": {
+            "cost": 35,
+            "effects": [
+                "Magic lightning damage (31.2x, MAG) to one enemy",
+                "Increase MAG by 200% for 5 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  3120,  0]], [0, 3, 3, [0,  0,  200,  0,  5,  1,  0]]]},
+        "max_level": {
+            "cost": 35,
+            "effects": [
+                "Magic lightning damage (37x, MAG) to one enemy",
+                "Increase MAG by 200% for 5 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  3700,  0]], [0, 3, 3, [0,  0,  200,  0,  5,  1,  0]]]},
+        "strings": []
+    },
     "206000103": {
         "name": "ライオットソード",
         "cost": 0,
