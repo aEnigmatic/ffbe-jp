@@ -13274,7 +13274,7 @@
             "cost": 14,
             "effects": [
                 "Physical damage (4x, ATK) to all enemies",
-                "Gain access to following skills for one turn:\n\tPNK-2ミサイル・フルコース (508810)",
+                "Gain access to following skills for one turn:\n\tPNK-2 Missile Stockpile (508810)",
                 "Inflict Stop (30%) for 3 turns on all enemies"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [0, 3, 100, [2,  508810,  1,  2,  1,  0]], [2, 1, 88, [30,  3]]]},
@@ -13282,7 +13282,7 @@
             "cost": 14,
             "effects": [
                 "Physical damage (5.4x, ATK) to all enemies",
-                "Gain access to following skills for one turn:\n\tPNK-2ミサイル・フルコース (508810)",
+                "Gain access to following skills for one turn:\n\tPNK-2 Missile Stockpile (508810)",
                 "Inflict Stop (30%) for 3 turns on all enemies"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  540,  0]], [0, 3, 100, [2,  508810,  1,  2,  1,  0]], [2, 1, 88, [30,  3]]]},
@@ -13303,7 +13303,7 @@
             "cost": 16,
             "effects": [
                 "Physical damage (5x, ATK) to all enemies",
-                "Gain access to following skills for one turn:\n\tPNK-2ミサイル・フルコース (508810)",
+                "Gain access to following skills for one turn:\n\tPNK-2 Missile Stockpile (508810)",
                 "Inflict Stop (30%) for 3 turns on all enemies"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500,  0]], [0, 3, 100, [2,  508810,  1,  2,  1,  0]], [2, 1, 88, [30,  3]]]},
@@ -13311,7 +13311,7 @@
             "cost": 16,
             "effects": [
                 "Physical damage (6.9x, ATK) to all enemies",
-                "Gain access to following skills for one turn:\n\tPNK-2ミサイル・フルコース (508810)",
+                "Gain access to following skills for one turn:\n\tPNK-2 Missile Stockpile (508810)",
                 "Inflict Stop (30%) for 3 turns on all enemies"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  690,  0]], [0, 3, 100, [2,  508810,  1,  2,  1,  0]], [2, 1, 88, [30,  3]]]},
@@ -13332,7 +13332,7 @@
             "cost": 20,
             "effects": [
                 "Physical damage (6x, ATK) to all enemies",
-                "Gain access to following skills for one turn:\n\tPNK-2ミサイル・フルコース (508810)",
+                "Gain access to following skills for one turn:\n\tPNK-2 Missile Stockpile (508810)",
                 "Inflict Stop (30%) for 3 turns on all enemies"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  600,  0]], [0, 3, 100, [2,  508810,  1,  2,  1,  0]], [2, 1, 88, [30,  3]]]},
@@ -13340,7 +13340,7 @@
             "cost": 20,
             "effects": [
                 "Physical damage (8.4x, ATK) to all enemies",
-                "Gain access to following skills for one turn:\n\tPNK-2ミサイル・フルコース (508810)",
+                "Gain access to following skills for one turn:\n\tPNK-2 Missile Stockpile (508810)",
                 "Inflict Stop (30%) for 3 turns on all enemies"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  840,  0]], [0, 3, 100, [2,  508810,  1,  2,  1,  0]], [2, 1, 88, [30,  3]]]},
@@ -15473,6 +15473,93 @@
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1050,  0]], [1, 1, 24, [-65,  -65,  -65,  -65,  3,  1]]]},
         "strings": []
     },
+    "100022205": {
+        "name": "チョコメテオ",
+        "cost": 0,
+        "attack_count": [20],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5]],
+        "attack_frames": [[138,  144,  150,  156,  162,  168,  174,  180,  186,  192,  198,  204,  210,  216,  222,  228,  234,  240,  246,  252]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 28,
+            "effects": [
+                "Magic* damage (22x, SPR) to all enemies",
+                "Gain 3 uses of the following skills for 3 turns:\n\tみんなで日光浴 (230749)\n\tキュアスパークル (230751)\n\tシュート・リジェネ (230742)\n\tスーパーチョコダッシュ (230746)\n\tセイクリッドギフト (230747)\n\tチョコグリッター (230744)\n\tチョコダッシュ・光 (230745)\n\tチョコダッシュ・風 (230740)\n\tチョコリレイズ (230752)\n\tバースト・MPリジェネ (230741)\n\tメディテーション (230750)\n\tリミットレイ (230743)",
+                "Increase damage of チョコダッシュ・風 (230740) by 300% for 4 turns"
+            ],
+            "effects_raw": [[2, 1, 103, [100,  99999,  2200]], [0, 3, 98, [3, 509661, -1, [230740,  230741,  230742,  230743,  230744,  230745,  230746,  230747,  230749,  230750,  230751,  230752], 4, 1, 1, 0]], [0, 3, 136, [230740,  0,  0,  300,  4,  1,  11168,  1]]]},
+        "max_level": {
+            "cost": 28,
+            "effects": [
+                "Magic* damage (24x, SPR) to all enemies",
+                "Gain 3 uses of the following skills for 3 turns:\n\tみんなで日光浴 (230749)\n\tキュアスパークル (230751)\n\tシュート・リジェネ (230742)\n\tスーパーチョコダッシュ (230746)\n\tセイクリッドギフト (230747)\n\tチョコグリッター (230744)\n\tチョコダッシュ・光 (230745)\n\tチョコダッシュ・風 (230740)\n\tチョコリレイズ (230752)\n\tバースト・MPリジェネ (230741)\n\tメディテーション (230750)\n\tリミットレイ (230743)",
+                "Increase damage of チョコダッシュ・風 (230740) by 300% for 4 turns"
+            ],
+            "effects_raw": [[2, 1, 103, [100,  99999,  2400]], [0, 3, 98, [3, 509661, -1, [230740,  230741,  230742,  230743,  230744,  230745,  230746,  230747,  230749,  230750,  230751,  230752], 4, 1, 1, 0]], [0, 3, 136, [230740,  0,  0,  300,  4,  1,  11168,  1]]]},
+        "strings": []
+    },
+    "100022206": {
+        "name": "チョコメテオ",
+        "cost": 0,
+        "attack_count": [20],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5]],
+        "attack_frames": [[138,  144,  150,  156,  162,  168,  174,  180,  186,  192,  198,  204,  210,  216,  222,  228,  234,  240,  246,  252]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 32,
+            "effects": [
+                "Magic* damage (25x, SPR) to all enemies",
+                "Gain 3 uses of the following skills for 3 turns:\n\tみんなで日光浴 (230749)\n\tキュアスパークル (230751)\n\tシュート・リジェネ (230742)\n\tスーパーチョコダッシュ (230746)\n\tセイクリッドギフト (230747)\n\tチョコグリッター (230744)\n\tチョコダッシュ・光 (230745)\n\tチョコダッシュ・風 (230740)\n\tチョコリレイズ (230752)\n\tバースト・MPリジェネ (230741)\n\tメディテーション (230750)\n\tリミットレイ (230743)",
+                "Increase damage of the following skills by 600% for 4 turns:\n\tスーパーチョコダッシュ (230746)\n\tチョコダッシュ・光 (230745)\n\tチョコダッシュ・風 (230740)"
+            ],
+            "effects_raw": [[2, 1, 103, [100,  99999,  2500]], [0, 3, 98, [3, 509661, -1, [230740,  230741,  230742,  230743,  230744,  230745,  230746,  230747,  230749,  230750,  230751,  230752], 4, 1, 1, 0]], [0, 3, 136, [[230740,  230745,  230746], 0, 0, 600, 4, 1, 11168, 1]]]},
+        "max_level": {
+            "cost": 32,
+            "effects": [
+                "Magic* damage (27.5x, SPR) to all enemies",
+                "Gain 3 uses of the following skills for 3 turns:\n\tみんなで日光浴 (230749)\n\tキュアスパークル (230751)\n\tシュート・リジェネ (230742)\n\tスーパーチョコダッシュ (230746)\n\tセイクリッドギフト (230747)\n\tチョコグリッター (230744)\n\tチョコダッシュ・光 (230745)\n\tチョコダッシュ・風 (230740)\n\tチョコリレイズ (230752)\n\tバースト・MPリジェネ (230741)\n\tメディテーション (230750)\n\tリミットレイ (230743)",
+                "Increase damage of the following skills by 600% for 4 turns:\n\tスーパーチョコダッシュ (230746)\n\tチョコダッシュ・光 (230745)\n\tチョコダッシュ・風 (230740)"
+            ],
+            "effects_raw": [[2, 1, 103, [100,  99999,  2750]], [0, 3, 98, [3, 509661, -1, [230740,  230741,  230742,  230743,  230744,  230745,  230746,  230747,  230749,  230750,  230751,  230752], 4, 1, 1, 0]], [0, 3, 136, [[230740,  230745,  230746], 0, 0, 600, 4, 1, 11168, 1]]]},
+        "strings": []
+    },
+    "100022207": {
+        "name": "チョコメテオ",
+        "cost": 0,
+        "attack_count": [20],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5]],
+        "attack_frames": [[138,  144,  150,  156,  162,  168,  174,  180,  186,  192,  198,  204,  210,  216,  222,  228,  234,  240,  246,  252]],
+        "effect_frames": [[0,  0,  0,  0,  150]],
+        "move_type": 4,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 36,
+            "effects": [
+                "Magic* damage (28x, SPR) to all enemies",
+                "Gain 3 uses of the following skills for 3 turns:\n\tみんなで日光浴 (230749)\n\tキュアスパークル (230751)\n\tシュート・リジェネ (230742)\n\tスーパーチョコダッシュ (230746)\n\tセイクリッドギフト (230747)\n\tチョコグリッター (230744)\n\tチョコダッシュ・光 (230745)\n\tチョコダッシュ・風 (230740)\n\tチョコリレイズ (230752)\n\tバースト・MPリジェネ (230741)\n\tメディテーション (230750)\n\tリミットレイ (230743)",
+                "Increase damage of the following skills by 900% for 4 turns:\n\tスーパーチョコダッシュ (230746)\n\tチョコダッシュ・光 (230745)\n\tチョコダッシュ・風 (230740)\n\tチョコリレイズ (509663)\n\tメディテーション (230750)"
+            ],
+            "effects_raw": [[2, 1, 103, [100,  99999,  2800]], [0, 3, 98, [3, 509661, -1, [230740,  230741,  230742,  230743,  230744,  230745,  230746,  230747,  230749,  230750,  230751,  230752], 4, 1, 1, 0]], [0, 3, 136, [[230740,  230745,  230746,  230750,  509663], 0, 0, 900, 4, 1, 11168, 1]]]},
+        "max_level": {
+            "cost": 36,
+            "effects": [
+                "Magic* damage (31x, SPR) to all enemies",
+                "Gain 3 uses of the following skills for 3 turns:\n\tみんなで日光浴 (230749)\n\tキュアスパークル (230751)\n\tシュート・リジェネ (230742)\n\tスーパーチョコダッシュ (230746)\n\tセイクリッドギフト (230747)\n\tチョコグリッター (230744)\n\tチョコダッシュ・光 (230745)\n\tチョコダッシュ・風 (230740)\n\tチョコリレイズ (230752)\n\tバースト・MPリジェネ (230741)\n\tメディテーション (230750)\n\tリミットレイ (230743)",
+                "Increase damage of the following skills by 900% for 4 turns:\n\tスーパーチョコダッシュ (230746)\n\tチョコダッシュ・光 (230745)\n\tチョコダッシュ・風 (230740)\n\tチョコリレイズ (509663)\n\tメディテーション (230750)"
+            ],
+            "effects_raw": [[2, 1, 103, [100,  99999,  3100]], [0, 3, 98, [3, 509661, -1, [230740,  230741,  230742,  230743,  230744,  230745,  230746,  230747,  230749,  230750,  230751,  230752], 4, 1, 1, 0]], [0, 3, 136, [[230740,  230745,  230746,  230750,  509663], 0, 0, 900, 4, 1, 11168, 1]]]},
+        "strings": []
+    },
     "100022305": {
         "name": "混沌の闇",
         "cost": 0,
@@ -15777,6 +15864,186 @@
             "cost": 16,
             "effects": ["Physical damage (5.5x * 2 = 11x, ATK) to all enemies (ignore cover)"],
             "effects_raw": [[2, 1, 21, [0,  0,  550,  -50]]]},
+        "strings": []
+    },
+    "100023404": {
+        "name": "アグレッシブ・ウィンド",
+        "cost": 0,
+        "attack_count": [13],
+        "attack_damage": [[7,  7,  7,  7,  8,  8,  8,  8,  8,  8,  8,  8,  8]],
+        "attack_frames": [[66,  77,  103,  113,  142,  152,  170,  175,  220,  225,  230,  235,  240]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (6x, ATK) to all enemies",
+                "Reduce resistance to Wind by 50% for 3 turns to all enemies",
+                "Increase ATK by 150% for 2 turns to caster",
+                "Increase ATK by 125% for 3 turns to caster",
+                "Increase ATK by 100% for 4 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  600,  0]], [2, 1, 33, [0,  0,  0,  0,  -50,  0,  0,  0,  1,  3]], [0, 3, 3, [150,  0,  0,  0,  2,  1,  1]], [0, 3, 3, [125,  0,  0,  0,  3,  1,  1]], [0, 3, 3, [100,  0,  0,  0,  4,  1,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (7.4x, ATK) to all enemies",
+                "Reduce resistance to Wind by 64% for 3 turns to all enemies",
+                "Increase ATK by 150% for 2 turns to caster",
+                "Increase ATK by 125% for 3 turns to caster",
+                "Increase ATK by 100% for 4 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  740,  0]], [2, 1, 33, [0,  0,  0,  0,  -64,  0,  0,  0,  1,  3]], [0, 3, 3, [150,  0,  0,  0,  2,  1,  1]], [0, 3, 3, [125,  0,  0,  0,  3,  1,  1]], [0, 3, 3, [100,  0,  0,  0,  4,  1,  1]]]},
+        "strings": []
+    },
+    "100023405": {
+        "name": "アグレッシブ・ウィンド",
+        "cost": 0,
+        "attack_count": [13],
+        "attack_damage": [[7,  7,  7,  7,  8,  8,  8,  8,  8,  8,  8,  8,  8]],
+        "attack_frames": [[66,  77,  103,  113,  142,  152,  170,  175,  220,  225,  230,  235,  240]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (6x, ATK) to all enemies",
+                "Reduce resistance to Wind by 50% for 3 turns to all enemies",
+                "Increase ATK by 150% for 2 turns to caster",
+                "Increase ATK by 125% for 3 turns to caster",
+                "Increase ATK by 100% for 4 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  600,  0]], [2, 1, 33, [0,  0,  0,  0,  -50,  0,  0,  0,  1,  3]], [0, 3, 3, [150,  0,  0,  0,  2,  1,  1]], [0, 3, 3, [125,  0,  0,  0,  3,  1,  1]], [0, 3, 3, [100,  0,  0,  0,  4,  1,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (7.9x, ATK) to all enemies",
+                "Reduce resistance to Wind by 69% for 3 turns to all enemies",
+                "Increase ATK by 150% for 2 turns to caster",
+                "Increase ATK by 125% for 3 turns to caster",
+                "Increase ATK by 100% for 4 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  790,  0]], [2, 1, 33, [0,  0,  0,  0,  -69,  0,  0,  0,  1,  3]], [0, 3, 3, [150,  0,  0,  0,  2,  1,  1]], [0, 3, 3, [125,  0,  0,  0,  3,  1,  1]], [0, 3, 3, [100,  0,  0,  0,  4,  1,  1]]]},
+        "strings": []
+    },
+    "100023406": {
+        "name": "アグレッシブ・ウィンド",
+        "cost": 0,
+        "attack_count": [13],
+        "attack_damage": [[7,  7,  7,  7,  8,  8,  8,  8,  8,  8,  8,  8,  8]],
+        "attack_frames": [[66,  77,  103,  113,  142,  152,  170,  175,  220,  225,  230,  235,  240]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (6x, ATK) to all enemies",
+                "Reduce resistance to Wind by 50% for 3 turns to all enemies",
+                "Increase ATK by 150% for 2 turns to caster",
+                "Increase ATK by 125% for 3 turns to caster",
+                "Increase ATK by 100% for 4 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  600,  0]], [2, 1, 33, [0,  0,  0,  0,  -50,  0,  0,  0,  1,  3]], [0, 3, 3, [150,  0,  0,  0,  2,  1,  1]], [0, 3, 3, [125,  0,  0,  0,  3,  1,  1]], [0, 3, 3, [100,  0,  0,  0,  4,  1,  1]]]},
+        "max_level": {
+            "cost": 20,
+            "effects": [
+                "Physical damage (8.4x, ATK) to all enemies",
+                "Reduce resistance to Wind by 74% for 3 turns to all enemies",
+                "Increase ATK by 150% for 2 turns to caster",
+                "Increase ATK by 125% for 3 turns to caster",
+                "Increase ATK by 100% for 4 turns to caster"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  840,  0]], [2, 1, 33, [0,  0,  0,  0,  -74,  0,  0,  0,  1,  3]], [0, 3, 3, [150,  0,  0,  0,  2,  1,  1]], [0, 3, 3, [125,  0,  0,  0,  3,  1,  1]], [0, 3, 3, [100,  0,  0,  0,  4,  1,  1]]]},
+        "strings": []
+    },
+    "100023503": {
+        "name": "天網恢恢",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[60,  83,  142]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 10,
+        "min_level": {
+            "cost": 12,
+            "effects": [
+                "Physical damage (3x * 2 = 6x, ATK) to one enemy (ignore cover)",
+                "Reduce ATK and MAG by 30% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  300,  -50]], [1, 1, 24, [-30,  0,  -30,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 12,
+            "effects": [
+                "Physical damage (3.45x * 2 = 6.9x, ATK) to one enemy (ignore cover)",
+                "Reduce ATK and MAG by 39% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  345,  -50]], [1, 1, 24, [-39,  0,  -39,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100023504": {
+        "name": "天網恢恢",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[60,  83,  142]],
+        "effect_frames": [[140,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 15,
+        "min_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (3x * 2 = 6x, ATK) to one enemy (ignore cover)",
+                "Reduce ATK and MAG by 30% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  300,  -50]], [1, 1, 24, [-30,  0,  -30,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 14,
+            "effects": [
+                "Physical damage (3.7x * 2 = 7.4x, ATK) to one enemy (ignore cover)",
+                "Reduce ATK and MAG by 44% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  370,  -50]], [1, 1, 24, [-44,  0,  -44,  0,  3,  1]]]},
+        "strings": []
+    },
+    "100023505": {
+        "name": "天網恢恢",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[20,  20,  60]],
+        "attack_frames": [[60,  83,  142]],
+        "effect_frames": [[0,  140,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (3x * 2 = 6x, ATK) to one enemy (ignore cover)",
+                "Reduce ATK and MAG by 30% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  300,  -50]], [1, 1, 24, [-30,  0,  -30,  0,  3,  1]]]},
+        "max_level": {
+            "cost": 16,
+            "effects": [
+                "Physical damage (3.95x * 2 = 7.9x, ATK) to one enemy (ignore cover)",
+                "Reduce ATK and MAG by 49% for 3 turns to one enemy"
+            ],
+            "effects_raw": [[1, 1, 21, [0,  0,  395,  -50]], [1, 1, 24, [-49,  0,  -49,  0,  3,  1]]]},
         "strings": []
     },
     "201000104": {
@@ -19568,6 +19835,186 @@
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1500,  0]], [2, 2, 101, [50,  4,  1]]]},
         "strings": []
     },
+    "205001105": {
+        "name": "全ての伝説の剣",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[172]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 36,
+            "effects": [
+                "Physical damage (10x, ATK) to all enemies",
+                "Use 全ての伝説の剣 (509653) next turn on caster",
+                "Increase damage of 風水士：かまいたち (230661) by 100% for 4 turns"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1000,  0]], [0, 3, 132, [509653,  0,  1,  100,  0,  1]], [0, 3, 136, [230661,  0,  0,  100,  4,  1,  11165,  1]]]},
+        "max_level": {
+            "cost": 36,
+            "effects": [
+                "Physical damage (15.7x, ATK) to all enemies",
+                "Use 全ての伝説の剣 (509653) next turn on caster",
+                "Increase damage of 風水士：かまいたち (230661) by 100% for 4 turns"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1570,  0]], [0, 3, 132, [509653,  0,  1,  100,  0,  1]], [0, 3, 136, [230661,  0,  0,  100,  4,  1,  11165,  1]]]},
+        "strings": []
+    },
+    "205001106": {
+        "name": "全ての伝説の剣",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[172]],
+        "effect_frames": [[0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 36,
+            "effects": [
+                "Physical damage (10x, ATK) to all enemies",
+                "Use 全ての伝説の剣 (509654) next turn on caster",
+                "Increase damage of 風水士：かまいたち (230661) by 100% for 4 turns",
+                "Increase damage of the following skills by 200% for 4 turns:\n\t剣闘士：ぜんぎり (230666)\n\t踊り子：つるぎのまい (230664)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1000,  0]], [0, 3, 132, [509654,  0,  1,  100,  0,  1]], [0, 3, 136, [230661,  0,  0,  100,  4,  1,  11165,  1]], [0, 3, 136, [[230664,  230666], 0, 0, 200, 4, 1, 11166, 1]]]},
+        "max_level": {
+            "cost": 36,
+            "effects": [
+                "Physical damage (17.2x, ATK) to all enemies",
+                "Use 全ての伝説の剣 (509654) next turn on caster",
+                "Increase damage of 風水士：かまいたち (230661) by 100% for 4 turns",
+                "Increase damage of the following skills by 200% for 4 turns:\n\t剣闘士：ぜんぎり (230666)\n\t踊り子：つるぎのまい (230664)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1720,  0]], [0, 3, 132, [509654,  0,  1,  100,  0,  1]], [0, 3, 136, [230661,  0,  0,  100,  4,  1,  11165,  1]], [0, 3, 136, [[230664,  230666], 0, 0, 200, 4, 1, 11166, 1]]]},
+        "strings": []
+    },
+    "205001107": {
+        "name": "全ての伝説の剣",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[172]],
+        "effect_frames": [[0,  0,  0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 40,
+        "min_level": {
+            "cost": 36,
+            "effects": [
+                "Physical damage (10x, ATK) to all enemies",
+                "Use 全ての伝説の剣 (509655) next turn on caster",
+                "Increase damage of 風水士：かまいたち (230661) by 100% for 4 turns",
+                "Increase damage of 剣闘士：ぜんぎり (230666) by 200% for 4 turns",
+                "Increase damage of the following skills by 300% for 4 turns:\n\t踊り子：つるぎのまい (230664)\n\t魔法剣二刀流 (509623)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1000,  0]], [0, 3, 132, [509655,  0,  1,  100,  0,  1]], [0, 3, 136, [230661,  0,  0,  100,  4,  1,  11165,  1]], [0, 3, 136, [230666,  0,  0,  200,  4,  1,  11166,  1]], [0, 3, 136, [[230664,  509623], 0, 0, 300, 4, 1, 11167, 1]]]},
+        "max_level": {
+            "cost": 36,
+            "effects": [
+                "Physical damage (21.7x, ATK) to all enemies",
+                "Use 全ての伝説の剣 (509655) next turn on caster",
+                "Increase damage of 風水士：かまいたち (230661) by 100% for 4 turns",
+                "Increase damage of 剣闘士：ぜんぎり (230666) by 200% for 4 turns",
+                "Increase damage of the following skills by 300% for 4 turns:\n\t踊り子：つるぎのまい (230664)\n\t魔法剣二刀流 (509623)"
+            ],
+            "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2170,  0]], [0, 3, 132, [509655,  0,  1,  100,  0,  1]], [0, 3, 136, [230661,  0,  0,  100,  4,  1,  11165,  1]], [0, 3, 136, [230666,  0,  0,  200,  4,  1,  11166,  1]], [0, 3, 136, [[230664,  509623], 0, 0, 300, 4, 1, 11167, 1]]]},
+        "strings": []
+    },
+    "205001205": {
+        "name": "転生の祈り",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[180]],
+        "effect_frames": [[0,  0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 27,
+            "effects": [
+                "Restore 50% HP to all allies",
+                "Remove ATK, DEF, MAG and SPR debuff from all allies",
+                "Auto-revive (100% HP) for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [50,  50,  100]], [2, 2, 111, [1,  1,  1,  1,  0,  0]], [2, 2, 27, [100,  3,  0]]]},
+        "max_level": {
+            "cost": 27,
+            "effects": [
+                "Restore 69% HP to all allies",
+                "Remove ATK, DEF, MAG and SPR debuff from all allies",
+                "Auto-revive (100% HP) for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [69,  69,  100]], [2, 2, 111, [1,  1,  1,  1,  0,  0]], [2, 2, 27, [100,  3,  0]]]},
+        "strings": []
+    },
+    "205001206": {
+        "name": "転生の祈り",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[180]],
+        "effect_frames": [[0,  0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 27,
+            "effects": [
+                "Restore 50% HP to all allies",
+                "Remove ATK, DEF, MAG and SPR debuff from all allies",
+                "Auto-revive (100% HP) for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [50,  50,  100]], [2, 2, 111, [1,  1,  1,  1,  0,  0]], [2, 2, 27, [100,  3,  0]]]},
+        "max_level": {
+            "cost": 27,
+            "effects": [
+                "Restore 74% HP to all allies",
+                "Remove ATK, DEF, MAG and SPR debuff from all allies",
+                "Auto-revive (100% HP) for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [74,  74,  100]], [2, 2, 111, [1,  1,  1,  1,  0,  0]], [2, 2, 27, [100,  3,  0]]]},
+        "strings": []
+    },
+    "205001207": {
+        "name": "転生の祈り",
+        "cost": 0,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[180]],
+        "effect_frames": [[0,  0,  0,  0,  0,  0]],
+        "move_type": 4,
+        "damage_type": "None",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 27,
+            "effects": [
+                "Restore 50% HP to all allies",
+                "Remove ATK, DEF, MAG and SPR debuff from all allies",
+                "Auto-revive (100% HP) for 3 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [50,  50,  100]], [2, 2, 111, [1,  1,  1,  1,  0,  0]], [2, 2, 27, [100,  3,  0]]]},
+        "max_level": {
+            "cost": 27,
+            "effects": [
+                "Restore 79% HP to all allies",
+                "Remove ATK, DEF, MAG and SPR debuff from all allies",
+                "Auto-revive (100% HP) for 4 turns to all allies"
+            ],
+            "effects_raw": [[2, 2, 26, [79,  79,  100]], [2, 2, 111, [1,  1,  1,  1,  0,  0]], [2, 2, 27, [100,  4,  0]]]},
+        "strings": []
+    },
     "205001305": {
         "name": "飛竜よび",
         "cost": 0,
@@ -23057,14 +23504,14 @@
             "cost": 30,
             "effects": [
                 "Physical damage (6.1x, ATK) to all enemies",
-                "Gain 3 uses of the following skills for 3 turns:\n\tJecht Shot (207040)\n\tクイックブロック (228886)\n\tジェクトスラッシュ (228882)\n\tジェクトビーム (228880)\n\tジェクトフィンガー (228883)\n\tジェクトボマー (228884)\n\tジェクトラッシュ (228881)\n\tジェクト様シュート3号 (228885)"
+                "Gain 3 uses of the following skills for 3 turns:\n\tJecht Beam (228880)\n\tJecht Bomber (228884)\n\tJecht Finger (228883)\n\tJecht Rush (228881)\n\tJecht Shot (207040)\n\tJecht Slash (228882)\n\tJecht's Third Shot (228885)\n\tQuick Block (228886)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  610,  0]], [0, 3, 98, [3, 508751, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886], 4, 1, 1, 0]]]},
         "max_level": {
             "cost": 30,
             "effects": [
                 "Physical damage (8x, ATK) to all enemies",
-                "Gain 3 uses of the following skills for 3 turns:\n\tJecht Shot (207040)\n\tクイックブロック (228886)\n\tジェクトスラッシュ (228882)\n\tジェクトビーム (228880)\n\tジェクトフィンガー (228883)\n\tジェクトボマー (228884)\n\tジェクトラッシュ (228881)\n\tジェクト様シュート3号 (228885)"
+                "Gain 3 uses of the following skills for 3 turns:\n\tJecht Beam (228880)\n\tJecht Bomber (228884)\n\tJecht Finger (228883)\n\tJecht Rush (228881)\n\tJecht Shot (207040)\n\tJecht Slash (228882)\n\tJecht's Third Shot (228885)\n\tQuick Block (228886)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  800,  0]], [0, 3, 98, [3, 508751, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886], 4, 1, 1, 0]]]},
         "strings": []
@@ -23084,14 +23531,14 @@
             "cost": 30,
             "effects": [
                 "Physical damage (7.6x, ATK) to all enemies",
-                "Gain 3 uses of the following skills for 3 turns:\n\tJecht Shot (207040)\n\tクイックブロック (228886)\n\tジェクトスラッシュ (228882)\n\tジェクトビーム (228880)\n\tジェクトフィンガー (228883)\n\tジェクトボマー (228884)\n\tジェクトラッシュ (228881)\n\tジェクト様シュート3号 (228885)"
+                "Gain 3 uses of the following skills for 3 turns:\n\tJecht Beam (228880)\n\tJecht Bomber (228884)\n\tJecht Finger (228883)\n\tJecht Rush (228881)\n\tJecht Shot (207040)\n\tJecht Slash (228882)\n\tJecht's Third Shot (228885)\n\tQuick Block (228886)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  760,  0]], [0, 3, 98, [3, 508751, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886], 4, 1, 1, 0]]]},
         "max_level": {
             "cost": 30,
             "effects": [
                 "Physical damage (10x, ATK) to all enemies",
-                "Gain 3 uses of the following skills for 3 turns:\n\tJecht Shot (207040)\n\tクイックブロック (228886)\n\tジェクトスラッシュ (228882)\n\tジェクトビーム (228880)\n\tジェクトフィンガー (228883)\n\tジェクトボマー (228884)\n\tジェクトラッシュ (228881)\n\tジェクト様シュート3号 (228885)"
+                "Gain 3 uses of the following skills for 3 turns:\n\tJecht Beam (228880)\n\tJecht Bomber (228884)\n\tJecht Finger (228883)\n\tJecht Rush (228881)\n\tJecht Shot (207040)\n\tJecht Slash (228882)\n\tJecht's Third Shot (228885)\n\tQuick Block (228886)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1000,  0]], [0, 3, 98, [3, 508751, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886], 4, 1, 1, 0]]]},
         "strings": []
@@ -23111,14 +23558,14 @@
             "cost": 30,
             "effects": [
                 "Physical damage (12x, ATK) to all enemies",
-                "Gain 3 uses of the following skills for 3 turns:\n\tJecht Shot (207040)\n\tクイックブロック (228886)\n\tジェクトスラッシュ (228882)\n\tジェクトビーム (228880)\n\tジェクトフィンガー (228883)\n\tジェクトボマー (228884)\n\tジェクトラッシュ (228881)\n\tジェクト様シュート3号 (228885)"
+                "Gain 3 uses of the following skills for 3 turns:\n\tJecht Beam (228880)\n\tJecht Bomber (228884)\n\tJecht Finger (228883)\n\tJecht Rush (228881)\n\tJecht Shot (207040)\n\tJecht Slash (228882)\n\tJecht's Third Shot (228885)\n\tQuick Block (228886)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1200,  0]], [0, 3, 98, [3, 508751, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886], 4, 1, 1, 0]]]},
         "max_level": {
             "cost": 30,
             "effects": [
                 "Physical damage (16x, ATK) to all enemies",
-                "Gain 3 uses of the following skills for 3 turns:\n\tJecht Shot (207040)\n\tクイックブロック (228886)\n\tジェクトスラッシュ (228882)\n\tジェクトビーム (228880)\n\tジェクトフィンガー (228883)\n\tジェクトボマー (228884)\n\tジェクトラッシュ (228881)\n\tジェクト様シュート3号 (228885)"
+                "Gain 3 uses of the following skills for 3 turns:\n\tJecht Beam (228880)\n\tJecht Bomber (228884)\n\tJecht Finger (228883)\n\tJecht Rush (228881)\n\tJecht Shot (207040)\n\tJecht Slash (228882)\n\tJecht's Third Shot (228885)\n\tQuick Block (228886)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1600,  0]], [0, 3, 98, [3, 508751, -1, [207040,  228880,  228881,  228882,  228883,  228884,  228885,  228886], 4, 1, 1, 0]]]},
         "strings": []
@@ -32697,7 +33144,7 @@
                 "Physical damage (6.2x, ATK) to one enemy",
                 "Increase ATK by 80% for 3 turns to all allies",
                 "Gain access to following skills for one turn:\n\tGiant Overkill (505410)\n\tHeaven's Chalice (505420)\n\tShining Storm (505430)",
-                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)\n\tジャイアントキル+1 (707486)\n\tジャイアントキル+2 (707487)\n\tデスパレート+1 (707480)\n\tデスパレート+2 (707481)"
+                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tDesperation+1 (707480)\n\tDesperation+2 (707481)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tGiant Slayer+1 (707486)\n\tGiant Slayer+2 (707487)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  620,  0]], [2, 2, 3, [80,  0,  0,  0,  3,  1]], [0, 3, 100, [[2,  2,  2], [505410,  505420,  505430], 9999, 2, 1]], [0, 3, 98, [2, 505390, -1, [222230,  222240,  222250,  222260,  222270,  505410,  505420,  505430,  707480,  707481,  707486,  707487], 2, 1, 1]]]},
         "max_level": {
@@ -32706,7 +33153,7 @@
                 "Physical damage (8.1x, ATK) to one enemy",
                 "Increase ATK by 99% for 3 turns to all allies",
                 "Gain access to following skills for one turn:\n\tGiant Overkill (505410)\n\tHeaven's Chalice (505420)\n\tShining Storm (505430)",
-                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)\n\tジャイアントキル+1 (707486)\n\tジャイアントキル+2 (707487)\n\tデスパレート+1 (707480)\n\tデスパレート+2 (707481)"
+                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tDesperation+1 (707480)\n\tDesperation+2 (707481)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tGiant Slayer+1 (707486)\n\tGiant Slayer+2 (707487)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  810,  0]], [2, 2, 3, [99,  0,  0,  0,  3,  1]], [0, 3, 100, [[2,  2,  2], [505410,  505420,  505430], 9999, 2, 1]], [0, 3, 98, [2, 505390, -1, [222230,  222240,  222250,  222260,  222270,  505410,  505420,  505430,  707480,  707481,  707486,  707487], 2, 1, 1]]]},
         "strings": []
@@ -32728,7 +33175,7 @@
                 "Physical damage (7.2x, ATK) to one enemy",
                 "Increase ATK by 100% for 3 turns to all allies",
                 "Gain access to following skills for one turn:\n\tGiant Overkill (505410)\n\tHeaven's Chalice (505420)\n\tShining Storm (505430)",
-                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)\n\tジャイアントキル+1 (707486)\n\tジャイアントキル+2 (707487)\n\tデスパレート+1 (707480)\n\tデスパレート+2 (707481)"
+                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tDesperation+1 (707480)\n\tDesperation+2 (707481)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tGiant Slayer+1 (707486)\n\tGiant Slayer+2 (707487)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  720,  0]], [2, 2, 3, [100,  0,  0,  0,  3,  1]], [0, 3, 100, [[2,  2,  2], [505410,  505420,  505430], 9999, 2, 1]], [0, 3, 98, [2, 505390, -1, [222230,  222240,  222250,  222260,  222270,  505410,  505420,  505430,  707480,  707481,  707486,  707487], 2, 1, 1]]]},
         "max_level": {
@@ -32737,7 +33184,7 @@
                 "Physical damage (9.6x, ATK) to one enemy",
                 "Increase ATK by 124% for 3 turns to all allies",
                 "Gain access to following skills for one turn:\n\tGiant Overkill (505410)\n\tHeaven's Chalice (505420)\n\tShining Storm (505430)",
-                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)\n\tジャイアントキル+1 (707486)\n\tジャイアントキル+2 (707487)\n\tデスパレート+1 (707480)\n\tデスパレート+2 (707481)"
+                "Gain 2 uses of the following skills for one turn:\n\tDesperation (222250)\n\tDesperation+1 (707480)\n\tDesperation+2 (707481)\n\tGiant Overkill (505410)\n\tGiant Slayer (222230)\n\tGiant Slayer+1 (707486)\n\tGiant Slayer+2 (707487)\n\tHeaven's Chalice (505420)\n\tHeaven's Gate (222240)\n\tRadiant Blast (222260)\n\tRampart (222270)\n\tShining Storm (505430)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  960,  0]], [2, 2, 3, [124,  0,  0,  0,  3,  1]], [0, 3, 100, [[2,  2,  2], [505410,  505420,  505430], 9999, 2, 1]], [0, 3, 98, [2, 505390, -1, [222230,  222240,  222250,  222260,  222270,  505410,  505420,  505430,  707480,  707481,  707486,  707487], 2, 1, 1]]]},
         "strings": []
@@ -33894,7 +34341,7 @@
             "effects": [
                 "Physical damage (14.1x, ATK) to one enemy",
                 "Reduce resistance to Fire, Water, Wind, Earth, Light and Dark by 60% for 3 turns to one enemy",
-                "Gain 3 uses of the following skills for one turn:\n\t千光 (228725)\n\t指弾 (228716)\n\t武技千烈 (228715)\n\t武技崩天 (228714)\n\t武技破岩 (228722)\n\t武技虎咆 (228724)\n\t武技雷迅 (228713)\n\t武技龍迅 (228723)\n\t秘奥義発動 (228729)\n\t超武技光勁 (228735)\n\t超武技地勁 (228732)\n\t超武技水勁 (228734)\n\t超武技火勁 (228731)\n\t超武技闇勁 (228736)\n\t超武技風勁 (228733)\n\t銀牙 (228730)"
+                "Gain 3 uses of the following skills for one turn:\n\tAwaken (228729)\n\tBig Bang (228730)\n\tChikei (228732)\n\tFukei (228733)\n\tGuided Shot (228716)\n\tHagan (228722)\n\tHoten (228714)\n\tKakei (228731)\n\tKoho (228724)\n\tKokei (228735)\n\tRadiance (228725)\n\tRaijin (228713)\n\tRyujin (228723)\n\tSenretsu (228715)\n\tSuikei (228734)\n\tYamikei (228736)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1410,  0]], [1, 1, 33, [-60,  0,  0,  -60,  -60,  -60,  -60,  -60,  1,  3]], [0, 3, 98, [3, 508703, -1, [228713,  228714,  228715,  228716,  228722,  228723,  228724,  228725,  228729,  228730,  228731,  228732,  228733,  228734,  228735,  228736], 2, 1, 1, 0]]]},
         "max_level": {
@@ -33902,7 +34349,7 @@
             "effects": [
                 "Physical damage (16x, ATK) to one enemy",
                 "Reduce resistance to Fire, Water, Wind, Earth, Light and Dark by 60% for 3 turns to one enemy",
-                "Gain 3 uses of the following skills for one turn:\n\t千光 (228725)\n\t指弾 (228716)\n\t武技千烈 (228715)\n\t武技崩天 (228714)\n\t武技破岩 (228722)\n\t武技虎咆 (228724)\n\t武技雷迅 (228713)\n\t武技龍迅 (228723)\n\t秘奥義発動 (228729)\n\t超武技光勁 (228735)\n\t超武技地勁 (228732)\n\t超武技水勁 (228734)\n\t超武技火勁 (228731)\n\t超武技闇勁 (228736)\n\t超武技風勁 (228733)\n\t銀牙 (228730)"
+                "Gain 3 uses of the following skills for one turn:\n\tAwaken (228729)\n\tBig Bang (228730)\n\tChikei (228732)\n\tFukei (228733)\n\tGuided Shot (228716)\n\tHagan (228722)\n\tHoten (228714)\n\tKakei (228731)\n\tKoho (228724)\n\tKokei (228735)\n\tRadiance (228725)\n\tRaijin (228713)\n\tRyujin (228723)\n\tSenretsu (228715)\n\tSuikei (228734)\n\tYamikei (228736)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1600,  0]], [1, 1, 33, [-60,  0,  0,  -60,  -60,  -60,  -60,  -60,  1,  3]], [0, 3, 98, [3, 508703, -1, [228713,  228714,  228715,  228716,  228722,  228723,  228724,  228725,  228729,  228730,  228731,  228732,  228733,  228734,  228735,  228736], 2, 1, 1, 0]]]},
         "strings": []
@@ -33923,7 +34370,7 @@
             "effects": [
                 "Physical damage (15.6x, ATK) to one enemy",
                 "Reduce resistance to Fire, Water, Wind, Earth, Light and Dark by 70% for 3 turns to one enemy",
-                "Gain 3 uses of the following skills for one turn:\n\t千光 (228725)\n\t指弾 (228716)\n\t武技千烈 (228715)\n\t武技崩天 (228714)\n\t武技破岩 (228722)\n\t武技虎咆 (228724)\n\t武技雷迅 (228713)\n\t武技龍迅 (228723)\n\t秘奥義発動 (228729)\n\t超武技光勁 (228735)\n\t超武技地勁 (228732)\n\t超武技水勁 (228734)\n\t超武技火勁 (228731)\n\t超武技闇勁 (228736)\n\t超武技風勁 (228733)\n\t銀牙 (228730)"
+                "Gain 3 uses of the following skills for one turn:\n\tAwaken (228729)\n\tBig Bang (228730)\n\tChikei (228732)\n\tFukei (228733)\n\tGuided Shot (228716)\n\tHagan (228722)\n\tHoten (228714)\n\tKakei (228731)\n\tKoho (228724)\n\tKokei (228735)\n\tRadiance (228725)\n\tRaijin (228713)\n\tRyujin (228723)\n\tSenretsu (228715)\n\tSuikei (228734)\n\tYamikei (228736)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1560,  0]], [1, 1, 33, [-70,  0,  0,  -70,  -70,  -70,  -70,  -70,  1,  3]], [0, 3, 98, [3, 508703, -1, [228713,  228714,  228715,  228716,  228722,  228723,  228724,  228725,  228729,  228730,  228731,  228732,  228733,  228734,  228735,  228736], 2, 1, 1, 0]]]},
         "max_level": {
@@ -33931,7 +34378,7 @@
             "effects": [
                 "Physical damage (18x, ATK) to one enemy",
                 "Reduce resistance to Fire, Water, Wind, Earth, Light and Dark by 70% for 3 turns to one enemy",
-                "Gain 3 uses of the following skills for one turn:\n\t千光 (228725)\n\t指弾 (228716)\n\t武技千烈 (228715)\n\t武技崩天 (228714)\n\t武技破岩 (228722)\n\t武技虎咆 (228724)\n\t武技雷迅 (228713)\n\t武技龍迅 (228723)\n\t秘奥義発動 (228729)\n\t超武技光勁 (228735)\n\t超武技地勁 (228732)\n\t超武技水勁 (228734)\n\t超武技火勁 (228731)\n\t超武技闇勁 (228736)\n\t超武技風勁 (228733)\n\t銀牙 (228730)"
+                "Gain 3 uses of the following skills for one turn:\n\tAwaken (228729)\n\tBig Bang (228730)\n\tChikei (228732)\n\tFukei (228733)\n\tGuided Shot (228716)\n\tHagan (228722)\n\tHoten (228714)\n\tKakei (228731)\n\tKoho (228724)\n\tKokei (228735)\n\tRadiance (228725)\n\tRaijin (228713)\n\tRyujin (228723)\n\tSenretsu (228715)\n\tSuikei (228734)\n\tYamikei (228736)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1800,  0]], [1, 1, 33, [-70,  0,  0,  -70,  -70,  -70,  -70,  -70,  1,  3]], [0, 3, 98, [3, 508703, -1, [228713,  228714,  228715,  228716,  228722,  228723,  228724,  228725,  228729,  228730,  228731,  228732,  228733,  228734,  228735,  228736], 2, 1, 1, 0]]]},
         "strings": []
@@ -33952,7 +34399,7 @@
             "effects": [
                 "Physical damage (17.1x, ATK) to one enemy",
                 "Reduce resistance to Fire, Water, Wind, Earth, Light and Dark by 80% for 3 turns to one enemy",
-                "Gain 3 uses of the following skills for one turn:\n\t千光 (228725)\n\t指弾 (228716)\n\t武技千烈 (228715)\n\t武技崩天 (228714)\n\t武技破岩 (228722)\n\t武技虎咆 (228724)\n\t武技雷迅 (228713)\n\t武技龍迅 (228723)\n\t秘奥義発動 (228729)\n\t超武技光勁 (228735)\n\t超武技地勁 (228732)\n\t超武技水勁 (228734)\n\t超武技火勁 (228731)\n\t超武技闇勁 (228736)\n\t超武技風勁 (228733)\n\t銀牙 (228730)"
+                "Gain 3 uses of the following skills for one turn:\n\tAwaken (228729)\n\tBig Bang (228730)\n\tChikei (228732)\n\tFukei (228733)\n\tGuided Shot (228716)\n\tHagan (228722)\n\tHoten (228714)\n\tKakei (228731)\n\tKoho (228724)\n\tKokei (228735)\n\tRadiance (228725)\n\tRaijin (228713)\n\tRyujin (228723)\n\tSenretsu (228715)\n\tSuikei (228734)\n\tYamikei (228736)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1710,  0]], [1, 1, 33, [-80,  0,  0,  -80,  -80,  -80,  -80,  -80,  1,  3]], [0, 3, 98, [3, 508703, -1, [228713,  228714,  228715,  228716,  228722,  228723,  228724,  228725,  228729,  228730,  228731,  228732,  228733,  228734,  228735,  228736], 2, 1, 1, 0]]]},
         "max_level": {
@@ -33960,7 +34407,7 @@
             "effects": [
                 "Physical damage (20x, ATK) to one enemy",
                 "Reduce resistance to Fire, Water, Wind, Earth, Light and Dark by 80% for 3 turns to one enemy",
-                "Gain 3 uses of the following skills for one turn:\n\t千光 (228725)\n\t指弾 (228716)\n\t武技千烈 (228715)\n\t武技崩天 (228714)\n\t武技破岩 (228722)\n\t武技虎咆 (228724)\n\t武技雷迅 (228713)\n\t武技龍迅 (228723)\n\t秘奥義発動 (228729)\n\t超武技光勁 (228735)\n\t超武技地勁 (228732)\n\t超武技水勁 (228734)\n\t超武技火勁 (228731)\n\t超武技闇勁 (228736)\n\t超武技風勁 (228733)\n\t銀牙 (228730)"
+                "Gain 3 uses of the following skills for one turn:\n\tAwaken (228729)\n\tBig Bang (228730)\n\tChikei (228732)\n\tFukei (228733)\n\tGuided Shot (228716)\n\tHagan (228722)\n\tHoten (228714)\n\tKakei (228731)\n\tKoho (228724)\n\tKokei (228735)\n\tRadiance (228725)\n\tRaijin (228713)\n\tRyujin (228723)\n\tSenretsu (228715)\n\tSuikei (228734)\n\tYamikei (228736)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  2000,  0]], [1, 1, 33, [-80,  0,  0,  -80,  -80,  -80,  -80,  -80,  1,  3]], [0, 3, 98, [3, 508703, -1, [228713,  228714,  228715,  228716,  228722,  228723,  228724,  228725,  228729,  228730,  228731,  228732,  228733,  228734,  228735,  228736], 2, 1, 1, 0]]]},
         "strings": []
@@ -34357,7 +34804,7 @@
                 "Physical damage (16.1x, ATK) to one enemy",
                 "Restore 12000 HP split over 4 turns to caster",
                 "Restore 320 MP split over 4 turns to caster",
-                "Gain 3 uses of the following skills for one turn:\n\t地精刀気ｰ轟ｰ (229064)\n\t地精ｰ崩ｰ (229052)\n\t奥義 (229055)\n\t斬烈 (229061)\n\t水精刀気ｰ鏡ｰ (229066)\n\t水精ｰ裂ｰ (229054)\n\t波壊 (229045)\n\t浮雲 (229043)\n\t火精刀気ｰ朧ｰ (229065)\n\t火精ｰ獄ｰ (229053)\n\t究香 (229060)\n\t連剣 (229046)\n\t雨音 (229062)\n\t震雷 (229044)\n\t風精刀気ｰ宴ｰ (229063)\n\t風精ｰ柳ｰ (229051)"
+                "Gain 3 uses of the following skills for one turn:\n\tAmaoto (229062)\n\tCrystal Water (229066)\n\tFestive Wind (229063)\n\tHakai (229045)\n\tHaze of Fire (229065)\n\tHell Fire (229053)\n\tKyuuka (229060)\n\tOugi (229055)\n\tRare Earth (229052)\n\tRenken (229046)\n\tRumble Earth (229064)\n\tShinrai (229044)\n\tTsunami Ice (229054)\n\tUkigumo (229043)\n\tWillow Wind (229051)\n\tZanretsu (229061)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1610,  0]], [0, 3, 8, [0,  1,  12000,  4]], [0, 3, 30, [0,  1,  320,  4]], [0, 3, 98, [3, 508870, -1, [229043,  229044,  229045,  229046,  229051,  229052,  229053,  229054,  229055,  229060,  229061,  229062,  229063,  229064,  229065,  229066], 2, 1, 1, 0]]]},
         "max_level": {
@@ -34366,7 +34813,7 @@
                 "Physical damage (18x, ATK) to one enemy",
                 "Restore 12000 HP split over 4 turns to caster",
                 "Restore 320 MP split over 4 turns to caster",
-                "Gain 3 uses of the following skills for one turn:\n\t地精刀気ｰ轟ｰ (229064)\n\t地精ｰ崩ｰ (229052)\n\t奥義 (229055)\n\t斬烈 (229061)\n\t水精刀気ｰ鏡ｰ (229066)\n\t水精ｰ裂ｰ (229054)\n\t波壊 (229045)\n\t浮雲 (229043)\n\t火精刀気ｰ朧ｰ (229065)\n\t火精ｰ獄ｰ (229053)\n\t究香 (229060)\n\t連剣 (229046)\n\t雨音 (229062)\n\t震雷 (229044)\n\t風精刀気ｰ宴ｰ (229063)\n\t風精ｰ柳ｰ (229051)"
+                "Gain 3 uses of the following skills for one turn:\n\tAmaoto (229062)\n\tCrystal Water (229066)\n\tFestive Wind (229063)\n\tHakai (229045)\n\tHaze of Fire (229065)\n\tHell Fire (229053)\n\tKyuuka (229060)\n\tOugi (229055)\n\tRare Earth (229052)\n\tRenken (229046)\n\tRumble Earth (229064)\n\tShinrai (229044)\n\tTsunami Ice (229054)\n\tUkigumo (229043)\n\tWillow Wind (229051)\n\tZanretsu (229061)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1800,  0]], [0, 3, 8, [0,  1,  12000,  4]], [0, 3, 30, [0,  1,  320,  4]], [0, 3, 98, [3, 508870, -1, [229043,  229044,  229045,  229046,  229051,  229052,  229053,  229054,  229055,  229060,  229061,  229062,  229063,  229064,  229065,  229066], 2, 1, 1, 0]]]},
         "strings": []
@@ -34388,7 +34835,7 @@
                 "Physical damage (19.6x, ATK) to one enemy",
                 "Restore 16000 HP split over 4 turns to caster",
                 "Restore 360 MP split over 4 turns to caster",
-                "Gain 3 uses of the following skills for one turn:\n\t地精刀気ｰ轟ｰ (229064)\n\t地精ｰ崩ｰ (229052)\n\t奥義 (229055)\n\t斬烈 (229061)\n\t水精刀気ｰ鏡ｰ (229066)\n\t水精ｰ裂ｰ (229054)\n\t波壊 (229045)\n\t浮雲 (229043)\n\t火精刀気ｰ朧ｰ (229065)\n\t火精ｰ獄ｰ (229053)\n\t究香 (229060)\n\t連剣 (229046)\n\t雨音 (229062)\n\t震雷 (229044)\n\t風精刀気ｰ宴ｰ (229063)\n\t風精ｰ柳ｰ (229051)"
+                "Gain 3 uses of the following skills for one turn:\n\tAmaoto (229062)\n\tCrystal Water (229066)\n\tFestive Wind (229063)\n\tHakai (229045)\n\tHaze of Fire (229065)\n\tHell Fire (229053)\n\tKyuuka (229060)\n\tOugi (229055)\n\tRare Earth (229052)\n\tRenken (229046)\n\tRumble Earth (229064)\n\tShinrai (229044)\n\tTsunami Ice (229054)\n\tUkigumo (229043)\n\tWillow Wind (229051)\n\tZanretsu (229061)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1960,  0]], [0, 3, 8, [0,  1,  16000,  4]], [0, 3, 30, [0,  1,  360,  4]], [0, 3, 98, [3, 508870, -1, [229043,  229044,  229045,  229046,  229051,  229052,  229053,  229054,  229055,  229060,  229061,  229062,  229063,  229064,  229065,  229066], 2, 1, 1, 0]]]},
         "max_level": {
@@ -34397,7 +34844,7 @@
                 "Physical damage (22x, ATK) to one enemy",
                 "Restore 16000 HP split over 4 turns to caster",
                 "Restore 360 MP split over 4 turns to caster",
-                "Gain 3 uses of the following skills for one turn:\n\t地精刀気ｰ轟ｰ (229064)\n\t地精ｰ崩ｰ (229052)\n\t奥義 (229055)\n\t斬烈 (229061)\n\t水精刀気ｰ鏡ｰ (229066)\n\t水精ｰ裂ｰ (229054)\n\t波壊 (229045)\n\t浮雲 (229043)\n\t火精刀気ｰ朧ｰ (229065)\n\t火精ｰ獄ｰ (229053)\n\t究香 (229060)\n\t連剣 (229046)\n\t雨音 (229062)\n\t震雷 (229044)\n\t風精刀気ｰ宴ｰ (229063)\n\t風精ｰ柳ｰ (229051)"
+                "Gain 3 uses of the following skills for one turn:\n\tAmaoto (229062)\n\tCrystal Water (229066)\n\tFestive Wind (229063)\n\tHakai (229045)\n\tHaze of Fire (229065)\n\tHell Fire (229053)\n\tKyuuka (229060)\n\tOugi (229055)\n\tRare Earth (229052)\n\tRenken (229046)\n\tRumble Earth (229064)\n\tShinrai (229044)\n\tTsunami Ice (229054)\n\tUkigumo (229043)\n\tWillow Wind (229051)\n\tZanretsu (229061)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  2200,  0]], [0, 3, 8, [0,  1,  16000,  4]], [0, 3, 30, [0,  1,  360,  4]], [0, 3, 98, [3, 508870, -1, [229043,  229044,  229045,  229046,  229051,  229052,  229053,  229054,  229055,  229060,  229061,  229062,  229063,  229064,  229065,  229066], 2, 1, 1, 0]]]},
         "strings": []
@@ -34419,7 +34866,7 @@
                 "Physical damage (23.1x, ATK) to one enemy",
                 "Restore 20000 HP split over 4 turns to caster",
                 "Restore 400 MP split over 4 turns to caster",
-                "Gain 3 uses of the following skills for one turn:\n\t地精刀気ｰ轟ｰ (229064)\n\t地精ｰ崩ｰ (229052)\n\t奥義 (229055)\n\t斬烈 (229061)\n\t水精刀気ｰ鏡ｰ (229066)\n\t水精ｰ裂ｰ (229054)\n\t波壊 (229045)\n\t浮雲 (229043)\n\t火精刀気ｰ朧ｰ (229065)\n\t火精ｰ獄ｰ (229053)\n\t究香 (229060)\n\t連剣 (229046)\n\t雨音 (229062)\n\t震雷 (229044)\n\t風精刀気ｰ宴ｰ (229063)\n\t風精ｰ柳ｰ (229051)"
+                "Gain 3 uses of the following skills for one turn:\n\tAmaoto (229062)\n\tCrystal Water (229066)\n\tFestive Wind (229063)\n\tHakai (229045)\n\tHaze of Fire (229065)\n\tHell Fire (229053)\n\tKyuuka (229060)\n\tOugi (229055)\n\tRare Earth (229052)\n\tRenken (229046)\n\tRumble Earth (229064)\n\tShinrai (229044)\n\tTsunami Ice (229054)\n\tUkigumo (229043)\n\tWillow Wind (229051)\n\tZanretsu (229061)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  2310,  0]], [0, 3, 8, [0,  1,  20000,  4]], [0, 3, 30, [0,  1,  400,  4]], [0, 3, 98, [3, 508870, -1, [229043,  229044,  229045,  229046,  229051,  229052,  229053,  229054,  229055,  229060,  229061,  229062,  229063,  229064,  229065,  229066], 2, 1, 1, 0]]]},
         "max_level": {
@@ -34428,7 +34875,7 @@
                 "Physical damage (26x, ATK) to one enemy",
                 "Restore 20000 HP split over 4 turns to caster",
                 "Restore 400 MP split over 4 turns to caster",
-                "Gain 3 uses of the following skills for one turn:\n\t地精刀気ｰ轟ｰ (229064)\n\t地精ｰ崩ｰ (229052)\n\t奥義 (229055)\n\t斬烈 (229061)\n\t水精刀気ｰ鏡ｰ (229066)\n\t水精ｰ裂ｰ (229054)\n\t波壊 (229045)\n\t浮雲 (229043)\n\t火精刀気ｰ朧ｰ (229065)\n\t火精ｰ獄ｰ (229053)\n\t究香 (229060)\n\t連剣 (229046)\n\t雨音 (229062)\n\t震雷 (229044)\n\t風精刀気ｰ宴ｰ (229063)\n\t風精ｰ柳ｰ (229051)"
+                "Gain 3 uses of the following skills for one turn:\n\tAmaoto (229062)\n\tCrystal Water (229066)\n\tFestive Wind (229063)\n\tHakai (229045)\n\tHaze of Fire (229065)\n\tHell Fire (229053)\n\tKyuuka (229060)\n\tOugi (229055)\n\tRare Earth (229052)\n\tRenken (229046)\n\tRumble Earth (229064)\n\tShinrai (229044)\n\tTsunami Ice (229054)\n\tUkigumo (229043)\n\tWillow Wind (229051)\n\tZanretsu (229061)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  2600,  0]], [0, 3, 8, [0,  1,  20000,  4]], [0, 3, 30, [0,  1,  400,  4]], [0, 3, 98, [3, 508870, -1, [229043,  229044,  229045,  229046,  229051,  229052,  229053,  229054,  229055,  229060,  229061,  229062,  229063,  229064,  229065,  229066], 2, 1, 1, 0]]]},
         "strings": []
@@ -34490,14 +34937,14 @@
             "cost": 42,
             "effects": [
                 "Magic damage (32.2x, MAG) to all enemies",
-                "Gain access to following skills for 5 turns (1 use):\n\tクールダウン (229089)"
+                "Gain access to following skills for 5 turns (1 use):\n\tCooldown (229089)"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3220,  0]], [0, 3, 100, [2,  229089,  1,  6,  1,  2]]]},
         "max_level": {
             "cost": 42,
             "effects": [
                 "Magic damage (38x, MAG) to all enemies",
-                "Gain access to following skills for 5 turns (1 use):\n\tクールダウン (229089)"
+                "Gain access to following skills for 5 turns (1 use):\n\tCooldown (229089)"
             ],
             "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3800,  0]], [0, 3, 100, [2,  229089,  1,  6,  1,  2]]]},
         "strings": []
@@ -35600,7 +36047,7 @@
                 "Hybrid* lightning damage (21.4x, ATK & MAG) to all enemies",
                 "Inflict Paralyze (30%) on all enemies",
                 "Inflict Stop (30%) for one turn on all enemies",
-                "Gain access to following skills for 3 turns:\n\tPurgatory Fire Slash (503400)\n\tThunder Strike Stance (503410)\n\t闇龍咆絶破 (227963)"
+                "Gain access to following skills for 3 turns:\n\tPurgatory Fire Slash (503400)\n\tShadow Dragon Roar (227963)\n\tThunder Strike Stance (503410)"
             ],
             "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2140,  2140]], [2, 1, 6, [0,  0,  0,  0,  30,  0,  0,  0,  1]], [2, 1, 88, [30,  1]], [0, 3, 100, [[2,  2,  2], [503400,  503410,  227963], 9999, 4, 1, 1]]]},
         "max_level": {
@@ -35609,7 +36056,7 @@
                 "Hybrid* lightning damage (27.2x, ATK & MAG) to all enemies",
                 "Inflict Paralyze (30%) on all enemies",
                 "Inflict Stop (30%) for one turn on all enemies",
-                "Gain access to following skills for 3 turns:\n\tPurgatory Fire Slash (503400)\n\tThunder Strike Stance (503410)\n\t闇龍咆絶破 (227963)"
+                "Gain access to following skills for 3 turns:\n\tPurgatory Fire Slash (503400)\n\tShadow Dragon Roar (227963)\n\tThunder Strike Stance (503410)"
             ],
             "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  2720,  2720]], [2, 1, 6, [0,  0,  0,  0,  30,  0,  0,  0,  1]], [2, 1, 88, [30,  1]], [0, 3, 100, [[2,  2,  2], [503400,  503410,  227963], 9999, 4, 1, 1]]]},
         "strings": []
@@ -35692,7 +36139,7 @@
             "effects": [
                 "Physical damage (15.1x, ATK) to one enemy",
                 "Increase the limit burst gauge fill rate by 200% for 3 turns to all allies",
-                "Gain 3 uses of the following skills for one turn:\n\tMartial Arts - Burst (224640)\n\tMartial Arts - Calm Mind (224690)\n\tMartial Arts - Flaming Spirit (224700)\n\tMartial Arts - Heaven Scar (224670)\n\tMartial Arts - Heaven Shift (224660)\n\tMartial Arts - Lightning Spirit (224710)\n\tMartial Arts - Opposing Fist (224720)\n\tMartial Arts - Overthrow (224650)\n\tMartial Arts - Tojin Combo (224680)\n\tMartial Arts - Twin Palms (224630)\n\t格闘術・壊盾突 (228062)\n\t格闘術・帰根復命 (228063)\n\t格闘術・操気天衝+1 (707607)\n\t格闘術・操気天衝+2 (707608)\n\t格闘術・燃心 (228061)\n\t格闘術・醒眼掌 (228060)\n\t格闘術・闘神連撃+1 (707609)\n\t格闘術・闘神連撃+2 (707610)"
+                "Gain 3 uses of the following skills for one turn:\n\tMartial Arts - Burning Heart (228061)\n\tMartial Arts - Burst (224640)\n\tMartial Arts - Calm Mind (224690)\n\tMartial Arts - Flaming Spirit (224700)\n\tMartial Arts - Heaven Scar (224670)\n\tMartial Arts - Heaven Shift (224660)\n\tMartial Arts - Lightning Spirit (224710)\n\tMartial Arts - Opposing Fist (224720)\n\tMartial Arts - Overthrow (224650)\n\tMartial Arts - Self-Discipline (228063)\n\tMartial Arts - Shield Breaker (228062)\n\tMartial Arts - Tojin Combo (224680)\n\tMartial Arts - Twin Palms (224630)\n\tMartial Arts - Waking Palm (228060)\n\t格闘術・操気天衝+1 (707607)\n\t格闘術・操気天衝+2 (707608)\n\t格闘術・闘神連撃+1 (707609)\n\t格闘術・闘神連撃+2 (707610)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1510,  0]], [2, 2, 63, [200,  3]], [0, 3, 98, [3, 506810, -1, [224630,  224640,  224650,  224660,  224670,  224680,  224690,  224700,  224710,  224720,  228060,  228061,  228062,  228063,  707607,  707608,  707609,  707610], 2, 1, 1, 0]]]},
         "max_level": {
@@ -35700,7 +36147,7 @@
             "effects": [
                 "Physical damage (18x, ATK) to one enemy",
                 "Increase the limit burst gauge fill rate by 200% for 3 turns to all allies",
-                "Gain 3 uses of the following skills for one turn:\n\tMartial Arts - Burst (224640)\n\tMartial Arts - Calm Mind (224690)\n\tMartial Arts - Flaming Spirit (224700)\n\tMartial Arts - Heaven Scar (224670)\n\tMartial Arts - Heaven Shift (224660)\n\tMartial Arts - Lightning Spirit (224710)\n\tMartial Arts - Opposing Fist (224720)\n\tMartial Arts - Overthrow (224650)\n\tMartial Arts - Tojin Combo (224680)\n\tMartial Arts - Twin Palms (224630)\n\t格闘術・壊盾突 (228062)\n\t格闘術・帰根復命 (228063)\n\t格闘術・操気天衝+1 (707607)\n\t格闘術・操気天衝+2 (707608)\n\t格闘術・燃心 (228061)\n\t格闘術・醒眼掌 (228060)\n\t格闘術・闘神連撃+1 (707609)\n\t格闘術・闘神連撃+2 (707610)"
+                "Gain 3 uses of the following skills for one turn:\n\tMartial Arts - Burning Heart (228061)\n\tMartial Arts - Burst (224640)\n\tMartial Arts - Calm Mind (224690)\n\tMartial Arts - Flaming Spirit (224700)\n\tMartial Arts - Heaven Scar (224670)\n\tMartial Arts - Heaven Shift (224660)\n\tMartial Arts - Lightning Spirit (224710)\n\tMartial Arts - Opposing Fist (224720)\n\tMartial Arts - Overthrow (224650)\n\tMartial Arts - Self-Discipline (228063)\n\tMartial Arts - Shield Breaker (228062)\n\tMartial Arts - Tojin Combo (224680)\n\tMartial Arts - Twin Palms (224630)\n\tMartial Arts - Waking Palm (228060)\n\t格闘術・操気天衝+1 (707607)\n\t格闘術・操気天衝+2 (707608)\n\t格闘術・闘神連撃+1 (707609)\n\t格闘術・闘神連撃+2 (707610)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1800,  0]], [2, 2, 63, [200,  3]], [0, 3, 98, [3, 506810, -1, [224630,  224640,  224650,  224660,  224670,  224680,  224690,  224700,  224710,  224720,  228060,  228061,  228062,  228063,  707607,  707608,  707609,  707610], 2, 1, 1, 0]]]},
         "strings": []
@@ -35808,7 +36255,7 @@
             "effects": [
                 "Physical damage (7.6x, ATK) to all enemies",
                 "Reduce resistance to all elements by 60% for 3 turns to all enemies",
-                "Gain access to following skills (1 use):\n\t明星の加護 (508472)"
+                "Gain access to following skills (1 use):\n\tVenus's Protection (508472)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  760,  0]], [2, 1, 33, [-60,  -60,  -60,  -60,  -60,  -60,  -60,  -60,  1,  3]], [0, 3, 100, [2,  508472,  1,  99999,  1,  0]]]},
         "max_level": {
@@ -35816,7 +36263,7 @@
             "effects": [
                 "Physical damage (13.4x, ATK) to all enemies",
                 "Reduce resistance to all elements by 60% for 3 turns to all enemies",
-                "Gain access to following skills (1 use):\n\t明星の加護 (508472)"
+                "Gain access to following skills (1 use):\n\tVenus's Protection (508472)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1340,  0]], [2, 1, 33, [-60,  -60,  -60,  -60,  -60,  -60,  -60,  -60,  1,  3]], [0, 3, 100, [2,  508472,  1,  99999,  1,  0]]]},
         "strings": []
@@ -35899,7 +36346,7 @@
             "effects": [
                 "Physical damage (12x, ATK) to one enemy",
                 "Reduce resistance to Fire, Water, Wind and Earth by 50% for 5 turns to one enemy",
-                "Increase damage of the following skills by 300% for 5 turns:\n\tオニオンシュレッダー (228551)\n\tオニオンメテオ (508622)\n\tハックトゥピーシーズ (508620)"
+                "Increase damage of the following skills by 300% for 5 turns:\n\tHacked to Pieces (508620)\n\tOnion Meteo (508622)\n\tOnion Shredder (228551)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1200,  0]], [1, 1, 33, [-50,  0,  0,  -50,  -50,  -50,  0,  0,  1,  5]], [0, 3, 136, [[228551,  508620,  508622], 0, 0, 300, 5, 1, 1112, 1]]]},
         "max_level": {
@@ -35907,7 +36354,7 @@
             "effects": [
                 "Physical damage (16x, ATK) to one enemy",
                 "Reduce resistance to Fire, Water, Wind and Earth by 80% for 5 turns to one enemy",
-                "Increase damage of the following skills by 300% for 5 turns:\n\tオニオンシュレッダー (228551)\n\tオニオンメテオ (508622)\n\tハックトゥピーシーズ (508620)"
+                "Increase damage of the following skills by 300% for 5 turns:\n\tHacked to Pieces (508620)\n\tOnion Meteo (508622)\n\tOnion Shredder (228551)"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  1600,  0]], [1, 1, 33, [-80,  0,  0,  -80,  -80,  -80,  0,  0,  1,  5]], [0, 3, 136, [[228551,  508620,  508622], 0, 0, 300, 5, 1, 1112, 1]]]},
         "strings": []
@@ -36040,7 +36487,7 @@
             "effects": [
                 "Physical damage (15.2x, ATK) to all enemies",
                 "Reduce resistance to Fire and Ice by 76% for 3 turns to all enemies",
-                "Increase damage of the following skills by 1400% for 2 turns:\n\t八連刃 (228081)\n\t八連刃+1 (707783)\n\t八連刃+2 (707784)"
+                "Increase damage of the following skills by 1400% for 2 turns:\n\tOctostrike Blade (228081)\n\t八連刃+1 (707783)\n\t八連刃+2 (707784)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  1520,  0]], [2, 1, 33, [-76,  -76,  0,  0,  0,  0,  0,  0,  1,  3]], [0, 3, 136, [[228081,  707783,  707784], 0, 0, 1400, 2, 1, 11141, 1]]]},
         "max_level": {
@@ -36048,7 +36495,7 @@
             "effects": [
                 "Physical damage (21x, ATK) to all enemies",
                 "Reduce resistance to Fire and Ice by 100% for 5 turns to all enemies",
-                "Increase damage of the following skills by 1400% for 2 turns:\n\t八連刃 (228081)\n\t八連刃+1 (707783)\n\t八連刃+2 (707784)"
+                "Increase damage of the following skills by 1400% for 2 turns:\n\tOctostrike Blade (228081)\n\t八連刃+1 (707783)\n\t八連刃+2 (707784)"
             ],
             "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  2100,  0]], [2, 1, 33, [-100,  -100,  0,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 136, [[228081,  707783,  707784], 0, 0, 1400, 2, 1, 11141, 1]]]},
         "strings": []
