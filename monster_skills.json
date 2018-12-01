@@ -8027,7 +8027,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Instant KO (100%) to one enemy"],
+        "effects": ["Instant KO (100%) to one enemy (ignores death resist)"],
         "effects_raw": [[1, 1, 35, [100]]]
     },
     "157860": {
@@ -17105,7 +17105,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (50%) to one enemy (ignores death resist)"
+            "Instant KO (50%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [50,  1]]]
     },
@@ -21068,7 +21068,7 @@
         "attack_type": "Magic",
         "execute_type": "Percentual DMG",
         "effects": [
-            "Instant KO (100%) to one ally",
+            "Instant KO (100%) to one ally (ignores death resist)",
             "Magic damage (12x, MAG) to all enemies"
         ],
         "effects_raw": [[1, 2, 35, [100]], [2, 1, 15, [0,  0,  0,  0,  0,  1200]]]
@@ -21079,7 +21079,7 @@
         "attack_type": "Magic",
         "execute_type": "Percentual DMG",
         "effects": [
-            "Instant KO (100%) to one ally",
+            "Instant KO (100%) to one ally (ignores death resist)",
             "Magic damage (5x, MAG) to all enemies"
         ],
         "effects_raw": [[1, 2, 35, [100]], [2, 1, 15, [0,  0,  0,  0,  0,  500]]]
@@ -21090,7 +21090,7 @@
         "attack_type": "Magic",
         "execute_type": "Percentual DMG",
         "effects": [
-            "Instant KO (100%) to one ally",
+            "Instant KO (100%) to one ally (ignores death resist)",
             "Magic damage (2.5x, MAG) to all enemies"
         ],
         "effects_raw": [[1, 2, 35, [100]], [2, 1, 15, [0,  0,  0,  0,  0,  250]]]
@@ -23621,7 +23621,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (50%) to one enemy (ignores death resist)"
+            "Instant KO (50%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [50,  1,  0]]]
     },
@@ -24029,7 +24029,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (100%) to one enemy (ignores death resist)"
+            "Instant KO (100%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [100,  1,  0]]]
     },
@@ -28112,7 +28112,7 @@
         "execute_type": "Default",
         "effects": [
             "99% HP damage to all enemies",
-            "Instant KO (100%) to caster"
+            "Instant KO (100%) to caster (ignores death resist)"
         ],
         "effects_raw": [[2, 1, 9, [99,  99,  100]], [0, 3, 35, [100]]]
     },
@@ -30133,7 +30133,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Instant KO (100%) to all enemies"],
+        "effects": ["Instant KO (100%) to all enemies (ignores death resist)"],
         "effects_raw": [[2, 1, 35, [100]]]
     },
     "182720": {
@@ -30157,7 +30157,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Instant KO (100%) to one enemy"],
+        "effects": ["Instant KO (100%) to one enemy (ignores death resist)"],
         "effects_raw": [[1, 1, 35, [100]]]
     },
     "182750": {
@@ -30277,7 +30277,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Instant KO (100%) to all enemies"],
+        "effects": ["Instant KO (100%) to all enemies (ignores death resist)"],
         "effects_raw": [[2, 1, 35, [100]]]
     },
     "182890": {
@@ -33579,7 +33579,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (20%) to one enemy (ignores death resist)"
+            "Instant KO (20%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [20,  1,  0]]]
     },
@@ -35030,7 +35030,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (20%) to one enemy (ignores death resist)"
+            "Instant KO (20%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [20,  1,  0]]]
     },
@@ -35098,7 +35098,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (20%) to one enemy (ignores death resist)"
+            "Instant KO (20%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [20,  1,  0]]]
     },
@@ -35198,7 +35198,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (40%) to one enemy (ignores death resist)"
+            "Instant KO (40%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [40,  1,  0]]]
     },
@@ -35446,7 +35446,7 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": [
-            "Instant KO (100%) to all enemies",
+            "Instant KO (100%) to all enemies (ignores death resist)",
             "Reduce physical damage taken by 100% to caster for 999 turns (can not be removed)",
             "Reduce magic damage taken by 100% to caster for 999 turns (can not be removed)"
         ],
@@ -39962,7 +39962,7 @@
         "execute_type": "Default",
         "effects": [
             "Summon ally #7",
-            "Instant KO (100%) to caster"
+            "Instant KO (100%) to caster (ignores death resist)"
         ],
         "effects_raw": [[0, 3, 87, [1, 7, "ぶんれつ", 100, 0]], [0, 3, 35, [100]]]
     },
@@ -40027,7 +40027,7 @@
         "execute_type": "Default",
         "effects": [
             "Summon ally #8",
-            "Instant KO (100%) to caster"
+            "Instant KO (100%) to caster (ignores death resist)"
         ],
         "effects_raw": [[0, 3, 87, [1, 8, "がったい", 100, 0]], [0, 3, 35, [100]]]
     },
@@ -40682,7 +40682,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": ["Instant KO (25%) to one enemy"],
+        "effects": ["Instant KO (25%) to one enemy (ignores death resist)"],
         "effects_raw": [[1, 1, 35, [25,  0,  0]]]
     },
     "194290": {
@@ -44673,7 +44673,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (10%) to one enemy (ignores death resist)"
+            "Instant KO (10%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [10,  1,  0]]]
     },
@@ -46304,7 +46304,7 @@
         "flags": [false,  false,  true,  true],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Instant KO (100%) to one enemy"],
+        "effects": ["Instant KO (100%) to one enemy (ignores death resist)"],
         "effects_raw": [[1, 1, 35, [100]]]
     },
     "199280": {
@@ -46380,7 +46380,7 @@
         "effects": [
             "[Death]",
             "Hybrid* damage (5x, ATK & MAG) to all enemies",
-            "Instant KO (100%) to all enemies (ignores death resist)",
+            "Instant KO (100%) to all enemies",
             "Remove all buffs and debuffs from all enemies"
         ],
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  500,  500]], [2, 1, 35, [100,  1]], [2, 1, 59, ["none"]]]
@@ -46393,7 +46393,7 @@
         "effects": [
             "[Death]",
             "Hybrid* damage (5x, ATK & MAG) to all enemies",
-            "Instant KO (100%) to all enemies (ignores death resist)",
+            "Instant KO (100%) to all enemies",
             "Remove all buffs and debuffs from all enemies"
         ],
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  500,  500]], [2, 1, 35, [100,  2]], [2, 1, 59, ["none"]]]
@@ -46406,7 +46406,7 @@
         "effects": [
             "[Death]",
             "Hybrid* damage (5x, ATK & MAG) to all enemies",
-            "Instant KO (100%) to all enemies (ignores death resist)",
+            "Instant KO (100%) to all enemies",
             "Remove all buffs and debuffs from all enemies"
         ],
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  500,  500]], [2, 1, 35, [100,  3]], [2, 1, 59, ["none"]]]
@@ -46589,7 +46589,7 @@
         "effects": [
             "[Death]",
             "Remove all buffs and debuffs from one enemy",
-            "Instant KO (100%) to one enemy (ignores death resist)"
+            "Instant KO (100%) to one enemy"
         ],
         "effects_raw": [[1, 1, 59, ["none"]], [1, 1, 35, [100,  1,  0]]]
     },
@@ -46758,7 +46758,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (100%) to all enemies (ignores death resist)"
+            "Instant KO (100%) to all enemies"
         ],
         "effects_raw": [[2, 1, 35, [100,  2]]]
     },
@@ -47563,7 +47563,7 @@
         "attack_type": "Magic",
         "execute_type": "Default",
         "effects": [
-            "Magic fire, water and dark damage 1 to all enemies",
+            "Magic fire, water and dark damage 0 to all enemies",
             "Inflict Stop (50%) for 3 turns on all enemies",
             "Reduce resistance to Wind by 30% for 3 turns to all enemies"
         ],
@@ -49320,7 +49320,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Instant KO (100%) to one enemy"],
+        "effects": ["Instant KO (100%) to one enemy (ignores death resist)"],
         "effects_raw": [[1, 1, 35, [100]]]
     },
     "202620": {
@@ -49344,9 +49344,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": [
-            "Unknown active effect type '140': [1,0,0,0,0,0,0,0,1,3]"
-        ],
+        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [1,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]
     },
     "202650": {
@@ -49354,9 +49352,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": [
-            "Unknown active effect type '140': [0,1,0,0,0,0,0,0,1,3]"
-        ],
+        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  1,  0,  0,  0,  0,  0,  0,  1,  3]]]
     },
     "202660": {
@@ -49364,9 +49360,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": [
-            "Unknown active effect type '140': [0,0,1,0,0,0,0,0,1,3]"
-        ],
+        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  1,  0,  0,  0,  0,  0,  1,  3]]]
     },
     "202670": {
@@ -49374,9 +49368,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": [
-            "Unknown active effect type '140': [0,0,0,1,0,0,0,0,1,3]"
-        ],
+        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  0,  1,  0,  0,  0,  0,  1,  3]]]
     },
     "202680": {
@@ -49384,9 +49376,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": [
-            "Unknown active effect type '140': [0,0,0,0,1,0,0,0,1,3]"
-        ],
+        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  0,  0,  1,  0,  0,  0,  1,  3]]]
     },
     "202690": {
@@ -49394,9 +49384,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": [
-            "Unknown active effect type '140': [0,0,0,0,0,1,0,0,1,3]"
-        ],
+        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  0,  0,  0,  1,  0,  0,  1,  3]]]
     },
     "202700": {
@@ -49404,9 +49392,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": [
-            "Unknown active effect type '140': [0,0,0,0,0,0,1,0,1,3]"
-        ],
+        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  0,  0,  0,  0,  1,  0,  1,  3]]]
     },
     "202710": {
@@ -49414,9 +49400,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": [
-            "Unknown active effect type '140': [0,0,0,0,0,0,0,1,1,3]"
-        ],
+        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  0,  0,  0,  0,  0,  1,  1,  3]]]
     },
     "202720": {
@@ -49432,9 +49416,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": [
-            "Unknown active effect type '140': [1,1,1,1,1,1,1,1,1,3]"
-        ],
+        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [1,  1,  1,  1,  1,  1,  1,  1,  1,  3]]]
     },
     "202740": {
@@ -52760,7 +52742,7 @@
         "flags": [true,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
-        "effects": ["Instant KO (100%) to one enemy"],
+        "effects": ["Instant KO (100%) to one enemy (ignores death resist)"],
         "effects_raw": [[1, 1, 35, [100]]]
     },
     "206620": {
@@ -52938,9 +52920,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": [
-            "Unknown active effect type '140': [0,0,0,1,0,0,0,0,1,3]"
-        ],
+        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from all enemies for 3 turns"],
         "effects_raw": [[2, 1, 140, [0,  0,  0,  1,  0,  0,  0,  0,  1,  3]]]
     },
     "206830": {
@@ -53218,7 +53198,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (70%) to all enemies (ignores death resist)"
+            "Instant KO (70%) to all enemies"
         ],
         "effects_raw": [[2, 1, 35, [70,  2]]]
     },
@@ -53229,7 +53209,7 @@
         "execute_type": "Default",
         "effects": [
             "Physical damage (5x, ATK) to one enemy",
-            "Unknown active effect type '140': [1,1,0,0,0,1,1,0,1,2]",
+            "Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 2 turns",
             "Inflict 2 random status effects (Poison and Paralyze 100%) to one enemy"
         ],
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  500]], [1, 1, 140, [1,  1,  0,  0,  0,  1,  1,  0,  1,  2]], [1, 1, 34, [100,  0,  0,  0,  100,  0,  0,  0,  1,  2]]]
@@ -53900,7 +53880,7 @@
         "execute_type": "Default",
         "effects": [
             "Remove all buffs and debuffs from one enemy",
-            "Instant KO (100%) to one enemy"
+            "Instant KO (100%) to one enemy (ignores death resist)"
         ],
         "effects_raw": [[1, 1, 59, ["none"]], [1, 1, 35, [100]]]
     },
@@ -56374,7 +56354,7 @@
         "execute_type": "Default",
         "effects": [
             "Summon ally #1",
-            "Instant KO (100%) to caster"
+            "Instant KO (100%) to caster (ignores death resist)"
         ],
         "effects_raw": [[0, 3, 87, [1, 1, "冷気が集中し氷像を形作った！", 100, 0]], [0, 3, 35, [100]]]
     },
@@ -56385,7 +56365,7 @@
         "execute_type": "Default",
         "effects": [
             "Summon ally #3",
-            "Instant KO (100%) to caster"
+            "Instant KO (100%) to caster (ignores death resist)"
         ],
         "effects_raw": [[0, 3, 87, [1, 3, "冷気が集中し氷像を形作った！", 100, 0]], [0, 3, 35, [100]]]
     },
@@ -57784,9 +57764,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": [
-            "Unknown active effect type '140': [0,0,0,0,0,1,0,0,1,5]"
-        ],
+        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from all enemies for 5 turns"],
         "effects_raw": [[2, 1, 140, [0,  0,  0,  0,  0,  1,  0,  0,  1,  5]]]
     },
     "212280": {
@@ -57864,7 +57842,7 @@
         "execute_type": "Default",
         "effects": [
             "Magic* light and dark damage (2x, MAG) to all enemies",
-            "Instant KO (100%) to one random enemy"
+            "Instant KO (100%) to one random enemy (ignores death resist)"
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  200]], [3, 1, 35, [100]]]
     },
@@ -59882,7 +59860,7 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": [
-            "Instant KO (100%) to all enemies",
+            "Instant KO (100%) to all enemies (ignores death resist)",
             "Remove all buffs and debuffs from all enemies"
         ],
         "effects_raw": [[2, 1, 35, [100]], [2, 1, 59, ["none"]]]
@@ -60858,7 +60836,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (50%) to one enemy (ignores death resist)"
+            "Instant KO (50%) to one enemy"
         ],
         "effects_raw": [[1, 1, 35, [50,  1,  0]]]
     },
@@ -64122,7 +64100,7 @@
         "execute_type": "Instant KO",
         "effects": [
             "[Death]",
-            "Instant KO (100%) to one enemy (ignores death resist)",
+            "Instant KO (100%) to one enemy",
             "Inflict Petrify (100%) on one enemy"
         ],
         "effects_raw": [[1, 1, 35, [100,  1,  0]], [1, 1, 6, [0,  0,  0,  0,  0,  0,  0,  100,  1]]]
@@ -64181,7 +64159,7 @@
         "effects": [
             "Reduce resistance to Light by 120% for 3 turns to all enemies",
             "Magic light damage (12x, MAG) to all enemies",
-            "Magic light damage 1 per turn to all enemies for 3 turns"
+            "Magic light damage 0 per turn to all enemies for 3 turns"
         ],
         "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  0,  0,  -120,  0,  1,  3]], [2, 1, 15, [0,  0,  0,  0,  0,  1200]], [2, 1, 139, [3,  0,  550,  0,  3,  1,  5]]]
     },
@@ -64224,7 +64202,7 @@
         "effects": [
             "Reduce resistance to Light by 100% for 3 turns to all enemies",
             "Magic light damage (14.5x, MAG) to all enemies",
-            "Magic light damage 1 per turn to all enemies for 3 turns"
+            "Magic light damage 0 per turn to all enemies for 3 turns"
         ],
         "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  0,  0,  -100,  0,  1,  3]], [2, 1, 15, [0,  0,  0,  0,  0,  1450]], [2, 1, 139, [3,  0,  550,  0,  3,  1,  5]]]
     },
@@ -64270,7 +64248,7 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": [
-            "Unknown active effect type '140': [1,1,1,1,1,0,1,0,1,3]",
+            "Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from all enemies for 3 turns",
             "Inflict one random status effect (Poison, Blind, Sleep, Silence, Paralyze and Disease 100%) to all enemies"
         ],
         "effects_raw": [[2, 1, 140, [1,  1,  1,  1,  1,  0,  1,  0,  1,  3]], [2, 1, 34, [100,  100,  100,  100,  100,  0,  100,  0,  1,  1]]]
@@ -64391,7 +64369,7 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": [
-            "Unknown active effect type '140': [1,1,1,1,1,1,1,1,1,3]",
+            "Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from all enemies for 3 turns",
             "Inflict one random status effect (100%) to all enemies"
         ],
         "effects_raw": [[2, 1, 140, [1,  1,  1,  1,  1,  1,  1,  1,  1,  3]], [2, 1, 34, [100,  100,  100,  100,  100,  100,  100,  100,  1,  1]]]
