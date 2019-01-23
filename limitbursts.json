@@ -21923,6 +21923,168 @@
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  2450,  0]], [1, 1, 33, [0,  0,  0,  -100,  0,  0,  0,  0,  1,  3]], [1, 1, 24, [-74,  -74,  -74,  -74,  3,  1]]]},
         "strings": []
     },
+    "206002305": {
+        "name": "真・裁きの光",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[30,  30,  40]],
+        "attack_frames": [[170,  178,  186]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 24,
+            "effects": [
+                "Magic damage (21.1x, MAG) to all enemies",
+                "Reduce SPR by 55% for 4 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2110,  0]], [2, 1, 24, [0,  0,  0,  -55,  4,  1]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": [
+                "Magic damage (23x, MAG) to all enemies",
+                "Reduce SPR by 55% for 4 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2300,  0]], [2, 1, 24, [0,  0,  0,  -55,  4,  1]]]},
+        "strings": []
+    },
+    "206002306": {
+        "name": "真・裁きの光",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[30,  30,  40]],
+        "attack_frames": [[170,  178,  186]],
+        "effect_frames": [[0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 30,
+            "effects": [
+                "Magic damage (25.6x, MAG) to all enemies",
+                "Reduce SPR by 60% for 4 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2560,  0]], [2, 1, 24, [0,  0,  0,  -60,  4,  1]]]},
+        "max_level": {
+            "cost": 30,
+            "effects": [
+                "Magic damage (28x, MAG) to all enemies",
+                "Reduce SPR by 60% for 4 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2800,  0]], [2, 1, 24, [0,  0,  0,  -60,  4,  1]]]},
+        "strings": []
+    },
+    "206002307": {
+        "name": "真・裁きの光",
+        "cost": 0,
+        "attack_count": [3],
+        "attack_damage": [[30,  30,  40]],
+        "attack_frames": [[170,  178,  186]],
+        "effect_frames": [[0,  0,  0]],
+        "move_type": 1,
+        "damage_type": "Magic",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 36,
+            "effects": [
+                "Magic damage (30.1x, MAG) to all enemies",
+                "Reduce SPR by 65% for 4 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3010,  0]], [2, 1, 24, [0,  0,  0,  -65,  4,  1]]]},
+        "max_level": {
+            "cost": 36,
+            "effects": [
+                "Magic damage (33x, MAG) to all enemies",
+                "Reduce SPR by 65% for 4 turns to all enemies"
+            ],
+            "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3300,  0]], [2, 1, 24, [0,  0,  0,  -65,  4,  1]]]},
+        "strings": []
+    },
+    "206002405": {
+        "name": "シャドウファング",
+        "cost": 0,
+        "attack_count": [10],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  30,  30]],
+        "attack_frames": [[51,  62,  71,  80,  83,  107,  124,  138,  169,  183]],
+        "effect_frames": [[0,  181,  0], [230,  230]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 20,
+        "min_level": {
+            "cost": 24,
+            "effects": [
+                "Physical damage (22.1x, ATK) to one enemy",
+                "Increase ATK by 150% for 4 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  2210,  0]], [0, 3, 3, [150,  0,  0,  0,  4,  1,  0]]]},
+        "max_level": {
+            "cost": 24,
+            "effects": [
+                "Physical damage (24x, ATK) to one enemy",
+                "Increase ATK by 150% for 4 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  2400,  0]], [0, 3, 3, [150,  0,  0,  0,  4,  1,  0]]]},
+        "strings": []
+    },
+    "206002406": {
+        "name": "シャドウファング",
+        "cost": 0,
+        "attack_count": [10],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  30,  30]],
+        "attack_frames": [[51,  62,  71,  80,  83,  107,  124,  138,  169,  183]],
+        "effect_frames": [[0,  181,  0], [230,  230]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 25,
+        "min_level": {
+            "cost": 29,
+            "effects": [
+                "Physical damage (24.6x, ATK) to one enemy",
+                "Increase ATK by 175% for 4 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  2460,  0]], [0, 3, 3, [175,  0,  0,  0,  4,  1,  0]]]},
+        "max_level": {
+            "cost": 29,
+            "effects": [
+                "Physical damage (27x, ATK) to one enemy",
+                "Increase ATK by 175% for 4 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  2700,  0]], [0, 3, 3, [175,  0,  0,  0,  4,  1,  0]]]},
+        "strings": []
+    },
+    "206002407": {
+        "name": "シャドウファング",
+        "cost": 0,
+        "attack_count": [10],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  30,  30]],
+        "attack_frames": [[51,  62,  71,  80,  83,  107,  124,  138,  169,  183]],
+        "effect_frames": [[0,  181,  0], [230,  230]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 34,
+            "effects": [
+                "Physical damage (27.1x, ATK) to one enemy",
+                "Increase ATK by 200% for 4 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  2710,  0]], [0, 3, 3, [200,  0,  0,  0,  4,  1,  0]]]},
+        "max_level": {
+            "cost": 34,
+            "effects": [
+                "Physical damage (30x, ATK) to one enemy",
+                "Increase ATK by 200% for 4 turns to caster"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  3000,  0]], [0, 3, 3, [200,  0,  0,  0,  4,  1,  0]]]},
+        "strings": []
+    },
     "207000105": {
         "name": "超究武神覇斬",
         "cost": 0,
@@ -37570,6 +37732,35 @@
                 "Increase damage of ど・ろ・ぼ・う？ (509824), アクアライズダガー (230999), サブマージダガー (230998) and トレジャーハンターと言ってくれ！ (509825) by 500% for 6 turns"
             ],
             "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  3900,  0]], [1, 1, 33, [0,  0,  0,  -120,  0,  0,  0,  0,  1,  3]], [1, 1, 24, [-84,  -84,  -84,  -84,  3,  1]], [0, 3, 136, [[230998,  230999,  509825,  509824], 0, 0, 500, 6, 1, 11189, 0]]]},
+        "strings": []
+    },
+    "900000336": {
+        "name": "シャドウファング",
+        "cost": 0,
+        "attack_count": [10],
+        "attack_damage": [[5,  5,  5,  5,  5,  5,  5,  5,  30,  30]],
+        "attack_frames": [[51,  62,  71,  80,  83,  107,  124,  138,  169,  183]],
+        "effect_frames": [[0,  181,  0], [230,  230]],
+        "move_type": 1,
+        "damage_type": "Physical",
+        "element_inflict": null,
+        "levels": 30,
+        "min_level": {
+            "cost": 34,
+            "effects": [
+                "Physical damage (42.1x, ATK) to one enemy",
+                "Increase ATK by 200% for 4 turns to caster",
+                "Increase physical damage against Humans by 25% to caster for 4 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  4210,  0]], [0, 3, 3, [200,  0,  0,  0,  4,  1,  0]], [0, 3, 92, [[5,  25], -1, -1, -1, -1, -1, -1, -1, 4, 1]]]},
+        "max_level": {
+            "cost": 34,
+            "effects": [
+                "Physical damage (45x, ATK) to one enemy",
+                "Increase ATK by 200% for 4 turns to caster",
+                "Increase physical damage against Humans by 25% to caster for 4 turns"
+            ],
+            "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  4500,  0]], [0, 3, 3, [200,  0,  0,  0,  4,  1,  0]], [0, 3, 92, [[5,  25], -1, -1, -1, -1, -1, -1, -1, 4, 1]]]},
         "strings": []
     },
     "905000102": {
