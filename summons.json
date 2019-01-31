@@ -1567,5 +1567,70 @@
                 "stat_pattern": 2
             }
         ]
+    },
+    "19": {
+        "names": ["黒龍"],
+        "image": "beast211.png",
+        "icon": "beast_thum211.png",
+        "skill": {
+            "11901": {
+                "effects": ["Physical* water damage (280x, EVO ATK) to all enemies"],
+                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  28000]]],
+                "attack_count": [1],
+                "attack_damage": [[100]],
+                "attack_frames": [[80]],
+                "effect_frames": [[0,  0]],
+                "strings": {
+                    "name": "頂龍の奔流",
+                    "desc": "敵全体に水属性ダメージ"
+                }
+            },
+            "11902": {
+                "effects": ["Physical* water damage (380x, EVO ATK) to all enemies"],
+                "effects_raw": [[2, 1, 79, [0,  0,  0,  0,  0,  0,  1,  38000]]],
+                "attack_count": [1],
+                "attack_damage": [[100]],
+                "attack_frames": [[80]],
+                "effect_frames": [[0,  0]],
+                "strings": {
+                    "name": "頂龍の奔流",
+                    "desc": "敵全体に水属性ダメージ"
+                }
+            }
+        },
+        "color": {
+            "Blue": 1.5,
+            "Orange": 1.5
+        },
+        "entries": [
+            {
+                "stats": {
+                    "HP": [4000, 5200],
+                    "MP": [3200, 4000],
+                    "ATK": [3300, 3900],
+                    "DEF": [1140, 1800],
+                    "MAG": [1320, 2100],
+                    "SPR": [1600, 2000]
+                },
+                "element_resist": [0, 0, -50, 50, -25, 25, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "exp_pattern": 33,
+                "stat_pattern": 2
+            },
+            {
+                "stats": {
+                    "HP": [5400, 7800],
+                    "MP": [4200, 6200],
+                    "ATK": [4100, 6400],
+                    "DEF": [2000, 3600],
+                    "MAG": [2300, 4200],
+                    "SPR": [2200, 3000]
+                },
+                "element_resist": [0, 0, -50, 50, -25, 25, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "exp_pattern": 43,
+                "stat_pattern": 2
+            }
+        ]
     }
 }
