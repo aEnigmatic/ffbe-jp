@@ -2998,9 +2998,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": [
-            "Unknown active effect type '14': [3]"
-        ],
+        "effects": ["3 physical attacks"],
         "effects_raw": [[1, 1, 14, [3]]]
     },
     "152130": {
@@ -3277,9 +3275,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": [
-            "Unknown active effect type '14': [5]"
-        ],
+        "effects": ["5 physical attacks"],
         "effects_raw": [[3, 1, 14, [5]]]
     },
     "152450": {
@@ -47455,7 +47451,7 @@
         "execute_type": "Default",
         "effects": [
             "Increase ATK and MAG by 20% for 3 turns to caster (can not be removed)",
-            "Reduce DEF and SPR by 20% for 3 turns to caster"
+            "Reduce DEF and SPR by 20% for 3 turns to caster (can not be removed)"
         ],
         "effects_raw": [[0, 3, 3, [20,  0,  20,  0,  3,  1,  1]], [0, 3, 24, [0,  -20,  0,  -20,  3,  1,  1]]]
     },
@@ -73230,9 +73226,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": [
-            "Unknown active effect type '144': [0,100,0,0,0,0,0,0,1]"
-        ],
+        "effects": ["Inflict Zombie (100%) to one enemy"],
         "effects_raw": [[1, 1, 144, [0,  100,  0,  0,  0,  0,  0,  0,  1]]]
     },
     "216280": {
