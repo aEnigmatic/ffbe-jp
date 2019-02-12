@@ -5661,6 +5661,37 @@
         "price_sell": 7500,
         "icon": "item_10357.png"
     },
+    "303006600": {
+        "name": "黒鉄の破壊剣",
+        "compendium_id": 1337,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [231292],
+        "effects": ["Grants '大禍を呼ぶ黒鉄' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 181,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_10358.png"
+    },
     "304000100": {
         "name": "虎鉄",
         "compendium_id": 21,
@@ -17096,6 +17127,37 @@
         "price_sell": 9000,
         "icon": "item_11220.png"
     },
+    "314002200": {
+        "name": "真・エンプレスビュート",
+        "compendium_id": 1334,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 12,
+        "type": "Whip",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [231202],
+        "effects": ["Grants '魔人の鞭' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 74,
+            "DEF": 0,
+            "MAG": 172,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 180000,
+        "price_sell": 18000,
+        "icon": "item_11222.png"
+    },
     "315000100": {
         "name": "ブーメラン",
         "compendium_id": 97,
@@ -26287,6 +26349,39 @@
         "price_buy": 10000,
         "price_sell": 1000,
         "icon": "item_20166.png"
+    },
+    "405006700": {
+        "name": "バレンタインタキシード",
+        "compendium_id": 1335,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 120,
+            "ATK": 0,
+            "DEF": 12,
+            "MAG": 60,
+            "SPR": 20,
+            "element_resist": {
+                "Ice": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_20167.png"
     },
     "406000100": {
         "name": "レザープレート",
@@ -39362,5 +39457,107 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_50432.png"
+    },
+    "409030600": {
+        "name": "紅き女帝",
+        "compendium_id": 1332,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 75,
+            "ATK": 0,
+            "DEF": 12,
+            "MAG": 30,
+            "SPR": 12,
+            "element_resist": {
+                "Fire": 20,
+                "Earth": 20,
+                "Dark": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_50433.png"
+    },
+    "409030700": {
+        "name": "ウィッチルージュ",
+        "compendium_id": 1333,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": [
+            "SEX",
+            2
+        ],
+        "skills": [231200],
+        "effects": ["Grants 'ウィッチルージュ' passive."],
+        "stats": {
+            "HP": 100,
+            "MP": 50,
+            "ATK": 10,
+            "DEF": 0,
+            "MAG": 10,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "item_50434.png"
+    },
+    "409030800": {
+        "name": "スウィートイヤリング",
+        "compendium_id": 1336,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100030],
+        "effects": ["Grants 'HP+30%' passive."],
+        "stats": {
+            "HP": 300,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 45,
+            "MAG": 30,
+            "SPR": 45,
+            "element_resist": {
+                "Water": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_50435.png"
     }
 }
