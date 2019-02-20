@@ -73127,7 +73127,7 @@
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  450]], [2, 1, 6, [20,  0,  0,  0,  0,  0,  0,  0,  1]]]
     },
     "216269": {
-        "name": "腐土散布",
+        "name": "病魔のいななき",
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
@@ -73176,7 +73176,7 @@
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]]]
     },
     "216274": {
-        "name": "恐怖の微笑",
+        "name": "骨抜きの微笑",
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
@@ -73201,9 +73201,9 @@
         "execute_type": "Percentual DMG",
         "effects": [
             "50% HP damage to all enemies",
-            "Inflict Poison (100%) on all enemies"
+            "Inflict Poison and Silence (100%) on all enemies"
         ],
-        "effects_raw": [[2, 1, 9, [50,  50,  100,  0]], [2, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]]]
+        "effects_raw": [[2, 1, 9, [50,  50,  100,  0]], [2, 1, 6, [100,  0,  0,  100,  0,  0,  0,  0,  1]]]
     },
     "216277": {
         "name": "石化の瞳",
@@ -73214,7 +73214,7 @@
         "effects_raw": [[1, 1, 6, [0,  0,  0,  0,  0,  0,  0,  100,  1]]]
     },
     "216278": {
-        "name": "蛇の鞭",
+        "name": "蛇のムチ",
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
