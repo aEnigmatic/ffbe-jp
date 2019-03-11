@@ -74294,12 +74294,542 @@
         "attack_type": "Magic",
         "execute_type": "Default",
         "effects": ["Remove all buffs and debuffs from caster"],
+        "effects_raw": [[0, 3, 59, ["none"]]]
+    },
+    "216399": {
+        "name": "はんげきのつの ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.9x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  190]]]
+    },
+    "216400": {
+        "name": "マザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #3"],
+        "effects_raw": [[0, 2, 87, [1, 3, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216401": {
+        "name": "マザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #4"],
+        "effects_raw": [[0, 2, 87, [1, 4, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216402": {
+        "name": "マザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #5"],
+        "effects_raw": [[0, 2, 87, [1, 5, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216403": {
+        "name": "マザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #6"],
+        "effects_raw": [[0, 2, 87, [1, 6, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216404": {
+        "name": "マザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #7"],
+        "effects_raw": [[0, 2, 87, [1, 7, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216405": {
+        "name": "マザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #8"],
+        "effects_raw": [[0, 2, 87, [1, 8, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216406": {
+        "name": "マザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #9"],
+        "effects_raw": [[0, 2, 87, [1, 9, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216407": {
+        "name": "マザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #10"],
+        "effects_raw": [[0, 2, 87, [1, 10, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216408": {
+        "name": "マザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon random ally"],
+        "effects_raw": [[0, 2, 87, [1, 0, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216409": {
+        "name": "ば　く　は　つ　するーーーー！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Fire by 90% for 2 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [-90,  0,  0,  0,  0,  0,  0,  0,  1,  2]]]
+    },
+    "216410": {
+        "name": "だいばくはつ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Magic* fire damage (5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  500]]]
+    },
+    "216411": {
+        "name": "ちからをためて　こうげきりょく　アップ！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK by 10% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [10,  0,  0,  0,  3,  1]]]
+    },
+    "216412": {
+        "name": "張り手",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]]]
+    },
+    "216413": {
+        "name": "平手打ち",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (2.9x, ATK) to one enemy",
+            "Reduce ATK and MAG by 30% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  290]], [1, 1, 24, [-30,  0,  -30,  0,  3,  1]]]
+    },
+    "216414": {
+        "name": "ダブルラリアット",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  250]]]
+    },
+    "216415": {
+        "name": "炎が大地を包む",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Add Fire element (100%) to physical attacks for 2 turns to all enemies"],
+        "effects_raw": [[2, 1, 95, [100,  0,  0,  0,  0,  0,  0,  0,  2,  1]]]
+    },
+    "216416": {
+        "name": "あたりは静まり返っている……",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
+        "effects_raw": [[0, 3, 24, [0,  0,  0,  0,  0,  1]]]
+    },
+    "216417": {
+        "name": "アスピル爆発",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Drain MP",
+        "effects": [
+            "Hybrid* damage (0.04x, ATK & MAG) as MP drain (100%) to all enemies",
+            "Reduce resistance to all elements by 60% for 5 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 10, [100,  4,  100]], [2, 1, 33, [-60,  -60,  -60,  -60,  -60,  -60,  -60,  -60,  1,  5]]]
+    },
+    "216418": {
+        "name": "ファザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #3"],
+        "effects_raw": [[0, 2, 87, [1, 3, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216419": {
+        "name": "ファザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #4"],
+        "effects_raw": [[0, 2, 87, [1, 4, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216420": {
+        "name": "ファザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #5"],
+        "effects_raw": [[0, 2, 87, [1, 5, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216421": {
+        "name": "ファザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #6"],
+        "effects_raw": [[0, 2, 87, [1, 6, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216422": {
+        "name": "ファザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #7"],
+        "effects_raw": [[0, 2, 87, [1, 7, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216423": {
+        "name": "ファザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #8"],
+        "effects_raw": [[0, 2, 87, [1, 8, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216424": {
+        "name": "ファザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #9"],
+        "effects_raw": [[0, 2, 87, [1, 9, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216425": {
+        "name": "ファザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #10"],
+        "effects_raw": [[0, 2, 87, [1, 10, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216426": {
+        "name": "ファザーボムは悲鳴をあげた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon random ally"],
+        "effects_raw": [[0, 2, 87, [1, 0, "あたりは静まり返っている……", 100, 0]]]
+    },
+    "216427": {
+        "name": "こ　お　り　つくーーーー！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Ice by 90% for 2 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  -90,  0,  0,  0,  0,  0,  0,  1,  2]]]
+    },
+    "216428": {
+        "name": "だいひょうけつ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Magic* ice damage (5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  500]]]
+    },
+    "216429": {
+        "name": "しゅうちゅうして　まりょく　アップ！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase MAG by 10% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [0,  0,  10,  0,  3,  1]]]
+    },
+    "216430": {
+        "name": "水平チョップ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]]]
+    },
+    "216431": {
+        "name": "氷炎弾",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic fire and ice damage (2.9x, MAG) to one enemy",
+            "Reduce DEF and SPR by 30% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  290]], [1, 1, 24, [0,  -30,  0,  -30,  3,  1]]]
+    },
+    "216432": {
+        "name": "ブリザードボム",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic fire and ice damage (2.5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  250]]]
+    },
+    "216433": {
+        "name": "氷が大空を覆う",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Add Ice element (100%) to physical attacks for 2 turns to all enemies"],
+        "effects_raw": [[2, 1, 95, [0,  100,  0,  0,  0,  0,  0,  0,  2,  1]]]
+    },
+    "216434": {
+        "name": "青白い霧を吹き出した",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Remove ATK, DEF, MAG, SPR, Stop and Charm debuff from caster",
+            "Dodge 3 physical attacks for 5 turns to caster"
+        ],
+        "effects_raw": [[0, 3, 111, [1,  1,  1,  1,  1,  1]], [0, 3, 54, [3,  5,  0]]]
+    },
+    "216435": {
+        "name": "ファイア",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic fire damage (5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]]]
+    },
+    "216436": {
+        "name": "ブリザド",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic ice damage (5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]]]
+    },
+    "216437": {
+        "name": "サンダー",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic lightning damage (5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]]]
+    },
+    "216438": {
+        "name": "ウォータ",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic water damage (5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]]]
+    },
+    "216439": {
+        "name": "エアロ",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic wind damage (5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]]]
+    },
+    "216440": {
+        "name": "ストーン",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic earth damage (5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]]]
+    },
+    "216441": {
+        "name": "ディア",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic light damage (5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]]]
+    },
+    "216442": {
+        "name": "ダーク",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic dark damage (5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]]]
+    },
+    "216443": {
+        "name": "ファイヤーボムキッドが震えだした",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase MAG by 10% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [0,  0,  10,  0,  3,  1]]]
+    },
+    "216444": {
+        "name": "アイスボムキッドが震えだした",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase MAG by 10% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [0,  0,  10,  0,  3,  1]]]
+    },
+    "216445": {
+        "name": "サンダーボムキッドが震えだした",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase MAG by 10% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [0,  0,  10,  0,  3,  1]]]
+    },
+    "216446": {
+        "name": "ウォーターボムキッドが震えだした",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase MAG by 10% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [0,  0,  10,  0,  3,  1]]]
+    },
+    "216447": {
+        "name": "ウインドボムキッドが震えだした",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase MAG by 10% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [0,  0,  10,  0,  3,  1]]]
+    },
+    "216448": {
+        "name": "ストーンボムキッドが震えだした",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase MAG by 10% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [0,  0,  10,  0,  3,  1]]]
+    },
+    "216449": {
+        "name": "ライトボムキッドが震えだした",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase MAG by 10% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [0,  0,  10,  0,  3,  1]]]
+    },
+    "216450": {
+        "name": "ダークボムキッドが震えだした",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase MAG by 10% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [0,  0,  10,  0,  3,  1]]]
+    },
+    "216451": {
+        "name": "ウィーク",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to all elements by 30% for 3 turns to one enemy"],
+        "effects_raw": [[1, 1, 33, [-30,  -30,  -30,  -30,  -30,  -30,  -30,  -30,  1,  3]]]
+    },
+    "216452": {
+        "name": "自爆",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Magic* fire damage (15x, MAG) to all enemies",
+            "Instant KO (100%) to caster (ignores death resist)"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1500,  999]], [0, 3, 35, [100]]]
+    },
+    "216453": {
+        "name": "自爆",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Magic* ice damage (15x, MAG) to all enemies",
+            "Instant KO (100%) to caster (ignores death resist)"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1500,  999]], [0, 3, 35, [100]]]
+    },
+    "216454": {
+        "name": "自爆",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Magic* lightning damage (15x, MAG) to all enemies",
+            "Instant KO (100%) to caster (ignores death resist)"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1500,  999]], [0, 3, 35, [100]]]
+    },
+    "216455": {
+        "name": "自爆",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Magic* water damage (15x, MAG) to all enemies",
+            "Instant KO (100%) to caster (ignores death resist)"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1500,  999]], [0, 3, 35, [100]]]
+    },
+    "216456": {
+        "name": "自爆",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Magic* wind damage (15x, MAG) to all enemies",
+            "Instant KO (100%) to caster (ignores death resist)"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1500,  999]], [0, 3, 35, [100]]]
+    },
+    "216457": {
+        "name": "自爆",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Magic* earth damage (15x, MAG) to all enemies",
+            "Instant KO (100%) to caster (ignores death resist)"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1500,  999]], [0, 3, 35, [100]]]
+    },
+    "216458": {
+        "name": "自爆",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Magic* light damage (15x, MAG) to all enemies",
+            "Instant KO (100%) to caster (ignores death resist)"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1500,  999]], [0, 3, 35, [100]]]
+    },
+    "216459": {
+        "name": "自爆",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Magic* dark damage (15x, MAG) to all enemies",
+            "Instant KO (100%) to caster (ignores death resist)"
+        ],
         "effects_raw": [
+            [
+                2,
+                1,
+                15,
+                [0, 0, 0, 0, 0, 1500, 999]
+            ],
             [
                 0,
                 3,
-                59,
-                ["none"]
+                35,
+                [100]
             ]
         ]
     }
