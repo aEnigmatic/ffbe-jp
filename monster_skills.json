@@ -24473,7 +24473,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Hybrid",
         "execute_type": "Default",
-        "effects": ["Hybrid 300 damage (10x, ATK & MAG) to all enemies"],
+        "effects": ["Hybrid damage (10x, ATK & MAG) to all enemies (+300% accuracy)"],
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  300,  1000,  1000]]]
     },
     "176630": {
@@ -58609,7 +58609,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Hybrid",
         "execute_type": "Default",
-        "effects": ["Hybrid 50 damage (7x, ATK & MAG) to one enemy"],
+        "effects": ["Hybrid damage (7x, ATK & MAG) to one enemy (+50% accuracy)"],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  50,  700,  700]]]
     },
     "213170": {
@@ -58633,7 +58633,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Hybrid",
         "execute_type": "Default",
-        "effects": ["Hybrid 50 damage (6x, ATK & MAG) to all enemies"],
+        "effects": ["Hybrid damage (6x, ATK & MAG) to all enemies (+50% accuracy)"],
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  50,  600,  600]]]
     },
     "213200": {
@@ -58642,7 +58642,7 @@
         "attack_type": "Hybrid",
         "execute_type": "Default",
         "effects": [
-            "Hybrid 50 damage (8x, ATK & MAG) to one enemy",
+            "Hybrid damage (8x, ATK & MAG) to one enemy (+50% accuracy)",
             "Inflict Silence (50%) on one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  50,  800,  800]], [1, 1, 6, [0,  0,  0,  50,  0,  0,  0,  0,  1]]]
@@ -58653,7 +58653,7 @@
         "attack_type": "Hybrid",
         "execute_type": "Default",
         "effects": [
-            "Hybrid 50 damage (8x, ATK & MAG) to one enemy",
+            "Hybrid damage (8x, ATK & MAG) to one enemy (+50% accuracy)",
             "Inflict Stop (30%) for 3 turns on one enemy"
         ],
         "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  50,  800,  800]], [1, 1, 88, [30,  3]]]
@@ -58695,7 +58695,7 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": [
-            "Hybrid* lightning 100 damage (3x, ATK & MAG) to all enemies",
+            "Hybrid* lightning damage (3x, ATK & MAG) to all enemies (+100% accuracy)",
             "Inflict Paralyze (100%) on all enemies"
         ],
         "effects_raw": [[2, 1, 40, [0,  0,  0,  0,  0,  0,  0,  100,  300,  300]], [2, 1, 6, [0,  0,  0,  0,  100,  0,  0,  0,  1]]]
