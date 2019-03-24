@@ -60348,7 +60348,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": ["Physical damage (3x, ATK) to one enemy"],
+        "effects": ["Physical lightning damage (3x, ATK) to one enemy"],
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
     },
     "214724": {
@@ -60356,7 +60356,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": ["Physical damage (3x, ATK) to all enemies"],
+        "effects": ["Physical lightning damage (3x, ATK) to all enemies"],
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
     },
     "214725": {
@@ -60388,7 +60388,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": ["Physical damage (3x, ATK) to one enemy"],
+        "effects": ["Physical lightning damage (3x, ATK) to one enemy"],
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
     },
     "214729": {
@@ -60396,7 +60396,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": ["Physical damage (3x, ATK) to all enemies"],
+        "effects": ["Physical lightning damage (3x, ATK) to all enemies"],
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
     },
     "214730": {
@@ -74818,17 +74818,239 @@
             "Magic* dark damage (15x, MAG) to all enemies",
             "Instant KO (100%) to caster (ignores death resist)"
         ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1500,  999]], [0, 3, 35, [100]]]
+    },
+    "216460": {
+        "name": "厄災",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (1.2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120]]]
+    },
+    "216461": {
+        "name": "レーザー",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (1.3x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  130]]]
+    },
+    "216462": {
+        "name": "コンプレッション",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (1.2x, ATK) to one enemy",
+            "Inflict Paralyze (25%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  120]], [1, 1, 6, [0,  0,  0,  0,  25,  0,  0,  0,  1]]]
+    },
+    "216463": {
+        "name": "厄災",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  200]]]
+    },
+    "216464": {
+        "name": "レーザー",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (2.1x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  210]]]
+    },
+    "216465": {
+        "name": "コンプレッション",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (2x, ATK) to one enemy",
+            "Inflict Paralyze (25%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  200]], [1, 1, 6, [0,  0,  0,  0,  25,  0,  0,  0,  1]]]
+    },
+    "216466": {
+        "name": "クラッシュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Percentual DMG",
+        "effects": ["25% HP damage to one enemy"],
+        "effects_raw": [[1, 1, 9, [25,  25,  100]]]
+    },
+    "216467": {
+        "name": "破壊の行進",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.1x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  210]]]
+    },
+    "216468": {
+        "name": "厄災",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (2.3x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  230]]]
+    },
+    "216469": {
+        "name": "レーザー",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (2.4x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  240]]]
+    },
+    "216470": {
+        "name": "コンプレッション",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (2.3x, ATK) to one enemy",
+            "Inflict Paralyze (25%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  230]], [1, 1, 6, [0,  0,  0,  0,  25,  0,  0,  0,  1]]]
+    },
+    "216471": {
+        "name": "クラッシュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Percentual DMG",
+        "effects": ["30% HP damage to one enemy"],
+        "effects_raw": [[1, 1, 9, [30,  30,  100]]]
+    },
+    "216472": {
+        "name": "破壊の行進",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.4x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  240]]]
+    },
+    "216473": {
+        "name": "大厄災",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (2.4x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  240]]]
+    },
+    "216474": {
+        "name": "クリスタルエネルギー吸収",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK and MAG by 30% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [30,  0,  30,  0,  3,  1]]]
+    },
+    "216475": {
+        "name": "厄災",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (5.5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  550]]]
+    },
+    "216476": {
+        "name": "レーザー",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (5.6x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  560]]]
+    },
+    "216477": {
+        "name": "コンプレッション",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (5.5x, ATK) to one enemy",
+            "Inflict Paralyze (40%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  550]], [1, 1, 6, [0,  0,  0,  0,  40,  0,  0,  0,  1]]]
+    },
+    "216478": {
+        "name": "クラッシュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Percentual DMG",
+        "effects": ["35% HP damage to one enemy"],
+        "effects_raw": [[1, 1, 9, [35,  35,  100]]]
+    },
+    "216479": {
+        "name": "破壊の行進",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (5.6x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  560]]]
+    },
+    "216480": {
+        "name": "大厄災",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (8.4x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  840]]]
+    },
+    "216481": {
+        "name": "プロテクトシェル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce physical damage taken by 100% to caster for one turn (can not be removed)"],
+        "effects_raw": [[0, 3, 115, [100,  0,  1,  1]]]
+    },
+    "216482": {
+        "name": "マジックシェル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce magic damage taken by 100% to caster for one turn (can not be removed)"],
+        "effects_raw": [[0, 3, 116, [100,  0,  1,  1]]]
+    },
+    "216483": {
+        "name": "クリスタルエネルギー吸収",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK and MAG by 30% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [30,  0,  30,  0,  3,  1]]]
+    },
+    "216484": {
+        "name": "物理消滅の領域",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
+        "effects_raw": [[0, 3, 3, [0,  0,  0,  0,  1,  1]]]
+    },
+    "216485": {
+        "name": "魔法消滅の領域",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
+        "effects_raw": [[0, 3, 3, [0,  0,  0,  0,  1,  1]]]
+    },
+    "216486": {
+        "name": "立ち去った",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Escape Battle"],
         "effects_raw": [
-            [
-                2,
-                1,
-                15,
-                [0, 0, 0, 0, 0, 1500, 999]
-            ],
             [
                 0,
                 3,
-                35,
+                51,
                 [100]
             ]
         ]
