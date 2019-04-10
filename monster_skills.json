@@ -62101,10 +62101,10 @@
         "attack_type": "Physical",
         "execute_type": "Default",
         "effects": [
-            "Increase ATK by 50% for 3 turns to caster",
+            "Increase ATK by 10% for 3 turns to caster",
             "Reduce SPR by 80% for 3 turns to caster"
         ],
-        "effects_raw": [[0, 3, 3, [50,  0,  0,  0,  3,  1]], [0, 3, 24, [0,  0,  0,  -80,  3,  1]]]
+        "effects_raw": [[0, 3, 3, [10,  0,  0,  0,  3,  1]], [0, 3, 24, [0,  0,  0,  -80,  3,  1]]]
     },
     "214920": {
         "name": "マジッククライ",
@@ -62112,10 +62112,10 @@
         "attack_type": "Physical",
         "execute_type": "Default",
         "effects": [
-            "Increase MAG by 50% for 3 turns to caster",
+            "Increase MAG by 10% for 3 turns to caster",
             "Reduce DEF by 80% for 3 turns to caster"
         ],
-        "effects_raw": [[0, 3, 3, [0,  0,  50,  0,  3,  1]], [0, 3, 24, [0,  -80,  0,  0,  3,  1]]]
+        "effects_raw": [[0, 3, 3, [0,  0,  10,  0,  3,  1]], [0, 3, 24, [0,  -80,  0,  0,  3,  1]]]
     },
     "214921": {
         "name": "エアロ",
@@ -62591,10 +62591,10 @@
         "attack_type": "Magic",
         "execute_type": "Default",
         "effects": [
-            "Magic dark damage (4.5x, MAG) to all enemies",
+            "Magic dark damage (2.5x, MAG) to all enemies",
             "Inflict Poison (100%) on all enemies"
         ],
-        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  450]], [2, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]]]
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  250]], [2, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]]]
     },
     "214976": {
         "name": "タックル",
@@ -62642,10 +62642,10 @@
         "attack_type": "Physical",
         "execute_type": "Default",
         "effects": [
-            "Physical damage (4.5x, ATK) to one enemy",
+            "Physical damage (2x, ATK) to one enemy",
             "Inflict Petrify (100%) on one enemy"
         ],
-        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  450]], [1, 1, 6, [0,  0,  0,  0,  0,  0,  0,  100,  1]]]
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  200]], [1, 1, 6, [0,  0,  0,  0,  0,  0,  0,  100,  1]]]
     },
     "214982": {
         "name": "針千本",
@@ -62741,8 +62741,8 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": ["Physical damage (5x, ATK) to all enemies"],
-        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500]]]
+        "effects": ["Physical damage (5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  500]]]
     },
     "214993": {
         "name": "ダーガ",
@@ -62780,10 +62780,10 @@
         "attack_type": "Physical",
         "execute_type": "Default",
         "effects": [
-            "Physical damage (4x, ATK) to all enemies",
+            "Physical damage (4x, ATK) to one enemy",
             "Reduce SPR by 50% for 3 turns to one enemy"
         ],
-        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400]], [1, 1, 24, [0,  0,  0,  -50,  3,  1]]]
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400]], [1, 1, 24, [0,  0,  0,  -50,  3,  1]]]
     },
     "214997": {
         "name": "ウォタガ",
@@ -75048,6 +75048,22 @@
         "effects": ["Escape Battle"],
         "effects_raw": [[0, 3, 51, [100]]]
     },
+    "216487": {
+        "name": "魔法障壁",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce magic damage taken by 75% to caster for 999 turns (can not be removed)"],
+        "effects_raw": [[0, 3, 116, [75,  0,  999,  1]]]
+    },
+    "216488": {
+        "name": "魔法攻撃に対し高い耐性が生じた！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
+        "effects_raw": [[0, 3, 24, [0,  0,  0,  0,  0,  1]]]
+    },
     "216489": {
         "name": "黒龍の咆哮",
         "flags": [false,  false,  true,  false],
@@ -75708,12 +75724,213 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": ["Inflict Confusion (30%) on one enemy"],
+        "effects_raw": [[1, 1, 6, [0,  0,  0,  0,  0,  30,  0,  0,  1]]]
+    },
+    "216565": {
+        "name": "激突",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3.4x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  340]]]
+    },
+    "216566": {
+        "name": "土崩激突",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Physical* damage (2.8x, ATK) to all enemies",
+            "Reduce resistance to Earth by 80% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  280]], [2, 1, 33, [0,  0,  0,  0,  0,  -80,  0,  0,  1,  3]]]
+    },
+    "216567": {
+        "name": "大震動",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (3.5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  350]]]
+    },
+    "216568": {
+        "name": "魔の土石流",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Magic* earth damage (3x, MAG) to all enemies",
+            "Reduce DEF and SPR by 25% for 2 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]], [2, 1, 24, [0,  -25,  0,  -25,  2,  1]]]
+    },
+    "216569": {
+        "name": "クラッシュダウン",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Instant KO",
+        "effects": [
+            "[Death]",
+            "Instant KO (100%) to one enemy"
+        ],
+        "effects_raw": [[1, 1, 35, [100]]]
+    },
+    "216570": {
+        "name": "弱石の呪い",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
+        "effects_raw": [[1, 1, 140, [0,  0,  0,  0,  0,  0,  0,  1,  1,  3]]]
+    },
+    "216571": {
+        "name": "大弱石の呪い",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Remove all buffs and debuffs from all enemies",
+            "Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from all enemies for 3 turns"
+        ],
+        "effects_raw": [[2, 1, 59, ["none"]], [2, 1, 140, [0,  0,  0,  0,  0,  0,  0,  1,  1,  3]]]
+    },
+    "216572": {
+        "name": "石化にらみ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Inflict Petrify (100%) on one enemy"],
+        "effects_raw": [[1, 1, 6, [0,  0,  0,  0,  0,  0,  0,  100,  1]]]
+    },
+    "216573": {
+        "name": "激突",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Physical* damage (2x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
+    },
+    "216574": {
+        "name": "サイレガ",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Inflict Silence (100%) on all enemies"],
+        "effects_raw": [[2, 1, 6, [0,  0,  0,  100,  0,  0,  0,  0,  1]]]
+    },
+    "216575": {
+        "name": "ブライガ",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Inflict Blind (100%) on all enemies"],
+        "effects_raw": [[2, 1, 6, [0,  100,  0,  0,  0,  0,  0,  0,  1]]]
+    },
+    "216576": {
+        "name": "デモニックウォール",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Increase DEF and SPR by 40% for one turn to caster (can not be removed)",
+            "Increase DEF and SPR by 30% for 3 turns to caster"
+        ],
+        "effects_raw": [[0, 3, 3, [0,  40,  0,  40,  1,  1,  1]], [0, 3, 3, [0,  30,  0,  30,  3,  1]]]
+    },
+    "216577": {
+        "name": "デモンズウォールが動き出す！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK and MAG by 10% for 2 turns to caster"],
+        "effects_raw": [[0, 3, 3, [10,  0,  10,  0,  2,  1]]]
+    },
+    "216578": {
+        "name": "重力で動きが遅くなった",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
+        "effects_raw": [[0, 3, 24, [0,  0,  0,  0,  0,  1]]]
+    },
+    "216579": {
+        "name": "接近",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
+        "effects_raw": [[0, 3, 24, [0,  0,  0,  0,  0,  1]]]
+    },
+    "216580": {
+        "name": "押しつぶされた……",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Instant KO (100%) to all enemies (ignores death resist)"],
+        "effects_raw": [[2, 1, 35, [100]]]
+    },
+    "216581": {
+        "name": "煙幕",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Inflict Blind (5%) on all enemies"],
+        "effects_raw": [[2, 1, 6, [0,  5,  0,  0,  0,  0,  0,  0,  1]]]
+    },
+    "216582": {
+        "name": "胞子",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (1.8x, MAG) to all enemies",
+            "Inflict one random status effect (Poison, Silence and Disease 30%) to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  180]], [2, 1, 34, [30,  0,  0,  30,  0,  0,  30,  0,  1,  1]]]
+    },
+    "216583": {
+        "name": "不穏な胞子",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (2.3x, MAG) to all enemies",
+            "Inflict one random status effect (Poison, Silence and Disease 30%) to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  230]], [2, 1, 34, [30,  0,  0,  30,  0,  0,  30,  0,  1,  1]]]
+    },
+    "216584": {
+        "name": "押しつぶされた……",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Remove all buffs and debuffs from all enemies",
+            "Instant KO (100%) to all enemies (ignores death resist)"
+        ],
+        "effects_raw": [[2, 1, 59, ["none"]], [2, 1, 35, [100]]]
+    },
+    "216585": {
+        "name": "マインドブラスト",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (1.3x, MAG) to all enemies",
+            "Inflict Paralyze (5%) on all enemies"
+        ],
         "effects_raw": [
             [
+                2,
                 1,
+                15,
+                [0, 0, 0, 0, 0, 130]
+            ],
+            [
+                2,
                 1,
                 6,
-                [0, 0, 0, 0, 0, 30, 0, 0, 1]
+                [0, 0, 0, 0, 5, 0, 0, 0, 1]
             ]
         ]
     }
