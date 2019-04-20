@@ -47565,7 +47565,7 @@
             "Inflict Stop (50%) for 3 turns on all enemies",
             "Reduce resistance to Wind by 30% for 3 turns to all enemies"
         ],
-        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  0,  0,  0,  200,  200]], [2, 1, 88, [50,  3]], [2, 1, 33, [0,  0,  0,  0,  -30,  0,  0,  0,  1,  3]]]
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  0]], [2, 1, 88, [50,  3]], [2, 1, 33, [0,  0,  0,  0,  -30,  0,  0,  0,  1,  3]]]
     },
     "200670": {
         "name": "英雄の歌",
@@ -75919,18 +75919,192 @@
             "Magic damage (1.3x, MAG) to all enemies",
             "Inflict Paralyze (5%) on all enemies"
         ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  130]], [2, 1, 6, [0,  0,  0,  0,  5,  0,  0,  0,  1]]]
+    },
+    "216594": {
+        "name": "いんせき",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (1.2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]]
+    },
+    "216595": {
+        "name": "じわれ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic earth damage (1.2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120]]]
+    },
+    "216596": {
+        "name": "かえん",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic fire damage (1.2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120]]]
+    },
+    "216597": {
+        "name": "いんせき",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  200,  0]]]
+    },
+    "216598": {
+        "name": "じわれ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic earth damage (2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  200]]]
+    },
+    "216599": {
+        "name": "かえん",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic fire damage (2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  200]]]
+    },
+    "216600": {
+        "name": "クエイク",
+        "flags": [false,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic earth damage (2.1x, MAG) to all enemies",
+            "Reduce resistance to Wind by 25% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  210]], [2, 1, 33, [0,  0,  0,  0,  -25,  0,  0,  0,  1,  3]]]
+    },
+    "216601": {
+        "name": "メテオ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (2x * 1.33 = 2.67x, MAG) to all enemies (ignore reflect)"],
+        "effects_raw": [[2, 1, 70, [0,  0,  200,  25]]]
+    },
+    "216602": {
+        "name": "いんせき",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (2.2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  220,  0]]]
+    },
+    "216603": {
+        "name": "じわれ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic earth damage (2.2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  220]]]
+    },
+    "216604": {
+        "name": "かえん",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic fire damage (2.2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  220]]]
+    },
+    "216605": {
+        "name": "クエイク",
+        "flags": [false,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic earth damage (2.3x, MAG) to all enemies",
+            "Reduce resistance to Wind by 25% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  230]], [2, 1, 33, [0,  0,  0,  0,  -25,  0,  0,  0,  1,  3]]]
+    },
+    "216606": {
+        "name": "メテオ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (2.3x * 1.33 = 3.07x, MAG) to all enemies (ignore reflect)"],
+        "effects_raw": [[2, 1, 70, [0,  0,  230,  25]]]
+    },
+    "216607": {
+        "name": "ほのお",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic fire damage (2.3x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  230]]]
+    },
+    "216608": {
+        "name": "ザンデの魔力が研ぎ澄まされた！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase MAG by 30% for 3 turns to the attacker"],
+        "effects_raw": [[0, 2, 3, [0,  0,  30,  0,  3,  1]]]
+    },
+    "216609": {
+        "name": "ざんてつけん",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (5.5x, ATK) to all enemies",
+            "Inflict Paralyze (20%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  550]], [2, 1, 6, [0,  0,  0,  0,  20,  0,  0,  0,  1]]]
+    },
+    "216610": {
+        "name": "突進",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (5.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  550]]]
+    },
+    "216611": {
+        "name": "オーディンが構えた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK by 40% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [40,  0,  0,  0,  3,  1]]]
+    },
+    "216612": {
+        "name": "斬",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (5.2x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  520]]]
+    },
+    "216613": {
+        "name": "みねうち",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (5x, ATK) to one enemy",
+            "Inflict Paralyze (100%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  500]], [1, 1, 6, [0,  0,  0,  0,  100,  0,  0,  0,  1]]]
+    },
+    "216614": {
+        "name": "ライブラ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
         "effects_raw": [
             [
-                2,
-                1,
-                15,
-                [0, 0, 0, 0, 0, 130]
-            ],
-            [
-                2,
-                1,
-                6,
-                [0, 0, 0, 0, 5, 0, 0, 0, 1]
+                0,
+                3,
+                24,
+                [0, 0, 0, 0, 0, 1]
             ]
         ]
     }
