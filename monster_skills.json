@@ -49342,7 +49342,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
+        "effects": ["Remove resistances to Poison from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [1,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]
     },
     "202650": {
@@ -49350,7 +49350,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
+        "effects": ["Remove resistances to Blind from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  1,  0,  0,  0,  0,  0,  0,  1,  3]]]
     },
     "202660": {
@@ -49358,7 +49358,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
+        "effects": ["Remove resistances to Sleep from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  1,  0,  0,  0,  0,  0,  1,  3]]]
     },
     "202670": {
@@ -49366,7 +49366,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
+        "effects": ["Remove resistances to Silence from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  0,  1,  0,  0,  0,  0,  1,  3]]]
     },
     "202680": {
@@ -49374,7 +49374,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
+        "effects": ["Remove resistances to Paralyze from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  0,  0,  1,  0,  0,  0,  1,  3]]]
     },
     "202690": {
@@ -49382,7 +49382,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
+        "effects": ["Remove resistances to Confusion from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  0,  0,  0,  1,  0,  0,  1,  3]]]
     },
     "202700": {
@@ -49390,7 +49390,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
+        "effects": ["Remove resistances to Disease from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  0,  0,  0,  0,  1,  0,  1,  3]]]
     },
     "202710": {
@@ -49398,7 +49398,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
+        "effects": ["Remove resistances to Petrify from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  0,  0,  0,  0,  0,  1,  1,  3]]]
     },
     "202720": {
@@ -52918,7 +52918,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from all enemies for 3 turns"],
+        "effects": ["Remove resistances to Silence from all enemies for 3 turns"],
         "effects_raw": [[2, 1, 140, [0,  0,  0,  1,  0,  0,  0,  0,  1,  3]]]
     },
     "206830": {
@@ -53207,7 +53207,7 @@
         "execute_type": "Default",
         "effects": [
             "Physical damage (5x, ATK) to one enemy",
-            "Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 2 turns",
+            "Remove resistances to Poison, Blind, Confusion and Disease from one enemy for 2 turns",
             "Inflict 2 random status effects (Poison and Paralyze 100%) to one enemy"
         ],
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  500]], [1, 1, 140, [1,  1,  0,  0,  0,  1,  1,  0,  1,  2]], [1, 1, 34, [100,  0,  0,  0,  100,  0,  0,  0,  1,  2]]]
@@ -57762,7 +57762,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from all enemies for 5 turns"],
+        "effects": ["Remove resistances to Confusion from all enemies for 5 turns"],
         "effects_raw": [[2, 1, 140, [0,  0,  0,  0,  0,  1,  0,  0,  1,  5]]]
     },
     "212280": {
@@ -64246,7 +64246,7 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": [
-            "Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from all enemies for 3 turns",
+            "Remove resistances to Poison, Blind, Sleep, Silence, Paralyze and Disease from all enemies for 3 turns",
             "Inflict one random status effect (Poison, Blind, Sleep, Silence, Paralyze and Disease 100%) to all enemies"
         ],
         "effects_raw": [[2, 1, 140, [1,  1,  1,  1,  1,  0,  1,  0,  1,  3]], [2, 1, 34, [100,  100,  100,  100,  100,  0,  100,  0,  1,  1]]]
@@ -65168,7 +65168,7 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": [
-            "Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for one turn",
+            "Remove resistances to Petrify from one enemy for one turn",
             "Inflict Petrify (50%) on one enemy",
             "Remove all buffs and debuffs from one enemy"
         ],
@@ -65377,7 +65377,7 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": [
-            "Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for one turn",
+            "Remove resistances to Petrify from one enemy for one turn",
             "Inflict Petrify (100%) on one enemy",
             "Remove all buffs and debuffs from one enemy"
         ],
@@ -68431,7 +68431,7 @@
         "execute_type": "Default",
         "effects": [
             "Remove all buffs and debuffs from one enemy",
-            "Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 2 turns",
+            "Remove resistances to Confusion from one enemy for 2 turns",
             "Inflict Confusion (100%) on one enemy"
         ],
         "effects_raw": [[1, 1, 59, ["none"]], [1, 1, 140, [0,  0,  0,  0,  0,  1,  0,  0,  1,  2]], [1, 1, 6, [0,  0,  0,  0,  0,  100,  0,  0,  1]]]
@@ -68443,7 +68443,7 @@
         "execute_type": "Default",
         "effects": [
             "Remove all buffs and debuffs from one enemy",
-            "Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 2 turns",
+            "Remove resistances to Blind from one enemy for 2 turns",
             "Inflict Blind (100%) on one enemy"
         ],
         "effects_raw": [[1, 1, 59, ["none"]], [1, 1, 140, [0,  1,  0,  0,  0,  0,  0,  0,  1,  2]], [1, 1, 6, [0,  100,  0,  0,  0,  0,  0,  0,  1]]]
@@ -68531,7 +68531,7 @@
         "execute_type": "Default",
         "effects": [
             "Reduce resistance to Water and Dark by 75% for 3 turns to all enemies",
-            "Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from all enemies for 3 turns"
+            "Remove resistances to Poison, Blind and Paralyze from all enemies for 3 turns"
         ],
         "effects_raw": [[2, 1, 33, [0,  0,  0,  -75,  0,  0,  0,  -75,  1,  3]], [2, 1, 140, [1,  1,  0,  0,  1,  0,  0,  0,  1,  3]]]
     },
@@ -75205,7 +75205,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
+        "effects": ["Remove resistances to Paralyze from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  0,  0,  1,  0,  0,  0,  1,  3]]]
     },
     "216504": {
@@ -75213,7 +75213,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
+        "effects": ["Remove resistances to Confusion from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  0,  0,  0,  1,  0,  0,  1,  3]]]
     },
     "216505": {
@@ -75221,7 +75221,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
+        "effects": ["Remove resistances to Petrify from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  0,  0,  0,  0,  0,  1,  1,  3]]]
     },
     "216506": {
@@ -75780,7 +75780,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from one enemy for 3 turns"],
+        "effects": ["Remove resistances to Petrify from one enemy for 3 turns"],
         "effects_raw": [[1, 1, 140, [0,  0,  0,  0,  0,  0,  0,  1,  1,  3]]]
     },
     "216571": {
@@ -75790,7 +75790,7 @@
         "execute_type": "Default",
         "effects": [
             "Remove all buffs and debuffs from all enemies",
-            "Remove resistances to Poison, Blind, Sleep, Silence, Paralyze, Confusion, Disease and Petrify from all enemies for 3 turns"
+            "Remove resistances to Petrify from all enemies for 3 turns"
         ],
         "effects_raw": [[2, 1, 59, ["none"]], [2, 1, 140, [0,  0,  0,  0,  0,  0,  0,  1,  1,  3]]]
     },
@@ -76099,12 +76099,429 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": ["No effect"],
+        "effects_raw": [[0, 3, 24, [0,  0,  0,  0,  0,  1]]]
+    },
+    "216615": {
+        "name": "ジャンプ攻撃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.6x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  160]]]
+    },
+    "216616": {
+        "name": "鬼火",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic fire damage (1.6x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  160]]]
+    },
+    "216617": {
+        "name": "3方向遠隔攻撃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic dark damage (1.8x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  180]]]
+    },
+    "216618": {
+        "name": "闇ブレス",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic dark damage (1.7x, MAG) to one enemy",
+            "Reduce MAG by 20% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  170]], [1, 1, 24, [0,  0,  -20,  0,  3,  1]]]
+    },
+    "216619": {
+        "name": "アスピルタッチ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Drain MP",
+        "effects": [
+            "Magic damage (0.03x, MAG) as MP drain (3%) to one enemy",
+            "Inflict Poison (50%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 10, [3,  3,  100]], [1, 1, 6, [50,  0,  0,  0,  0,  0,  0,  0,  1]]]
+    },
+    "216620": {
+        "name": "闇の竜巻",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic dark damage (1.8x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  180]]]
+    },
+    "216621": {
+        "name": "跳びかかり",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.3x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  130]]]
+    },
+    "216622": {
+        "name": "液飛ばし",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.3x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  130]]]
+    },
+    "216623": {
+        "name": "突進攻撃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  150,  0]]]
+    },
+    "216624": {
+        "name": "雷ブレス",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical lightning damage (2x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  200,  0]]]
+    },
+    "216625": {
+        "name": "雷の咆哮",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical lightning damage (2.3x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  230,  0]]]
+    },
+    "216626": {
+        "name": "ツメ振り下ろし",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.1x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  210]]]
+    },
+    "216627": {
+        "name": "雷纏",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK and DEF by 30% for 3 turns to one ally"],
+        "effects_raw": [[1, 2, 3, [30,  30,  0,  0,  3,  1]]]
+    },
+    "216628": {
+        "name": "にぎりつぶす",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Percentual DMG",
+        "effects": ["25% HP damage to one enemy"],
+        "effects_raw": [[1, 1, 9, [25,  25,  100]]]
+    },
+    "216629": {
+        "name": "振りまわし",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.6x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  160]]]
+    },
+    "216630": {
+        "name": "2段斬り",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.7x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  170]]]
+    },
+    "216631": {
+        "name": "闇の手",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic dark damage (1.5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  150]]]
+    },
+    "216632": {
+        "name": "武器攻撃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.8x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]]]
+    },
+    "216633": {
+        "name": "ワイヤー攻撃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Drain MP",
+        "effects": [
+            "Physical damage (1.6x, ATK) to one enemy",
+            "Physical damage (0.03x, ATK) as MP drain (3%) to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  160]], [1, 1, 10, [3,  3,  100]]]
+    },
+    "216634": {
+        "name": "まわし蹴り",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.7x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  170]]]
+    },
+    "216635": {
+        "name": "単発ライフル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.8x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]]]
+    },
+    "216636": {
+        "name": "武器なぐり",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.8x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]]]
+    },
+    "216637": {
+        "name": "スナイパーライフル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.8x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]]]
+    },
+    "216638": {
+        "name": "なぎ払い",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.2x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  220]]]
+    },
+    "216639": {
+        "name": "突進攻撃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.3x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  230,  0]]]
+    },
+    "216640": {
+        "name": "かみつき",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.2x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  220]]]
+    },
+    "216641": {
+        "name": "渦潮",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic water damage (2.3x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  230]]]
+    },
+    "216642": {
+        "name": "大海嘯",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic water damage (4.2x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  420]]]
+    },
+    "216643": {
+        "name": "渦巻く",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK, DEF, MAG and SPR by 40% for 3 turns to one ally"],
+        "effects_raw": [[1, 2, 3, [40,  40,  40,  40,  3,  1]]]
+    },
+    "216644": {
+        "name": "はどうほう",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (12x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1200]]]
+    },
+    "216645": {
+        "name": "波動球",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (10.5x, MAG) to all enemies",
+            "Reduce ATK by 40% for 3 turns to all enemies",
+            "Inflict Silence (100%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1050]], [2, 1, 24, [-40,  0,  0,  0,  3,  1]], [2, 1, 6, [0,  0,  0,  100,  0,  0,  0,  0,  1]]]
+    },
+    "216646": {
+        "name": "全能のヴェール",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase resistance to all elements by 50% for 5 turns to caster"],
+        "effects_raw": [[0, 3, 33, [50,  50,  50,  50,  50,  50,  50,  50,  1,  5]]]
+    },
+    "216647": {
+        "name": "無への誘い",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (11.5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  1150]]]
+    },
+    "216648": {
+        "name": "完全なる無",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (5x, ATK) to all enemies",
+            "Inflict Blind (100%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  500]], [2, 1, 6, [0,  100,  0,  0,  0,  0,  0,  0,  1]]]
+    },
+    "216649": {
+        "name": "人滅の法",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Increase magic damage against Humans by 20% to caster for 3 turns",
+            "Increase physical damage against Humans by 20% to caster for 3 turns"
+        ],
+        "effects_raw": [[0, 3, 93, [[5,  20], -1, -1, -1, -1, -1, -1, -1, 3, 1]], [0, 3, 92, [[5,  20], -1, -1, -1, -1, -1, -1, -1, 3, 1]]]
+    },
+    "216650": {
+        "name": "波動爆発",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (6x, MAG) to one enemy",
+            "Magic damage (9.5x, SPR) per turn to one enemy for 3 turns"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  600]], [1, 1, 139, [3,  950,  0,  0,  3,  1,  5]]]
+    },
+    "216651": {
+        "name": "闇の氾濫",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic dark damage (12x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1200]]]
+    },
+    "216652": {
+        "name": "闇蝕",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Dark by 70% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  0,  0,  0,  -70,  1,  3]]]
+    },
+    "216653": {
+        "name": "暴走する波動",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Increase MAG by 50% for 3 turns to caster",
+            "Reduce physical damage taken by 50% to caster for one turn (can not be removed)",
+            "Reduce magic damage taken by 50% to caster for one turn (can not be removed)"
+        ],
+        "effects_raw": [[0, 3, 3, [0,  0,  50,  0,  3,  1,  0]], [0, 3, 115, [50,  0,  1,  1]], [0, 3, 116, [50,  0,  1,  1]]]
+    },
+    "216654": {
+        "name": "零式　波動砲",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (30x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3000]]]
+    },
+    "216655": {
+        "name": "集中する波動",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Increase MAG by 50% for 3 turns to caster",
+            "Reduce physical damage taken by 50% to caster for 99999 turns (can not be removed)",
+            "Reduce magic damage taken by 50% to caster for 99999 turns (can not be removed)"
+        ],
+        "effects_raw": [[0, 3, 3, [0,  0,  50,  0,  3,  1,  0]], [0, 3, 115, [50,  0,  99999,  1]], [0, 3, 116, [50,  0,  99999,  1]]]
+    },
+    "216656": {
+        "name": "圧縮式　波動砲",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (6.5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  650,  0]]]
+    },
+    "216676": {
+        "name": "稲妻",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic lightning damage (24x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2400]]]
+    },
+    "216677": {
+        "name": "吹雪",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic ice damage (24x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2400]]]
+    },
+    "216678": {
+        "name": "アトミックレイ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic fire damage (24x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2400]]]
+    },
+    "216679": {
+        "name": "フレア",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic fire damage (27x, MAG) to one enemy",
+            "Reduce resistance to Water by 30% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  2700]], [1, 1, 33, [0,  0,  0,  -30,  0,  0,  0,  0,  1,  3]]]
+    },
+    "216680": {
+        "name": "メガフレア",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (14x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1400]]]
+    },
+    "216681": {
+        "name": "メガフレア",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (18x, MAG) to all enemies"],
         "effects_raw": [
             [
-                0,
-                3,
-                24,
-                [0, 0, 0, 0, 0, 1]
+                2,
+                1,
+                15,
+                [0, 0, 0, 0, 0, 1800]
             ]
         ]
     }
