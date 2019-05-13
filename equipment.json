@@ -11928,6 +11928,39 @@
         "price_sell": 1000,
         "icon": "item_11645.png"
     },
+    "309004600": {
+        "name": "キメリエスナックル",
+        "compendium_id": 1401,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 16,
+        "type": "Fist",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 122,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Dark"],
+            "status_resist": null,
+            "status_inflict": {
+                "Poison": 60
+            }
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_11643.png"
+    },
     "309020200": {
         "name": "ブロンズナックル",
         "compendium_id": 58,
@@ -17165,6 +17198,70 @@
         "price_sell": 1200,
         "icon": "item_11454.png"
     },
+    "313006000": {
+        "name": "ブラックマグナム",
+        "compendium_id": 1400,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 14,
+        "type": "Gun",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 105,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Dark"],
+            "status_resist": null,
+            "status_inflict": {
+                "Blind": 60
+            }
+        },
+        "price_buy": 60000,
+        "price_sell": 6000,
+        "icon": "item_11448.png"
+    },
+    "313006100": {
+        "name": "ディアエーデル",
+        "compendium_id": 1404,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 14,
+        "type": "Gun",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [231974],
+        "effects": ["Grants '古代遺跡の秘宝' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 152,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Earth"],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 120000,
+        "price_sell": 12000,
+        "icon": "item_11449.png"
+    },
     "314000200": {
         "name": "レザーウィップ",
         "compendium_id": 92,
@@ -17782,6 +17879,39 @@
         "price_buy": 180000,
         "price_sell": 18000,
         "icon": "item_11222.png"
+    },
+    "314002300": {
+        "name": "ウィンドテイル",
+        "compendium_id": 1397,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 12,
+        "type": "Whip",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 78,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Wind"],
+            "status_resist": null,
+            "status_inflict": {
+                "Confusion": 40
+            }
+        },
+        "price_buy": 18000,
+        "price_sell": 1800,
+        "icon": "item_11221.png"
     },
     "315000100": {
         "name": "ブーメラン",
@@ -23959,6 +24089,70 @@
         "price_sell": 10000,
         "icon": "item_30176.png"
     },
+    "403048600": {
+        "name": "アルマースハット",
+        "compendium_id": 1393,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100100],
+        "effects": ["Grants '魔力+10%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 15,
+            "SPR": 15,
+            "element_resist": {
+                "Lightning": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 5000,
+        "price_sell": 500,
+        "icon": "item_30175.png"
+    },
+    "403048700": {
+        "name": "スナイパーゴーグル",
+        "compendium_id": 1399,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [231971],
+        "effects": ["Grants 'オートエイム' passive."],
+        "stats": {
+            "HP": 80,
+            "MP": 0,
+            "ATK": 20,
+            "DEF": 4,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "item_30173.png"
+    },
     "404000200": {
         "name": "ブロンズヘルム",
         "compendium_id": 140,
@@ -27319,6 +27513,37 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_20171.png"
+    },
+    "405007100": {
+        "name": "グランレヴェリー",
+        "compendium_id": 1394,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [231911],
+        "effects": ["Grants 'フロンティアスピリット' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 55,
+            "DEF": 10,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_20165.png"
     },
     "406000100": {
         "name": "レザープレート",
@@ -31617,6 +31842,42 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_20451.png"
+    },
+    "408005200": {
+        "name": "風来の外套",
+        "compendium_id": 1398,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 53,
+        "type": "Robe",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 10,
+            "DEF": 36,
+            "MAG": 0,
+            "SPR": 24,
+            "element_resist": {
+                "Wind": 40
+            },
+            "element_inflict": null,
+            "status_resist": {
+                "Silence": 60,
+                "Confusion": 60
+            },
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_20448.png"
     },
     "409000100": {
         "name": "鉄の篭手",
@@ -41306,5 +41567,169 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_50451.png"
+    },
+    "409032700": {
+        "name": "エーデルのイヤリング",
+        "compendium_id": 1392,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100040],
+        "effects": ["Grants 'MP+10%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 30,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_50431.png"
+    },
+    "409032800": {
+        "name": "アルマースの眼鏡",
+        "compendium_id": 1395,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [231912],
+        "effects": ["Grants 'セービングエナジー' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 35,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_50429.png"
+    },
+    "409032900": {
+        "name": "トレジャーランタン",
+        "compendium_id": 1396,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100040, 100160],
+        "effects": [
+            "Grants 'MP+10%' passive.",
+            "Grants '精神+10%' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 3,
+            "DEF": 1,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Dark": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_50430.png"
+    },
+    "409033000": {
+        "name": "ダークグローブ",
+        "compendium_id": 1402,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 28,
+            "DEF": 28,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Dark": 40
+            },
+            "element_inflict": null,
+            "status_resist": {
+                "Blind": 80
+            },
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_50421.png"
+    },
+    "409033100": {
+        "name": "エーデル専属護衛任命書",
+        "compendium_id": 1403,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [231973],
+        "effects": ["Grants '経験値UP1.75倍' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_50422.png"
     }
 }
