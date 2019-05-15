@@ -13627,6 +13627,37 @@
         "price_sell": 14000,
         "icon": "item_10646.png"
     },
+    "310005500": {
+        "name": "クレセントロッド",
+        "compendium_id": 1407,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 6,
+        "type": "Rod",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [231981],
+        "effects": ["Grants 'コネクション' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 28,
+            "DEF": 0,
+            "MAG": 135,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 70000,
+        "price_sell": 7000,
+        "icon": "item_10648.png"
+    },
     "311000200": {
         "name": "サクラの杖",
         "compendium_id": 73,
@@ -27544,6 +27575,39 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_20165.png"
+    },
+    "405007200": {
+        "name": "フェイトの服",
+        "compendium_id": 1405,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [231980],
+        "effects": ["Grants '強化エリアル' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 38,
+            "DEF": 36,
+            "MAG": 0,
+            "SPR": 36,
+            "element_resist": {
+                "Light": 60
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_20172.png"
     },
     "406000100": {
         "name": "レザープレート",
@@ -41731,5 +41795,76 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_50422.png"
+    },
+    "409033200": {
+        "name": "ショートケーキ",
+        "compendium_id": 1406,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100091, 100185],
+        "effects": [
+            "Grants '攻撃+40%' passive.",
+            "Grants '精神+40%' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 40,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 40,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Sleep": 100,
+                "Paralyze": 100,
+                "Confusion": 100
+            },
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_50457.png"
+    },
+    "409033300": {
+        "name": "ソフィアのヘアピン",
+        "compendium_id": 1408,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [231982],
+        "effects": ["Grants '紋章術士の絆' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 60,
+            "SPR": 0,
+            "element_resist": {
+                "Fire": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_50456.png"
     }
 }
