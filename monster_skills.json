@@ -77965,12 +77965,246 @@
         "attack_type": "Physical",
         "execute_type": "Default",
         "effects": ["Physical damage (2.1x, ATK) to one enemy after a one turn jump delay"],
+        "effects_raw": [[1, 1, 52, [0,  0,  1,  1,  210]]]
+    },
+    "216754": {
+        "name": "突進",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]]]
+    },
+    "216755": {
+        "name": "一万ボルト",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic lightning damage (2.5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  250]]]
+    },
+    "216756": {
+        "name": "100万ボルト",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic lightning damage (3x, MAG) to all enemies",
+            "Inflict Paralyze (100%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]], [2, 1, 6, [0,  0,  0,  0,  100,  0,  0,  0,  1]]]
+    },
+    "216757": {
+        "name": "アクアブレス",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic water damage (4x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400]]]
+    },
+    "216758": {
+        "name": "ブレイズ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["80% HP damage to one enemy"],
+        "effects_raw": [[1, 1, 9, [80,  80,  100]]]
+    },
+    "216759": {
+        "name": "石化攻撃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (3x, ATK) to one enemy",
+            "Inflict Petrify (100%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]], [1, 1, 6, [0,  0,  0,  0,  0,  0,  0,  100,  1]]]
+    },
+    "216761": {
+        "name": "くさい息",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (4x, MAG) to all enemies",
+            "Inflict all status effects (100%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400]], [2, 1, 6, [100,  100,  100,  100,  100,  100,  100,  100,  1]]]
+    },
+    "216762": {
+        "name": "消化液",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (5x, MAG) to all enemies",
+            "Reduce ATK, DEF, MAG and SPR by 100% for 10 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  500]], [2, 1, 24, [-100,  -100,  -100,  -100,  10,  1]]]
+    },
+    "216763": {
+        "name": "触手",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  500]]]
+    },
+    "216764": {
+        "name": "みだれうち",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (4.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  450]]]
+    },
+    "216765": {
+        "name": "冷凍光線",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic ice damage (4.5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  450,  0]]]
+    },
+    "216766": {
+        "name": "灼熱光線＆冷凍光線",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic fire and ice damage (4x, MAG) to one enemy",
+            "Reduce resistance to Fire and Ice by 50% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [1, 1, 33, [-50,  -50,  0,  0,  0,  0,  0,  0,  1,  3]]]
+    },
+    "216767": {
+        "name": "捕食キープ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Inflict Stop (100%) for 2 turns on one enemy",
+            "Reflect all spell(s) for one turn to one enemy"
+        ],
+        "effects_raw": [[1, 1, 88, [100,  2]], [1, 1, 86, [100,  -1,  1]]]
+    },
+    "216768": {
+        "name": "モルボルソング",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (6x, MAG) to one enemy",
+            "Inflict berserk (+0% ATK) on one enemy for 2 turns"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  600,  0]], [1, 1, 68, [2,  0]]]
+    },
+    "216769": {
+        "name": "のみこむ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Instant KO",
+        "effects": [
+            "[Death]",
+            "Instant KO (100%) to one enemy"
+        ],
+        "effects_raw": [[1, 1, 35, [100]]]
+    },
+    "216770": {
+        "name": "あまい息",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (8.5x, MAG) to one enemy",
+            "Inflict Charm (100%) on one enemy for 2 turns"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  850,  0]], [1, 1, 60, [2, 100, "魅了された"]]]
+    },
+    "216771": {
+        "name": "愛の歌",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Restore 10% HP to all allies",
+            "Cure all status effects for all allies"
+        ],
+        "effects_raw": [[2, 2, 26, [10,  10,  100]], [2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]]
+    },
+    "216772": {
+        "name": "よだれ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Magic* damage (4.5x, SPR) per turn to all enemies for 2 turns"],
+        "effects_raw": [[2, 1, 139, [3,  450,  0,  0,  2,  1,  100]]]
+    },
+    "216773": {
+        "name": "烈風光線＆土砂光線",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic wind and earth damage (4.5x, MAG) to one enemy",
+            "Reduce resistance to Wind and Earth by 50% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  450,  0]], [1, 1, 33, [0,  0,  0,  0,  -50,  -50,  0,  0,  1,  3]]]
+    },
+    "216774": {
+        "name": "超光合成",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Restore 10% HP to caster"],
+        "effects_raw": [[0, 3, 26, [10,  10,  100]]]
+    },
+    "216775": {
+        "name": "怪音波",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Magic* damage (3.5x * 1.18 = 4.12x, MAG) to all enemies (ignore reflect)",
+            "Inflict Charm (100%) on all enemies for 2 turns"
+        ],
+        "effects_raw": [[2, 1, 70, [0,  0,  350,  15]], [2, 1, 60, [2, 100, "魅了された"]]]
+    },
+    "216776": {
+        "name": "仲間を呼ぶ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #2"],
+        "effects_raw": [[0, 2, 87, [1, 2, "仲間がいなかった", 100, 0]]]
+    },
+    "216777": {
+        "name": "仲間を呼ぶ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #3"],
+        "effects_raw": [[0, 2, 87, [1, 3, "仲間がいなかった", 100, 0]]]
+    },
+    "216778": {
+        "name": "仲間を呼ぶ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #4"],
         "effects_raw": [
             [
-                1,
-                1,
-                52,
-                [0, 0, 1, 1, 210]
+                0,
+                2,
+                87,
+                [
+                    1,
+                    4,
+                    "仲間がいなかった",
+                    100,
+                    0
+                ]
             ]
         ]
     }
