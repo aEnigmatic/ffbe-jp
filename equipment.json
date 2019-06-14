@@ -4238,6 +4238,68 @@
         "price_sell": 20000,
         "icon": "item_10294.png"
     },
+    "302010000": {
+        "name": "テュルヴィング",
+        "compendium_id": 1429,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 2,
+        "type": "Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.05, 1.55],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 112,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_10296.png"
+    },
+    "302010100": {
+        "name": "デスブリンガー(聖剣3)",
+        "compendium_id": 1432,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 2,
+        "type": "Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.05, 1.55],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 175,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Dark"],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_10297.png"
+    },
     "303000100": {
         "name": "グレートソード",
         "compendium_id": 16,
@@ -15343,6 +15405,37 @@
         "price_buy": 8000,
         "price_sell": 800,
         "icon": "item_10543.png"
+    },
+    "311005200": {
+        "name": "ネビュラスタッフ",
+        "compendium_id": 1430,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 5,
+        "type": "Staff",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100040],
+        "effects": ["Grants 'MP+10%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 20,
+            "DEF": 0,
+            "MAG": 102,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 16000,
+        "price_sell": 1600,
+        "icon": "item_10544.png"
     },
     "312000100": {
         "name": "ショートボウ",
@@ -32420,6 +32513,40 @@
         "price_sell": 20000,
         "icon": "item_20452.png"
     },
+    "408005400": {
+        "name": "ルーンのコート",
+        "compendium_id": 1433,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 53,
+        "type": "Robe",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 31,
+            "MAG": 65,
+            "SPR": 0,
+            "element_resist": {
+                "Light": 20,
+                "Dark": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_20453.png"
+    },
     "409000100": {
         "name": "鉄の篭手",
         "compendium_id": 200,
@@ -42504,5 +42631,38 @@
         "price_buy": 10000,
         "price_sell": 1000,
         "icon": "item_50458.png"
+    },
+    "409033900": {
+        "name": "剣王のうでわ",
+        "compendium_id": 1431,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [232280],
+        "effects": ["Grants '剣王気' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 40,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Dark": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_50461.png"
     }
 }
