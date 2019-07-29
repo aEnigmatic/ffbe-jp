@@ -79140,6 +79140,249 @@
         "effects": ["Physical damage (2x, ATK) to all enemies"],
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
     },
+    "216899": {
+        "name": "セルレアムベント",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (3x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]]]
+    },
+    "216900": {
+        "name": "バルカンバースト",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (5.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  550]]]
+    },
+    "216901": {
+        "name": "魔導フレア",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (3.5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  350]]]
+    },
+    "216902": {
+        "name": "吸着爆雷",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce DEF and SPR by 15% for 2 turns to one enemy"],
+        "effects_raw": [[1, 1, 24, [0,  -15,  0,  -15,  2,  1]]]
+    },
+    "216903": {
+        "name": "爆雷起爆",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Instant KO",
+        "effects": [
+            "[Death]",
+            "Instant KO (100%) to one enemy"
+        ],
+        "effects_raw": [[1, 1, 35, [100,  1,  0]]]
+    },
+    "216904": {
+        "name": "誘導レーザー",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (1.7x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  170]]]
+    },
+    "216905": {
+        "name": "魔導レーザー",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (1.5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  150]]]
+    },
+    "216906": {
+        "name": "拡散レーザー",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (4x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  400]]]
+    },
+    "216907": {
+        "name": "ミストラルソング",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic wind damage (3.5x, MAG) to all enemies",
+            "Reduce resistance to Wind by 60% for 5 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  350]], [2, 1, 33, [0,  0,  0,  0,  -60,  0,  0,  0,  1,  5]]]
+    },
+    "216908": {
+        "name": "アイ・オブ・ストーム",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic wind damage (4.5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  450]]]
+    },
+    "216909": {
+        "name": "ジオクラッシュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical earth damage (5.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  550]]]
+    },
+    "216910": {
+        "name": "光輝の炎柱",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic fire damage (2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  200]]]
+    },
+    "216911": {
+        "name": "大地の重み",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical earth damage (3.5x, ATK) to all enemies",
+            "Reduce resistance to Earth by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  350]], [2, 1, 33, [0,  0,  0,  0,  0,  -50,  0,  0,  1,  3]]]
+    },
+    "216912": {
+        "name": "クリムゾンサイクロン",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic fire damage (6x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  600]]]
+    },
+    "216913": {
+        "name": "エーテル波動",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Inflict Stop (100%) for one turn on all enemies"],
+        "effects_raw": [[2, 1, 88, [100,  1]]]
+    },
+    "216914": {
+        "name": "融合爆発",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Percentual DMG",
+        "effects": ["15% HP damage to all enemies"],
+        "effects_raw": [[2, 1, 9, [15,  30,  100,  1]]]
+    },
+    "216915": {
+        "name": "アルテマ詠唱",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Reduce physical damage taken by 65% to caster for 999 turns (can not be removed)",
+            "Reduce magic damage taken by 50% to caster for 999 turns (can not be removed)"
+        ],
+        "effects_raw": [[0, 3, 115, [65,  0,  999,  1]], [0, 3, 116, [50,  0,  999,  1]]]
+    },
+    "216916": {
+        "name": "魔力が集中していく……",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Reduce physical damage taken by 70% to caster for 999 turns (can not be removed)",
+            "Reduce magic damage taken by 55% to caster for 999 turns (can not be removed)"
+        ],
+        "effects_raw": [[0, 3, 115, [70,  0,  999,  1]], [0, 3, 116, [55,  0,  999,  1]]]
+    },
+    "216917": {
+        "name": "魔力が集中していく！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Reduce physical damage taken by 75% to caster for 999 turns (can not be removed)",
+            "Reduce magic damage taken by 60% to caster for 999 turns (can not be removed)"
+        ],
+        "effects_raw": [[0, 3, 115, [75,  0,  999,  1]], [0, 3, 116, [60,  0,  999,  1]]]
+    },
+    "216918": {
+        "name": "膨大な魔力が集中していく！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Reduce physical damage taken by 80% to caster for 999 turns (can not be removed)",
+            "Reduce magic damage taken by 65% to caster for 999 turns (can not be removed)"
+        ],
+        "effects_raw": [[0, 3, 115, [80,  0,  999,  1]], [0, 3, 116, [65,  0,  999,  1]]]
+    },
+    "216919": {
+        "name": "アルテマ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Instant KO (100%) to all enemies (ignores death resist)",
+            "Remove all buffs and debuffs from all enemies"
+        ],
+        "effects_raw": [[2, 1, 35, [100]], [2, 1, 59, ["none"]]]
+    },
+    "216920": {
+        "name": "セルレアムベント",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (3.2x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  320]]]
+    },
+    "216921": {
+        "name": "バルカンバースト",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (6x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  600]]]
+    },
+    "216922": {
+        "name": "魔導フレア",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (3.6x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  360]]]
+    },
+    "216923": {
+        "name": "魔導レーザー",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (1.65x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  165]]]
+    },
+    "216924": {
+        "name": "光輝の炎柱",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic fire damage (2.2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  220]]]
+    },
+    "216925": {
+        "name": "大地の重み",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical earth damage (3.7x, ATK) to all enemies",
+            "Reduce resistance to Earth by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  370]], [2, 1, 33, [0,  0,  0,  0,  0,  -50,  0,  0,  1,  3]]]
+    },
     "216926": {
         "name": "スマッシュマジック",
         "flags": [false,  false,  true,  false],
@@ -79218,6 +79461,68 @@
         "effects": ["Restore 690000 (+0.01x, Heal) HP split over 3 turns to one ally"],
         "effects_raw": [[1, 2, 8, [1,  1,  690000,  3]]]
     },
+    "216934": {
+        "name": "Wパワースラッシュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (64x, ATK) to all enemies (+999% accuracy)"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  6400,  999]]]
+    },
+    "216935": {
+        "name": "パワーがさらに上がった！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK by 200% for 2 turns to caster"],
+        "effects_raw": [[0, 3, 3, [200,  0,  0,  0,  2,  1,  0]]]
+    },
+    "216936": {
+        "name": "パワーが上がった！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK by 50% for 2 turns to caster"],
+        "effects_raw": [[0, 3, 3, [50,  0,  0,  0,  2,  1,  0]]]
+    },
+    "216937": {
+        "name": "パワースラッシュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (1.5x, ATK) to all enemies (+80% accuracy)",
+            "Reduce DEF by 10% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  150,  80]], [2, 1, 24, [0,  -10,  0,  0,  3,  1]]]
+    },
+    "216938": {
+        "name": "アスピラ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Drain MP",
+        "effects": ["Magic damage (1x, MAG) as MP drain (100%) to all enemies"],
+        "effects_raw": [[2, 1, 10, [100,  100,  100]]]
+    },
+    "216939": {
+        "name": "カージュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Inflict Blind, Sleep and Silence (100%) on all enemies"],
+        "effects_raw": [[2, 1, 6, [0,  100,  100,  100,  0,  0,  0,  0,  1]]]
+    },
+    "216940": {
+        "name": "ジェクトビーム",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Remove all buffs and debuffs from one enemy",
+            "Inflict Petrify (100%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 59, ["none"]], [1, 1, 6, [0,  0,  0,  0,  0,  0,  0,  100,  1]]]
+    },
     "216941": {
         "name": "ロキスラッシュ",
         "flags": [false,  false,  true,  false],
@@ -79251,7 +79556,7 @@
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]]
     },
     "216945": {
-        "name": "シャドゥ・サーヴァント",
+        "name": "シャドゥ・サーバント",
         "flags": [false,  false,  true,  false],
         "attack_type": "Magic",
         "execute_type": "Default",
@@ -79290,7 +79595,7 @@
     },
     "216949": {
         "name": "立ち去った",
-        "flags": [false,  true,  true,  false],
+        "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
         "effects": ["Escape Battle"],
@@ -79321,7 +79626,7 @@
             "Physical damage (4x, ATK) to one enemy",
             "Reduce DEF by 100% for 5 turns to one enemy"
         ],
-        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [1, 1, 24, [0,  -100,  0,  0,  5,  0]]]
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [1, 1, 24, [0,  -100,  0,  0,  5,  1]]]
     },
     "216953": {
         "name": "スプリットダウン",
@@ -79350,15 +79655,133 @@
     "216956": {
         "name": "ニーベルン・ヴァレスティ",
         "flags": [false,  false,  true,  false],
-        "attack_type": "None",
+        "attack_type": "Physical",
         "execute_type": "Default",
-        "effects": ["Physical* damage (7x, ATK) to one enemy"],
+        "effects": ["Physical damage (7x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  700,  0]]]
+    },
+    "216957": {
+        "name": "ライフル射撃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.2x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  120]]]
+    },
+    "216958": {
+        "name": "ダブルアタック",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.4x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  140]]]
+    },
+    "216959": {
+        "name": "ブラストパンチ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Percentual DMG",
+        "effects": ["50% HP damage to one enemy"],
+        "effects_raw": [[1, 1, 9, [50,  50,  100]]]
+    },
+    "216960": {
+        "name": "ボディプレス",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
+    },
+    "216961": {
+        "name": "ボディクラッシュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (3x, ATK) to all enemies",
+            "Reduce DEF and SPR by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]], [2, 1, 24, [0,  -50,  0,  -50,  3,  1]]]
+    },
+    "216962": {
+        "name": "ひっかく",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  150]]]
+    },
+    "216963": {
+        "name": "羽ばたき",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic wind damage (1.2x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  120]]]
+    },
+    "216964": {
+        "name": "毒爪",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (1.1x, ATK) to one enemy",
+            "Inflict Poison (100%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  110]], [1, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]]]
+    },
+    "216965": {
+        "name": "のしかかり",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.3x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  130]]]
+    },
+    "216966": {
+        "name": "かみつく",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.2x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  120]]]
+    },
+    "216967": {
+        "name": "ひっかく",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.3x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  130]]]
+    },
+    "216968": {
+        "name": "竜の咆哮",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (1.2x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  120]]]
+    },
+    "216969": {
+        "name": "ヒートウィング",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic fire damage (1.3x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  130]]]
+    },
+    "216970": {
+        "name": "ヒートテイル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical fire damage (1.5x, ATK) to all enemies"],
         "effects_raw": [
             [
+                2,
                 1,
                 1,
-                1,
-                [0, 0, 0, 0, 0, 0, 700, 0]
+                [0, 0, 0, 0, 0, 0, 150]
             ]
         ]
     }

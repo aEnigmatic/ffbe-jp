@@ -52526,6 +52526,8 @@
             }
         },
         "skills": [
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800301},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800302},
             {"rarity": 5, "level": 3, "type": "ABILITY", "id": 207020},
             {"rarity": 5, "level": 21, "type": "ABILITY", "id": 100050},
             {"rarity": 5, "level": 35, "type": "ABILITY", "id": 207070},
@@ -52672,8 +52674,10 @@
         },
         "skills": [
             {"rarity": 5, "level": 1, "type": "ABILITY", "id": 100740},
-            {"rarity": 5, "level": 1, "type": "MAGIC", "id": 10110},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800304},
             {"rarity": 5, "level": 1, "type": "MAGIC", "id": 10160},
+            {"rarity": 5, "level": 1, "type": "MAGIC", "id": 10110},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800303},
             {"rarity": 5, "level": 14, "type": "MAGIC", "id": 30260},
             {"rarity": 5, "level": 14, "type": "MAGIC", "id": 30270},
             {"rarity": 5, "level": 14, "type": "MAGIC", "id": 30280},
@@ -52683,8 +52687,8 @@
             {"rarity": 5, "level": 52, "type": "MAGIC", "id": 30330},
             {"rarity": 5, "level": 70, "type": "MAGIC", "id": 10130},
             {"rarity": 5, "level": 80, "type": "ABILITY", "id": 219150},
-            {"rarity": 6, "level": 1, "type": "ABILITY", "id": 219200},
             {"rarity": 6, "level": 1, "type": "MAGIC", "id": 10100},
+            {"rarity": 6, "level": 1, "type": "ABILITY", "id": 219200},
             {"rarity": 6, "level": 21, "type": "ABILITY", "id": 219170},
             {"rarity": 6, "level": 39, "type": "ABILITY", "id": 219160},
             {"rarity": 6, "level": 63, "type": "ABILITY", "id": 219130},
@@ -52863,6 +52867,8 @@
             }
         },
         "skills": [
+            {"rarity": 3, "level": 1, "type": "ABILITY", "id": 800320},
+            {"rarity": 3, "level": 1, "type": "ABILITY", "id": 800319},
             {"rarity": 3, "level": 3, "type": "ABILITY", "id": 209130},
             {"rarity": 3, "level": 25, "type": "ABILITY", "id": 100070},
             {"rarity": 3, "level": 40, "type": "ABILITY", "id": 209160},
@@ -53011,10 +53017,12 @@
         },
         "skills": [
             {"rarity": 5, "level": 1, "type": "ABILITY", "id": 213200},
-            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 211100},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800305},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800306},
             {"rarity": 5, "level": 1, "type": "MAGIC", "id": 20220},
             {"rarity": 5, "level": 1, "type": "MAGIC", "id": 20230},
             {"rarity": 5, "level": 1, "type": "MAGIC", "id": 20070},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 211100},
             {"rarity": 5, "level": 17, "type": "MAGIC", "id": 20280},
             {"rarity": 5, "level": 38, "type": "ABILITY", "id": 200460},
             {"rarity": 5, "level": 61, "type": "ABILITY", "id": 100740},
@@ -53023,23 +53031,171 @@
             {"rarity": 6, "level": 1, "type": "ABILITY", "id": 219030},
             {"rarity": 6, "level": 29, "type": "ABILITY", "id": 100060},
             {"rarity": 6, "level": 52, "type": "ABILITY", "id": 219020},
-            {"rarity": 6, "level": 72, "type": "MAGIC", "id": 20310},
             {"rarity": 6, "level": 72, "type": "MAGIC", "id": 20320},
+            {"rarity": 6, "level": 72, "type": "MAGIC", "id": 20310},
             {"rarity": 6, "level": 88, "type": "MAGIC", "id": 20290},
             {"rarity": 6, "level": 88, "type": "MAGIC", "id": 20300},
             {"rarity": 6, "level": 100, "type": "ABILITY", "id": 219040},
             {"rarity": 6, "level": 100, "type": "MAGIC", "id": 20380},
             {"rarity": 7, "level": 101, "type": "ABILITY", "id": 227583},
-            {"rarity": 7, "level": 105, "type": "ABILITY", "id": 227584},
-            {"rarity": 7, "level": 105, "type": "ABILITY", "id": 227580},
-            {"rarity": 7, "level": 105, "type": "ABILITY", "id": 227581},
             {"rarity": 7, "level": 105, "type": "MAGIC", "id": 20390},
+            {"rarity": 7, "level": 105, "type": "ABILITY", "id": 227584},
+            {"rarity": 7, "level": 105, "type": "ABILITY", "id": 227581},
+            {"rarity": 7, "level": 105, "type": "ABILITY", "id": 227580},
             {"rarity": 7, "level": 110, "type": "ABILITY", "id": 227582},
             {"rarity": 7, "level": 110, "type": "MAGIC", "id": 20760},
             {"rarity": 7, "level": 115, "type": "ABILITY", "id": 100141},
             {"rarity": 7, "level": 115, "type": "ABILITY", "id": 212340},
             {"rarity": 7, "level": 115, "type": "ABILITY", "id": 215170},
             {"rarity": 7, "level": 120, "type": "ABILITY", "id": 227585}
+        ]
+    },
+    "210000505": {
+        "rarity_min": 5,
+        "rarity_max": 7,
+        "name": "キマリ",
+        "game_id": 10010,
+        "job_id": 95,
+        "sex_id": 1,
+        "sex": "Male",
+        "tribe_id": 5,
+        "is_summonable": false,
+        "TMR": [
+            "MATERIA",
+            504232705
+        ],
+        "sTMR": [
+            "EQUIP",
+            308005900
+        ],
+        "equip": [6, 7, 10, 14, 15, 40, 50, 53, 60],
+        "entries": {
+            "210000505": {
+                "compendium_id": 1726,
+                "rarity": 5,
+                "exp_pattern": 30,
+                "stat_pattern": 1,
+                "stats": {
+                    "HP": [951, 2883, 240, 120],
+                    "MP": [54, 163, 40, 20],
+                    "ATK": [39, 119, 16, 8],
+                    "DEF": [37, 113, 16, 8],
+                    "MAG": [39, 119, 24, 12],
+                    "SPR": [41, 123, 16, 8]
+                },
+                "limitburst_id": 210000505,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [17],
+                "effect_frames": [15],
+                "max_lb_drop": 10,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 0, 8],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": {
+                    "gil": 4000,
+                    "materials": {
+                        "290060400": 20,
+                        "290060100": 10,
+                        "290060300": 10,
+                        "290060000": 5,
+                        "290050500": 5
+                    }
+                }
+            },
+            "210000506": {
+                "compendium_id": 1727,
+                "rarity": 6,
+                "exp_pattern": 30,
+                "stat_pattern": 1,
+                "stats": {
+                    "HP": [1237, 3749, 390, 195],
+                    "MP": [70, 213, 65, 32],
+                    "ATK": [51, 155, 26, 13],
+                    "DEF": [49, 148, 26, 13],
+                    "MAG": [51, 155, 34, 17],
+                    "SPR": [53, 160, 26, 13]
+                },
+                "limitburst_id": 210000506,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [17],
+                "effect_frames": [15],
+                "max_lb_drop": 12,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 0, 8],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": {
+                    "gil": 3000000,
+                    "materials": {
+                        "300001970": 1
+                    }
+                }
+            },
+            "210000507": {
+                "compendium_id": 1728,
+                "rarity": 7,
+                "exp_pattern": 30,
+                "stat_pattern": 4,
+                "stats": {
+                    "HP": [1608, 4874, 540, 270],
+                    "MP": [91, 277, 90, 45],
+                    "ATK": [67, 202, 40, 20],
+                    "DEF": [64, 193, 40, 20],
+                    "MAG": [67, 202, 65, 32],
+                    "SPR": [69, 208, 40, 20]
+                },
+                "limitburst_id": 210000507,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [17],
+                "effect_frames": [15],
+                "max_lb_drop": 12,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 0, 8],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": null
+            }
+        },
+        "skills": [
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 232755},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800300},
+            {"rarity": 5, "level": 1, "type": "MAGIC", "id": 40130},
+            {"rarity": 5, "level": 1, "type": "MAGIC", "id": 40140},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800299},
+            {"rarity": 5, "level": 28, "type": "ABILITY", "id": 232750},
+            {"rarity": 5, "level": 56, "type": "ABILITY", "id": 232751},
+            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 232756},
+            {"rarity": 6, "level": 1, "type": "MAGIC", "id": 40170},
+            {"rarity": 6, "level": 1, "type": "MAGIC", "id": 40190},
+            {"rarity": 6, "level": 1, "type": "MAGIC", "id": 40160},
+            {"rarity": 6, "level": 1, "type": "ABILITY", "id": 232757},
+            {"rarity": 6, "level": 32, "type": "ABILITY", "id": 232752},
+            {"rarity": 6, "level": 64, "type": "ABILITY", "id": 232753},
+            {"rarity": 6, "level": 100, "type": "ABILITY", "id": 232758},
+            {"rarity": 6, "level": 100, "type": "ABILITY", "id": 200470},
+            {"rarity": 7, "level": 101, "type": "ABILITY", "id": 232759},
+            {"rarity": 7, "level": 101, "type": "MAGIC", "id": 40200},
+            {"rarity": 7, "level": 101, "type": "MAGIC", "id": 40210},
+            {"rarity": 7, "level": 101, "type": "MAGIC", "id": 40220},
+            {"rarity": 7, "level": 105, "type": "ABILITY", "id": 232754},
+            {"rarity": 7, "level": 115, "type": "ABILITY", "id": 100020},
+            {"rarity": 7, "level": 120, "type": "ABILITY", "id": 232760}
         ]
     },
     "210000605": {
@@ -53168,6 +53324,8 @@
             {"rarity": 5, "level": 1, "type": "ABILITY", "id": 228909},
             {"rarity": 5, "level": 1, "type": "ABILITY", "id": 228910},
             {"rarity": 5, "level": 1, "type": "ABILITY", "id": 101200},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800309},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800310},
             {"rarity": 5, "level": 13, "type": "ABILITY", "id": 228904},
             {"rarity": 5, "level": 13, "type": "ABILITY", "id": 228905},
             {"rarity": 5, "level": 28, "type": "ABILITY", "id": 228917},
@@ -53317,6 +53475,8 @@
             }
         },
         "skills": [
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 800313},
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 800314},
             {"rarity": 4, "level": 3, "type": "ABILITY", "id": 200010},
             {"rarity": 4, "level": 30, "type": "ABILITY", "id": 200250},
             {"rarity": 4, "level": 48, "type": "ABILITY", "id": 100040},
@@ -53458,9 +53618,11 @@
             }
         },
         "skills": [
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 800315},
             {"rarity": 4, "level": 1, "type": "MAGIC", "id": 20080},
             {"rarity": 4, "level": 1, "type": "MAGIC", "id": 20090},
             {"rarity": 4, "level": 1, "type": "MAGIC", "id": 20460},
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 800316},
             {"rarity": 4, "level": 34, "type": "MAGIC", "id": 20100},
             {"rarity": 4, "level": 34, "type": "MAGIC", "id": 20110},
             {"rarity": 4, "level": 60, "type": "ABILITY", "id": 219050},
@@ -53468,8 +53630,8 @@
             {"rarity": 5, "level": 26, "type": "MAGIC", "id": 20200},
             {"rarity": 5, "level": 26, "type": "MAGIC", "id": 20210},
             {"rarity": 5, "level": 54, "type": "MAGIC", "id": 20230},
-            {"rarity": 5, "level": 54, "type": "MAGIC", "id": 20220},
             {"rarity": 5, "level": 54, "type": "ABILITY", "id": 219070},
+            {"rarity": 5, "level": 54, "type": "MAGIC", "id": 20220},
             {"rarity": 5, "level": 80, "type": "MAGIC", "id": 20470},
             {"rarity": 6, "level": 1, "type": "ABILITY", "id": 100040},
             {"rarity": 6, "level": 1, "type": "ABILITY", "id": 100010},
@@ -53478,6 +53640,152 @@
             {"rarity": 6, "level": 67, "type": "ABILITY", "id": 100120},
             {"rarity": 6, "level": 67, "type": "ABILITY", "id": 100210},
             {"rarity": 6, "level": 100, "type": "ABILITY", "id": 200160}
+        ]
+    },
+    "210000905": {
+        "rarity_min": 5,
+        "rarity_max": 7,
+        "name": "ユウナレスカ",
+        "game_id": 10010,
+        "job_id": 251,
+        "sex_id": 2,
+        "sex": "Female",
+        "tribe_id": 5,
+        "is_summonable": true,
+        "TMR": [
+            "EQUIP",
+            409034900
+        ],
+        "sTMR": [
+            "MATERIA",
+            504232703
+        ],
+        "equip": [1, 5, 6, 11, 40, 50, 53, 60],
+        "entries": {
+            "210000905": {
+                "compendium_id": 1720,
+                "rarity": 5,
+                "exp_pattern": 30,
+                "stat_pattern": 1,
+                "stats": {
+                    "HP": [892, 2704, 240, 120],
+                    "MP": [56, 170, 40, 20],
+                    "ATK": [25, 75, 16, 8],
+                    "DEF": [32, 97, 16, 8],
+                    "MAG": [43, 129, 24, 12],
+                    "SPR": [41, 123, 16, 8]
+                },
+                "limitburst_id": 210000905,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [66],
+                "effect_frames": [64],
+                "max_lb_drop": 10,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": {
+                    "gil": 4000,
+                    "materials": {
+                        "290060200": 20,
+                        "290060400": 10,
+                        "290060100": 10,
+                        "290060300": 5,
+                        "290050500": 5
+                    }
+                }
+            },
+            "210000906": {
+                "compendium_id": 1721,
+                "rarity": 6,
+                "exp_pattern": 30,
+                "stat_pattern": 1,
+                "stats": {
+                    "HP": [1160, 3516, 390, 195],
+                    "MP": [73, 222, 65, 32],
+                    "ATK": [32, 98, 26, 13],
+                    "DEF": [42, 127, 26, 13],
+                    "MAG": [55, 168, 34, 17],
+                    "SPR": [53, 161, 26, 13]
+                },
+                "limitburst_id": 210000906,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [66],
+                "effect_frames": [64],
+                "max_lb_drop": 12,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": {
+                    "gil": 3000000,
+                    "materials": {
+                        "300001960": 1
+                    }
+                }
+            },
+            "210000907": {
+                "compendium_id": 1722,
+                "rarity": 7,
+                "exp_pattern": 30,
+                "stat_pattern": 4,
+                "stats": {
+                    "HP": [1508, 4571, 540, 270],
+                    "MP": [95, 289, 90, 45],
+                    "ATK": [42, 128, 40, 20],
+                    "DEF": [55, 166, 40, 20],
+                    "MAG": [72, 219, 65, 32],
+                    "SPR": [69, 210, 40, 20]
+                },
+                "limitburst_id": 210000907,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [66],
+                "effect_frames": [64],
+                "max_lb_drop": 12,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": null
+            }
+        },
+        "skills": [
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 232782},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800297},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800298},
+            {"rarity": 5, "level": 10, "type": "ABILITY", "id": 232770},
+            {"rarity": 5, "level": 55, "type": "ABILITY", "id": 232771},
+            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 232772},
+            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 232783},
+            {"rarity": 6, "level": 1, "type": "ABILITY", "id": 232784},
+            {"rarity": 6, "level": 12, "type": "ABILITY", "id": 232773},
+            {"rarity": 6, "level": 34, "type": "ABILITY", "id": 232774},
+            {"rarity": 6, "level": 80, "type": "ABILITY", "id": 232775},
+            {"rarity": 6, "level": 100, "type": "ABILITY", "id": 232776},
+            {"rarity": 6, "level": 100, "type": "ABILITY", "id": 232785},
+            {"rarity": 6, "level": 100, "type": "ABILITY", "id": 101370},
+            {"rarity": 7, "level": 101, "type": "ABILITY", "id": 232777},
+            {"rarity": 7, "level": 105, "type": "ABILITY", "id": 232778},
+            {"rarity": 7, "level": 105, "type": "ABILITY", "id": 232779},
+            {"rarity": 7, "level": 105, "type": "ABILITY", "id": 232780},
+            {"rarity": 7, "level": 110, "type": "ABILITY", "id": 232781},
+            {"rarity": 7, "level": 115, "type": "ABILITY", "id": 100020},
+            {"rarity": 7, "level": 120, "type": "ABILITY", "id": 232786}
         ]
     },
     "210001005": {
@@ -53606,6 +53914,8 @@
             {"rarity": 5, "level": 1, "type": "ABILITY", "id": 207040},
             {"rarity": 5, "level": 1, "type": "ABILITY", "id": 207070},
             {"rarity": 5, "level": 1, "type": "ABILITY", "id": 100050},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800307},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800308},
             {"rarity": 5, "level": 17, "type": "ABILITY", "id": 228890},
             {"rarity": 5, "level": 31, "type": "ABILITY", "id": 228880},
             {"rarity": 5, "level": 48, "type": "ABILITY", "id": 228891},
@@ -53753,6 +54063,8 @@
         "skills": [
             {"rarity": 3, "level": 1, "type": "ABILITY", "id": 228952},
             {"rarity": 3, "level": 1, "type": "ABILITY", "id": 100130},
+            {"rarity": 3, "level": 1, "type": "ABILITY", "id": 800321},
+            {"rarity": 3, "level": 1, "type": "ABILITY", "id": 800322},
             {"rarity": 3, "level": 12, "type": "MAGIC", "id": 20030},
             {"rarity": 3, "level": 26, "type": "ABILITY", "id": 207070},
             {"rarity": 3, "level": 40, "type": "ABILITY", "id": 228950},
@@ -53763,6 +54075,294 @@
             {"rarity": 5, "level": 27, "type": "ABILITY", "id": 228958},
             {"rarity": 5, "level": 58, "type": "ABILITY", "id": 228951},
             {"rarity": 5, "level": 80, "type": "ABILITY", "id": 228955}
+        ]
+    },
+    "210001704": {
+        "rarity_min": 4,
+        "rarity_max": 6,
+        "name": "イサール",
+        "game_id": 10010,
+        "job_id": 18,
+        "sex_id": 1,
+        "sex": "Male",
+        "tribe_id": 5,
+        "is_summonable": true,
+        "TMR": [
+            "MATERIA",
+            504232704
+        ],
+        "sTMR": null,
+        "equip": [1, 5, 6, 30, 40, 50, 53, 60],
+        "entries": {
+            "210001704": {
+                "compendium_id": 1723,
+                "rarity": 4,
+                "exp_pattern": 30,
+                "stat_pattern": 1,
+                "stats": {
+                    "HP": [685, 2076, 210, 105],
+                    "MP": [35, 106, 35, 17],
+                    "ATK": [19, 57, 14, 7],
+                    "DEF": [24, 72, 14, 7],
+                    "MAG": [27, 82, 18, 9],
+                    "SPR": [23, 70, 14, 7]
+                },
+                "limitburst_id": 210001704,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [70],
+                "effect_frames": [68],
+                "max_lb_drop": 8,
+                "ability_slots": 3,
+                "magic_affinity": [0, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": {
+                    "gil": 2500,
+                    "materials": {
+                        "290020300": 25,
+                        "290030700": 13,
+                        "290050300": 15,
+                        "290030800": 8,
+                        "290050400": 8
+                    }
+                }
+            },
+            "210001705": {
+                "compendium_id": 1724,
+                "rarity": 5,
+                "exp_pattern": 30,
+                "stat_pattern": 1,
+                "stats": {
+                    "HP": [891, 2700, 240, 120],
+                    "MP": [46, 138, 40, 20],
+                    "ATK": [25, 75, 16, 8],
+                    "DEF": [31, 94, 16, 8],
+                    "MAG": [35, 107, 24, 12],
+                    "SPR": [30, 92, 16, 8]
+                },
+                "limitburst_id": 210001705,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [70],
+                "effect_frames": [68],
+                "max_lb_drop": 10,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": {
+                    "gil": 4000,
+                    "materials": {
+                        "290060400": 20,
+                        "290060300": 10,
+                        "290060200": 10,
+                        "290060000": 5,
+                        "290050500": 5
+                    }
+                }
+            },
+            "210001706": {
+                "compendium_id": 1725,
+                "rarity": 6,
+                "exp_pattern": 30,
+                "stat_pattern": 1,
+                "stats": {
+                    "HP": [1158, 3510, 390, 195],
+                    "MP": [59, 180, 65, 32],
+                    "ATK": [32, 98, 26, 13],
+                    "DEF": [41, 123, 26, 13],
+                    "MAG": [46, 140, 34, 17],
+                    "SPR": [40, 120, 26, 13]
+                },
+                "limitburst_id": 210001706,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [70],
+                "effect_frames": [68],
+                "max_lb_drop": 12,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": null
+            }
+        },
+        "skills": [
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 232736},
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 800311},
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 800312},
+            {"rarity": 4, "level": 12, "type": "ABILITY", "id": 232730},
+            {"rarity": 4, "level": 12, "type": "ABILITY", "id": 100200},
+            {"rarity": 4, "level": 34, "type": "ABILITY", "id": 232731},
+            {"rarity": 4, "level": 60, "type": "ABILITY", "id": 232737},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 232738},
+            {"rarity": 5, "level": 18, "type": "ABILITY", "id": 232732},
+            {"rarity": 5, "level": 47, "type": "ABILITY", "id": 100170},
+            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 232733},
+            {"rarity": 6, "level": 1, "type": "ABILITY", "id": 232739},
+            {"rarity": 6, "level": 26, "type": "ABILITY", "id": 232734},
+            {"rarity": 6, "level": 75, "type": "ABILITY", "id": 232735},
+            {"rarity": 6, "level": 100, "type": "ABILITY", "id": 232740}
+        ]
+    },
+    "210001805": {
+        "rarity_min": 5,
+        "rarity_max": 7,
+        "name": "ザナルカンドのティーダ",
+        "game_id": 10010,
+        "job_id": 95,
+        "sex_id": 1,
+        "sex": "Male",
+        "tribe_id": 5,
+        "is_summonable": true,
+        "TMR": [
+            "MATERIA",
+            504232700
+        ],
+        "sTMR": [
+            "EQUIP",
+            302010300
+        ],
+        "equip": [1, 2, 3, 4, 13, 30, 40, 41, 50, 51, 52, 60],
+        "entries": {
+            "210001805": {
+                "compendium_id": 1717,
+                "rarity": 5,
+                "exp_pattern": 30,
+                "stat_pattern": 1,
+                "stats": {
+                    "HP": [972, 2946, 300, 150],
+                    "MP": [48, 146, 50, 25],
+                    "ATK": [40, 122, 20, 10],
+                    "DEF": [38, 114, 20, 10],
+                    "MAG": [38, 115, 20, 10],
+                    "SPR": [38, 115, 20, 10]
+                },
+                "limitburst_id": 210001805,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [19],
+                "effect_frames": [17],
+                "max_lb_drop": 10,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 6, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": {
+                    "gil": 4000,
+                    "materials": {
+                        "290060000": 20,
+                        "290060100": 10,
+                        "290060200": 10,
+                        "290060300": 5,
+                        "290050500": 5
+                    }
+                }
+            },
+            "210001806": {
+                "compendium_id": 1718,
+                "rarity": 6,
+                "exp_pattern": 30,
+                "stat_pattern": 1,
+                "stats": {
+                    "HP": [1264, 3830, 450, 225],
+                    "MP": [63, 190, 75, 37],
+                    "ATK": [52, 159, 30, 15],
+                    "DEF": [49, 149, 30, 15],
+                    "MAG": [50, 150, 30, 15],
+                    "SPR": [50, 150, 30, 15]
+                },
+                "limitburst_id": 210001806,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [19],
+                "effect_frames": [17],
+                "max_lb_drop": 12,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 6, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": {
+                    "gil": 3000000,
+                    "materials": {
+                        "300001950": 1
+                    }
+                }
+            },
+            "210001807": {
+                "compendium_id": 1719,
+                "rarity": 7,
+                "exp_pattern": 30,
+                "stat_pattern": 4,
+                "stats": {
+                    "HP": [1643, 4980, 600, 300],
+                    "MP": [82, 247, 100, 50],
+                    "ATK": [68, 207, 50, 25],
+                    "DEF": [64, 194, 50, 25],
+                    "MAG": [65, 196, 50, 25],
+                    "SPR": [64, 195, 50, 25]
+                },
+                "limitburst_id": 210001807,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [19],
+                "effect_frames": [17],
+                "max_lb_drop": 12,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 7, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": null
+            }
+        },
+        "skills": [
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 232710},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800295},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800296},
+            {"rarity": 5, "level": 8, "type": "ABILITY", "id": 232721},
+            {"rarity": 5, "level": 41, "type": "ABILITY", "id": 232711},
+            {"rarity": 5, "level": 71, "type": "ABILITY", "id": 232722},
+            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 232712},
+            {"rarity": 6, "level": 1, "type": "ABILITY", "id": 232714},
+            {"rarity": 6, "level": 12, "type": "ABILITY", "id": 232723},
+            {"rarity": 6, "level": 24, "type": "ABILITY", "id": 232715},
+            {"rarity": 6, "level": 46, "type": "ABILITY", "id": 207050},
+            {"rarity": 6, "level": 46, "type": "ABILITY", "id": 232716},
+            {"rarity": 6, "level": 52, "type": "ABILITY", "id": 232713},
+            {"rarity": 6, "level": 85, "type": "ABILITY", "id": 232724},
+            {"rarity": 6, "level": 100, "type": "ABILITY", "id": 232717},
+            {"rarity": 7, "level": 101, "type": "ABILITY", "id": 232725},
+            {"rarity": 7, "level": 101, "type": "ABILITY", "id": 230407},
+            {"rarity": 7, "level": 105, "type": "ABILITY", "id": 232718},
+            {"rarity": 7, "level": 110, "type": "ABILITY", "id": 232719},
+            {"rarity": 7, "level": 110, "type": "ABILITY", "id": 232720},
+            {"rarity": 7, "level": 115, "type": "ABILITY", "id": 100080},
+            {"rarity": 7, "level": 120, "type": "ABILITY", "id": 232726}
         ]
     },
     "210001904": {
@@ -53891,6 +54491,8 @@
         "skills": [
             {"rarity": 4, "level": 1, "type": "ABILITY", "id": 228930},
             {"rarity": 4, "level": 1, "type": "ABILITY", "id": 100050},
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 800317},
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 800318},
             {"rarity": 4, "level": 16, "type": "ABILITY", "id": 219160},
             {"rarity": 4, "level": 33, "type": "ABILITY", "id": 228931},
             {"rarity": 4, "level": 47, "type": "ABILITY", "id": 228932},
@@ -57814,13 +58416,15 @@
             }
         },
         "skills": [
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800285},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 800286},
             {"rarity": 5, "level": 24, "type": "MAGIC", "id": 10070},
             {"rarity": 5, "level": 32, "type": "MAGIC", "id": 20120},
             {"rarity": 5, "level": 32, "type": "MAGIC", "id": 20130},
             {"rarity": 5, "level": 40, "type": "ABILITY", "id": 207750},
             {"rarity": 5, "level": 48, "type": "MAGIC", "id": 10110},
-            {"rarity": 5, "level": 56, "type": "MAGIC", "id": 20240},
             {"rarity": 5, "level": 56, "type": "MAGIC", "id": 20250},
+            {"rarity": 5, "level": 56, "type": "MAGIC", "id": 20240},
             {"rarity": 5, "level": 64, "type": "MAGIC", "id": 10100},
             {"rarity": 5, "level": 72, "type": "MAGIC", "id": 10160},
             {"rarity": 5, "level": 80, "type": "MAGIC", "id": 30320},
@@ -57955,6 +58559,8 @@
             }
         },
         "skills": [
+            {"rarity": 3, "level": 1, "type": "ABILITY", "id": 800293},
+            {"rarity": 3, "level": 1, "type": "ABILITY", "id": 800294},
             {"rarity": 3, "level": 4, "type": "ABILITY", "id": 207780},
             {"rarity": 3, "level": 8, "type": "ABILITY", "id": 207860},
             {"rarity": 3, "level": 18, "type": "ABILITY", "id": 207850},
@@ -58092,19 +58698,21 @@
             }
         },
         "skills": [
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 800288},
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 800287},
+            {"rarity": 4, "level": 18, "type": "ABILITY", "id": 207930},
             {"rarity": 4, "level": 18, "type": "ABILITY", "id": 207940},
             {"rarity": 4, "level": 18, "type": "ABILITY", "id": 207950},
-            {"rarity": 4, "level": 18, "type": "ABILITY", "id": 207930},
             {"rarity": 4, "level": 44, "type": "ABILITY", "id": 208070},
             {"rarity": 4, "level": 60, "type": "ABILITY", "id": 208050},
             {"rarity": 4, "level": 60, "type": "ABILITY", "id": 208060},
             {"rarity": 5, "level": 24, "type": "ABILITY", "id": 207960},
             {"rarity": 5, "level": 24, "type": "ABILITY", "id": 207970},
             {"rarity": 5, "level": 24, "type": "ABILITY", "id": 207980},
-            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 208020},
-            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 208040},
             {"rarity": 5, "level": 80, "type": "ABILITY", "id": 208030},
+            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 208040},
             {"rarity": 5, "level": 80, "type": "ABILITY", "id": 208010},
+            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 208020},
             {"rarity": 6, "level": 1, "type": "ABILITY", "id": 207910},
             {"rarity": 6, "level": 36, "type": "ABILITY", "id": 208000},
             {"rarity": 6, "level": 36, "type": "ABILITY", "id": 207990},
@@ -58236,6 +58844,8 @@
             }
         },
         "skills": [
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 800289},
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 800290},
             {"rarity": 4, "level": 4, "type": "ABILITY", "id": 207870},
             {"rarity": 4, "level": 30, "type": "ABILITY", "id": 101200},
             {"rarity": 4, "level": 58, "type": "ABILITY", "id": 216970},
@@ -58372,6 +58982,8 @@
             }
         },
         "skills": [
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 800291},
+            {"rarity": 4, "level": 1, "type": "ABILITY", "id": 800292},
             {"rarity": 4, "level": 10, "type": "MAGIC", "id": 30010},
             {"rarity": 4, "level": 22, "type": "MAGIC", "id": 20090},
             {"rarity": 4, "level": 36, "type": "MAGIC", "id": 20520},
@@ -58389,6 +59001,153 @@
             {"rarity": 6, "level": 53, "type": "ABILITY", "id": 100120},
             {"rarity": 6, "level": 74, "type": "MAGIC", "id": 20350},
             {"rarity": 6, "level": 100, "type": "ABILITY", "id": 217030}
+        ]
+    },
+    "214000605": {
+        "rarity_min": 5,
+        "rarity_max": 7,
+        "name": "魔女ヤ・シュトラ",
+        "game_id": 10014,
+        "job_id": 250,
+        "sex_id": 2,
+        "sex": "Female",
+        "tribe_id": 5,
+        "is_summonable": true,
+        "TMR": [
+            "MATERIA",
+            504232670
+        ],
+        "sTMR": [
+            "MATERIA",
+            504232671
+        ],
+        "equip": [5, 6, 9, 30, 40, 50, 53, 60],
+        "entries": {
+            "214000605": {
+                "compendium_id": 1714,
+                "rarity": 5,
+                "exp_pattern": 30,
+                "stat_pattern": 1,
+                "stats": {
+                    "HP": [875, 2650, 240, 120],
+                    "MP": [54, 165, 40, 20],
+                    "ATK": [23, 71, 16, 8],
+                    "DEF": [30, 92, 16, 8],
+                    "MAG": [43, 130, 24, 12],
+                    "SPR": [41, 123, 16, 8]
+                },
+                "limitburst_id": 214000605,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [28],
+                "effect_frames": [26],
+                "max_lb_drop": 10,
+                "ability_slots": 4,
+                "magic_affinity": [8, 6, 6, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": {
+                    "gil": 4000,
+                    "materials": {
+                        "290060300": 20,
+                        "290060200": 10,
+                        "290060400": 10,
+                        "290060100": 5,
+                        "290050500": 5
+                    }
+                }
+            },
+            "214000606": {
+                "compendium_id": 1715,
+                "rarity": 6,
+                "exp_pattern": 30,
+                "stat_pattern": 1,
+                "stats": {
+                    "HP": [1137, 3446, 390, 195],
+                    "MP": [71, 215, 65, 32],
+                    "ATK": [31, 93, 26, 13],
+                    "DEF": [40, 120, 26, 13],
+                    "MAG": [56, 169, 34, 17],
+                    "SPR": [53, 160, 26, 13]
+                },
+                "limitburst_id": 214000606,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [28],
+                "effect_frames": [26],
+                "max_lb_drop": 12,
+                "ability_slots": 4,
+                "magic_affinity": [8, 6, 6, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": {
+                    "gil": 3000000,
+                    "materials": {
+                        "300001940": 1
+                    }
+                }
+            },
+            "214000607": {
+                "compendium_id": 1716,
+                "rarity": 7,
+                "exp_pattern": 30,
+                "stat_pattern": 4,
+                "stats": {
+                    "HP": [1478, 4480, 540, 270],
+                    "MP": [92, 280, 90, 45],
+                    "ATK": [40, 122, 40, 20],
+                    "DEF": [51, 156, 40, 20],
+                    "MAG": [73, 220, 65, 32],
+                    "SPR": [69, 208, 40, 20]
+                },
+                "limitburst_id": 214000607,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [28],
+                "effect_frames": [26],
+                "max_lb_drop": 12,
+                "ability_slots": 4,
+                "magic_affinity": [8, 7, 7, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": null
+            }
+        },
+        "skills": [
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 232675},
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 232684},
+            {"rarity": 5, "level": 30, "type": "ABILITY", "id": 232685},
+            {"rarity": 5, "level": 40, "type": "ABILITY", "id": 232672},
+            {"rarity": 5, "level": 40, "type": "ABILITY", "id": 232673},
+            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 232674},
+            {"rarity": 6, "level": 1, "type": "ABILITY", "id": 232679},
+            {"rarity": 6, "level": 12, "type": "ABILITY", "id": 232686},
+            {"rarity": 6, "level": 38, "type": "ABILITY", "id": 232687},
+            {"rarity": 6, "level": 50, "type": "ABILITY", "id": 232677},
+            {"rarity": 6, "level": 50, "type": "ABILITY", "id": 232678},
+            {"rarity": 6, "level": 62, "type": "ABILITY", "id": 232688},
+            {"rarity": 6, "level": 92, "type": "ABILITY", "id": 232689},
+            {"rarity": 6, "level": 100, "type": "ABILITY", "id": 232676},
+            {"rarity": 7, "level": 101, "type": "ABILITY", "id": 232680},
+            {"rarity": 7, "level": 101, "type": "ABILITY", "id": 232690},
+            {"rarity": 7, "level": 101, "type": "ABILITY", "id": 230407},
+            {"rarity": 7, "level": 105, "type": "ABILITY", "id": 232681},
+            {"rarity": 7, "level": 110, "type": "ABILITY", "id": 232682},
+            {"rarity": 7, "level": 110, "type": "ABILITY", "id": 232683},
+            {"rarity": 7, "level": 115, "type": "ABILITY", "id": 100020},
+            {"rarity": 7, "level": 120, "type": "ABILITY", "id": 232691}
         ]
     },
     "215000105": {
