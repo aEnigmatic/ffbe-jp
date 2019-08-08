@@ -22657,6 +22657,39 @@
         "price_sell": 1500,
         "icon": "item_40240.png"
     },
+    "402004400": {
+        "name": "ラスウェルのサーフボード",
+        "compendium_id": 1483,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 31,
+        "type": "Heavy Shield",
+        "slot_id": 2,
+        "slot": "Shield",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100030],
+        "effects": ["Grants 'HP+30%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 90,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Water": 80
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_2240000.png"
+    },
     "403000100": {
         "name": "皮の帽子",
         "compendium_id": 124,
@@ -26640,6 +26673,72 @@
         "price_sell": 6000,
         "icon": "item_30241.png"
     },
+    "404004300": {
+        "name": "南国の髪飾り",
+        "compendium_id": 1488,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 41,
+        "type": "Helm",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 12,
+            "DEF": 20,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Water": 15
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 60000,
+        "price_sell": 6000,
+        "icon": "item_2220001.png"
+    },
+    "404004400": {
+        "name": "真・南国の髪飾り",
+        "compendium_id": 1489,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 41,
+        "type": "Helm",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 18,
+            "DEF": 30,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Water": 25
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 60000,
+        "price_sell": 6000,
+        "icon": "item_2220002.png"
+    },
     "405000200": {
         "name": "皮の服",
         "compendium_id": 146,
@@ -29040,6 +29139,78 @@
         "price_buy": 10000,
         "price_sell": 1000,
         "icon": "item_2170000.png"
+    },
+    "405007800": {
+        "name": "ニコルのアロハシャツ",
+        "compendium_id": 1484,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": [
+            "SEX",
+            1
+        ],
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 25,
+            "MAG": 37,
+            "SPR": 21,
+            "element_resist": {
+                "Water": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2170007.png"
+    },
+    "405007900": {
+        "name": "真・ニコルのアロハシャツ",
+        "compendium_id": 1485,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": [
+            "SEX",
+            1
+        ],
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 40,
+            "MAG": 48,
+            "SPR": 32,
+            "element_resist": {
+                "Water": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2170008.png"
     },
     "406000100": {
         "name": "レザープレート",
@@ -44112,5 +44283,102 @@
         "price_buy": 10000,
         "price_sell": 1000,
         "icon": "item_2250001.png"
+    },
+    "409035300": {
+        "name": "サマーアロハ・レイ",
+        "compendium_id": 1482,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [232800],
+        "effects": ["Grants 'バカンスの思い出' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 10,
+            "MAG": 0,
+            "SPR": 10,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250008.png"
+    },
+    "409035400": {
+        "name": "清海の首飾り",
+        "compendium_id": 1486,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 30,
+            "element_resist": {
+                "Water": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250009.png"
+    },
+    "409035500": {
+        "name": "真・清海の首飾り",
+        "compendium_id": 1487,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100010],
+        "effects": ["Grants 'HP+10%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 35,
+            "element_resist": {
+                "Water": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250010.png"
     }
 }

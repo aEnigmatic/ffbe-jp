@@ -79140,6 +79140,71 @@
         "effects": ["Physical damage (2x, ATK) to all enemies"],
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
     },
+    "216892": {
+        "name": "ストンガ剣",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Hybrid",
+        "execute_type": "Default",
+        "effects": ["Hybrid earth damage (0.8x, ATK & MAG) to one enemy"],
+        "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  80,  80]]]
+    },
+    "216893": {
+        "name": "フリーズ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic ice damage (1.6x, MAG) to all enemies",
+            "Reduce resistance to Ice by 15% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  160]], [2, 1, 33, [0,  -15,  0,  0,  0,  0,  0,  0,  1,  3]]]
+    },
+    "216894": {
+        "name": "バースト",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic lightning damage (1.6x, MAG) to all enemies",
+            "Reduce resistance to Earth by 15% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  160]], [2, 1, 33, [0,  0,  0,  0,  0,  -15,  0,  0,  1,  3]]]
+    },
+    "216895": {
+        "name": "メルトン",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic fire damage (1.5x * 1.11 = 1.67x, MAG) to all enemies (ignore reflect)",
+            "Reduce resistance to Fire by 15% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 70, [0,  0,  150,  10]], [2, 1, 33, [-15,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]
+    },
+    "216896": {
+        "name": "ホーリー",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic light damage (1.8x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  180]]]
+    },
+    "216897": {
+        "name": "ファイガ剣",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Hybrid",
+        "execute_type": "Default",
+        "effects": ["Hybrid fire damage (0.8x, ATK & MAG) to one enemy"],
+        "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  80,  80]]]
+    },
+    "216898": {
+        "name": "ブリザガ剣",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Hybrid",
+        "execute_type": "Default",
+        "effects": ["Hybrid ice damage (0.8x, ATK & MAG) to one enemy"],
+        "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  80,  80]]]
+    },
     "216899": {
         "name": "セルレアムベント",
         "flags": [false,  false,  true,  false],
@@ -79776,12 +79841,361 @@
         "attack_type": "Physical",
         "execute_type": "Default",
         "effects": ["Physical fire damage (1.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  150]]]
+    },
+    "216971": {
+        "name": "ネズミの恨み",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Fixed fire damage (666) to one enemy",
+            "Inflict Disease (50%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 41, [666]], [1, 1, 6, [0,  0,  0,  0,  0,  0,  50,  0,  1]]]
+    },
+    "216972": {
+        "name": "ネズミの恨み",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Fixed water damage (666) to one enemy",
+            "Inflict Disease (50%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 41, [666]], [1, 1, 6, [0,  0,  0,  0,  0,  0,  50,  0,  1]]]
+    },
+    "216973": {
+        "name": "ネズミの恨み",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Fixed wind damage (666) to one enemy",
+            "Inflict Disease (50%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 41, [666]], [1, 1, 6, [0,  0,  0,  0,  0,  0,  50,  0,  1]]]
+    },
+    "216974": {
+        "name": "ネズミの恨み",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Fixed earth damage (666) to one enemy",
+            "Inflict Disease (50%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 41, [666]], [1, 1, 6, [0,  0,  0,  0,  0,  0,  50,  0,  1]]]
+    },
+    "216975": {
+        "name": "ネズミの恨み",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Fixed lightning damage (666) to one enemy",
+            "Inflict Disease (50%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 41, [666]], [1, 1, 6, [0,  0,  0,  0,  0,  0,  50,  0,  1]]]
+    },
+    "216976": {
+        "name": "ネズミの恨み",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Fixed dark damage (666) to one enemy",
+            "Inflict Disease (50%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 41, [666]], [1, 1, 6, [0,  0,  0,  0,  0,  0,  50,  0,  1]]]
+    },
+    "216977": {
+        "name": "激しい敵意を感じる！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #5"],
+        "effects_raw": [[0, 2, 87, [1, 5, "こちらの様子をうかがっている", 100, 0]]]
+    },
+    "216978": {
+        "name": "激しい敵意を感じる！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #6"],
+        "effects_raw": [[0, 2, 87, [1, 6, "こちらの様子をうかがっている", 100, 0]]]
+    },
+    "216979": {
+        "name": "激しい敵意を感じる！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #7"],
+        "effects_raw": [[0, 2, 87, [1, 7, "こちらの様子をうかがっている", 100, 0]]]
+    },
+    "216980": {
+        "name": "激しい敵意を感じる！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #8"],
+        "effects_raw": [[0, 2, 87, [1, 8, "こちらの様子をうかがっている", 100, 0]]]
+    },
+    "216981": {
+        "name": "みんなの怒り",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Fixed damage (1242) to all enemies"],
+        "effects_raw": [[2, 1, 41, [1242]]]
+    },
+    "216982": {
+        "name": "みんなの怒り",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Fixed damage (2424) to all enemies"],
+        "effects_raw": [[2, 1, 41, [2424]]]
+    },
+    "216983": {
+        "name": "みんなの怒り",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Fixed damage (4242) to all enemies"],
+        "effects_raw": [[2, 1, 41, [4242]]]
+    },
+    "216984": {
+        "name": "みんなの怒り",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Fixed damage (6666) to all enemies"],
+        "effects_raw": [[2, 1, 41, [6666]]]
+    },
+    "216985": {
+        "name": "やられた仲間の無念が乗り移った",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Increase ATK by 10% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [10,  0,  0,  0,  3,  1]]]
+    },
+    "216986": {
+        "name": "ギガントテイル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.8x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  180]]]
+    },
+    "216987": {
+        "name": "執念の眼光",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Inflict Stop (50%) for 2 turns on one enemy"],
+        "effects_raw": [[1, 1, 88, [50,  2]]]
+    },
+    "216988": {
+        "name": "ねずみのほんのう",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase DEF and SPR by 10% and ATK and MAG by 5% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [5,  10,  5,  10,  3,  1]]]
+    },
+    "216989": {
+        "name": "激しい敵意を感じる！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #1"],
+        "effects_raw": [[0, 2, 87, [1, 1, "こちらの様子をうかがっている", 100, 0]]]
+    },
+    "216990": {
+        "name": "激しい敵意を感じる！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #2"],
+        "effects_raw": [[0, 2, 87, [1, 2, "こちらの様子をうかがっている", 100, 0]]]
+    },
+    "216991": {
+        "name": "激しい敵意を感じる！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #3"],
+        "effects_raw": [[0, 2, 87, [1, 3, "こちらの様子をうかがっている", 100, 0]]]
+    },
+    "216992": {
+        "name": "大潮",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical water damage (1.8x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  180]]]
+    },
+    "216993": {
+        "name": "水鉄砲",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical water damage (1.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  150]]]
+    },
+    "216994": {
+        "name": "砂水",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical water and earth damage (1.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  150]]]
+    },
+    "216995": {
+        "name": "炎天",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Water by 50% for 3 turns to one enemy"],
+        "effects_raw": [[1, 1, 33, [0,  0,  0,  -50,  0,  0,  0,  0,  1,  3]]]
+    },
+    "216996": {
+        "name": "グランシェルトの光",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce damage taken by 50% to all allies for one turn"],
+        "effects_raw": [[2, 2, 101, [50,  1,  1]]]
+    },
+    "216997": {
+        "name": "光晶の騎士剣",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical ice damage (1.8x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  180]]]
+    },
+    "216998": {
+        "name": "誠光の騎士剣",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical light damage (1.8x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  180]]]
+    },
+    "216999": {
+        "name": "F型最強アイス弾　改",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical ice damage (2.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  250]]]
+    },
+    "217000": {
+        "name": "プレミアムファイサリス弾",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
+    },
+    "217001": {
+        "name": "ハチノス撃ち",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.8x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]]]
+    },
+    "217002": {
+        "name": "タネ連射",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  150]]]
+    },
+    "217003": {
+        "name": "ウォーターメロンボム",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical water damage (1.8x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  180]]]
+    },
+    "217004": {
+        "name": "あはは",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
+    },
+    "217005": {
+        "name": "うふふ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
+    },
+    "217006": {
+        "name": "アンダーマイン",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (1.5x, ATK) to one enemy",
+            "Reduce ATK, DEF, MAG and SPR by 30% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  150]], [1, 1, 24, [-30,  -30,  -30,  -30,  3,  1]]]
+    },
+    "217007": {
+        "name": "シャイニングノヴァ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical fire damage (3x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
+    },
+    "217008": {
+        "name": "バーリア！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce damage taken by 50% to caster for one turn"],
+        "effects_raw": [[0, 3, 101, [50,  1,  1]]]
+    },
+    "217009": {
+        "name": "グランシェルトビッグウェーブ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical water damage (3x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
+    },
+    "217010": {
+        "name": "ひっかき",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
+    },
+    "217013": {
+        "name": "クリムゾンスラッシュ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical fire damage (3x, ATK) to all enemies"],
         "effects_raw": [
             [
                 2,
                 1,
                 1,
-                [0, 0, 0, 0, 0, 0, 150]
+                [0, 0, 0, 0, 0, 0, 300]
             ]
         ]
     }
