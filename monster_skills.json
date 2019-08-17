@@ -40210,7 +40210,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Magic* damage (2x, SPR) per turn to one enemy for 5 turns"],
+        "effects": ["Magic* damage (2x, MAG) per turn to one enemy for 5 turns"],
         "effects_raw": [[1, 1, 139, [3,  200,  0,  0,  5,  1,  0]]]
     },
     "193750": {
@@ -40304,7 +40304,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Magic* damage (2.2x, SPR) per turn to one enemy for 5 turns"],
+        "effects": ["Magic* damage (2.2x, MAG) per turn to one enemy for 5 turns"],
         "effects_raw": [[1, 1, 139, [3,  220,  0,  0,  5,  1,  0]]]
     },
     "193860": {
@@ -40312,7 +40312,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Magic* damage (2.5x, SPR) per turn to all enemies for 10 turns"],
+        "effects": ["Magic* damage (2.5x, MAG) per turn to all enemies for 10 turns"],
         "effects_raw": [[2, 1, 139, [3,  250,  0,  0,  10,  1,  1]]]
     },
     "193870": {
@@ -45556,7 +45556,7 @@
         "execute_type": "Default",
         "effects": [
             "Magic damage (2.5x, MAG) to one enemy",
-            "Magic damage (0.1x, SPR) per turn to one enemy for 3 turns"
+            "Magic damage (0.1x, MAG) per turn to one enemy for 3 turns"
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  250,  0]], [1, 1, 139, [3,  10,  1000,  1,  3,  1,  0]]]
     },
@@ -52730,7 +52730,7 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": [
-            "Magic* damage (0.5x, SPR) per turn to all enemies for 5 turns",
+            "Magic* damage (0.5x, MAG) per turn to all enemies for 5 turns",
             "Inflict Disease (100%) on all enemies"
         ],
         "effects_raw": [[2, 1, 139, [3,  50,  0,  0,  5,  1,  0]], [2, 1, 6, [0,  0,  0,  0,  0,  0,  100,  0,  1]]]
@@ -64267,7 +64267,7 @@
         "effects": [
             "Reduce resistance to Light by 170% for 3 turns to all enemies",
             "Magic light damage (14x, MAG) to all enemies",
-            "Magic light damage (7x, SPR) per turn to all enemies for 3 turns"
+            "Magic light damage (7x, MAG) per turn to all enemies for 3 turns"
         ],
         "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  0,  0,  -170,  0,  1,  3]], [2, 1, 15, [0,  0,  0,  0,  0,  1400]], [2, 1, 139, [3,  700,  0,  0,  3,  1,  5]]]
     },
@@ -64508,7 +64508,7 @@
         "execute_type": "Default",
         "effects": [
             "Magic ice damage (1.7x, MAG) to all enemies",
-            "Magic ice damage (0.5x, SPR) per turn to all enemies for 3 turns"
+            "Magic ice damage (0.5x, MAG) per turn to all enemies for 3 turns"
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  170,  0]], [2, 1, 139, [3,  50,  0,  0,  3,  1,  5]]]
     },
@@ -64519,7 +64519,7 @@
         "execute_type": "Default",
         "effects": [
             "Magic ice damage (2x, MAG) to all enemies",
-            "Magic ice damage (0.6x, SPR) per turn to all enemies for 3 turns"
+            "Magic ice damage (0.6x, MAG) per turn to all enemies for 3 turns"
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  200,  0]], [2, 1, 139, [3,  60,  0,  0,  3,  1,  5]]]
     },
@@ -68134,7 +68134,7 @@
         "execute_type": "Default",
         "effects": [
             "Magic fire damage (3.3x * 1.33 = 4.4x, MAG) to all enemies (ignore reflect)",
-            "Magic fire damage (1x, SPR) per turn to all enemies for 3 turns"
+            "Magic fire damage (1x, MAG) per turn to all enemies for 3 turns"
         ],
         "effects_raw": [[2, 1, 70, [0,  0,  330,  25]], [2, 1, 139, [3,  100,  0,  0,  3,  1,  5]]]
     },
@@ -68295,7 +68295,7 @@
         "execute_type": "Default",
         "effects": [
             "Magic ice damage (2.2x, MAG) to all enemies",
-            "Magic ice damage (0.8x, SPR) per turn to all enemies for 3 turns"
+            "Magic ice damage (0.8x, MAG) per turn to all enemies for 3 turns"
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  220]], [2, 1, 139, [3,  80,  0,  0,  3,  1,  5]]]
     },
@@ -72362,7 +72362,7 @@
         "execute_type": "Default",
         "effects": [
             "Magic* damage (2.75x, MAG) to one enemy",
-            "Magic* damage (2.5x, SPR) per turn to one enemy for 3 turns"
+            "Magic* damage (2.5x, MAG) per turn to one enemy for 3 turns"
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  275]], [1, 1, 139, [3,  250,  0,  0,  3,  1,  4]]]
     },
@@ -73882,7 +73882,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Magic* damage (2.5x, SPR) per turn to one enemy for 5 turns"],
+        "effects": ["Magic* damage (2.5x, MAG) per turn to one enemy for 5 turns"],
         "effects_raw": [[1, 1, 139, [3,  250,  0,  0,  5,  1,  0]]]
     },
     "216284": {
@@ -73890,7 +73890,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Magic* damage (2.8x, SPR) per turn to all enemies for 10 turns"],
+        "effects": ["Magic* damage (2.8x, MAG) per turn to all enemies for 10 turns"],
         "effects_raw": [[2, 1, 139, [3,  280,  0,  0,  10,  1,  1]]]
     },
     "216285": {
@@ -74448,7 +74448,7 @@
         "execute_type": "Default",
         "effects": [
             "Magic fire damage (10x * 1.33 = 13.33x, MAG) to all enemies (ignore reflect)",
-            "Magic fire damage (9.5x, SPR) per turn to all enemies for 3 turns"
+            "Magic fire damage (9.5x, MAG) per turn to all enemies for 3 turns"
         ],
         "effects_raw": [[2, 1, 70, [0,  0,  1000,  25]], [2, 1, 139, [3,  950,  0,  0,  3,  1,  5]]]
     },
@@ -77031,7 +77031,7 @@
         "execute_type": "Default",
         "effects": [
             "Magic damage (6x, MAG) to one enemy",
-            "Magic damage (9.5x, SPR) per turn to one enemy for 3 turns"
+            "Magic damage (9.5x, MAG) per turn to one enemy for 3 turns"
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  600]], [1, 1, 139, [3,  950,  0,  0,  3,  1,  5]]]
     },
@@ -77585,7 +77585,7 @@
         "effects": [
             "Magic* dark damage (8x, MAG) to all enemies",
             "Inflict Poison (100%) on all enemies",
-            "Magic* dark damage (2.3x, SPR) per turn to all enemies for 3 turns"
+            "Magic* dark damage (2.3x, MAG) per turn to all enemies for 3 turns"
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  800]], [2, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]], [2, 1, 139, [3,  230,  0,  0,  3,  1,  2]]]
     },
@@ -78028,7 +78028,7 @@
         "execute_type": "Default",
         "effects": [
             "Magic light damage (3x, MAG) to one enemy",
-            "Magic light damage (2x, SPR) per turn to one enemy for 5 turns"
+            "Magic light damage (2x, MAG) per turn to one enemy for 5 turns"
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  300]], [1, 1, 139, [3,  200,  0,  1,  5,  1,  100]]]
     },
@@ -78149,7 +78149,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Magic* damage (4.5x, SPR) per turn to all enemies for 2 turns"],
+        "effects": ["Magic* damage (4.5x, MAG) per turn to all enemies for 2 turns"],
         "effects_raw": [[2, 1, 139, [3,  450,  0,  0,  2,  1,  100]]]
     },
     "216773": {
