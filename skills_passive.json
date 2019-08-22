@@ -3159,7 +3159,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["50% chance to ignore fatal damage when HP is above 40% (max 3 times)"],
+        "effects": ["50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 3 times)"],
         "effects_raw": [[0, 3, 51, [40,  50,  0,  3]]],
         "requirements": null,
         "unit_restriction": null
@@ -3293,7 +3293,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["30% chance to ignore fatal damage when HP is above 40% (max 1 times)"],
+        "effects": ["30% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [40,  30,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -3995,7 +3995,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["80% chance to ignore fatal damage when HP is above 10% (max 1 times)"],
+        "effects": ["80% chance to set HP to 1 upon fatal damage, if HP was above 10% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [10,  80,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -6571,7 +6571,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["50% chance to ignore fatal damage when HP is above 70% (max 1 times)"],
+        "effects": ["50% chance to set HP to 1 upon fatal damage, if HP was above 70% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [70,  50,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -7026,7 +7026,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["100% chance to ignore fatal damage when HP is above 30% (max 1 times)"],
+        "effects": ["100% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [30,  100,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -7908,7 +7908,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["20% chance to ignore fatal damage when HP is above 30% (max 1 times)"],
+        "effects": ["20% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [30,  20,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -8486,7 +8486,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["50% chance to ignore fatal damage when HP is above 40% (max 3 times)"],
+        "effects": ["50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 3 times)"],
         "effects_raw": [[0, 3, 51, [40,  50,  0,  3]]],
         "requirements": null,
         "unit_restriction": null
@@ -8945,7 +8945,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "100% chance to ignore fatal damage when HP is above 30% (max 1 times)",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 1 times)",
             "20% chance to counter physical attacks with 不死将軍 (503020) to caster",
             "20% chance to counter magic attacks with 不死将軍 (503020) to caster"
         ],
@@ -10381,7 +10381,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["80% chance to ignore fatal damage when HP is above 10% (max 1 times)"],
+        "effects": ["80% chance to set HP to 1 upon fatal damage, if HP was above 10% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [10,  80,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -12869,7 +12869,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["100% chance to ignore fatal damage when HP is above 30% (max 1 times)"],
+        "effects": ["100% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [30,  100,  0,  1,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -13896,7 +13896,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["50% chance to ignore fatal damage when HP is above 40% (max 3 times)"],
+        "effects": ["50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 3 times)"],
         "effects_raw": [[0, 3, 51, [40,  50,  0,  3]]],
         "requirements": null,
         "unit_restriction": null
@@ -14022,7 +14022,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["20% chance to ignore fatal damage when HP is above 80% (max 1 times)"],
+        "effects": ["20% chance to set HP to 1 upon fatal damage, if HP was above 80% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [80,  20,  0,  1,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -14261,7 +14261,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["25% chance to ignore fatal damage when HP is above 30% (max 1 times)"],
+        "effects": ["25% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [30,  25,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -14443,7 +14443,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["100% chance to ignore fatal damage when HP is above 30% (max 1 times)"],
+        "effects": ["100% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [30,  100,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -14570,7 +14570,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["30% chance to ignore fatal damage when HP is above 60% (max 1 times)"],
+        "effects": ["30% chance to set HP to 1 upon fatal damage, if HP was above 60% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [60,  30,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -14753,7 +14753,7 @@
         "effects": [
             "Increase ATK by 20%",
             "Increase resistance to Fire and Ice by 30%",
-            "50% chance to ignore fatal damage when HP is above 70% (max 1 times)"
+            "50% chance to set HP to 1 upon fatal damage, if HP was above 70% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  0,  0,  0]], [0, 3, 3, [30,  30,  0,  0,  0,  0,  0]], [0, 3, 51, [70,  50,  0,  1]]],
         "requirements": [["SWITCH", 18230118]],
@@ -16244,7 +16244,7 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF and HP by 30%",
-            "100% chance to ignore fatal damage when HP is above 1% (max 1 times)"
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [0,  30,  0,  0,  30,  0,  0]], [0, 3, 51, [1,  100,  0,  1,  0]]],
         "requirements": [["EQUIP", 402001600], ["EQUIP", 407003100]],
@@ -16541,7 +16541,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["100% chance to ignore fatal damage when HP is above 1% (max 1 times)"],
+        "effects": ["100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [1,  100,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -17230,7 +17230,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["50% chance to ignore fatal damage when HP is above 40% (max 3 times)"],
+        "effects": ["50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 3 times)"],
         "effects_raw": [[0, 3, 51, [40,  50,  0,  3]]],
         "requirements": null,
         "unit_restriction": null
@@ -17696,7 +17696,7 @@
         "effects": [
             "Increase HP and MP by 20%",
             "Increase chance of countering by 100%",
-            "100% chance to ignore fatal damage when HP is above 50% (max 1 times)"
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 50% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  20,  0]], [0, 3, 20, [100]], [0, 3, 51, [50,  100,  0,  1]]],
         "requirements": [["EQUIP", 504210800], ["EQUIP", 407003300]],
@@ -18122,7 +18122,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "50% chance to ignore fatal damage when HP is above 40% (max 3 times)",
+            "50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 3 times)",
             "Increase DEF by 30%"
         ],
         "effects_raw": [[0, 3, 51, [40,  50,  0,  3]], [0, 3, 1, [0,  30,  0,  0,  0,  0,  0]]],
@@ -18546,7 +18546,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["50% chance to ignore fatal damage when HP is above 40% (max 1 times)"],
+        "effects": ["50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [40,  50,  0,  1,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -19737,7 +19737,7 @@
         "element_inflict": null,
         "effects": [
             "Increase HP and MP by 40%",
-            "80% chance to ignore fatal damage when HP is above 40% (max 3 times)",
+            "80% chance to set HP to 1% upon fatal damage, if HP was above 40% (max 3 times)",
             "Increase LB gauge by 1 per turn"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  40,  40,  0]], [0, 3, 51, [40,  80,  1,  3,  0]], [0, 3, 33, [100]]],
@@ -20954,7 +20954,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["50% chance to ignore fatal damage when HP is above 40% (max 1 times)"],
+        "effects": ["50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [40,  50,  0,  1,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -21730,7 +21730,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["30% chance to ignore fatal damage when HP is above 80% (max 1 times)"],
+        "effects": ["30% chance to set HP to 1% upon fatal damage, if HP was above 80% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [80,  30,  1,  1,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -23373,7 +23373,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "50% chance to ignore fatal damage when HP is above 40% (max 1 times)",
+            "50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 1 times)",
             "Recover MP (10%) per turn"
         ],
         "effects_raw": [[0, 3, 51, [40,  50,  0,  1,  1]], [0, 3, 32, [10]]],
@@ -24397,7 +24397,7 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF and HP by 30%",
-            "50% chance to ignore fatal damage when HP is above 5% (max 1 times)",
+            "50% chance to set HP to 1 upon fatal damage, if HP was above 5% (max 1 times)",
             "Increase DEF by 200% when HP drops below 1% (max 9999x)",
             "Increase SPR by 200% when HP drops below 1% (max 9999x)"
         ],
@@ -24610,7 +24610,7 @@
         "element_inflict": null,
         "effects": [
             "Increase HP by 30%",
-            "30% chance to ignore fatal damage when HP is above 60% (max 1 times)"
+            "30% chance to set HP to 1 upon fatal damage, if HP was above 60% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  30,  0,  0]], [0, 3, 51, [60,  30,  0,  1]]],
         "requirements": null,
@@ -24765,7 +24765,7 @@
         "element_inflict": null,
         "effects": [
             "Increase HP by 20%",
-            "60% chance to ignore fatal damage when HP is above 30% (max 1 times)"
+            "60% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  0,  0]], [0, 3, 51, [30,  60,  0,  1]]],
         "requirements": null,
@@ -25877,7 +25877,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["50% chance to ignore fatal damage when HP is above 40% (max 1 times)"],
+        "effects": ["50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [40,  50,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -27783,7 +27783,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "30% chance to ignore fatal damage when HP is above 40% (max 1 times)",
+            "30% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 1 times)",
             "Increase the limit burst gauge fill rate by 25%"
         ],
         "effects_raw": [[0, 3, 51, [40,  30,  0,  1]], [0, 3, 31, [25]]],
@@ -27985,7 +27985,7 @@
         "effects": [
             "Increase MAG by 30%",
             "Use Ultema The Nice Body (508910) at the start of a battle",
-            "100% chance to ignore fatal damage when HP is above 30% (max 1 times)",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 1 times)",
             "Increase equipment MAG by 60% when armed with two weapons"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 56, [508910]], [0, 3, 51, [30,  100,  0,  1]], [0, 3, 69, [3,  60,  0]]],
@@ -28877,7 +28877,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["30% chance to ignore fatal damage when HP is above 25% (max 1 times)"],
+        "effects": ["30% chance to set HP to 1 upon fatal damage, if HP was above 25% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [25,  30,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -29336,7 +29336,7 @@
             "Increase ATK by 50%",
             "Increase equipment ATK by 50% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "80% chance to ignore fatal damage when HP is above 30% (max 1 times)"
+            "80% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 51, [30,  80,  0,  1]]],
         "requirements": [["EQUIP", 504229343], ["EQUIP", 314002000]],
@@ -29982,7 +29982,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["50% chance to ignore fatal damage when HP is above 40% (max 1 times)"],
+        "effects": ["50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [40,  50,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -30015,7 +30015,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "30% chance to ignore fatal damage when HP is above 60% (max 1 times)",
+            "30% chance to set HP to 1 upon fatal damage, if HP was above 60% (max 1 times)",
             "Increase ATK by 100% for 2 turns when HP drops below 20% (max 1x)",
             "Increase DEF by 100% for 2 turns when HP drops below 20% (max 1x)"
         ],
@@ -30403,7 +30403,7 @@
         "element_inflict": null,
         "effects": [
             "Increase SPR by 60% and MAG by 30%",
-            "80% chance to ignore fatal damage when HP is above 40% (max 1 times)"
+            "80% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  30,  60,  0,  0,  0]], [0, 3, 51, [40,  80,  0,  1]]],
         "requirements": null,
@@ -31868,7 +31868,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "60% chance to ignore fatal damage when HP is above 40% (max 1 times)",
+            "60% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 1 times)",
             "Increase resistance to Sleep, Confusion and Petrify by 100%"
         ],
         "effects_raw": [[0, 3, 51, [40,  60,  0,  1]], [0, 3, 2, [0,  0,  100,  0,  0,  100,  0,  100]]],
@@ -33714,7 +33714,7 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF, SPR and HP by 30%",
-            "80% chance to ignore fatal damage when HP is above 5% (max 1 times)",
+            "80% chance to set HP to 1 upon fatal damage, if HP was above 5% (max 1 times)",
             "Increase resistance to Light by 70%"
         ],
         "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  30,  0,  0]], [0, 3, 51, [5,  80,  0,  1]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  70,  0]]],
@@ -33779,7 +33779,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["50% chance to ignore fatal damage when HP is above 40% (max 1 times)"],
+        "effects": ["50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [40,  50,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -34296,7 +34296,7 @@
         "element_inflict": null,
         "effects": [
             "Enable unit to equip two one-handed weapons",
-            "40% chance to ignore fatal damage when HP is above 30% (max 1 times)",
+            "40% chance to set HP to 1% upon fatal damage, if HP was above 30% (max 1 times)",
             "Increase equipment ATK by 60% when armed with two weapons"
         ],
         "effects_raw": [[0, 3, 14, ["none"]], [0, 3, 51, [30,  40,  1,  1]], [0, 3, 69, [1,  60,  0]]],
@@ -35078,7 +35078,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["20% chance to ignore fatal damage when HP is above 50% (max 1 times)"],
+        "effects": ["20% chance to set HP to 1% upon fatal damage, if HP was above 50% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [50,  20,  1,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -35310,7 +35310,7 @@
             "Increase Stop resistance by 100% to caster",
             "Increase Charm resistance by 100% to caster",
             "Increase equipment MAG by 50% when armed with two weapons",
-            "100% chance to ignore fatal damage when HP is above 1% (max 1 times)"
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 55, [0,  0,  0,  0,  100,  100]], [0, 3, 69, [3,  50]], [0, 3, 51, [1,  100,  0,  1]]],
         "requirements": [["EQUIP", 408004600], ["EQUIP", 409029200]],
@@ -36063,7 +36063,7 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF by 50%",
-            "100% chance to ignore fatal damage when HP is above 5% (max 1 times)"
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 5% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [0,  50,  0,  0,  0,  0,  0]], [0, 3, 51, [5,  100,  0,  1]]],
         "requirements": null,
@@ -36784,7 +36784,7 @@
         "effects": [
             "Recover MP (5%) per turn",
             "Increase LB gauge by 3 per turn",
-            "100% chance to ignore fatal damage when HP is above 1% (max 1 times)"
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 32, [5]], [0, 3, 33, [300]], [0, 3, 51, [1,  100,  0,  1]]],
         "requirements": null,
@@ -37275,7 +37275,7 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK and SPR by 20%",
-            "60% chance to ignore fatal damage when HP is above 40% (max 1 times)"
+            "60% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [20,  0,  0,  20,  0,  0,  0]], [0, 3, 51, [40,  60,  0,  1]]],
         "requirements": null,
@@ -37378,7 +37378,7 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK by 20%",
-            "80% chance to ignore fatal damage when HP is above 60% (max 1 times)"
+            "80% chance to set HP to 1 upon fatal damage, if HP was above 60% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  0,  0,  0]], [0, 3, 51, [60,  80,  0,  1]]],
         "requirements": null,
@@ -37943,7 +37943,7 @@
         "element_inflict": null,
         "effects": [
             "Gain リジェネ(覇者の闘気用) (10122) at the start of a battle or when revived",
-            "50% chance to ignore fatal damage when HP is above 80% (max 1 times)"
+            "50% chance to set HP to 1% upon fatal damage, if HP was above 80% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 35, [10122]], [0, 3, 51, [80,  50,  1,  1]]],
         "requirements": null,
@@ -39742,7 +39742,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["100% chance to ignore fatal damage when HP is above 1% (max 2 times)"],
+        "effects": ["100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 2 times)"],
         "effects_raw": [[0, 3, 51, [1,  100,  0,  2]]],
         "requirements": [["EQUIP", 409030800], ["EQUIP", 504231204]],
         "unit_restriction": null
@@ -40018,7 +40018,7 @@
         "effects": [
             "Increase SPR, HP and MP by 30%",
             "Increase DEF by 200% for 2 turns when HP drops below 41% (max 9999x)",
-            "100% chance to ignore fatal damage when HP is above 5% (max 1 times)"
+            "100% chance to set HP to 1% upon fatal damage, if HP was above 5% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  30,  30,  0]], [0, 3, 4, [2,  200,  9999,  41,  0,  2]], [0, 3, 51, [5,  100,  1,  1]]],
         "requirements": null,
@@ -40433,7 +40433,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["100% chance to ignore fatal damage when HP is above 1% (max 1 times)"],
+        "effects": ["100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [1,  100,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -42086,7 +42086,7 @@
             "Increase ATK by 30%",
             "Increase equipment ATK by 100% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "100% chance to ignore fatal damage when HP is above 30% (max 1 times)"
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [100,  25,  2]], [0, 3, 51, [30,  100,  0,  1]]],
         "requirements": null,
@@ -42313,7 +42313,7 @@
         "element_inflict": null,
         "effects": [
             "Increase MAG by 50%",
-            "100% chance to ignore fatal damage when HP is above 1% (max 1 times)"
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  0,  0]], [0, 3, 51, [1,  100,  0,  1]]],
         "requirements": null,
@@ -42430,7 +42430,7 @@
         "element_inflict": null,
         "effects": [
             "Increase SPR and MP by 40%",
-            "100% chance to ignore fatal damage when HP is above 1% (max 1 times)"
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  40,  0,  40,  0]], [0, 3, 51, [1,  100,  0,  1]]],
         "requirements": [["EQUIP", 405006900], ["EQUIP", 504231731]],
@@ -43339,7 +43339,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["100% chance to ignore fatal damage when HP is above 1% (max 2 times)"],
+        "effects": ["100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 2 times)"],
         "effects_raw": [[0, 3, 51, [1,  100,  0,  2]]],
         "requirements": [["EQUIP", 504231910], ["EQUIP", 405007100]],
         "unit_restriction": null
@@ -44685,7 +44685,7 @@
         "element_inflict": null,
         "effects": [
             "Increase HP by 30%",
-            "50% chance to ignore fatal damage when HP is above 40% (max 1 times)"
+            "50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  30,  0,  0]], [0, 3, 51, [40,  50,  0,  1]]],
         "requirements": null,
@@ -44805,7 +44805,7 @@
         "element_inflict": null,
         "effects": [
             "Increase SPR by 40%",
-            "100% chance to ignore fatal damage when HP is above 1% (max 1 times)"
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  40,  0,  0,  0]], [0, 3, 51, [1,  100,  0,  1]]],
         "requirements": null,
@@ -45644,7 +45644,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["100% chance to ignore fatal damage when HP is above 1% (max 1 times)"],
+        "effects": ["100% chance to set HP to 1% upon fatal damage, if HP was above 1% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [1,  100,  1,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -46979,7 +46979,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "100% chance to ignore fatal damage when HP is above 1% (max 1 times)",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)",
             "Increase equipment MAG by 100% when armed with a single weapon"
         ],
         "effects_raw": [[0, 3, 51, [1,  100,  0,  1]], [0, 3, 70, [100,  0,  2]]],
@@ -48175,7 +48175,7 @@
             "Increase LB damage by 50%",
             "Increase equipment ATK by 50% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "100% chance to ignore fatal damage when HP is above 1% (max 1 times)"
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 68, [50]], [0, 3, 13, [50,  25,  2]], [0, 3, 51, [1,  100,  0,  1]]],
         "requirements": [["EQUIP", 504232700], ["EQUIP", 302010300]],
@@ -48816,7 +48816,7 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF and MP by 30%",
-            "80% chance to ignore fatal damage when HP is above 5% (max 1 times)"
+            "80% chance to set HP to 1 upon fatal damage, if HP was above 5% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [0,  30,  0,  0,  0,  30,  0]], [0, 3, 51, [5,  80,  0,  1]]],
         "requirements": null,
@@ -50574,7 +50574,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["30% chance to ignore fatal damage when HP is above 40% (max 1 times)"],
+        "effects": ["30% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [40,  30,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -51962,7 +51962,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["50% chance to ignore fatal damage when HP is above 50% (max 1 times)"],
+        "effects": ["50% chance to set HP to 1 upon fatal damage, if HP was above 50% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [50,  50,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -51976,7 +51976,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["50% chance to ignore fatal damage when HP is above 30% (max 1 times)"],
+        "effects": ["50% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [30,  50,  0,  1]]],
         "requirements": null,
         "unit_restriction": null
@@ -52349,7 +52349,7 @@
             "Recover MP (10%) per turn",
             "Increase HP by 30%",
             "Gain リジェネ(オート用) (10121) at the start of a battle or when revived",
-            "50% chance to ignore fatal damage when HP is above 40% (max 3 times)"
+            "50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 3 times)"
         ],
         "effects_raw": [[1, 3, 32, [10]], [1, 3, 1, [0,  0,  0,  0,  30,  0,  0]], [1, 3, 35, [10121]], [1, 3, 51, [40,  50,  0,  3]]],
         "requirements": null,
@@ -52644,7 +52644,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "50% chance to ignore fatal damage when HP is above 40% (max 3 times)",
+            "50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 3 times)",
             "Recover MP (10%) per turn"
         ],
         "effects_raw": [[0, 3, 51, [40,  50,  0,  3]], [0, 3, 32, [10]]],
@@ -52661,7 +52661,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "50% chance to ignore fatal damage when HP is above 40% (max 3 times)",
+            "50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 3 times)",
             "Recover MP (10%) per turn",
             "Increase HP and MP by 30%"
         ],
@@ -58190,7 +58190,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "50% chance to ignore fatal damage when HP is above 40% (max 3 times)",
+            "50% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 3 times)",
             "Increase DEF and SPR by 20%"
         ],
         "effects_raw": [[0, 3, 51, [40,  50,  0,  3]], [0, 3, 1, [0,  20,  0,  20,  0,  0,  0]]],
@@ -58207,7 +58207,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "75% chance to ignore fatal damage when HP is above 40% (max 3 times)",
+            "75% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 3 times)",
             "Increase DEF and SPR by 30%"
         ],
         "effects_raw": [[0, 3, 51, [40,  75,  0,  3]], [0, 3, 1, [0,  30,  0,  30,  0,  0,  0]]],
@@ -58467,7 +58467,7 @@
         "element_inflict": null,
         "effects": [
             "Increase ATK and HP by 30%",
-            "30% chance to ignore fatal damage when HP is above 1% (max 1 times)"
+            "30% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
         ],
         "effects_raw": [[1, 3, 1, [30,  0,  0,  0,  30,  0,  0]], [1, 3, 51, [1,  30,  0,  1]]],
         "requirements": null,
@@ -58991,7 +58991,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "75% chance to ignore fatal damage when HP is above 40% (max 3 times)",
+            "75% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 3 times)",
             "Increase DEF and SPR by 30%"
         ],
         "effects_raw": [[0, 3, 51, [40,  75,  0,  3]], [0, 3, 1, [0,  30,  0,  30,  0,  0,  0]]],
@@ -59008,7 +59008,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "100% chance to ignore fatal damage when HP is above 40% (max 3 times)",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 40% (max 3 times)",
             "Increase DEF and SPR by 30%"
         ],
         "effects_raw": [[0, 3, 51, [40,  100,  0,  3]], [0, 3, 1, [0,  30,  0,  30,  0,  0,  0]]],
@@ -62260,7 +62260,7 @@
             "Increase HP by 50%",
             "Increase equipment ATK by 50% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "100% chance to ignore fatal damage when HP is above 1% (max 1 times)"
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  50,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 51, [1,  100,  0,  1]]],
         "requirements": [["SWITCH", 18921602]],
@@ -62650,7 +62650,7 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["100% chance to ignore fatal damage when HP is above 1% (max 1 times)"],
+        "effects": ["100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"],
         "effects_raw": [[0, 3, 51, [1,  100,  0,  1]]],
         "requirements": [["SWITCH", 18921702]],
         "unit_restriction": null
