@@ -80184,18 +80184,208 @@
         "effects": ["Physical damage (2x, ATK) to one enemy"],
         "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
     },
+    "217011": {
+        "name": "ダブルアタック",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (4x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400]]]
+    },
+    "217012": {
+        "name": "ブラストパンチ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Percentual DMG",
+        "effects": ["80% HP damage to one enemy"],
+        "effects_raw": [[1, 1, 9, [80,  80,  100]]]
+    },
     "217013": {
         "name": "クリムゾンスラッシュ",
         "flags": [false,  false,  true,  false],
         "attack_type": "Physical",
         "execute_type": "Default",
         "effects": ["Physical fire damage (3x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
+    },
+    "217014": {
+        "name": "マインドブラスト",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Reduce MAG and SPR by 50% for 3 turns to all enemies",
+            "Reduce resistance to Wind and Light by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 24, [0,  0,  -50,  -50,  3,  1]], [2, 1, 33, [0,  0,  0,  0,  -50,  0,  -50,  0,  1,  3]]]
+    },
+    "217015": {
+        "name": "邪悪な笑み",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Inflict Blind (100%) on all enemies"],
+        "effects_raw": [[2, 1, 6, [0,  100,  0,  0,  0,  0,  0,  0,  1]]]
+    },
+    "217016": {
+        "name": "バイオ",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic dark damage (3x, MAG) to one enemy",
+            "Inflict Poison (100%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  300]], [1, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]]]
+    },
+    "217017": {
+        "name": "黒の風",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic wind and dark damage (7x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  700]]]
+    },
+    "217109": {
+        "name": "暴走状態",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK by 25% for this fight to caster (can not be removed)"],
+        "effects_raw": [[0, 3, 3, [25,  0,  0,  0,  0,  0,  1]]]
+    },
+    "217110": {
+        "name": "暴走突進",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  100,  0]]]
+    },
+    "217111": {
+        "name": "暴走状態",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK by 100% for this fight to caster (can not be removed)"],
+        "effects_raw": [[0, 3, 3, [100,  0,  0,  0,  0,  0,  1]]]
+    },
+    "217112": {
+        "name": "暴走突進",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200,  0]]]
+    },
+    "217113": {
+        "name": "なぎ払い攻撃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Percentual DMG",
+        "effects": ["10% HP damage to one enemy"],
+        "effects_raw": [[1, 1, 9, [10,  15,  100,  0]]]
+    },
+    "217114": {
+        "name": "なぎ払い攻撃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Percentual DMG",
+        "effects": ["45% HP damage to one enemy"],
+        "effects_raw": [[1, 1, 9, [45,  55,  100,  0]]]
+    },
+    "217115": {
+        "name": "ボディアタック",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  1,  0,  0,  0,  0,  100,  0]]]
+    },
+    "217116": {
+        "name": "暴走状態が沈静化した",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Remove all buffs from caster"],
+        "effects_raw": [[0, 3, 59, [1,  0]]]
+    },
+    "217117": {
+        "name": "去っていった",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Escape Battle"],
+        "effects_raw": [[0, 3, 51, [100]]]
+    },
+    "217118": {
+        "name": "踏みつけ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  250,  0]]]
+    },
+    "217119": {
+        "name": "踏みつけ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (4.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  450,  0]]]
+    },
+    "217120": {
+        "name": "ダークチャージ弾",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic dark damage (2.2x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  220,  100]]]
+    },
+    "217121": {
+        "name": "ダークチャージ弾",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic dark damage (3.8x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  380,  200]]]
+    },
+    "217122": {
+        "name": "ベヒーモスの角が光りだした",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase MAG by 30% for 5 turns to caster"],
+        "effects_raw": [[0, 3, 3, [0,  0,  30,  0,  5,  0,  0]]]
+    },
+    "217123": {
+        "name": "雷撃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic lightning damage (3x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300,  0]]]
+    },
+    "217124": {
+        "name": "移動衝撃波",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  100,  0]]]
+    },
+    "217125": {
+        "name": "ダウン",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce damage taken by 100% to caster for one turn"],
         "effects_raw": [
             [
-                2,
-                1,
-                1,
-                [0, 0, 0, 0, 0, 0, 300]
+                0,
+                3,
+                101,
+                [100, 1, 0]
             ]
         ]
     }
