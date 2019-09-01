@@ -3626,6 +3626,28 @@
         "effects_raw": [[1, 2, 3, [100,  0,  0,  0,  -1,  1]]],
         "requirements": null
     },
+    "30217": {
+        "name": "ブレイブ(ソラメダル(キングダムハーツ)用)",
+        "icon": "ability_77.png",
+        "compendium_id": 223,
+        "rarity": 4,
+        "cost": {},
+        "magic_type": "Green",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Light"],
+        "effects": ["Increase ATK by 80% for this fight to one ally"],
+        "effects_raw": [[1, 2, 3, [80,  0,  0,  0,  -1,  1,  0]]],
+        "requirements": null
+    },
     "30218": {
         "name": "ブレイブ(セフィロス用)",
         "icon": "ability_77.png",
