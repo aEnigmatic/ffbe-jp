@@ -82663,12 +82663,110 @@
         "attack_type": "Magic",
         "execute_type": "Default",
         "effects": ["Magic light damage (2.5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  250]]]
+    },
+    "217303": {
+        "name": "雷翼",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical lightning damage (2x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
+    },
+    "217304": {
+        "name": "防下の領域",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce DEF and SPR by 50% for 3 turns to one enemy"],
+        "effects_raw": [[1, 1, 24, [0,  -50,  0,  -50,  3,  1]]]
+    },
+    "217305": {
+        "name": "突進",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
+    },
+    "217306": {
+        "name": "ダークウォータ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic water and dark damage (2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  200]]]
+    },
+    "217307": {
+        "name": "ダークウォタガ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic water and dark damage (2x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  200]]]
+    },
+    "217308": {
+        "name": "ダークルナティックボイス",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic water and dark damage (4x, MAG) to all enemies",
+            "Inflict Sleep (100%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400]], [2, 1, 6, [0,  0,  100,  0,  0,  0,  0,  0,  1]]]
+    },
+    "217309": {
+        "name": "カオティックボイス",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic water and dark damage (5.5x, MAG) to all enemies",
+            "Inflict Sleep (100%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  550]], [2, 1, 6, [0,  0,  100,  0,  0,  0,  0,  0,  1]]]
+    },
+    "217310": {
+        "name": "歌をくちずさみはじめた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK, DEF, MAG and SPR by 100% for 2 turns to caster"],
+        "effects_raw": [[0, 3, 3, [100,  100,  100,  100,  2,  1]]]
+    },
+    "217311": {
+        "name": "アルティメットボイス",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic fire, water and dark damage (7x, MAG) to all enemies",
+            "Inflict Sleep (100%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  700]], [2, 1, 6, [0,  0,  100,  0,  0,  0,  0,  0,  1]]]
+    },
+    "217312": {
+        "name": "ルナティックボイス",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (3x, MAG) to all enemies",
+            "Inflict Sleep (100%) on all enemies"
+        ],
         "effects_raw": [
             [
-                1,
+                2,
                 1,
                 15,
-                [0, 0, 0, 0, 0, 250]
+                [0, 0, 0, 0, 0, 300]
+            ],
+            [
+                2,
+                1,
+                6,
+                [0, 0, 100, 0, 0, 0, 0, 0, 1]
             ]
         ]
     }
