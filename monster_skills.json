@@ -82755,18 +82755,28 @@
             "Magic damage (3x, MAG) to all enemies",
             "Inflict Sleep (100%) on all enemies"
         ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]], [2, 1, 6, [0,  0,  100,  0,  0,  0,  0,  0,  1]]]
+    },
+    "217313": {
+        "name": "4周年記念　針4本",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Restore 4 HP to one enemy"],
+        "effects_raw": [[1, 1, 16, [4,  0,  0,  0,  0,  0,  0]]]
+    },
+    "217314": {
+        "name": "コノ4年デ　キミハ強クナッタノダナ！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
         "effects_raw": [
             [
-                2,
-                1,
-                15,
-                [0, 0, 0, 0, 0, 300]
-            ],
-            [
-                2,
-                1,
-                6,
-                [0, 0, 100, 0, 0, 0, 0, 0, 1]
+                0,
+                3,
+                24,
+                [0, 0, 0, 0, 0, 1]
             ]
         ]
     }

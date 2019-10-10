@@ -53640,6 +53640,129 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "233569": {
+        "name": "4周年特別ユニット「マダム」のスーパートラストマスター",
+        "icon": "ability_77.png",
+        "compendium_id": 7701,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            ""
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233712": {
+        "name": "4thアニバーサリークポ！",
+        "icon": "ability_91.png",
+        "compendium_id": 7817,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MAG by 30%",
+            "Cast 4thアニバーサリークポ！ (510970) at the start of your turn"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  30,  0,  0,  0,  0]], [0, 3, 66, [510970,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233716": {
+        "name": "4度目のフェスティバルクポ！",
+        "icon": "ability_91.png",
+        "compendium_id": 7856,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MAG by 30%",
+            "Cast 4度目のフェスティバルクポ！ (511010) at the start of your turn"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  30,  0,  0,  0,  0]], [0, 3, 66, [511010,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233751": {
+        "name": "おみこしワッショイクポ！",
+        "icon": "ability_77.png",
+        "compendium_id": 7851,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase DEF and SPR by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233752": {
+        "name": "ごちそういっぱいクポッ！",
+        "icon": "ability_68.png",
+        "compendium_id": 7852,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "30% chance to counter physical attacks with ごちそういっぱいクポッ！ (511009) to caster (max 1 / turn)",
+            "30% chance to counter magic attacks with ごちそういっぱいクポッ！ (511009) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 49, [30,  3,  511009,  1]], [0, 3, 50, [30,  3,  511009,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233753": {
+        "name": "みんなで楽しむクポ〜",
+        "icon": "ability_77.png",
+        "compendium_id": 7853,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK and MAG by 20%"],
+        "effects_raw": [[0, 3, 1, [20,  0,  20,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233754": {
+        "name": "遊んでくれて感謝クポ！",
+        "icon": "ability_77.png",
+        "compendium_id": 7854,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR by 30%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233755": {
+        "name": "これからもよろしくクポ〜！",
+        "icon": "ability_77.png",
+        "compendium_id": 7855,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase HP and MP by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "400010": {
         "name": "経験値UP1.5倍",
         "icon": "ability_81.png",
