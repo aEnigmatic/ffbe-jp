@@ -5344,7 +5344,7 @@
         "effects": ["Increase ATK by 40%"],
         "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]]],
         "requirements": null,
-        "unit_restriction": [100000202, 100011705, 100023005, 100027005]
+        "unit_restriction": [100000202, 100011705, 100023005, 100027005, 100027605]
     },
     "210240": {
         "name": "確固不動",
@@ -5358,7 +5358,7 @@
         "effects": ["Increase resistance to Sleep, Paralyze and Confusion by 100%"],
         "effects_raw": [[0, 3, 2, [0,  0,  100,  0,  100,  100,  0,  0]]],
         "requirements": null,
-        "unit_restriction": [100000202, 100011705, 100023005, 100027005]
+        "unit_restriction": [100000202, 100011705, 100023005, 100027005, 100027605]
     },
     "210250": {
         "name": "グランシェルトの騎士",
@@ -5372,7 +5372,7 @@
         "effects": ["Recover MP (5%) per turn"],
         "effects_raw": [[0, 3, 32, [5]]],
         "requirements": null,
-        "unit_restriction": [100000202, 100011705, 100023005, 100027005]
+        "unit_restriction": [100000202, 100011705, 100023005, 100027005, 100027605]
     },
     "210260": {
         "name": "蘇りし少女",
@@ -43548,7 +43548,7 @@
         ],
         "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  50,  0,  0]], [0, 3, 73, [[231923,  231926,  231927,  231933,  231934], 0, 0, 150]]],
         "requirements": null,
-        "unit_restriction": [100023605]
+        "unit_restriction": [100023605, 100027805]
     },
     "231980": {
         "name": "強化エリアル",
@@ -53656,6 +53656,40 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "233710": {
+        "name": "できたてファミチキ！",
+        "icon": "ability_91.png",
+        "compendium_id": 7815,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Gain リジェネ(覇者の闘気用) (10122) at the start of a battle or when revived",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 35, [10122]], [0, 3, 32, [5]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233711": {
+        "name": "ファミマの極意",
+        "icon": "ability_77.png",
+        "compendium_id": 7816,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 60%",
+            "Increase resistance to Fire and Ice by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [60,  0,  0,  0,  0,  0,  0]], [0, 3, 3, [50,  50,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "233712": {
         "name": "4thアニバーサリークポ！",
         "icon": "ability_91.png",
@@ -53673,6 +53707,51 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "233713": {
+        "name": "ファミチキンナイフ",
+        "icon": "ability_91.png",
+        "compendium_id": 7818,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Recover MP (3%) per turn"],
+        "effects_raw": [[0, 3, 32, [3]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233714": {
+        "name": "ファミッペのぬいぐるみ",
+        "icon": "ability_91.png",
+        "compendium_id": 7819,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase LB gauge by 1 per turn"],
+        "effects_raw": [[0, 3, 33, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233715": {
+        "name": "ファミチキ先輩の情熱接客術",
+        "icon": "ability_91.png",
+        "compendium_id": 7820,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Cast ファミチキ先輩の情熱接客術 (510971) at the start of your turn",
+            "Increase LB gauge by 1 per turn"
+        ],
+        "effects_raw": [[0, 3, 66, [510971,  100,  0]], [0, 3, 33, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "233716": {
         "name": "4度目のフェスティバルクポ！",
         "icon": "ability_91.png",
@@ -53687,6 +53766,158 @@
             "Cast 4度目のフェスティバルクポ！ (511010) at the start of your turn"
         ],
         "effects_raw": [[0, 3, 1, [30,  0,  30,  0,  0,  0,  0]], [0, 3, 66, [511010,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233725": {
+        "name": "Wファミマ",
+        "icon": "ability_8.png",
+        "compendium_id": 7826,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use F型反作用アルティメット弾 (233730), F型最強アイスクリーム弾 (233724), F型最強スパイシー弾 (233723), おつまみマンドラゴラチャーシュー (510988), お母さん食堂たべたーい！ (233721), スパイシーチキン (511008), ファミチキ (511004), ファミチキ(レッドチリ味) (511005), ファミチキ(塩レモン味) (511007), ファミチキ(旨塩味) (511006), ファミマカフェで一息いれよう！ (233720), ベヒーモスのしっぽ焼き (510990), ホットコンビネーション (233726), ボムのかけら炒め (510991), モーグリブレンド (510977), ローパーの焦がしテンタクル (510987), 夕ごはんを買いに行こう！ (233729), 昼ごはんを買いに行こう！ (233728), 朝ごはんを買いに行こう！ (233727), 次元の狭間フラッペ (510981), 異界カフェラテ (510978), 異界キャラメルラテ (510979), 異界モカブレンド (510980), 異界風ボムどうふ (510989) and 電子ギルチャージ (233722) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 510992, -1, [233720,  233721,  233722,  233723,  233724,  233726,  233727,  233728,  233729,  233730,  510987,  510988,  510989,  510990,  510991,  510977,  510978,  510979,  510980,  510981,  511004,  511005,  511006,  511007,  511008], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233731": {
+        "name": "ファミチキください！",
+        "icon": "ability_78.png",
+        "compendium_id": 7832,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 20%",
+            "Increase the limit burst gauge fill rate by 50%",
+            "Cast ファミチキください！ (510998) at the start of your turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  20,  0]], [0, 3, 31, [50]], [0, 3, 66, [510998,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233732": {
+        "name": "期待の新人ファミマ店員",
+        "icon": "ability_91.png",
+        "compendium_id": 7833,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP and MP by 30% and ATK by 20%",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  30,  30,  0]], [0, 3, 32, [5]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233733": {
+        "name": "働く喜び",
+        "icon": "ability_72.png",
+        "compendium_id": 7834,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to equip two one-handed weapons",
+            "Increase ATK by 20%"
+        ],
+        "effects_raw": [[0, 3, 14, ["none"]], [0, 3, 1, [20,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233734": {
+        "name": "グリとコンビニ",
+        "icon": "ability_19.png",
+        "compendium_id": 7835,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 20%",
+            "Increase resistance to Blind, Paralyze and Confusion by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  0,  0,  0]], [0, 3, 2, [0,  100,  0,  0,  100,  100,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233735": {
+        "name": "ファミッペとの絆",
+        "icon": "ability_72.png",
+        "compendium_id": 7836,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and MP by 20%",
+            "Increase equipment ATK by 25% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  0,  0,  20,  0]], [0, 3, 69, [1,  25,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233736": {
+        "name": "ファミチキ先輩との絆",
+        "icon": "ability_72.png",
+        "compendium_id": 7837,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP by 30% and ATK by 20%",
+            "Increase equipment ATK by 25% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  30,  0,  0]], [0, 3, 69, [1,  25,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233737": {
+        "name": "受け継ぎしファミマ魂",
+        "icon": "ability_72.png",
+        "compendium_id": 7838,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50% and SPR by 40%",
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "Increase the damage of F型最強アイスクリーム弾 (233724), F型最強スパイシー弾 (233723) and ホットコンビネーション (233726) by (1x)"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  40,  0,  0,  0]], [0, 3, 69, [1,  50,  0]], [0, 3, 73, [[233723,  233724,  233726], 0, 0, 100]]],
+        "requirements": [["EQUIP", 409037500], ["EQUIP", 504233711]],
+        "unit_restriction": null
+    },
+    "233738": {
+        "name": "ファミマを愛する少女",
+        "icon": "ability_77.png",
+        "compendium_id": 7839,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50% and HP by 20%",
+            "Increase the damage of F型最強アイスクリーム弾 (233724), F型最強スパイシー弾 (233723) and ホットコンビネーション (233726) by (1x)"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  20,  0,  0]], [0, 3, 73, [[233723,  233724,  233726], 0, 0, 100]]],
         "requirements": null,
         "unit_restriction": null
     },

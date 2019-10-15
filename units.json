@@ -35826,6 +35826,153 @@
             {"rarity": 5, "level": 80, "type": "ABILITY", "id": 232565}
         ]
     },
+    "100026505": {
+        "rarity_min": 5,
+        "rarity_max": 7,
+        "name": "ファミマ ファイサリス",
+        "game_id": 11001,
+        "roles": ["Physical Attacker"],
+        "job_id": 260,
+        "sex_id": 2,
+        "sex": "Female",
+        "tribe_id": 5,
+        "is_summonable": false,
+        "TMR": [
+            "EQUIP",
+            409037500
+        ],
+        "sTMR": [
+            "MATERIA",
+            504233711
+        ],
+        "equip": [1, 13, 14, 40, 41, 50, 51, 60],
+        "entries": {
+            "100026505": {
+                "compendium_id": 1828,
+                "rarity": 5,
+                "exp_pattern": 30,
+                "stat_pattern": 1,
+                "stats": {
+                    "HP": [925, 2804, 300, 150],
+                    "MP": [46, 138, 50, 25],
+                    "ATK": [40, 121, 20, 10],
+                    "DEF": [32, 96, 20, 10],
+                    "MAG": [33, 100, 20, 10],
+                    "SPR": [35, 106, 20, 10]
+                },
+                "limitburst_id": 100026505,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [94],
+                "effect_frames": [58, 92],
+                "max_lb_drop": 10,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": {
+                    "gil": 4000,
+                    "materials": {
+                        "290060100": 20,
+                        "290060000": 10,
+                        "290060300": 10,
+                        "290060400": 5,
+                        "290050500": 5
+                    }
+                }
+            },
+            "100026506": {
+                "compendium_id": 1829,
+                "rarity": 6,
+                "exp_pattern": 30,
+                "stat_pattern": 1,
+                "stats": {
+                    "HP": [1203, 3646, 450, 225],
+                    "MP": [59, 180, 75, 37],
+                    "ATK": [52, 158, 30, 15],
+                    "DEF": [42, 126, 30, 15],
+                    "MAG": [43, 131, 30, 15],
+                    "SPR": [46, 138, 30, 15]
+                },
+                "limitburst_id": 100026506,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [94],
+                "effect_frames": [58, 92],
+                "max_lb_drop": 12,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": {
+                    "gil": 3000000,
+                    "materials": {
+                        "300002260": 1
+                    }
+                }
+            },
+            "100026507": {
+                "compendium_id": 1830,
+                "rarity": 7,
+                "exp_pattern": 30,
+                "stat_pattern": 4,
+                "stats": {
+                    "HP": [1564, 4740, 600, 300],
+                    "MP": [78, 235, 100, 50],
+                    "ATK": [68, 206, 50, 25],
+                    "DEF": [54, 165, 50, 25],
+                    "MAG": [56, 171, 50, 25],
+                    "SPR": [59, 180, 50, 25]
+                },
+                "limitburst_id": 100026507,
+                "attack_count": 1,
+                "attack_damage": [
+                    [100]
+                ],
+                "attack_frames": [94],
+                "effect_frames": [58, 92],
+                "max_lb_drop": 12,
+                "ability_slots": 4,
+                "magic_affinity": [0, 0, 0, 0],
+                "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "physical_resist": 0,
+                "magical_resist": 0,
+                "awakening": null
+            }
+        },
+        "skills": [
+            {"rarity": 5, "level": 1, "type": "ABILITY", "id": 233731},
+            {"rarity": 5, "level": 21, "type": "ABILITY", "id": 233720},
+            {"rarity": 5, "level": 40, "type": "ABILITY", "id": 233732},
+            {"rarity": 5, "level": 63, "type": "ABILITY", "id": 233721},
+            {"rarity": 5, "level": 80, "type": "ABILITY", "id": 233733},
+            {"rarity": 6, "level": 1, "type": "ABILITY", "id": 230765},
+            {"rarity": 6, "level": 17, "type": "ABILITY", "id": 233734},
+            {"rarity": 6, "level": 32, "type": "ABILITY", "id": 233722},
+            {"rarity": 6, "level": 50, "type": "ABILITY", "id": 233735},
+            {"rarity": 6, "level": 64, "type": "ABILITY", "id": 233723},
+            {"rarity": 6, "level": 78, "type": "ABILITY", "id": 233736},
+            {"rarity": 6, "level": 96, "type": "ABILITY", "id": 233724},
+            {"rarity": 6, "level": 100, "type": "ABILITY", "id": 233725},
+            {"rarity": 7, "level": 101, "type": "ABILITY", "id": 233726},
+            {"rarity": 7, "level": 101, "type": "ABILITY", "id": 233727},
+            {"rarity": 7, "level": 101, "type": "ABILITY", "id": 233737},
+            {"rarity": 7, "level": 105, "type": "ABILITY", "id": 233728},
+            {"rarity": 7, "level": 110, "type": "ABILITY", "id": 233729},
+            {"rarity": 7, "level": 110, "type": "ABILITY", "id": 233730},
+            {"rarity": 7, "level": 115, "type": "ABILITY", "id": 100140},
+            {"rarity": 7, "level": 120, "type": "ABILITY", "id": 233738}
+        ]
+    },
     "100026605": {
         "rarity_min": 5,
         "rarity_max": 7,
