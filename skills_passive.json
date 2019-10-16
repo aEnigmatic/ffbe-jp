@@ -41705,9 +41705,9 @@
         "element_inflict": null,
         "effects": [
             "Recover MP (7%) per turn",
-            "Increase the damage of 明鏡 (200320, 700850, 700860), 明鏡　─止め氷─ (231705), 明鏡　─纏い火─ (231704), 明鏡・一到 (800035), 明鏡・三悪As (510905), 明鏡・乱 (229564), 明鏡・乱As (510897), 明鏡・天地 (510204), 明鏡・断 (231703), 明鏡・朧 (205550), 明鏡・活 (218260), 明鏡・火華 (231709), 明鏡・空 (226390), 明鏡・虚 (229571), 明鏡・覇 (229565), 明鏡・鋭 (229563), 明鏡・雪華 (231710), 極・明鏡 (229561, 508001, 231713), 極・明鏡As (510907), 極・阿修羅明鏡As (510908), 真・明鏡 (509112, 510209), 真・明鏡As (510912), 真・阿修羅明鏡As (510913), 終・明鏡 (510203), 絶・明鏡 (227561, 707725, 707726), 絶・明鏡　─氷─ (510206), 絶・明鏡　─焔─ (510205), 絶・明鏡　─紅焔─ (510207), 絶・明鏡　─蒼氷─ (510208), 阿修羅明鏡・三悪As (510906) and 阿修羅明鏡・乱As (510898) by (0.5x)"
+            "Increase the damage of 明鏡 (200320, 700850, 700860), 明鏡　─止め氷─ (231705), 明鏡　─纏い火─ (231704), 明鏡・一到 (800035), 明鏡・三悪As (510905), 明鏡・乱 (229564), 明鏡・乱As (510897), 明鏡・天地 (510204), 明鏡・断 (231703), 明鏡・断Sh (233690), 明鏡・朧 (205550), 明鏡・朧Sh (233695), 明鏡・氷魔 (510962), 明鏡・活 (218260), 明鏡・火華 (231709), 明鏡・空 (226390), 明鏡・虚 (229571), 明鏡・覇 (229565), 明鏡・鋭 (229563), 明鏡・雪華 (231710), 極・明鏡 (229561, 508001, 231713), 極・明鏡As (510907), 極・明鏡Sh (233697), 極・阿修羅明鏡As (510908), 真・明鏡 (509112, 510209), 真・明鏡As (510912), 真・阿修羅明鏡As (510913), 終・明鏡 (510203), 絶・明鏡 (227561, 707725, 707726), 絶・明鏡　─氷─ (510206), 絶・明鏡　─焔─ (510205), 絶・明鏡　─紅焔─ (510207), 絶・明鏡　─蒼氷─ (510208), 阿修羅明鏡・三悪As (510906) and 阿修羅明鏡・乱As (510898) by (0.5x)"
         ],
-        "effects_raw": [[0, 3, 32, [7]], [0, 3, 73, [[200320,  205550,  218260,  226390,  227561,  229561,  229563,  229564,  229565,  229571,  508001,  509112,  700850,  700860,  707725,  707726,  800035,  231703,  231704,  231705,  231709,  231710,  231713,  510203,  510204,  510205,  510206,  510207,  510208,  510209,  510897,  510898,  510905,  510906,  510907,  510908,  510912,  510913], 0, 0, 50]]],
+        "effects_raw": [[0, 3, 32, [7]], [0, 3, 73, [[200320,  205550,  218260,  226390,  227561,  229561,  229563,  229564,  229565,  229571,  508001,  509112,  700850,  700860,  707725,  707726,  800035,  231703,  231704,  231705,  231709,  231710,  231713,  510203,  510204,  510205,  510206,  510207,  510208,  510209,  510897,  510898,  510905,  510906,  510907,  510908,  510912,  510913,  233690,  233695,  233697,  510962], 0, 0, 50]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -53640,8 +53640,150 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "233560": {
+        "name": "氷魔の力が宿りし冠",
+        "icon": "ability_95.png",
+        "compendium_id": 7692,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30% when equipped with a Katana",
+            "Increase resistance to Ice by 30%"
+        ],
+        "effects_raw": [[0, 3, 6, [4,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 3, [0,  30,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233561": {
+        "name": "氷魔の力が宿りし衣",
+        "icon": "ability_79.png",
+        "compendium_id": 7693,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase physical damage against Dragons by 50%"],
+        "effects_raw": [[0, 3, 11, [7,  50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233562": {
+        "name": "オーディンシナジー",
+        "icon": "ability_95.png",
+        "compendium_id": 7694,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30% when equipped with a Dagger",
+            "Increase ATK by 30% when equipped with a Sword",
+            "Increase ATK by 30% when equipped with a Great Sword",
+            "Increase ATK by 30% when equipped with a Katana",
+            "Increase equipment ATK by 25% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 6, [1,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [2,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [3,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [4,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 69, [1,  25,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233563": {
+        "name": "剣神の力が宿りし剣",
+        "icon": "ability_72.png",
+        "compendium_id": 7695,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase equipment ATK by 50% when armed with two weapons"],
+        "effects_raw": [[0, 3, 69, [1,  50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233564": {
+        "name": "テトラシルフィードシナジー",
+        "icon": "ability_72.png",
+        "compendium_id": 7696,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 50% and MP by 20%",
+            "Enable unit to equip two one-handed weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  20,  0]], [0, 3, 14, ["none"]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233565": {
+        "name": "風精の力が宿りし銃",
+        "icon": "ability_77.png",
+        "compendium_id": 7697,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Reduce MP consumption by 20%"],
+        "effects_raw": [[0, 3, 77, [20,  1,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233566": {
+        "name": "アレキサンダーシナジー",
+        "icon": "ability_99.png",
+        "compendium_id": 7698,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 30%",
+            "Increase HP by 20% when equipped with a Heavy Shield",
+            "Increase resistance to Light by 40%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  0,  0,  0]], [0, 3, 6, [31,  0,  0,  0,  0,  20,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  40,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233567": {
+        "name": "聖城の力が宿りし重鎧",
+        "icon": "ability_43.png",
+        "compendium_id": 7699,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Use 聖城の力が宿りし重鎧 (510930) at the start of a battle"],
+        "effects_raw": [[0, 3, 56, [510930]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233568": {
+        "name": "魔狼の力が宿りしかんざし",
+        "icon": "ability_19.png",
+        "compendium_id": 7700,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase break resistance to ATK by 50% to caster"],
+        "effects_raw": [[0, 3, 55, [50,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "233569": {
-        "name": "4周年特別ユニット「マダム」のスーパートラストマスター",
+        "name": "フェンリルシナジー",
         "icon": "ability_77.png",
         "compendium_id": 7701,
         "rarity": 9,
@@ -53650,9 +53792,777 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            ""
+            "Increase HP and MP by 35%",
+            "Increase all stats gained from Fenrir by 30%",
+            "Increase ATK by 200% when HP drops below 80% (max 1x)"
         ],
-        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  0,  0]]],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  35,  35,  0]], [0, 3, 63, [30,  30,  30,  30,  30,  30,  16]], [0, 3, 4, [1,  200,  1,  80,  1,  -1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233570": {
+        "name": "真・氷魔との呼応",
+        "icon": "ability_77.png",
+        "compendium_id": 7702,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK (50%) and DEF, MAG, SPR, HP and MP (30%) gained from Shiva"],
+        "effects_raw": [[0, 3, 63, [50,  30,  30,  30,  30,  30,  3]]],
+        "requirements": null,
+        "unit_restriction": [100027605]
+    },
+    "233571": {
+        "name": "絶・氷魔との呼応",
+        "icon": "ability_77.png",
+        "compendium_id": 7703,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK (80%) and DEF, MAG, SPR, HP and MP (50%) gained from Shiva"],
+        "effects_raw": [[0, 3, 63, [80,  50,  50,  50,  50,  50,  3]]],
+        "requirements": null,
+        "unit_restriction": [100027605]
+    },
+    "233572": {
+        "name": "真・剣神との呼応",
+        "icon": "ability_77.png",
+        "compendium_id": 7704,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase all stats gained from Odin by 30%"],
+        "effects_raw": [[0, 3, 63, [30,  30,  30,  30,  30,  30,  10]]],
+        "requirements": null,
+        "unit_restriction": [100027705]
+    },
+    "233573": {
+        "name": "真・風精との呼応",
+        "icon": "ability_77.png",
+        "compendium_id": 7705,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase all stats gained from Tetra Sylphid by 30%"],
+        "effects_raw": [[0, 3, 63, [30,  30,  30,  30,  30,  30,  9]]],
+        "requirements": null,
+        "unit_restriction": [100027905]
+    },
+    "233574": {
+        "name": "真・聖城との呼応",
+        "icon": "ability_77.png",
+        "compendium_id": 7706,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase all stats gained from Alexander by 30%"],
+        "effects_raw": [[0, 3, 63, [30,  30,  30,  30,  30,  30,  13]]],
+        "requirements": null,
+        "unit_restriction": [100027505]
+    },
+    "233575": {
+        "name": "真・魔狼との呼応",
+        "icon": "ability_77.png",
+        "compendium_id": 7707,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK (50%) and DEF, MAG, SPR, HP and MP (30%) gained from Fenrir"],
+        "effects_raw": [[0, 3, 63, [50,  30,  30,  30,  30,  30,  16]]],
+        "requirements": null,
+        "unit_restriction": [100027805]
+    },
+    "233588": {
+        "name": "W最強技",
+        "icon": "ability_8.png",
+        "compendium_id": 7716,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use F型最強轟天弾「極水天」 (233593), F型最強轟天弾「極風天」 (233594), ふかく集中する (510963), もっとふかく集中する (510964), アップドラフト (233583), シルフィードファイサリス弾・水 (233589), シルフィードファイサリス弾・風 (233590), タイプ・シルフィード (233591), タイプ・ファイサリス (233592), テトラショットTe (233580), 防水装甲破壊弾「水天」 (233586), 防風装甲破壊弾「風天」 (233587), 魔弾ストームバレット (233582) and 魔弾スプラッシュバレット (233581) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 510931, -1, [233580,  233581,  233582,  233583,  233586,  233587,  233589,  233590,  233591,  233592,  233593,  233594,  510963,  510964], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233595": {
+        "name": "風精の魔力",
+        "icon": "ability_95.png",
+        "compendium_id": 7723,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and MP by 30%",
+            "Increase SPR and HP by 15% when equipped with a Spear",
+            "Increase SPR and HP by 15% when equipped with a Gun",
+            "Enable unit to equip two one-handed weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  30,  0]], [0, 3, 6, [10,  0,  0,  0,  15,  15,  0,  0]], [0, 3, 6, [14,  0,  0,  0,  15,  15,  0,  0]], [0, 3, 14, ["none"]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233596": {
+        "name": "テトラシルフィード＆ファイサリス",
+        "icon": "ability_12.png",
+        "compendium_id": 7724,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Wind by 20%",
+            "Increase summoning damage of Tetra Sylphid by 150%"
+        ],
+        "effects_raw": [[0, 3, 3, [0,  0,  0,  0,  20,  0,  0,  0]], [0, 3, 64, [150,  9]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233597": {
+        "name": "風精連携",
+        "icon": "ability_72.png",
+        "compendium_id": 7725,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase the limit burst gauge fill rate by 100%",
+            "Recover MP (5%) per turn",
+            "Increase all stats gained from Tetra Sylphid by 50%",
+            "Increase equipment MAG by 100% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 31, [100]], [0, 3, 32, [5]], [0, 3, 63, [50,  50,  50,  50,  50,  50,  9]], [0, 3, 69, [3,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233598": {
+        "name": "テトラシルフィード＆グリ",
+        "icon": "ability_19.png",
+        "compendium_id": 7726,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 50% and DEF by 30%",
+            "Increase resistance to Water by 20%",
+            "Increase resistance to Sleep, Silence, Paralyze and Confusion by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  50,  0,  0,  0,  0]], [0, 3, 3, [0,  0,  0,  20,  0,  0,  0,  0]], [0, 3, 2, [0,  0,  100,  100,  100,  100,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233599": {
+        "name": "風精の加護",
+        "icon": "ability_79.png",
+        "compendium_id": 7727,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP and MP by 20%",
+            "Increase magic damage against Avians by 50%",
+            "30% chance of evading physical attacks",
+            "30% chance of evading magic attacks"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  20,  0]], [0, 3, 11, [2,  0,  50]], [0, 3, 22, [30]], [0, 3, 54, [-1,  30]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233600": {
+        "name": "テトラシルフィードの加勢",
+        "icon": "ability_72.png",
+        "compendium_id": 7728,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and MP by 50%",
+            "Increase equipment MAG by 50% when armed with two weapons",
+            "Increase magic damage against Avians by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  50,  0]], [0, 3, 69, [3,  50,  0]], [0, 3, 11, [2,  0,  50]]],
+        "requirements": [["EQUIP", 504233564], ["EQUIP", 409037400]],
+        "unit_restriction": null
+    },
+    "233601": {
+        "name": "空に境界線なんてない！",
+        "icon": "ability_77.png",
+        "compendium_id": 7729,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and SPR by 30%",
+            "Increase the damage of F型最強轟天弾「極水天」 (510934), F型最強轟天弾「極風天」 (510935), シルフィードファイサリス弾・水 (233589), シルフィードファイサリス弾・風 (233590), テトラショットTe (233580), 防水装甲破壊弾「水天」 (233586), 防風装甲破壊弾「風天」 (233587), 魔弾ストームバレット (233582) and 魔弾スプラッシュバレット (233581) by (1x)",
+            "Use アップドラフト (510937) at the start of a battle"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  30,  0,  0,  0]], [0, 3, 73, [[233580,  233581,  233582,  233586,  233587,  233589,  233590,  510934,  510935], 0, 0, 100]], [0, 3, 56, [510937]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233625": {
+        "name": "聖城の耐力",
+        "icon": "ability_99.png",
+        "compendium_id": 7745,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and HP by 30%",
+            "Increase chance of being targeted by 50%",
+            "Increase resistance to Light by 40%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  0,  30,  0,  0]], [0, 3, 24, [50]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  40,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233626": {
+        "name": "騎士剣術の極致",
+        "icon": "ability_95.png",
+        "compendium_id": 7746,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP and MP by 15%",
+            "Increase MP by 15% when equipped with a Sword",
+            "Increase HP by 15% when equipped with a Light Shield",
+            "Increase HP by 15% when equipped with a Heavy Shield"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  15,  15,  0]], [0, 3, 6, [2,  0,  0,  0,  0,  0,  15,  0]], [0, 3, 6, [30,  0,  0,  0,  0,  15,  0,  0]], [0, 3, 6, [31,  0,  0,  0,  0,  15,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233627": {
+        "name": "聖城連携",
+        "icon": "ability_79.png",
+        "compendium_id": 7747,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 30%",
+            "Increase physical damage against Machinas by 50%",
+            "Increase all stats gained from Alexander by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  30,  0]], [0, 3, 11, [6,  50,  0]], [0, 3, 63, [50,  50,  50,  50,  50,  50,  13]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233628": {
+        "name": "聖城の加護",
+        "icon": "ability_19.png",
+        "compendium_id": 7748,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 50%",
+            "Increase resistance to Ice and Light by 30%",
+            "Increase resistance to Confusion and Petrify by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  50,  0,  50,  0,  0,  0]], [0, 3, 3, [0,  30,  0,  0,  0,  0,  30,  0]], [0, 3, 2, [0,  0,  0,  0,  0,  100,  0,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233629": {
+        "name": "シャルロット＆アレキサンダー",
+        "icon": "ability_78.png",
+        "compendium_id": 7749,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase the limit burst gauge fill rate by 50%",
+            "Increase summoning damage of Alexander by 150%"
+        ],
+        "effects_raw": [[0, 3, 31, [50]], [0, 3, 64, [150,  13]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233630": {
+        "name": "不滅の聖義",
+        "icon": "ability_41.png",
+        "compendium_id": 7750,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase Charm resistance by 100% to caster",
+            "Increase resistance to Ice by 40%",
+            "100% chance to set HP to 1% upon fatal damage, if HP was above 5% (max 1 times)",
+            "Increase LB gauge by 2 per turn"
+        ],
+        "effects_raw": [[0, 3, 55, [0,  0,  0,  0,  0,  100]], [0, 3, 3, [0,  40,  0,  0,  0,  0,  0,  0]], [0, 3, 51, [5,  100,  1,  1]], [0, 3, 33, [200]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233631": {
+        "name": "アレキサンダーの加勢",
+        "icon": "ability_77.png",
+        "compendium_id": 7751,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and HP by 40%",
+            "Increase resistance to Ice and Light by 30%",
+            "Use アレキサンダーの加勢 (510942) at the start of a battle"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  40,  0,  40,  40,  0,  0]], [0, 3, 3, [0,  30,  0,  0,  0,  0,  30,  0]], [0, 3, 56, [510942]]],
+        "requirements": [["EQUIP", 504233566], ["EQUIP", 402004500]],
+        "unit_restriction": null
+    },
+    "233632": {
+        "name": "聖砦の騎士",
+        "icon": "ability_68.png",
+        "compendium_id": 7752,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 40%",
+            "30% chance to counter physical attacks with 聖砦の騎士 (510943) to caster (max 1 / turn)",
+            "30% chance to counter magic attacks with 聖砦の騎士 (510943) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  40,  0,  40,  0,  0,  0]], [0, 3, 49, [30,  3,  510943,  1]], [0, 3, 50, [30,  3,  510943,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233651": {
+        "name": "二連闘刃",
+        "icon": "ability_8.png",
+        "compendium_id": 7764,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use 全神全令 (233650), 八連刃Od (233649), 剣神の刃 (233646), 天下無双 (233643), 完全覚醒【剣神降臨】 (233652), 戦騎の駿撃 (233655), 正々堂々 (233642), 氷晶の刃 (233645), 瞬閃活Od (233640), 破炎の蒼剣Od (233653), 緋炎の刃 (233644), 緋蒼ノ剣Od (233648), 蒼刀破眼Od (233641), 裂氷の緋剣Od (233654), 醒夢 (200330) and 青嵐降天Od (233647) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 510944, -1, [233640,  233641,  233642,  233643,  233644,  233645,  233646,  233647,  233648,  233649,  233650,  233652,  233653,  233654,  233655,  200330], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233656": {
+        "name": "オーディン＆レーゲン",
+        "icon": "ability_95.png",
+        "compendium_id": 7769,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and MP by 30%",
+            "Increase SPR by 20% when equipped with a Katana"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  0,  0,  30,  0]], [0, 3, 6, [4,  0,  0,  0,  20,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233657": {
+        "name": "剣神の力",
+        "icon": "ability_79.png",
+        "compendium_id": 7770,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase physical damage against Dragons by 50%",
+            "Increase physical damage against Reapers by 50%",
+            "Increase summoning damage of Odin by 150%",
+            "Increase HP by 20% when equipped with a Sword"
+        ],
+        "effects_raw": [[0, 3, 11, [7,  50,  0]], [0, 3, 11, [12,  50,  0]], [0, 3, 64, [150,  10]], [0, 3, 6, [2,  0,  0,  0,  0,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233658": {
+        "name": "剣神の加護",
+        "icon": "ability_19.png",
+        "compendium_id": 7771,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP by 40%",
+            "Increase resistance to Sleep and Paralyze by 100%",
+            "Increase all stats gained from Odin by 50%",
+            "Increase DEF by 20% when equipped with a Great Sword"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  40,  0,  0]], [0, 3, 2, [0,  0,  100,  0,  100,  0,  0,  0]], [0, 3, 63, [50,  50,  50,  50,  50,  50,  10]], [0, 3, 6, [3,  0,  20,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233659": {
+        "name": "剣神連携",
+        "icon": "ability_72.png",
+        "compendium_id": 7772,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase the limit burst gauge fill rate by 100%",
+            "Increase LB damage by 50%",
+            "Increase MP by 20% when equipped with a Dagger",
+            "Increase equipment ATK by 100% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 31, [100]], [0, 3, 68, [50]], [0, 3, 6, [1,  0,  0,  0,  0,  0,  20,  0]], [0, 3, 69, [1,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233660": {
+        "name": "オーディンの加勢",
+        "icon": "ability_72.png",
+        "compendium_id": 7773,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50%",
+            "Use 正々堂々 (510949) at the start of a battle",
+            "Use 天下無双 (510950) at the start of a battle",
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "Use オーディンの加勢 (510951) at the start of a battle"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 56, [510949]], [0, 3, 56, [510950]], [0, 3, 69, [1,  50,  0]], [0, 3, 56, [510951]]],
+        "requirements": [["EQUIP", 504233562], ["EQUIP", 302011300]],
+        "unit_restriction": null
+    },
+    "233661": {
+        "name": "グランシェルトの戦騎",
+        "icon": "ability_77.png",
+        "compendium_id": 7774,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF and SPR by 30%",
+            "Increase LB damage by 50%",
+            "Increase the damage of 全神全令 (233650), 八連刃Od (233649), 剣神の刃 (233646), 戦騎の駿撃 (233655), 氷晶の刃 (233645), 瞬閃活Od (233640), 破炎の蒼剣Od (510946), 緋炎の刃 (233644), 緋蒼ノ剣Od (233648), 蒼刀破眼Od (233641), 裂氷の緋剣Od (510947) and 青嵐降天Od (233647) by (7x)"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  30,  0,  30,  0,  0,  0]], [0, 3, 68, [50]], [0, 3, 73, [[233640,  233641,  233644,  233645,  233646,  233647,  233648,  233649,  233650,  510946,  510947,  233655], 0, 0, 700]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233679": {
+        "name": "W煌技",
+        "icon": "ability_8.png",
+        "compendium_id": 7784,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use アライブショットFe (233675), ツインハウル (233677), リターンファイトFe (233676), 三十連拳Fe (233672), 双狼の蹂躙 (233678), 天殴地壊Fe (233681), 炎狼拳 (233673), 煌技・天覇咆煌 (233682), 覇狼の兆し (233680), 踏み鳴らす (233671), 風狼弾 (233674) and 魔狼のオーラ (233670) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 510952, -1, [233670,  233671,  233672,  233673,  233674,  233675,  233676,  233677,  233678,  233680,  233681,  233682], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233683": {
+        "name": "マダム・エーデル＆フェンリル",
+        "icon": "ability_98.png",
+        "compendium_id": 7788,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, HP and MP by 20%",
+            "Increase resistance to Dark by 20%",
+            "Increase all stats gained from Fenrir by 30%"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  20,  20,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  0,  20]], [0, 3, 63, [30,  30,  30,  30,  30,  30,  16]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233684": {
+        "name": "孤高と孤高",
+        "icon": "ability_91.png",
+        "compendium_id": 7789,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Recover MP (7%) per turn",
+            "Increase LB gauge by 2 per turn",
+            "Increase HP and MP by 20% when equipped with a Gun"
+        ],
+        "effects_raw": [[0, 3, 32, [7]], [0, 3, 33, [200]], [0, 3, 6, [14,  0,  0,  0,  0,  20,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233685": {
+        "name": "魔狼の力",
+        "icon": "ability_79.png",
+        "compendium_id": 7790,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and DEF by 30%",
+            "Increase all stats gained from Fenrir by 20%",
+            "Increase physical damage against Beasts by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  30,  0,  0,  0,  0,  0]], [0, 3, 63, [20,  20,  20,  20,  20,  20,  16]], [0, 3, 11, [1,  50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233686": {
+        "name": "魔狼連携",
+        "icon": "ability_72.png",
+        "compendium_id": 7791,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30%",
+            "Increase SPR by 20% when equipped with a Fist",
+            "Increase equipment ATK by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [16,  0,  0,  0,  20,  0,  0,  0]], [0, 3, 69, [1,  50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233687": {
+        "name": "魔狼の加護",
+        "icon": "ability_68.png",
+        "compendium_id": 7792,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase Charm resistance by 100% to caster",
+            "Increase resistance to Dark by 30%",
+            "30% chance to counter physical attacks with 金剛防護・物理 (510956) to caster (max 1 / turn)",
+            "30% chance to counter magic attacks with 金剛防護・魔法 (510957) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 55, [0,  0,  0,  0,  0,  100]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  0,  30]], [0, 3, 49, [30,  3,  510956,  1]], [0, 3, 50, [30,  3,  510957,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233688": {
+        "name": "フェンリルの加勢",
+        "icon": "ability_41.png",
+        "compendium_id": 7793,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF and SPR by 30%",
+            "Increase physical damage against Beasts by 50%",
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "100% chance to set HP to 1% upon fatal damage, if HP was above 1% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  30,  0,  30,  0,  0,  0]], [0, 3, 11, [1,  50,  0]], [0, 3, 69, [1,  50,  0]], [0, 3, 51, [1,  100,  1,  1]]],
+        "requirements": [["EQUIP", 403049800], ["EQUIP", 504233569]],
+        "unit_restriction": null
+    },
+    "233689": {
+        "name": "伝説の双狼",
+        "icon": "ability_79.png",
+        "compendium_id": 7794,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50%",
+            "Increase chance of countering by 100%",
+            "Increase physical damage against Beasts by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 20, [100]], [0, 3, 11, [1,  50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233699": {
+        "name": "W絶刀",
+        "icon": "ability_8.png",
+        "compendium_id": 7804,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use アイスエイジ　斬 (233698), ストームブレイド (233694), ダイヤモンドブレイド (233693), 三十烈斬Sh (233691), 完全覚醒【氷魔降臨】 (233700), 明鏡・断Sh (233690), 明鏡・朧Sh (233695), 明鏡・氷魔 (233703), 月光散華Sh (233692), 極・明鏡Sh (233697), 氷楔の護り (233702), 無明氷月Sh (233701) and 雪華終焉Sh (233696) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 510958, -1, [233690,  233691,  233692,  233693,  233694,  233695,  233696,  233697,  233698,  233700,  233701,  233702,  233703], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233704": {
+        "name": "シヴァ＆ラスウェル",
+        "icon": "ability_95.png",
+        "compendium_id": 7809,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and MP by 30%",
+            "Increase resistance to Wind by 30%",
+            "Increase DEF and HP by 30% when equipped with a Katana"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  0,  30,  0]], [0, 3, 3, [0,  0,  0,  0,  30,  0,  0,  0]], [0, 3, 6, [4,  0,  30,  0,  0,  30,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233705": {
+        "name": "氷魔連携",
+        "icon": "ability_78.png",
+        "compendium_id": 7810,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30%",
+            "Increase the limit burst gauge fill rate by 150%",
+            "Increase summoning damage of Shiva by 150%"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 31, [150]], [0, 3, 64, [150,  3]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233706": {
+        "name": "氷魔の加護",
+        "icon": "ability_41.png",
+        "compendium_id": 7811,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and HP by 20%",
+            "Increase resistance to Ice by 50%",
+            "Increase resistance to Sleep and Paralyze by 100%",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 30% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  20,  0,  0]], [0, 3, 3, [0,  50,  0,  0,  0,  0,  0,  0]], [0, 3, 2, [0,  0,  100,  0,  100,  0,  0,  0]], [0, 3, 51, [30,  100,  0,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233707": {
+        "name": "氷魔の力",
+        "icon": "ability_76.png",
+        "compendium_id": 7812,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50%",
+            "Recover MP (10%) per turn",
+            "Increase physical damage against Dragons by 75%",
+            "Increase equipment ATK by 100% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 32, [10]], [0, 3, 11, [7,  75,  0]], [0, 3, 13, [100,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "233708": {
+        "name": "シヴァの加勢",
+        "icon": "ability_76.png",
+        "compendium_id": 7813,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40% and SPR and MP by 30%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase all stats gained from Shiva by 50%",
+            "Increase LB damage by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  30,  0,  30,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 63, [50,  50,  50,  50,  50,  50,  3]], [0, 3, 68, [50]]],
+        "requirements": [["EQUIP", 403049700], ["EQUIP", 405008700]],
+        "unit_restriction": null
+    },
+    "233709": {
+        "name": "ヘスの英雄王",
+        "icon": "ability_77.png",
+        "compendium_id": 7814,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50%",
+            "Increase LB damage by 50%",
+            "Increase the damage of アイスエイジ　斬 (233698), ストームブレイド (233694), ダイヤモンドブレイド (233693), 三十烈斬Sh (233691), 明鏡・断Sh (233690), 明鏡・朧Sh (233695), 明鏡・氷魔 (510962), 月光散華Sh (233692), 極・明鏡Sh (233697), 無明氷月Sh (510960) and 雪華終焉Sh (233696) by (2x)"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 68, [50]], [0, 3, 73, [[233690,  233691,  233692,  233693,  233694,  233695,  233696,  233697,  233698,  510960,  510962], 0, 0, 200]]],
         "requirements": null,
         "unit_restriction": null
     },
