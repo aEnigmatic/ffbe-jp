@@ -4759,6 +4759,28 @@
         "effects_raw": [[2, 1, 24, [0,  0,  -65,  -65,  3,  1]], [2, 1, 33, [0,  0,  0,  0,  -100,  0,  -100,  0,  1,  3]]],
         "requirements": [["SWITCH", 10540500]]
     },
+    "40240": {
+        "name": "とつげきじゅんび",
+        "icon": "ability_78.png",
+        "compendium_id": 279,
+        "rarity": 6,
+        "cost": {"MP": 45},
+        "magic_type": "Blue",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Increase LB damage by 30% for 3 turns"],
+        "effects_raw": [[2, 2, 120, [30,  3,  1,  1]]],
+        "requirements": [["SWITCH", 10610300]]
+    },
     "70010": {
         "name": "サンダガ",
         "icon": "ability_20.png",
