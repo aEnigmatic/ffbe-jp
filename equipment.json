@@ -1005,7 +1005,7 @@
         "icon": "item_10108.png"
     },
     "301003800": {
-        "name": "ラストダガー（FFIII）",
+        "name": "ラストダガー(FFIII)",
         "compendium_id": 1086,
         "compendium_shown": true,
         "rarity": 5,
@@ -1036,7 +1036,7 @@
         "icon": "item_10133.png"
     },
     "301003900": {
-        "name": "ダークナイフ（FFIII）",
+        "name": "ダークナイフ(FFIII)",
         "compendium_id": 1088,
         "compendium_shown": true,
         "rarity": 4,
@@ -5207,6 +5207,75 @@
         "price_sell": 20000,
         "icon": "item_2020017.png"
     },
+    "302011700": {
+        "name": "アストライアー",
+        "compendium_id": 1607,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 2,
+        "type": "Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.05, 1.55],
+        "accuracy": 50,
+        "requirements": [
+            "UNIT_ID",
+            100028905
+        ],
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 150,
+            "DEF": 0,
+            "MAG": 130,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": {
+                "Blind": 50
+            }
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2260010.png"
+    },
+    "302011800": {
+        "name": "アストライアー・レプリカ",
+        "compendium_id": 1609,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 2,
+        "type": "Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 93,
+            "DEF": 0,
+            "MAG": 82,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Light"],
+            "status_resist": null,
+            "status_inflict": {
+                "Blind": 30
+            }
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2260006.png"
+    },
     "303000100": {
         "name": "グレートソード",
         "compendium_id": 16,
@@ -6729,7 +6798,7 @@
         "icon": "item_10351.png"
     },
     "303005800": {
-        "name": "バスターソード（FFVII)",
+        "name": "バスターソード(FFVII)",
         "compendium_id": 1207,
         "compendium_shown": true,
         "rarity": 8,
@@ -9848,7 +9917,7 @@
         "icon": "item_10826.png"
     },
     "305002700": {
-        "name": "魔神の斧（FFBE）",
+        "name": "魔神の斧(FFBE)",
         "compendium_id": 1346,
         "compendium_shown": true,
         "rarity": 9,
@@ -13616,7 +13685,7 @@
         "icon": "item_11635.png"
     },
     "309003600": {
-        "name": "ダーククロー（FFIII）",
+        "name": "ダーククロー(FFIII)",
         "compendium_id": 1087,
         "compendium_shown": true,
         "rarity": 4,
@@ -15695,7 +15764,7 @@
         "icon": "item_10647.png"
     },
     "310005400": {
-        "name": "アスラのロッド（FFBE）",
+        "name": "アスラのロッド(FFBE)",
         "compendium_id": 1375,
         "compendium_shown": true,
         "rarity": 9,
@@ -16254,6 +16323,37 @@
         "price_buy": 35000,
         "price_sell": 3500,
         "icon": "item_2050000.png"
+    },
+    "310007200": {
+        "name": "ニルヴァーナロッド",
+        "compendium_id": 1608,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 6,
+        "type": "Rod",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [234024],
+        "effects": ["Grants '女王の独善' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 10,
+            "DEF": 0,
+            "MAG": 176,
+            "SPR": 40,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 140000,
+        "price_sell": 14000,
+        "icon": "item_2260011.png"
     },
     "311000200": {
         "name": "サクラの杖",
@@ -21505,7 +21605,7 @@
         "icon": "item_11324_.png"
     },
     "315022400": {
-        "name": "ライジングサン（FFVII）",
+        "name": "ライジングサン(FFVII)",
         "compendium_id": 1202,
         "compendium_shown": true,
         "rarity": 7,
@@ -21536,7 +21636,7 @@
         "icon": "item_11327.png"
     },
     "315022500": {
-        "name": "不倶戴天（FFVII)",
+        "name": "不倶戴天(FFVII)",
         "compendium_id": 1208,
         "compendium_shown": true,
         "rarity": 9,
@@ -27801,6 +27901,39 @@
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "item_2210008.png"
+    },
+    "403049900": {
+        "name": "フード・オブ・ダクネス",
+        "compendium_id": 1611,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 18,
+            "MAG": 18,
+            "SPR": 0,
+            "element_resist": {
+                "Dark": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "item_2260008.png"
     },
     "404000200": {
         "name": "ブロンズヘルム",
@@ -36596,6 +36729,39 @@
         "price_sell": 2000,
         "icon": "item_2260001.png"
     },
+    "408005900": {
+        "name": "マント・オブ・ダクネス",
+        "compendium_id": 1612,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 53,
+        "type": "Robe",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 18,
+            "MAG": 32,
+            "SPR": 18,
+            "element_resist": {
+                "Dark": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2260009.png"
+    },
     "409000100": {
         "name": "鉄の篭手",
         "compendium_id": 200,
@@ -44660,7 +44826,7 @@
         "icon": "item_50400.png"
     },
     "409027600": {
-        "name": "安らぎの指輪（FFVII)",
+        "name": "安らぎの指輪(FFVII)",
         "compendium_id": 1203,
         "compendium_shown": true,
         "rarity": 7,
@@ -44724,7 +44890,7 @@
         "icon": "item_50396.png"
     },
     "409027800": {
-        "name": "呪いの指輪（FFVII)",
+        "name": "呪いの指輪(FFVII)",
         "compendium_id": 1206,
         "compendium_shown": true,
         "rarity": 5,
@@ -48117,5 +48283,71 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_2250025.png"
+    },
+    "409038400": {
+        "name": "アミュレット・オブ・ダクネス",
+        "compendium_id": 1610,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 15,
+            "DEF": 0,
+            "MAG": 15,
+            "SPR": 0,
+            "element_resist": {
+                "Dark": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_2260007.png"
+    },
+    "409038500": {
+        "name": "ジャボテンダーのヒゲ",
+        "compendium_id": 1613,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100030],
+        "effects": ["Grants 'HP+30%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 35,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Water": 50
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250032.png"
     }
 }
