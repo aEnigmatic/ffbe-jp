@@ -56708,12 +56708,12 @@
         "effects": [
             "Increase ATK, DEF, MAG, SPR, HP and MP by 30%",
             "Increase LB damage by 100%",
-            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase equipment ATK by 100% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "Increase equipment MAG by 50% when armed with a single weapon",
+            "Increase equipment MAG by 100% when armed with a single weapon",
             "Use アストライアーの認めし者 (511542) at the start of a battle or when revived"
         ],
-        "effects_raw": [[0, 3, 1, [30,  30,  30,  30,  30,  30,  0]], [0, 3, 68, [100]], [0, 3, 13, [50,  25,  2]], [0, 3, 70, [50,  0,  2]], [0, 3, 56, [511542]]],
+        "effects_raw": [[0, 3, 1, [30,  30,  30,  30,  30,  30,  0]], [0, 3, 68, [100]], [0, 3, 13, [100,  25,  2]], [0, 3, 70, [100,  0,  2]], [0, 3, 56, [511542]]],
         "requirements": [["EQUIP", 302011700], ["EQUIP", 504234020]],
         "unit_restriction": null
     },
