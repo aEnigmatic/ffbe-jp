@@ -85896,12 +85896,1079 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": ["Fixed damage (1000000) to all enemies"],
+        "effects_raw": [[2, 1, 41, [1000000]]]
+    },
+    "217676": {
+        "name": "氾濫の魔道術",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic water damage (1.9x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  190]]]
+    },
+    "217677": {
+        "name": "大氾濫の魔道術",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic water damage (1.5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  150]]]
+    },
+    "217678": {
+        "name": "浸水の構え",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Water by 30% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  0,  -30,  0,  0,  0,  0,  1,  3]]]
+    },
+    "217679": {
+        "name": "激流の暴剣",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical water damage (1.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  150]]]
+    },
+    "217680": {
+        "name": "暴風咬み",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical wind damage (1.9x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  190]]]
+    },
+    "217681": {
+        "name": "嵐の疾駆",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical wind damage (1.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  150,  0]]]
+    },
+    "217682": {
+        "name": "毒爪",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (1.2x, ATK) to one enemy",
+            "Inflict Poison (100%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  120]], [1, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]]]
+    },
+    "217683": {
+        "name": "堕風のにらみ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Wind by 30% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  -30,  0,  0,  0,  1,  3]]]
+    },
+    "217684": {
+        "name": "エレクトロキャノン",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical lightning damage (1.9x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  190]]]
+    },
+    "217685": {
+        "name": "拡散エレクトロキャノン",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical lightning damage (1.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  150]]]
+    },
+    "217686": {
+        "name": "帯電粒子散布",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Lightning by 30% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  -30,  0,  0,  0,  0,  0,  1,  3]]]
+    },
+    "217687": {
+        "name": "出力が上昇した！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
+        "effects_raw": [[0, 3, 24, [0,  0,  0,  0,  0,  1]]]
+    },
+    "217688": {
+        "name": "高周波電磁ウェーブ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical lightning damage (1.8x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  180]]]
+    },
+    "217689": {
+        "name": "魔の旋風",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic wind damage (1.9x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  190]]]
+    },
+    "217690": {
+        "name": "魔の猛旋風",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic wind damage (1.5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  150]]]
+    },
+    "217691": {
+        "name": "コンフュ",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Inflict Confusion (50%) on one enemy"],
+        "effects_raw": [[1, 1, 6, [0,  0,  0,  0,  0,  50,  0,  0,  1]]]
+    },
+    "217692": {
+        "name": "ケアルガ",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Restore 3-8% HP to all allies"],
+        "effects_raw": [[2, 2, 26, [3,  8,  100]]]
+    },
+    "217693": {
+        "name": "地獄の裂風",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic wind damage (2.3x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  230]]]
+    },
+    "217694": {
+        "name": "ダークウォータ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic water damage (3.5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  350]]]
+    },
+    "217695": {
+        "name": "暗き力の魔撃・水",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic water damage (3x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]]]
+    },
+    "217696": {
+        "name": "なぎはらう",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  250]]]
+    },
+    "217697": {
+        "name": "水下の領域",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Water by 40% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  0,  -40,  0,  0,  0,  0,  1,  3]]]
+    },
+    "217698": {
+        "name": "暗き力で敵の防御・精神が上がった！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase DEF and SPR by 10% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [0,  10,  0,  10,  3,  1]]]
+    },
+    "217699": {
+        "name": "水が逆巻く・・・！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK and MAG by 10% for 2 turns to caster"],
+        "effects_raw": [[0, 3, 3, [10,  0,  10,  0,  2,  1]]]
+    },
+    "217700": {
+        "name": "大海嘯",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic water damage (4x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400]]]
+    },
+    "217701": {
+        "name": "魔の炸岩",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic earth damage (1.9x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  190]]]
+    },
+    "217702": {
+        "name": "魔の炸烈岩",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic earth damage (1.5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  150]]]
+    },
+    "217703": {
+        "name": "石化の一撃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Inflict Petrify (100%) on one enemy"],
+        "effects_raw": [[1, 1, 6, [0,  0,  0,  0,  0,  0,  0,  100,  1]]]
+    },
+    "217704": {
+        "name": "落石のにらみ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Earth by 30% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  0,  -30,  0,  0,  1,  3]]]
+    },
+    "217705": {
+        "name": "氾濫の魔道術",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic water damage (1.9x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  190]]]
+    },
+    "217706": {
+        "name": "大氾濫の魔道術",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic water damage (1.5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  150]]]
+    },
+    "217707": {
+        "name": "浸水の構え",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Water by 30% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  0,  -30,  0,  0,  0,  0,  1,  3]]]
+    },
+    "217708": {
+        "name": "激流の暴剣",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical water damage (1.6x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  160]]]
+    },
+    "217709": {
+        "name": "魔の炸岩",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic earth damage (1.9x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  190]]]
+    },
+    "217710": {
+        "name": "魔の炸烈岩",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic earth damage (1.5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  150]]]
+    },
+    "217711": {
+        "name": "ストンジャ",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic earth damage (1.8x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  180]]]
+    },
+    "217712": {
+        "name": "落石のにらみ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Earth by 30% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  0,  -30,  0,  0,  1,  3]]]
+    },
+    "217713": {
+        "name": "魔の炸烈岩",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic earth damage (1.3x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  130]]]
+    },
+    "217714": {
+        "name": "投槍",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]]]
+    },
+    "217715": {
+        "name": "水砲",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical water damage (3.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]]]
+    },
+    "217716": {
+        "name": "恐怖の声",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce DEF by 20% for 3 turns to one enemy"],
+        "effects_raw": [[1, 1, 24, [0,  -20,  0,  0,  3,  1]]]
+    },
+    "217717": {
+        "name": "全体水砲",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical water damage (3x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
+    },
+    "217718": {
+        "name": "超攻撃・水",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical water damage (3.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  350]]]
+    },
+    "217719": {
+        "name": "暗き力が集中していく！・水",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
+        "effects_raw": [[0, 3, 24, [0,  0,  0,  0,  0,  1]]]
+    },
+    "217720": {
+        "name": "デス",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Instant KO",
+        "effects": [
+            "[Death]",
+            "Instant KO (100%) to one enemy"
+        ],
+        "effects_raw": [[1, 1, 35, [100]]]
+    },
+    "217721": {
+        "name": "全体水砲",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical water damage (1.4x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  140]]]
+    },
+    "217722": {
+        "name": "ギガントフィスト",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical earth damage (3x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
+    },
+    "217723": {
+        "name": "大激震",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  250]]]
+    },
+    "217724": {
+        "name": "スクラブルアース",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic earth damage (2.5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  250]]]
+    },
+    "217725": {
+        "name": "落石のにらみ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Earth by 60% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  0,  -60,  0,  0,  1,  3]]]
+    },
+    "217726": {
+        "name": "土石流",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Reduce DEF and SPR by 10% for 3 turns to one enemy",
+            "Reduce resistance to Earth by 75% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 24, [0,  -10,  0,  -10,  3,  1]], [1, 1, 33, [0,  0,  0,  0,  0,  -75,  0,  0,  1,  3]]]
+    },
+    "217727": {
+        "name": "ロック・デポジション",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Add Earth element (100%) to physical attacks for 2 turns to all enemies"],
+        "effects_raw": [[2, 1, 95, [0,  0,  0,  0,  0,  100,  0,  0,  2,  1]]]
+    },
+    "217728": {
+        "name": "大地の怒り",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical earth damage (3.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  350]]]
+    },
+    "217729": {
+        "name": "暗き力で味方の攻撃・魔力が下がった！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce ATK and MAG by 10% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 24, [-10,  0,  -10,  0,  3,  1]]]
+    },
+    "217730": {
+        "name": "岩隠し",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Remove one enemy from the fight"],
+        "effects_raw": [[1, 1, 85, [100,  0]]]
+    },
+    "217731": {
+        "name": "スクラブルアース",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic earth damage (1.35x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  135]]]
+    },
+    "217732": {
+        "name": "雷爪牙",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical lightning damage (3.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350,  0]]]
+    },
+    "217733": {
+        "name": "乱れ雷爪牙",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical lightning damage (2.8x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  280,  0]]]
+    },
+    "217734": {
+        "name": "なぎはらう",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (2.5x, ATK) to all enemies",
+            "Inflict Paralyze (30%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  250]], [2, 1, 6, [0,  0,  0,  0,  30,  0,  0,  0,  1]]]
+    },
+    "217735": {
+        "name": "雷下の領域",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Lightning by 45% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  -45,  0,  0,  0,  0,  0,  1,  3]]]
+    },
+    "217736": {
+        "name": "骨竜の雷怨",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical lightning damage (1.5x, ATK) per turn to all enemies for 3 turns"],
+        "effects_raw": [[2, 1, 139, [1,  150,  0,  1,  3,  1,  9]]]
+    },
+    "217737": {
+        "name": "魔の旋風",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic wind damage (3.5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  350]]]
+    },
+    "217738": {
+        "name": "魔の猛旋風",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic wind damage (3x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]]]
+    },
+    "217739": {
+        "name": "堕風のにらみ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Wind by 60% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  -60,  0,  0,  0,  1,  3]]]
+    },
+    "217740": {
+        "name": "地獄の裂風",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic wind damage (4x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  400]]]
+    },
+    "217741": {
+        "name": "眼光",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Inflict Confusion (100%) on all enemies"],
+        "effects_raw": [[2, 1, 6, [0,  0,  0,  0,  0,  100,  0,  0,  1]]]
+    },
+    "217742": {
+        "name": "ケアルジャ",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Restore 3-9% HP to all allies"],
+        "effects_raw": [[2, 2, 26, [3,  9,  100]]]
+    },
+    "217743": {
+        "name": "コンフュガ",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Inflict Confusion (100%) on all enemies"],
+        "effects_raw": [[2, 1, 6, [0,  0,  0,  0,  0,  100,  0,  0,  1]]]
+    },
+    "217744": {
+        "name": "トリプルブレイク",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical earth damage (2.7x, ATK) to all enemies",
+            "Reduce ATK, DEF and MAG by 10% for 2 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  270]], [2, 1, 24, [-10,  -10,  -10,  0,  2,  1]]]
+    },
+    "217745": {
+        "name": "裁きの大鎌",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]]]
+    },
+    "217746": {
+        "name": "サルベイションサイズ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (2.7x, ATK) to one enemy",
+            "Inflict 2 random status effects (Poison and Paralyze 100%) to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  270]], [1, 1, 34, [100,  0,  0,  0,  100,  0,  0,  0,  1,  2]]]
+    },
+    "217747": {
+        "name": "クエイク",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic earth damage (2.7x, MAG) to all enemies",
+            "Reduce resistance to Earth by 20% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  270]], [2, 1, 33, [0,  0,  0,  0,  0,  -20,  0,  0,  1,  3]]]
+    },
+    "217748": {
+        "name": "シャドウウォール",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce physical damage taken by 15% to caster for 3 turns (can not be removed)"],
+        "effects_raw": [[0, 3, 115, [15,  0,  3,  1]]]
+    },
+    "217749": {
+        "name": "ストンガ剣",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Hybrid* earth damage (1.35x, ATK & MAG) to one enemy"],
+        "effects_raw": [[1, 1, 40, [0,  0,  0,  0,  0,  0,  0,  0,  135,  135]]]
+    },
+    "217750": {
+        "name": "真空破",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (3.8x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  380]]]
+    },
+    "217751": {
+        "name": "崩土の呪詛",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Earth by 60% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  0,  -60,  0,  0,  1,  3]]]
+    },
+    "217752": {
+        "name": "ドリル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.5x * 1.18 = 2.94x, ATK) to one enemy (ignore cover)"],
+        "effects_raw": [[1, 1, 21, [0,  0,  250,  -15]]]
+    },
+    "217753": {
+        "name": "パイルバンカー",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
+    },
+    "217754": {
+        "name": "スーパーブラスト",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (3.5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  350]]]
+    },
+    "217755": {
+        "name": "サンダービーム",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic lightning damage (3x, MAG) to one enemy",
+            "Reduce resistance to Lightning by 30% for 2 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  300,  0]], [1, 1, 33, [0,  0,  -30,  0,  0,  0,  0,  0,  1,  2]]]
+    },
+    "217756": {
+        "name": "超魔導レーザー",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic lightning damage (3.5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  350]]]
+    },
+    "217757": {
+        "name": "猛突進",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  250]]]
+    },
+    "217758": {
+        "name": "オーバーサイズ・30％",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK and MAG by 10% for 2 turns to caster"],
+        "effects_raw": [[0, 3, 3, [10,  0,  10,  0,  2,  1]]]
+    },
+    "217759": {
+        "name": "オーバーサイズ・60％",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK and MAG by 20% for 2 turns to caster"],
+        "effects_raw": [[0, 3, 3, [20,  0,  20,  0,  2,  1]]]
+    },
+    "217760": {
+        "name": "オーバーサイズ・限界点",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK and MAG by 30% for 2 turns to caster"],
+        "effects_raw": [[0, 3, 3, [30,  0,  30,  0,  2,  1]]]
+    },
+    "217761": {
+        "name": "雷下の領域",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Lightning by 60% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  -60,  0,  0,  0,  0,  0,  1,  3]]]
+    },
+    "217762": {
+        "name": "エレキバースト",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic lightning damage (3.8x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  380]]]
+    },
+    "217763": {
+        "name": "トルネド",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic wind damage (3x, MAG) to all enemies",
+            "Reduce resistance to Wind by 30% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]], [2, 1, 33, [0,  0,  0,  0,  -30,  0,  0,  0,  1,  3]]]
+    },
+    "217764": {
+        "name": "烈風斬",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (3.5x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  350]]]
+    },
+    "217765": {
+        "name": "トルネードボム",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic wind damage (3x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]]]
+    },
+    "217766": {
+        "name": "デルタスクラブ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]]]
+    },
+    "217767": {
+        "name": "キュムロニンバス",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic wind damage (2.5x, MAG) to all enemies",
+            "Reduce DEF and SPR by 15% for 2 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  250]], [2, 1, 24, [0,  -15,  0,  -15,  2,  1]]]
+    },
+    "217768": {
+        "name": "砂嵐",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (2.5x, MAG) to all enemies",
+            "Inflict Blind, Silence and Petrify (100%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  250]], [2, 1, 6, [0,  100,  0,  100,  0,  0,  0,  100,  1]]]
+    },
+    "217769": {
+        "name": "赤き風",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Drain MP",
+        "effects": ["Magic damage (0.04x, MAG) as MP drain (30%) to one enemy"],
+        "effects_raw": [[1, 1, 10, [30,  4,  100]]]
+    },
+    "217770": {
+        "name": "疾風の舞",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Increase DEF and SPR by 10% and ATK and MAG by 5% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [5,  10,  5,  10,  3,  1]]]
+    },
+    "217771": {
+        "name": "精霊の舞",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Increase DEF and SPR by 15% and ATK and MAG by 10% for 3 turns to caster",
+            "Reduce damage taken by 20% to caster for 2 turns"
+        ],
+        "effects_raw": [[0, 3, 3, [10,  15,  10,  15,  3,  1]], [0, 3, 101, [20,  2,  1]]]
+    },
+    "217772": {
+        "name": "拒絶の風",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Reflect all spell(s) for 3 turns to caster"],
+        "effects_raw": [[0, 3, 86, [100,  -1,  3]]]
+    },
+    "217773": {
+        "name": "四天の風",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic wind damage (3.8x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  380]]]
+    },
+    "217774": {
+        "name": "虚ろなる風",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Remove all buffs and debuffs from all enemies"],
+        "effects_raw": [[2, 1, 59, ["none"]]]
+    },
+    "217775": {
+        "name": "風が吹き荒れる！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Wind by 80% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  -80,  0,  0,  0,  1,  3]]]
+    },
+    "217776": {
+        "name": "影の刃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical dark damage (2.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  250,  0]]]
+    },
+    "217777": {
+        "name": "影の連撃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical dark damage (3x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300,  0]]]
+    },
+    "217778": {
+        "name": "影握",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical dark damage (4x, ATK) to one enemy",
+            "Reduce ATK, DEF, MAG and SPR by 10% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [1, 1, 24, [10,  10,  10,  10,  3,  1,  0]]]
+    },
+    "217779": {
+        "name": "影の牙",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical dark damage (4.8x, ATK) to all enemies",
+            "Increase DEF and SPR by 10% for 3 turns to caster"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  480,  0]], [1, 3, 3, [0,  10,  0,  10,  3,  1,  0]]]
+    },
+    "217780": {
+        "name": "永遠の夜",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Add Dark element (100%) to physical attacks for 7 turns to caster",
+            "Reduce resistance to Dark by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[1, 3, 95, [0,  0,  0,  0,  0,  0,  0,  100,  7,  1]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  0,  -50,  1,  3]]]
+    },
+    "217781": {
+        "name": "闇が辺りを覆っている",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
+        "effects_raw": [[1, 3, 24, [0,  0,  0,  0,  0,  1]]]
+    },
+    "217782": {
+        "name": "明かりに　ひるんでいる！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
+        "effects_raw": [[1, 3, 24, [0,  0,  0,  0,  0,  1]]]
+    },
+    "217783": {
+        "name": "ホムンクルスの体",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase DEF and SPR by 20% for 3 turns to caster"],
+        "effects_raw": [[1, 3, 3, [0,  20,  0,  20,  3,  1,  0]]]
+    },
+    "217784": {
+        "name": "子どもの見た目",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce ATK and MAG by 10% for 3 turns to one enemy"],
+        "effects_raw": [[1, 1, 24, [10,  0,  10,  0,  3,  1]]]
+    },
+    "217785": {
+        "name": "近づきすぎですね",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.2x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  120,  0]]]
+    },
+    "217786": {
+        "name": "立ち去った",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Escape Battle"],
+        "effects_raw": [[0, 3, 51, [100]]]
+    },
+    "217787": {
+        "name": "最強の眼",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Dodge 3 physical attacks for one turn to caster"],
+        "effects_raw": [[1, 3, 54, [3,  1,  1]]]
+    },
+    "217788": {
+        "name": "ウロボロスの紋章",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce magic damage taken by 50% to caster for one turn (can not be removed)"],
+        "effects_raw": [[1, 3, 116, [50,  0,  1,  1]]]
+    },
+    "217789": {
+        "name": "憤怒",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK by 30% and DEF by 10% for 2 turns to caster (can not be removed)"],
+        "effects_raw": [[1, 3, 3, [30,  10,  0,  0,  2,  1,  1]]]
+    },
+    "217790": {
+        "name": "サーベル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  250,  0]]]
+    },
+    "217791": {
+        "name": "柄付手榴弾",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.8x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  180,  0]]]
+    },
+    "217792": {
+        "name": "加速：ナイフ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK by 15% for 5 turns to caster"],
+        "effects_raw": [[1, 3, 3, [15,  0,  0,  0,  5,  5,  0]]]
+    },
+    "217793": {
+        "name": "加速：ツインナイフ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (4x, ATK) to all enemies",
+            "Increase ATK by 10% for 2 turns to caster"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  400,  0]], [1, 3, 3, [10,  0,  0,  0,  2,  1,  0]]]
+    },
+    "217794": {
+        "name": "超加速：ツインサーベル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (5.8x, ATK) to all enemies",
+            "Increase ATK by 15% for 2 turns to caster"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  580,  0]], [1, 3, 3, [15,  0,  0,  0,  2,  1,  0]]]
+    },
+    "217795": {
+        "name": "物理カウンター",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300,  0]]]
+    },
+    "217796": {
+        "name": "魔法カウンター",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300,  0]]]
+    },
+    "217797": {
+        "name": "近づきすぎですね",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.7x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  170,  0]]]
+    },
+    "217798": {
+        "name": "闇の呪力",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic dark damage (2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  200,  0]]]
+    },
+    "217799": {
+        "name": "奪力の悪夢",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce ATK by 90% for 2 turns to all enemies"],
+        "effects_raw": [[2, 1, 24, [-90,  0,  0,  0,  2,  1]]]
+    },
+    "217800": {
+        "name": "暗闇の悪夢",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Inflict Blind (100%) on all enemies"],
+        "effects_raw": [[2, 1, 6, [0,  100,  0,  0,  0,  0,  0,  0,  1]]]
+    },
+    "217801": {
+        "name": "深闇の大呪力",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic dark damage (3x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300,  0]]]
+    },
+    "217802": {
+        "name": "存在が空間に溶け込む！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
         "effects_raw": [
             [
-                2,
                 1,
-                41,
-                [1000000]
+                3,
+                24,
+                [0, 0, 0, 0, 0, 1]
             ]
         ]
     }
