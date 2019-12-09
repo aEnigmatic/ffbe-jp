@@ -87305,18 +87305,68 @@
             "Physical damage (1.2x, ATK) to one enemy",
             "Physical damage (1x, ATK) as MP drain (100%) to one enemy"
         ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  120]], [1, 1, 10, [100,  100,  100]]]
+    },
+    "217843": {
+        "name": "みんな、お祝いの準備はいい？",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Restore 100% HP and MP to all enemies"],
+        "effects_raw": [[2, 1, 64, [100,  100]]]
+    },
+    "217844": {
+        "name": "5秒前！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Restore 100% HP and MP to all enemies"],
+        "effects_raw": [[2, 1, 64, [100,  100]]]
+    },
+    "217845": {
+        "name": "4秒前！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Restore 100% HP and MP to all enemies"],
+        "effects_raw": [[2, 1, 64, [100,  100]]]
+    },
+    "217846": {
+        "name": "3秒前！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Restore 100% HP and MP to all enemies"],
+        "effects_raw": [[2, 1, 64, [100,  100]]]
+    },
+    "217847": {
+        "name": "2秒前！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Restore 100% HP and MP to all enemies"],
+        "effects_raw": [[2, 1, 64, [100,  100]]]
+    },
+    "217848": {
+        "name": "1秒前！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Restore 100% HP and MP to all enemies"],
+        "effects_raw": [[2, 1, 64, [100,  100]]]
+    },
+    "217849": {
+        "name": "メリークリスマース！！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Instant KO (100%) to caster (ignores death resist)"],
         "effects_raw": [
             [
                 1,
-                1,
-                1,
-                [0, 0, 0, 0, 0, 0, 120]
-            ],
-            [
-                1,
-                1,
-                10,
-                [100, 100, 100]
+                3,
+                35,
+                [100, 1, 0]
             ]
         ]
     }

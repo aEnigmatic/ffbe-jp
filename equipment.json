@@ -36983,6 +36983,37 @@
         "price_sell": 5000,
         "icon": "item_2260009.png"
     },
+    "408006000": {
+        "name": "サンタロッティのローブ",
+        "compendium_id": 1632,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 53,
+        "type": "Robe",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [234312],
+        "effects": ["Grants 'サンタさんにへーんしん！' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 24,
+            "MAG": 54,
+            "SPR": 32,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2200002.png"
+    },
     "409000100": {
         "name": "鉄の篭手",
         "compendium_id": 200,
@@ -48885,5 +48916,39 @@
         "price_buy": 10000,
         "price_sell": 1000,
         "icon": "item_2250037.png"
+    },
+    "409039600": {
+        "name": "淡雪のリボン",
+        "compendium_id": 1631,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [234311],
+        "effects": ["Grants '手触り抜群' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 22,
+            "MAG": 0,
+            "SPR": 60,
+            "element_resist": {
+                "Fire": 50,
+                "Light": 50
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2250043.png"
     }
 }

@@ -31007,10 +31007,10 @@
         "effects": [
             "Increase the damage of エクスホーリー (509604), ダークホーリー (229121), チョコホーリー (509393), ホーリー (502080, 508100) and リタリエイトホーリー (505030) by (1x)",
             "Increase the damage of ホーリーザップ (227696), ホーリースラッシュ (230183), ホーリーセイバー (203720), ホーリーレイン (234218), ホーリーレディエンス (234070), ホーリー剣 (200770) and マインドホーリーフラット (227653, 707793, 707794) by (2x)",
-            "Increase the damage of エンシェントホーリー (509191), ディヴァインホーリーフラット (511137), ブレイブホーリー (510029), ホーリー (10210, 70330, 70340) and ホーリースラッシュAl (233612) by (3x)",
+            "Increase the damage of エンシェントホーリー (509191), ディヴァインホーリーフラット (511137), ブレイブホーリー (510029), ホーリガザップ (511612, 511613), ホーリー (10210, 70330, 70340) and ホーリースラッシュAl (233612) by (3x)",
             "Increase SPR by 60%"
         ],
-        "effects_raw": [[0, 3, 73, [[229121,  502080,  505030,  508100,  509393,  509604], 0, 0, 100]], [0, 3, 73, [[200770,  203720,  227653,  227696,  230183,  707793,  707794,  234070,  234218], 0, 0, 200]], [0, 3, 73, [[10210,  70330,  70340,  509191,  510029,  233612,  511137], 0, 0, 300]], [0, 3, 1, [0,  0,  0,  60,  0,  0,  0]]],
+        "effects_raw": [[0, 3, 73, [[229121,  502080,  505030,  508100,  509393,  509604], 0, 0, 100]], [0, 3, 73, [[200770,  203720,  227653,  227696,  230183,  707793,  707794,  234070,  234218], 0, 0, 200]], [0, 3, 73, [[10210,  70330,  70340,  509191,  510029,  233612,  511137,  511612,  511613], 0, 0, 300]], [0, 3, 1, [0,  0,  0,  60,  0,  0,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -58260,6 +58260,347 @@
             "Increase LB gauge by 2 per turn"
         ],
         "effects_raw": [[0, 3, 1, [0,  40,  0,  40,  40,  0,  0]], [0, 3, 33, [200]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234310": {
+        "name": "聖夜の祝福",
+        "icon": "ability_9.png",
+        "compendium_id": 8298,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 40%",
+            "Increase resistance to Fire and Light by 20%",
+            "Increase HP by 15% when equipped with a Robe"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  40,  0,  0,  0]], [0, 3, 3, [20,  0,  0,  0,  0,  0,  20,  0]], [0, 3, 6, [53,  0,  0,  0,  0,  15,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234311": {
+        "name": "手触り抜群",
+        "icon": "ability_77.png",
+        "compendium_id": 8299,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase HP by 30%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  30,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234312": {
+        "name": "サンタさんにへーんしん！",
+        "icon": "ability_77.png",
+        "compendium_id": 8300,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MAG by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234313": {
+        "name": "聖夜の思い出",
+        "icon": "ability_76.png",
+        "compendium_id": 8301,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 60%",
+            "Increase equipment MAG by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase HP by 30% when equipped with a Robe"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  60,  0,  0,  0,  0]], [0, 3, 70, [50,  25,  2]], [0, 3, 6, [53,  0,  0,  0,  0,  30,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234326": {
+        "name": "Wプレゼント",
+        "icon": "ability_8.png",
+        "compendium_id": 8308,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use シャイニングショット (234321), ストンガザップ (234322), ソイルショット (234320), ディバインブースト (234325), トゥインクルスターキャノン (234329), プレゼント用意！ (234327), ホーリガザップ (234323), マッドストライクキャノン (234328), マッドブースト (234324) and 悪い子にはこれをあげちゃう！ (234330) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 511614, -1, [234320,  234321,  234322,  234323,  234324,  234325,  234327,  234328,  234329,  234330], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234331": {
+        "name": "サンタデビュー",
+        "icon": "ability_78.png",
+        "compendium_id": 8313,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 20%",
+            "Recover MP (5%) per turn",
+            "Increase the limit burst gauge fill rate by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  0,  0,  0,  0]], [0, 3, 32, [5]], [0, 3, 31, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234332": {
+        "name": "ハッピークリスマス！",
+        "icon": "ability_84.png",
+        "compendium_id": 8314,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP and MP by 30%",
+            "Increase resistance to Earth and Light by 30%",
+            "Reduce chance of being targeted by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  30,  30,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  30,  30,  0]], [0, 3, 25, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234333": {
+        "name": "聖夜の決意",
+        "icon": "ability_19.png",
+        "compendium_id": 8315,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, MAG and SPR by 20%",
+            "Increase resistance to Silence and Petrify by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  20,  20,  0,  0,  0]], [0, 3, 2, [0,  0,  0,  100,  0,  0,  0,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234334": {
+        "name": "新米サンタの奮闘",
+        "icon": "ability_68.png",
+        "compendium_id": 8316,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "40% chance to counter physical attacks with 新米サンタの奮闘 (511618) to caster (max 1 / turn)",
+            "40% chance to counter magic attacks with 新米サンタの奮闘 (511618) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 49, [40,  3,  511618,  1]], [0, 3, 50, [40,  3,  511618,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234335": {
+        "name": "マク爺からの贈り物",
+        "icon": "ability_91.png",
+        "compendium_id": 8317,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 40%",
+            "Increase LB gauge by 3 per turn",
+            "Increase equipment MAG by 75% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  40,  0,  0,  0,  0]], [0, 3, 33, [300]], [0, 3, 70, [75,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234336": {
+        "name": "小さなサンタの本気",
+        "icon": "ability_76.png",
+        "compendium_id": 8318,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 50%",
+            "Increase equipment MAG by 75% when armed with a single weapon",
+            "Increase equipment MAG by 50% when armed with two weapons",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  0,  0]], [0, 3, 70, [75,  0,  2]], [0, 3, 69, [3,  50,  0]], [0, 3, 32, [5]]],
+        "requirements": [["EQUIP", 408006000], ["EQUIP", 504234313]],
+        "unit_restriction": null
+    },
+    "234337": {
+        "name": "シトラからの贈り物",
+        "icon": "ability_78.png",
+        "compendium_id": 8319,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 40% and DEF and MP by 30%",
+            "Increase LB damage by 50%",
+            "Increase the damage of 悪い子にはこれをあげちゃう！ (511617) by (13x)",
+            "Increase the damage of ディバインブースト (234325), トゥインクルスターキャノン (234329), マッドストライクキャノン (234328) and マッドブースト (234324) by (10x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  40,  0,  0,  30,  0]], [0, 3, 68, [50]], [0, 3, 73, [511617,  0,  0,  1300]], [0, 3, 73, [[234324,  234325,  234328,  234329], 0, 0, 1000]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234348": {
+        "name": "Wギフト",
+        "icon": "ability_8.png",
+        "compendium_id": 8328,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use エンジェルサポート (234346), ギフトキャンディ・光 (234343), ギフトキャンディ・土 (234342), ギフトキャンディ・氷 (234341), クリスマスデコレーション (234351), スノーストーム (234349), スペシャルギフト (234350), ディバインウォール (234345), ヒーリングヴェール (234344), ホーリーチアー (234347), メイク・スマイル (234352) and リフレッシュギフト (234340) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 511640, -1, [234340,  234341,  234342,  234343,  234344,  234345,  234346,  234347,  234349,  234350,  234351,  234352], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234353": {
+        "name": "六花の天使",
+        "icon": "ability_15.png",
+        "compendium_id": 8333,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP and MP by 30%",
+            "Increase resistance to Ice by 30%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  30,  30,  0]], [0, 3, 3, [0,  30,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234354": {
+        "name": "聖夜を彩るドレス",
+        "icon": "ability_91.png",
+        "compendium_id": 8334,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 30%",
+            "Recover MP (7%) per turn",
+            "Increase Stop resistance by 100% to caster"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  0,  0,  0]], [0, 3, 32, [7]], [0, 3, 55, [0,  0,  0,  0,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234355": {
+        "name": "献身の乙女",
+        "icon": "ability_9.png",
+        "compendium_id": 8335,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and HP by 20%",
+            "Increase resistance to Earth and Light by 30%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  20,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  30,  30,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234356": {
+        "name": "贈り物配達中",
+        "icon": "ability_19.png",
+        "compendium_id": 8336,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF by 20%",
+            "Increase resistance to Confusion by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  0,  0,  0,  0]], [0, 3, 2, [0,  0,  0,  0,  0,  100,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234357": {
+        "name": "お手製の飴玉",
+        "icon": "ability_78.png",
+        "compendium_id": 8337,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and SPR by 30%",
+            "Increase the limit burst gauge fill rate by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  30,  0,  0,  0]], [0, 3, 31, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234358": {
+        "name": "子供たちに笑顔を届ける者",
+        "icon": "ability_91.png",
+        "compendium_id": 8338,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 50%",
+            "Increase resistance to Disease by 100%",
+            "Increase LB gauge by 3 per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  50,  0,  0,  0]], [0, 3, 2, [0,  0,  0,  0,  0,  0,  100,  0]], [0, 3, 33, [300]]],
+        "requirements": [["EQUIP", 504234310], ["EQUIP", 409039600]],
+        "unit_restriction": null
+    },
+    "234359": {
+        "name": "師匠との思い出",
+        "icon": "ability_68.png",
+        "compendium_id": 8339,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and MP by 30%",
+            "40% chance to counter physical attacks with 師匠との思い出 (511644) to caster (max 1 / turn)",
+            "40% chance to counter magic attacks with 師匠との思い出 (511644) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  0,  30,  0]], [0, 3, 49, [40,  3,  511644,  1]], [0, 3, 50, [40,  3,  511644,  1]]],
         "requirements": null,
         "unit_restriction": null
     },
