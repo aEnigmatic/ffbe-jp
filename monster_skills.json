@@ -87361,12 +87361,170 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": ["Instant KO (100%) to caster (ignores death resist)"],
+        "effects_raw": [[1, 3, 35, [100,  1,  0]]]
+    },
+    "217850": {
+        "name": "ひっかく",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Percentual DMG",
+        "effects": ["3% HP damage to one enemy"],
+        "effects_raw": [[1, 1, 9, [3,  3,  100]]]
+    },
+    "217851": {
+        "name": "体当たり",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Percentual DMG",
+        "effects": ["3% HP damage to one enemy"],
+        "effects_raw": [[1, 1, 9, [3,  3,  100]]]
+    },
+    "217852": {
+        "name": "かえん",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Percentual DMG",
+        "effects": ["5% HP damage to all enemies"],
+        "effects_raw": [[2, 1, 9, [5,  5,  100]]]
+    },
+    "217853": {
+        "name": "レッドアクト",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical fire damage (1.8x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]]]
+    },
+    "217854": {
+        "name": "バーミリオンアクト",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical fire damage (1.8x, ATK) to one enemy",
+            "Reduce resistance to Fire by 50% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180]], [1, 1, 33, [-50,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]
+    },
+    "217855": {
+        "name": "ヒートカタルシス",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical fire damage (2x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
+    },
+    "217856": {
+        "name": "ソードスペクタクル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical fire damage (2.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  250]]]
+    },
+    "217857": {
+        "name": "ソードスペクタクル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical fire damage (3x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
+    },
+    "217858": {
+        "name": "ヒートカタルシス",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical fire damage (2x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
+    },
+    "217859": {
+        "name": "ストンラ剣",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical earth damage (2x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
+    },
+    "217860": {
+        "name": "ストンガ剣",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical earth damage (2x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
+    },
+    "217861": {
+        "name": "ホーリー剣",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical light damage (2x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
+    },
+    "217862": {
+        "name": "アーマーブレイク",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (1.5x, ATK) to all enemies",
+            "Reduce DEF by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  150]], [2, 1, 24, [0,  -50,  0,  0,  3,  1]]]
+    },
+    "217863": {
+        "name": "ためる",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK by 50% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [50,  0,  0,  0,  3,  1]]]
+    },
+    "217864": {
+        "name": "突進",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
+    },
+    "217865": {
+        "name": "ためる",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK and MAG by 50% for 3 turns to one ally"],
+        "effects_raw": [[1, 2, 3, [50,  0,  50,  0,  3,  1]]]
+    },
+    "217866": {
+        "name": "ツメ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  250]]]
+    },
+    "217867": {
+        "name": "なぎはらう",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2.2x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  220]]]
+    },
+    "217868": {
+        "name": "メテオ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (3x * 1.33 = 4x, MAG) to all enemies (ignore reflect)"],
         "effects_raw": [
             [
+                2,
                 1,
-                3,
-                35,
-                [100, 1, 0]
+                70,
+                [0, 0, 300, 25]
             ]
         ]
     }
