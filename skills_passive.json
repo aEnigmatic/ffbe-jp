@@ -34918,8 +34918,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use アースクエイク (230419), ラストリゾート (230425), 天罰 (230421), 残心掌 (230413), 流動する時の城壁 (230417), 溢魔の秘蹟 (230422), 爆轟の拳 (230415), 破壊の拳 (230414), 翔天掌 (230412), 苛烈なる制裁 (230420), 誇り高き守護の腕 (230416), 運命に抗う力 (230424), 金剛掌 (230411), 鉄砕掌 (230410) and 鎧袖一触 (230418) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 509530, -1, [230410,  230411,  230412,  230413,  230414,  230415,  230416,  230417,  230418,  230419,  230420,  230421,  230422,  230424,  230425], 1, 0]]],
+        "effects": ["Enable unit to use アースクエイク (230419), ラストリゾート (230425), 大激震 (800395), 天罰 (230421), 残心掌 (230413), 流動する時の城壁 (230417), 溢魔の秘蹟 (230422), 爆轟の拳 (230415), 破壊の拳 (230414), 翔天掌 (230412), 苛烈なる制裁 (230420), 誇り高き守護の腕 (230416), 運命に抗う力 (230424), 金剛掌 (230411), 鉄砕掌 (230410) and 鎧袖一触 (230418) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 509530, -1, [230410,  230411,  230412,  230413,  230414,  230415,  230416,  230417,  230418,  230419,  230420,  230421,  230422,  230424,  230425,  800395], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -59162,6 +59162,446 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "234460": {
+        "name": "淑女のキッス",
+        "icon": "ability_19.png",
+        "compendium_id": 8408,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP by 30%",
+            "Increase resistance to Poison and Paralyze by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  30,  0,  0]], [0, 3, 2, [100,  0,  0,  0,  100,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234461": {
+        "name": "ヲルバの祝福",
+        "icon": "ability_41.png",
+        "compendium_id": 8409,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and SPR by 60%",
+            "Increase Stop resistance by 50% to caster",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  60,  60,  0,  0,  0]], [0, 3, 55, [0,  0,  0,  0,  50,  0]], [0, 3, 51, [1,  100,  0,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234462": {
+        "name": "竜王の息吹",
+        "icon": "ability_79.png",
+        "compendium_id": 8410,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase physical damage against Dragons by 25%"],
+        "effects_raw": [[0, 3, 11, [7,  25,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234463": {
+        "name": "ラグナロクの記憶",
+        "icon": "ability_80.png",
+        "compendium_id": 8411,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase damage dealt by jump attacks by 100%",
+            "Increase ATK by 70% when equipped with a Spear"
+        ],
+        "effects_raw": [[0, 3, 17, [100]], [0, 3, 6, [10,  70,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234464": {
+        "name": "天駆ける闘志",
+        "icon": "ability_80.png",
+        "compendium_id": 8412,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase damage dealt by jump attacks by 25%"],
+        "effects_raw": [[0, 3, 17, [25]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234465": {
+        "name": "つらぬく覚悟",
+        "icon": "ability_95.png",
+        "compendium_id": 8413,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30%",
+            "Increase ATK by 30% when equipped with a Spear"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [10,  30,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234466": {
+        "name": "リベンジスタイル",
+        "icon": "ability_68.png",
+        "compendium_id": 8414,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40%",
+            "Increase chance of countering by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 20, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234467": {
+        "name": "生存競争を生き抜く力",
+        "icon": "ability_78.png",
+        "compendium_id": 8415,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the limit burst gauge fill rate by 20%"],
+        "effects_raw": [[0, 3, 31, [20]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234468": {
+        "name": "致命の一刺し",
+        "icon": "ability_79.png",
+        "compendium_id": 8416,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase magic damage against Humans by 75%"],
+        "effects_raw": [[0, 3, 11, [5,  0,  75]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234479": {
+        "name": "Wドライブ",
+        "icon": "ability_8.png",
+        "compendium_id": 8427,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use アサルトタックル (234471), インパルス (234473), エリアブレイク・アタック (234474), エリアブレイク・ディフェンス (234475), ガトリングキャノン (234477), ティタノマキア (800397), テトラミサイル (234478), デス (234481), ハリケーンキック (234476), バスターフォース (234483), ペネトレイトレイ (234472), ラッシュ (234470), 百の御手 (234482) and 運命に抗う力 (234480) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 511701, -1, [234470,  234471,  234472,  234473,  234474,  234475,  234476,  234477,  234478,  234480,  234481,  234482,  234483,  800397], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234484": {
+        "name": "天真爛漫",
+        "icon": "ability_91.png",
+        "compendium_id": 8432,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP and MP by 20%",
+            "Gain リジェネ(覇者の闘気用) (10122) at the start of a battle or when revived",
+            "Recover MP (10%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  20,  0]], [0, 3, 35, [10122]], [0, 3, 32, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234485": {
+        "name": "現実を超える願い",
+        "icon": "ability_9.png",
+        "compendium_id": 8433,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and SPR by 30%",
+            "Increase resistance to Wind and Earth by 20%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  30,  0,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  20,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234486": {
+        "name": "世界を支える意志",
+        "icon": "ability_19.png",
+        "compendium_id": 8434,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Petrify by 100%",
+            "Increase equipment MAG by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 2, [0,  0,  0,  0,  0,  0,  0,  100]], [0, 3, 70, [25,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234487": {
+        "name": "魔導アーマーの乗り手",
+        "icon": "ability_79.png",
+        "compendium_id": 8435,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and MP by 50%",
+            "Increase magic damage against Machinas by 25%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  50,  0]], [0, 3, 11, [6,  0,  25]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234488": {
+        "name": "ワイヤーロッドの使い手",
+        "icon": "ability_76.png",
+        "compendium_id": 8436,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and MP by 20% when equipped with a Rod",
+            "Increase DEF, SPR and MP by 20% when equipped with a Whip",
+            "Increase equipment MAG by 100% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 6, [6,  0,  20,  0,  20,  0,  20,  0]], [0, 3, 6, [12,  0,  20,  0,  20,  0,  20,  0]], [0, 3, 70, [100,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234489": {
+        "name": "贖罪の決意",
+        "icon": "ability_68.png",
+        "compendium_id": 8437,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Sleep and Confusion by 100%",
+            "20% chance to counter physical attacks with 贖罪の決意 (511706) to caster (max 1 / turn)",
+            "20% chance to counter magic attacks with 贖罪の決意 (511706) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 2, [0,  0,  100,  0,  0,  100,  0,  0]], [0, 3, 49, [20,  3,  511706,  1]], [0, 3, 50, [20,  3,  511706,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234490": {
+        "name": "ルシの宿命を負う者",
+        "icon": "ability_91.png",
+        "compendium_id": 8438,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG, SPR and HP by 40%",
+            "Increase LB gauge by 2 per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  40,  40,  40,  0,  0]], [0, 3, 33, [200]]],
+        "requirements": [["EQUIP", 314002400], ["EQUIP", 504234461]],
+        "unit_restriction": null
+    },
+    "234491": {
+        "name": "自然を愛する少女",
+        "icon": "ability_9.png",
+        "compendium_id": 8439,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, MAG and SPR by 30%",
+            "Increase resistance to Wind and Earth by 30%",
+            "Increase the damage of アサルトタックル (234471), インパルス (234473), ガトリングキャノン (234477), テトラミサイル (511700), デス (511703), ハリケーンキック (234476), バスターフォース (234483), ペネトレイトレイ (234472) and ラッシュ (234470) by (3x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  30,  30,  0,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  30,  30,  0,  0]], [0, 3, 73, [[234470,  234471,  234472,  234473,  234476,  234477,  234483,  511700,  511703], 0, 0, 300]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234506": {
+        "name": "Wドライブ",
+        "icon": "ability_8.png",
+        "compendium_id": 8446,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use アースダイブ (234503), エアリアルレイヴ (234501), サイクロンダイブ (234502), スプレッドパルサー (234510), ドライビングモード (234507), ドラゴンクロー (234500), ドラゴンフォーレイ (800399), フュリアスインパクト (234504), ブレイクチェーン (234509), ブレイクバースト (234508) and ヘビーストライク (511708) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 511711, -1, [234500,  234501,  234502,  234503,  234504,  234507,  234508,  234509,  234510,  511708,  800399], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234511": {
+        "name": "迷いなき勇気",
+        "icon": "ability_78.png",
+        "compendium_id": 8451,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and HP by 20%",
+            "Increase resistance to Wind and Earth by 20%",
+            "Increase the limit burst gauge fill rate by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  20,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  20,  20,  0,  0]], [0, 3, 31, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234512": {
+        "name": "ヴァニラへの想い",
+        "icon": "ability_76.png",
+        "compendium_id": 8452,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and MP by 20%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  0,  20,  0]], [0, 3, 13, [50,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234513": {
+        "name": "飛竜に乗って戦う者",
+        "icon": "ability_80.png",
+        "compendium_id": 8453,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF, HP and MP by 20%",
+            "Increase damage dealt by jump attacks by 75%",
+            "Recover MP (10%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  20,  0,  0,  20,  20,  0]], [0, 3, 17, [75]], [0, 3, 32, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234514": {
+        "name": "グラン＝パルスの流儀",
+        "icon": "ability_79.png",
+        "compendium_id": 8454,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30%",
+            "Increase physical damage against Beasts by 75%",
+            "Enable unit to equip two one-handed weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 11, [1,  75,  0]], [0, 3, 14, ["none"]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234515": {
+        "name": "運命に抗う力",
+        "icon": "ability_41.png",
+        "compendium_id": 8455,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 51, [1,  100,  0,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234516": {
+        "name": "友を守る誓い",
+        "icon": "ability_72.png",
+        "compendium_id": 8456,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50%",
+            "Increase all stats gained from Bahamut by 50%",
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "Increase damage dealt by jump attacks by 50%",
+            "Increase LB gauge by 3 per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 63, [50,  50,  50,  50,  50,  50,  15]], [0, 3, 69, [1,  50,  0]], [0, 3, 17, [50]], [0, 3, 33, [300]]],
+        "requirements": [["EQUIP", 308006500], ["EQUIP", 504234463]],
+        "unit_restriction": null
+    },
+    "234517": {
+        "name": "壊れたルシの再起",
+        "icon": "ability_78.png",
+        "compendium_id": 8457,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and HP by 20%",
+            "Increase LB damage by 50%",
+            "Replace LB with メガフレア (900000356):\n\tPhysical damage (30.1x * 2 = 60.2x, ATK) to all enemies (ignore cover)\n\tIncrease damage of エアリアルレイヴ (234501), ハイウィンド (511709), ハイウィンド・改 (511710), ブレイクチェーン (234509), ブレイクバースト (234508) and ヘビーストライク (511708) by 500% for 6 turns",
+            "Increase the damage of ハイウィンド skills  [(511709) / ・改 (511710)] by (20x)"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  20,  0,  0]], [0, 3, 68, [50]], [0, 3, 72, [900000356]], [0, 3, 73, [[511709,  511710], 0, 0, 2000]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "400010": {
         "name": "経験値UP1.5倍",
         "icon": "ability_81.png",
@@ -60977,6 +61417,20 @@
         "effects": ["Gain Triple-cast Black magic"],
         "effects_raw": [[0, 3, 52, [1,  3,  510863,  0]]],
         "requirements": [["SWITCH", 18922201]],
+        "unit_restriction": null
+    },
+    "511725": {
+        "name": "Wマジック",
+        "icon": "ability_26.png",
+        "compendium_id": 404,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Gain Dual-cast all magic"],
+        "effects_raw": [[0, 3, 52, [0,  2,  511725,  0]]],
+        "requirements": [["SWITCH", 18922401]],
         "unit_restriction": null
     },
     "600060": {
@@ -75650,6 +76104,204 @@
         ],
         "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [15,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 56, [511150]]],
         "requirements": [["SWITCH", 18922301]],
+        "unit_restriction": null
+    },
+    "800392": {
+        "name": "人間の使命",
+        "icon": "ability_72.png",
+        "compendium_id": 393,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 120% and DEF, SPR, HP and MP by 20%",
+            "Increase equipment ATK by 120% when armed with two weapons",
+            "Increase the damage of アイスブラスト (202090), エアロブラスト (202110), エリアブラスト (202070, 700510, 700520), エレキブラスト (202080), エンドレスドライブ (226682) and ヒートブラスト (202100) by (27x)",
+            "Increase the damage of 絶影 (202120, 700070, 700080) by (30x)",
+            "Replace LB with シーンドライブ (900000357):\n\tPhysical damage (42.2x, ATK) to one enemy\n\tReduce DEF by 74% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[0, 3, 1, [120,  20,  0,  20,  20,  20,  0]], [0, 3, 69, [1,  120,  0]], [0, 3, 73, [[202070,  202080,  202090,  202100,  202110,  226682,  700510,  700520], 0, 0, 2700]], [0, 3, 73, [[202120,  700070,  700080], 0, 0, 3000]], [0, 3, 72, [900000357]]],
+        "requirements": [["SWITCH", 18922402]],
+        "unit_restriction": null
+    },
+    "800394": {
+        "name": "オーディンとの絆",
+        "icon": "ability_72.png",
+        "compendium_id": 395,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 20%",
+            "Increase equipment ATK by 100% when armed with two weapons",
+            "Increase the damage of ウェーブブロウII (509512), ウェーブブロウII+ (509514), スパークブロウII (509508), スパークブロウII+ (509510), フレイムブロウII (509500), フレイムブロウII+ (509502), フロストブロウII (509504) and フロストブロウII+ (509506) by (28x)",
+            "Increase the damage of シーンドライブ (509520), 真空破 (230386) and 轟剣 (230384) by (12x)",
+            "Increase the damage of ラッシュアサルト (230387) by (2.5x)"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  0,  0,  0]], [0, 3, 69, [1,  100,  0]], [0, 3, 73, [[509500,  509502,  509504,  509506,  509508,  509510,  509512,  509514], 0, 0, 2800]], [0, 3, 73, [[230384,  230386,  509520], 0, 0, 1200]], [0, 3, 73, [230387,  0,  0,  250]]],
+        "requirements": [["SWITCH", 18922402]],
+        "unit_restriction": null
+    },
+    "800396": {
+        "name": "滅ぼす力を救う力に",
+        "icon": "ability_77.png",
+        "compendium_id": 397,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 30% and HP by 20%",
+            "Increase resistance to Silence by 100%",
+            "Increase the damage of アースクエイク (230419) and 鎧袖一触 (230418) by (26x)",
+            "Increase the damage of 天罰 (230421) by (13x)",
+            "Increase the damage of ラストリゾート (509532) by (5x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  20,  0,  0]], [0, 3, 2, [0,  0,  0,  100,  0,  0,  0,  0]], [0, 3, 73, [[230418,  230419], 0, 0, 2600]], [0, 3, 73, [230421,  0,  0,  1300]], [0, 3, 73, [509532,  0,  0,  500]]],
+        "requirements": [["SWITCH", 18922402]],
+        "unit_restriction": null
+    },
+    "800398": {
+        "name": "もう逃げない",
+        "icon": "ability_76.png",
+        "compendium_id": 399,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG, SPR, HP and MP by 20%",
+            "Increase equipment MAG by 50% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  20,  20,  20,  0]], [0, 3, 70, [50,  0,  2]]],
+        "requirements": [["SWITCH", 18922402]],
+        "unit_restriction": null
+    },
+    "800400": {
+        "name": "パルス育ちの本領",
+        "icon": "ability_80.png",
+        "compendium_id": 401,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase damage dealt by jump attacks by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 17, [50]]],
+        "requirements": [["SWITCH", 18922402]],
+        "unit_restriction": null
+    },
+    "800402": {
+        "name": "不滅のヒーロー",
+        "icon": "ability_51.png",
+        "compendium_id": 403,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and HP by 50%",
+            "Increase ATK by 50% when unarmed",
+            "Increase LB gauge by 4 per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  50,  0,  0,  50,  0,  0]], [0, 3, 19, [50]], [0, 3, 33, [400]]],
+        "requirements": [["SWITCH", 18922401]],
+        "unit_restriction": null
+    },
+    "800403": {
+        "name": "Wマジック",
+        "icon": "ability_26.png",
+        "compendium_id": 404,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Gain Dual-cast all magic"],
+        "effects_raw": [[0, 3, 52, [0,  2,  511725,  0]]],
+        "requirements": [["SWITCH", 18922401]],
+        "unit_restriction": null
+    },
+    "800404": {
+        "name": "秘められし魔力",
+        "icon": "ability_91.png",
+        "compendium_id": 405,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 50% and DEF and MP by 30%",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  50,  0,  0,  30,  0]], [0, 3, 32, [5]]],
+        "requirements": [["SWITCH", 18922401]],
+        "unit_restriction": null
+    },
+    "800406": {
+        "name": "過去と向き合う覚悟",
+        "icon": "ability_19.png",
+        "compendium_id": 407,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 40%",
+            "Increase resistance to Petrify by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  40,  0]], [0, 3, 2, [0,  0,  0,  0,  0,  0,  0,  100]]],
+        "requirements": [["SWITCH", 18922401]],
+        "unit_restriction": null
+    },
+    "800408": {
+        "name": "父ちゃんの奮闘",
+        "icon": "ability_95.png",
+        "compendium_id": 409,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and SPR by 30%",
+            "Increase ATK by 30% when equipped with a Throwing",
+            "20% chance of evading physical attacks"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  30,  0,  0,  0]], [0, 3, 6, [13,  30,  0,  0,  0,  0,  0,  0]], [0, 3, 22, [20]]],
+        "requirements": [["SWITCH", 18922401]],
+        "unit_restriction": null
+    },
+    "800410": {
+        "name": "ジョイントランスの使い手",
+        "icon": "ability_80.png",
+        "compendium_id": 411,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and HP by 20%",
+            "Increase ATK by 40% when equipped with a Spear",
+            "Increase damage dealt by jump attacks by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  20,  0,  0]], [0, 3, 6, [10,  40,  0,  0,  0,  0,  0,  0]], [0, 3, 17, [100]]],
+        "requirements": [["SWITCH", 18922401]],
         "unit_restriction": null
     }
 }

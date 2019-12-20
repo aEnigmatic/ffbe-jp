@@ -4825,6 +4825,32 @@
         "effects_raw": [[2, 2, 120, [30,  3,  1,  1]]],
         "requirements": [["SWITCH", 10610300]]
     },
+    "40250": {
+        "name": "マイティガード",
+        "icon": "ability_43.png",
+        "compendium_id": 280,
+        "rarity": 6,
+        "cost": {"MP": 45},
+        "magic_type": "Blue",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  80,  40,  50], [60]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 150% for 3 turns to all allies",
+            "Reduce damage taken by 30% to all allies for 3 turns",
+            "Grant a 5000 HP shield to all allies for 3 turns"
+        ],
+        "effects_raw": [[2, 2, 3, [0,  150,  0,  150,  3,  1,  0]], [2, 2, 101, [30,  3,  1,  1]], [2, 2, 127, [5000,  3,  1]]],
+        "requirements": [["SWITCH", 10770300]]
+    },
     "70010": {
         "name": "サンダガ",
         "icon": "ability_20.png",
