@@ -60462,6 +60462,177 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "234650": {
+        "name": "白鼠の加護",
+        "icon": "ability_95.png",
+        "compendium_id": 8574,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Fire, Ice, Lightning, Water, Wind, Earth and Light by 10%",
+            "Increase MAG and SPR by 40% when equipped with a Staff"
+        ],
+        "effects_raw": [[0, 3, 3, [10,  10,  10,  10,  10,  10,  10,  0]], [0, 3, 6, [5,  0,  0,  40,  40,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234651": {
+        "name": "来迎せし福の神",
+        "icon": "ability_9.png",
+        "compendium_id": 8575,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to all elements by 15%"],
+        "effects_raw": [[0, 3, 3, [15,  15,  15,  15,  15,  15,  15,  15]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234667": {
+        "name": "W招福",
+        "icon": "ability_8.png",
+        "compendium_id": 8564,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use おみくじ・吉祥 (234664), おみくじ・曙光 (234666), おみくじ・瑞相 (234665), エクセシブ☆ニューイヤー (234668), 八方除け (234663), 慶祝の氷花 (234677), 慶賀の祈祷 (234662), 新春運試し (511788), 暁の雪化粧 (234660), 歳神様の加護 (234669) and 開運の祈祷 (234661) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 511780, -1, [234660,  234661,  234662,  234663,  234664,  234665,  234666,  234668,  234669,  234677,  511788], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234670": {
+        "name": "迎春のご挨拶",
+        "icon": "ability_79.png",
+        "compendium_id": 8567,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 30%",
+            "Increase magic damage against Beasts by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 11, [1,  0,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234671": {
+        "name": "邪気払い",
+        "icon": "ability_95.png",
+        "compendium_id": 8568,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Paralyze and Petrify by 100%",
+            "Increase MAG and SPR by 50% when equipped with a Staff"
+        ],
+        "effects_raw": [[0, 3, 2, [0,  0,  0,  0,  100,  0,  0,  100]], [0, 3, 6, [5,  0,  0,  50,  50,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234672": {
+        "name": "初めてのご来光",
+        "icon": "ability_79.png",
+        "compendium_id": 8569,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP and MP by 30%",
+            "Increase magic damage against Beasts by 75%",
+            "Increase equipment MAG by 50% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  30,  30,  0]], [0, 3, 11, [1,  0,  75]], [0, 3, 70, [50,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234673": {
+        "name": "一富士二鷹三茄子",
+        "icon": "ability_9.png",
+        "compendium_id": 8570,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 30%",
+            "Increase resistance to all elements by 20%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 3, [20,  20,  20,  20,  20,  20,  20,  20]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234674": {
+        "name": "お年賀の返礼",
+        "icon": "ability_68.png",
+        "compendium_id": 8571,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 30%",
+            "30% chance to counter physical attacks with 八方除け (511784) to caster (max 1 / turn)",
+            "30% chance to counter magic attacks with 八方除け (511784) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  0,  0,  0]], [0, 3, 49, [30,  3,  511784,  1]], [0, 3, 50, [30,  3,  511784,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234675": {
+        "name": "最高の相棒",
+        "icon": "ability_41.png",
+        "compendium_id": 8572,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and SPR by 50% when equipped with a Robe",
+            "Gain リジェネ(覇者の闘気用) (10122) at the start of a battle or when revived",
+            "Recover MP (10%) per turn",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 6, [53,  0,  0,  50,  50,  0,  0,  0]], [0, 3, 35, [10122]], [0, 3, 32, [10]], [0, 3, 51, [1,  100,  0,  1]]],
+        "requirements": [["EQUIP", 504234650], ["EQUIP", 311005500]],
+        "unit_restriction": null
+    },
+    "234676": {
+        "name": "縁起物のご利益",
+        "icon": "ability_68.png",
+        "compendium_id": 8573,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR, HP and MP by 30%",
+            "30% chance to counter physical attacks with おみくじ・吉祥 (511786) to caster (max 1 / turn)",
+            "30% chance to counter magic attacks with おみくじ・吉祥 (511786) to caster (max 1 / turn)",
+            "Increase the damage of 新春運試し (511789, 511790, 511791) by (20.2x)",
+            "Increase the damage of 慶祝の氷花 (234677) and 暁の雪化粧 (234660) by (9x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  30,  30,  0]], [0, 3, 49, [30,  3,  511786,  1]], [0, 3, 50, [30,  3,  511786,  1]], [0, 3, 73, [[511789,  511790,  511791], 0, 0, 2020]], [0, 3, 73, [[234660,  234677], 0, 0, 900]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "400010": {
         "name": "経験値UP1.5倍",
         "icon": "ability_81.png",
