@@ -1020,6 +1020,28 @@
         "effects_raw": [[1, 2, 8, [100,  1,  1000,  -1]]],
         "requirements": null
     },
+    "10403": {
+        "name": "リジェネ(カルミア用)",
+        "icon": "ability_4.png",
+        "compendium_id": 14,
+        "rarity": 4,
+        "cost": {"MP": 3},
+        "magic_type": "White",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": ["Restore 2900 (+1.2x, Heal) HP per turn to one ally"],
+        "effects_raw": [[1, 2, 8, [120,  1,  2900,  -1]]],
+        "requirements": null
+    },
     "20010": {
         "name": "ファイア",
         "icon": "ability_21.png",

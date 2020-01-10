@@ -18443,6 +18443,37 @@
         "price_sell": 16000,
         "icon": "item_2050001.png"
     },
+    "311005600": {
+        "name": "カルミアの時空儀",
+        "compendium_id": 1667,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 5,
+        "type": "Staff",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [234681],
+        "effects": ["Grants 'アクセルリカバリー' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 34,
+            "DEF": 0,
+            "MAG": 113,
+            "SPR": 162,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 160000,
+        "price_sell": 16000,
+        "icon": "item_2050002.png"
+    },
     "312000100": {
         "name": "ショートボウ",
         "compendium_id": 79,
@@ -28686,6 +28717,108 @@
         "price_sell": 1000,
         "icon": "item_2250028.png"
     },
+    "403050100": {
+        "name": "ベレープランタン",
+        "compendium_id": 1670,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 50,
+            "ATK": 0,
+            "DEF": 16,
+            "MAG": 0,
+            "SPR": 24,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Sleep": 50,
+                "Silence": 50
+            },
+            "status_inflict": null
+        },
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "item_2210010.png"
+    },
+    "403050200": {
+        "name": "真・ベレープランタン",
+        "compendium_id": 1671,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 75,
+            "ATK": 0,
+            "DEF": 24,
+            "MAG": 0,
+            "SPR": 36,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Sleep": 75,
+                "Silence": 75
+            },
+            "status_inflict": null
+        },
+        "price_buy": 25000,
+        "price_sell": 2500,
+        "icon": "item_2210010.png"
+    },
+    "403050300": {
+        "name": "絶・ベレープランタン",
+        "compendium_id": 1672,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 100,
+            "ATK": 0,
+            "DEF": 32,
+            "MAG": 0,
+            "SPR": 48,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Sleep": 100,
+                "Silence": 100
+            },
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2210010.png"
+    },
     "404000200": {
         "name": "ブロンズヘルム",
         "compendium_id": 140,
@@ -33081,6 +33214,39 @@
         "price_sell": 5000,
         "icon": "item_2170017.png"
     },
+    "405009700": {
+        "name": "イルメア王立病院白衣",
+        "compendium_id": 1673,
+        "compendium_shown": true,
+        "rarity": 5,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 22,
+            "MAG": 0,
+            "SPR": 30,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Disease": 50
+            },
+            "status_inflict": null
+        },
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "item_2170020.png"
+    },
     "406000100": {
         "name": "レザープレート",
         "compendium_id": 159,
@@ -35914,6 +36080,40 @@
         "price_buy": 75000,
         "price_sell": 7500,
         "icon": "item_20347.png"
+    },
+    "407005200": {
+        "name": "イルメア騎士団制式鎧",
+        "compendium_id": 1668,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 52,
+        "type": "Heavy Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 26,
+            "DEF": 55,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Lightning": 20,
+                "Earth": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 150000,
+        "price_sell": 15000,
+        "icon": "item_2190001.png"
     },
     "408000100": {
         "name": "木綿のローブ",
@@ -50018,5 +50218,39 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_2250045.png"
+    },
+    "409040400": {
+        "name": "ウォルナーの医療キット",
+        "compendium_id": 1669,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100020],
+        "effects": ["Grants 'HP+20%' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 28,
+            "MAG": 0,
+            "SPR": 32,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Poison": 100,
+                "Disease": 100
+            },
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2250047.png"
     }
 }

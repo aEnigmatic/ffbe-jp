@@ -89859,12 +89859,184 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": ["No effect"],
+        "effects_raw": [[0, 3, 24, [0,  0,  0,  0,  0,  1]]]
+    },
+    "218142": {
+        "name": "ゾンビウィルス",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Inflict Zombie (100%) to one enemy"],
+        "effects_raw": [[1, 1, 144, [0,  100,  0,  0,  0,  0,  0,  0,  1]]]
+    },
+    "218143": {
+        "name": "ポイズンウォータ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic water damage (3.5x, MAG) to all enemies",
+            "Inflict Poison (100%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  350]], [2, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]]]
+    },
+    "218144": {
+        "name": "アシッドボム",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (3.5x, ATK) to all enemies",
+            "Reduce DEF by 50% for 3 turns to all enemies",
+            "Reduce resistance to Water by 100% for one turn to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  350]], [2, 1, 24, [0,  -50,  0,  0,  3,  1]], [2, 1, 33, [0,  0,  0,  -100,  0,  0,  0,  0,  1,  1]]]
+    },
+    "218145": {
+        "name": "スウィングアーム",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (5.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  550]]]
+    },
+    "218146": {
+        "name": "サクションフィスト",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Drain MP",
+        "effects": [
+            "Physical damage (3.5x, ATK) to one enemy",
+            "Physical damage (0.01x, ATK) as MP drain (1%) to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]], [1, 1, 10, [1,  1,  100]]]
+    },
+    "218147": {
+        "name": "マジックポリューション",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (4.5x, MAG) to all enemies",
+            "Inflict one random status effect (Poison, Blind, Silence and Disease 100%) to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  450]], [2, 1, 34, [100,  100,  0,  100,  0,  0,  100,  0,  1,  1]]]
+    },
+    "218148": {
+        "name": "死霊の水呪",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Lightning by 200% for one turn to caster"],
+        "effects_raw": [[0, 3, 33, [0,  0,  -200,  0,  0,  0,  0,  0,  1,  1]]]
+    },
+    "218149": {
+        "name": "死霊の風呪",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Earth by 200% for one turn to caster"],
+        "effects_raw": [[0, 3, 33, [0,  0,  0,  0,  0,  -200,  0,  0,  1,  1]]]
+    },
+    "218150": {
+        "name": "圧搾斬",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "50% HP damage to one enemy",
+            "Reduce resistance to Lightning by 200% for one turn to caster"
+        ],
+        "effects_raw": [[1, 1, 9, [50,  50,  100,  0]], [0, 3, 33, [0,  0,  -200,  0,  0,  0,  0,  0,  1,  1]]]
+    },
+    "218151": {
+        "name": "死霊の水剣",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical water damage (1.3x, ATK) to all enemies",
+            "Reduce resistance to Lightning by 200% for one turn to caster"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  130]], [0, 3, 33, [0,  0,  -200,  0,  0,  0,  0,  0,  1,  1]]]
+    },
+    "218152": {
+        "name": "死霊の大水呪",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce resistance to Water by 50% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 33, [0,  0,  0,  -50,  0,  0,  0,  0,  1,  3]]]
+    },
+    "218153": {
+        "name": "圧搾薙ぎ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "99% HP damage to all enemies",
+            "Reduce resistance to Lightning by 200% for one turn to caster"
+        ],
+        "effects_raw": [[2, 1, 9, [99,  99,  100,  0]], [0, 3, 33, [0,  0,  -200,  0,  0,  0,  0,  0,  1,  1]]]
+    },
+    "218154": {
+        "name": "荒風",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic wind damage (3.5x, MAG) to one enemy",
+            "Reduce resistance to Wind by 100% for 3 turns to one enemy",
+            "Reduce resistance to Earth by 200% for one turn to caster"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  350]], [1, 1, 33, [0,  0,  0,  0,  -100,  0,  0,  0,  1,  3]], [0, 3, 33, [0,  0,  0,  0,  0,  -200,  0,  0,  1,  1]]]
+    },
+    "218155": {
+        "name": "風鳴",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic wind damage (3.5x, MAG) to all enemies",
+            "Reduce resistance to Earth by 200% for one turn to caster"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  350]], [0, 3, 33, [0,  0,  0,  0,  0,  -200,  0,  0,  1,  1]]]
+    },
+    "218156": {
+        "name": "夜陰",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (5.5x, MAG) to all enemies",
+            "Inflict Blind and Silence (100%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  550]], [2, 1, 6, [0,  100,  0,  100,  0,  0,  0,  0,  1]]]
+    },
+    "218157": {
+        "name": "風破",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Reduce resistance to Wind by 50% for 3 turns to all enemies",
+            "Reduce SPR by 50% for 3 turns to all enemies",
+            "Reduce resistance to Earth by 200% for one turn to caster"
+        ],
+        "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  -50,  0,  0,  0,  1,  3]], [2, 1, 24, [0,  0,  0,  -50,  3,  1]], [0, 3, 33, [0,  0,  0,  0,  0,  -200,  0,  0,  1,  1]]]
+    },
+    "218158": {
+        "name": "トータルメディシン",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Restore 10% HP to caster"],
         "effects_raw": [
             [
                 0,
                 3,
-                24,
-                [0, 0, 0, 0, 0, 1]
+                26,
+                [10, 10, 100]
             ]
         ]
     }
