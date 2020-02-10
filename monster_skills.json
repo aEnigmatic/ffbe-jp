@@ -92024,18 +92024,233 @@
             "Magic damage (2x, MAG) to one enemy",
             "Inflict Blind (75%) on one enemy"
         ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  200]], [1, 1, 6, [0,  75,  0,  0,  0,  0,  0,  0,  1]]]
+    },
+    "218391": {
+        "name": "雷をまとった",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Increase ATK and MAG by 50% for one turn to caster (can not be removed)",
+            "Reduce resistance to Earth by 100% for one turn to caster"
+        ],
+        "effects_raw": [[0, 3, 3, [50,  0,  50,  0,  1,  0,  1]], [0, 3, 33, [0,  0,  0,  0,  0,  -100,  0,  0,  1,  1]]]
+    },
+    "218392": {
+        "name": "砂塵をまとった",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Increase DEF and SPR by 50% for one turn to caster (can not be removed)",
+            "Reduce resistance to Wind by 100% for one turn to caster"
+        ],
+        "effects_raw": [[0, 3, 3, [0,  50,  0,  50,  1,  0,  1]], [0, 3, 33, [0,  0,  0,  0,  -100,  0,  0,  0,  1,  1]]]
+    },
+    "218393": {
+        "name": "雷と砂塵が渦巻いている！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Increase ATK, DEF, MAG and SPR by 50% for one turn to caster (can not be removed)",
+            "Reduce resistance to Wind and Earth by 300% for one turn to caster"
+        ],
+        "effects_raw": [[0, 3, 3, [50,  50,  50,  50,  1,  0,  1]], [0, 3, 33, [0,  0,  0,  0,  -300,  -300,  0,  0,  1,  1]]]
+    },
+    "218394": {
+        "name": "雷の蔓",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical lightning damage (3.5x, ATK) to one enemy",
+            "Reduce resistance to Lightning by 50% for one turn to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]], [1, 1, 33, [0,  0,  -50,  0,  0,  0,  0,  0,  3,  1]]]
+    },
+    "218395": {
+        "name": "雷の魔花粉",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic lightning damage (4.5x, MAG) to all enemies",
+            "Reduce resistance to Lightning by 50% for one turn to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  450]], [2, 1, 33, [0,  0,  -50,  0,  0,  0,  0,  0,  3,  1]]]
+    },
+    "218396": {
+        "name": "土の魔蔓",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic earth damage (3.5x, MAG) to one enemy",
+            "Reduce resistance to Earth by 50% for one turn to one enemy"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  350]], [1, 1, 33, [0,  0,  0,  0,  0,  -50,  0,  0,  3,  1]]]
+    },
+    "218397": {
+        "name": "土の花粉",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical earth damage (4.5x, ATK) to all enemies",
+            "Reduce resistance to Earth by 50% for one turn to one enemy"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  450]], [1, 1, 33, [0,  0,  0,  0,  0,  -50,  0,  0,  3,  1]]]
+    },
+    "218398": {
+        "name": "蔓が絡みついてきた！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce DEF and SPR by 50% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 24, [0,  -50,  0,  -50,  3,  1]]]
+    },
+    "218399": {
+        "name": "養分吸い上げ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Restore 10% HP to caster"],
+        "effects_raw": [[0, 3, 26, [10,  10,  100]]]
+    },
+    "218400": {
+        "name": "細胞膜が硬化した",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase DEF and SPR by 50% for one turn to caster (can not be removed)"],
+        "effects_raw": [[0, 3, 3, [0,  50,  0,  50,  1,  1,  1]]]
+    },
+    "218401": {
+        "name": "猛攻を受けて怯んでいる！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce DEF and SPR by 50% for one turn to caster (can not be removed)"],
+        "effects_raw": [[0, 3, 3, [0,  -50,  0,  -50,  1,  1,  1]]]
+    },
+    "218402": {
+        "name": "消化酵素分泌",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (3x, ATK) to all enemies",
+            "Reduce ATK by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]], [2, 1, 24, [-50,  0,  0,  0,  3,  1,  0]]]
+    },
+    "218403": {
+        "name": "妖粘液",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (3x, MAG) to all enemies",
+            "Reduce MAG by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]], [2, 1, 24, [0,  0,  -50,  0,  3,  1,  0]]]
+    },
+    "218404": {
+        "name": "防衛本能で攻撃性が増した！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK by 50% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [50,  0,  0,  0,  3,  1]]]
+    },
+    "218405": {
+        "name": "防衛本能で魔力が増した！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase MAG by 50% for 3 turns to caster"],
+        "effects_raw": [[0, 3, 3, [0,  0,  50,  0,  3,  1]]]
+    },
+    "218406": {
+        "name": "貪食",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Percentual DMG",
+        "effects": ["150% HP damage to one enemy"],
+        "effects_raw": [[1, 1, 9, [150,  150,  100]]]
+    },
+    "218407": {
+        "name": "腐食液",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce DEF and SPR by 50% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 24, [0,  -50,  0,  -50,  3,  1]]]
+    },
+    "218408": {
+        "name": "神経毒注入",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (3.5x, ATK) to one enemy",
+            "Inflict Blind and Silence (100%) on one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  350]], [1, 1, 6, [0,  100,  0,  100,  0,  0,  0,  0,  1]]]
+    },
+    "218409": {
+        "name": "チョークスクラブル",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic wind damage (1.5x, MAG) to all enemies",
+            "Increase MAG and SPR by 30% for 3 turns to all allies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  150]], [2, 2, 3, [0,  0,  30,  30,  3,  1]]]
+    },
+    "218410": {
+        "name": "ストリクトレッスン",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (0.7x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  70]]]
+    },
+    "218411": {
+        "name": "ガードスチューデント",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Reduce physical damage taken by 10% to caster for 2 turns (can not be removed)",
+            "Reduce magic damage taken by 30% to caster for 2 turns (can not be removed)"
+        ],
+        "effects_raw": [[0, 3, 115, [10,  1,  2,  1]], [0, 3, 116, [30,  1,  2,  1]]]
+    },
+    "218412": {
+        "name": "スラムアーツ・魔力",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic wind damage (0.7x, MAG) to all enemies",
+            "Increase MAG by 30% for 3 turns to all allies"
+        ],
         "effects_raw": [
             [
-                1,
+                2,
                 1,
                 15,
-                [0, 0, 0, 0, 0, 200]
+                [0, 0, 0, 0, 0, 70]
             ],
             [
-                1,
-                1,
-                6,
-                [0, 75, 0, 0, 0, 0, 0, 0, 1]
+                2,
+                2,
+                3,
+                [0, 0, 30, 0, 3, 1]
             ]
         ]
     }

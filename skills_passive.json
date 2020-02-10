@@ -62491,6 +62491,631 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "234976": {
+        "name": "ポネの命の恩人",
+        "icon": "ability_77.png",
+        "compendium_id": 8801,
+        "rarity": 3,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK by 20%"],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234977": {
+        "name": "ルチアーノとの絆【ダリオ】",
+        "icon": "ability_77.png",
+        "compendium_id": 8802,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase DEF and HP by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  0,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234978": {
+        "name": "スラムの強者",
+        "icon": "ability_91.png",
+        "compendium_id": 8803,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 20%",
+            "Increase LB gauge by 2 per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  0,  0,  0]], [0, 3, 33, [200]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234994": {
+        "name": "Wコーチング",
+        "icon": "ability_8.png",
+        "compendium_id": 8808,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use ガードスチューデント (234996), ストリクトレッスン (234990), スラムアーツ・精神 (234993), スラムアーツ・魔力 (234992), ティーチャーエンカレッジ (234991) and マインドケア (234995) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 511970, -1, [234990,  234991,  234992,  234993,  234995,  234996], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234997": {
+        "name": "元・スラムの悪ガキ",
+        "icon": "ability_77.png",
+        "compendium_id": 8811,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase HP and MP by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234998": {
+        "name": "ルチアーノとの絆【ピエトロ】",
+        "icon": "ability_77.png",
+        "compendium_id": 8812,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 20%",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  0,  0,  0,  0]], [0, 3, 32, [5]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "234999": {
+        "name": "チョークアートの達人",
+        "icon": "ability_95.png",
+        "compendium_id": 8813,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MAG and MP by 30% when equipped with a Rod"],
+        "effects_raw": [[0, 3, 6, [6,  0,  0,  30,  0,  0,  30,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235000": {
+        "name": "家庭教師の嗜み",
+        "icon": "ability_95.png",
+        "compendium_id": 8814,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR by 30% when equipped with a Robe"],
+        "effects_raw": [[0, 3, 6, [53,  0,  0,  0,  30,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235001": {
+        "name": "生徒を守る覚悟",
+        "icon": "ability_68.png",
+        "compendium_id": 8815,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "50% chance to counter physical attacks with 生徒を守る覚悟 (511971) to caster (max 1 / turn)",
+            "50% chance to counter magic attacks with 生徒を守る覚悟 (511971) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 49, [50,  3,  511971,  1]], [0, 3, 50, [50,  3,  511971,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235022": {
+        "name": "Wアート",
+        "icon": "ability_8.png",
+        "compendium_id": 8819,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use うぇ〜い！ (511984), うぇいうぇ〜い！ (511985), まだまだ行けるっしょ！ (235024), やばいキラー絵の具生成・植物材料 (511995), やばいキラー絵の具生成・鉱物材料 (511997), インスピレーション来たー！ (235023), ガチでパステルウォール・物理 (511981), ガチでパステルウォール・魔法 (511983), キラー絵の具生成・植物材料 (511994), キラー絵の具生成・鉱物材料 (511996), グラフィティトリック (235025), ネガティブ禁止！ (235026), パステルウォール・物理 (511980), パステルウォール・魔法 (511982), パッションデルージュ (511987), パッションフラッド (511986), ブロットアウト (235021), ペイントスラップ (235013), ペイントラッシュ (235012), マジ白色のコラボ (511993), マジ緑色のコラボ (511991), マジ青色のコラボ (511989), 白色のコラボ (511992), 緑色のコラボ (511990), 虹色お絵描き (512026) and 青色のコラボ (511988) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 511998, -1, [235012,  235013,  235021,  235023,  235024,  235025,  235026,  511980,  511981,  511982,  511983,  511984,  511985,  511986,  511987,  511988,  511989,  511990,  511991,  511992,  511993,  511994,  511995,  511996,  511997,  512026], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235028": {
+        "name": "スラムの芸術家",
+        "icon": "ability_19.png",
+        "compendium_id": 8825,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and HP by 10%",
+            "Increase resistance to Silence by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  10,  0,  10,  10,  0,  0]], [0, 3, 2, [0,  0,  0,  100,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235029": {
+        "name": "魔列車の乗客【ポネ】",
+        "icon": "ability_77.png",
+        "compendium_id": 8826,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MAG and SPR by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  20,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235030": {
+        "name": "絵の具の材料の採集者",
+        "icon": "ability_79.png",
+        "compendium_id": 8827,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 30%",
+            "Increase physical damage against Stones and Plants by 50/50%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  30,  0]], [0, 3, 11, [[10,  11], [50,  50], 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235031": {
+        "name": "元・マニエリ家のお抱え芸術家",
+        "icon": "ability_77.png",
+        "compendium_id": 8828,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MAG by 20% and DEF and HP by 10%"],
+        "effects_raw": [[0, 3, 1, [0,  10,  20,  0,  10,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235032": {
+        "name": "感情を動かすアーティスト",
+        "icon": "ability_6.png",
+        "compendium_id": 8829,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Drains MP consumed (100%) by an enemy when taking magic damage",
+            "Increase resistance to Paralyze by 100%"
+        ],
+        "effects_raw": [[0, 3, 30, [100]], [0, 3, 2, [0,  0,  0,  0,  100,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235033": {
+        "name": "ルチアーノへの想い",
+        "icon": "ability_91.png",
+        "compendium_id": 8830,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 30% and SPR by 20%",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  0,  30,  0]], [0, 3, 32, [5]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235034": {
+        "name": "永遠のコラボ【ポネ】",
+        "icon": "ability_72.png",
+        "compendium_id": 8831,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and SPR by 40%",
+            "Increase equipment SPR by 25% when armed with two weapons",
+            "Increase the limit burst gauge fill rate by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  40,  40,  0,  0,  0]], [0, 3, 69, [4,  25,  0]], [0, 3, 31, [50]]],
+        "requirements": [["EQUIP", 504235080], ["EQUIP", 311005700]],
+        "unit_restriction": null
+    },
+    "235035": {
+        "name": "ダリオとの絆【ポネ】",
+        "icon": "ability_79.png",
+        "compendium_id": 8832,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and MP by 20%",
+            "Increase physical damage against Stones and Plants by 25/25%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  0,  20,  0]], [0, 3, 11, [[10,  11], [25,  25], 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235036": {
+        "name": "世界を変える夢【ポネ】",
+        "icon": "ability_77.png",
+        "compendium_id": 8833,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 50% and DEF by 30%",
+            "Increase Stop resistance by 100% to caster",
+            "Increase the damage of ペイント skills  [スラップ (235013) / ラッシュ (235012)] by (16x)",
+            "Use 世界を変える夢【ポネ】 (512003) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  50,  0,  0,  0]], [0, 3, 55, [0,  0,  0,  0,  100,  0]], [0, 3, 73, [[235012,  235013], 0, 0, 1600]], [0, 3, 56, [512003]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235058": {
+        "name": "Wペインティング",
+        "icon": "ability_8.png",
+        "compendium_id": 8842,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use 『光は生まれ、そして』 (235061), 『氷の檻、あるいは自由』 (235059), 『風、風また風』 (235060), アイスレアリスム (235050), アームコントラスト (235053), ウィンドレアリスム (235051), コールドインスパイア (235055), シールドコントラスト (235054), ストームインスパイア (235056), ブライトインスパイア (235057), ライトレアリスム (235052) and 虹色お絵描き (512026) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 512010, -1, [235050,  235051,  235052,  235053,  235054,  235055,  235056,  235057,  235059,  235060,  235061,  512026], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235062": {
+        "name": "アートエクスプロージョン",
+        "icon": "ability_8.png",
+        "compendium_id": 8846,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use 『光は生まれ、そして』 (235061), 『氷の檻、あるいは自由』 (235059), 『風、風また風』 (235060), アイスレアリスム (235050), アームコントラスト (235053), ウィンドレアリスム (235051), コールドインスパイア (235055), シールドコントラスト (235054), ストームインスパイア (235056), ブライトインスパイア (235057), ライトレアリスム (235052) and 虹色お絵描き (512026) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 512020, -1, [235050,  235051,  235052,  235053,  235054,  235055,  235056,  235057,  235059,  235060,  235061,  512026], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235063": {
+        "name": "マニエリ家の次期当主",
+        "icon": "ability_77.png",
+        "compendium_id": 8847,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MAG and MP by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  0,  0,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235064": {
+        "name": "病を乗り越えた心",
+        "icon": "ability_77.png",
+        "compendium_id": 8848,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase DEF and SPR by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235065": {
+        "name": "スラム通いの思い出",
+        "icon": "ability_77.png",
+        "compendium_id": 8849,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, MAG and SPR by 20%",
+            "Increase the damage of アイスレアリスム (235050), ウィンドレアリスム (235051) and ライトレアリスム (235052) by (10x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  20,  20,  0,  0,  0]], [0, 3, 73, [[235050,  235051,  235052], 0, 0, 1000]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235066": {
+        "name": "ダリオとの絆【ルチアーノ】",
+        "icon": "ability_77.png",
+        "compendium_id": 8850,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MAG by 40% and HP by 10%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  40,  0,  10,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235067": {
+        "name": "ポネへの想い",
+        "icon": "ability_77.png",
+        "compendium_id": 8851,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MAG and MP by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  0,  0,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235068": {
+        "name": "本当に描きたいもの",
+        "icon": "ability_76.png",
+        "compendium_id": 8852,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Recover MP (5%) per turn",
+            "Increase the damage of コールドインスパイア (235055), ストームインスパイア (235056) and ブライトインスパイア (235057) by (14x)",
+            "Increase equipment MAG by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase equipment MAG by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 32, [5]], [0, 3, 73, [[235055,  235056,  235057], 0, 0, 1400]], [0, 3, 70, [50,  25,  2]], [0, 3, 69, [3,  50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235069": {
+        "name": "永遠のコラボ【ルチアーノ】",
+        "icon": "ability_76.png",
+        "compendium_id": 8853,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 50%",
+            "Increase equipment MAG by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase equipment MAG by 25% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  50,  0,  0,  0,  0]], [0, 3, 70, [50,  25,  2]], [0, 3, 69, [3,  25,  0]]],
+        "requirements": [["EQUIP", 504235082], ["EQUIP", 310008400]],
+        "unit_restriction": null
+    },
+    "235070": {
+        "name": "世界を変える夢【ルチアーノ】",
+        "icon": "ability_84.png",
+        "compendium_id": 8854,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR, HP and MP by 20%",
+            "Reduce chance of being targeted by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  20,  20,  0]], [0, 3, 25, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235071": {
+        "name": "壁画に残した想い",
+        "icon": "ability_76.png",
+        "compendium_id": 8855,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 30% and MP by 20%",
+            "Increase equipment MAG by 150% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase equipment MAG by 25% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  20,  0]], [0, 3, 70, [150,  25,  2]], [0, 3, 69, [3,  25,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235080": {
+        "name": "ハッピー最強！",
+        "icon": "ability_95.png",
+        "compendium_id": 8856,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 40%",
+            "Increase LB gauge by 2 per turn",
+            "Increase SPR by 30% and HP by 20% when equipped with a Staff"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  40,  0,  0,  0]], [0, 3, 33, [200]], [0, 3, 6, [5,  0,  0,  0,  30,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235081": {
+        "name": "ハピネスドローイング",
+        "icon": "ability_9.png",
+        "compendium_id": 8857,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Use ハピネスドローイング (512021) at the start of a battle or when revived"],
+        "effects_raw": [[0, 3, 56, [512021]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235082": {
+        "name": "天賦の画才",
+        "icon": "ability_95.png",
+        "compendium_id": 8858,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 30%",
+            "Increase LB gauge by 2 per turn",
+            "Increase MAG by 30% and HP by 20% when equipped with a Rod"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 33, [200]], [0, 3, 6, [6,  0,  0,  30,  0,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235083": {
+        "name": "トリコロールコンポジション",
+        "icon": "ability_9.png",
+        "compendium_id": 8859,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Use トリコロールコンポジション (512022) at the start of a battle or when revived"],
+        "effects_raw": [[0, 3, 56, [512022]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235084": {
+        "name": "湧き上がるインスピレーション",
+        "icon": "ability_95.png",
+        "compendium_id": 8860,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 40%",
+            "Increase MAG and MP by 20% when equipped with a Rod"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  40,  0,  0,  0,  0]], [0, 3, 6, [6,  0,  0,  20,  0,  0,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235085": {
+        "name": "虹色の絵の具",
+        "icon": "ability_68.png",
+        "compendium_id": 8861,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "80% chance to counter physical attacks with 一人でお絵描き (512023) to caster (max 1 / turn)",
+            "80% chance to counter magic attacks with 一人でお絵描き (512023) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 49, [80,  3,  512023,  1]], [0, 3, 50, [80,  3,  512023,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235086": {
+        "name": "真・虹色の絵の具",
+        "icon": "ability_68.png",
+        "compendium_id": 8862,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "80% chance to counter physical attacks with 二人でお絵描き (512024) to caster (max 1 / turn)",
+            "80% chance to counter magic attacks with 二人でお絵描き (512024) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 49, [80,  3,  512024,  1]], [0, 3, 50, [80,  3,  512024,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235087": {
+        "name": "絶・虹色の絵の具",
+        "icon": "ability_68.png",
+        "compendium_id": 8863,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "80% chance to counter physical attacks with みんなでお絵描き (512025) to caster (max 1 / turn)",
+            "80% chance to counter magic attacks with みんなでお絵描き (512025) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 49, [80,  3,  512025,  1]], [0, 3, 50, [80,  3,  512025,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235088": {
+        "name": "アーティストヘドレ",
+        "icon": "ability_71.png",
+        "compendium_id": 8864,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and SPR by 10%",
+            "Recover MP (3%) per turn",
+            "During explorations, reduce chance of encounters by 25%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  10,  10,  0,  0,  0]], [0, 3, 32, [3]], [0, 3, 43, [-25]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "400010": {
         "name": "経験値UP1.5倍",
         "icon": "ability_81.png",
@@ -75630,10 +76255,10 @@
             "Increase equipment ATK by 50% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
             "Increase equipment ATK by 50% when armed with two weapons",
-            "Increase the damage of 暗黒剣・ skills  [正宗 (228575) / 菊一文字 (228574) / 虎徹 (228573, 708377, 708378) / 闇砕 (228570) / 阿修羅 (228572, 708375, 708376) / 魔の冥撃 (228576, 708379, 708380)] by (3x)",
-            "Increase the damage of 暗黒剣・天の叢雲 (508630) by (47x)"
+            "Increase the damage of 暗黒剣・ skills  [正宗 (228575) / 菊一文字 (228574) / 虎徹 (228573, 708377, 708378) / 闇砕 (228570) / 阿修羅 (228572, 708375, 708376) / 魔の冥撃 (228576, 708379, 708380)] by (4.5x)",
+            "Increase the damage of 暗黒剣・天の叢雲 (508630) by (48.5x)"
         ],
-        "effects_raw": [[0, 3, 13, [50,  25,  2]], [0, 3, 69, [1,  50,  0]], [0, 3, 73, [[228570,  228572,  228573,  228574,  228575,  708375,  708376,  708377,  708378,  228576,  708379,  708380], 0, 0, 300]], [0, 3, 73, [508630,  0,  0,  4700]]],
+        "effects_raw": [[0, 3, 13, [50,  25,  2]], [0, 3, 69, [1,  50,  0]], [0, 3, 73, [[228570,  228572,  228573,  228574,  228575,  708375,  708376,  708377,  708378,  228576,  708379,  708380], 0, 0, 450]], [0, 3, 73, [508630,  0,  0,  4850]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -75650,11 +76275,11 @@
             "Increase equipment ATK by 50% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
             "Increase equipment ATK by 50% when armed with two weapons",
-            "Increase the damage of 暗黒剣・ skills  [正宗 (228575) / 菊一文字 (228574) / 虎徹 (228573, 708377, 708378) / 闇砕 (228570) / 阿修羅 (228572, 708375, 708376) / 魔の冥撃 (228576, 708379, 708380)] by (3x)",
-            "Increase the damage of 暗黒剣・天の叢雲 (508630) by (47x)",
+            "Increase the damage of 暗黒剣・ skills  [正宗 (228575) / 菊一文字 (228574) / 虎徹 (228573, 708377, 708378) / 闇砕 (228570) / 阿修羅 (228572, 708375, 708376) / 魔の冥撃 (228576, 708379, 708380)] by (4.5x)",
+            "Increase the damage of 暗黒剣・天の叢雲 (508630) by (48.5x)",
             "Replace LB with 魔滅刃 (900000362):\n\tNo effect\n\tIncrease physical damage against Aquatics and Demons by 200% to caster for one turn\n\tPhysical damage (23.2x * 2 = 46.4x, ATK) to one enemy (ignore cover)"
         ],
-        "effects_raw": [[0, 3, 13, [50,  25,  2]], [0, 3, 69, [1,  50,  0]], [0, 3, 73, [[228570,  228572,  228573,  228574,  228575,  708375,  708376,  708377,  708378,  228576,  708379,  708380], 0, 0, 300]], [0, 3, 73, [508630,  0,  0,  4700]], [0, 3, 72, [900000362]]],
+        "effects_raw": [[0, 3, 13, [50,  25,  2]], [0, 3, 69, [1,  50,  0]], [0, 3, 73, [[228570,  228572,  228573,  228574,  228575,  708375,  708376,  708377,  708378,  228576,  708379,  708380], 0, 0, 450]], [0, 3, 73, [508630,  0,  0,  4850]], [0, 3, 72, [900000362]]],
         "requirements": null,
         "unit_restriction": null
     },
