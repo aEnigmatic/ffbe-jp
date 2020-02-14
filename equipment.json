@@ -10198,6 +10198,40 @@
         "price_sell": 36000,
         "icon": "item_10827.png"
     },
+    "305002800": {
+        "name": "情熱のブーケ",
+        "compendium_id": 1703,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 8,
+        "type": "Axe",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100140, 100171],
+        "effects": [
+            "Grants '防御+20%' passive.",
+            "Grants '精神+20%' passive."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 2,
+            "DEF": 14,
+            "MAG": 20,
+            "SPR": 20,
+            "element_resist": null,
+            "element_inflict": ["Fire"],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 36000,
+        "price_sell": 3600,
+        "icon": "item_2080000.png"
+    },
     "306000100": {
         "name": "木づち",
         "compendium_id": 36,
@@ -17132,6 +17166,37 @@
         "price_buy": 140000,
         "price_sell": 14000,
         "icon": "item_2060018.png"
+    },
+    "310008500": {
+        "name": "真・断撃のグリモア",
+        "compendium_id": 1705,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 6,
+        "type": "Rod",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 130,
+            "DEF": 15,
+            "MAG": 130,
+            "SPR": 15,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 70000,
+        "price_sell": 7000,
+        "icon": "item_2060019.png"
     },
     "311000200": {
         "name": "サクラの杖",
@@ -26033,6 +26098,40 @@
         "price_sell": 15000,
         "icon": "item_2240002.png"
     },
+    "402004800": {
+        "name": "ラブリーミラーベア",
+        "compendium_id": 1701,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 31,
+        "type": "Heavy Shield",
+        "slot_id": 2,
+        "slot": "Shield",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [235123],
+        "effects": ["Grants '最も美しい存在の写し身' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 85,
+            "MAG": 0,
+            "SPR": 85,
+            "element_resist": {
+                "Fire": 40,
+                "Earth": 40
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_2240003.png"
+    },
     "403000100": {
         "name": "皮の帽子",
         "compendium_id": 124,
@@ -29209,6 +29308,37 @@
         "price_buy": 10000,
         "price_sell": 1000,
         "icon": "item_2210009.png"
+    },
+    "403050500": {
+        "name": "デシの帽子",
+        "compendium_id": 1704,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [235121],
+        "effects": ["Grants 'デシの帽子' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 25,
+            "DEF": 25,
+            "MAG": 25,
+            "SPR": 25,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2210011.png"
     },
     "404000200": {
         "name": "ブロンズヘルム",
@@ -51141,5 +51271,36 @@
         "price_buy": 10000,
         "price_sell": 1000,
         "icon": "item_2250052.png"
+    },
+    "409041400": {
+        "name": "ファンシーバルーン",
+        "compendium_id": 1702,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [235125],
+        "effects": ["Grants '杖マスターなのじゃ' passive."],
+        "stats": {
+            "HP": 214,
+            "MP": 51,
+            "ATK": 21,
+            "DEF": 21,
+            "MAG": 21,
+            "SPR": 44,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2250053.png"
     }
 }
