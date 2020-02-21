@@ -7705,6 +7705,37 @@
         "price_sell": 30000,
         "icon": "item_2030007.png"
     },
+    "303008100": {
+        "name": "常闇",
+        "compendium_id": 1711,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [235188],
+        "effects": ["Grants '破竜の闘気' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 186,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_2030008.png"
+    },
     "304000100": {
         "name": "虎鉄",
         "compendium_id": 21,
@@ -10828,6 +10859,41 @@
         "price_buy": 85000,
         "price_sell": 8500,
         "icon": "item_10923.png"
+    },
+    "306002800": {
+        "name": "癒神のハンマー",
+        "compendium_id": 1708,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 9,
+        "type": "Hammer",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [235185, 600510, 600520],
+        "effects": [
+            "Grants '幸福の御手' passive.",
+            "Grants '止まらずの守り' ability.",
+            "Grants 'みとれずの守り' ability."
+        ],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 154,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 41,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 340000,
+        "price_sell": 34000,
+        "icon": "item_2090000.png"
     },
     "307000200": {
         "name": "ブロンズメイス",
@@ -21403,6 +21469,37 @@
         "price_sell": 12000,
         "icon": "item_2100006.png"
     },
+    "313006800": {
+        "name": "炎式エナジーバヨネット",
+        "compendium_id": 1707,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 14,
+        "type": "Gun",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.35, 1.65],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [235183],
+        "effects": ["Grants '鳳炎発火' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 172,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 240000,
+        "price_sell": 24000,
+        "icon": "item_2140005.png"
+    },
     "314000200": {
         "name": "レザーウィップ",
         "compendium_id": 92,
@@ -22118,6 +22215,37 @@
         "price_buy": 180000,
         "price_sell": 18000,
         "icon": "item_2120001.png"
+    },
+    "314002600": {
+        "name": "ダーク・エンプレスビュート",
+        "compendium_id": 1706,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 12,
+        "type": "Whip",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [235181],
+        "effects": ["Grants '闇竜王の力宿りし鞭' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 68,
+            "DEF": 0,
+            "MAG": 180,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": ["Dark"],
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 180000,
+        "price_sell": 18000,
+        "icon": "item_2120003.png"
     },
     "315000100": {
         "name": "ブーメラン",
@@ -29339,6 +29467,37 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_2210011.png"
+    },
+    "403050600": {
+        "name": "イモータルハット",
+        "compendium_id": 1710,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [235189],
+        "effects": ["Grants 'イモータルハット' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 22,
+            "MAG": 35,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 25000,
+        "price_sell": 2500,
+        "icon": "item_2210012.png"
     },
     "404000200": {
         "name": "ブロンズヘルム",
@@ -51302,5 +51461,42 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2250053.png"
+    },
+    "409041500": {
+        "name": "ブラックアイ",
+        "compendium_id": 1709,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 35,
+            "DEF": 0,
+            "MAG": 35,
+            "SPR": 0,
+            "element_resist": {
+                "Dark": 30
+            },
+            "element_inflict": null,
+            "status_resist": {
+                "Paralyze": 75,
+                "Confusion": 75,
+                "Petrify": 75
+            },
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250054.png"
     }
 }
