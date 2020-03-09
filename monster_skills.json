@@ -45556,7 +45556,7 @@
         "execute_type": "Default",
         "effects": [
             "Magic damage (2.5x, MAG) to one enemy",
-            "Magic damage (0.1x, MAG) per turn to one enemy for 3 turns"
+            "Magic damage 1000 (+0.1x, MAG) per turn to one enemy for 3 turns"
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  250,  0]], [1, 1, 139, [3,  10,  1000,  1,  3,  1,  0]]]
     },
@@ -64157,7 +64157,7 @@
         "effects": [
             "Reduce resistance to Light by 120% for 3 turns to all enemies",
             "Magic light damage (12x, MAG) to all enemies",
-            "Magic light damage 0 per turn to all enemies for 3 turns"
+            "Magic light damage 550 per turn to all enemies for 3 turns"
         ],
         "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  0,  0,  -120,  0,  1,  3]], [2, 1, 15, [0,  0,  0,  0,  0,  1200]], [2, 1, 139, [3,  0,  550,  0,  3,  1,  5]]]
     },
@@ -64200,7 +64200,7 @@
         "effects": [
             "Reduce resistance to Light by 100% for 3 turns to all enemies",
             "Magic light damage (14.5x, MAG) to all enemies",
-            "Magic light damage 0 per turn to all enemies for 3 turns"
+            "Magic light damage 550 per turn to all enemies for 3 turns"
         ],
         "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  0,  0,  -100,  0,  1,  3]], [2, 1, 15, [0,  0,  0,  0,  0,  1450]], [2, 1, 139, [3,  0,  550,  0,  3,  1,  5]]]
     },
@@ -69129,7 +69129,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Magic* damage 0 per turn to all enemies for 3 turns"],
+        "effects": ["Magic* damage 1100 per turn to all enemies for 3 turns"],
         "effects_raw": [[2, 1, 139, [3,  0,  1100,  0,  3,  1,  5]]]
     },
     "215731": {
