@@ -42349,8 +42349,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use アクセプトオーダー (231773), アタックサービング (231774), サプライカトラリー (231776), スウィープアウト・悪魔 (231782), スウィープアウト・死霊 (231783), ダスタークリーン (231770), ハートフルスマイル・HP (231771), ハートフルスマイル・MP (231772), バッシングディッシュ・HP (231778), バッシングディッシュ・MP (231777), フローズンデザート (231784), マジックサービング (231775), 本日のオススメ (231780) and 開店の大号令 (231781) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 510230, -1, [231770,  231771,  231772,  231773,  231774,  231775,  231776,  231777,  231778,  231780,  231781,  231782,  231783,  231784], 1, 0]]],
+        "effects": ["Enable unit to use アクセプトオーダー (231773), アタックサービング (231774), サプライカトラリー (231776), スウィープアウト・悪魔 (231782, 708437, 708438), スウィープアウト・死霊 (231783, 708439, 708440), ダスタークリーン (231770), ハートフルスマイル・HP (231771, 708441, 708442), ハートフルスマイル・MP (231772, 708443, 708444), バッシングディッシュ・HP (231778), バッシングディッシュ・MP (231777), フローズンデザート (231784), マジックサービング (231775), 本日のオススメ (231780) and 開店の大号令 (231781, 708435, 708436) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 510230, -1, [231770,  231771,  231772,  231773,  231774,  231775,  231776,  231777,  231778,  231780,  231781,  231782,  231783,  231784,  708435,  708436,  708437,  708438,  708439,  708440,  708441,  708442,  708443,  708444], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -44955,8 +44955,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use TYPE001：バトルモード (232240), エリミネーション (232231), エレクトロチャージ (232235), カレントナックル (232236), グローブレイカー (232232), ショックリジェクト (232233), ライトニングフィスト (232238), リクイデート (232239) and 報復システム起動 (232230) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 510480, -1, [232230,  232231,  232232,  232233,  232235,  232236,  232238,  232239,  232240], 1, 0]]],
+        "effects": ["Enable unit to use TYPE001：バトルモード (232240, 708447, 708448), エリミネーション (232231), エレクトロチャージ (232235), カレントナックル (232236, 708451, 708452), グローブレイカー (232232), ショックリジェクト (232233), ライトニングフィスト (232238), リクイデート (232239, 708449, 708450) and 報復システム起動 (232230) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 510480, -1, [232230,  232231,  232232,  232233,  232235,  232236,  232238,  232239,  232240,  708447,  708448,  708449,  708450,  708451,  708452], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -65557,6 +65557,480 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "235430": {
+        "name": "王女への忠誠心",
+        "icon": "ability_41.png",
+        "compendium_id": 9133,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40%",
+            "20% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)",
+            "Increase ATK by 20% when equipped with a Great Sword"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 51, [1,  20,  0,  1]], [0, 3, 6, [3,  20,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235431": {
+        "name": "バトルトランスフォーム",
+        "icon": "ability_79.png",
+        "compendium_id": 9134,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase physical damage against Aquatics and Humans by 50/50%",
+            "Recover MP (7%) per turn"
+        ],
+        "effects_raw": [[0, 3, 11, [[3,  5], [50,  50], 0]], [0, 3, 32, [7]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235432": {
+        "name": "アメイジングですわ",
+        "icon": "ability_77.png",
+        "compendium_id": 9135,
+        "rarity": 8,
+        "unique": true,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50%",
+            "10% chance of evading physical attacks"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 22, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235433": {
+        "name": "エクセレントバトラー",
+        "icon": "ability_77.png",
+        "compendium_id": 9136,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40%",
+            "Use エクセレントバトラー (512230) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 56, [512230]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235434": {
+        "name": "王女の望み",
+        "icon": "ability_91.png",
+        "compendium_id": 9156,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase LB gauge by 1 per turn"],
+        "effects_raw": [[0, 3, 33, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235435": {
+        "name": "王女の願い",
+        "icon": "ability_91.png",
+        "compendium_id": 9157,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase LB gauge by 2 per turn"],
+        "effects_raw": [[0, 3, 33, [200]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235436": {
+        "name": "王女の祈り",
+        "icon": "ability_91.png",
+        "compendium_id": 9158,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase LB gauge by 3 per turn",
+            "Increase the limit burst gauge fill rate by 50%"
+        ],
+        "effects_raw": [[0, 3, 33, [300]], [0, 3, 31, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235437": {
+        "name": "アクアンクラッシュ",
+        "icon": "ability_79.png",
+        "compendium_id": 9159,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and HP by 20%",
+            "Increase physical damage against Aquatics by 25%"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  20,  0,  0]], [0, 3, 11, [3,  25,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235448": {
+        "name": "W影武者剣",
+        "icon": "ability_8.png",
+        "compendium_id": 9145,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use アウル流護衛剣 (235444), アウル流護衛剣【強】 (235446), アウル流護衛剣【激】 (235447), アウル流護衛剣【静】 (235445), 乱咲の烈剣 (235449), 力の制御 (235443), 大輪の剣舞 (235440), 散華の風剣 (512240), 散華の風剣・改 (512241), 極咲の烈剣 (235451), 水蓮の波剣 (512242), 水蓮の波剣・改 (512243), 美咲の烈剣 (235450), 見切りの型 (512251), 見切りの型・改 (512253), 護身の型 (512252) and 護身の型・改 (512254) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 512245, -1, [235440,  235443,  235444,  235445,  235446,  235447,  235449,  235450,  235451,  512240,  512241,  512242,  512243,  512251,  512252,  512253,  512254], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235452": {
+        "name": "備えあれば憂いなし",
+        "icon": "ability_76.png",
+        "compendium_id": 9149,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Paralyze, Confusion and Petrify by 100%",
+            "Recover MP (5%) per turn",
+            "Increase equipment ATK by 25% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 2, [0,  0,  0,  0,  100,  100,  0,  100]], [0, 3, 32, [5]], [0, 3, 13, [25,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235453": {
+        "name": "アウルの教え",
+        "icon": "ability_95.png",
+        "compendium_id": 9150,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF and HP by 30%",
+            "Increase ATK by 40% when equipped with a Great Sword"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  30,  0,  0,  30,  0,  0]], [0, 3, 6, [3,  40,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235454": {
+        "name": "スワンとの絆",
+        "icon": "ability_9.png",
+        "compendium_id": 9151,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30%",
+            "Increase resistance to Water and Wind by 50%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 3, [0,  0,  0,  50,  50,  0,  0,  0]], [0, 3, 13, [50,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235455": {
+        "name": "魔列車の乗客【ネリネ】",
+        "icon": "ability_79.png",
+        "compendium_id": 9152,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase physical damage against Aquatics and Humans by 75/75%"],
+        "effects_raw": [[0, 3, 11, [[3,  5], [75,  75], 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235456": {
+        "name": "国を憂う心【ネリネ】",
+        "icon": "ability_76.png",
+        "compendium_id": 9153,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MP by 30%",
+            "Increase equipment ATK by 75% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  30,  0]], [0, 3, 13, [75,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235457": {
+        "name": "王女の影武者",
+        "icon": "ability_77.png",
+        "compendium_id": 9154,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and DEF by 40%",
+            "Replace LB with ブルーミングスラッシュ (900000369):\n\tPhysical damage (62.1x, ATK) to all enemies\n\tIncrease damage of アウル流護衛剣 (235444), アウル流護衛剣【強】 (235446), アウル流護衛剣【激】 (235447), アウル流護衛剣【静】 (235445), 乱咲の烈剣 (512246), 散華の風剣 (512240), 散華の風剣・改 (512241), 極咲の烈剣 (512248), 水蓮の波剣 (512242) and 水蓮の波剣・改 (512243) by 300% for 6 turns\n\tGain 見切りの型・改 (512253) and 護身の型・改 (512254) for one turn",
+            "Use 王女の影武者 (512250) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  40,  0,  0,  0,  0,  0]], [0, 3, 72, [900000369]], [0, 3, 56, [512250]]],
+        "requirements": [["EQUIP", 504235430], ["EQUIP", 303008200]],
+        "unit_restriction": null
+    },
+    "235458": {
+        "name": "コラールへの恋心【ネリネ】",
+        "icon": "ability_76.png",
+        "compendium_id": 9155,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and HP by 30%",
+            "Recover MP (5%) per turn",
+            "Increase equipment ATK by 100% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase LB damage by 50%",
+            "Use コラールへの恋心【ネリネ】 (512255) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  30,  0,  0]], [0, 3, 32, [5]], [0, 3, 13, [100,  25,  2]], [0, 3, 68, [50]], [0, 3, 56, [512255]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235466": {
+        "name": "Wバトラー",
+        "icon": "ability_8.png",
+        "compendium_id": 9166,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use ソウルマネジメント (235465), バトラーサーブ【火】 (235461), バトラーサーブ【風】 (235462), パーフェクトブロウ (235463), フェイタルスラッシュ (235460), マーベラスガード (235471), ラブルマネジメント (235464), 梟の知恵 (235468), 梟翼の一撃 (235467), 焔刀乱閃 (235469) and 風刀乱閃 (235470) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 512266, -1, [235460,  235461,  235462,  235463,  235464,  235465,  235467,  235468,  235469,  235470,  235471], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235472": {
+        "name": "幅広い教養",
+        "icon": "ability_19.png",
+        "compendium_id": 9172,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and DEF by 30%",
+            "Increase resistance to Paralyze and Confusion by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  30,  0,  0,  0,  0,  0]], [0, 3, 2, [0,  0,  0,  0,  100,  100,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235473": {
+        "name": "王女の老執事",
+        "icon": "ability_72.png",
+        "compendium_id": 9173,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase equipment ATK by 50% when armed with two weapons"],
+        "effects_raw": [[0, 3, 69, [1,  50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235474": {
+        "name": "執事としての心得",
+        "icon": "ability_95.png",
+        "compendium_id": 9174,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and HP by 30%",
+            "Increase ATK by 40% when equipped with a Katana"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  30,  0,  0]], [0, 3, 6, [4,  40,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235475": {
+        "name": "自由を求めし者",
+        "icon": "ability_78.png",
+        "compendium_id": 9175,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF and MP by 20%",
+            "Increase the limit burst gauge fill rate by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  20,  0,  0,  0,  20,  0]], [0, 3, 31, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235476": {
+        "name": "国の変革を望む者",
+        "icon": "ability_91.png",
+        "compendium_id": 9176,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP and MP by 30%",
+            "Gain リジェネ(覇者の闘気用) (10122) at the start of a battle or when revived",
+            "Recover MP (10%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  30,  30,  0]], [0, 3, 35, [10122]], [0, 3, 32, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235477": {
+        "name": "ネリネの導き手",
+        "icon": "ability_72.png",
+        "compendium_id": 9177,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "30% chance of evading physical attacks",
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "Use ネリネの導き手 (512271) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 22, [30]], [0, 3, 69, [1,  50,  0]], [0, 3, 56, [512271]]],
+        "requirements": [["EQUIP", 504235432], ["EQUIP", 304005900]],
+        "unit_restriction": null
+    },
+    "235478": {
+        "name": "影武者の選定者",
+        "icon": "ability_77.png",
+        "compendium_id": 9178,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50%",
+            "Increase the damage of バトラーサーブ【 skills  [火】 (235461) / 風】 (235462)] by (7x)",
+            "Increase the damage of ソウルマネジメント (235465) and ラブルマネジメント (235464) by (10x)"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 73, [[235461,  235462], 0, 0, 700]], [0, 3, 73, [[235464,  235465], 0, 0, 1000]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235487": {
+        "name": "クルーレ王国の王女",
+        "icon": "ability_77.png",
+        "compendium_id": 9186,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase HP and MP by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235488": {
+        "name": "ふたりでひとつ",
+        "icon": "ability_77.png",
+        "compendium_id": 9187,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MP by 20% and DEF and SPR by 10%"],
+        "effects_raw": [[0, 3, 1, [0,  10,  0,  10,  0,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235489": {
+        "name": "ネリネとの絆",
+        "icon": "ability_9.png",
+        "compendium_id": 9188,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to Water and Wind by 10%"],
+        "effects_raw": [[0, 3, 3, [0,  0,  0,  10,  10,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235490": {
+        "name": "国を憂う心【スワン】",
+        "icon": "ability_77.png",
+        "compendium_id": 9189,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR by 30% and HP and MP by 10%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  10,  10,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235491": {
+        "name": "コラールへの恋心【スワン】",
+        "icon": "ability_9.png",
+        "compendium_id": 9190,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to Water and Light by 10%"],
+        "effects_raw": [[0, 3, 3, [0,  0,  0,  10,  0,  0,  10,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "400010": {
         "name": "経験値UP1.5倍",
         "icon": "ability_81.png",
@@ -78914,6 +79388,117 @@
             "Replace LB with 完全アルテマ (900000366):\n\tMagic damage (25.1x * 2 = 50.2x, MAG) to all enemies (ignore reflect)\n\tReduce SPR by 70% for 3 turns to all enemies\n\tGain 4 uses of アルマゲスト (229124, 708429, 708430), グランドクロス (229129, 708425, 708426), ダークホーリー (229121), デスペジャ (229130), ナノフレア (229122), ハリケーン (229123, 708431, 708432), ミュート (229127), リタンジャ (229128) and 究極魔法・アルテマ (229125, 708427, 708428) for 3 turns"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  50,  30,  0,  20,  0]], [0, 3, 69, [3,  90]], [0, 3, 72, [900000366]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708445": {
+        "name": "お客様の笑顔を守る騎士",
+        "icon": "ability_77.png",
+        "compendium_id": 6369,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR, HP and MP by 20%",
+            "Increase the limit burst gauge fill rate by 50%",
+            "40% chance to counter physical attacks with お客様の笑顔を守る騎士 (512222) to caster (max 1 / turn)",
+            "40% chance to counter magic attacks with お客様の笑顔を守る騎士 (512222) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  20,  20,  0]], [0, 3, 31, [50]], [0, 3, 49, [40,  3,  512222,  1]], [0, 3, 50, [40,  3,  512222,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708446": {
+        "name": "お客様の笑顔を守る騎士",
+        "icon": "ability_77.png",
+        "compendium_id": 6369,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR, HP and MP by 20%",
+            "Increase the limit burst gauge fill rate by 50%",
+            "40% chance to counter physical attacks with お客様の笑顔を守る騎士 (512222) to caster (max 1 / turn)",
+            "40% chance to counter magic attacks with お客様の笑顔を守る騎士 (512222) to caster (max 1 / turn)",
+            "Replace LB with ナイト・ホスピタリティ (900000367):\n\tRemove ATK, DEF, MAG and SPR debuff from all allies\n\tIncrease ATK, DEF, MAG and SPR by 201% for 3 turns to all allies\n\tGrant a 4000 HP shield to all allies for 3 turns"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  20,  20,  0]], [0, 3, 31, [50]], [0, 3, 49, [40,  3,  512222,  1]], [0, 3, 50, [40,  3,  512222,  1]], [0, 3, 72, [900000367]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708453": {
+        "name": "人型機械に芽生えた心",
+        "icon": "ability_97.png",
+        "compendium_id": 6692,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and HP by 30%",
+            "Use 人型機械に芽生えた心 (512227) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  30,  0,  0]], [0, 3, 56, [512227]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708454": {
+        "name": "人型機械に芽生えた心",
+        "icon": "ability_97.png",
+        "compendium_id": 6692,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and HP by 30%",
+            "Increase the damage of リクイデート (510481, 512225, 512226) by (3x)",
+            "Use 人型機械に芽生えた心 (512227) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  30,  0,  0]], [0, 3, 73, [[510481,  512225,  512226], 0, 0, 300]], [0, 3, 56, [512227]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708455": {
+        "name": "家族の音声記録",
+        "icon": "ability_72.png",
+        "compendium_id": 6693,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "Increase LB damage by 50%",
+            "Increase the damage of ライトニングフィスト (232238) by (1x)"
+        ],
+        "effects_raw": [[0, 3, 69, [1,  50,  0]], [0, 3, 68, [50]], [0, 3, 73, [232238,  0,  0,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708456": {
+        "name": "家族の音声記録",
+        "icon": "ability_72.png",
+        "compendium_id": 6693,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase equipment ATK by 50% when armed with two weapons",
+            "Increase LB damage by 50%",
+            "Increase the damage of ライトニングフィスト (232238) by (3x)",
+            "Replace LB with ダイナミックパルサー (900000368):\n\tPhysical lightning damage (23.1x * 2 = 46.2x, ATK) to all enemies (ignore cover)\n\tReduce resistance to Lightning by 120% for 3 turns to all enemies\n\tRestore 150 MP to caster"
+        ],
+        "effects_raw": [[0, 3, 69, [1,  50,  0]], [0, 3, 68, [50]], [0, 3, 73, [232238,  0,  0,  300]], [0, 3, 72, [900000368]]],
         "requirements": null,
         "unit_restriction": null
     },

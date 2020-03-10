@@ -94880,12 +94880,241 @@
         "attack_type": "None",
         "execute_type": "Default",
         "effects": ["Inflict Petrify (60%) on one enemy"],
+        "effects_raw": [[1, 1, 6, [0,  0,  0,  0,  0,  0,  0,  60,  1]]]
+    },
+    "218715": {
+        "name": "マーベラスガード",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Increase DEF and SPR by 50% for 5 turns to caster",
+            "Reduce damage taken by 50% to caster for one turn"
+        ],
+        "effects_raw": [[0, 3, 3, [0,  50,  0,  50,  5,  1,  0]], [0, 3, 101, [50,  1,  1,  1]]]
+    },
+    "218716": {
+        "name": "梟嘴一閃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical fire damage (2.5x, ATK) to all enemies",
+            "Reduce resistance to Fire by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  250]], [2, 1, 33, [-50,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]
+    },
+    "218717": {
+        "name": "バトラーサーブ【火】",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical fire damage (1.5x, ATK) to one enemy",
+            "Reduce resistance to Fire by 50% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  150]], [1, 1, 33, [-50,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]
+    },
+    "218718": {
+        "name": "バトラーサーブ【風】",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical wind damage (1.5x, ATK) to one enemy",
+            "Reduce resistance to Wind by 50% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  150]], [1, 1, 33, [0,  0,  0,  0,  -50,  0,  0,  0,  1,  3]]]
+    },
+    "218719": {
+        "name": "ハーブティーはいかが？",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Restore 10 HP to all enemies",
+            "Reduce ATK, DEF, MAG and SPR by 50% for 3 turns to all enemies",
+            "Inflict Poison, Sleep, Paralyze and Disease (100%) on all enemies"
+        ],
+        "effects_raw": [[2, 1, 16, [10]], [2, 1, 24, [-50,  -50,  -50,  -50,  3,  1]], [2, 1, 6, [100,  0,  100,  0,  100,  0,  100,  0,  1]]]
+    },
+    "218720": {
+        "name": "モップ払い",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
+    },
+    "218721": {
+        "name": "エレガントステップ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Dodge 1 physical attacks for 3 turns to caster"],
+        "effects_raw": [[0, 3, 54, [1,  3]]]
+    },
+    "218722": {
+        "name": "覚悟はよろしいかしら？",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK, DEF, MAG and SPR by 50% for 999 turns to caster (can not be removed)"],
+        "effects_raw": [[0, 3, 3, [50,  50,  50,  50,  999,  1,  1]]]
+    },
+    "218723": {
+        "name": "ロックスキン",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase DEF and SPR by 300% for one turn to caster (can not be removed)"],
+        "effects_raw": [[0, 3, 3, [0,  300,  0,  300,  1,  1,  1]]]
+    },
+    "218724": {
+        "name": "表面を覆う鉱石が剥がれ落ちた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Unknown active effect type '155': [[0,-100],-1,-1,-1,-1,-1,0,999,1]"
+        ],
+        "effects_raw": [[0, 3, 155, [[0,  -100], -1, -1, -1, -1, -1, 0, 999, 1]]]
+    },
+    "218725": {
+        "name": "ロックカーズ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Drain MP",
+        "effects": [
+            "Remove all buffs and debuffs from one enemy",
+            "Hybrid* damage (30x, ATK & MAG) as MP drain (30%) to one enemy",
+            "Inflict Petrify (100%) on one enemy",
+            "Inflict Stop (100%) for one turn on one enemy"
+        ],
+        "effects_raw": [[1, 1, 59, ["none"]], [1, 1, 10, [30,  3000,  100]], [1, 1, 6, [0,  0,  0,  0,  0,  0,  0,  100,  1]], [1, 1, 88, [100,  1]]]
+    },
+    "218726": {
+        "name": "岩なだれ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.5x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  150]]]
+    },
+    "218727": {
+        "name": "アサルトロック",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Fixed damage (20000) to one enemy"],
+        "effects_raw": [[1, 1, 41, [20000]]]
+    },
+    "218728": {
+        "name": "砂嵐が吹き荒れる",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Inflict Silence (100%) on all enemies",
+            "Reduce DEF by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 6, [0,  0,  0,  100,  0,  0,  0,  0,  1]], [2, 1, 24, [0,  -50,  0,  0,  3,  1]]]
+    },
+    "218729": {
+        "name": "光感知器官消失",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
+        "effects_raw": [[0, 3, 24, [0,  0,  0,  0,  0,  1]]]
+    },
+    "218730": {
+        "name": "視覚器官がないので陽動がきかない！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
+        "effects_raw": [[0, 3, 24, [0,  0,  0,  0,  0,  1]]]
+    },
+    "218731": {
+        "name": "腐食毒",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (5x, MAG) to all enemies",
+            "Inflict Poison and Disease (100%) on all enemies",
+            "Reduce ATK, DEF, MAG and SPR by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  500]], [2, 1, 6, [100,  0,  0,  0,  0,  0,  100,  0,  1]], [2, 1, 24, [-50,  -50,  -50,  -50,  3,  1]]]
+    },
+    "218732": {
+        "name": "ソウルメルト",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (2x * 2 = 4x, MAG) to one enemy (ignore reflect)"],
+        "effects_raw": [[1, 1, 70, [0,  0,  200,  50]]]
+    },
+    "218733": {
+        "name": "ソウルハイドリシス",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (1.5x * 2 = 3x, MAG) to all enemies (ignore reflect)"],
+        "effects_raw": [[2, 1, 70, [0,  0,  150,  50]]]
+    },
+    "218734": {
+        "name": "体液が気化してあたりを包む",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Dodge 1 physical attacks for 3 turns to all allies",
+            "Increase MAG by 100% for 3 turns to all allies"
+        ],
+        "effects_raw": [[2, 2, 54, [1,  3,  1]], [2, 2, 3, [0,  0,  100,  0,  3,  1,  0]]]
+    },
+    "218735": {
+        "name": "マナカウンター",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Magic* damage (3x, MAG) to all enemies",
+            "Inflict Poison (100%) on all enemies",
+            "Reduce DEF and SPR by 50% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]], [2, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]], [2, 1, 24, [0,  -50,  0,  -50,  3,  1]]]
+    },
+    "218736": {
+        "name": "エレメンタルシールド",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Increase DEF and SPR by 200% for one turn to one ally (can not be removed)",
+            "Reduce damage taken by 99% to one ally for one turn",
+            "Restore 50% HP to one ally"
+        ],
         "effects_raw": [
             [
                 1,
+                2,
+                3,
+                [0, 200, 0, 200, 1, 1, 1]
+            ],
+            [
                 1,
-                6,
-                [0, 0, 0, 0, 0, 0, 0, 60, 1]
+                2,
+                101,
+                [99, 1, 1, 0]
+            ],
+            [
+                1,
+                2,
+                26,
+                [50, 50, 100]
             ]
         ]
     }

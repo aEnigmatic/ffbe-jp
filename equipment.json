@@ -7767,6 +7767,37 @@
         "price_sell": 30000,
         "icon": "item_2030008.png"
     },
+    "303008200": {
+        "name": "ネリネのトランスセイバー",
+        "compendium_id": 1724,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1, 1.6],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [235431],
+        "effects": ["Grants 'バトルトランスフォーム' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 182,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_2030009.png"
+    },
     "304000100": {
         "name": "虎鉄",
         "compendium_id": 21,
@@ -9448,6 +9479,37 @@
         "price_buy": 140000,
         "price_sell": 14000,
         "icon": "item_2040008.png"
+    },
+    "304005900": {
+        "name": "バトラーケーン",
+        "compendium_id": 1725,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 4,
+        "type": "Katana",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [235433],
+        "effects": ["Grants 'エクセレントバトラー' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 184,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 280000,
+        "price_sell": 28000,
+        "icon": "item_2040009.png"
     },
     "304020100": {
         "name": "阿修羅",
@@ -34306,6 +34368,108 @@
         "price_sell": 20000,
         "icon": "item_2170022.png"
     },
+    "405010300": {
+        "name": "シアンブルーのドレス",
+        "compendium_id": 1727,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": [
+            "SEX",
+            2
+        ],
+        "skills": [235434],
+        "effects": ["Grants '王女の望み' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 15,
+            "DEF": 12,
+            "MAG": 0,
+            "SPR": 12,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_2170024.png"
+    },
+    "405010400": {
+        "name": "真・シアンブルーのドレス",
+        "compendium_id": 1728,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": [
+            "SEX",
+            2
+        ],
+        "skills": [235435],
+        "effects": ["Grants '王女の願い' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 20,
+            "DEF": 15,
+            "MAG": 0,
+            "SPR": 15,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2170024.png"
+    },
+    "405010500": {
+        "name": "絶・シアンブルーのドレス",
+        "compendium_id": 1729,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": [
+            "SEX",
+            2
+        ],
+        "skills": [235436],
+        "effects": ["Grants '王女の祈り' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 30,
+            "DEF": 20,
+            "MAG": 0,
+            "SPR": 18,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2170024.png"
+    },
     "406000100": {
         "name": "レザープレート",
         "compendium_id": 159,
@@ -51872,5 +52036,40 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2250059.png"
+    },
+    "409042000": {
+        "name": "王女の護身刀",
+        "compendium_id": 1726,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 30,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Water": 20,
+                "Wind": 20,
+                "Light": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_2250060.png"
     }
 }
