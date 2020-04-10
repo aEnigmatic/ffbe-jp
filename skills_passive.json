@@ -32286,8 +32286,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use かいてんのこぎり (229945), ウイークメーカー・土 (229947), ウイークメーカー・水 (229946), エアアンカー (229948), オートボウガン (229940), クリティカルボイス (509281), コロナビーム (509283), サンビーム (229943), ディスアスターブラスト (509282), トライエフェクトドリル (509284), トリートシャワー・I (229949), トリートシャワー・II (509285), ドリル (229944), バイオブラスト (229942), フィガロ王の威信 (800059), ブラストボイス (229941), ヘンな武器開発 (229954), メリットメーカー・機 (229950) and ロイヤルショック (229952) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 509286, -1, [229940,  229941,  229942,  229943,  229944,  229945,  229946,  229947,  229948,  229949,  229950,  229952,  229954,  509281,  509282,  509283,  509284,  509285,  800059], 1, 0]]],
+        "effects": ["Enable unit to use かいてんのこぎり (229945), ウイークメーカー・土 (229947, 708485, 708486), ウイークメーカー・水 (229946, 708483, 708484), エアアンカー (229948), オートボウガン (229940), クリティカルボイス (509281), コロナビーム (509283), サンビーム (229943), ディスアスターブラスト (509282), トライエフェクトドリル (509284), トリートシャワー・I (229949), トリートシャワー・II (509285), ドリル (229944), バイオブラスト (229942), フィガロ王の威信 (800059), ブラストボイス (229941), ブラボー フィガロ！ (708478), ヘンな武器開発 (229954, 708481, 708482), メリットメーカー・機 (229950) and ロイヤルショック (229952, 708479, 708480) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 509286, -1, [229940,  229941,  229942,  229943,  229944,  229945,  229946,  229947,  229948,  229949,  229950,  229952,  229954,  509281,  509282,  509283,  509284,  509285,  800059,  708478,  708479,  708480,  708481,  708482,  708483,  708484,  708485,  708486], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -32421,11 +32421,11 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase the damage of トライエフェクトドリル (509284), ドリル (229944) and ロイヤルショック (509287) by (0.75x)",
+            "Increase the damage of トライエフェクトドリル (509284), ドリル (229944) and ロイヤルショック (509287, 512512, 512513) by (0.75x)",
             "Increase the damage of かいてんのこぎり (229945), エアアンカー (229948), オートボウガン (229940), コロナビーム (509283) and サンビーム (229943) by (1.5x)",
             "Replace LB with グローリー・オブ・フィガロ (900000318) for 2 turns if HP is below 20%:\n\tPhysical damage (16x, ATK) to all enemies\n\tReduce ATK, DEF, MAG and SPR by 55% for 2 turns to all enemies"
         ],
-        "effects_raw": [[0, 3, 73, [[229944,  509284,  509287], 0, 0, 75]], [0, 3, 73, [[229940,  229943,  229945,  229948,  509283], 0, 0, 150]], [0, 3, 80, [900000318,  9999,  20,  0,  2]]],
+        "effects_raw": [[0, 3, 73, [[229944,  509284,  509287,  512512,  512513], 0, 0, 75]], [0, 3, 73, [[229940,  229943,  229945,  229948,  509283], 0, 0, 150]], [0, 3, 80, [900000318,  9999,  20,  0,  2]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -32438,8 +32438,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use けり (200200), オーラキャノン (229971), スウィフトステップ (800061), スパイラルソウル (229976), タイガーブレイク (229981), チャクラ (229975), メテオストライク (229972), 夢幻闘舞 (229977), 気功術 (229982), 爆裂拳 (229970), 真空波 (229974), 瞑想・流心 (229978), 瞑想・炎心 (229979) and 鳳凰の舞 (229973) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 509300, -1, [200200,  229970,  229971,  229972,  229973,  229974,  229975,  229976,  229977,  229978,  229979,  229981,  229982,  800061], 1, 0]]],
+        "effects": ["Enable unit to use けり (200200), オーラキャノン (229971), スウィフトステップ (800061), スパイラルソウル (229976), タイガーブレイク (229981, 708491, 708492), チャクラ (229975), メテオストライク (229972), 夢幻闘舞 (229977, 708493, 708494), 気功術 (229982), 爆裂拳 (229970), 真空波 (229974, 708497, 708498), 瞑想・流心 (229978), 瞑想・炎心 (229979) and 鳳凰の舞 (229973, 708495, 708496) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 509300, -1, [200200,  229970,  229971,  229972,  229973,  229974,  229975,  229976,  229977,  229978,  229979,  229981,  229982,  800061,  708491,  708492,  708493,  708494,  708495,  708496,  708497,  708498], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -32553,9 +32553,9 @@
             "Increase ATK and SPR by 30%",
             "Increase equipment ATK by 100% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
-            "Increase the damage of 夢幻闘舞 (229977) by (1.5x)"
+            "Increase the damage of 夢幻闘舞 (229977, 708493, 708494) by (1.5x)"
         ],
-        "effects_raw": [[0, 3, 1, [30,  0,  0,  30,  0,  0,  0]], [0, 3, 13, [100,  25,  2]], [0, 3, 73, [229977,  0,  0,  150]]],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  30,  0,  0,  0]], [0, 3, 13, [100,  25,  2]], [0, 3, 73, [[229977,  708493,  708494], 0, 0, 150]]],
         "requirements": [["EQUIP", 504229931], ["EQUIP", 409028000]],
         "unit_restriction": null
     },
@@ -32586,12 +32586,12 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": [
-            "Increase the damage of オーラキャノン (229971), メテオストライク (229972), 夢幻闘舞 (229977) and 爆裂拳 (229970) by (0.75x)",
-            "Increase the damage of けり (200200), タイガーブレイク (509302), 真空波 (229974) and 鳳凰の舞 (229973) by (1.5x)",
+            "Increase the damage of オーラキャノン (229971), メテオストライク (229972), 夢幻闘舞 (229977, 708493, 708494) and 爆裂拳 (229970) by (0.75x)",
+            "Increase the damage of けり (200200), タイガーブレイク (509302, 512518, 512519), 真空波 (229974, 708497, 708498) and 鳳凰の舞 (229973, 708495, 708496) by (1.5x)",
             "Increase chance of countering by 100%",
             "Replace LB with ダンカン・コンビネーション (900000319) for 2 turns if HP is below 20%:\n\tPhysical damage (26.5x * 2 = 53x, ATK) to one enemy (ignore cover)\n\tGain 3 uses of けり (200200), オーラキャノン (229971), スウィフトステップ (800061), スパイラルソウル (229976), タイガーブレイク (229981), チャクラ (229975), メテオストライク (229972), 夢幻闘舞 (229977), 気功術 (229982), 爆裂拳 (229970), 真空波 (229974), 瞑想・流心 (229978), 瞑想・炎心 (229979) and 鳳凰の舞 (229973) for 4 turns"
         ],
-        "effects_raw": [[0, 3, 73, [[229970,  229971,  229972,  229977], 0, 0, 75]], [0, 3, 73, [[200200,  229973,  229974,  509302], 0, 0, 150]], [0, 3, 20, [100]], [0, 3, 80, [900000319,  9999,  20,  0,  2]]],
+        "effects_raw": [[0, 3, 73, [[229970,  229971,  229972,  229977,  708493,  708494], 0, 0, 75]], [0, 3, 73, [[200200,  229973,  229974,  509302,  512518,  512519,  708495,  708496,  708497,  708498], 0, 0, 150]], [0, 3, 20, [100]], [0, 3, 80, [900000319,  9999,  20,  0,  2]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -68439,6 +68439,574 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "235870": {
+        "name": "黒の刀姫",
+        "icon": "ability_79.png",
+        "compendium_id": 9479,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 20%",
+            "Increase physical damage against Machinas and Reapers by 25/25%"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  0,  0,  0]], [0, 3, 11, [[6,  12], [25,  25], 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235871": {
+        "name": "華の葬刃",
+        "icon": "ability_79.png",
+        "compendium_id": 9480,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase physical damage against Machinas and Reapers by 50/50%"],
+        "effects_raw": [[0, 3, 11, [[6,  12], [50,  50], 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235873": {
+        "name": "オクタトニックブレス",
+        "icon": "ability_95.png",
+        "compendium_id": 9482,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to all status effects by 50%",
+            "Increase DEF and SPR by 30% when equipped with a Instrument"
+        ],
+        "effects_raw": [[0, 3, 2, [50,  50,  50,  50,  50,  50,  50,  50]], [0, 3, 6, [11,  0,  30,  0,  30,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235874": {
+        "name": "響刃・序",
+        "icon": "ability_95.png",
+        "compendium_id": 9483,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK by 10% when equipped with a Katana"],
+        "effects_raw": [[0, 3, 6, [4,  10,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235875": {
+        "name": "響刃・破",
+        "icon": "ability_95.png",
+        "compendium_id": 9484,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK by 15% when equipped with a Katana"],
+        "effects_raw": [[0, 3, 6, [4,  15,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235876": {
+        "name": "響刃・急",
+        "icon": "ability_95.png",
+        "compendium_id": 9485,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK by 20% when equipped with a Katana"],
+        "effects_raw": [[0, 3, 6, [4,  20,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235877": {
+        "name": "幻惑の調べ",
+        "icon": "ability_84.png",
+        "compendium_id": 9541,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF by 20% and HP by 10%",
+            "Reduce chance of being targeted by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  0,  10,  0,  0]], [0, 3, 25, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235878": {
+        "name": "マインドディテクティブ",
+        "icon": "ability_78.png",
+        "compendium_id": 9542,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF and SPR by 40% and HP and MP by 20%",
+            "Increase the limit burst gauge fill rate by 100%",
+            "Increase LB gauge by 3 per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  40,  0,  40,  20,  20,  0]], [0, 3, 31, [100]], [0, 3, 33, [300]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235890": {
+        "name": "W奏刃",
+        "icon": "ability_8.png",
+        "compendium_id": 9496,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use ソードアジタート (235880), 凍霜の旋律 (235886), 友に捧ぐプレリュード (235893), 深淵の旋律 (235884), 火のピアニシモ (235882), 紅蓮の旋律 (235885), 葬送の調べ【機械】 (235888), 葬送の調べ【死霊】 (235889), 闇のピアニシモ (235881), 雪のピアニシモ (235883), 魂のシンフォニア (235887) and 黒の弾奏・第一楽章 (235892) twice in one turn (no duplicates)"],
+        "effects_raw": [[0, 3, 53, [2, 512480, -1, [235880,  235881,  235882,  235883,  235884,  235885,  235886,  235887,  235888,  235889,  235892,  235893], 1, 1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235891": {
+        "name": "T奏刃",
+        "icon": "ability_8.png",
+        "compendium_id": 9497,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use ソードアジタート (235880), 凍霜の旋律 (235886), 友に捧ぐプレリュード (235893), 深淵の旋律 (235884), 火のピアニシモ (235882), 紅蓮の旋律 (235885), 葬送の調べ【機械】 (235888), 葬送の調べ【死霊】 (235889), 闇のピアニシモ (235881), 雪のピアニシモ (235883), 魂のシンフォニア (235887) and 黒の弾奏・第一楽章 (235892) 3 times in one turn (no duplicates)"],
+        "effects_raw": [[0, 3, 53, [3, 512481, -1, [235880,  235881,  235882,  235883,  235884,  235885,  235886,  235887,  235888,  235889,  235892,  235893], 1, 1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235894": {
+        "name": "音楽の天才",
+        "icon": "ability_91.png",
+        "compendium_id": 9500,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR, HP and MP by 20%",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  20,  20,  0]], [0, 3, 32, [5]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235895": {
+        "name": "“ともだち”との思い出",
+        "icon": "ability_76.png",
+        "compendium_id": 9501,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase resistance to Blind by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 2, [0,  100,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235896": {
+        "name": "目覚めし剣技の才",
+        "icon": "ability_97.png",
+        "compendium_id": 9502,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50%",
+            "10% chance of evading physical attacks"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 22, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235897": {
+        "name": "アンビエの惚れこむ天才児",
+        "icon": "ability_78.png",
+        "compendium_id": 9503,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Confusion by 100%",
+            "Increase the limit burst gauge fill rate by 100%"
+        ],
+        "effects_raw": [[0, 3, 2, [0,  0,  0,  0,  0,  100,  0,  0]], [0, 3, 31, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235898": {
+        "name": "魔列車の乗客【クレオメ】",
+        "icon": "ability_76.png",
+        "compendium_id": 9504,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase LB damage by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 68, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235899": {
+        "name": "コンチェへの想い",
+        "icon": "ability_95.png",
+        "compendium_id": 9505,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 40%",
+            "Increase ATK by 60% when equipped with a Katana",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  40,  0]], [0, 3, 6, [4,  60,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [50,  25,  2]]],
+        "requirements": [["EQUIP", 504235870], ["EQUIP", 304007100]],
+        "unit_restriction": null
+    },
+    "235900": {
+        "name": "踵を合わせてトントン",
+        "icon": "ability_77.png",
+        "compendium_id": 9506,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase DEF, SPR and MP by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  0,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235901": {
+        "name": "心を守りし暖かな旋律",
+        "icon": "ability_79.png",
+        "compendium_id": 9507,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 50%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase physical damage against Machinas and Reapers by 100/100%",
+            "Increase Stop resistance by 100% to caster"
+        ],
+        "effects_raw": [[0, 3, 1, [50,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 11, [[6,  12], [100,  100], 0]], [0, 3, 55, [0,  0,  0,  0,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235915": {
+        "name": "Wコンダクト",
+        "icon": "ability_8.png",
+        "compendium_id": 9513,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use アインザッツ・氷 (235918), アインザッツ・風 (235919), アレグロヴィーヴォ (235917), ウィンディコード (235913), オフェンスタクト (512490), グルーヴソニック (235912), スピリットタクト (512492), ディフェンスタクト (512491), ノイズキャンセラー (235910), バトルコンダクター (235914), プレストアニマート (235920) and マーチインスパイア (235911) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 512493, -1, [235910,  235911,  235912,  235913,  235914,  235917,  235918,  235919,  235920,  512490,  512491,  512492], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235916": {
+        "name": "Tコンダクト",
+        "icon": "ability_8.png",
+        "compendium_id": 9514,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use アインザッツ・氷 (235918), アインザッツ・風 (235919), アレグロヴィーヴォ (235917), ウィンディコード (235913), オフェンスタクト (512490), グルーヴソニック (235912), スピリットタクト (512492), ディフェンスタクト (512491), ノイズキャンセラー (235910), バトルコンダクター (235914), プレストアニマート (235920) and マーチインスパイア (235911) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 512494, -1, [235910,  235911,  235912,  235913,  235914,  235917,  235918,  235919,  235920,  512490,  512491,  512492], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235921": {
+        "name": "音響心理研究所所長",
+        "icon": "ability_91.png",
+        "compendium_id": 9520,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and MP by 30% and HP by 20%",
+            "Increase resistance to Petrify by 100%",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  20,  30]], [0, 3, 2, [0,  0,  0,  0,  0,  0,  0,  100]], [0, 3, 32, [5]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235922": {
+        "name": "有名な音楽家",
+        "icon": "ability_19.png",
+        "compendium_id": 9521,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40%",
+            "Increase resistance to Ice by 10%",
+            "Increase resistance to Disease by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 3, [0,  10,  0,  0,  0,  0,  0,  0]], [0, 3, 2, [0,  0,  0,  0,  0,  0,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235923": {
+        "name": "音楽学園教授",
+        "icon": "ability_84.png",
+        "compendium_id": 9522,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40%",
+            "Increase the limit burst gauge fill rate by 100%",
+            "Reduce chance of being targeted by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 31, [100]], [0, 3, 25, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235924": {
+        "name": "エキセントリックな研究者",
+        "icon": "ability_76.png",
+        "compendium_id": 9523,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase LB gauge by 4 per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [50,  25,  2]], [0, 3, 33, [400]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235925": {
+        "name": "クレオメの治療者",
+        "icon": "ability_95.png",
+        "compendium_id": 9524,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MP by 20%",
+            "Increase equipment ATK by 75% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase ATK by 80% when equipped with a Instrument"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  0,  0,  0,  0,  20,  0]], [0, 3, 13, [75,  25,  2]], [0, 3, 6, [11,  80,  0,  0,  0,  0,  0,  0]]],
+        "requirements": [["EQUIP", 316002200], ["EQUIP", 504235878]],
+        "unit_restriction": null
+    },
+    "235926": {
+        "name": "アチェーレの想い人",
+        "icon": "ability_76.png",
+        "compendium_id": 9525,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and MP by 30%",
+            "Increase equipment ATK by 75% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase MP by 30% when equipped with a Cloth"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  0,  30,  0]], [0, 3, 13, [75,  25,  2]], [0, 3, 6, [50,  0,  0,  0,  0,  0,  30,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235927": {
+        "name": "“ともだち”の信頼を得し者",
+        "icon": "ability_19.png",
+        "compendium_id": 9526,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 40% and MAG and HP by 20%",
+            "Increase Stop resistance by 100% to caster"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  20,  0,  20,  0,  0]], [0, 3, 55, [0,  0,  0,  0,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235936": {
+        "name": "Wストリング",
+        "icon": "ability_8.png",
+        "compendium_id": 9533,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use セレブアピール (235930), 悪魔のトリル【攻】 (235933), 悪魔のトリル【精】 (235932), 悪魔のトリル【防】 (235931), 悪魔のトリル【魔】 (235934), 断魔のマルテラート (235935) and 避刃のスピッカート (235937) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 512500, -1, [235930,  235931,  235932,  235933,  235934,  235935,  235937], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235938": {
+        "name": "音響心理研究所助手",
+        "icon": "ability_97.png",
+        "compendium_id": 9535,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP and MP by 10%",
+            "10% chance of evading physical attacks"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  10,  10,  0]], [0, 3, 22, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235939": {
+        "name": "バイオリンの巧者",
+        "icon": "ability_83.png",
+        "compendium_id": 9536,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 20%",
+            "Increase chance of being targeted by 10%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  0,  0,  0]], [0, 3, 24, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235940": {
+        "name": "コンテスト優勝への執念",
+        "icon": "ability_97.png",
+        "compendium_id": 9537,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP by 10%",
+            "10% chance of evading physical attacks"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  10,  0,  0]], [0, 3, 22, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235941": {
+        "name": "自称・クレオメのライバル",
+        "icon": "ability_83.png",
+        "compendium_id": 9538,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 20%",
+            "Increase chance of being targeted by 20%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  0,  0,  0]], [0, 3, 24, [20]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235942": {
+        "name": "アンビエを慕う少女",
+        "icon": "ability_97.png",
+        "compendium_id": 9539,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP and MP by 20%",
+            "20% chance of evading physical attacks"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  20,  0]], [0, 3, 22, [20]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235943": {
+        "name": "学園スポンサーの令嬢",
+        "icon": "ability_68.png",
+        "compendium_id": 9540,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 30%",
+            "40% chance to counter a physical attack with an attack (1x, ATK) (max 1 / turn)",
+            "40% chance to counter a magic attack with an attack (1x, ATK)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  0,  0,  0]], [0, 3, 12, [40,  100,  1]], [0, 3, 41, [40,  100,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "400010": {
         "name": "経験値UP1.5倍",
         "icon": "ability_81.png",
@@ -82108,6 +82676,80 @@
             "Replace LB with かえんりゅう (900000373):\n\tMagic fire damage (51.1x, MAG) to all enemies\n\tReduce resistance to Fire by 96% for 3 turns to all enemies\n\tMagic fire damage (10x, MAG) per turn to all enemies for 3 turns"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  40,  0,  0,  0,  0]], [0, 3, 3, [50,  50,  0,  0,  0,  0,  0,  0]], [0, 3, 70, [50,  25,  2]], [0, 3, 69, [3,  50,  0]], [0, 3, 72, [900000373]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708487": {
+        "name": "エドガー・ロニ・フィガロ",
+        "icon": "ability_91.png",
+        "compendium_id": 5020,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 80% and DEF, SPR and HP by 20%",
+            "Increase LB gauge by 1 per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [80,  20,  0,  20,  20,  0,  0]], [0, 3, 33, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708488": {
+        "name": "エドガー・ロニ・フィガロ",
+        "icon": "ability_91.png",
+        "compendium_id": 5020,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 80% and DEF, SPR and HP by 20%",
+            "Increase LB gauge by 1 per turn",
+            "Increase LB damage by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [80,  20,  0,  20,  20,  0,  0]], [0, 3, 33, [100]], [0, 3, 68, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708499": {
+        "name": "マッシュ・レネ・フィガロ",
+        "icon": "ability_91.png",
+        "compendium_id": 5043,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 60% and SPR, HP and MP by 20%",
+            "Recover MP (5%) per turn",
+            "Increase LB damage by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [60,  0,  0,  20,  20,  20,  0]], [0, 3, 32, [5]], [0, 3, 68, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708500": {
+        "name": "マッシュ・レネ・フィガロ",
+        "icon": "ability_91.png",
+        "compendium_id": 5043,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 60% and SPR, HP and MP by 20%",
+            "Recover MP (5%) per turn",
+            "Increase LB damage by 50%",
+            "Increase equipment ATK by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon",
+            "Increase LB gauge by 6 per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [60,  0,  0,  20,  20,  20,  0]], [0, 3, 32, [5]], [0, 3, 68, [50]], [0, 3, 13, [50,  25,  2]], [0, 3, 33, [600]]],
         "requirements": null,
         "unit_restriction": null
     },
