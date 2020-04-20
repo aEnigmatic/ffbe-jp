@@ -9521,7 +9521,7 @@
         ],
         "effects_raw": [[0, 3, 1, [0,  10,  0,  0,  0,  0,  0]], [0, 3, 2, [30,  30,  30,  30,  30,  30,  30,  30]]],
         "requirements": null,
-        "unit_restriction": [209000705]
+        "unit_restriction": [209000705, 209002505]
     },
     "217260": {
         "name": "プルート隊隊長",
@@ -32589,7 +32589,7 @@
             "Increase the damage of オーラキャノン (229971), メテオストライク (229972), 夢幻闘舞 (229977, 708493, 708494) and 爆裂拳 (229970) by (0.75x)",
             "Increase the damage of けり (200200), タイガーブレイク (509302, 512518, 512519), 真空波 (229974, 708497, 708498) and 鳳凰の舞 (229973, 708495, 708496) by (1.5x)",
             "Increase chance of countering by 100%",
-            "Replace LB with ダンカン・コンビネーション (900000319) for 2 turns if HP is below 20%:\n\tPhysical damage (26.5x * 2 = 53x, ATK) to one enemy (ignore cover)\n\tGain 3 uses of けり (200200), オーラキャノン (229971), スウィフトステップ (800061), スパイラルソウル (229976), タイガーブレイク (229981), チャクラ (229975), メテオストライク (229972), 夢幻闘舞 (229977), 気功術 (229982), 爆裂拳 (229970), 真空波 (229974), 瞑想・流心 (229978), 瞑想・炎心 (229979) and 鳳凰の舞 (229973) for 4 turns"
+            "Replace LB with ダンカン・コンビネーション (900000319) for 2 turns if HP is below 20%:\n\tPhysical damage (26.5x * 2 = 53x, ATK) to one enemy (ignore cover)\n\tGain 3 uses of けり (200200), オーラキャノン (229971), スウィフトステップ (800061), スパイラルソウル (229976), タイガーブレイク (229981, 708491, 708492), チャクラ (229975), メテオストライク (229972), 夢幻闘舞 (229977, 708493, 708494), 気功術 (229982), 爆裂拳 (229970), 真空波 (229974, 708497, 708498), 瞑想・流心 (229978), 瞑想・炎心 (229979) and 鳳凰の舞 (229973, 708495, 708496) for 4 turns"
         ],
         "effects_raw": [[0, 3, 73, [[229970,  229971,  229972,  229977,  708493,  708494], 0, 0, 75]], [0, 3, 73, [[200200,  229973,  229974,  509302,  512518,  512519,  708495,  708496,  708497,  708498], 0, 0, 150]], [0, 3, 20, [100]], [0, 3, 80, [900000319,  9999,  20,  0,  2]]],
         "requirements": null,
@@ -69007,6 +69007,505 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "235950": {
+        "name": "セーラの記憶",
+        "icon": "ability_77.png",
+        "compendium_id": 9543,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase all stats gained from espers by 50%",
+            "Increase resistance to all elements by 20%"
+        ],
+        "effects_raw": [[0, 3, 63, [50,  50,  50,  50,  50,  50,  0]], [0, 3, 3, [20,  20,  20,  20,  20,  20,  20,  20]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235951": {
+        "name": "白鯨の魔力",
+        "icon": "ability_91.png",
+        "compendium_id": 9544,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Recover MP (12%) per turn"],
+        "effects_raw": [[0, 3, 32, [12]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235952": {
+        "name": "モーグリに愛されし少女",
+        "icon": "ability_77.png",
+        "compendium_id": 9545,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 40% and MAG by 20%",
+            "Increase Esper summon damage by 20%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  40,  0,  0,  0]], [0, 3, 21, [20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235953": {
+        "name": "天上の音色",
+        "icon": "ability_4.png",
+        "compendium_id": 9546,
+        "rarity": 9,
+        "unique": true,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Cast 天上の音色 (512520) at the start of your turn"],
+        "effects_raw": [[0, 3, 66, [512520,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235954": {
+        "name": "白魔法の使い手",
+        "icon": "ability_95.png",
+        "compendium_id": 9547,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR by 15% when equipped with a Staff"],
+        "effects_raw": [[0, 3, 6, [5,  0,  0,  0,  15,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235955": {
+        "name": "テラ文明の遺物",
+        "icon": "ability_9.png",
+        "compendium_id": 9548,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and SPR by 20%",
+            "Increase resistance to all elements by 10%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  20,  0,  0,  0]], [0, 3, 3, [10,  10,  10,  10,  10,  10,  10,  10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235956": {
+        "name": "召喚士の祈り",
+        "icon": "ability_77.png",
+        "compendium_id": 9549,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to all status effects by 50%",
+            "Increase all summoning damage by 20%"
+        ],
+        "effects_raw": [[0, 3, 2, [50,  50,  50,  50,  50,  50,  50,  50]], [0, 3, 64, [20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235967": {
+        "name": "W召喚魔法",
+        "icon": "ability_8.png",
+        "compendium_id": 9558,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use エーコのおくのて (235968), クリプトパフォーム (217660), サファイアの力 (235961), テラホーミング (235965), ハーモニクス (227171), フェニックスの羽の力 (235963), リボンの力 (235962), 千年の風化 (235964), 真・テラホーミング (235969), 真・転生の炎【IX】 (235970) and 転生の炎【IX】 (235966) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 512533, -1, [235961,  235962,  235963,  235964,  235965,  235966,  235968,  235969,  235970,  217660,  227171], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235971": {
+        "name": "はっこうのびしょうじょ",
+        "icon": "ability_91.png",
+        "compendium_id": 9562,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG, SPR and MP by 30%",
+            "Increase LB gauge by 1 per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  30,  0,  30,  0]], [0, 3, 33, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235972": {
+        "name": "ステキなレディになる約束",
+        "icon": "ability_77.png",
+        "compendium_id": 9563,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 50%",
+            "Recover MP (5%) per turn",
+            "Increase Esper summon damage by 30%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  50,  0,  0,  0]], [0, 3, 32, [5]], [0, 3, 21, [30,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235973": {
+        "name": "料理はおまかせ？",
+        "icon": "ability_78.png",
+        "compendium_id": 9564,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR, HP and MP by 20%",
+            "Increase the limit burst gauge fill rate by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  20,  20,  0]], [0, 3, 31, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235974": {
+        "name": "さびしさと闘う心",
+        "icon": "ability_91.png",
+        "compendium_id": 9565,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF by 20%",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  0,  0,  0,  0]], [0, 3, 32, [5]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235975": {
+        "name": "召喚獣との交感",
+        "icon": "ability_77.png",
+        "compendium_id": 9566,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 20%",
+            "Increase all stats gained from espers by 30%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  0,  0,  0,  0]], [0, 3, 63, [30,  30,  30,  30,  30,  30,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235976": {
+        "name": "モグとの絆",
+        "icon": "ability_77.png",
+        "compendium_id": 9567,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 20%",
+            "Increase all summoning damage by 20%",
+            "Increase all stats gained from espers by 70%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  0,  0,  0]], [0, 3, 64, [20,  0]], [0, 3, 63, [70,  70,  70,  70,  70,  70,  0]]],
+        "requirements": [["EQUIP", 504235952], ["EQUIP", 316002300]],
+        "unit_restriction": null
+    },
+    "235977": {
+        "name": "恋のキューピッド",
+        "icon": "ability_84.png",
+        "compendium_id": 9568,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and HP by 20%",
+            "Increase LB gauge by 2 per turn",
+            "Reduce chance of being targeted by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  20,  0,  20,  0,  0]], [0, 3, 33, [200]], [0, 3, 25, [50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235978": {
+        "name": "最後の召喚士",
+        "icon": "ability_77.png",
+        "compendium_id": 9569,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and MP by 40%",
+            "Increase all stats gained from espers by 50%",
+            "Increase the damage of サファイアの力 (235961), フェニックスの羽の力 (235963) and リボンの力 (235962) by (30x)",
+            "Increase the damage of テラホーミング (235965), 千年の風化 (235964) and 転生の炎【IX】 (235966) by (20x)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  40,  0,  40,  0]], [0, 3, 63, [50,  50,  50,  50,  50,  50,  0]], [0, 3, 73, [[235961,  235962,  235963], 0, 0, 3000]], [0, 3, 73, [[235964,  235965,  235966], 0, 0, 2000]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235987": {
+        "name": "Wクイーンフォース",
+        "icon": "ability_8.png",
+        "compendium_id": 9677,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use アタックフォール (235980), ガードフォール (235982), クアッドフォール (235983), クアッドフォール・ソロ (235985), 女王の一声 (235986), 女王の威厳 (235984) and 女王の貫録 (235981) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 512540, -1, [235980,  235981,  235982,  235983,  235984,  235985,  235986], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235988": {
+        "name": "アレクサンドリア第16代女王",
+        "icon": "ability_77.png",
+        "compendium_id": 9678,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase DEF and SPR by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235989": {
+        "name": "最愛の夫への想い",
+        "icon": "ability_19.png",
+        "compendium_id": 9679,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and HP by 20%",
+            "Increase resistance to Poison and Disease by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  0,  20,  0,  0]], [0, 3, 2, [100,  0,  0,  0,  0,  0,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235990": {
+        "name": "お芝居はイイわぁ",
+        "icon": "ability_91.png",
+        "compendium_id": 9680,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 30%",
+            "Recover MP (3%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 32, [3]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235991": {
+        "name": "奪い取った召喚獣の力",
+        "icon": "ability_77.png",
+        "compendium_id": 9681,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR, HP and MP by 30%",
+            "Increase all stats gained from espers by 20%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  30,  30,  30,  0]], [0, 3, 63, [20,  20,  20,  20,  20,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "235992": {
+        "name": "懐かしき幸せの記憶",
+        "icon": "ability_4.png",
+        "compendium_id": 9682,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Use 懐かしき幸せの記憶 (512541) at the start of a battle or when revived"],
+        "effects_raw": [[0, 3, 56, [512541]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "236168": {
+        "name": "Wメロディ",
+        "icon": "ability_8.png",
+        "compendium_id": 9691,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use いやしのハーモニー (236162), いやしのリズム (236160), まもりのコード (236161), まもりのコーラス (236165), セラフィックメロディ (236173), ヒーリングメロディ (236172), ペリドットの雷輝 (236164), リヴァイブメロディ (236171), ルミナスヴェール (236170), 再生のアリア (236166), 大海嘯【IX】 (236167), 暗黒の運命 (236169), 裁きの雷【IX】 (236163) and 運命の光 (800516) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 512561, -1, [236160,  236161,  236162,  236163,  236164,  236165,  236166,  236167,  236169,  236170,  236171,  236172,  236173,  800516], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "236174": {
+        "name": "召喚獣を宿す者",
+        "icon": "ability_70.png",
+        "compendium_id": 9697,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Allow unit to summon any esper in party",
+            "Increase all stats gained from espers by 50%",
+            "Increase Esper summon damage by 50%"
+        ],
+        "effects_raw": [[0, 3, 61, ["none"]], [0, 3, 63, [50,  50,  50,  50,  50,  50,  0]], [0, 3, 21, [50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "236175": {
+        "name": "アレクサンドリアの美姫",
+        "icon": "ability_95.png",
+        "compendium_id": 9698,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and SPR by 30%",
+            "Recover MP (7%) per turn",
+            "Increase MAG by 40% when equipped with a Rod"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  30,  0,  0,  0]], [0, 3, 32, [7]], [0, 3, 6, [6,  0,  0,  40,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "236176": {
+        "name": "ラムウの加護",
+        "icon": "ability_19.png",
+        "compendium_id": 9699,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and SPR by 30%",
+            "Increase resistance to Lightning by 20%",
+            "Increase resistance to Paralyze by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  30,  0,  0,  0]], [0, 3, 3, [0,  0,  20,  0,  0,  0,  0,  0]], [0, 3, 2, [0,  0,  0,  0,  100,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "236177": {
+        "name": "断髪に込められた覚悟",
+        "icon": "ability_95.png",
+        "compendium_id": 9700,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR and MP by 20%",
+            "Increase SPR by 40% when equipped with a Staff"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  20,  0,  20,  0]], [0, 3, 6, [5,  0,  0,  0,  40,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "236178": {
+        "name": "リヴァイアサンの加護",
+        "icon": "ability_19.png",
+        "compendium_id": 9701,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG and MP by 30%",
+            "Increase resistance to Water by 20%",
+            "Increase resistance to Disease by 100%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  30,  0]], [0, 3, 3, [0,  0,  0,  20,  0,  0,  0,  0]], [0, 3, 2, [0,  0,  0,  0,  0,  0,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "236179": {
+        "name": "アレクサンダーの加護",
+        "icon": "ability_77.png",
+        "compendium_id": 9702,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and HP by 30%",
+            "Increase all stats gained from Alexander by 100%",
+            "Increase Stop resistance by 100% to caster"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  30,  0,  0]], [0, 3, 63, [100,  100,  100,  100,  100,  100,  13]], [0, 3, 55, [0,  0,  0,  0,  100,  0]]],
+        "requirements": [["EQUIP", 504235950], ["EQUIP", 310008800]],
+        "unit_restriction": null
+    },
+    "236180": {
+        "name": "アークの加護",
+        "icon": "ability_19.png",
+        "compendium_id": 9703,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and HP by 30%",
+            "Increase resistance to Dark by 20%",
+            "Increase resistance to Confusion by 100%",
+            "Increase equipment MAG by 50% when armed with two weapons",
+            "Increase equipment SPR by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  0,  30,  0,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  0,  20]], [0, 3, 2, [0,  0,  0,  0,  0,  100,  0,  0]], [0, 3, 69, [3,  50]], [0, 3, 69, [4,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "400010": {
         "name": "経験値UP1.5倍",
         "icon": "ability_81.png",
@@ -87572,6 +88071,75 @@
             "Increase resistance to Fire, Wind and Light by 40%"
         ],
         "effects_raw": [[0, 3, 1, [0,  40,  0,  40,  0,  0,  0]], [0, 3, 3, [40,  0,  0,  0,  40,  0,  40,  0]]],
+        "requirements": [["SWITCH", 18921901]],
+        "unit_restriction": null
+    },
+    "800517": {
+        "name": "君の小鳥になりたい",
+        "icon": "ability_77.png",
+        "compendium_id": 518,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG, SPR and MP by 30%",
+            "Increase all summoning damage by 30%",
+            "20% chance to counter physical attacks with 記憶の歌 (512560) to caster (max 1 / turn)",
+            "20% chance to counter magic attacks with 記憶の歌 (512560) to caster (max 1 / turn)"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  30,  0,  30,  0]], [0, 3, 64, [30,  0]], [0, 3, 49, [20,  3,  512560,  1]], [0, 3, 50, [20,  3,  512560,  1]]],
+        "requirements": [["SWITCH", 18921902]],
+        "unit_restriction": null
+    },
+    "800518": {
+        "name": "T召喚魔法",
+        "icon": "ability_8.png",
+        "compendium_id": 519,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use エーコのおくのて (235968), クリプトパフォーム (217660), サファイアの力 (235961), テラホーミング (235965), ハーモニクス (227171), フェニックスの羽の力 (235963), リボンの力 (235962), 千年の風化 (235964), 真・テラホーミング (235969), 真・転生の炎【IX】 (235970) and 転生の炎【IX】 (235966) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 512550, -1, [235961,  235962,  235963,  235964,  235965,  235966,  235968,  235969,  235970,  217660,  227171], 1, 0]]],
+        "requirements": [["SWITCH", 18921902]],
+        "unit_restriction": null
+    },
+    "800519": {
+        "name": "旅立ちの決意",
+        "icon": "ability_77.png",
+        "compendium_id": 520,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and HP by 30%",
+            "Increase Esper summon damage by 20%",
+            "Increase all summoning damage by 30%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  30,  30,  0,  0]], [0, 3, 21, [20,  0]], [0, 3, 64, [30,  0]]],
+        "requirements": [["SWITCH", 18921902]],
+        "unit_restriction": null
+    },
+    "800521": {
+        "name": "際限のない欲望",
+        "icon": "ability_77.png",
+        "compendium_id": 522,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG, SPR and MP by 30%",
+            "Increase LB gauge by 1 per turn",
+            "Increase LB damage by 50%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  30,  0,  30,  0]], [0, 3, 33, [100]], [0, 3, 68, [50]]],
         "requirements": [["SWITCH", 18921901]],
         "unit_restriction": null
     }
