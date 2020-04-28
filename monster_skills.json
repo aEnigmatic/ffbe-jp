@@ -97099,6 +97099,22 @@
         ],
         "effects_raw": [[2, 1, 70, [0,  0,  280,  15]], [2, 1, 33, [-15,  0,  0,  0,  0,  0,  0,  0,  1,  3]]]
     },
+    "218956": {
+        "name": "氷結弾",
+        "flags": [false,  false,  true,  true],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic ice damage (1.2x, MAG) to one enemy"],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120]]]
+    },
+    "218957": {
+        "name": "混沌なる悪意",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (3x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]]]
+    },
     "218958": {
         "name": "真空波",
         "flags": [false,  false,  true,  false],
@@ -97970,6 +97986,14 @@
             "Reduce resistance to Dark by 180% for 3 turns to all enemies"
         ],
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  320]], [2, 1, 33, [0,  0,  0,  0,  0,  0,  0,  -180,  1,  3]]]
+    },
+    "219057": {
+        "name": "ガディア",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic light damage (1.5x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  150]]]
     },
     "219058": {
         "name": "去って行った",
@@ -99436,18 +99460,26 @@
             "Cure all status effects for caster",
             "Restore 5-10% HP to caster"
         ],
+        "effects_raw": [[0, 3, 5, [1,  2,  3,  4,  5,  6,  7,  8]], [0, 3, 26, [5,  10,  100]]]
+    },
+    "219303": {
+        "name": "仲間を呼ぶ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon random ally"],
         "effects_raw": [
             [
                 0,
                 3,
-                5,
-                [1, 2, 3, 4, 5, 6, 7, 8]
-            ],
-            [
-                0,
-                3,
-                26,
-                [5, 10, 100]
+                87,
+                [
+                    1,
+                    0,
+                    "仲間がいなかった",
+                    100,
+                    0
+                ]
             ]
         ]
     }

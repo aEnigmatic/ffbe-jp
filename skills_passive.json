@@ -88142,5 +88142,22 @@
         "effects_raw": [[0, 3, 1, [0,  0,  30,  30,  0,  30,  0]], [0, 3, 33, [100]], [0, 3, 68, [50]]],
         "requirements": [["SWITCH", 18921901]],
         "unit_restriction": null
+    },
+    "910481": {
+        "name": "魂の絆",
+        "icon": "ability_91.png",
+        "compendium_id": 2749,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase LB damage by 55%",
+            "Increase LB gauge by 3 per turn"
+        ],
+        "effects_raw": [[0, 3, 68, [55]], [0, 3, 33, [300]]],
+        "requirements": null,
+        "unit_restriction": null
     }
 }
