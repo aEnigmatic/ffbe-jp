@@ -93892,7 +93892,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Reduce damage taken by 100% to one ally for 2 turns"],
+        "effects": ["Reduce damage taken by 100% to one ally for 2 turns (can not be removed)"],
         "effects_raw": [[1, 2, 101, [100,  2,  1,  0]]]
     },
     "218600": {
@@ -94384,7 +94384,7 @@
         "flags": [false,  false,  true,  false],
         "attack_type": "None",
         "execute_type": "Default",
-        "effects": ["Reduce damage taken by 50% to caster for one turn"],
+        "effects": ["Reduce damage taken by 50% to caster for one turn (can not be removed)"],
         "effects_raw": [[0, 3, 101, [50,  1,  1,  0]]]
     },
     "218655": {
@@ -95116,7 +95116,7 @@
         "execute_type": "Default",
         "effects": [
             "Increase DEF and SPR by 200% for one turn to one ally (can not be removed)",
-            "Reduce damage taken by 99% to one ally for one turn",
+            "Reduce damage taken by 99% to one ally for one turn (can not be removed)",
             "Restore 50% HP to one ally"
         ],
         "effects_raw": [[1, 2, 3, [0,  200,  0,  200,  1,  1,  1]], [1, 2, 101, [99,  1,  1,  0]], [1, 2, 26, [50,  50,  100]]]
