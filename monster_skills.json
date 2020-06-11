@@ -102434,18 +102434,337 @@
             "Physical damage (2.4x, ATK) to one enemy",
             "Inflict Paralyze (40%) on one enemy"
         ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  240]], [1, 1, 6, [0,  0,  0,  0,  40,  0,  0,  0,  1]]]
+    },
+    "219676": {
+        "name": "多属性耐性粘液に守られている",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
+        "effects_raw": [[0, 3, 24, [0,  0,  0,  0,  0,  1]]]
+    },
+    "219677": {
+        "name": "粘液ビンタ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
+    },
+    "219678": {
+        "name": "のしかかる",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (2x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  200]]]
+    },
+    "219679": {
+        "name": "武器を溶かされた！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce ATK and MAG by 99% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 24, [-99,  0,  -99,  0,  3,  1]]]
+    },
+    "219680": {
+        "name": "防具を溶かされた！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce DEF and SPR by 50% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 24, [0,  -50,  0,  -50,  3,  1]]]
+    },
+    "219681": {
+        "name": "吸収粘液",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Drain MP",
+        "effects": [
+            "Magic damage (0.1x, MAG) as MP drain (10%) to all enemies",
+            "Remove all buffs and debuffs from all enemies"
+        ],
+        "effects_raw": [[2, 1, 10, [10,  10,  100]], [2, 1, 59, ["none"]]]
+    },
+    "219682": {
+        "name": "吸収した魔力で能力が上昇している！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK, DEF, MAG and SPR by 50% for 2 turns to caster (can not be removed)"],
+        "effects_raw": [[0, 3, 3, [50,  50,  50,  50,  2,  1,  1]]]
+    },
+    "219683": {
+        "name": "粘液の海",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic damage (8x, MAG) to all enemies",
+            "Inflict Disease (100%) on all enemies",
+            "Reduce ATK, DEF, MAG and SPR by 99% for 3 turns to all enemies"
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  800]], [2, 1, 6, [0,  0,  0,  0,  0,  0,  100,  0,  1]], [2, 1, 24, [-99,  -99,  -99,  -99,  3,  1]]]
+    },
+    "219684": {
+        "name": "緑の種を植えた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #1"],
+        "effects_raw": [[0, 2, 87, [1, 1, "種が成長しなかった", 100, 0]]]
+    },
+    "219685": {
+        "name": "白の種を植えた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #2"],
+        "effects_raw": [[0, 2, 87, [1, 2, "種が成長しなかった", 100, 0]]]
+    },
+    "219686": {
+        "name": "魔力が満ちた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase MAG by 50% for one turn to caster"],
+        "effects_raw": [[0, 3, 3, [0,  0,  50,  0,  1,  1,  0]]]
+    },
+    "219687": {
+        "name": "触手をうねらせた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK by 50% for one turn to caster"],
+        "effects_raw": [[0, 3, 3, [50,  0,  0,  0,  1,  1,  0]]]
+    },
+    "219688": {
+        "name": "ストンガ",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic earth damage (3x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]]]
+    },
+    "219689": {
+        "name": "ストンジャ",
+        "flags": [true,  true,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic earth damage (3.2x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  320]]]
+    },
+    "219690": {
+        "name": "マッハウィップ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.5x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  150]]]
+    },
+    "219691": {
+        "name": "防御態勢に入った",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase DEF and SPR by 50% for one turn to caster (can not be removed)"],
+        "effects_raw": [[0, 3, 3, [0,  50,  0,  50,  1,  1,  1]]]
+    },
+    "219692": {
+        "name": "魔法の触手",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic damage (2x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  200]]]
+    },
+    "219693": {
+        "name": "からみついてきた！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Reduce DEF and SPR by 50% for 3 turns to all enemies"],
+        "effects_raw": [[2, 1, 24, [0,  -50,  0,  -50,  3,  1]]]
+    },
+    "219694": {
+        "name": "激痛ツタ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (4x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  400]]]
+    },
+    "219695": {
+        "name": "人喰いの花",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1.2x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  120]]]
+    },
+    "219696": {
+        "name": "ツタあばれ",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (1x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  100]]]
+    },
+    "219697": {
+        "name": "緑の種を植えた",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Summon ally #4"],
+        "effects_raw": [[0, 2, 87, [1, 4, "種が成長しなかった", 100, 0]]]
+    },
+    "219698": {
+        "name": "応急処置",
+        "flags": [false,  false,  true,  true],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Restore 10% HP to one ally"],
+        "effects_raw": [[1, 2, 26, [10,  10,  100]]]
+    },
+    "219699": {
+        "name": "かみつく",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3x, ATK) to one enemy"],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
+    },
+    "219700": {
+        "name": "なぎはらう",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": ["Physical damage (3x, ATK) to all enemies"],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  300]]]
+    },
+    "219701": {
+        "name": "水下の一撃",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Physical",
+        "execute_type": "Default",
+        "effects": [
+            "Physical damage (3x, ATK) to one enemy",
+            "Reduce resistance to Water by 50% for 3 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  300]], [1, 1, 33, [0,  0,  0,  -50,  0,  0,  0,  0,  1,  3]]]
+    },
+    "219702": {
+        "name": "大水流",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": ["Magic water damage (3x, MAG) to all enemies"],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300]]]
+    },
+    "219703": {
+        "name": "静止の水沫",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Default",
+        "effects": [
+            "Magic water damage (5x, MAG) to one enemy",
+            "Reduce ATK, DEF, MAG and SPR by 15% for 3 turns to one enemy",
+            "Inflict Stop (100%) for 3 turns on one enemy"
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500]], [1, 1, 24, [-15,  -15,  -15,  -15,  3,  1]], [1, 1, 88, [100,  3]]]
+    },
+    "219704": {
+        "name": "弱体の毒爪",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": [
+            "Inflict Poison (100%) on one enemy",
+            "Reduce ATK and DEF by 20% for 2 turns to one enemy"
+        ],
+        "effects_raw": [[1, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]], [1, 1, 24, [-20,  -20,  0,  0,  2,  1]]]
+    },
+    "219705": {
+        "name": "激しい水流で力を増した",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Increase ATK and MAG by 10% for 2 turns to caster (can not be removed)"],
+        "effects_raw": [[0, 3, 3, [10,  0,  10,  0,  2,  1,  1]]]
+    },
+    "219706": {
+        "name": "水の膜でバリアを張った",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Grant a 20000000 HP shield to caster for 3 turns"],
+        "effects_raw": [[0, 3, 127, [20000000,  3,  1]]]
+    },
+    "219707": {
+        "name": "リカバリサクション",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Drain MP",
+        "effects": [
+            "Magic damage (0.05x, MAG) as MP drain (100%) to all enemies",
+            "Magic damage (5x, MAG) to all enemies",
+            "Restore 4-6% HP to caster"
+        ],
+        "effects_raw": [[2, 1, 10, [100,  5,  100]], [2, 1, 15, [0,  0,  0,  0,  0,  500]], [0, 3, 26, [4,  6,  100,  0,  0,  0,  0]]]
+    },
+    "219708": {
+        "name": "BREAKでステータスが下がった！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["No effect"],
+        "effects_raw": [[0, 3, 24, [0,  0,  0,  0,  0,  1]]]
+    },
+    "219709": {
+        "name": "BREAKで一時的に麻痺耐性が下がった！",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Remove resistances to Paralyze from caster for 3 turns"],
+        "effects_raw": [[0, 3, 140, [0,  0,  0,  0,  1,  0,  0,  0,  1,  3]]]
+    },
+    "219710": {
+        "name": "水の膜でバリアを張った",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "None",
+        "execute_type": "Default",
+        "effects": ["Grant a 10000000 HP shield to caster for 3 turns"],
+        "effects_raw": [[0, 3, 127, [10000000,  3,  1]]]
+    },
+    "219711": {
+        "name": "リカバリサクション",
+        "flags": [false,  false,  true,  false],
+        "attack_type": "Magic",
+        "execute_type": "Drain MP",
+        "effects": [
+            "Magic damage (0.05x, MAG) as MP drain (100%) to all enemies",
+            "Magic damage (5x, MAG) to all enemies",
+            "Restore 3-5% HP to caster"
+        ],
         "effects_raw": [
             [
+                2,
                 1,
-                1,
-                1,
-                [0, 0, 0, 0, 0, 0, 240]
+                10,
+                [100, 5, 100]
             ],
             [
+                2,
                 1,
-                1,
-                6,
-                [0, 0, 0, 0, 40, 0, 0, 0, 1]
+                15,
+                [0, 0, 0, 0, 0, 500]
+            ],
+            [
+                0,
+                3,
+                26,
+                [3, 5, 100, 0, 0, 0, 0]
             ]
         ]
     }

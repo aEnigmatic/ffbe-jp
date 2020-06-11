@@ -18868,6 +18868,37 @@
         "price_sell": 7000,
         "icon": "item_2060023.png"
     },
+    "310009000": {
+        "name": "アストラルロッド",
+        "compendium_id": 1836,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 6,
+        "type": "Rod",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [236721],
+        "effects": ["Grants '魔杖の球塊' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 184,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 140000,
+        "price_sell": 14000,
+        "icon": "item_2060024.png"
+    },
     "311000200": {
         "name": "サクラの杖",
         "compendium_id": 73,
@@ -55475,5 +55506,137 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2250075.png"
+    },
+    "409043800": {
+        "name": "禁忌のマント",
+        "compendium_id": 1837,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 12,
+            "MAG": 40,
+            "SPR": 0,
+            "element_resist": {
+                "Fire": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250076.png"
+    },
+    "409043900": {
+        "name": "罪咎の首飾り",
+        "compendium_id": 1838,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [236723],
+        "effects": ["Grants '昇魔の種' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 20,
+            "SPR": 0,
+            "element_resist": {
+                "Wind": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_2250077.png"
+    },
+    "409044000": {
+        "name": "真・罪咎の首飾り",
+        "compendium_id": 1839,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [236724],
+        "effects": ["Grants '昇魔の芽' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 25,
+            "SPR": 0,
+            "element_resist": {
+                "Wind": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2250077.png"
+    },
+    "409044100": {
+        "name": "絶・罪咎の首飾り",
+        "compendium_id": 1840,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [236725],
+        "effects": ["Grants '昇魔の作物' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 30,
+            "SPR": 0,
+            "element_resist": {
+                "Wind": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250077.png"
     }
 }
