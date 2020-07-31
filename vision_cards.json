@@ -376,6 +376,42 @@
             "music_id": "400328"
         }
     },
+    "100001301": {
+        "name": "アルティマニア1周年記念",
+        "compendium_id": 22,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [18, 55, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [18, 55, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [237559],
+            "10": [237560]
+        },
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "魔道図書館で召喚を行うサクラと、それを見守るアヤカ。他に類を見ないサクラの魔法に、ミシディアの魔道士たちも大喜び。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "アルティマニア1周年記念",
+            "music": "♪To the Horizon",
+            "music_id": "400004"
+        }
+    },
     "100001501": {
         "name": "夏のひとこま",
         "compendium_id": 17,
@@ -606,6 +642,123 @@
             "shop": "ジャッジマスター",
             "music": "♪帝国のテーマ(Zodiac Age Version)",
             "music_id": "400997"
+        }
+    },
+    "335000101": {
+        "name": "キーブレード墓場の戦い",
+        "compendium_id": 19,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20033,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [50, 100, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [237550],
+            "7": [237551],
+            "10": [237552]
+        },
+        "restriction": {
+            "237552": [7272, "発動条件：【KHユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "キーブレードの束に乗って飛行するソラ。巨大なハートレスの集合体が相手であっても、怯むことなく立ち向かっていく。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "キーブレード墓場の戦い",
+            "music": "♪Moment of Recall",
+            "music_id": "400003"
+        }
+    },
+    "335000201": {
+        "name": "VSデビルズタワー",
+        "compendium_id": 20,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20033,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [35, 110, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [237553],
+            "7": [237554],
+            "10": [237555]
+        },
+        "restriction": {
+            "237555": [7272, "発動条件：【KHユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "消息不明になっているキーブレード使いのアクアを探して、闇の世界へやってきたリク。彼はそこで、塔のように連なったハートレスの集合体と戦う。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "VSデビルズタワー",
+            "music": "♪Moment of Recall",
+            "music_id": "400003"
+        }
+    },
+    "335000301": {
+        "name": "パオプの実のおまじない",
+        "compendium_id": 21,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20033,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [36, 72, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [44, 88, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [237556],
+            "7": [237557],
+            "10": [237558]
+        },
+        "restriction": {
+            "237558": [7272, "発動条件：【KHユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "パオプの木に並んで腰掛けるソラとカイリ。この木の実を食べさせ合ったふたりは、どんなことがあっても必ず結ばれるという言い伝えがあるらしい。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "パオプの実のおまじない",
+            "music": "♪Moment of Recall",
+            "music_id": "400003"
         }
     },
     "900020101": {
