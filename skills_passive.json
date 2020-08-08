@@ -23250,6 +23250,34 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "228190": {
+        "name": "W黒魔法",
+        "icon": "ability_26.png",
+        "compendium_id": 76,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Light"],
+        "effects": ["Gain Dual-cast Black magic"],
+        "effects_raw": [[0, 3, 52, [1,  2,  228190]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "228191": {
+        "name": "れんぞくま",
+        "icon": "ability_26.png",
+        "compendium_id": 75,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Light"],
+        "effects": ["Gain Dual-cast all magic"],
+        "effects_raw": [[0, 3, 52, [0,  2,  228191]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "228200": {
         "name": "金剛不壊",
         "icon": "ability_77.png",
@@ -67503,7 +67531,7 @@
         "effects": [
             "Increase MAG and MP by 40%",
             "Increase magic damage against Demons and Reapers by 100/100%",
-            "Replace LB with アルテマシンフォニー (900000371):\n\tReduce DEF and SPR by 70% for this fight to all enemies\n\tIncrease MAG by 250% for 5 turns to caster (can not be removed)\n\tMagic damage (30.1x * 2 = 60.2x, MAG) to all enemies (ignore reflect)"
+            "Replace LB with アルテマシンフォニー (900000371):\n\tReduce DEF and SPR by 70% for this turn only to all enemies\n\tIncrease MAG by 250% for 5 turns to caster (can not be removed)\n\tMagic damage (30.1x * 2 = 60.2x, MAG) to all enemies (ignore reflect)"
         ],
         "effects_raw": [[0, 3, 1, [0,  0,  40,  0,  0,  40,  0]], [0, 3, 11, [[4,  12], 0, [100,  100]]], [0, 3, 72, [900000371]]],
         "requirements": null,
@@ -82172,6 +82200,34 @@
         "element_inflict": ["Light"],
         "effects": ["Gain Triple-cast White magic"],
         "effects_raw": [[0, 3, 52, [2,  3,  509682]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "510079": {
+        "name": "T詠唱",
+        "icon": "ability_26.png",
+        "compendium_id": 6096,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Light"],
+        "effects": ["Gain Triple-cast all magic"],
+        "effects_raw": [[0, 3, 52, [0,  3,  510079,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "510080": {
+        "name": "IV詠唱",
+        "icon": "ability_26.png",
+        "compendium_id": 6096,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Light"],
+        "effects": ["Gain Quadra-cast all magic"],
+        "effects_raw": [[0, 3, 52, [0,  4,  510080,  0]]],
         "requirements": null,
         "unit_restriction": null
     },
