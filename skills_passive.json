@@ -47478,7 +47478,7 @@
         "element_inflict": null,
         "effects": [
             "Increase DEF and MAG by 50%",
-            "Replace LB with メテオスウォーム (900000342):\n\tNo effect\n\tIncrease LB damage by 150% for one turn\n\tMagic damage (29x, MAG) to all enemies\n\tReduce resistance to Fire, Lightning and Dark by 120% for 3 turns to all enemies\n\tRestore 200 MP to caster"
+            "Replace LB with メテオスウォーム (900000342):\n\tNo effect\n\tIncrease LB damage by 150% to caster for one turn\n\tMagic damage (29x, MAG) to all enemies\n\tReduce resistance to Fire, Lightning and Dark by 120% for 3 turns to all enemies\n\tRestore 200 MP to caster"
         ],
         "effects_raw": [[0, 3, 1, [0,  50,  50,  0,  0,  0,  0]], [0, 3, 72, [900000342]]],
         "requirements": [["EQUIP", 408005500], ["EQUIP", 310005900]],
@@ -56102,7 +56102,7 @@
             "Increase ATK and HP by 50% and DEF and SPR by 30%",
             "Increase LB damage by 25%",
             "Use 思い出に負けない力 (511178) at the start of a battle or when revived",
-            "Replace LB with 超究武神覇斬ver.5 (900000350):\n\tNo effect\n\tIncrease LB damage by 100% for one turn\n\tPhysical damage (26.2x * 2 = 52.4x, ATK) to one enemy (ignore cover)\n\tGain チャージリミット (511175) and ライフストリームの導き (511176) for 3 turns\n\tGain 3 uses of アースブレイク (233932), クライムハザードver.AC (233934), シャインブレイク (233933), スピンドライブ (233936), チャージリミット (511175), フェンリル・フルスロットル (233938), ブレイバーver.AC (233930), ライフストリームの導き (511176), 合体剣 -1st- (233940), 合体剣 -2nd- (233941), 合体剣 -3rd- (233942), 合体剣 -4th- (233943), 桜華狂咲ver.AC (233939), 画龍点睛ver.AC (233935) and 破晄撃ver.AC (233931) for 3 turns"
+            "Replace LB with 超究武神覇斬ver.5 (900000350):\n\tNo effect\n\tIncrease LB damage by 100% to caster for one turn\n\tPhysical damage (26.2x * 2 = 52.4x, ATK) to one enemy (ignore cover)\n\tGain チャージリミット (511175) and ライフストリームの導き (511176) for 3 turns\n\tGain 3 uses of アースブレイク (233932), クライムハザードver.AC (233934), シャインブレイク (233933), スピンドライブ (233936), チャージリミット (511175), フェンリル・フルスロットル (233938), ブレイバーver.AC (233930), ライフストリームの導き (511176), 合体剣 -1st- (233940), 合体剣 -2nd- (233941), 合体剣 -3rd- (233942), 合体剣 -4th- (233943), 桜華狂咲ver.AC (233939), 画龍点睛ver.AC (233935) and 破晄撃ver.AC (233931) for 3 turns"
         ],
         "effects_raw": [[0, 3, 1, [50,  30,  0,  30,  50,  0,  0]], [0, 3, 68, [25]], [0, 3, 56, [511178]], [0, 3, 72, [900000350]]],
         "requirements": [["EQUIP", 504233910], ["EQUIP", 303007800]],
@@ -66297,7 +66297,7 @@
             "Increase equipment ATK by 100% when armed with a single weapon",
             "Increase Accuracy by 25% when armed with a single weapon",
             "Increase chance of countering by 40%",
-            "Replace LB with フェイタルファング (900000370) for 3 turns if HP is below 81%:\n\tNo effect\n\tIncrease LB damage by 100% for one turn\n\tPhysical damage (30.1x * 2 = 60.2x, ATK) to one enemy (ignore cover)\n\tReduce resistance to Ice and Dark by 120% for 5 turns to one enemy\n\tGain 3 uses of グリムリーパー (235521), ハザードスピン (235517), ハザードフォーム (235512), ハザードブレイク (235522), ハードスラッシュ (235518), パライズエッジ (235510), 影縛り (235513), 手裏剣【シュテル】 (235514), 捨て身 (235520), 氷遁 (235515) and 闇遁 (235516) for 5 turns"
+            "Replace LB with フェイタルファング (900000370) for 3 turns if HP is below 81%:\n\tNo effect\n\tIncrease LB damage by 100% to caster for one turn\n\tPhysical damage (30.1x * 2 = 60.2x, ATK) to one enemy (ignore cover)\n\tReduce resistance to Ice and Dark by 120% for 5 turns to one enemy\n\tGain 3 uses of グリムリーパー (235521), ハザードスピン (235517), ハザードフォーム (235512), ハザードブレイク (235522), ハードスラッシュ (235518), パライズエッジ (235510), 影縛り (235513), 手裏剣【シュテル】 (235514), 捨て身 (235520), 氷遁 (235515) and 闇遁 (235516) for 5 turns"
         ],
         "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [100,  25,  2]], [0, 3, 20, [40]], [0, 3, 80, [900000370,  99999,  81,  0,  3]]],
         "requirements": null,
@@ -94270,7 +94270,7 @@
             "Increase SPR by 50% and DEF and MAG by 20%",
             "Increase the damage of 八刀一閃 (229884), 回転攻撃 (229882) and 急所斬り (229891, 708515, 708516) by (3x)",
             "Increase LB damage by 70%",
-            "Replace LB with 連続斬 (900000377):\n\tNo effect\n\tIncrease LB damage by 50% for one turn\n\tPhysical damage (58.8x, ATK) to one enemy"
+            "Replace LB with 連続斬 (900000377):\n\tNo effect\n\tIncrease LB damage by 50% to caster for one turn\n\tPhysical damage (58.8x, ATK) to one enemy"
         ],
         "effects_raw": [[0, 3, 1, [0,  20,  20,  50,  0,  0,  0]], [0, 3, 73, [[229882,  229884,  229891,  708515,  708516], 0, 0, 300]], [0, 3, 68, [70]], [0, 3, 72, [900000377]]],
         "requirements": null,
@@ -95268,7 +95268,7 @@
             "Increase the damage of アサルトブレイク (509745, 513250, 513251) by (2x)",
             "Increase the damage of コンティニュアムカット (230879, 708678, 708679) by (3x)",
             "Increase LB damage by 60%",
-            "Replace LB with 超究武神覇斬 (900000391):\n\tNo effect\n\tIncrease LB damage by 50% for one turn\n\tPhysical damage (32.1x * 2 = 64.2x, ATK) to one enemy (ignore cover)"
+            "Replace LB with 超究武神覇斬 (900000391):\n\tNo effect\n\tIncrease LB damage by 50% to caster for one turn\n\tPhysical damage (32.1x * 2 = 64.2x, ATK) to one enemy (ignore cover)"
         ],
         "effects_raw": [[0, 3, 1, [0,  20,  0,  20,  20,  0,  0]], [0, 3, 73, [[509745,  513250,  513251], 0, 0, 200]], [0, 3, 73, [[230879,  708678,  708679], 0, 0, 300]], [0, 3, 68, [60]], [0, 3, 72, [900000391]]],
         "requirements": null,
