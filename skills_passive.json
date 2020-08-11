@@ -5358,7 +5358,7 @@
         "effects": ["Increase ATK by 40%"],
         "effects_raw": [[0, 3, 1, [40,  0,  0,  0,  0,  0,  0]]],
         "requirements": null,
-        "unit_restriction": [100000202, 100011705, 100023005, 100027005, 100027605, 100011717, 100011727]
+        "unit_restriction": [100000202, 100011705, 100023005, 100027005, 100027605, 100011727]
     },
     "210240": {
         "name": "確固不動",
@@ -5372,7 +5372,7 @@
         "effects": ["Increase resistance to Sleep, Paralyze and Confusion by 100%"],
         "effects_raw": [[0, 3, 2, [0,  0,  100,  0,  100,  100,  0,  0]]],
         "requirements": null,
-        "unit_restriction": [100000202, 100011705, 100023005, 100027005, 100027605, 100011717, 100011727]
+        "unit_restriction": [100000202, 100011705, 100023005, 100027005, 100027605, 100011727]
     },
     "210250": {
         "name": "グランシェルトの騎士",
@@ -5386,7 +5386,7 @@
         "effects": ["Recover MP (5%) per turn"],
         "effects_raw": [[0, 3, 32, [5]]],
         "requirements": null,
-        "unit_restriction": [100000202, 100011705, 100023005, 100027005, 100027605, 100011717, 100011727]
+        "unit_restriction": [100000202, 100011705, 100023005, 100027005, 100027605, 100011727]
     },
     "210260": {
         "name": "蘇りし少女",
@@ -5400,7 +5400,7 @@
         "effects": ["Increase MP by 40%"],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  40,  0]]],
         "requirements": null,
-        "unit_restriction": [100000302, 100011805, 100025705, 100027205]
+        "unit_restriction": [100000302, 100011805, 100025705, 100027205, 100011827]
     },
     "210270": {
         "name": "凛々しき純心",
@@ -5414,7 +5414,7 @@
         "effects": ["Increase resistance to Sleep, Silence and Paralyze by 100%"],
         "effects_raw": [[0, 3, 2, [0,  0,  100,  100,  100,  0,  0,  0]]],
         "requirements": null,
-        "unit_restriction": [100000302, 100011805, 100025705, 100027205]
+        "unit_restriction": [100000302, 100011805, 100025705, 100027205, 100011827]
     },
     "210280": {
         "name": "永遠の花",
@@ -5428,7 +5428,7 @@
         "effects": ["Recover MP (5%) per turn"],
         "effects_raw": [[0, 3, 32, [5]]],
         "requirements": null,
-        "unit_restriction": [100000302, 100011805, 100025705, 100027205]
+        "unit_restriction": [100000302, 100011805, 100025705, 100027205, 100011827]
     },
     "210290": {
         "name": "経験値UP1.3倍",
@@ -39911,8 +39911,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use ガードストライク (510021), シークエントストライク (510022), セイクリッドウェーブ (231310), セイントウォード (231317), ディタレンスソード (231316), バックラーブロウ (231311), ヴァンガードグレイブ (231318), 守護者の光壁 (800126), 戦士の護剣 (510023) and 絆をつなぐ護剣 (510024) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 510025, -1, [231310,  231311,  231316,  231317,  231318,  510021,  510022,  510023,  510024,  800126], 1, 0]]],
+        "effects": ["Enable unit to use インビンシブルシールド (708697), ガードストライク (510021), シークエントストライク (510022), セイクリッドウェーブ (231310), セイントウォード (231317), ディタレンスソード (231316), バックラーブロウ (231311), ブレイブプレゼンスII (708700, 708701), ヴァンガードグレイブ (231318), 光は我らとともにII (708698, 708699), 守護者の光壁 (800126), 我らの光を消せなどしない (708694, 708695), 戦士の護剣 (510023) and 絆をつなぐ護剣 (510024) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 510025, -1, [231310,  231311,  231316,  231317,  231318,  510021,  510022,  510023,  510024,  800126,  708694,  708695,  708697,  708698,  708699,  708700,  708701], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -79732,7 +79732,7 @@
         "attack_type": "None",
         "element_inflict": null,
         "effects": ["Enable unit to use ウィップコンボ (237571), スライドダッシュ (237570), セブンスブレード (237575), ダークシャドウ (237572) and ダークブレイク【KHDR】 (237573) 3 times in one turn"],
-        "effects_raw": [[0, 3, 53, [3, 513190, 0, [237570,  237571,  237572,  237573,  237575], 1, 0]]],
+        "effects_raw": [[0, 3, 53, [3, 513190, -1, [237570,  237571,  237572,  237573,  237575], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -79853,8 +79853,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use Unknown (513207), インフィニティサークル (237623), クイックスラッシュ (237606), サンセットブライト (237607, 237608, 237609, 237610, 237611), シャイニングチャージ (237627), スタンインパクト (237599), ステラインセプション (237614), スパイラルダイブ (237617), スラッシュドロップ (237590), チャージブレイク (237624), フィニッシュアーツ (237618, 237619, 237620, 237621, 237622), フラッシュステップ (237591), ブリッツフォーム (237613), ラグナロク (237612), ラジアルカット (237598) and ラピッドスラッシュ (237592, 237593, 237594, 237595, 237596) 3 times in one turn"],
-        "effects_raw": [[0, 3, 53, [3, 513200, -1, [237590,  237591,  237592,  237593,  237594,  237595,  237596,  237598,  237599,  237606,  237607,  237608,  237609,  237610,  237611,  237612,  237613,  237614,  237617,  237618,  237619,  237620,  237621,  237622,  237623,  237624,  513207,  237627], 1, 0]]],
+        "effects": ["Enable unit to use インフィニティサークル (237623), クイックスラッシュ (237606), サンセットブライト (237607, 237608, 237609, 237610, 237611), シャイニングチャージ (237627), スタンインパクト (237599), ステラインセプション (237614), スパイラルダイブ (237617), スラッシュドロップ (237590), チャージブレイク (237624), フィニッシュアーツ (237618, 237619, 237620, 237621, 237622), フラッシュステップ (237591), ブリッツフォーム (237613), ラグナロク (237612), ラジアルカット (237598) and ラピッドスラッシュ (237592, 237593, 237594, 237595, 237596) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 513200, -1, [237590,  237591,  237592,  237593,  237594,  237595,  237596,  237598,  237599,  237606,  237607,  237608,  237609,  237610,  237611,  237612,  237613,  237614,  237617,  237618,  237619,  237620,  237621,  237622,  237623,  237624,  237627], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -80196,8 +80196,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use ケアルラ【KHIII】 (237672), スパイラルブルーム (237694), セイントシャワー (237688, 237689, 237690, 237691, 237692), セイントセーバー (237670), セイントフォール (237686), デスティニープレイス (237693), ドッジロール (237687), ファイティングアップ (237673, 237674, 237675, 237676, 237677), フラワーシュート (237671), ホーリーシュート (237705), ホーリーライト (237699, 237700, 237701, 237702, 237703) and ライズアップ (237695) 3 times in one turn"],
-        "effects_raw": [[0, 3, 53, [3, 513230, -1, [237670,  237671,  237672,  237673,  237674,  237675,  237676,  237677,  237686,  237687,  237688,  237689,  237690,  237691,  237692,  237693,  237694,  237695,  237699,  237700,  237701,  237702,  237703,  237705], 1, 0]]],
+        "effects": ["Enable unit to use ケアルラ【KHIII】 (237672), スパイラルブルーム (237694), セイントシャワー (237688, 237689, 237690, 237691, 237692), セイントセーバー (237670), セイントフォール (237686), デスティニープレイス (237693), ドッジロール (237687), ハイパーヒーリング (237679), ファイティングアップ (237673, 237674, 237675, 237676, 237677), フラワーシュート (237671), ホーリーシュート (237705), ホーリーライト (237699, 237700, 237701, 237702, 237703) and ライズアップ (237695) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 513230, -1, [237670,  237671,  237672,  237673,  237674,  237675,  237676,  237677,  237686,  237687,  237688,  237689,  237690,  237691,  237692,  237693,  237694,  237695,  237699,  237700,  237701,  237702,  237703,  237705,  237679], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -80391,6 +80391,949 @@
         "element_inflict": null,
         "effects": ["Enable unit to use HPヒーリング (237698), ハイパーヒーリング (237679), ホーリーシュート (237705), リーフチアー (237704) and リーフベール (237706) twice in one turn"],
         "effects_raw": [[0, 3, 53, [2, 513238, -1, [237698,  237704,  237705,  237706,  237679], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237720": {
+        "name": "敏腕新人ガンナー",
+        "icon": "ability_95.png",
+        "compendium_id": 11067,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MAG by 30%",
+            "Increase ATK and MAG by 30% when equipped with a Gun"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  30,  0,  0,  0,  0]], [0, 3, 6, [14,  30,  0,  30,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237721": {
+        "name": "砂嵐を耐える盾技",
+        "icon": "ability_95.png",
+        "compendium_id": 11068,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Wind and Earth by 30%",
+            "Increase HP by 40% and DEF by 20% when equipped with a Light Shield"
+        ],
+        "effects_raw": [[0, 3, 3, [0,  0,  0,  0,  30,  30,  0,  0]], [0, 3, 6, [30,  0,  20,  0,  0,  40,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237722": {
+        "name": "ピースメイカー",
+        "icon": "ability_72.png",
+        "compendium_id": 11069,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase equipment MAG by 10% when armed with two weapons"],
+        "effects_raw": [[0, 3, 69, [3,  10,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237723": {
+        "name": "ピースメイカー+",
+        "icon": "ability_72.png",
+        "compendium_id": 11070,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase equipment MAG by 15% when armed with two weapons"],
+        "effects_raw": [[0, 3, 69, [3,  15,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237724": {
+        "name": "ピースメイカー++",
+        "icon": "ability_72.png",
+        "compendium_id": 11071,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase equipment MAG by 25% when armed with two weapons"],
+        "effects_raw": [[0, 3, 69, [3,  25,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237725": {
+        "name": "グランシェルトの新人騎士",
+        "icon": "ability_95.png",
+        "compendium_id": 11072,
+        "rarity": 5,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 30%",
+            "Increase MAG by 30% when equipped with a Gun"
+        ],
+        "effects_raw": [[0, 3, 1, [30,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [14,  0,  0,  30,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237726": {
+        "name": "陰で支える者",
+        "icon": "ability_83.png",
+        "compendium_id": 11073,
+        "rarity": 9,
+        "unique": true,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "20% chance of evading physical attacks",
+            "Increase chance of being targeted by 30%"
+        ],
+        "effects_raw": [[0, 3, 22, [20]], [0, 3, 24, [30]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237730": {
+        "name": "【VC】楽しい日常I",
+        "icon": "ability_95.png",
+        "compendium_id": 11073,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK and MAG by 20% when equipped with a Gun"],
+        "effects_raw": [[0, 3, 6, [14,  20,  0,  20,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237731": {
+        "name": "【VC】楽しい日常II",
+        "icon": "ability_95.png",
+        "compendium_id": 11074,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK and MAG by 20% when equipped with a Gun"],
+        "effects_raw": [[0, 3, 6, [14,  20,  0,  20,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237732": {
+        "name": "【VC】吹っ飛びグリ",
+        "icon": "ability_77.png",
+        "compendium_id": 11075,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK and MAG by 30%"],
+        "effects_raw": [[0, 3, 1, [30,  0,  30,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237733": {
+        "name": "【VC】全員集合！I",
+        "icon": "ability_9.png",
+        "compendium_id": 11109,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to Lightning, Earth and Dark by 10%"],
+        "effects_raw": [[0, 3, 3, [0,  0,  10,  0,  0,  10,  0,  10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237734": {
+        "name": "【VC】全員集合！II",
+        "icon": "ability_9.png",
+        "compendium_id": 11110,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to Lightning, Earth and Dark by 10%"],
+        "effects_raw": [[0, 3, 3, [0,  0,  10,  0,  0,  10,  0,  10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237735": {
+        "name": "【VC】マダムのために",
+        "icon": "ability_9.png",
+        "compendium_id": 11111,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Lightning, Earth and Dark by 20%",
+            "Increase ATK and MAG by 20%"
+        ],
+        "effects_raw": [[0, 3, 3, [0,  0,  20,  0,  0,  20,  0,  20]], [0, 3, 1, [20,  0,  20,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237759": {
+        "name": "白蓮の乙女",
+        "icon": "ability_19.png",
+        "compendium_id": 11099,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase Stop resistance by 100% to caster"
+        ],
+        "effects_raw": [[0, 3, 89, [0,  0,  0,  0,  0,  200]], [0, 3, 55, [0,  0,  0,  0,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237760": {
+        "name": "ふたりの想い",
+        "icon": "ability_77.png",
+        "compendium_id": 11100,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the damage of アークパニッシャー (221070), セイクリッドバースト (221060, 707745, 707746) and ディストピア (204350) by (18x)"],
+        "effects_raw": [[0, 3, 73, [[204350,  221060,  221070,  707745,  707746], 0, 0, 1800]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237761": {
+        "name": "ふたりの想い",
+        "icon": "ability_77.png",
+        "compendium_id": 11101,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the damage of アークパニッシャー (221070), セイクリッドバースト (221060, 707745, 707746) and ディストピア (204350) by (20x)"],
+        "effects_raw": [[0, 3, 73, [[204350,  221060,  221070,  707745,  707746], 0, 0, 2000]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237762": {
+        "name": "ふたりの想い",
+        "icon": "ability_77.png",
+        "compendium_id": 11102,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the damage of アークパニッシャー (221070), セイクリッドバースト (221060, 707745, 707746) and ディストピア (204350) by (22x)"],
+        "effects_raw": [[0, 3, 73, [[204350,  221060,  221070,  707745,  707746], 0, 0, 2200]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237763": {
+        "name": "ふたりの想い",
+        "icon": "ability_77.png",
+        "compendium_id": 11103,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the damage of アークパニッシャー (221070), セイクリッドバースト (221060, 707745, 707746) and ディストピア (204350) by (24x)"],
+        "effects_raw": [[0, 3, 73, [[204350,  221060,  221070,  707745,  707746], 0, 0, 2400]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237764": {
+        "name": "ふたりの想い",
+        "icon": "ability_77.png",
+        "compendium_id": 11104,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the damage of アークパニッシャー (221070), セイクリッドバースト (221060, 707745, 707746) and ディストピア (204350) by (28x)"],
+        "effects_raw": [[0, 3, 73, [[204350,  221060,  221070,  707745,  707746], 0, 0, 2800]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237765": {
+        "name": "魔人の守護",
+        "icon": "ability_9.png",
+        "compendium_id": 11105,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to all elements by 50%"],
+        "effects_raw": [[0, 3, 3, [50,  50,  50,  50,  50,  50,  50,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237766": {
+        "name": "魔人の守護",
+        "icon": "ability_9.png",
+        "compendium_id": 11106,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to all elements by 60%"],
+        "effects_raw": [[0, 3, 3, [60,  60,  60,  60,  60,  60,  60,  60]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237767": {
+        "name": "魔人の守護",
+        "icon": "ability_9.png",
+        "compendium_id": 11107,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to all elements by 75%"],
+        "effects_raw": [[0, 3, 3, [75,  75,  75,  75,  75,  75,  75,  75]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237768": {
+        "name": "魔人の守護",
+        "icon": "ability_9.png",
+        "compendium_id": 11108,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to all elements by 85%"],
+        "effects_raw": [[0, 3, 3, [85,  85,  85,  85,  85,  85,  85,  85]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237769": {
+        "name": "魔人の守護",
+        "icon": "ability_9.png",
+        "compendium_id": 11109,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to all elements by 100%"],
+        "effects_raw": [[0, 3, 3, [100,  100,  100,  100,  100,  100,  100,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237770": {
+        "name": "願いの蕾",
+        "icon": "ability_91.png",
+        "compendium_id": 11110,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase LB gauge by 12 per turn",
+            "Increase the limit burst gauge fill rate by 400%"
+        ],
+        "effects_raw": [[0, 3, 33, [1200]], [0, 3, 31, [400]]],
+        "requirements": [["EQUIP", 403043800], ["EQUIP", 504227605]],
+        "unit_restriction": null
+    },
+    "237771": {
+        "name": "純真の花弁",
+        "icon": "ability_95.png",
+        "compendium_id": 11111,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR by 150% when equipped with a Bow"],
+        "effects_raw": [[0, 3, 6, [7,  0,  0,  0,  150,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237772": {
+        "name": "ふたりの魔力",
+        "icon": "ability_77.png",
+        "compendium_id": 11112,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase MAG and SPR by 180% and HP and MP by 120%"],
+        "effects_raw": [[0, 3, 1, [0,  0,  180,  180,  120,  120,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237773": {
+        "name": "羽ばたく祈り",
+        "icon": "ability_19.png",
+        "compendium_id": 11113,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Sleep, Silence and Paralyze by 100%",
+            "Increase Charm resistance by 100% to caster"
+        ],
+        "effects_raw": [[0, 3, 2, [0,  0,  100,  100,  100,  0,  0,  0]], [0, 3, 55, [0,  0,  0,  0,  0,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237785": {
+        "name": "W聖盾",
+        "icon": "ability_8.png",
+        "compendium_id": 11119,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use アイススラッシュ (230184), アトラクトウォール (230182), グランシェルトの光 (230196, 708199, 708200), グロリアスヒール (230192), ディバインパニッシュ (509432), ナイトオブナイツ (230193, 708193, 708194), フリージングパニッシュ (509433), ホーリースラッシュ (230183), マジックストライク (230190), メンタルストライク (230189), ヴォイスオブナイト (237786), 奮起の大号令 (237798), 暁光の騎士剣 (237792), 氷晶の騎士剣 (230198, 708197, 708198), 聖光の一刃 (237799), 聖氷の護り (230191), 聖盾のヴェール (237780, 237781, 237782, 237783, 237784), 誠光の騎士剣 (230197, 708195, 708196), 邪を阻む聖盾 (237793, 237794, 237795, 237796, 237797), 阻魔の聖盾 (237787, 237788, 237789, 237790, 237791) and 騎士の大号令 (230185) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 513280, -1, [230182,  230183,  230184,  230185,  230189,  230190,  230191,  230192,  230193,  230196,  230197,  230198,  509432,  509433,  708193,  708194,  708195,  708196,  708197,  708198,  708199,  708200,  237780,  237781,  237782,  237783,  237784,  237786,  237787,  237788,  237789,  237790,  237791,  237792,  237793,  237794,  237795,  237796,  237797,  237798,  237799], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237800": {
+        "name": "騎士たちを統率する者",
+        "icon": "ability_98.png",
+        "compendium_id": 11134,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to Dark by 50%"],
+        "effects_raw": [[0, 3, 3, [0,  0,  0,  0,  0,  0,  0,  50]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237801": {
+        "name": "グランシェルト国民の憧れ",
+        "icon": "ability_77.png",
+        "compendium_id": 11135,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the damage of 氷晶の騎士剣 (230198, 708197, 708198) and 誠光の騎士剣 (230197, 708195, 708196) by (12x)"],
+        "effects_raw": [[0, 3, 73, [[230197,  230198,  708195,  708196,  708197,  708198], 0, 0, 1200]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237802": {
+        "name": "グランシェルト国民の憧れ",
+        "icon": "ability_77.png",
+        "compendium_id": 11136,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the damage of 氷晶の騎士剣 (230198, 708197, 708198) and 誠光の騎士剣 (230197, 708195, 708196) by (18x)"],
+        "effects_raw": [[0, 3, 73, [[230197,  230198,  708195,  708196,  708197,  708198], 0, 0, 1800]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237803": {
+        "name": "グランシェルト国民の憧れ",
+        "icon": "ability_77.png",
+        "compendium_id": 11137,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the damage of 氷晶の騎士剣 (230198, 708197, 708198) and 誠光の騎士剣 (230197, 708195, 708196) by (24x)"],
+        "effects_raw": [[0, 3, 73, [[230197,  230198,  708195,  708196,  708197,  708198], 0, 0, 2400]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237804": {
+        "name": "グランシェルト国民の憧れ",
+        "icon": "ability_77.png",
+        "compendium_id": 11138,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the damage of 氷晶の騎士剣 (230198, 708197, 708198) and 誠光の騎士剣 (230197, 708195, 708196) by (30x)"],
+        "effects_raw": [[0, 3, 73, [[230197,  230198,  708195,  708196,  708197,  708198], 0, 0, 3000]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237805": {
+        "name": "グランシェルト国民の憧れ",
+        "icon": "ability_77.png",
+        "compendium_id": 11139,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase the damage of 氷晶の騎士剣 (230198, 708197, 708198) and 誠光の騎士剣 (230197, 708195, 708196) by (36x)"],
+        "effects_raw": [[0, 3, 73, [[230197,  230198,  708195,  708196,  708197,  708198], 0, 0, 3600]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237806": {
+        "name": "ナイトオブグランシェルト授受者",
+        "icon": "ability_91.png",
+        "compendium_id": 11140,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase LB gauge by 4 per turn",
+            "Increase the limit burst gauge fill rate by 300%"
+        ],
+        "effects_raw": [[0, 3, 33, [400]], [0, 3, 31, [300]]],
+        "requirements": [["EQUIP", 404003900], ["EQUIP", 402003500]],
+        "unit_restriction": null
+    },
+    "237807": {
+        "name": "凛とした女騎士",
+        "icon": "ability_79.png",
+        "compendium_id": 11141,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase physical damage against Demons and Reapers by 10/10%",
+            "Increase resistance to Ice and Light by 20%"
+        ],
+        "effects_raw": [[0, 3, 11, [[4,  12], [10,  10], 0]], [0, 3, 3, [0,  20,  0,  0,  0,  0,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237808": {
+        "name": "凛とした女騎士",
+        "icon": "ability_79.png",
+        "compendium_id": 11142,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase physical damage against Demons and Reapers by 20/20%",
+            "Increase resistance to Ice and Light by 40%"
+        ],
+        "effects_raw": [[0, 3, 11, [[4,  12], [20,  20], 0]], [0, 3, 3, [0,  40,  0,  0,  0,  0,  40,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237809": {
+        "name": "凛とした女騎士",
+        "icon": "ability_79.png",
+        "compendium_id": 11143,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase physical damage against Demons and Reapers by 30/30%",
+            "Increase resistance to Ice and Light by 60%"
+        ],
+        "effects_raw": [[0, 3, 11, [[4,  12], [30,  30], 0]], [0, 3, 3, [0,  60,  0,  0,  0,  0,  60,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237810": {
+        "name": "凛とした女騎士",
+        "icon": "ability_79.png",
+        "compendium_id": 11144,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase physical damage against Demons and Reapers by 40/40%",
+            "Increase resistance to Ice and Light by 80%"
+        ],
+        "effects_raw": [[0, 3, 11, [[4,  12], [40,  40], 0]], [0, 3, 3, [0,  80,  0,  0,  0,  0,  80,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237811": {
+        "name": "凛とした女騎士",
+        "icon": "ability_79.png",
+        "compendium_id": 11145,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase physical damage against Demons and Reapers by 50/50%",
+            "Increase resistance to Ice and Light by 100%"
+        ],
+        "effects_raw": [[0, 3, 11, [[4,  12], [50,  50], 0]], [0, 3, 3, [0,  100,  0,  0,  0,  0,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237812": {
+        "name": "聖盾騎士の不屈",
+        "icon": "ability_41.png",
+        "compendium_id": 11146,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 250% when HP drops below 20% (max 1x)",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 5% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 4, [4,  250,  1,  20,  0,  -1]], [0, 3, 51, [5,  100,  0,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237813": {
+        "name": "祖国を守護する騎士",
+        "icon": "ability_19.png",
+        "compendium_id": 11147,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 200%",
+            "Increase resistance to Sleep, Paralyze, Confusion and Petrify by 100%",
+            "Increase Charm resistance by 100% to caster"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  200,  0,  200,  0,  0,  0]], [0, 3, 2, [0,  0,  100,  0,  100,  100,  0,  100]], [0, 3, 55, [0,  0,  0,  0,  0,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237814": {
+        "name": "騎士同期の絆【シャルロット】",
+        "icon": "ability_91.png",
+        "compendium_id": 11148,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 80%",
+            "Recover MP (7%) per turn"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  80,  0]], [0, 3, 32, [7]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237815": {
+        "name": "我が盾を見よ",
+        "icon": "ability_95.png",
+        "compendium_id": 11149,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP by 100% when equipped with a Sword",
+            "Increase HP by 100% when equipped with a Light Shield",
+            "Increase HP by 100% when equipped with a Heavy Shield",
+            "Increase chance of being targeted by 80%"
+        ],
+        "effects_raw": [[0, 3, 6, [2,  0,  0,  0,  0,  100,  0,  0]], [0, 3, 6, [30,  0,  0,  0,  0,  100,  0,  0]], [0, 3, 6, [31,  0,  0,  0,  0,  100,  0,  0]], [0, 3, 24, [80]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237825": {
+        "name": "T最強技",
+        "icon": "ability_8.png",
+        "compendium_id": 11155,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use F型最強アイス弾 (237820, 237821, 237822, 237823, 237824), F型最強ウィンド弾 (237834, 237835, 237836, 237837, 237838), F型最強ウォータ弾 (237845, 237846, 237847, 237848, 237849), F型最強リミット弾セット (237853), アイスシャワーショット (237827), タイプ・マジックガンナー (237829), 支援用プレミアムファイサリス弾 (237841), 水闘魔弾 (237850), 氷闘魔弾 (237826), 自己強化用プレミアムグリ弾 (237854) and 風闘魔弾 (237839) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 513290, -1, [237820,  237821,  237822,  237823,  237824,  237826,  237827,  237829,  237834,  237835,  237836,  237837,  237838,  237839,  237841,  237845,  237846,  237847,  237848,  237849,  237850,  237853,  237854], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237830": {
+        "name": "新人騎士・ファイサリス",
+        "icon": "ability_19.png",
+        "compendium_id": 11160,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Recover MP (5%) per turn",
+            "Increase resistance to Blind, Paralyze and Confusion by 100%"
+        ],
+        "effects_raw": [[0, 3, 32, [5]], [0, 3, 2, [0,  100,  0,  0,  100,  100,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237831": {
+        "name": "元・最強の十六闘星",
+        "icon": "ability_72.png",
+        "compendium_id": 11161,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 40% and HP and MP by 30%",
+            "Enable unit to equip two one-handed weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  40,  0,  30,  30,  0]], [0, 3, 14, ["none"]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237832": {
+        "name": "受け継ぎし二つの血",
+        "icon": "ability_91.png",
+        "compendium_id": 11162,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase LB gauge by 3 per turn",
+            "Increase the limit burst gauge fill rate by 200%"
+        ],
+        "effects_raw": [[0, 3, 33, [300]], [0, 3, 31, [200]]],
+        "requirements": [["EQUIP", 504237720], ["EQUIP", 409045700]],
+        "unit_restriction": null
+    },
+    "237833": {
+        "name": "期待の新星",
+        "icon": "ability_79.png",
+        "compendium_id": 11163,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase LB damage by 200%",
+            "Increase magic damage against Fairies by 150%"
+        ],
+        "effects_raw": [[0, 3, 68, [200]], [0, 3, 11, [8,  0,  150]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237843": {
+        "name": "風氷銃シフト",
+        "icon": "ability_95.png",
+        "compendium_id": 11173,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase HP by 20%",
+            "Increase MAG by 50% when equipped with a Gun"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  20,  0,  0]], [0, 3, 6, [14,  0,  0,  50,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237844": {
+        "name": "俊足の銃撃者",
+        "icon": "ability_72.png",
+        "compendium_id": 11174,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 100%",
+            "10% chance of evading physical attacks",
+            "Increase magic damage against Demons by 75%",
+            "Increase equipment MAG by 150% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  100,  0,  0,  0,  0]], [0, 3, 22, [10]], [0, 3, 11, [4,  0,  75]], [0, 3, 69, [3,  150,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237855": {
+        "name": "水氷銃シフト",
+        "icon": "ability_95.png",
+        "compendium_id": 11185,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 20%",
+            "Recover MP (5%) per turn",
+            "Increase MAG by 50% when equipped with a Gun"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  20,  0]], [0, 3, 32, [5]], [0, 3, 6, [14,  0,  0,  50,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237856": {
+        "name": "姿なき狙撃者",
+        "icon": "ability_72.png",
+        "compendium_id": 11186,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 100%",
+            "Reduce chance of being targeted by 50%",
+            "Increase magic damage against Demons by 100%",
+            "Increase equipment MAG by 200% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  100,  0,  0,  0,  0]], [0, 3, 25, [50]], [0, 3, 11, [4,  0,  100]], [0, 3, 69, [3,  200,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237863": {
+        "name": "W遊撃",
+        "icon": "ability_8.png",
+        "compendium_id": 11190,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use スニークアサルト (237861), ナイトローズガード (237860), プライドオブナイト (237862), プロテクトライズ (800554), 遊撃隊・物理防御陣形 (237864) and 遊撃隊・魔法防御陣形 (237865) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 513300, -1, [237860,  237861,  237862,  237864,  237865,  800554], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237866": {
+        "name": "軽装戦士の定石",
+        "icon": "ability_95.png",
+        "compendium_id": 11193,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MP by 50% when equipped with a Sword",
+            "Increase ATK and MP by 50% when equipped with a Light Shield"
+        ],
+        "effects_raw": [[0, 3, 6, [2,  50,  0,  0,  0,  0,  50,  0]], [0, 3, 6, [30,  50,  0,  0,  0,  0,  50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237867": {
+        "name": "騎士同期の絆【ローレンス】",
+        "icon": "ability_91.png",
+        "compendium_id": 11194,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Recover MP (5%) per turn",
+            "Gain リジェネ(覇者の闘気用) (10122) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 32, [5]], [0, 3, 35, [10122]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237868": {
+        "name": "入団試験試験官",
+        "icon": "ability_95.png",
+        "compendium_id": 11195,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase SPR by 140% when equipped with a Light Armor",
+            "Increase DEF by 140% when equipped with a Heavy Armor"
+        ],
+        "effects_raw": [[0, 3, 6, [51,  0,  0,  0,  140,  0,  0,  0]], [0, 3, 6, [52,  0,  140,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237869": {
+        "name": "グランシェルト遊撃騎士隊長",
+        "icon": "ability_83.png",
+        "compendium_id": 11196,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase chance of being targeted by 50%",
+            "20% chance of evading physical attacks"
+        ],
+        "effects_raw": [[0, 3, 24, [50]], [0, 3, 22, [20]]],
+        "requirements": [["EQUIP", 504237721], ["EQUIP", 401003900]],
+        "unit_restriction": null
+    },
+    "237870": {
+        "name": "遅咲きの男",
+        "icon": "ability_19.png",
+        "compendium_id": 11197,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF, SPR and HP by 100%",
+            "Increase resistance to Paralyze, Confusion and Petrify by 100%",
+            "Increase Stop resistance by 100% to caster",
+            "Increase Charm resistance by 100% to caster"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  100,  0,  100,  100,  0,  0]], [0, 3, 2, [0,  0,  0,  0,  100,  100,  0,  100]], [0, 3, 55, [0,  0,  0,  0,  100,  100]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -95351,6 +96294,43 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "708702": {
+        "name": "時の鎖を断ち切る者",
+        "icon": "ability_91.png",
+        "compendium_id": 6030,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF by 30% and MP by 20%",
+            "Increase LB gauge by 2 per turn",
+            "Increase resistance to Fire, Ice, Lightning and Light by 20%"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  0,  0,  20,  0]], [0, 3, 33, [200]], [0, 3, 3, [20,  20,  20,  0,  0,  0,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "708703": {
+        "name": "時の鎖を断ち切る者",
+        "icon": "ability_91.png",
+        "compendium_id": 6030,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF by 30% and MP by 20%",
+            "Increase LB gauge by 2 per turn",
+            "Increase resistance to Fire, Ice, Lightning and Light by 20%",
+            "Replace LB with クリスタルブレイバー (900000393):\n\tNo effect\n\tIncrease DEF by 250% for 3 turns to all allies (can not be removed)\n\tPhysical damage (41.1x, DEF) to all enemies\n\tGrant a 4000 HP shield to all allies for 3 turns"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  30,  0,  0,  0,  20,  0]], [0, 3, 33, [200]], [0, 3, 3, [20,  20,  20,  0,  0,  0,  20,  0]], [0, 3, 72, [900000393]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "800000": {
         "name": "二刀の極意",
         "icon": "ability_72.png",
@@ -95718,8 +96698,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use アークパニッシャー (221070), エタニティライト (227601), シャイニングチアー (221050, 707741, 707742), セイクリッドバースト (221060, 707745, 707746), ディストピア (204350), ディバインヴェール (221080, 707743, 707744), ブロッサムハーツ (227600), プライムヒール (221010), マナトピア (221030) and リバースハーツ (221020) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 509854, -1, [204350,  221010,  221020,  221030,  221050,  221060,  221070,  221080,  227600,  227601,  707741,  707742,  707743,  707744,  707745,  707746], 1, 0]]],
+        "effects": ["Enable unit to use アークパニッシャー (221070), エタニティライト (227601), エターナルブロッサム (237750), シャイニングチアー (221050, 707741, 707742), セイクリッドバースト (221060, 707745, 707746), ディストピア (204350), ディバインヴェール (221080, 707743, 707744), ヒールペトル (237740, 237741, 237742, 237743, 237744), ブロッサムハーツ (227600), プライムヒール (221010), マナトピア (221030), リバースハーツ (221020), ロータスインプルーブ (237745, 237746, 237747, 237748, 237749) and 白蓮の朝露 (237751) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 509854, -1, [204350,  221010,  221020,  221030,  221050,  221060,  221070,  221080,  227600,  227601,  707741,  707742,  707743,  707744,  707745,  707746,  237740,  237741,  237742,  237743,  237744,  237745,  237746,  237747,  237748,  237749,  237750,  237751], 1, 0]]],
         "requirements": [["SWITCH", 18921201]],
         "unit_restriction": null
     },
@@ -100522,6 +101502,23 @@
         ],
         "effects_raw": [[0, 3, 55, [0,  0,  0,  0,  0,  100]], [0, 3, 69, [3,  50,  0]], [0, 3, 70, [50,  25,  2]]],
         "requirements": [["SWITCH", 18921402]],
+        "unit_restriction": null
+    },
+    "800555": {
+        "name": "能力を隠した策士",
+        "icon": "ability_91.png",
+        "compendium_id": 516,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase LB gauge by 2 per turn",
+            "Increase the limit burst gauge fill rate by 100%"
+        ],
+        "effects_raw": [[0, 3, 33, [200]], [0, 3, 31, [100]]],
+        "requirements": [["SWITCH", 18921201]],
         "unit_restriction": null
     },
     "910481": {
