@@ -2439,6 +2439,8 @@
         "position": [0, 0],
         "icon": "spd_20200708_bn_list_kiseki_01.png",
         "missions": {
+            "2280101": "輝石の間【真紅】(EASY)",
+            "2280102": "輝石の間【真紅】(HARD)",
             "2280103": "輝石の間【真紅】(EASY)",
             "2280104": "輝石の間【真紅】(HARD)"
         }
@@ -2451,6 +2453,8 @@
         "position": [0, 0],
         "icon": "spd_20200708_bn_list_kiseki_02.png",
         "missions": {
+            "2280201": "輝石の間【黄橙】(EASY)",
+            "2280202": "輝石の間【黄橙】(HARD)",
             "2280203": "輝石の間【黄橙】(EASY)",
             "2280204": "輝石の間【黄橙】(HARD)"
         }
@@ -2463,6 +2467,8 @@
         "position": [0, 0],
         "icon": "spd_20200708_bn_list_kiseki_03.png",
         "missions": {
+            "2280301": "輝石の間【青藍】(EASY)",
+            "2280302": "輝石の間【青藍】(HARD)",
             "2280303": "輝石の間【青藍】(EASY)",
             "2280304": "輝石の間【青藍】(HARD)"
         }
@@ -2475,6 +2481,8 @@
         "position": [0, 0],
         "icon": "spd_20200708_bn_list_kiseki_04.png",
         "missions": {
+            "2280401": "輝石の間【碧緑】(EASY)",
+            "2280402": "輝石の間【碧緑】(HARD)",
             "2280403": "輝石の間【碧緑】(EASY)",
             "2280404": "輝石の間【碧緑】(HARD)"
         }
@@ -2487,6 +2495,8 @@
         "position": [0, 0],
         "icon": "spd_20200708_bn_list_kiseki_05.png",
         "missions": {
+            "2280501": "輝石の間【雪白】(EASY)",
+            "2280502": "輝石の間【雪白】(HARD)",
             "2280503": "輝石の間【雪白】(EASY)",
             "2280504": "輝石の間【雪白】(HARD)"
         }
@@ -2499,6 +2509,8 @@
         "position": [0, 0],
         "icon": "spd_20200708_bn_list_kiseki_06.png",
         "missions": {
+            "2280601": "輝石の間【紫紺】(EASY)",
+            "2280602": "輝石の間【紫紺】(HARD)",
             "2280603": "輝石の間【紫紺】(EASY)",
             "2280604": "輝石の間【紫紺】(HARD)"
         }
@@ -17603,6 +17615,116 @@
         "icon": "runningevent_icon_battle.png",
         "missions": {
             "9999901": "ストーリー1-1"
+        }
+    },
+    "100001": {
+        "names": ["NORMAL　1層"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1000",
+        "position": [240, 1170],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "10000101": "NORMAL　1層"
+        }
+    },
+    "100002": {
+        "names": ["NORMAL　2層"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1000",
+        "position": [240, 962],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "10000102": "NORMAL　2層"
+        }
+    },
+    "100003": {
+        "names": ["NORMAL　3層"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1000",
+        "position": [240, 755],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "10000103": "NORMAL　3層"
+        }
+    },
+    "100004": {
+        "names": ["NORMAL　4層"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1000",
+        "position": [240, 547],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "10000104": "NORMAL　4層"
+        }
+    },
+    "100005": {
+        "names": ["NORMAL　天頂"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1000",
+        "position": [240, 340],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "10000105": "NORMAL　天頂"
+        }
+    },
+    "100101": {
+        "names": ["HARD　1層"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1001",
+        "position": [240, 1170],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "10010101": "HARD　1層"
+        }
+    },
+    "100102": {
+        "names": ["HARD　2層"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1001",
+        "position": [240, 962],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "10010102": "HARD　2層"
+        }
+    },
+    "100103": {
+        "names": ["HARD　3層"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1001",
+        "position": [240, 755],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "10010103": "HARD　3層"
+        }
+    },
+    "100104": {
+        "names": ["HARD　4層"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1001",
+        "position": [240, 547],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "10010104": "HARD　4層"
+        }
+    },
+    "100105": {
+        "names": ["HARD　天頂"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "1001",
+        "position": [240, 340],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "10010105": "HARD　天頂"
         }
     },
     "111101": {
