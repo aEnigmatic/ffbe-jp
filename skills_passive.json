@@ -6385,7 +6385,7 @@
         "effects": ["Increase HP by 15%"],
         "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  15,  0,  0]]],
         "requirements": null,
-        "unit_restriction": [203000105, 203001305]
+        "unit_restriction": [203000105, 203001305, 203001327]
     },
     "211730": {
         "name": "健康",
@@ -6399,7 +6399,7 @@
         "effects": ["Increase resistance to Poison, Sleep, Confusion and Disease by 50%"],
         "effects_raw": [[0, 3, 2, [50,  0,  50,  0,  0,  50,  50,  0]]],
         "requirements": null,
-        "unit_restriction": [203000105, 203001305]
+        "unit_restriction": [203000105, 203001305, 203001327]
     },
     "211740": {
         "name": "狂戦士",
@@ -25190,8 +25190,8 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Enable unit to use 暗黒の新生 (708382), 暗黒剣・九刻回生 (800142), 暗黒剣・吸命妖刀 (228571), 暗黒剣・天の叢雲 (508630), 暗黒剣・正宗 (228575), 暗黒剣・菊一文字 (228574), 暗黒剣・虎徹 (228573, 708377, 708378), 暗黒剣・闇砕 (228570), 暗黒剣・阿修羅 (228572, 708375, 708376), 暗黒剣・魔の冥撃 (228576, 708379, 708380) and 深淵の傷痕 (708384) twice in one turn"],
-        "effects_raw": [[0, 3, 53, [2, 508633, -1, [228570,  228571,  228572,  228573,  228574,  228575,  228576,  508630,  800142,  708375,  708376,  708377,  708378,  708379,  708380,  708382,  708384], 1, 0]]],
+        "effects": ["Enable unit to use 吸血刃 (237951), 回魔刃 (237953), 暗黒の新生 (228577, 708381, 708382), 暗黒剣・一刀入魂 (237967), 暗黒剣・九刻回生 (800142), 暗黒剣・八衝 (237968), 暗黒剣・切裂 (237960, 237961, 237962, 237963, 237964), 暗黒剣・十閃 (237969), 暗黒剣・吸命妖刀 (228571), 暗黒剣・天の叢雲 (508630), 暗黒剣・正宗 (228575), 暗黒剣・菊一文字 (228574), 暗黒剣・虎徹 (228573, 708377, 708378), 暗黒剣・解閃 (237966), 暗黒剣・闇砕 (228570), 暗黒剣・阿修羅 (228572, 708375, 708376), 暗黒剣・魔の冥撃 (228576, 708379, 708380), 深淵の傷痕 (228578, 708383, 708384), 無二無三 (237965), 鎮魂の剣舞 (237946, 237947, 237948, 237949, 237950), 闇断刃 (237940, 237941, 237942, 237943, 237944) and 霊滅刃 (237952) twice in one turn"],
+        "effects_raw": [[0, 3, 53, [2, 508633, -1, [228570,  228571,  228572,  228573,  228574,  228575,  228576,  228577,  228578,  508630,  708375,  708376,  708377,  708378,  708379,  708380,  708381,  708382,  708383,  708384,  800142,  237940,  237941,  237942,  237943,  237944,  237946,  237947,  237948,  237949,  237950,  237951,  237952,  237953,  237960,  237961,  237962,  237963,  237964,  237965,  237966,  237967,  237968,  237969], 1, 0]]],
         "requirements": null,
         "unit_restriction": null
     },
@@ -81393,6 +81393,1062 @@
         "requirements": null,
         "unit_restriction": null
     },
+    "237880": {
+        "name": "風のクリスタルに選ばれし者",
+        "icon": "ability_79.png",
+        "compendium_id": 11198,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase physical and magic damage against Reapers by 30%",
+            "Increase equipment ATK by 50% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 11, [12,  30,  30]], [0, 3, 69, [1,  50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237881": {
+        "name": "最後の希望",
+        "icon": "ability_9.png",
+        "compendium_id": 11199,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to Fire, Water, Wind and Earth by 30%"],
+        "effects_raw": [[0, 3, 3, [30,  0,  0,  30,  30,  30,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237882": {
+        "name": "黒魔道師の心得",
+        "icon": "ability_95.png",
+        "compendium_id": 11200,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 30%",
+            "Increase resistance to Sleep, Silence and Paralyze by 100%",
+            "Increase MAG by 30% when equipped with a Hat"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  30,  0,  0,  0,  0]], [0, 3, 2, [0,  0,  100,  100,  100,  0,  0,  0]], [0, 3, 6, [40,  0,  0,  30,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237883": {
+        "name": "秘めたる勇気",
+        "icon": "ability_78.png",
+        "compendium_id": 11201,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Recover MP (3%) per turn",
+            "Increase the limit burst gauge fill rate by 100%"
+        ],
+        "effects_raw": [[0, 3, 32, [3]], [0, 3, 31, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237884": {
+        "name": "サスーン王家の加護",
+        "icon": "ability_79.png",
+        "compendium_id": 11202,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase physical damage against Reapers by 50%"],
+        "effects_raw": [[0, 3, 11, [12,  50,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237885": {
+        "name": "暗黒剣の真価",
+        "icon": "ability_72.png",
+        "compendium_id": 11203,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase equipment ATK by 20% when armed with two weapons"],
+        "effects_raw": [[0, 3, 69, [1,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237886": {
+        "name": "オニオンの構え？",
+        "icon": "ability_72.png",
+        "compendium_id": 11204,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase equipment ATK by 15% when armed with two weapons"],
+        "effects_raw": [[0, 3, 69, [1,  15,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237887": {
+        "name": "ツインソードの使い手",
+        "icon": "ability_72.png",
+        "compendium_id": 11205,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to equip two one-handed",
+            "Enable unit to equip Swords",
+            "Enable unit to equip Katanas"
+        ],
+        "effects_raw": [[0, 3, 14, [[2,  4]]], [0, 3, 5, [2]], [0, 3, 5, [4]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237888": {
+        "name": "託された光",
+        "icon": "ability_9.png",
+        "compendium_id": 11206,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to Fire, Water, Wind and Earth by 20%"],
+        "effects_raw": [[0, 3, 3, [20,  0,  0,  20,  20,  20,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237889": {
+        "name": "死霊の恐怖に打ち勝つ者",
+        "icon": "ability_79.png",
+        "compendium_id": 11344,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK and MAG by 40%",
+            "Increase physical damage against Reapers by 75%"
+        ],
+        "effects_raw": [[0, 3, 1, [40,  0,  40,  0,  0,  0,  0]], [0, 3, 11, [12,  75,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237890": {
+        "name": "【VC】託された光I",
+        "icon": "ability_95.png",
+        "compendium_id": 11207,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 15% when equipped with a Sword",
+            "Increase ATK by 15% when equipped with a Katana",
+            "Increase resistance to Fire, Water, Wind and Earth by 10%"
+        ],
+        "effects_raw": [[0, 3, 6, [2,  15,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [4,  15,  0,  0,  0,  0,  0,  0]], [0, 3, 3, [10,  0,  0,  10,  10,  10,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237891": {
+        "name": "【VC】託された光II",
+        "icon": "ability_95.png",
+        "compendium_id": 11208,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 15% when equipped with a Sword",
+            "Increase ATK by 15% when equipped with a Katana",
+            "Increase resistance to Fire, Water, Wind and Earth by 10%"
+        ],
+        "effects_raw": [[0, 3, 6, [2,  15,  0,  0,  0,  0,  0,  0]], [0, 3, 6, [4,  15,  0,  0,  0,  0,  0,  0]], [0, 3, 3, [10,  0,  0,  10,  10,  10,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237892": {
+        "name": "【VC】最後の希望",
+        "icon": "ability_9.png",
+        "compendium_id": 11209,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF, MAG and SPR by 20%",
+            "Increase resistance to Fire, Water, Wind and Earth by 10%"
+        ],
+        "effects_raw": [[0, 3, 1, [20,  20,  20,  20,  0,  0,  0]], [0, 3, 3, [10,  0,  0,  10,  10,  10,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237905": {
+        "name": "Tオニオン剣技",
+        "icon": "ability_8.png",
+        "compendium_id": 11215,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use 5つのひかり (237906), えんげつりん (237931), したごしらえ (237907), しゅりけん (237932), じゅくれんど 99 (237922), そうび オニオンアーマー (237937), オニオンソード (237916, 237917, 237918, 237919, 237920), ラグナロク×マサムネ (237926, 237927, 237928, 237929, 237930), レベルアップ! (237933), レベルアップ!! (513320), レベルアップ!!! (513321), 光のクリスタルの加護 (237908), 真・チョップドオニオン (237900, 237901, 237902, 237903, 237904) and 闇のクリスタルの加護 (237921) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 513310, -1, [237900,  237901,  237902,  237903,  237904,  237906,  237907,  237908,  237916,  237917,  237918,  237919,  237920,  237921,  237922,  237926,  237927,  237928,  237929,  237930,  237931,  237932,  237933,  237937,  513320,  513321], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237909": {
+        "name": "サラ王女との出会い",
+        "icon": "ability_72.png",
+        "compendium_id": 11219,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to equip two one-handed weapons",
+            "Increase equipment ATK by 150% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 14, ["none"]], [0, 3, 69, [1,  150,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237910": {
+        "name": "デッシュとの別れ",
+        "icon": "ability_91.png",
+        "compendium_id": 11220,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase LB gauge by 4 per turn",
+            "Increase the limit burst gauge fill rate by 100%"
+        ],
+        "effects_raw": [[0, 3, 33, [400]], [0, 3, 31, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237911": {
+        "name": "水の巫女エリアの祈り",
+        "icon": "ability_91.png",
+        "compendium_id": 11221,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Recover MP (7%) per turn",
+            "Increase MP by 70%"
+        ],
+        "effects_raw": [[0, 3, 32, [7]], [0, 3, 1, [0,  0,  0,  0,  0,  70,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237912": {
+        "name": "ドーガの魂",
+        "icon": "ability_41.png",
+        "compendium_id": 11222,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Unknown passive effect type '84': [100]",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 84, [100]], [0, 3, 51, [1,  100,  0,  1]]],
+        "requirements": [["EQUIP", 504237880], ["EQUIP", 302013000]],
+        "unit_restriction": null
+    },
+    "237913": {
+        "name": "ウネの魂",
+        "icon": "ability_79.png",
+        "compendium_id": 11223,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase physical damage against Reapers by 150%",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 11, [12,  150,  0]], [0, 3, 51, [1,  100,  0,  1]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237923": {
+        "name": "そうび オニオレット",
+        "icon": "ability_4.png",
+        "compendium_id": 11233,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase DEF and SPR by 50%",
+            "Use そうび オニオレット (513316) at the start of a battle or when revived"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  50,  0,  50,  0,  0,  0]], [0, 3, 56, [513316]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237924": {
+        "name": "そうび オニオンヘルム",
+        "icon": "ability_19.png",
+        "compendium_id": 11234,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Poison, Blind, Silence and Petrify by 100%",
+            "Increase resistance to Fire, Ice, Wind and Earth by 50%"
+        ],
+        "effects_raw": [[0, 3, 2, [100,  100,  0,  100,  0,  0,  0,  100]], [0, 3, 3, [50,  50,  0,  0,  50,  50,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237934": {
+        "name": "封印されし禁断の力",
+        "icon": "ability_79.png",
+        "compendium_id": 11246,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase physical damage against Insects by 150%"],
+        "effects_raw": [[0, 3, 11, [9,  150,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237935": {
+        "name": "忍びの技を極めし者",
+        "icon": "ability_79.png",
+        "compendium_id": 11247,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase physical damage against Humans by 150%",
+            "Increase ATK by 200% when unarmed"
+        ],
+        "effects_raw": [[0, 3, 11, [5,  150,  0]], [0, 3, 19, [200]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237936": {
+        "name": "シドの助力",
+        "icon": "ability_77.png",
+        "compendium_id": 11290,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK by 190% and HP by 80%"],
+        "effects_raw": [[0, 3, 1, [190,  0,  0,  0,  80,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237945": {
+        "name": "修練の成果・死霊",
+        "icon": "ability_79.png",
+        "compendium_id": 11253,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase physical damage against Reapers by 150%"],
+        "effects_raw": [[0, 3, 11, [12,  150,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237954": {
+        "name": "負の力を操りし者",
+        "icon": "ability_77.png",
+        "compendium_id": 11262,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase LB damage by 100%"
+        ],
+        "effects_raw": [[0, 3, 89, [50,  0,  0,  0,  0,  0]], [0, 3, 68, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237955": {
+        "name": "負の力を操りし者",
+        "icon": "ability_77.png",
+        "compendium_id": 11263,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase LB damage by 100%"
+        ],
+        "effects_raw": [[0, 3, 89, [60,  0,  0,  0,  0,  0]], [0, 3, 68, [100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237956": {
+        "name": "負の力を操りし者",
+        "icon": "ability_77.png",
+        "compendium_id": 11264,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase LB damage by 125%"
+        ],
+        "effects_raw": [[0, 3, 89, [70,  0,  0,  0,  0,  0]], [0, 3, 68, [125]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237957": {
+        "name": "負の力を操りし者",
+        "icon": "ability_77.png",
+        "compendium_id": 11265,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase LB damage by 125%"
+        ],
+        "effects_raw": [[0, 3, 89, [80,  0,  0,  0,  0,  0]], [0, 3, 68, [125]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237958": {
+        "name": "負の力を操りし者",
+        "icon": "ability_77.png",
+        "compendium_id": 11266,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase LB damage by 150%"
+        ],
+        "effects_raw": [[0, 3, 89, [100,  0,  0,  0,  0,  0]], [0, 3, 68, [150]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237959": {
+        "name": "修練の成果・機械",
+        "icon": "ability_79.png",
+        "compendium_id": 11267,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase physical damage against Machinas by 150%"],
+        "effects_raw": [[0, 3, 11, [6,  150,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237970": {
+        "name": "魔剣士の本領",
+        "icon": "ability_77.png",
+        "compendium_id": 11278,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase ATK by 300% for 2 turns when HP drops below 31% (max 99999x)"
+        ],
+        "effects_raw": [[0, 3, 89, [100,  0,  0,  0,  0,  0]], [0, 3, 4, [1,  300,  99999,  31,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237971": {
+        "name": "魔剣士の本領",
+        "icon": "ability_77.png",
+        "compendium_id": 11279,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase ATK by 300% for 2 turns when HP drops below 31% (max 99999x)"
+        ],
+        "effects_raw": [[0, 3, 89, [120,  0,  0,  0,  0,  0]], [0, 3, 4, [1,  300,  99999,  31,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237972": {
+        "name": "魔剣士の本領",
+        "icon": "ability_77.png",
+        "compendium_id": 11280,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase ATK by 300% for 2 turns when HP drops below 31% (max 99999x)"
+        ],
+        "effects_raw": [[0, 3, 89, [150,  0,  0,  0,  0,  0]], [0, 3, 4, [1,  300,  99999,  31,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237973": {
+        "name": "魔剣士の本領",
+        "icon": "ability_77.png",
+        "compendium_id": 11281,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase ATK by 300% for 2 turns when HP drops below 31% (max 99999x)"
+        ],
+        "effects_raw": [[0, 3, 89, [170,  0,  0,  0,  0,  0]], [0, 3, 4, [1,  300,  99999,  31,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237974": {
+        "name": "魔剣士の本領",
+        "icon": "ability_77.png",
+        "compendium_id": 11282,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase ATK by 300% for 2 turns when HP drops below 31% (max 99999x)"
+        ],
+        "effects_raw": [[0, 3, 89, [200,  0,  0,  0,  0,  0]], [0, 3, 4, [1,  300,  99999,  31,  0,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237975": {
+        "name": "強き心の持ち主",
+        "icon": "ability_41.png",
+        "compendium_id": 11283,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Blind, Paralyze, Confusion and Petrify by 100%",
+            "100% chance to set HP to 1 upon fatal damage, if HP was above 1% (max 1 times)"
+        ],
+        "effects_raw": [[0, 3, 2, [0,  100,  0,  0,  100,  100,  0,  100]], [0, 3, 51, [1,  100,  0,  1]]],
+        "requirements": [["EQUIP", 504228586], ["EQUIP", 304003400]],
+        "unit_restriction": null
+    },
+    "237976": {
+        "name": "隠れ里に伝わりし秘技",
+        "icon": "ability_95.png",
+        "compendium_id": 11284,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MP by 70%",
+            "Increase resistance to Light and Dark by 50%",
+            "Increase ATK by 100% when equipped with a Katana"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  0,  0,  0,  70,  0]], [0, 3, 3, [0,  0,  0,  0,  0,  0,  50,  50]], [0, 3, 6, [4,  100,  0,  0,  0,  0,  0,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237977": {
+        "name": "冴え渡る剣",
+        "icon": "ability_72.png",
+        "compendium_id": 11285,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Enable unit to equip two one-handed weapons",
+            "Increase equipment ATK by 100% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 14, ["none"]], [0, 3, 69, [1,  100,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237978": {
+        "name": "水のクリスタルの力",
+        "icon": "ability_76.png",
+        "compendium_id": 11286,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 100%",
+            "Increase equipment ATK by 300% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [100,  0,  0,  0,  0,  0,  0]], [0, 3, 13, [300,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237979": {
+        "name": "T暗黒剣",
+        "icon": "ability_8.png",
+        "compendium_id": 11287,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use 吸血刃 (237951), 回魔刃 (237953), 暗黒の新生 (228577, 708381, 708382), 暗黒剣・一刀入魂 (237967), 暗黒剣・九刻回生 (800142), 暗黒剣・八衝 (237968), 暗黒剣・切裂 (237960, 237961, 237962, 237963, 237964), 暗黒剣・十閃 (237969), 暗黒剣・吸命妖刀 (228571), 暗黒剣・天の叢雲 (508630), 暗黒剣・正宗 (228575), 暗黒剣・菊一文字 (228574), 暗黒剣・虎徹 (228573, 708377, 708378), 暗黒剣・解閃 (237966), 暗黒剣・闇砕 (228570), 暗黒剣・阿修羅 (228572, 708375, 708376), 暗黒剣・魔の冥撃 (228576, 708379, 708380), 深淵の傷痕 (228578, 708383, 708384), 無二無三 (237965), 鎮魂の剣舞 (237946, 237947, 237948, 237949, 237950), 闇断刃 (237940, 237941, 237942, 237943, 237944) and 霊滅刃 (237952) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 511916, -1, [228570,  228571,  228572,  228573,  228574,  228575,  228576,  228577,  228578,  508630,  708375,  708376,  708377,  708378,  708379,  708380,  708381,  708382,  708383,  708384,  800142,  237940,  237941,  237942,  237943,  237944,  237946,  237947,  237948,  237949,  237950,  237951,  237952,  237953,  237960,  237961,  237962,  237963,  237964,  237965,  237966,  237967,  237968,  237969], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237987": {
+        "name": "Tオニオン剣技",
+        "icon": "ability_8.png",
+        "compendium_id": 11295,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use かめのこうら (238010), さいそくぜんぎり (237985), ぜんそくぜんぎり (211420), たまねぎの闘志 (237994), たまねぎ剣舞 (237996), オニオンアップ (237997), オニオンガーニッシュ (237980, 237981, 237982, 237983, 237984), オニオンシュレッダー (228551, 708367, 708368), オニオンバイセクト (237989, 237990, 237991, 237992, 237993), オニオンヒッター (238008), オニオンヘルパー (237986), オニオンミキサー (800144), オニオンメテオ (228557, 708369, 708370), クリスタルの輝き (238003, 238004, 238005, 238006, 238007), ハックトゥピーシーズ (508620), ヒロインズカーレッジ (228550, 708365, 708366), 光のカーテン【III】 (238011), 光のクリスタルの護り (238009), 土のクリスタルの加護 (228553), 愛しき心 (228556), 死霊除けの構え (237995), 水のクリスタルの加護 (228552), 火のクリスタルの加護 (228555) and 風のクリスタルの加護 (228554) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 513341, -1, [211420,  228550,  228551,  228552,  228553,  228554,  228555,  228556,  228557,  508620,  708365,  708366,  708367,  708368,  708369,  708370,  800144,  237980,  237981,  237982,  237983,  237984,  237985,  237986,  237989,  237990,  237991,  237992,  237993,  237994,  237995,  237996,  237997,  238003,  238004,  238005,  238006,  238007,  238008,  238009,  238010,  238011], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237988": {
+        "name": "熟練たまねぎ",
+        "icon": "ability_77.png",
+        "compendium_id": 11296,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase ATK, DEF, MAG, SPR, HP and MP by 20%"],
+        "effects_raw": [[0, 3, 1, [20,  20,  20,  20,  20,  20,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237998": {
+        "name": "オニオンスタンス",
+        "icon": "ability_77.png",
+        "compendium_id": 11306,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase the damage of オニオンミキサー (800144) by (1x)",
+            "Increase the damage of ぜんそくぜんぎり (211420) by (27x)"
+        ],
+        "effects_raw": [[0, 3, 89, [300,  0,  0,  0,  0,  0]], [0, 3, 73, [800144,  0,  0,  100]], [0, 3, 73, [211420,  0,  0,  2700]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "237999": {
+        "name": "オニオンスタンス",
+        "icon": "ability_77.png",
+        "compendium_id": 11307,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase the damage of オニオンミキサー (800144) by (2x)",
+            "Increase the damage of ぜんそくぜんぎり (211420) by (31x)"
+        ],
+        "effects_raw": [[0, 3, 89, [325,  0,  0,  0,  0,  0]], [0, 3, 73, [800144,  0,  0,  200]], [0, 3, 73, [211420,  0,  0,  3100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238000": {
+        "name": "オニオンスタンス",
+        "icon": "ability_77.png",
+        "compendium_id": 11308,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase the damage of オニオンミキサー (800144) by (3x)",
+            "Increase the damage of ぜんそくぜんぎり (211420) by (35x)"
+        ],
+        "effects_raw": [[0, 3, 89, [350,  0,  0,  0,  0,  0]], [0, 3, 73, [800144,  0,  0,  300]], [0, 3, 73, [211420,  0,  0,  3500]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238001": {
+        "name": "オニオンスタンス",
+        "icon": "ability_77.png",
+        "compendium_id": 11309,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase the damage of オニオンミキサー (800144) by (4x)",
+            "Increase the damage of ぜんそくぜんぎり (211420) by (39x)"
+        ],
+        "effects_raw": [[0, 3, 89, [375,  0,  0,  0,  0,  0]], [0, 3, 73, [800144,  0,  0,  400]], [0, 3, 73, [211420,  0,  0,  3900]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238002": {
+        "name": "オニオンスタンス",
+        "icon": "ability_77.png",
+        "compendium_id": 11310,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Increase the damage of オニオンミキサー (800144) by (5x)",
+            "Increase the damage of ぜんそくぜんぎり (211420) by (43x)"
+        ],
+        "effects_raw": [[0, 3, 89, [400,  0,  0,  0,  0,  0]], [0, 3, 73, [800144,  0,  0,  500]], [0, 3, 73, [211420,  0,  0,  4300]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238012": {
+        "name": "乙女の旅立ち",
+        "icon": "ability_91.png",
+        "compendium_id": 11320,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 89, [0,  0,  0,  0,  0,  100]], [0, 3, 32, [5]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238013": {
+        "name": "乙女の旅立ち",
+        "icon": "ability_91.png",
+        "compendium_id": 11321,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Recover MP (5%) per turn"
+        ],
+        "effects_raw": [[0, 3, 89, [0,  0,  0,  0,  0,  125]], [0, 3, 32, [5]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238014": {
+        "name": "乙女の旅立ち",
+        "icon": "ability_91.png",
+        "compendium_id": 11322,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Recover MP (10%) per turn"
+        ],
+        "effects_raw": [[0, 3, 89, [0,  0,  0,  0,  0,  150]], [0, 3, 32, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238015": {
+        "name": "乙女の旅立ち",
+        "icon": "ability_91.png",
+        "compendium_id": 11323,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Recover MP (10%) per turn"
+        ],
+        "effects_raw": [[0, 3, 89, [0,  0,  0,  0,  0,  175]], [0, 3, 32, [10]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238016": {
+        "name": "乙女の旅立ち",
+        "icon": "ability_91.png",
+        "compendium_id": 11324,
+        "rarity": 10,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Error: Wrong effect passive89?\nNot enough params",
+            "Recover MP (15%) per turn"
+        ],
+        "effects_raw": [[0, 3, 89, [0,  0,  0,  0,  0,  200]], [0, 3, 32, [15]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238017": {
+        "name": "愛しき心の持ち主",
+        "icon": "ability_19.png",
+        "compendium_id": 11325,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase resistance to Water and Dark by 30%",
+            "Increase resistance to Silence, Paralyze, Confusion and Petrify by 100%",
+            "Increase the limit burst gauge fill rate by 100%"
+        ],
+        "effects_raw": [[0, 3, 3, [0,  0,  0,  30,  0,  0,  0,  30]], [0, 3, 2, [0,  0,  0,  100,  100,  100,  0,  100]], [0, 3, 31, [100]]],
+        "requirements": [["EQUIP", 504228565], ["EQUIP", 302007100]],
+        "unit_restriction": null
+    },
+    "238018": {
+        "name": "オニオンアーツ",
+        "icon": "ability_72.png",
+        "compendium_id": 11326,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK, DEF, MAG, SPR, HP and MP by 60%",
+            "Enable unit to equip two one-handed weapons",
+            "Allow unit to reach 6x chain modifier, when using two one-handed weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [60,  60,  60,  60,  60,  60,  0]], [0, 3, 14, ["none"]], [0, 3, 81, ["none"]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238019": {
+        "name": "タカじいさんの教え",
+        "icon": "ability_79.png",
+        "compendium_id": 11327,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase LB gauge by 2 per turn",
+            "Increase physical and magic damage against Reapers by 150%"
+        ],
+        "effects_raw": [[0, 3, 33, [200]], [0, 3, 11, [12,  150,  150]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238020": {
+        "name": "たまねぎ剣士の潜在能力",
+        "icon": "ability_72.png",
+        "compendium_id": 11328,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase ATK by 120%, SPR by 50% and MP by 30%",
+            "Increase equipment ATK by 200% when armed with two weapons"
+        ],
+        "effects_raw": [[0, 3, 1, [120,  0,  0,  50,  0,  30,  0]], [0, 3, 69, [1,  200,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238036": {
+        "name": "T黒魔道師の力",
+        "icon": "ability_8.png",
+        "compendium_id": 11335,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Enable unit to use アストロフォース (800556), アンリッシュ (238037), イレース (238038), キル (238033), シェイド (238031), ストップウェーブ (238035), バイオ【III】 (238034), ブライン【III】 (238030) and ブレクガ (238032) 3 times in one turn"],
+        "effects_raw": [[0, 3, 53, [3, 513350, -1, [238030,  238031,  238032,  238033,  238034,  238035,  238037,  238038,  800556], 1, 0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238039": {
+        "name": "頼もしき成長",
+        "icon": "ability_19.png",
+        "compendium_id": 11338,
+        "rarity": 4,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase resistance to Confusion and Petrify by 100%"],
+        "effects_raw": [[0, 3, 2, [0,  0,  0,  0,  0,  100,  0,  100]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238040": {
+        "name": "アルス王子との友情",
+        "icon": "ability_77.png",
+        "compendium_id": 11339,
+        "rarity": 7,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": ["Increase SPR, HP and MP by 40% and DEF by 20%"],
+        "effects_raw": [[0, 3, 1, [0,  20,  0,  40,  40,  40,  0]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238041": {
+        "name": "風のクリスタルの力",
+        "icon": "ability_91.png",
+        "compendium_id": 11340,
+        "rarity": 6,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Recover MP (7%) per turn",
+            "Increase LB gauge by 2 per turn"
+        ],
+        "effects_raw": [[0, 3, 32, [7]], [0, 3, 33, [200]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238042": {
+        "name": "黒魔法の真髄",
+        "icon": "ability_76.png",
+        "compendium_id": 11341,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase MAG by 180%",
+            "Increase equipment MAG by 150% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 1, [0,  0,  180,  0,  0,  0,  0]], [0, 3, 70, [150,  25,  2]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
+    "238043": {
+        "name": "優しき心の持ち主",
+        "icon": "ability_79.png",
+        "compendium_id": 11342,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase Stop resistance by 100% to caster",
+            "Increase magic damage against Reapers by 100%"
+        ],
+        "effects_raw": [[0, 3, 55, [0,  0,  0,  0,  100,  0]], [0, 3, 11, [12,  0,  100]]],
+        "requirements": [["EQUIP", 504237882], ["EQUIP", 403051600]],
+        "unit_restriction": null
+    },
+    "238044": {
+        "name": "黒魔道師を極めし者",
+        "icon": "ability_77.png",
+        "compendium_id": 11343,
+        "rarity": 8,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Increase the damage of クエイク (20400) by (20x)",
+            "Increase the damage of サンダジャ (20310), ファイジャ (20290) and ブリザジャ (20300) by (35x)",
+            "Increase the damage of フレア (20350) and メテオ (20430) by (45x)",
+            "Increase the damage of ストップウェーブ (238035) and バイオ【III】 (238034) by (10x)"
+        ],
+        "effects_raw": [[0, 3, 73, [20400,  0,  0,  2000]], [0, 3, 73, [[20290,  20300,  20310], 0, 0, 3500]], [0, 3, 73, [[20350,  20430], 0, 0, 4500]], [0, 3, 73, [[238034,  238035], 0, 0, 1000]]],
+        "requirements": null,
+        "unit_restriction": null
+    },
     "400010": {
         "name": "経験値UP1.5倍",
         "icon": "ability_81.png",
@@ -101575,6 +102631,24 @@
         ],
         "effects_raw": [[0, 3, 33, [200]], [0, 3, 31, [100]]],
         "requirements": [["SWITCH", 18921201]],
+        "unit_restriction": null
+    },
+    "800557": {
+        "name": "読書家の理知",
+        "icon": "ability_76.png",
+        "compendium_id": 518,
+        "rarity": 9,
+        "unique": false,
+        "effect_type": "Default",
+        "attack_type": "None",
+        "element_inflict": null,
+        "effects": [
+            "Reduce chance of being targeted by 50%",
+            "Increase equipment MAG by 50% when armed with a single weapon",
+            "Increase Accuracy by 25% when armed with a single weapon"
+        ],
+        "effects_raw": [[0, 3, 25, [50]], [0, 3, 70, [50,  25,  2]]],
+        "requirements": [["SWITCH", 18921602]],
         "unit_restriction": null
     },
     "910481": {
