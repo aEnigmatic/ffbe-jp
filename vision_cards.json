@@ -145,7 +145,7 @@
         }
     },
     "100000501": {
-        "name": "世界を変えるために",
+        "name": "In Order to Change the World",
         "compendium_id": 9,
         "compendium_shown": true,
         "rarity": 1,
@@ -176,10 +176,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "破壊されたザッハの街で、悲しみに沈むレイン。自らに流れる王族の血のせいで、命を助けてくれた少女を失った彼は、世界を変えることを決意。次期皇帝を目指してオーダーズとなり、非情の剣を振るう。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "世界を変えるために",
-            "music": "♪Forgiveness",
+            "desc": "Rain overwhelmed with sadness in the ruined town of Sacher. Due to the royal blood within his veins, he lost the girl who saved his life, resolving himself to change the world. Wielding a cruel blade, he joins the Orders in hopes of becoming the next emperor.",
+            "info": "Rain overwhelmed with sadness in the ruined town of Sacher. Due to the royal blood within his veins, he lost the girl who saved his life, resolving himself to change the world. Wielding a cruel blade, he joins the Orders in hopes of becoming the next emperor.",
+            "shop": "In Order to Change the World",
+            "music": "Forgiveness",
             "music_id": "400333"
         }
     },
@@ -605,6 +605,45 @@
             "shop": "クリスタルの啓示",
             "music": "♪Into The Crystal Cave",
             "music_id": "401005"
+        }
+    },
+    "206000101": {
+        "name": "幻獣を求めて",
+        "compendium_id": 26,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10006,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [50, 100, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [238070],
+            "7": [238071],
+            "10": [238072]
+        },
+        "restriction": {
+            "238072": [7206, "発動条件：【FFVIユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "氷づけの幻獣を手に入れるため、炭坑都市ナルシェを目指すガストラ帝国の魔導アーマー。そのうちの1機に搭乗する少女・ティナは、魔導の力を持つゆえに帝国にあやつられている。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "幻獣を求めて",
+            "music": "♪ティナのテーマ",
+            "music_id": "400906"
         }
     },
     "207000101": {
