@@ -184,7 +184,7 @@
         }
     },
     "100000601": {
-        "name": "若者を導く剣",
+        "name": "Guiding the Youth",
         "compendium_id": 11,
         "compendium_shown": true,
         "rarity": 1,
@@ -215,10 +215,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "自身の気持ちを抑え、王としての責務を果たそうとするラスウェルに勝負を挑んだアクスター。彼は迷える若者を導くべく、自らが編み出した新技“導・明鏡”を放つ。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "若者を導く剣",
-            "music": "♪Split in Two",
+            "desc": "Realizing that Lasswell is struggling with his own feelings interfering with the fulfillment of his duties as king, Akstar challenges him to a sparring session. Determined to steer him in the right direction, Akstar bestows upon him a new skill of his own creation—the guiding mirror of equity.",
+            "info": "Realizing that Lasswell is struggling with his own feelings interfering with the fulfillment of his duties as king, Akstar challenges him to a sparring session. Determined to steer him in the right direction, Akstar bestows upon him a new skill of his own creation—the guiding mirror of equity.",
+            "shop": "Guiding the Youth",
+            "music": "Split in Two",
             "music_id": "400332"
         }
     },
@@ -529,6 +529,84 @@
             "music_id": "400308"
         }
     },
+    "100001601": {
+        "name": "最後の一戦",
+        "compendium_id": 28,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [40, 60, 0, 0],
+            "DEF": [20, 30, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [238243],
+            "7": [238244],
+            "10": [238245]
+        },
+        "restriction": {
+            "238245": [7216, "発動条件：【FFBEユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "アルドールとヘスの戦場で対峙するレーゲンとローウェン。戦争を終わらせるため、レーゲンはヘスの八賢者であるローウェンをクリスタルに封印する策を話す。ローウェンは親友を信じ、彼に未来を託した。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "最後の一戦",
+            "music": "♪Sacred Ground",
+            "music_id": "400319"
+        }
+    },
+    "100002201": {
+        "name": "紫電を継ぎし剣士",
+        "compendium_id": 27,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [40, 65, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [40, 65, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [238240],
+            "7": [238241],
+            "10": [238242]
+        },
+        "restriction": {
+            "238242": [7102, "発動条件：【男性】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "レーゲンから紫電を渡される幼いころのラスウェル。誰よりも強くなりたい、才能がなくとも諦めたくないと本心を吐露する彼こそ、紫電に相応しい。この刀は少年にとって父と親友を繋ぐ大切な物になる。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "紫電を継ぎし剣士",
+            "music": "♪Great Voyage",
+            "music_id": "400105"
+        }
+    },
     "202000101": {
         "name": "黒騎士との戦い",
         "compendium_id": 15,
@@ -686,7 +764,7 @@
         }
     },
     "207000201": {
-        "name": "VSガードスコーピオン",
+        "name": "Scorpion Sentinel Battle",
         "compendium_id": 7,
         "compendium_shown": true,
         "rarity": 1,
@@ -715,15 +793,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "魔晄炉爆破ミッションの遂行のため、壱番魔晄炉に潜入したクラウドとバレット。しかし、魔晄だまりで“神羅カンパニー”の兵器・ガードスコーピオンと戦闘になる。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "VSガードスコーピオン",
-            "music": "♪ガードスコーピオン",
+            "desc": "When Cloud and Barret infiltrate Mako Reactor 1 in order to destroy it, Shinra sends the Scorpion Sentinel to put a stop to their plans.",
+            "info": "When Cloud and Barret infiltrate Mako Reactor 1 in order to destroy it, Shinra sends the Scorpion Sentinel to put a stop to their plans.",
+            "shop": "Scorpion Sentinel Battle",
+            "music": "Scorpion Sentinel",
             "music_id": "400993"
         }
     },
     "207000301": {
-        "name": "星のささやき",
+        "name": "Planet's Whisper",
         "compendium_id": 10,
         "compendium_shown": true,
         "rarity": 1,
@@ -754,10 +832,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "ミッドガル八番街市街地の片隅にしゃがみこむ、花売りのエアリス。目の前にある配管からは、星の命ともいえる魔晄エネルギーの光が漏れ出している。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "星のささやき",
-            "music": "♪教会に咲く花",
+            "desc": "In a corner of Midgar's upper Sector 8, Aerith, the flower peddler, kneels down before a set of glowing pipes overflowing with mako energy—the lifeblood of the planet.",
+            "info": "In a corner of Midgar's upper Sector 8, Aerith, the flower peddler, kneels down before a set of glowing pipes overflowing with mako energy—the lifeblood of the planet.",
+            "shop": "Planet's Whisper",
+            "music": "Flowers Blooming in the Church",
             "music_id": "400988"
         }
     },
