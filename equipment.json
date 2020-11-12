@@ -15406,6 +15406,37 @@
         "price_sell": 32000,
         "icon": "item_2100012.png"
     },
+    "308007000": {
+        "name": "エモーショナルランス",
+        "compendium_id": 1984,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 10,
+        "type": "Spear",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1, 1.5],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [239171],
+        "effects": ["Grants '高みを目指す者' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 198,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 320000,
+        "price_sell": 32000,
+        "icon": "item_2100011.png"
+    },
     "309000300": {
         "name": "ミスリルクロー",
         "compendium_id": 274,
@@ -34417,6 +34448,108 @@
         "price_buy": 10000,
         "price_sell": 1000,
         "icon": "item_2210027.png"
+    },
+    "403052200": {
+        "name": "チョコボ博士の帽子",
+        "compendium_id": 1986,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [239174],
+        "effects": ["Grants 'チョコボ★ジャンプ' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 17,
+            "DEF": 15,
+            "MAG": 0,
+            "SPR": 15,
+            "element_resist": {
+                "Wind": 10,
+                "Earth": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "item_2210028.png"
+    },
+    "403052300": {
+        "name": "真・チョコボ博士の帽子",
+        "compendium_id": 1987,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [239175],
+        "effects": ["Grants 'チョコボ★ジャンプ+' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 22,
+            "DEF": 18,
+            "MAG": 0,
+            "SPR": 18,
+            "element_resist": {
+                "Wind": 20,
+                "Earth": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 25000,
+        "price_sell": 2500,
+        "icon": "item_2210028.png"
+    },
+    "403052400": {
+        "name": "絶・チョコボ博士の帽子",
+        "compendium_id": 1988,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [239176],
+        "effects": ["Grants 'チョコボ★ジャンプ++' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 27,
+            "DEF": 21,
+            "MAG": 0,
+            "SPR": 21,
+            "element_resist": {
+                "Wind": 30,
+                "Earth": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2210028.png"
     },
     "403052500": {
         "name": "イリュージョンシルクハット",
@@ -60161,5 +60294,38 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_2250106.png"
+    },
+    "409048500": {
+        "name": "チャコのぬいぐるみ",
+        "compendium_id": 1985,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [239173],
+        "effects": ["Grants 'こだわりのぬいぐるみ' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 65,
+            "DEF": 12,
+            "MAG": 0,
+            "SPR": 12,
+            "element_resist": {
+                "Wind": 50
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2250107.png"
     }
 }
