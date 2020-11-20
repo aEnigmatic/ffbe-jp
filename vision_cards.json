@@ -262,7 +262,7 @@
         }
     },
     "100000801": {
-        "name": "即席クアールライダー参上！",
+        "name": "Wake-Up Coeurl",
         "compendium_id": 13,
         "compendium_shown": true,
         "rarity": 1,
@@ -293,10 +293,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "アルドールの駐屯地を襲撃するシンジュとエスト。縦横無尽に駆け回り、兵士たちを翻弄する！　ミァッ　ミァッ。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "即席クアールライダー参上！",
-            "music": "♪Parallel Star",
+            "desc": "A scene depicting Shinju atop Est the coeurl as they carry out a surprise attack on an Aldore military base. They run circles around the soldiers guarding the area, toying with them like balls of yarn. Meow, meow!",
+            "info": "A scene depicting Shinju atop Est the coeurl as they carry out a surprise attack on an Aldore military base. They run circles around the soldiers guarding the area, toying with them like balls of yarn. Meow, meow!",
+            "shop": "Wake-Up Coeurl",
+            "music": "Parallel Star",
             "music_id": "400402"
         }
     },
@@ -491,7 +491,7 @@
         }
     },
     "100001501": {
-        "name": "夏のひとこま",
+        "name": "Too Cool for the Summer",
         "compendium_id": 17,
         "compendium_shown": true,
         "rarity": 1,
@@ -522,10 +522,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "海で遊ぶフィーナとデイジー。戦いを忘れ、少女ふたりは思い思いに海と戯れる。この風景は、彼女たちがたどり着くかもしれない安寧のひとときのビジョン。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "夏のひとこま",
-            "music": "♪Walkabout",
+            "desc": "Fina and Daisy playing at the beach. Enjoying themselves amidst the sand and sea allows them to forget the hardship of battle. This vision is a glimpse into a moment of peace the two may someday find.",
+            "info": "Fina and Daisy playing at the beach. Enjoying themselves amidst the sand and sea allows them to forget the hardship of battle. This vision is a glimpse into a moment of peace the two may someday find.",
+            "shop": "Too Cool for the Summer",
+            "music": "Walkabout",
             "music_id": "400308"
         }
     },
@@ -832,7 +832,7 @@
             "desc": "クリスタルから飛び出してきたレインたち。FINAL FANTASY BRAVE EXVIUSの5周年を記念して一堂に会したぞ！いつも遊んでくれてありがとう！",
             "info": "ビジョンカードが経験値を獲得！",
             "shop": "いつもありがとう！",
-            "music": "♪Victory''s Fanfare",
+            "music": "♪Victory's Fanfare",
             "music_id": "400009"
         }
     },
@@ -993,7 +993,7 @@
         }
     },
     "203000101": {
-        "name": "クリスタルの啓示",
+        "name": "Crystal's Revelation",
         "compendium_id": 25,
         "compendium_shown": true,
         "rarity": 1,
@@ -1024,10 +1024,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "風のクリスタルによって、光の戦士に選ばれたルーネス、アルクゥ、レフィア、そしてイングズ。クリスタルの力を得て、世界を救うための冒険が始まる。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "クリスタルの啓示",
-            "music": "♪Into The Crystal Cave",
+            "desc": "Luneth, Arc, Refia, and Ingus being chosen by the Wind Crystal to become Warriors of Light. Blessed with the Crystal's power, the four embark on a journey to save the world.",
+            "info": "Luneth, Arc, Refia, and Ingus being chosen by the Wind Crystal to become Warriors of Light. Blessed with the Crystal's power, the four embark on a journey to save the world.",
+            "shop": "Crystal's Revelation",
+            "music": "Into The Crystal Cave",
             "music_id": "401005"
         }
     },
@@ -1300,6 +1300,45 @@
             "shop": "解放者の降臨",
             "music": "♪ライトニングリターンズ",
             "music_id": "401011"
+        }
+    },
+    "213000201": {
+        "name": "500年の悔恨",
+        "compendium_id": 40,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11007,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [500, 1000, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [30, 60, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [30, 60, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [239350],
+            "7": [239351],
+            "10": [239352]
+        },
+        "restriction": {
+            "239352": [7102, "発動条件：【男性】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "“シ界”を外へ広げないため、混沌を呑み込んでシ骸化するスノウ。大切な人を守れなかった後悔に苛まれていた彼は、化け物となる自分を始末してくれるよう、解放者に頼む。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "500年の悔恨",
+            "music": "♪スノウのテーマ 〜遺言〜",
+            "music_id": "401016"
         }
     },
     "335000101": {
