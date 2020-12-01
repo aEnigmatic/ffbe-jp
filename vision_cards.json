@@ -1031,6 +1031,45 @@
             "music_id": "401005"
         }
     },
+    "205000101": {
+        "name": "シルドラ！あいさつしな！",
+        "compendium_id": 41,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10005,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [35, 65, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [50, 90, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [239440],
+            "7": [239441],
+            "10": [239442]
+        },
+        "restriction": {
+            "239442": [7103, "発動条件：【女性】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "風が止まっている状態で、どうやって船を動かすかをたずねるレナに、親友のシルドラを紹介するファリス。シルドラが動力になっているおかげで、海賊船は風のない海を進むことができる。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "シルドラ！あいさつしな！",
+            "music": "♪俺たちゃ海賊",
+            "music_id": "401019"
+        }
+    },
     "206000101": {
         "name": "幻獣を求めて",
         "compendium_id": 26,
@@ -1342,7 +1381,7 @@
         }
     },
     "335000101": {
-        "name": "キーブレード墓場の戦い",
+        "name": "The Keyblade Graveyard Battle",
         "compendium_id": 19,
         "compendium_shown": true,
         "rarity": 1,
@@ -1373,15 +1412,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "キーブレードの束に乗って飛行するソラ。巨大なハートレスの集合体が相手であっても、怯むことなく立ち向かっていく。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "キーブレード墓場の戦い",
-            "music": "♪Moment of Recall",
+            "desc": "A scene depicting an unfaltering Sora riding atop a myriad of keyblades as he faces off against a gigantic tide of Heartless.",
+            "info": "A scene depicting an unfaltering Sora riding atop a myriad of keyblades as he faces off against a gigantic tide of Heartless.",
+            "shop": "The Keyblade Graveyard Battle",
+            "music": "Moment of Recall",
             "music_id": "400003"
         }
     },
     "335000201": {
-        "name": "VSデビルズタワー",
+        "name": "Facing the Demon Tower",
         "compendium_id": 20,
         "compendium_shown": true,
         "rarity": 1,
@@ -1412,15 +1451,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "消息不明になっているキーブレード使いのアクアを探して、闇の世界へやってきたリク。彼はそこで、塔のように連なったハートレスの集合体と戦う。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "VSデビルズタワー",
-            "music": "♪Moment of Recall",
+            "desc": "A scene depicting Riku as he searches for the missing keyblade wielder \"Aqua\" in the Realm of Darkness. There, he faces off against a tower made of innumerable Heartless.",
+            "info": "A scene depicting Riku as he searches for the missing keyblade wielder \"Aqua\" in the Realm of Darkness. There, he faces off against a tower made of innumerable Heartless.",
+            "shop": "Facing the Demon Tower",
+            "music": "Moment of Recall",
             "music_id": "400003"
         }
     },
     "335000301": {
-        "name": "パオプの実のおまじない",
+        "name": "The Paopu Fruit's Bond",
         "compendium_id": 21,
         "compendium_shown": true,
         "rarity": 1,
@@ -1451,10 +1490,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "パオプの木に並んで腰掛けるソラとカイリ。この木の実を食べさせ合ったふたりは、どんなことがあっても必ず結ばれるという言い伝えがあるらしい。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "パオプの実のおまじない",
-            "music": "♪Moment of Recall",
+            "desc": "A scene depicting Sora and Kairi sitting on the trunk of a paopu tree. Rumor has it that when two people share the fruit of this tree, they will always be reunited regardless of whatever hardships may try to keep them apart.",
+            "info": "A scene depicting Sora and Kairi sitting on the trunk of a paopu tree. Rumor has it that when two people share the fruit of this tree, they will always be reunited regardless of whatever hardships may try to keep them apart.",
+            "shop": "The Paopu Fruit's Bond",
+            "music": "Moment of Recall",
             "music_id": "400003"
         }
     },
