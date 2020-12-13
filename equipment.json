@@ -11938,7 +11938,7 @@
         "stats": {
             "HP": 0,
             "MP": 0,
-            "ATK": 170,
+            "ATK": 201,
             "DEF": 0,
             "MAG": 0,
             "SPR": 0,
@@ -20622,6 +20622,37 @@
         "price_sell": 14000,
         "icon": "item_2060028.png"
     },
+    "310009700": {
+        "name": "レイジーロッド",
+        "compendium_id": 2005,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 6,
+        "type": "Rod",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [239591],
+        "effects": ["Grants 'めんどくさがり屋の本気' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 28,
+            "DEF": 0,
+            "MAG": 180,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 140000,
+        "price_sell": 14000,
+        "icon": "item_2060030.png"
+    },
     "311000200": {
         "name": "サクラの杖",
         "compendium_id": 73,
@@ -22283,6 +22314,39 @@
         "price_buy": 40000,
         "price_sell": 4000,
         "icon": "item_2050005.png"
+    },
+    "311006000": {
+        "name": "香雪蘭の杖",
+        "compendium_id": 2006,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 5,
+        "type": "Staff",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [239593],
+        "effects": ["Grants 'ふりしぼった勇気' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 17,
+            "DEF": 0,
+            "MAG": 106,
+            "SPR": 164,
+            "element_resist": {
+                "Light": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 160000,
+        "price_sell": 16000,
+        "icon": "item_2050006.png"
     },
     "312000100": {
         "name": "ショートボウ",
@@ -60841,5 +60905,107 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_2250114.png"
+    },
+    "409048800": {
+        "name": "香雪蘭のポンチョ",
+        "compendium_id": 2007,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [239594],
+        "effects": ["Grants 'すっぽりフード' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 28,
+            "SPR": 28,
+            "element_resist": {
+                "Water": 10,
+                "Dark": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_2250113.png"
+    },
+    "409048900": {
+        "name": "真・香雪蘭のポンチョ",
+        "compendium_id": 2008,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [239595],
+        "effects": ["Grants 'すっぽりフード+' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 31,
+            "SPR": 31,
+            "element_resist": {
+                "Water": 20,
+                "Dark": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2250113.png"
+    },
+    "409049000": {
+        "name": "絶・香雪蘭のポンチョ",
+        "compendium_id": 2009,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [239596],
+        "effects": ["Grants 'すっぽりフード++' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 39,
+            "SPR": 39,
+            "element_resist": {
+                "Water": 20,
+                "Dark": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250113.png"
     }
 }

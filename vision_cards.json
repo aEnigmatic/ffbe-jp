@@ -301,7 +301,7 @@
         }
     },
     "100000901": {
-        "name": "ファイサリスの日常",
+        "name": "A Day in the Life of Physalis",
         "compendium_id": 23,
         "compendium_shown": true,
         "rarity": 1,
@@ -332,15 +332,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "グランシェルトでフィーナと共に暮らすファイサリス。大好きな友達とにぎやかな日常を過ごす彼女からは笑顔が絶えない。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "ファイサリスの日常",
-            "music": "♪Chill Out",
+            "desc": "Physalis, living in Grandshelt with Fina. Each day is full of smiles and laughter for the boisterous bunch.",
+            "info": "Physalis, living in Grandshelt with Fina. Each day is full of smiles and laughter for the boisterous bunch.",
+            "shop": "A Day in the Life of Physalis",
+            "music": "Chill Out",
             "music_id": "400337"
         }
     },
     "100001001": {
-        "name": "ビューティフルバケーション",
+        "name": "Beach Beauties",
         "compendium_id": 16,
         "compendium_shown": true,
         "rarity": 1,
@@ -369,10 +369,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "優雅にバカンスを楽しむフォルカとシトラ。武器を手放し、美女ふたりは夏を思いっきり満喫する。この風景は、彼女たちがたどり着くかもしれない安寧のひとときのビジョン。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "ビューティフルバケーション",
-            "music": "♪Joie de Vivre",
+            "desc": "A scene depicting Folka and Citra enjoying a luxurious vacation at the beach. Leaving their weapons aside, they are set on making the best out of their summer, even if this particular moment of peace and calm turns out to be brief.",
+            "info": "A scene depicting Folka and Citra enjoying a luxurious vacation at the beach. Leaving their weapons aside, they are set on making the best out of their summer, even if this particular moment of peace and calm turns out to be brief.",
+            "shop": "Beach Beauties",
+            "music": "Joie de Vivre",
             "music_id": "400312"
         }
     },
@@ -914,6 +914,45 @@
             "music_id": "400201"
         }
     },
+    "100002601": {
+        "name": "これが俺の本気の力",
+        "compendium_id": 42,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [40, 100, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [239600],
+            "7": [239601],
+            "10": [239602]
+        },
+        "restriction": {
+            "239602": [7216, "発動条件：【FFBEユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "仲間たちを助けるため、敵に立ち向かうメロイ。「めんどい」という口癖に逃げず、本気の力を出したメロイはモンスターを一掃する。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "これが俺の本気の力",
+            "music": "♪Survivor Syndrome",
+            "music_id": "400351"
+        }
+    },
     "100002701": {
         "name": "竜の封印",
         "compendium_id": 39,
@@ -951,6 +990,45 @@
             "shop": "竜の封印",
             "music": "♪Supreme Mission",
             "music_id": "400320"
+        }
+    },
+    "100002801": {
+        "name": "未来に遺されたもの",
+        "compendium_id": 43,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [40, 60, 0, 0],
+            "DEF": [20, 30, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [239603],
+            "7": [239604],
+            "10": [239605]
+        },
+        "restriction": {
+            "239605": [7216, "発動条件：【FFBEユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "浄化の樹の前に建てた石碑に、友へのメッセージを刻むラグルス。時は流れ、冒険家のヘレナと傭兵のカーミルが、その場所を訪れる。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "未来に遺されたもの",
+            "music": "♪State of Grace",
+            "music_id": "400204"
         }
     },
     "202000101": {
@@ -1071,7 +1149,7 @@
         }
     },
     "206000101": {
-        "name": "幻獣を求めて",
+        "name": "Search for the Esper",
         "compendium_id": 26,
         "compendium_shown": true,
         "rarity": 1,
@@ -1102,10 +1180,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "氷づけの幻獣を手に入れるため、炭坑都市ナルシェを目指すガストラ帝国の魔導アーマー。そのうちの1機に搭乗する少女・ティナは、魔導の力を持つゆえに帝国にあやつられている。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "幻獣を求めて",
-            "music": "♪ティナのテーマ",
+            "desc": "Magitek armors heading towards Narshe to obtain an esper encased in ice. One of the three is piloted by Terra, a girl being controlled by the Empire due to her ability to use magic.",
+            "info": "Magitek armors heading towards Narshe to obtain an esper encased in ice. One of the three is piloted by Terra, a girl being controlled by the Empire due to her ability to use magic.",
+            "shop": "Search for the Esper",
+            "music": "Terra's Theme",
             "music_id": "400906"
         }
     },
