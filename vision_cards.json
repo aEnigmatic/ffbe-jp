@@ -452,7 +452,7 @@
         }
     },
     "100001401": {
-        "name": "モールズの夜会",
+        "name": "Morze's Soiree",
         "compendium_id": 24,
         "compendium_shown": true,
         "rarity": 1,
@@ -483,10 +483,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "一堂に会したモールズの夜会メンバー。それぞれが思い思いに過ごしているが、ひとたびマダムからの指令があれば、どんな危険な場所でも足を運ぶ忠実な部下に早変わりする。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "モールズの夜会",
-            "music": "♪Unfettered Waltz",
+            "desc": "The members of Morze's Soiree, all gathered together. Though they each spend their free time as they please, with but a single word from Madam, they transform into faithful subordinates ready to venture into the most treacherous of locales.",
+            "info": "The members of Morze's Soiree, all gathered together. Though they each spend their free time as they please, with but a single word from Madam, they transform into faithful subordinates ready to venture into the most treacherous of locales.",
+            "shop": "Morze's Soiree",
+            "music": "Unfettered Waltz",
             "music_id": "400212"
         }
     },
@@ -762,7 +762,7 @@
         }
     },
     "100002201": {
-        "name": "紫電を継ぎし剣士",
+        "name": "The Heir to Purple Lightning",
         "compendium_id": 27,
         "compendium_shown": true,
         "rarity": 1,
@@ -793,10 +793,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "レーゲンから紫電を渡される幼いころのラスウェル。誰よりも強くなりたい、才能がなくとも諦めたくないと本心を吐露する彼こそ、紫電に相応しい。この刀は少年にとって父と親友を繋ぐ大切な物になる。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "紫電を継ぎし剣士",
-            "music": "♪Great Voyage",
+            "desc": "Lasswell, receiving Purple Lightning from Raegen in his youth. The blade was a perfect fit for a boy who refused to give up on his dream of growing stronger than anyone else, regardless of what natural talent might dictate. The young boy soon came to treasure it as a symbol of the bonds he shares with his father and his dear friend.",
+            "info": "Lasswell, receiving Purple Lightning from Raegen in his youth. The blade was a perfect fit for a boy who refused to give up on his dream of growing stronger than anyone else, regardless of what natural talent might dictate. The young boy soon came to treasure it as a symbol of the bonds he shares with his father and his dear friend.",
+            "shop": "The Heir to Purple Lightning",
+            "music": "Great Voyage",
             "music_id": "400105"
         }
     },
@@ -832,7 +832,7 @@
             "desc": "クリスタルから飛び出してきたレインたち。FINAL FANTASY BRAVE EXVIUSの5周年を記念して一堂に会したぞ！いつも遊んでくれてありがとう！",
             "info": "ビジョンカードが経験値を獲得！",
             "shop": "いつもありがとう！",
-            "music": "♪Victory's Fanfare",
+            "music": "♪Victory''s Fanfare",
             "music_id": "400009"
         }
     },
@@ -1571,6 +1571,45 @@
             "shop": "カーテスの大皿へ",
             "music": "♪Valse di Fantastica",
             "music_id": "401021"
+        }
+    },
+    "215000301": {
+        "name": "神凪の使命",
+        "compendium_id": 50,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10015,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [50, 100, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [240220],
+            "7": [240221],
+            "10": [240222]
+        },
+        "restriction": {
+            "240222": [7103, "発動条件：【女性】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "水神リヴァイアサンとの誓約のあと、意識を失ったノクティスを助けるルナフレーナ。重傷を負いながらも、神凪の使命をまっとうしたという。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "神凪の使命",
+            "music": "♪LUNA",
+            "music_id": "401026"
         }
     },
     "335000101": {
