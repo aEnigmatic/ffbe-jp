@@ -608,7 +608,7 @@
         }
     },
     "100001801": {
-        "name": "祝祭準備・ラスウェルチーム",
+        "name": "Festive Preparations - Team Lasswell",
         "compendium_id": 31,
         "compendium_shown": true,
         "rarity": 1,
@@ -637,10 +637,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "5周年を祝うため、グランシェルトに集まったラスウェルとレーゲン。花火が上がるにぎやかな中で、シトラとともに父子はせっせと旗を作っている。そのひとつひとつに心がこもっているぞ。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "祝祭準備・ラスウェルチーム",
-            "music": "♪Another Tale to Tell",
+            "desc": "Lasswell and Raegen have gathered in Grandshelt to ring in the New Year. Father and son are hard at work making flags with Citra as fireworks light up the sky above. They're pouring their hearts into every single stitch.",
+            "info": "Lasswell and Raegen have gathered in Grandshelt to ring in the New Year. Father and son are hard at work making flags with Citra as fireworks light up the sky above. They're pouring their hearts into every single stitch.",
+            "shop": "Festive Preparations - Team Lasswell",
+            "music": "Another Tale to Tell",
             "music_id": "400328"
         }
     },
@@ -801,7 +801,7 @@
         }
     },
     "100002301": {
-        "name": "いつもありがとう！",
+        "name": "Thanks for Everything!",
         "compendium_id": 36,
         "compendium_shown": true,
         "rarity": 1,
@@ -829,10 +829,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "クリスタルから飛び出してきたレインたち。FINAL FANTASY BRAVE EXVIUSの5周年を記念して一堂に会したぞ！いつも遊んでくれてありがとう！",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "いつもありがとう！",
-            "music": "♪Victory''s Fanfare",
+            "desc": "Rain and the others have come leaping out of the crystals to ring in the New Year with everyone! Here's to another amazing year!",
+            "info": "Rain and the others have come leaping out of the crystals to ring in the New Year with everyone! Here's to another amazing year!",
+            "shop": "Thanks for Everything!",
+            "music": "Victory's Fanfare",
             "music_id": "400009"
         }
     },
@@ -1376,6 +1376,45 @@
             "shop": "Planet's Whisper",
             "music": "Flowers Blooming in the Church",
             "music_id": "400988"
+        }
+    },
+    "209000101": {
+        "name": "この刃に懸けて",
+        "compendium_id": 51,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10009,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [40, 110, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [240440],
+            "7": [240441],
+            "10": [240442]
+        },
+        "restriction": {
+            "240442": [7209, "発動条件：【FFIXユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "アレクサンドリア王国で大人気の名作「君の小鳥になりたい」の1シーンを演じるジタンとブランク。ロイヤルシートに座るブラネ女王も、息の合ったチャンバラに見入っているようだ。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "この刃に懸けて",
+            "music": "♪Vamo'alla flamenco",
+            "music_id": "401029"
         }
     },
     "212000101": {
