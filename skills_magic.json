@@ -17,7 +17,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Allows you to view info on an enemy"],
+        "effects": [
+            ["Allows you to view info on an enemy"]
+        ],
         "effects_raw": [[1, 1, 47, [134]]],
         "requirements": null
     },
@@ -39,7 +41,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 150 (+3x, Heal) HP to target"],
+        "effects": [
+            ["Restore 150 (+3x, Heal) HP to target"]
+        ],
         "effects_raw": [[1, 6, 2, [0,  0,  150,  300,  100]]],
         "requirements": null
     },
@@ -61,7 +65,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Cure Blind for one ally"],
+        "effects": [
+            ["Cure Blind for one ally"]
+        ],
         "effects_raw": [[1, 2, 5, [2,  0,  0,  0,  0,  0,  0,  0]]],
         "requirements": null
     },
@@ -83,7 +89,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Cure Silence for one ally"],
+        "effects": [
+            ["Cure Silence for one ally"]
+        ],
         "effects_raw": [[1, 2, 5, [4,  0,  0,  0,  0,  0,  0,  0]]],
         "requirements": null
     },
@@ -105,7 +113,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Cure Poison for one ally"],
+        "effects": [
+            ["Cure Poison for one ally"]
+        ],
         "effects_raw": [[1, 2, 5, [1,  0,  0,  0,  0,  0,  0,  0]]],
         "requirements": null
     },
@@ -127,7 +137,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Magic light damage (1.2x, SPR) to one enemy"],
+        "effects": [
+            ["Magic light damage (1.2x, SPR) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 103, [100,  99999,  120]]],
         "requirements": null
     },
@@ -149,7 +161,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 400 (+3x, Heal) HP to all allies"],
+        "effects": [
+            ["Restore 400 (+3x, Heal) HP to all allies"]
+        ],
         "effects_raw": [[2, 6, 2, [0,  0,  400,  300,  100]]],
         "requirements": null
     },
@@ -171,7 +185,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Cure Paralyze for one ally"],
+        "effects": [
+            ["Cure Paralyze for one ally"]
+        ],
         "effects_raw": [[1, 2, 5, [5,  0,  0,  0,  0,  0,  0,  0]]],
         "requirements": null
     },
@@ -193,7 +209,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Cure Petrify for one ally"],
+        "effects": [
+            ["Cure Petrify for one ally"]
+        ],
         "effects_raw": [[1, 2, 5, [8,  0,  0,  0,  0,  0,  0,  0]]],
         "requirements": null
     },
@@ -216,8 +234,10 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Revive target from KO (30% HP)",
-            "Instant KO to Reaper target"
+            [
+                "Revive target from KO (30% HP)",
+                "Instant KO to Reaper target"
+            ]
         ],
         "effects_raw": [[1, 6, 4, [30]]],
         "requirements": null
@@ -240,7 +260,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Cure Poison, Blind, Sleep, Silence, Paralyze and Confusion for one ally"],
+        "effects": [
+            ["Cure Poison, Blind, Sleep, Silence, Paralyze and Confusion for one ally"]
+        ],
         "effects_raw": [[1, 2, 5, [1,  2,  3,  4,  5,  6,  0,  0]]],
         "requirements": null
     },
@@ -262,7 +284,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 200 (+4x, Heal) HP split over 3 turns to one ally"],
+        "effects": [
+            ["Restore 200 (+4x, Heal) HP split over 3 turns to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [400,  1,  200,  3]]],
         "requirements": null
     },
@@ -284,7 +308,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 60 (+1.2x, Heal) HP per turn to one ally"],
+        "effects": [
+            ["Restore 60 (+1.2x, Heal) HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [120,  1,  60,  -1]]],
         "requirements": null
     },
@@ -306,7 +332,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 1800 (+1x, Heal) HP per turn to one ally"],
+        "effects": [
+            ["Restore 1800 (+1x, Heal) HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [100,  1,  1800,  -1]]],
         "requirements": null
     },
@@ -328,7 +356,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 9999 (+1x, Heal) HP per turn to one ally"],
+        "effects": [
+            ["Restore 9999 (+1x, Heal) HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [100,  1,  9999,  -1]]],
         "requirements": null
     },
@@ -350,7 +380,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 600 (+1.8x, Heal) HP per turn to one ally"],
+        "effects": [
+            ["Restore 600 (+1.8x, Heal) HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [180,  1,  600,  -1]]],
         "requirements": null
     },
@@ -372,7 +404,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 500 (+6x, Heal) HP per turn to one ally"],
+        "effects": [
+            ["Restore 500 (+6x, Heal) HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [600,  1,  500,  -1]]],
         "requirements": null
     },
@@ -394,7 +428,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 200 (+1x, Heal) HP per turn to one ally"],
+        "effects": [
+            ["Restore 200 (+1x, Heal) HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [100,  1,  200,  -1]]],
         "requirements": null
     },
@@ -416,7 +452,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 600 (+1x, Heal) HP per turn to one ally"],
+        "effects": [
+            ["Restore 600 (+1x, Heal) HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [100,  1,  600,  -1]]],
         "requirements": null
     },
@@ -438,7 +476,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 1200 (+1x, Heal) HP per turn to one ally"],
+        "effects": [
+            ["Restore 1200 (+1x, Heal) HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [100,  1,  1200,  -1]]],
         "requirements": null
     },
@@ -460,7 +500,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 1800 (+1x, Heal) HP per turn to one ally"],
+        "effects": [
+            ["Restore 1800 (+1x, Heal) HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [100,  1,  1800,  -1]]],
         "requirements": null
     },
@@ -482,7 +524,9 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Remove all buffs and debuffs from one enemy"],
+        "effects": [
+            ["Remove all buffs and debuffs from one enemy"]
+        ],
         "effects_raw": [[1, 1, 59, ["none"]]],
         "requirements": null
     },
@@ -504,7 +548,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Cure Disease for one ally"],
+        "effects": [
+            ["Cure Disease for one ally"]
+        ],
         "effects_raw": [[1, 2, 5, [7,  0,  0,  0,  0,  0,  0,  0]]],
         "requirements": null
     },
@@ -526,7 +572,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 800 (+3.4x, Heal) HP to target"],
+        "effects": [
+            ["Restore 800 (+3.4x, Heal) HP to target"]
+        ],
         "effects_raw": [[1, 6, 2, [0,  0,  800,  340,  100]]],
         "requirements": null
     },
@@ -548,7 +596,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 1000 (+3.4x, Heal) HP to all allies"],
+        "effects": [
+            ["Restore 1000 (+3.4x, Heal) HP to all allies"]
+        ],
         "effects_raw": [[2, 6, 2, [0,  0,  1000,  340,  100]]],
         "requirements": null
     },
@@ -570,7 +620,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Magic light damage (20x, SPR) to all enemies"],
+        "effects": [
+            ["Magic light damage (20x, SPR) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 103, [100,  99999,  2000]]],
         "requirements": null
     },
@@ -593,8 +645,10 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Revive target from KO (100% HP)",
-            "Instant KO to Reaper target"
+            [
+                "Revive target from KO (100% HP)",
+                "Instant KO to Reaper target"
+            ]
         ],
         "effects_raw": [[1, 6, 4, [100]]],
         "requirements": null
@@ -617,7 +671,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Cure Poison, Blind, Sleep, Silence, Paralyze and Confusion for all allies"],
+        "effects": [
+            ["Cure Poison, Blind, Sleep, Silence, Paralyze and Confusion for all allies"]
+        ],
         "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  0,  0]]],
         "requirements": null
     },
@@ -639,7 +695,9 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Remove all buffs and debuffs from all enemies"],
+        "effects": [
+            ["Remove all buffs and debuffs from all enemies"]
+        ],
         "effects_raw": [[2, 1, 59, ["none"]]],
         "requirements": null
     },
@@ -661,7 +719,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Magic light damage (2.3x, SPR) to one enemy"],
+        "effects": [
+            ["Magic light damage (2.3x, SPR) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 103, [100,  99999,  230]]],
         "requirements": null
     },
@@ -683,7 +743,9 @@
         "effect_type": "Revive",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Auto-revive (80% HP) for 3 turns to one ally"],
+        "effects": [
+            ["Auto-revive (80% HP) for 3 turns to one ally"]
+        ],
         "effects_raw": [[1, 2, 27, [80,  3]]],
         "requirements": null
     },
@@ -706,8 +768,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Magic light damage (1.2x, MAG) to one enemy",
-            "Restore 15 MP to caster"
+            ["Magic light damage (1.2x, MAG) to one enemy"],
+            ["Restore 15 MP to caster"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]], [0, 3, 17, [15]]],
         "requirements": null
@@ -730,7 +792,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 2500 (+18x, Heal) HP to all allies"],
+        "effects": [
+            ["Restore 2500 (+18x, Heal) HP to all allies"]
+        ],
         "effects_raw": [[2, 6, 2, [0,  0,  2500,  1800,  100]]],
         "requirements": null
     },
@@ -752,7 +816,9 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Remove ATK debuff from one ally"],
+        "effects": [
+            ["Remove ATK debuff from one ally"]
+        ],
         "effects_raw": [[1, 2, 111, [1,  0,  0,  0,  0,  0]]],
         "requirements": null
     },
@@ -774,7 +840,9 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Remove ATK debuff from all allies"],
+        "effects": [
+            ["Remove ATK debuff from all allies"]
+        ],
         "effects_raw": [[2, 2, 111, [1,  0,  0,  0,  0,  0]]],
         "requirements": null
     },
@@ -796,7 +864,9 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Remove DEF debuff from one ally"],
+        "effects": [
+            ["Remove DEF debuff from one ally"]
+        ],
         "effects_raw": [[1, 2, 111, [0,  1,  0,  0,  0,  0]]],
         "requirements": null
     },
@@ -818,7 +888,9 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Remove DEF debuff from all allies"],
+        "effects": [
+            ["Remove DEF debuff from all allies"]
+        ],
         "effects_raw": [[2, 2, 111, [0,  1,  0,  0,  0,  0]]],
         "requirements": null
     },
@@ -840,7 +912,9 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Remove MAG debuff from one ally"],
+        "effects": [
+            ["Remove MAG debuff from one ally"]
+        ],
         "effects_raw": [[1, 2, 111, [0,  0,  1,  0,  0,  0]]],
         "requirements": null
     },
@@ -862,7 +936,9 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Remove MAG debuff from all allies"],
+        "effects": [
+            ["Remove MAG debuff from all allies"]
+        ],
         "effects_raw": [[2, 2, 111, [0,  0,  1,  0,  0,  0]]],
         "requirements": null
     },
@@ -884,7 +960,9 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Remove SPR debuff from one ally"],
+        "effects": [
+            ["Remove SPR debuff from one ally"]
+        ],
         "effects_raw": [[1, 2, 111, [0,  0,  0,  1,  0,  0]]],
         "requirements": null
     },
@@ -906,7 +984,9 @@
         "effect_type": "Default",
         "attack_type": "None",
         "element_inflict": null,
-        "effects": ["Remove SPR debuff from all allies"],
+        "effects": [
+            ["Remove SPR debuff from all allies"]
+        ],
         "effects_raw": [[2, 2, 111, [0,  0,  0,  1,  0,  0]]],
         "requirements": null
     },
@@ -928,7 +1008,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 10 (+0.3x, Heal) MP split over 3 turns to one ally"],
+        "effects": [
+            ["Restore 10 (+0.3x, Heal) MP split over 3 turns to one ally"]
+        ],
         "effects_raw": [[1, 2, 30, [30,  1,  10,  3]]],
         "requirements": null
     },
@@ -950,7 +1032,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Cure Poison, Blind, Sleep, Silence and Petrify for one ally"],
+        "effects": [
+            ["Cure Poison, Blind, Sleep, Silence and Petrify for one ally"]
+        ],
         "effects_raw": [[1, 2, 5, [1,  2,  3,  4,  8,  0,  0,  0]]],
         "requirements": null
     },
@@ -972,7 +1056,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 830 (+1.5x, Heal) HP per turn to one ally"],
+        "effects": [
+            ["Restore 830 (+1.5x, Heal) HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [150,  1,  830,  -1]]],
         "requirements": null
     },
@@ -994,7 +1080,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 1830 (+2x, Heal) HP per turn to one ally"],
+        "effects": [
+            ["Restore 1830 (+2x, Heal) HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [200,  1,  1830,  -1]]],
         "requirements": null
     },
@@ -1016,7 +1104,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 1000 (+1x, Heal) HP per turn to one ally"],
+        "effects": [
+            ["Restore 1000 (+1x, Heal) HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [100,  1,  1000,  -1]]],
         "requirements": null
     },
@@ -1038,7 +1128,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 2900 (+1.2x, Heal) HP per turn to one ally"],
+        "effects": [
+            ["Restore 2900 (+1.2x, Heal) HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [120,  1,  2900,  -1]]],
         "requirements": null
     },
@@ -1060,7 +1152,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 2000 HP per turn to one ally"],
+        "effects": [
+            ["Restore 2000 HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [0,  1,  2000,  -1]]],
         "requirements": null
     },
@@ -1082,7 +1176,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 3500 HP per turn to one ally"],
+        "effects": [
+            ["Restore 3500 HP per turn to one ally"]
+        ],
         "effects_raw": [[1, 2, 8, [0,  1,  3500,  -1]]],
         "requirements": null
     },
@@ -1104,7 +1200,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Magic fire damage (1.2x, MAG) to one enemy"],
+        "effects": [
+            ["Magic fire damage (1.2x, MAG) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
         "requirements": null
     },
@@ -1126,7 +1224,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Magic ice damage (1.2x, MAG) to one enemy"],
+        "effects": [
+            ["Magic ice damage (1.2x, MAG) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
         "requirements": null
     },
@@ -1148,7 +1248,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Magic lightning damage (1.2x, MAG) to one enemy"],
+        "effects": [
+            ["Magic lightning damage (1.2x, MAG) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
         "requirements": null
     },
@@ -1170,7 +1272,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Magic water damage (1.2x, MAG) to one enemy"],
+        "effects": [
+            ["Magic water damage (1.2x, MAG) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
         "requirements": null
     },
@@ -1192,7 +1296,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
-        "effects": ["Magic wind damage (1.2x, MAG) to one enemy"],
+        "effects": [
+            ["Magic wind damage (1.2x, MAG) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
         "requirements": null
     },
@@ -1214,7 +1320,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
-        "effects": ["Magic earth damage (1.2x, MAG) to one enemy"],
+        "effects": [
+            ["Magic earth damage (1.2x, MAG) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
         "requirements": null
     },
@@ -1237,9 +1345,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
         "effects": [
-            "Magic dark damage (5x, MAG) to one enemy",
-            "Magic dark damage (5x, MAG) per turn to one enemy for 5 turns",
-            "Inflict Poison (100%) on one enemy"
+            ["Magic dark damage (5x, MAG) to one enemy"],
+            ["Magic dark damage (5x, MAG) per turn to one enemy for 5 turns"],
+            ["Inflict Poison (100%) on one enemy"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  500,  0]], [1, 1, 139, [3,  500,  0,  0,  5,  1,  49]], [1, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]]],
         "requirements": null
@@ -1262,7 +1370,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Magic fire damage (1.4x, MAG) to all enemies"],
+        "effects": [
+            ["Magic fire damage (1.4x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  140,  0]]],
         "requirements": null
     },
@@ -1284,7 +1394,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Magic ice damage (1.4x, MAG) to all enemies"],
+        "effects": [
+            ["Magic ice damage (1.4x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  140,  0]]],
         "requirements": null
     },
@@ -1306,7 +1418,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Magic lightning damage (1.4x, MAG) to all enemies"],
+        "effects": [
+            ["Magic lightning damage (1.4x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  140,  0]]],
         "requirements": null
     },
@@ -1328,7 +1442,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Magic water damage (1.4x, MAG) to all enemies"],
+        "effects": [
+            ["Magic water damage (1.4x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  140,  0]]],
         "requirements": null
     },
@@ -1350,7 +1466,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
-        "effects": ["Magic wind damage (1.4x, MAG) to all enemies"],
+        "effects": [
+            ["Magic wind damage (1.4x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  140,  0]]],
         "requirements": null
     },
@@ -1372,7 +1490,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
-        "effects": ["Magic earth damage (1.4x, MAG) to all enemies"],
+        "effects": [
+            ["Magic earth damage (1.4x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  140,  0]]],
         "requirements": null
     },
@@ -1394,7 +1514,9 @@
         "effect_type": "Percentual DMG",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["50% HP damage to one enemy"],
+        "effects": [
+            ["50% HP damage to one enemy"]
+        ],
         "effects_raw": [[1, 1, 9, [50,  50,  100]]],
         "requirements": null
     },
@@ -1416,7 +1538,9 @@
         "effect_type": "Drain HP",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (0.8x, MAG) as HP drain (30%) to one enemy"],
+        "effects": [
+            ["Magic damage (0.8x, MAG) as HP drain (30%) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 25, [30,  80,  100]]],
         "requirements": null
     },
@@ -1438,7 +1562,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (10x * 2 = 20x, MAG) to one enemy (ignore reflect)"],
+        "effects": [
+            ["Magic damage (10x * 2 = 20x, MAG) to one enemy (ignore reflect)"]
+        ],
         "effects_raw": [[1, 1, 70, [0,  0,  1000,  50]]],
         "requirements": null
     },
@@ -1460,7 +1586,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (2.1x, MAG) with consecutive damage increase (max. 2 times, +0.1x MAG each, 2.3x total) to one enemy"],
+        "effects": [
+            ["Magic damage (2.1x, MAG) with consecutive damage increase (max. 2 times, +0.1x MAG each, 2.3x total) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 72, [0,  0,  200,  10,  10,  3]]],
         "requirements": null
     },
@@ -1483,9 +1611,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
         "effects": [
-            "Magic dark damage (10x, MAG) to all enemies",
-            "Magic dark damage (10x, MAG) per turn to all enemies for 5 turns",
-            "Inflict Poison (100%) on all enemies"
+            ["Magic dark damage (10x, MAG) to all enemies"],
+            ["Magic dark damage (10x, MAG) per turn to all enemies for 5 turns"],
+            ["Inflict Poison (100%) on all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000,  0]], [2, 1, 139, [3,  1000,  0,  0,  5,  1,  50]], [2, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]]],
         "requirements": null
@@ -1508,7 +1636,9 @@
         "effect_type": "Drain MP",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (0.3x, MAG) as MP drain (30%) to one enemy"],
+        "effects": [
+            ["Magic damage (0.3x, MAG) as MP drain (30%) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 10, [30,  30,  100]]],
         "requirements": null
     },
@@ -1530,7 +1660,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Magic fire damage (20x, MAG) to all enemies"],
+        "effects": [
+            ["Magic fire damage (20x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2000,  0]]],
         "requirements": null
     },
@@ -1552,7 +1684,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Magic ice damage (20x, MAG) to all enemies"],
+        "effects": [
+            ["Magic ice damage (20x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2000,  0]]],
         "requirements": null
     },
@@ -1574,7 +1708,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Magic lightning damage (20x, MAG) to all enemies"],
+        "effects": [
+            ["Magic lightning damage (20x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2000,  0]]],
         "requirements": null
     },
@@ -1596,7 +1732,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Magic water damage (20x, MAG) to all enemies"],
+        "effects": [
+            ["Magic water damage (20x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2000,  0]]],
         "requirements": null
     },
@@ -1618,7 +1756,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
-        "effects": ["Magic wind damage (20x, MAG) to all enemies"],
+        "effects": [
+            ["Magic wind damage (20x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2000,  0]]],
         "requirements": null
     },
@@ -1640,7 +1780,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
-        "effects": ["Magic earth damage (20x, MAG) to all enemies"],
+        "effects": [
+            ["Magic earth damage (20x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2000,  0]]],
         "requirements": null
     },
@@ -1663,9 +1805,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
         "effects": [
-            "Magic dark damage (20x, MAG) to all enemies",
-            "Magic dark damage (20x, MAG) per turn to all enemies for 5 turns",
-            "Inflict Poison (100%) on all enemies"
+            ["Magic dark damage (20x, MAG) to all enemies"],
+            ["Magic dark damage (20x, MAG) per turn to all enemies for 5 turns"],
+            ["Inflict Poison (100%) on all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2000,  0]], [2, 1, 139, [3,  2000,  0,  0,  5,  1,  47]], [2, 1, 6, [100,  0,  0,  0,  0,  0,  0,  0,  1]]],
         "requirements": null
@@ -1688,7 +1830,9 @@
         "effect_type": "Percentual DMG",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["75% HP damage to all enemies"],
+        "effects": [
+            ["75% HP damage to all enemies"]
+        ],
         "effects_raw": [[2, 1, 9, [75,  75,  100]]],
         "requirements": null
     },
@@ -1710,7 +1854,9 @@
         "effect_type": "Instant KO",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Instant KO (30%) to one enemy"],
+        "effects": [
+            ["Instant KO (30%) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 35, [30]]],
         "requirements": null
     },
@@ -1732,7 +1878,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Magic fire damage (35x, MAG) to all enemies"],
+        "effects": [
+            ["Magic fire damage (35x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3500,  0]]],
         "requirements": null
     },
@@ -1754,7 +1902,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Magic ice damage (35x, MAG) to all enemies"],
+        "effects": [
+            ["Magic ice damage (35x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3500,  0]]],
         "requirements": null
     },
@@ -1776,7 +1926,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Magic lightning damage (35x, MAG) to all enemies"],
+        "effects": [
+            ["Magic lightning damage (35x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3500,  0]]],
         "requirements": null
     },
@@ -1798,7 +1950,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Magic water damage (35x, MAG) to all enemies"],
+        "effects": [
+            ["Magic water damage (35x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3500,  0]]],
         "requirements": null
     },
@@ -1820,7 +1974,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
-        "effects": ["Magic wind damage (35x, MAG) to all enemies"],
+        "effects": [
+            ["Magic wind damage (35x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3500,  0]]],
         "requirements": null
     },
@@ -1842,7 +1998,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
-        "effects": ["Magic earth damage (35x, MAG) to all enemies"],
+        "effects": [
+            ["Magic earth damage (35x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3500,  0]]],
         "requirements": null
     },
@@ -1865,8 +2023,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (2.3x, MAG) to one enemy",
-            "Reduce resistance to Water by 30% for 3 turns to one enemy"
+            ["Magic fire damage (2.3x, MAG) to one enemy"],
+            ["Reduce resistance to Water by 30% for 3 turns to one enemy"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  230,  0]], [1, 1, 33, [0,  0,  0,  -30,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -1890,8 +2048,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
         "effects": [
-            "Magic ice damage (2.75x, MAG) to all enemies",
-            "Reduce resistance to Ice by 50% for 3 turns to all enemies"
+            ["Magic ice damage (2.75x, MAG) to all enemies"],
+            ["Reduce resistance to Ice by 50% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  275,  0]], [2, 1, 33, [0,  -50,  0,  0,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -1915,8 +2073,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Water"],
         "effects": [
-            "Magic water damage (24x, MAG) to all enemies",
-            "Reduce resistance to Water by 100% for 5 turns to all enemies"
+            ["Magic water damage (24x, MAG) to all enemies"],
+            ["Reduce resistance to Water by 100% for 5 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2400,  0]], [2, 1, 33, [0,  0,  0,  -100,  0,  0,  0,  0,  1,  5]]],
         "requirements": null
@@ -1940,8 +2098,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
         "effects": [
-            "Magic wind damage (24x, MAG) to all enemies",
-            "Reduce resistance to Wind by 100% for 5 turns to all enemies"
+            ["Magic wind damage (24x, MAG) to all enemies"],
+            ["Reduce resistance to Wind by 100% for 5 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2400,  0]], [2, 1, 33, [0,  0,  0,  0,  -100,  0,  0,  0,  1,  5]]],
         "requirements": null
@@ -1965,8 +2123,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
         "effects": [
-            "Magic earth damage (2.75x, MAG) to all enemies",
-            "Reduce resistance to Earth by 50% for 3 turns to all enemies"
+            ["Magic earth damage (2.75x, MAG) to all enemies"],
+            ["Reduce resistance to Earth by 50% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  275,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -50,  0,  0,  1,  3]]],
         "requirements": null
@@ -1990,8 +2148,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
         "effects": [
-            "Magic dark damage (2.1x, MAG) to all enemies",
-            "Reduce ATK, DEF, MAG and SPR by 45% for 3 turns to all enemies"
+            ["Magic dark damage (2.1x, MAG) to all enemies"],
+            ["Reduce ATK, DEF, MAG and SPR by 45% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  210,  0]], [2, 1, 24, [-45,  -45,  -45,  -45,  3,  1]]],
         "requirements": null
@@ -2015,8 +2173,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (4.5x, MAG) to all enemies",
-            "Reduce resistance to Fire by 50% for 3 turns to all enemies"
+            ["Magic fire damage (4.5x, MAG) to all enemies"],
+            ["Reduce resistance to Fire by 50% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  450,  0]], [2, 1, 33, [-50,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -2039,7 +2197,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore reflect)"],
+        "effects": [
+            ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore reflect)"]
+        ],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  25]]],
         "requirements": null
     },
@@ -2061,7 +2221,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (2.8x * 1.33 = 3.73x, MAG) to all enemies (ignore reflect)"],
+        "effects": [
+            ["Magic damage (2.8x * 1.33 = 3.73x, MAG) to all enemies (ignore reflect)"]
+        ],
         "effects_raw": [[2, 1, 70, [0,  0,  280,  25]]],
         "requirements": null
     },
@@ -2083,7 +2245,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Magic dark damage (1.2x, MAG) to one enemy"],
+        "effects": [
+            ["Magic dark damage (1.2x, MAG) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
         "requirements": null
     },
@@ -2105,7 +2269,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Magic dark damage (1.4x, MAG) to all enemies"],
+        "effects": [
+            ["Magic dark damage (1.4x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  140,  0]]],
         "requirements": null
     },
@@ -2127,7 +2293,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Magic dark damage (20x, MAG) to all enemies"],
+        "effects": [
+            ["Magic dark damage (20x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2000,  0]]],
         "requirements": null
     },
@@ -2150,8 +2318,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
         "effects": [
-            "Instant KO (30%) to one enemy",
-            "Magic dark damage (0.8x, MAG) as HP drain (30%) to one enemy"
+            ["Instant KO (30%) to one enemy"],
+            ["Magic dark damage (0.8x, MAG) as HP drain (30%) to one enemy"]
         ],
         "effects_raw": [[1, 1, 35, [30]], [1, 1, 25, [30,  80,  100]]],
         "requirements": null
@@ -2174,7 +2342,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (5.1x * 1.33 = 6.8x, MAG) to all enemies (ignore reflect)"],
+        "effects": [
+            ["Magic damage (5.1x * 1.33 = 6.8x, MAG) to all enemies (ignore reflect)"]
+        ],
         "effects_raw": [[2, 1, 70, [0,  0,  510,  25]]],
         "requirements": null
     },
@@ -2197,8 +2367,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (0.8x, MAG) to one enemy",
-            "Increase MAG by 50% for 3 turns to caster"
+            ["Magic fire damage (0.8x, MAG) to one enemy"],
+            ["Increase MAG by 50% for 3 turns to caster"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  80,  0]], [0, 3, 3, [0,  0,  50,  0,  3,  1]]],
         "requirements": null
@@ -2222,8 +2392,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
         "effects": [
-            "Magic ice damage (0.8x, MAG) to one enemy",
-            "Restore 60 MP split over 3 turns to caster"
+            ["Magic ice damage (0.8x, MAG) to one enemy"],
+            ["Restore 60 MP split over 3 turns to caster"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  80,  0]], [0, 3, 30, [0,  1,  60,  3]]],
         "requirements": null
@@ -2246,7 +2416,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (1x, MAG) to one enemy"],
+        "effects": [
+            ["Magic damage (1x, MAG) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  100,  0]]],
         "requirements": null
     },
@@ -2268,7 +2440,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Magic dark damage (3x * 1.33 = 4x, MAG) to all units (ignore reflect)"],
+        "effects": [
+            ["Magic dark damage (3x * 1.33 = 4x, MAG) to all units (ignore reflect)"]
+        ],
         "effects_raw": [[2, 4, 70, [0,  0,  300,  25]]],
         "requirements": null
     },
@@ -2290,7 +2464,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Magic ice damage (1.2x, MAG) with consecutive damage increase (max. 9 times, +1.2x MAG each, 12x total) to one enemy"],
+        "effects": [
+            ["Magic ice damage (1.2x, MAG) with consecutive damage increase (max. 9 times, +1.2x MAG each, 12x total) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 72, [0,  0,  0,  120,  120,  10]]],
         "requirements": null
     },
@@ -2312,7 +2488,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (10x, MAG) to all enemies"],
+        "effects": [
+            ["Magic damage (10x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1000,  0]]],
         "requirements": null
     },
@@ -2334,7 +2512,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
-        "effects": ["Magic earth damage (3x, MAG) with consecutive damage increase (max. 5 times, +1x MAG each, 8x total) to one enemy"],
+        "effects": [
+            ["Magic earth damage (3x, MAG) with consecutive damage increase (max. 5 times, +1x MAG each, 8x total) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 72, [0,  0,  200,  100,  100,  6]]],
         "requirements": null
     },
@@ -2356,7 +2536,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Magic water damage (3.1x, MAG) with consecutive damage increase (max. 5 times, +1x MAG each, 8.1x total) to one enemy"],
+        "effects": [
+            ["Magic water damage (3.1x, MAG) with consecutive damage increase (max. 5 times, +1x MAG each, 8.1x total) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 72, [0,  0,  210,  100,  100,  6]]],
         "requirements": null
     },
@@ -2378,7 +2560,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
-        "effects": ["Magic wind damage (3.2x, MAG) with consecutive damage increase (max. 5 times, +1x MAG each, 8.2x total) to one enemy"],
+        "effects": [
+            ["Magic wind damage (3.2x, MAG) with consecutive damage increase (max. 5 times, +1x MAG each, 8.2x total) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 72, [0,  0,  220,  100,  100,  6]]],
         "requirements": null
     },
@@ -2400,7 +2584,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Magic fire damage (3.3x, MAG) with consecutive damage increase (max. 5 times, +1x MAG each, 8.3x total) to one enemy"],
+        "effects": [
+            ["Magic fire damage (3.3x, MAG) with consecutive damage increase (max. 5 times, +1x MAG each, 8.3x total) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 72, [0,  0,  230,  100,  100,  6]]],
         "requirements": null
     },
@@ -2422,7 +2608,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Magic ice damage (3.4x, MAG) with consecutive damage increase (max. 5 times, +1x MAG each, 8.4x total) to one enemy"],
+        "effects": [
+            ["Magic ice damage (3.4x, MAG) with consecutive damage increase (max. 5 times, +1x MAG each, 8.4x total) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 72, [0,  0,  240,  100,  100,  6]]],
         "requirements": null
     },
@@ -2444,7 +2632,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Magic lightning damage (3.5x, MAG) with consecutive damage increase (max. 5 times, +1x MAG each, 8.5x total) to one enemy"],
+        "effects": [
+            ["Magic lightning damage (3.5x, MAG) with consecutive damage increase (max. 5 times, +1x MAG each, 8.5x total) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 72, [0,  0,  250,  100,  100,  6]]],
         "requirements": null
     },
@@ -2466,7 +2656,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
-        "effects": ["Magic earth damage (2.5x, MAG) with consecutive damage increase (max. 3 times, +2.5x MAG each, 10x total) to all enemies"],
+        "effects": [
+            ["Magic earth damage (2.5x, MAG) with consecutive damage increase (max. 3 times, +2.5x MAG each, 10x total) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 72, [0,  0,  0,  250,  250,  4]]],
         "requirements": null
     },
@@ -2488,7 +2680,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Magic water damage (2.55x, MAG) with consecutive damage increase (max. 3 times, +2.5x MAG each, 10.05x total) to all enemies"],
+        "effects": [
+            ["Magic water damage (2.55x, MAG) with consecutive damage increase (max. 3 times, +2.5x MAG each, 10.05x total) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 72, [0,  0,  5,  250,  250,  4]]],
         "requirements": null
     },
@@ -2510,7 +2704,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
-        "effects": ["Magic wind damage (2.6x, MAG) with consecutive damage increase (max. 3 times, +2.5x MAG each, 10.1x total) to all enemies"],
+        "effects": [
+            ["Magic wind damage (2.6x, MAG) with consecutive damage increase (max. 3 times, +2.5x MAG each, 10.1x total) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 72, [0,  0,  10,  250,  250,  4]]],
         "requirements": null
     },
@@ -2532,7 +2728,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Magic fire damage (2.65x, MAG) with consecutive damage increase (max. 3 times, +2.5x MAG each, 10.15x total) to all enemies"],
+        "effects": [
+            ["Magic fire damage (2.65x, MAG) with consecutive damage increase (max. 3 times, +2.5x MAG each, 10.15x total) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 72, [0,  0,  15,  250,  250,  4]]],
         "requirements": null
     },
@@ -2554,7 +2752,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Magic ice damage (2.7x, MAG) with consecutive damage increase (max. 3 times, +2.5x MAG each, 10.2x total) to all enemies"],
+        "effects": [
+            ["Magic ice damage (2.7x, MAG) with consecutive damage increase (max. 3 times, +2.5x MAG each, 10.2x total) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 72, [0,  0,  20,  250,  250,  4]]],
         "requirements": null
     },
@@ -2576,7 +2776,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Magic lightning damage (2.75x, MAG) with consecutive damage increase (max. 3 times, +2.5x MAG each, 10.25x total) to all enemies"],
+        "effects": [
+            ["Magic lightning damage (2.75x, MAG) with consecutive damage increase (max. 3 times, +2.5x MAG each, 10.25x total) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 72, [0,  0,  25,  250,  250,  4]]],
         "requirements": null
     },
@@ -2599,8 +2801,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
         "effects": [
-            "Magic dark damage (1.2x, MAG) to one enemy",
-            "Reduce ATK by 50% for 5 turns to one enemy"
+            ["Magic dark damage (1.2x, MAG) to one enemy"],
+            ["Reduce ATK by 50% for 5 turns to one enemy"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]], [1, 1, 24, [-50,  0,  0,  0,  5,  1]]],
         "requirements": null
@@ -2624,8 +2826,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (7x, MAG) to one enemy",
-            "Reduce resistance to Fire by 50% for 3 turns to one enemy"
+            ["Magic fire damage (7x, MAG) to one enemy"],
+            ["Reduce resistance to Fire by 50% for 3 turns to one enemy"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  700,  0]], [1, 1, 33, [-50,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -2649,8 +2851,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Water"],
         "effects": [
-            "Magic water damage (7x, MAG) to one enemy",
-            "Reduce resistance to Water by 50% for 3 turns to one enemy"
+            ["Magic water damage (7x, MAG) to one enemy"],
+            ["Reduce resistance to Water by 50% for 3 turns to one enemy"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  700,  0]], [1, 1, 33, [0,  0,  0,  -50,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -2673,7 +2875,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Magic water damage (1.2x, MAG) with consecutive damage increase (max. 9 times, +1.2x MAG each, 12x total) to one enemy"],
+        "effects": [
+            ["Magic water damage (1.2x, MAG) with consecutive damage increase (max. 9 times, +1.2x MAG each, 12x total) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 72, [0,  0,  0,  120,  120,  10]]],
         "requirements": null
     },
@@ -2695,7 +2899,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Inflict Petrify (30%) on one enemy"],
+        "effects": [
+            ["Inflict Petrify (30%) on one enemy"]
+        ],
         "effects_raw": [[1, 1, 6, [0,  0,  0,  0,  0,  0,  0,  30,  1]]],
         "requirements": null
     },
@@ -2717,7 +2923,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Inflict Petrify (20%) on all enemies"],
+        "effects": [
+            ["Inflict Petrify (20%) on all enemies"]
+        ],
         "effects_raw": [[2, 1, 6, [0,  0,  0,  0,  0,  0,  0,  20,  1]]],
         "requirements": null
     },
@@ -2739,7 +2947,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Magic fire damage (1.2x, MAG) with consecutive damage increase (max. 9 times, +1.2x MAG each, 12x total) to one enemy"],
+        "effects": [
+            ["Magic fire damage (1.2x, MAG) with consecutive damage increase (max. 9 times, +1.2x MAG each, 12x total) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 72, [0,  0,  0,  120,  120,  10]]],
         "requirements": null
     },
@@ -2761,7 +2971,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Magic dark damage (7.5x * 2 = 15x, MAG) to all units (ignore reflect)"],
+        "effects": [
+            ["Magic dark damage (7.5x * 2 = 15x, MAG) to all units (ignore reflect)"]
+        ],
         "effects_raw": [[2, 4, 70, [0,  0,  750,  50]]],
         "requirements": null
     },
@@ -2784,8 +2996,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (4x, MAG) to all enemies",
-            "Magic fire damage (12x, MAG) to all enemies"
+            ["Magic fire damage (4x, MAG) to all enemies"],
+            ["Magic fire damage (12x, MAG) to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [2, 1, 15, [0,  0,  0,  0,  0,  1200,  0]]],
         "requirements": null
@@ -2809,8 +3021,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
         "effects": [
-            "Magic ice damage (4x, MAG) to all enemies",
-            "Magic ice damage (12x, MAG) to all enemies"
+            ["Magic ice damage (4x, MAG) to all enemies"],
+            ["Magic ice damage (12x, MAG) to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [2, 1, 15, [0,  0,  0,  0,  0,  1200,  0]]],
         "requirements": null
@@ -2834,8 +3046,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
         "effects": [
-            "Magic lightning damage (4x, MAG) to all enemies",
-            "Magic lightning damage (12x, MAG) to all enemies"
+            ["Magic lightning damage (4x, MAG) to all enemies"],
+            ["Magic lightning damage (12x, MAG) to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [2, 1, 15, [0,  0,  0,  0,  0,  1200,  0]]],
         "requirements": null
@@ -2859,8 +3071,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Water"],
         "effects": [
-            "Magic water damage (4x, MAG) to all enemies",
-            "Magic water damage (12x, MAG) to all enemies"
+            ["Magic water damage (4x, MAG) to all enemies"],
+            ["Magic water damage (12x, MAG) to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [2, 1, 15, [0,  0,  0,  0,  0,  1200,  0]]],
         "requirements": null
@@ -2884,8 +3096,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
         "effects": [
-            "Magic wind damage (4x, MAG) to all enemies",
-            "Magic wind damage (12x, MAG) to all enemies"
+            ["Magic wind damage (4x, MAG) to all enemies"],
+            ["Magic wind damage (12x, MAG) to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [2, 1, 15, [0,  0,  0,  0,  0,  1200,  0]]],
         "requirements": null
@@ -2909,8 +3121,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
         "effects": [
-            "Magic earth damage (4x, MAG) to all enemies",
-            "Magic earth damage (12x, MAG) to all enemies"
+            ["Magic earth damage (4x, MAG) to all enemies"],
+            ["Magic earth damage (12x, MAG) to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  400,  0]], [2, 1, 15, [0,  0,  0,  0,  0,  1200,  0]]],
         "requirements": null
@@ -2933,7 +3145,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Inflict Sleep (100%) on one enemy"],
+        "effects": [
+            ["Inflict Sleep (100%) on one enemy"]
+        ],
         "effects_raw": [[1, 1, 6, [0,  0,  100,  0,  0,  0,  0,  0,  1]]],
         "requirements": null
     },
@@ -2955,7 +3169,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Inflict Blind (100%) on one enemy"],
+        "effects": [
+            ["Inflict Blind (100%) on one enemy"]
+        ],
         "effects_raw": [[1, 1, 6, [0,  100,  0,  0,  0,  0,  0,  0,  1]]],
         "requirements": null
     },
@@ -2977,7 +3193,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Increase resistance to Fire by 60% for 4 turns to one ally"],
+        "effects": [
+            ["Increase resistance to Fire by 60% for 4 turns to one ally"]
+        ],
         "effects_raw": [[1, 2, 33, [60,  0,  0,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -2999,7 +3217,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Increase resistance to Ice by 60% for 4 turns to one ally"],
+        "effects": [
+            ["Increase resistance to Ice by 60% for 4 turns to one ally"]
+        ],
         "effects_raw": [[1, 2, 33, [0,  60,  0,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -3021,7 +3241,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Increase resistance to Lightning by 60% for 4 turns to one ally"],
+        "effects": [
+            ["Increase resistance to Lightning by 60% for 4 turns to one ally"]
+        ],
         "effects_raw": [[1, 2, 33, [0,  0,  60,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -3043,7 +3265,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Increase resistance to Water by 60% for 4 turns to one ally"],
+        "effects": [
+            ["Increase resistance to Water by 60% for 4 turns to one ally"]
+        ],
         "effects_raw": [[1, 2, 33, [0,  0,  0,  60,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -3065,7 +3289,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
-        "effects": ["Increase resistance to Wind by 60% for 4 turns to one ally"],
+        "effects": [
+            ["Increase resistance to Wind by 60% for 4 turns to one ally"]
+        ],
         "effects_raw": [[1, 2, 33, [0,  0,  0,  0,  60,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -3087,7 +3313,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
-        "effects": ["Increase resistance to Earth by 60% for 4 turns to one ally"],
+        "effects": [
+            ["Increase resistance to Earth by 60% for 4 turns to one ally"]
+        ],
         "effects_raw": [[1, 2, 33, [0,  0,  0,  0,  0,  60,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -3110,8 +3338,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Increase DEF by 100% for 4 turns to one ally",
-            "Reduce damage taken from physical attacks taken by 30% to one ally for 4 turns"
+            ["Increase DEF by 100% for 4 turns to one ally"],
+            ["Reduce damage taken from physical attacks taken by 30% to one ally for 4 turns"]
         ],
         "effects_raw": [[1, 2, 3, [0,  100,  0,  0,  4,  1]], [1, 2, 18, [30,  4,  1,  1]]],
         "requirements": null
@@ -3135,8 +3363,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Increase DEF by 100% for this fight to one ally",
-            "Reduce damage taken from physical attacks taken by 30% to one ally for 99999 turns"
+            ["Increase DEF by 100% for this fight to one ally"],
+            ["Reduce damage taken from physical attacks taken by 30% to one ally for 99999 turns"]
         ],
         "effects_raw": [[1, 2, 3, [0,  100,  0,  0,  -1,  1]], [1, 2, 18, [30,  99999,  1,  1]]],
         "requirements": null
@@ -3159,7 +3387,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase DEF by 10% for this fight to one ally"],
+        "effects": [
+            ["Increase DEF by 10% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  10,  0,  0,  -1,  1]]],
         "requirements": null
     },
@@ -3181,7 +3411,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase DEF by 20% for this fight to one ally"],
+        "effects": [
+            ["Increase DEF by 20% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  20,  0,  0,  -1,  1]]],
         "requirements": null
     },
@@ -3203,7 +3435,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase DEF by 30% for this fight to one ally"],
+        "effects": [
+            ["Increase DEF by 30% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  30,  0,  0,  -1,  1]]],
         "requirements": null
     },
@@ -3225,7 +3459,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase DEF by 40% for this fight to one ally"],
+        "effects": [
+            ["Increase DEF by 40% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  40,  0,  0,  -1,  1]]],
         "requirements": null
     },
@@ -3247,7 +3483,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase DEF by 50% for this fight to one ally"],
+        "effects": [
+            ["Increase DEF by 50% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  50,  0,  0,  -1,  1]]],
         "requirements": null
     },
@@ -3269,7 +3507,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase DEF by 80% for this fight to one ally"],
+        "effects": [
+            ["Increase DEF by 80% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  80,  0,  0,  -1,  1]]],
         "requirements": null
     },
@@ -3291,7 +3531,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase DEF by 150% for this fight to one ally"],
+        "effects": [
+            ["Increase DEF by 150% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  150,  0,  0,  -1,  1,  0]]],
         "requirements": null
     },
@@ -3313,7 +3555,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase DEF by 80% for this fight to one ally"],
+        "effects": [
+            ["Increase DEF by 80% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  80,  0,  0,  -1,  1,  0]]],
         "requirements": null
     },
@@ -3335,7 +3579,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Inflict Silence (100%) on one enemy"],
+        "effects": [
+            ["Inflict Silence (100%) on one enemy"]
+        ],
         "effects_raw": [[1, 1, 6, [0,  0,  0,  100,  0,  0,  0,  0,  1]]],
         "requirements": null
     },
@@ -3357,7 +3603,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Increase resistance to Fire by 60% for 4 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Fire by 60% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 33, [60,  0,  0,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -3379,7 +3627,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Increase resistance to Ice by 60% for 4 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Ice by 60% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 33, [0,  60,  0,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -3401,7 +3651,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Increase resistance to Lightning by 60% for 4 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Lightning by 60% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 33, [0,  0,  60,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -3424,8 +3676,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Increase SPR by 100% for 4 turns to one ally",
-            "Reduce damage taken by magic attacks by 30% to one ally for 4 turns"
+            ["Increase SPR by 100% for 4 turns to one ally"],
+            ["Reduce damage taken by magic attacks by 30% to one ally for 4 turns"]
         ],
         "effects_raw": [[1, 2, 3, [0,  0,  0,  100,  4,  1]], [1, 2, 19, [30,  4,  1,  1]]],
         "requirements": null
@@ -3449,8 +3701,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Increase SPR by 100% for this fight to one ally",
-            "Reduce damage taken by magic attacks by 30% to one ally for 99999 turns"
+            ["Increase SPR by 100% for this fight to one ally"],
+            ["Reduce damage taken by magic attacks by 30% to one ally for 99999 turns"]
         ],
         "effects_raw": [[1, 2, 3, [0,  0,  0,  100,  -1,  1]], [1, 2, 19, [30,  99999,  1,  1]]],
         "requirements": null
@@ -3473,7 +3725,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase SPR by 10% for this fight to one ally"],
+        "effects": [
+            ["Increase SPR by 10% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  0,  0,  10,  -1,  1]]],
         "requirements": null
     },
@@ -3495,7 +3749,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase SPR by 20% for this fight to one ally"],
+        "effects": [
+            ["Increase SPR by 20% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  0,  0,  20,  -1,  1]]],
         "requirements": null
     },
@@ -3517,7 +3773,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase SPR by 30% for this fight to one ally"],
+        "effects": [
+            ["Increase SPR by 30% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  0,  0,  30,  -1,  1]]],
         "requirements": null
     },
@@ -3539,7 +3797,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase SPR by 40% for this fight to one ally"],
+        "effects": [
+            ["Increase SPR by 40% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  0,  0,  40,  -1,  1]]],
         "requirements": null
     },
@@ -3561,7 +3821,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase SPR by 50% for this fight to one ally"],
+        "effects": [
+            ["Increase SPR by 50% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  0,  0,  50,  -1,  1]]],
         "requirements": null
     },
@@ -3583,7 +3845,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase SPR by 80% for this fight to one ally"],
+        "effects": [
+            ["Increase SPR by 80% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  0,  0,  80,  -1,  1]]],
         "requirements": null
     },
@@ -3605,7 +3869,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase SPR by 100% for this fight to one ally"],
+        "effects": [
+            ["Increase SPR by 100% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  0,  0,  100,  -1,  1,  0]]],
         "requirements": null
     },
@@ -3627,7 +3893,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Reduce DEF by 75% for 4 turns to one enemy"],
+        "effects": [
+            ["Reduce DEF by 75% for 4 turns to one enemy"]
+        ],
         "effects_raw": [[1, 1, 24, [0,  -75,  0,  0,  4,  1]]],
         "requirements": null
     },
@@ -3649,7 +3917,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Reduce SPR by 75% for 4 turns to one enemy"],
+        "effects": [
+            ["Reduce SPR by 75% for 4 turns to one enemy"]
+        ],
         "effects_raw": [[1, 1, 24, [0,  0,  0,  -75,  4,  1]]],
         "requirements": null
     },
@@ -3671,7 +3941,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Increase resistance to Water by 60% for 4 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Water by 60% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 33, [0,  0,  0,  60,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -3693,7 +3965,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
-        "effects": ["Increase resistance to Wind by 60% for 4 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Wind by 60% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  60,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -3715,7 +3989,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
-        "effects": ["Increase resistance to Earth by 60% for 4 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Earth by 60% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  0,  60,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -3737,7 +4013,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Reduce resistance to all elements by 100% for 4 turns to one enemy"],
+        "effects": [
+            ["Reduce resistance to all elements by 100% for 4 turns to one enemy"]
+        ],
         "effects_raw": [[1, 1, 33, [-100,  -100,  -100,  -100,  -100,  -100,  -100,  -100,  1,  4]]],
         "requirements": null
     },
@@ -3759,7 +4037,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase ATK by 200% for 4 turns to all allies"],
+        "effects": [
+            ["Increase ATK by 200% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 3, [200,  0,  0,  0,  4,  1]]],
         "requirements": null
     },
@@ -3781,7 +4061,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase ATK by 200% for this fight to one ally"],
+        "effects": [
+            ["Increase ATK by 200% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [200,  0,  0,  0,  -1,  1]]],
         "requirements": null
     },
@@ -3803,7 +4085,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase ATK by 50% for this fight to one ally"],
+        "effects": [
+            ["Increase ATK by 50% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [50,  0,  0,  0,  -1,  1]]],
         "requirements": null
     },
@@ -3826,8 +4110,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Increase ATK, DEF and SPR by 20% for this fight to one ally",
-            "Restore 1800 (+1x, Heal) HP per turn to one ally"
+            ["Increase ATK, DEF and SPR by 20% for this fight to one ally"],
+            ["Restore 1800 (+1x, Heal) HP per turn to one ally"]
         ],
         "effects_raw": [[1, 2, 3, [20,  20,  0,  20,  -1,  1]], [1, 2, 8, [100,  1,  1800,  -1]]],
         "requirements": null
@@ -3851,8 +4135,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Increase ATK, DEF, MAG and SPR by 80% for this fight to one ally",
-            "Restore 2900 (+1.2x, Heal) HP per turn to one ally"
+            ["Increase ATK, DEF, MAG and SPR by 80% for this fight to one ally"],
+            ["Restore 2900 (+1.2x, Heal) HP per turn to one ally"]
         ],
         "effects_raw": [[1, 2, 3, [80,  80,  80,  80,  -1,  1]], [1, 2, 8, [120,  1,  2900,  -1]]],
         "requirements": null
@@ -3875,7 +4159,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase ATK by 75% for this fight to one ally"],
+        "effects": [
+            ["Increase ATK by 75% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [75,  0,  0,  0,  -1,  1]]],
         "requirements": null
     },
@@ -3897,7 +4183,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase ATK by 100% for this fight to one ally"],
+        "effects": [
+            ["Increase ATK by 100% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [100,  0,  0,  0,  -1,  1]]],
         "requirements": null
     },
@@ -3919,7 +4207,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase ATK by 80% for this fight to one ally"],
+        "effects": [
+            ["Increase ATK by 80% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [80,  0,  0,  0,  -1,  1,  0]]],
         "requirements": null
     },
@@ -3941,7 +4231,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase ATK by 130% for this fight to one ally"],
+        "effects": [
+            ["Increase ATK by 130% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [130,  0,  0,  0,  -1,  1,  0]]],
         "requirements": null
     },
@@ -3963,7 +4255,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase ATK by 230% for this fight to one ally"],
+        "effects": [
+            ["Increase ATK by 230% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [230,  0,  0,  0,  -1,  1,  0]]],
         "requirements": null
     },
@@ -3985,7 +4279,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase MAG by 200% for 4 turns to all allies"],
+        "effects": [
+            ["Increase MAG by 200% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 3, [0,  0,  200,  0,  4,  1]]],
         "requirements": null
     },
@@ -4007,7 +4303,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Increase MAG by 200% for this fight to one ally"],
+        "effects": [
+            ["Increase MAG by 200% for this fight to one ally"]
+        ],
         "effects_raw": [[1, 2, 3, [0,  0,  200,  0,  -1,  1]]],
         "requirements": null
     },
@@ -4029,7 +4327,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Increase resistance to Fire by 80% for 4 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Fire by 80% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 33, [80,  0,  0,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -4051,7 +4351,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Increase resistance to Ice by 80% for 4 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Ice by 80% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 33, [0,  80,  0,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -4073,7 +4375,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Increase resistance to Lightning by 80% for 4 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Lightning by 80% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 33, [0,  0,  80,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -4095,7 +4399,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Increase resistance to Water by 80% for 4 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Water by 80% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 33, [0,  0,  0,  80,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -4117,7 +4423,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
-        "effects": ["Increase resistance to Wind by 80% for 4 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Wind by 80% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  80,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -4139,7 +4447,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
-        "effects": ["Increase resistance to Earth by 80% for 4 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Earth by 80% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 33, [0,  0,  0,  0,  0,  80,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -4162,8 +4472,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Increase DEF by 100% for 4 turns to all allies",
-            "Reduce damage taken from physical attacks taken by 30% to all allies for 4 turns"
+            ["Increase DEF by 100% for 4 turns to all allies"],
+            ["Reduce damage taken from physical attacks taken by 30% to all allies for 4 turns"]
         ],
         "effects_raw": [[2, 2, 3, [0,  100,  0,  0,  4,  1]], [2, 2, 18, [30,  4,  1,  1]]],
         "requirements": null
@@ -4187,8 +4497,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Increase SPR by 100% for 4 turns to all allies",
-            "Reduce damage taken by magic attacks by 30% to all allies for 4 turns"
+            ["Increase SPR by 100% for 4 turns to all allies"],
+            ["Reduce damage taken by magic attacks by 30% to all allies for 4 turns"]
         ],
         "effects_raw": [[2, 2, 3, [0,  0,  0,  100,  4,  1]], [2, 2, 19, [30,  4,  1,  1]]],
         "requirements": null
@@ -4211,7 +4521,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Reflect 1 spell(s) for 4 turns to one ally"],
+        "effects": [
+            ["Reflect 1 spell(s) for 4 turns to one ally"]
+        ],
         "effects_raw": [[1, 2, 86, [100,  1,  4]]],
         "requirements": null
     },
@@ -4233,7 +4545,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Reflect all spell(s) to one ally"],
+        "effects": [
+            ["Reflect all spell(s) to one ally"]
+        ],
         "effects_raw": [[1, 2, 86, [100,  -1,  -1]]],
         "requirements": null
     },
@@ -4255,7 +4569,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Reduce resistance to Fire by 50% for 3 turns to all enemies"],
+        "effects": [
+            ["Reduce resistance to Fire by 50% for 3 turns to all enemies"]
+        ],
         "effects_raw": [[2, 1, 33, [-50,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
     },
@@ -4277,7 +4593,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Reduce resistance to Lightning by 50% for 3 turns to all enemies"],
+        "effects": [
+            ["Reduce resistance to Lightning by 50% for 3 turns to all enemies"]
+        ],
         "effects_raw": [[2, 1, 33, [0,  0,  -50,  0,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
     },
@@ -4299,7 +4617,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Reduce resistance to Light by 50% for 3 turns to all enemies"],
+        "effects": [
+            ["Reduce resistance to Light by 50% for 3 turns to all enemies"]
+        ],
         "effects_raw": [[2, 1, 33, [0,  0,  0,  0,  0,  0,  -50,  0,  1,  3]]],
         "requirements": null
     },
@@ -4321,7 +4641,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Increase LB gauge by 3 to one ally"],
+        "effects": [
+            ["Increase LB gauge by 3 to one ally"]
+        ],
         "effects_raw": [[1, 2, 125, [300,  300]]],
         "requirements": null
     },
@@ -4343,7 +4665,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Reduce resistance to all elements by 40% for 3 turns to all enemies"],
+        "effects": [
+            ["Reduce resistance to all elements by 40% for 3 turns to all enemies"]
+        ],
         "effects_raw": [[2, 1, 33, [-40,  -40,  -40,  -40,  -40,  -40,  -40,  -40,  1,  3]]],
         "requirements": null
     },
@@ -4365,7 +4689,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Add Lightning element (100%) to physical attacks for 5 turns to all allies"],
+        "effects": [
+            ["Add Lightning element (100%) to physical attacks for 5 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 95, [0,  0,  100,  0,  0,  0,  0,  0,  5,  1]]],
         "requirements": null
     },
@@ -4387,7 +4713,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Increase resistance to all status effects by 100% for all allies for 5 turns"],
+        "effects": [
+            ["Increase resistance to all status effects by 100% for all allies for 5 turns"]
+        ],
         "effects_raw": [[2, 2, 7, [100,  100,  100,  100,  100,  100,  100,  100,  1,  5]]],
         "requirements": null
     },
@@ -4409,7 +4737,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Increase ATK, DEF, MAG and SPR by 80% for this fight to caster"],
+        "effects": [
+            ["Increase ATK, DEF, MAG and SPR by 80% for this fight to caster"]
+        ],
         "effects_raw": [[0, 3, 3, [80,  80,  80,  80,  -1,  1,  0]]],
         "requirements": null
     },
@@ -4432,8 +4762,8 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Restore 2500 (+18x, Heal) HP to all allies",
-            "Restore 6300 (+36x, Heal) HP split over 3 turns to all allies"
+            ["Restore 2500 (+18x, Heal) HP to all allies"],
+            ["Restore 6300 (+36x, Heal) HP split over 3 turns to all allies"]
         ],
         "effects_raw": [[2, 2, 2, [0,  0,  2500,  1800,  100]], [2, 2, 8, [3600,  1,  6300,  3]]],
         "requirements": [["SWITCH", 10384500]]
@@ -4457,8 +4787,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Magic light damage (12x, SPR) to one enemy",
-            "Magic light damage (12x, SPR) per turn to one enemy for 3 turns"
+            ["Magic light damage (12x, SPR) to one enemy"],
+            ["Magic light damage (12x, SPR) per turn to one enemy for 3 turns"]
         ],
         "effects_raw": [[1, 1, 103, [100,  99999,  1200]], [1, 1, 139, [4,  1200,  0,  0,  3,  1,  22]]],
         "requirements": [["SWITCH", 10391500]]
@@ -4482,10 +4812,10 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Increase DEF and SPR by 150% for 3 turns to all allies",
-            "Reduce damage taken from physical attacks taken by 20% to all allies for 3 turns",
-            "Reduce damage taken by magic attacks by 20% to all allies for 3 turns",
-            "Grant a 3000 HP shield to all allies for 3 turns"
+            ["Increase DEF and SPR by 150% for 3 turns to all allies"],
+            ["Reduce damage taken from physical attacks taken by 20% to all allies for 3 turns"],
+            ["Reduce damage taken by magic attacks by 20% to all allies for 3 turns"],
+            ["Grant a 3000 HP shield to all allies for 3 turns"]
         ],
         "effects_raw": [[2, 2, 3, [0,  150,  0,  150,  3,  1,  0]], [2, 2, 18, [20,  3,  1]], [2, 2, 19, [20,  3,  1]], [2, 2, 127, [3000,  3,  1]]],
         "requirements": [["SWITCH", 18496701]]
@@ -4508,7 +4838,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Cure all status effects for all allies"],
+        "effects": [
+            ["Cure all status effects for all allies"]
+        ],
         "effects_raw": [[2, 2, 5, [1,  2,  3,  4,  5,  6,  7,  8]]],
         "requirements": [["SWITCH", 18496701]]
     },
@@ -4531,8 +4863,8 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Fixed* damage (1000) to one enemy",
-            "Magic damage (10x, MAG) per turn to one enemy for 3 turns"
+            ["Fixed* damage (1000) to one enemy"],
+            ["Magic damage (10x, MAG) per turn to one enemy for 3 turns"]
         ],
         "effects_raw": [[1, 1, 41, [1000,  0]], [1, 1, 139, [3,  1000,  0,  0,  3,  1,  23]]],
         "requirements": [["SWITCH", 18496701]]
@@ -4556,8 +4888,8 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Restore 2500 (+18x, Heal) HP to all allies",
-            "Restore 6300 (+36x, Heal) HP split over 3 turns to all allies"
+            ["Restore 2500 (+18x, Heal) HP to all allies"],
+            ["Restore 6300 (+36x, Heal) HP split over 3 turns to all allies"]
         ],
         "effects_raw": [[2, 2, 2, [0,  0,  2500,  1800,  100]], [2, 2, 8, [3600,  1,  6300,  3]]],
         "requirements": [["SWITCH", 18496711]]
@@ -4580,7 +4912,9 @@
         "effect_type": "Percentual DMG",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["25% HP damage to all enemies"],
+        "effects": [
+            ["25% HP damage to all enemies"]
+        ],
         "effects_raw": [[2, 1, 9, [25,  25,  100,  1]]],
         "requirements": [["SWITCH", 18496711]]
     },
@@ -4602,7 +4936,9 @@
         "effect_type": "Revive",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Auto-revive (1% HP) for 3 turns to one ally"],
+        "effects": [
+            ["Auto-revive (1% HP) for 3 turns to one ally"]
+        ],
         "effects_raw": [[1, 2, 27, [1,  3,  0]]],
         "requirements": [["SWITCH", 18496721]]
     },
@@ -4625,8 +4961,8 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Magic damage (7.5x * 2 = 15x, MAG) to one enemy (ignore reflect)",
-            "Increase damage of ゴブリンパンチ (40090) by 750% for 4 turns"
+            ["Magic damage (7.5x * 2 = 15x, MAG) to one enemy (ignore reflect)"],
+            ["Increase damage of ゴブリンパンチ (40090) by 750% for 4 turns"]
         ],
         "effects_raw": [[1, 1, 70, [0,  0,  750,  50]], [0, 3, 136, [40090,  0,  0,  750,  4,  1,  2410,  0]]],
         "requirements": [["SWITCH", 18496721]]
@@ -4650,9 +4986,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
         "effects": [
-            "Magic wind damage (3x * 2 = 6x, MAG) to all enemies (ignore reflect)",
-            "Magic wind damage (14x * 2 = 28x, MAG) to all enemies (ignore reflect)",
-            "Reduce resistance to Wind by 100% for 3 turns to all enemies"
+            ["Magic wind damage (3x * 2 = 6x, MAG) to all enemies (ignore reflect)"],
+            ["Magic wind damage (14x * 2 = 28x, MAG) to all enemies (ignore reflect)"],
+            ["Reduce resistance to Wind by 100% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 70, [0,  0,  300,  50]], [2, 1, 70, [0,  0,  1400,  50]], [2, 1, 33, [0,  0,  0,  0,  -100,  0,  0,  0,  1,  3]]],
         "requirements": [["SWITCH", 18496731]]
@@ -4676,9 +5012,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
         "effects": [
-            "Magic earth damage (3x * 2 = 6x, MAG) to all enemies (ignore reflect)",
-            "Magic earth damage (14x * 2 = 28x, MAG) to all enemies (ignore reflect)",
-            "Reduce resistance to Earth by 100% for 3 turns to all enemies"
+            ["Magic earth damage (3x * 2 = 6x, MAG) to all enemies (ignore reflect)"],
+            ["Magic earth damage (14x * 2 = 28x, MAG) to all enemies (ignore reflect)"],
+            ["Reduce resistance to Earth by 100% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 70, [0,  0,  300,  50]], [2, 1, 70, [0,  0,  1400,  50]], [2, 1, 33, [0,  0,  0,  0,  0,  -100,  0,  0,  1,  3]]],
         "requirements": [["SWITCH", 18496741]]
@@ -4701,7 +5037,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Inflict all status effects (80%) on all enemies"],
+        "effects": [
+            ["Inflict all status effects (80%) on all enemies"]
+        ],
         "effects_raw": [[2, 1, 6, [80,  80,  80,  80,  80,  80,  80,  80,  1]]],
         "requirements": [["SWITCH", 18496741]]
     },
@@ -4723,7 +5061,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Magic fire damage (3.6x, MAG) to all enemies"],
+        "effects": [
+            ["Magic fire damage (3.6x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  360,  0]]],
         "requirements": [["SWITCH", 18519012]]
     },
@@ -4745,7 +5085,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (4.95x, MAG) to one enemy"],
+        "effects": [
+            ["Magic damage (4.95x, MAG) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  495,  0]]],
         "requirements": [["SWITCH", 18519013]]
     },
@@ -4767,7 +5109,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Inflict Petrify (100%) on all enemies"],
+        "effects": [
+            ["Inflict Petrify (100%) on all enemies"]
+        ],
         "effects_raw": [[2, 1, 6, [0,  0,  0,  0,  0,  0,  0,  100,  1]]],
         "requirements": [["SWITCH", 18519013]]
     },
@@ -4789,7 +5133,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Magic water damage (3.9x, MAG) to all enemies"],
+        "effects": [
+            ["Magic water damage (3.9x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  390,  0]]],
         "requirements": [["SWITCH", 18519014]]
     },
@@ -4811,7 +5157,9 @@
         "effect_type": "Default",
         "attack_type": "Physical",
         "element_inflict": null,
-        "effects": ["Physical damage (23x, ATK) to  after a one turn timed delay"],
+        "effects": [
+            ["Physical damage (23x, ATK) to  after a one turn timed delay"]
+        ],
         "effects_raw": [[1, 1, 134, [0,  0,  1,  1,  2300]]],
         "requirements": [["SWITCH", 18519015]]
     },
@@ -4834,8 +5182,8 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Restore 2500 (+18x, Heal) HP to all allies",
-            "Restore 6300 (+36x, Heal) HP split over 3 turns to all allies"
+            ["Restore 2500 (+18x, Heal) HP to all allies"],
+            ["Restore 6300 (+36x, Heal) HP split over 3 turns to all allies"]
         ],
         "effects_raw": [[2, 2, 2, [0,  0,  2500,  1800,  100]], [2, 2, 8, [3600,  1,  6300,  3]]],
         "requirements": [["SWITCH", 18519015]]
@@ -4858,7 +5206,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Inflict Poison, Blind, Sleep and Silence (100%) on all enemies"],
+        "effects": [
+            ["Inflict Poison, Blind, Sleep and Silence (100%) on all enemies"]
+        ],
         "effects_raw": [[2, 1, 6, [100,  100,  100,  100,  0,  0,  0,  0,  1]]],
         "requirements": [["SWITCH", 18519016]]
     },
@@ -4881,8 +5231,8 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Increase DEF and SPR by 180% for 3 turns to all allies",
-            "Increase resistance to Fire, Lightning and Water by 80% for 3 turns to all allies"
+            ["Increase DEF and SPR by 180% for 3 turns to all allies"],
+            ["Increase resistance to Fire, Lightning and Water by 80% for 3 turns to all allies"]
         ],
         "effects_raw": [[2, 2, 3, [0,  180,  0,  180,  3,  1,  0]], [2, 2, 33, [80,  0,  80,  80,  0,  0,  0,  0,  1,  3]]],
         "requirements": [["SWITCH", 18519016]]
@@ -4906,8 +5256,8 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Reduce MAG and SPR by 65% for 3 turns to all enemies",
-            "Reduce resistance to Wind and Light by 100% for 3 turns to all enemies"
+            ["Reduce MAG and SPR by 65% for 3 turns to all enemies"],
+            ["Reduce resistance to Wind and Light by 100% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 24, [0,  0,  -65,  -65,  3,  1]], [2, 1, 33, [0,  0,  0,  0,  -100,  0,  -100,  0,  1,  3]]],
         "requirements": [["SWITCH", 10540500]]
@@ -4930,7 +5280,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Increase LB damage by 30% to all allies for 3 turns"],
+        "effects": [
+            ["Increase LB damage by 30% to all allies for 3 turns"]
+        ],
         "effects_raw": [[2, 2, 120, [30,  3,  1,  1]]],
         "requirements": [["SWITCH", 10610300]]
     },
@@ -4953,9 +5305,9 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Increase DEF and SPR by 150% for 3 turns to all allies",
-            "Reduce damage taken by 30% to all allies for 3 turns",
-            "Grant a 5000 HP shield to all allies for 3 turns"
+            ["Increase DEF and SPR by 150% for 3 turns to all allies"],
+            ["Reduce damage taken by 30% to all allies for 3 turns"],
+            ["Grant a 5000 HP shield to all allies for 3 turns"]
         ],
         "effects_raw": [[2, 2, 3, [0,  150,  0,  150,  3,  1,  0]], [2, 2, 101, [30,  3,  1,  1]], [2, 2, 127, [5000,  3,  1]]],
         "requirements": [["SWITCH", 10770300]]
@@ -4978,7 +5330,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (6x, MAG) to one enemy"],
+        "effects": [
+            ["Magic damage (6x, MAG) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  600,  0]]],
         "requirements": null
     },
@@ -5000,7 +5354,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Inflict all status effects (80%) on all enemies"],
+        "effects": [
+            ["Inflict all status effects (80%) on all enemies"]
+        ],
         "effects_raw": [[2, 1, 6, [80,  80,  80,  80,  80,  80,  80,  80,  1]]],
         "requirements": [["SWITCH", 18583110]]
     },
@@ -5023,9 +5379,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
         "effects": [
-            "Magic lightning damage (12x, MAG) to all enemies",
-            "Reduce resistance to Lightning by 100% for 4 turns to all enemies",
-            "Increase LB gauge by 3-4 to caster"
+            ["Magic lightning damage (12x, MAG) to all enemies"],
+            ["Reduce resistance to Lightning by 100% for 4 turns to all enemies"],
+            ["Increase LB gauge by 3-4 to caster"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1200,  0]], [2, 1, 33, [0,  0,  -100,  0,  0,  0,  0,  0,  1,  4]], [0, 3, 125, [300,  400]]],
         "requirements": [["SWITCH", 18583110]]
@@ -5048,7 +5404,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Reduce DEF and SPR by 60% for 4 turns to one enemy"],
+        "effects": [
+            ["Reduce DEF and SPR by 60% for 4 turns to one enemy"]
+        ],
         "effects_raw": [[1, 1, 24, [0,  -60,  0,  -60,  4,  1]]],
         "requirements": [["SWITCH", 18583120]]
     },
@@ -5070,7 +5428,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (22x, MAG) to one enemy"],
+        "effects": [
+            ["Magic damage (22x, MAG) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  2200,  0]]],
         "requirements": [["SWITCH", 18583130]]
     },
@@ -5093,9 +5453,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (17x, MAG) to all enemies",
-            "Reduce resistance to Fire by 100% for 4 turns to all enemies",
-            "Increase LB gauge by 3-4 to caster"
+            ["Magic fire damage (17x, MAG) to all enemies"],
+            ["Reduce resistance to Fire by 100% for 4 turns to all enemies"],
+            ["Increase LB gauge by 3-4 to caster"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1700,  0]], [2, 1, 33, [-100,  0,  0,  0,  0,  0,  0,  0,  1,  4]], [0, 3, 125, [300,  400]]],
         "requirements": [["SWITCH", 18583210]]
@@ -5119,9 +5479,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Water"],
         "effects": [
-            "Magic water damage (17x, MAG) to all enemies",
-            "Reduce resistance to Water by 100% for 4 turns to all enemies",
-            "Increase LB gauge by 3-4 to caster"
+            ["Magic water damage (17x, MAG) to all enemies"],
+            ["Reduce resistance to Water by 100% for 4 turns to all enemies"],
+            ["Increase LB gauge by 3-4 to caster"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1700,  0]], [2, 1, 33, [0,  0,  0,  -100,  0,  0,  0,  0,  1,  4]], [0, 3, 125, [300,  400]]],
         "requirements": [["SWITCH", 18583220]]
@@ -5144,7 +5504,9 @@
         "effect_type": "Percentual DMG",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["93% HP damage to all enemies"],
+        "effects": [
+            ["93% HP damage to all enemies"]
+        ],
         "effects_raw": [[2, 1, 9, [93,  93,  100,  0]]],
         "requirements": [["SWITCH", 18583310]]
     },
@@ -5167,9 +5529,9 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Reduce damage taken by 40% to all allies for 4 turns",
-            "Increase LB gauge by 7 to all allies",
-            "Increase the limit burst gauge fill rate by 150% for 4 turns to all allies"
+            ["Reduce damage taken by 40% to all allies for 4 turns"],
+            ["Increase LB gauge by 7 to all allies"],
+            ["Increase the limit burst gauge fill rate by 150% for 4 turns to all allies"]
         ],
         "effects_raw": [[2, 2, 101, [40,  4,  1,  1]], [2, 2, 125, [700,  700]], [2, 2, 63, [150,  4]]],
         "requirements": [["SWITCH", 18583310]]
@@ -5192,7 +5554,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (20x, MAG) to all enemies"],
+        "effects": [
+            ["Magic damage (20x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  2000,  0]]],
         "requirements": [["SWITCH", 18583320]]
     },
@@ -5215,9 +5579,9 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Restore 20% HP and MP to all allies",
-            "Restore 6300 (+36x, Heal) HP split over 3 turns to all allies",
-            "Restore 120 MP split over 3 turns to all allies"
+            ["Restore 20% HP and MP to all allies"],
+            ["Restore 6300 (+36x, Heal) HP split over 3 turns to all allies"],
+            ["Restore 120 MP split over 3 turns to all allies"]
         ],
         "effects_raw": [[2, 2, 64, [20,  20]], [2, 2, 8, [3600,  1,  6300,  3]], [2, 2, 30, [0,  1,  120,  3]]],
         "requirements": [["SWITCH", 18583320]]
@@ -5241,8 +5605,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Magic light damage (10x, SPR) to all enemies",
-            "Magic light damage (7.5x, SPR) per turn to all enemies for 10 turns"
+            ["Magic light damage (10x, SPR) to all enemies"],
+            ["Magic light damage (7.5x, SPR) per turn to all enemies for 10 turns"]
         ],
         "effects_raw": [[2, 1, 103, [100,  99999,  1000]], [2, 1, 139, [4,  750,  0,  0,  10,  1,  32]]],
         "requirements": [["SWITCH", 10910005]]
@@ -5265,7 +5629,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 70% HP to all allies"],
+        "effects": [
+            ["Restore 70% HP to all allies"]
+        ],
         "effects_raw": [[2, 2, 64, [70,  0]]],
         "requirements": [["SWITCH", 186215010]]
     },
@@ -5287,7 +5653,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Fixed* damage (1000) to one enemy"],
+        "effects": [
+            ["Fixed* damage (1000) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 41, [1000]]],
         "requirements": [["SWITCH", 186215010]]
     },
@@ -5310,9 +5678,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Water"],
         "effects": [
-            "Magic water damage (40x, MAG) to all enemies",
-            "Magic water damage (40x, MAG) to all enemies",
-            "Magic water damage (40x, MAG) to all enemies"
+            ["Magic water damage (40x, MAG) to all enemies"],
+            ["Magic water damage (40x, MAG) to all enemies"],
+            ["Magic water damage (40x, MAG) to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  4000,  0]], [2, 1, 15, [0,  0,  0,  0,  0,  4000,  0]], [2, 1, 15, [0,  0,  0,  0,  0,  4000,  0]]],
         "requirements": [["SWITCH", 186215020]]
@@ -5336,9 +5704,9 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Increase DEF and SPR by 200% for 6 turns to all allies",
-            "Reduce damage taken from physical attacks taken by 30% to all allies for 6 turns",
-            "Reduce damage taken by magic attacks by 30% to all allies for 6 turns"
+            ["Increase DEF and SPR by 200% for 6 turns to all allies"],
+            ["Reduce damage taken from physical attacks taken by 30% to all allies for 6 turns"],
+            ["Reduce damage taken by magic attacks by 30% to all allies for 6 turns"]
         ],
         "effects_raw": [[2, 2, 3, [0,  200,  0,  200,  6,  1,  0]], [2, 2, 18, [30,  6,  1,  1]], [2, 2, 19, [30,  6,  1,  1]]],
         "requirements": [["SWITCH", 186215020]]
@@ -5362,8 +5730,8 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Inflict Stop (80%) for one turn on one enemy",
-            "Inflict all status effects (80%) on one enemy"
+            ["Inflict Stop (80%) for one turn on one enemy"],
+            ["Inflict all status effects (80%) on one enemy"]
         ],
         "effects_raw": [[1, 1, 88, [80,  1]], [1, 1, 6, [80,  80,  80,  80,  80,  80,  80,  80,  1]]],
         "requirements": [["SWITCH", 186215030]]
@@ -5386,7 +5754,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (150x * 2 = 300x, MAG) to all enemies (ignore reflect)"],
+        "effects": [
+            ["Magic damage (150x * 2 = 300x, MAG) to all enemies (ignore reflect)"]
+        ],
         "effects_raw": [[2, 1, 70, [0,  0,  15000,  50]]],
         "requirements": [["SWITCH", 186215050]]
     },
@@ -5408,7 +5778,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Increase resistance to Fire, Ice and Lightning by 95% for one turn to all units"],
+        "effects": [
+            ["Increase resistance to Fire, Ice and Lightning by 95% for one turn to all units"]
+        ],
         "effects_raw": [[2, 4, 33, [95,  95,  95,  0,  0,  0,  0,  0,  1,  1]]],
         "requirements": [["SWITCH", 186215040]]
     },
@@ -5430,7 +5802,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Magic lightning damage (30x, MAG) to all enemies"],
+        "effects": [
+            ["Magic lightning damage (30x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3000,  0]]],
         "requirements": null
     },
@@ -5452,7 +5826,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Magic lightning damage (40x, MAG) to all enemies"],
+        "effects": [
+            ["Magic lightning damage (40x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  4000,  0]]],
         "requirements": null
     },
@@ -5474,7 +5850,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 1200 (+3.4x, Heal) HP to all allies"],
+        "effects": [
+            ["Restore 1200 (+3.4x, Heal) HP to all allies"]
+        ],
         "effects_raw": [[2, 6, 2, [0,  0,  1200,  340,  100]]],
         "requirements": null
     },
@@ -5496,7 +5874,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 1200 (+3.4x, Heal) HP to all allies"],
+        "effects": [
+            ["Restore 1200 (+3.4x, Heal) HP to all allies"]
+        ],
         "effects_raw": [[2, 6, 2, [0,  0,  1200,  340,  100]]],
         "requirements": null
     },
@@ -5518,7 +5898,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 1000 (+3.4x, Heal) HP to all allies"],
+        "effects": [
+            ["Restore 1000 (+3.4x, Heal) HP to all allies"]
+        ],
         "effects_raw": [[2, 6, 2, [0,  0,  1000,  340,  100]]],
         "requirements": null
     },
@@ -5540,7 +5922,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 1200 (+3.4x, Heal) HP to all allies"],
+        "effects": [
+            ["Restore 1200 (+3.4x, Heal) HP to all allies"]
+        ],
         "effects_raw": [[2, 6, 2, [0,  0,  1200,  340,  100]]],
         "requirements": null
     },
@@ -5562,7 +5946,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Increase resistance to Lightning by 70% for 4 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Lightning by 70% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 33, [0,  0,  70,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -5584,7 +5970,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Increase resistance to Lightning by 100% for 4 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Lightning by 100% for 4 turns to all allies"]
+        ],
         "effects_raw": [[2, 2, 33, [0,  0,  100,  0,  0,  0,  0,  0,  1,  4]]],
         "requirements": null
     },
@@ -5607,8 +5995,10 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Revive target from KO (60% HP)",
-            "Instant KO to Reaper target"
+            [
+                "Revive target from KO (60% HP)",
+                "Instant KO to Reaper target"
+            ]
         ],
         "effects_raw": [[1, 6, 4, [60]]],
         "requirements": null
@@ -5632,8 +6022,10 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Revive target from KO (90% HP)",
-            "Instant KO to Reaper target"
+            [
+                "Revive target from KO (90% HP)",
+                "Instant KO to Reaper target"
+            ]
         ],
         "effects_raw": [[1, 6, 4, [90]]],
         "requirements": null
@@ -5656,7 +6048,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 800 (+3.4x, Heal) HP to target"],
+        "effects": [
+            ["Restore 800 (+3.4x, Heal) HP to target"]
+        ],
         "effects_raw": [[1, 6, 2, [0,  0,  800,  340,  100]]],
         "requirements": null
     },
@@ -5678,7 +6072,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Restore 1000 (+3.4x, Heal) HP to target"],
+        "effects": [
+            ["Restore 1000 (+3.4x, Heal) HP to target"]
+        ],
         "effects_raw": [[1, 6, 2, [0,  0,  1000,  340,  100]]],
         "requirements": null
     },
@@ -5700,7 +6096,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (2.8x * 1.33 = 3.73x, MAG) to all enemies (ignore reflect)"],
+        "effects": [
+            ["Magic damage (2.8x * 1.33 = 3.73x, MAG) to all enemies (ignore reflect)"]
+        ],
         "effects_raw": [[2, 1, 70, [0,  0,  280,  25]]],
         "requirements": null
     },
@@ -5722,7 +6120,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (2.8x * 2 = 5.6x, MAG) to all enemies (ignore reflect)"],
+        "effects": [
+            ["Magic damage (2.8x * 2 = 5.6x, MAG) to all enemies (ignore reflect)"]
+        ],
         "effects_raw": [[2, 1, 70, [0,  0,  280,  50]]],
         "requirements": null
     },
@@ -5745,8 +6145,10 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            "Revive target from KO (100% HP)",
-            "Instant KO to Reaper target"
+            [
+                "Revive target from KO (100% HP)",
+                "Instant KO to Reaper target"
+            ]
         ],
         "effects_raw": [[1, 6, 4, [100]]],
         "requirements": null
@@ -5769,7 +6171,9 @@
         "effect_type": "Revive",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Revive all allies from KO (100% HP)"],
+        "effects": [
+            ["Revive all allies from KO (100% HP)"]
+        ],
         "effects_raw": [[2, 2, 4, [100]]],
         "requirements": null
     },
@@ -5791,7 +6195,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
-        "effects": ["Magic wind damage (30x, MAG) to all enemies"],
+        "effects": [
+            ["Magic wind damage (30x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3000,  0]]],
         "requirements": null
     },
@@ -5813,7 +6219,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
-        "effects": ["Magic wind damage (40x, MAG) to all enemies"],
+        "effects": [
+            ["Magic wind damage (40x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  4000,  0]]],
         "requirements": null
     },
@@ -5835,7 +6243,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Magic water damage (30x, MAG) to all enemies"],
+        "effects": [
+            ["Magic water damage (30x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3000,  0]]],
         "requirements": null
     },
@@ -5857,7 +6267,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Magic water damage (40x, MAG) to all enemies"],
+        "effects": [
+            ["Magic water damage (40x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  4000,  0]]],
         "requirements": null
     },
@@ -5879,7 +6291,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore reflect)"],
+        "effects": [
+            ["Magic damage (2.5x * 1.33 = 3.33x, MAG) to all enemies (ignore reflect)"]
+        ],
         "effects_raw": [[2, 1, 70, [0,  0,  250,  25]]],
         "requirements": null
     },
@@ -5901,7 +6315,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (3x * 1.33 = 4x, MAG) to all enemies (ignore reflect)"],
+        "effects": [
+            ["Magic damage (3x * 1.33 = 4x, MAG) to all enemies (ignore reflect)"]
+        ],
         "effects_raw": [[2, 1, 70, [0,  0,  300,  25]]],
         "requirements": null
     },
@@ -5923,7 +6339,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Reflect 2 spell(s) for 4 turns to one ally"],
+        "effects": [
+            ["Reflect 2 spell(s) for 4 turns to one ally"]
+        ],
         "effects_raw": [[1, 2, 86, [100,  2,  4]]],
         "requirements": null
     },
@@ -5945,7 +6363,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Reflect 3 spell(s) for 4 turns to one ally"],
+        "effects": [
+            ["Reflect 3 spell(s) for 4 turns to one ally"]
+        ],
         "effects_raw": [[1, 2, 86, [100,  3,  4]]],
         "requirements": null
     },
@@ -5967,7 +6387,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Magic fire damage (30x, MAG) to all enemies"],
+        "effects": [
+            ["Magic fire damage (30x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3000,  0]]],
         "requirements": null
     },
@@ -5989,7 +6411,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Magic fire damage (40x, MAG) to all enemies"],
+        "effects": [
+            ["Magic fire damage (40x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  4000,  0]]],
         "requirements": null
     },
@@ -6011,7 +6435,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Magic ice damage (30x, MAG) to all enemies"],
+        "effects": [
+            ["Magic ice damage (30x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3000,  0]]],
         "requirements": null
     },
@@ -6033,7 +6459,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Magic ice damage (40x, MAG) to all enemies"],
+        "effects": [
+            ["Magic ice damage (40x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  4000,  0]]],
         "requirements": null
     },
@@ -6055,7 +6483,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Magic lightning damage (30x, MAG) to all enemies"],
+        "effects": [
+            ["Magic lightning damage (30x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3000,  0]]],
         "requirements": null
     },
@@ -6077,7 +6507,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
-        "effects": ["Magic lightning damage (40x, MAG) to all enemies"],
+        "effects": [
+            ["Magic lightning damage (40x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  4000,  0]]],
         "requirements": null
     },
@@ -6099,7 +6531,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Magic dark damage (4x * 1.33 = 5.33x, MAG) to all units (ignore reflect)"],
+        "effects": [
+            ["Magic dark damage (4x * 1.33 = 5.33x, MAG) to all units (ignore reflect)"]
+        ],
         "effects_raw": [[2, 4, 70, [0,  0,  400,  25]]],
         "requirements": null
     },
@@ -6121,7 +6555,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Magic dark damage (4x * 1.33 = 5.33x, MAG) to all enemies (ignore reflect)"],
+        "effects": [
+            ["Magic dark damage (4x * 1.33 = 5.33x, MAG) to all enemies (ignore reflect)"]
+        ],
         "effects_raw": [[2, 1, 70, [0,  0,  400,  25]]],
         "requirements": null
     },
@@ -6143,7 +6579,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Magic light damage (2.3x, SPR) to all enemies"],
+        "effects": [
+            ["Magic light damage (2.3x, SPR) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 103, [100,  99999,  230]]],
         "requirements": null
     },
@@ -6165,7 +6603,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Magic light damage (3.2x, SPR) to all enemies"],
+        "effects": [
+            ["Magic light damage (3.2x, SPR) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 103, [100,  99999,  320]]],
         "requirements": null
     },
@@ -6188,8 +6628,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (2.6x, MAG) to one enemy",
-            "Reduce resistance to Water by 30% for 3 turns to one enemy"
+            ["Magic fire damage (2.6x, MAG) to one enemy"],
+            ["Reduce resistance to Water by 30% for 3 turns to one enemy"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  260,  0]], [1, 1, 33, [0,  0,  0,  -30,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -6213,8 +6653,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (3x, MAG) to one enemy",
-            "Reduce resistance to Fire and Water by 30% for 3 turns to one enemy"
+            ["Magic fire damage (3x, MAG) to one enemy"],
+            ["Reduce resistance to Fire and Water by 30% for 3 turns to one enemy"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  300,  0]], [1, 1, 33, [-30,  0,  0,  -30,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -6238,8 +6678,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (0.8x, MAG) to one enemy",
-            "Increase MAG by 70% for 3 turns to caster"
+            ["Magic fire damage (0.8x, MAG) to one enemy"],
+            ["Increase MAG by 70% for 3 turns to caster"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  80,  0]], [0, 3, 3, [0,  0,  70,  0,  3,  1]]],
         "requirements": null
@@ -6263,8 +6703,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (0.8x, MAG) to one enemy",
-            "Increase MAG by 70% for 5 turns to caster"
+            ["Magic fire damage (0.8x, MAG) to one enemy"],
+            ["Increase MAG by 70% for 5 turns to caster"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  80,  0]], [0, 3, 3, [0,  0,  70,  0,  5,  1]]],
         "requirements": null
@@ -6288,8 +6728,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
         "effects": [
-            "Magic ice damage (0.8x, MAG) to one enemy",
-            "Restore 90 MP split over 3 turns to caster"
+            ["Magic ice damage (0.8x, MAG) to one enemy"],
+            ["Restore 90 MP split over 3 turns to caster"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  80,  0]], [0, 3, 30, [0,  1,  90,  3]]],
         "requirements": null
@@ -6313,8 +6753,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
         "effects": [
-            "Magic ice damage (0.8x, MAG) to one enemy",
-            "Restore 150 MP split over 5 turns to caster"
+            ["Magic ice damage (0.8x, MAG) to one enemy"],
+            ["Restore 150 MP split over 5 turns to caster"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  80,  0]], [0, 3, 30, [0,  1,  150,  5]]],
         "requirements": null
@@ -6338,8 +6778,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
         "effects": [
-            "Magic dark damage (4.2x, MAG) to all enemies",
-            "Reduce ATK, DEF, MAG and SPR by 45% for 3 turns to all enemies"
+            ["Magic dark damage (4.2x, MAG) to all enemies"],
+            ["Reduce ATK, DEF, MAG and SPR by 45% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  420,  0]], [2, 1, 24, [-45,  -45,  -45,  -45,  3,  1]]],
         "requirements": null
@@ -6363,9 +6803,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
         "effects": [
-            "Magic dark damage (4.2x, MAG) to all enemies",
-            "Reduce ATK, DEF, MAG and SPR by 45% for 3 turns to all enemies",
-            "Reduce resistance to all elements by 30% for 3 turns to all enemies"
+            ["Magic dark damage (4.2x, MAG) to all enemies"],
+            ["Reduce ATK, DEF, MAG and SPR by 45% for 3 turns to all enemies"],
+            ["Reduce resistance to all elements by 30% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  420,  0]], [2, 1, 24, [-45,  -45,  -45,  -45,  3,  1]], [2, 1, 33, [-30,  -30,  -30,  -30,  -30,  -30,  -30,  -30,  1,  3]]],
         "requirements": null
@@ -6389,8 +6829,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
         "effects": [
-            "Magic earth damage (2.95x, MAG) to all enemies",
-            "Reduce resistance to Earth by 50% for 3 turns to all enemies"
+            ["Magic earth damage (2.95x, MAG) to all enemies"],
+            ["Reduce resistance to Earth by 50% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  295,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -50,  0,  0,  1,  3]]],
         "requirements": null
@@ -6414,8 +6854,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
         "effects": [
-            "Magic earth damage (3.2x, MAG) to all enemies",
-            "Reduce resistance to Earth by 50% for 3 turns to all enemies"
+            ["Magic earth damage (3.2x, MAG) to all enemies"],
+            ["Reduce resistance to Earth by 50% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  320,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -50,  0,  0,  1,  3]]],
         "requirements": null
@@ -6439,8 +6879,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Water"],
         "effects": [
-            "Magic water damage (36x, MAG) to all enemies",
-            "Reduce resistance to Water by 110% for 5 turns to all enemies"
+            ["Magic water damage (36x, MAG) to all enemies"],
+            ["Reduce resistance to Water by 110% for 5 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3600,  0]], [2, 1, 33, [0,  0,  0,  -110,  0,  0,  0,  0,  1,  5]]],
         "requirements": null
@@ -6464,8 +6904,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Water"],
         "effects": [
-            "Magic water damage (48x, MAG) to all enemies",
-            "Reduce resistance to Water by 120% for 5 turns to all enemies"
+            ["Magic water damage (48x, MAG) to all enemies"],
+            ["Reduce resistance to Water by 120% for 5 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  4800,  0]], [2, 1, 33, [0,  0,  0,  -120,  0,  0,  0,  0,  1,  5]]],
         "requirements": null
@@ -6488,7 +6928,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Magic ice damage (1.7x, MAG) with consecutive damage increase (max. 9 times, +1.7x MAG each, 17x total) to one enemy"],
+        "effects": [
+            ["Magic ice damage (1.7x, MAG) with consecutive damage increase (max. 9 times, +1.7x MAG each, 17x total) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 72, [0,  0,  0,  170,  170,  10]]],
         "requirements": null
     },
@@ -6510,7 +6952,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
-        "effects": ["Magic ice damage (2.2x, MAG) with consecutive damage increase (max. 9 times, +2.2x MAG each, 22x total) to one enemy"],
+        "effects": [
+            ["Magic ice damage (2.2x, MAG) with consecutive damage increase (max. 9 times, +2.2x MAG each, 22x total) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 72, [0,  0,  0,  220,  220,  10]]],
         "requirements": null
     },
@@ -6533,8 +6977,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
         "effects": [
-            "Magic ice damage (3x, MAG) to all enemies",
-            "Reduce resistance to Ice by 60% for 3 turns to all enemies"
+            ["Magic ice damage (3x, MAG) to all enemies"],
+            ["Reduce resistance to Ice by 60% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  300,  0]], [2, 1, 33, [0,  -60,  0,  0,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -6558,8 +7002,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
         "effects": [
-            "Magic ice damage (3.5x, MAG) to all enemies",
-            "Reduce resistance to Ice by 70% for 3 turns to all enemies"
+            ["Magic ice damage (3.5x, MAG) to all enemies"],
+            ["Reduce resistance to Ice by 70% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  350,  0]], [2, 1, 33, [0,  -70,  0,  0,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -6583,8 +7027,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
         "effects": [
-            "Magic wind damage (36x, MAG) to all enemies",
-            "Reduce resistance to Wind by 110% for 5 turns to all enemies"
+            ["Magic wind damage (36x, MAG) to all enemies"],
+            ["Reduce resistance to Wind by 110% for 5 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3600,  0]], [2, 1, 33, [0,  0,  0,  0,  -110,  0,  0,  0,  1,  5]]],
         "requirements": null
@@ -6608,8 +7052,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
         "effects": [
-            "Magic wind damage (48x, MAG) to all enemies",
-            "Reduce resistance to Wind by 120% for 5 turns to all enemies"
+            ["Magic wind damage (48x, MAG) to all enemies"],
+            ["Reduce resistance to Wind by 120% for 5 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  4800,  0]], [2, 1, 33, [0,  0,  0,  0,  -120,  0,  0,  0,  1,  5]]],
         "requirements": null
@@ -6633,8 +7077,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
         "effects": [
-            "Magic earth damage (3.25x, MAG) to all enemies",
-            "Reduce resistance to Earth by 50% for 3 turns to all enemies"
+            ["Magic earth damage (3.25x, MAG) to all enemies"],
+            ["Reduce resistance to Earth by 50% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  325,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -50,  0,  0,  1,  3]]],
         "requirements": null
@@ -6658,8 +7102,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
         "effects": [
-            "Magic earth damage (3.75x, MAG) to all enemies",
-            "Reduce resistance to Earth by 50% for 3 turns to all enemies"
+            ["Magic earth damage (3.75x, MAG) to all enemies"],
+            ["Reduce resistance to Earth by 50% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  375,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -50,  0,  0,  1,  3]]],
         "requirements": null
@@ -6683,8 +7127,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Water"],
         "effects": [
-            "Magic water damage (7x, MAG) to one enemy",
-            "Reduce resistance to Water by 75% for 3 turns to one enemy"
+            ["Magic water damage (7x, MAG) to one enemy"],
+            ["Reduce resistance to Water by 75% for 3 turns to one enemy"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  700,  0]], [1, 1, 33, [0,  0,  0,  -75,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -6708,9 +7152,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Water"],
         "effects": [
-            "Magic water damage (1x, MAG) to one enemy",
-            "Magic water damage (6x, MAG) to one enemy",
-            "Reduce resistance to Water by 100% for 3 turns to one enemy"
+            ["Magic water damage (1x, MAG) to one enemy"],
+            ["Magic water damage (6x, MAG) to one enemy"],
+            ["Reduce resistance to Water by 100% for 3 turns to one enemy"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  100,  0]], [1, 1, 15, [0,  0,  0,  0,  0,  600,  0]], [1, 1, 33, [0,  0,  0,  -100,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -6734,8 +7178,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (7x, MAG) to one enemy",
-            "Reduce resistance to Fire by 75% for 3 turns to one enemy"
+            ["Magic fire damage (7x, MAG) to one enemy"],
+            ["Reduce resistance to Fire by 75% for 3 turns to one enemy"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  700,  0]], [1, 1, 33, [-75,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -6759,9 +7203,9 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (1x, MAG) to one enemy",
-            "Magic fire damage (6x, MAG) to one enemy",
-            "Reduce resistance to Fire by 100% for 3 turns to one enemy"
+            ["Magic fire damage (1x, MAG) to one enemy"],
+            ["Magic fire damage (6x, MAG) to one enemy"],
+            ["Reduce resistance to Fire by 100% for 3 turns to one enemy"]
         ],
         "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  100,  0]], [1, 1, 15, [0,  0,  0,  0,  0,  600,  0]], [1, 1, 33, [-100,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -6785,8 +7229,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (19.5x, MAG) to all enemies",
-            "Reduce resistance to Fire by 120% for 3 turns to all enemies"
+            ["Magic fire damage (19.5x, MAG) to all enemies"],
+            ["Reduce resistance to Fire by 120% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  1950,  0]], [2, 1, 33, [-120,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -6810,8 +7254,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            "Magic fire damage (34.5x, MAG) to all enemies",
-            "Reduce resistance to Fire by 120% for 3 turns to all enemies"
+            ["Magic fire damage (34.5x, MAG) to all enemies"],
+            ["Reduce resistance to Fire by 120% for 3 turns to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3450,  0]], [2, 1, 33, [-120,  0,  0,  0,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
@@ -6834,7 +7278,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Magic fire damage (12.7x, MAG) with consecutive damage increase (max. 9 times, +2.7x MAG each, 37x total) to one enemy"],
+        "effects": [
+            ["Magic fire damage (12.7x, MAG) with consecutive damage increase (max. 9 times, +2.7x MAG each, 37x total) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 72, [0,  0,  1000,  270,  270,  10]]],
         "requirements": null
     },
@@ -6856,7 +7302,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
-        "effects": ["Magic fire damage (14.2x, MAG) with consecutive damage increase (max. 9 times, +4.2x MAG each, 52x total) to one enemy"],
+        "effects": [
+            ["Magic fire damage (14.2x, MAG) with consecutive damage increase (max. 9 times, +4.2x MAG each, 52x total) to one enemy"]
+        ],
         "effects_raw": [[1, 1, 72, [0,  0,  1000,  420,  420,  10]]],
         "requirements": null
     },
@@ -6878,7 +7326,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Magic water damage (45x, MAG) to all enemies"],
+        "effects": [
+            ["Magic water damage (45x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  4500,  0]]],
         "requirements": null
     },
@@ -6900,7 +7350,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
-        "effects": ["Magic water damage (65x, MAG) to all enemies"],
+        "effects": [
+            ["Magic water damage (65x, MAG) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  6500,  0]]],
         "requirements": null
     },
@@ -6923,8 +7375,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Increase DEF by 150% for 4 turns to all allies",
-            "Reduce damage taken from physical attacks taken by 40% to all allies for 4 turns"
+            ["Increase DEF by 150% for 4 turns to all allies"],
+            ["Reduce damage taken from physical attacks taken by 40% to all allies for 4 turns"]
         ],
         "effects_raw": [[2, 2, 3, [0,  150,  0,  0,  4,  1]], [2, 2, 18, [40,  4,  1,  1]]],
         "requirements": null
@@ -6948,8 +7400,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Increase DEF by 200% for 4 turns to all allies",
-            "Reduce damage taken from physical attacks taken by 50% to all allies for 4 turns"
+            ["Increase DEF by 200% for 4 turns to all allies"],
+            ["Reduce damage taken from physical attacks taken by 50% to all allies for 4 turns"]
         ],
         "effects_raw": [[2, 2, 3, [0,  200,  0,  0,  4,  1]], [2, 2, 18, [50,  4,  1,  1]]],
         "requirements": null
@@ -6973,8 +7425,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Increase SPR by 150% for 4 turns to all allies",
-            "Reduce damage taken by magic attacks by 40% to all allies for 4 turns"
+            ["Increase SPR by 150% for 4 turns to all allies"],
+            ["Reduce damage taken by magic attacks by 40% to all allies for 4 turns"]
         ],
         "effects_raw": [[2, 2, 3, [0,  0,  0,  150,  4,  1]], [2, 2, 19, [40,  4,  1,  1]]],
         "requirements": null
@@ -6998,8 +7450,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Increase SPR by 200% for 4 turns to all allies",
-            "Reduce damage taken by magic attacks by 50% to all allies for 4 turns"
+            ["Increase SPR by 200% for 4 turns to all allies"],
+            ["Reduce damage taken by magic attacks by 50% to all allies for 4 turns"]
         ],
         "effects_raw": [[2, 2, 3, [0,  0,  0,  200,  4,  1]], [2, 2, 19, [50,  4,  1,  1]]],
         "requirements": null
@@ -7023,8 +7475,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Increase MAG by 230% for 4 turns to all allies",
-            "Increase LB damage by 50% to all allies for 4 turns"
+            ["Increase MAG by 230% for 4 turns to all allies"],
+            ["Increase LB damage by 50% to all allies for 4 turns"]
         ],
         "effects_raw": [[2, 2, 3, [0,  0,  230,  0,  4,  1]], [2, 2, 120, [50,  4,  1,  0]]],
         "requirements": null
@@ -7048,8 +7500,8 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            "Increase MAG by 280% for 4 turns to all allies",
-            "Increase LB damage by 100% to all allies for 4 turns"
+            ["Increase MAG by 280% for 4 turns to all allies"],
+            ["Increase LB damage by 100% to all allies for 4 turns"]
         ],
         "effects_raw": [[2, 2, 3, [0,  0,  280,  0,  4,  1]], [2, 2, 120, [100,  4,  1,  0]]],
         "requirements": null
@@ -7072,7 +7524,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (15x * 2 = 30x, MAG) to one enemy (ignore reflect)"],
+        "effects": [
+            ["Magic damage (15x * 2 = 30x, MAG) to one enemy (ignore reflect)"]
+        ],
         "effects_raw": [[1, 1, 70, [0,  0,  1500,  50]]],
         "requirements": null
     },
@@ -7094,7 +7548,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": null,
-        "effects": ["Magic damage (20x * 2 = 40x, MAG) to one enemy (ignore reflect)"],
+        "effects": [
+            ["Magic damage (20x * 2 = 40x, MAG) to one enemy (ignore reflect)"]
+        ],
         "effects_raw": [[1, 1, 70, [0,  0,  2000,  50]]],
         "requirements": null
     },
@@ -7116,7 +7572,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Magic light damage (30x, SPR) to all enemies"],
+        "effects": [
+            ["Magic light damage (30x, SPR) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 103, [100,  99999,  3000]]],
         "requirements": null
     },
@@ -7138,7 +7596,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Magic light damage (40x, SPR) to all enemies"],
+        "effects": [
+            ["Magic light damage (40x, SPR) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 103, [100,  99999,  4000]]],
         "requirements": null
     },
@@ -7160,7 +7620,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Light"],
-        "effects": ["Magic light damage (72x, SPR) to all enemies"],
+        "effects": [
+            ["Magic light damage (72x, SPR) to all enemies"]
+        ],
         "effects_raw": [[2, 1, 103, [100,  99999,  7200]]],
         "requirements": null
     },
@@ -7182,7 +7644,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Magic dark damage (41.25x * 2 = 82.5x, MAG) to all units (ignore reflect)"],
+        "effects": [
+            ["Magic dark damage (41.25x * 2 = 82.5x, MAG) to all units (ignore reflect)"]
+        ],
         "effects_raw": [[2, 4, 70, [0,  0,  4125,  50]]],
         "requirements": null
     },
@@ -7204,7 +7668,9 @@
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
-        "effects": ["Magic dark damage (75x * 2 = 150x, MAG) to all units (ignore reflect)"],
+        "effects": [
+            ["Magic dark damage (75x * 2 = 150x, MAG) to all units (ignore reflect)"]
+        ],
         "effects_raw": [[2, 4, 70, [0,  0,  7500,  50]]],
         "requirements": null
     }
