@@ -11,7 +11,9 @@
         "stack_size": 999,
         "price_buy": 100,
         "price_sell": 10,
-        "effects": ["Restore 200 HP to target"],
+        "effects": [
+            ["Restore 200 HP to target"
+            ]],
         "effects_raw": [[1, 6, 71, [300210,  1]]],
         "icon": "item_1000.png"
     },
@@ -27,7 +29,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Restore 500 HP to target"],
+        "effects": [
+            ["Restore 500 HP to target"
+            ]],
         "effects_raw": [[1, 6, 71, [300220,  1]]],
         "icon": "item_1001.png"
     },
@@ -43,7 +47,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Restore 1000 HP to target"],
+        "effects": [
+            ["Restore 1000 HP to target"
+            ]],
         "effects_raw": [[1, 6, 71, [300230,  1]]],
         "icon": "item_1002.png"
     },
@@ -59,7 +65,9 @@
         "stack_size": 999,
         "price_buy": 100,
         "price_sell": 10,
-        "effects": ["Restore 200 HP to target"],
+        "effects": [
+            ["Restore 200 HP to target"
+            ]],
         "effects_raw": [[1, 6, 71, [300490,  1]]],
         "icon": "item_1016.png"
     },
@@ -75,7 +83,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Restore 1000 HP to target"],
+        "effects": [
+            ["Restore 1000 HP to target"
+            ]],
         "effects_raw": [[1, 6, 71, [300500,  1]]],
         "icon": "item_1020.png"
     },
@@ -91,7 +101,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Restore 1500 HP to all allies"],
+        "effects": [
+            ["Restore 1500 HP to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300530,  1]]],
         "icon": "item_1018.png"
     },
@@ -107,7 +119,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Restore 20 MP to one ally"],
+        "effects": [
+            ["Restore 20 MP to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300240,  1]]],
         "icon": "item_1003.png"
     },
@@ -123,7 +137,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Restore 70 MP to one ally"],
+        "effects": [
+            ["Restore 70 MP to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300250,  1]]],
         "icon": "item_1004.png"
     },
@@ -139,7 +155,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Restore 20 MP to one ally"],
+        "effects": [
+            ["Restore 20 MP to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300510,  1]]],
         "icon": "item_1017.png"
     },
@@ -155,7 +173,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Restore 80 MP to one ally"],
+        "effects": [
+            ["Restore 80 MP to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300520,  1]]],
         "icon": "item_1021.png"
     },
@@ -171,7 +191,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Restore 20 MP to one ally"],
+        "effects": [
+            ["Restore 20 MP to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [500120,  1]]],
         "icon": "item_1015.png"
     },
@@ -187,7 +209,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Restore 100% HP and MP to one ally"],
+        "effects": [
+            ["Restore 100% HP and MP to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300260,  1]]],
         "icon": "item_1005.png"
     },
@@ -204,9 +228,8 @@
         "price_buy": 1000,
         "price_sell": 100,
         "effects": [
-            "Revive target from KO (20% HP)",
-            "Instant KO to Reaper target"
-        ],
+            ["Revive target from KO (20% HP)", "Instant KO to Reaper target"
+            ]],
         "effects_raw": [[1, 6, 71, [300270,  1]]],
         "icon": "item_1006.png"
     },
@@ -223,9 +246,8 @@
         "price_buy": 1000,
         "price_sell": 100,
         "effects": [
-            "Revive target from KO (20% HP)",
-            "Instant KO to Reaper target"
-        ],
+            ["Revive target from KO (20% HP)", "Instant KO to Reaper target"
+            ]],
         "effects_raw": [[1, 6, 71, [300540,  1]]],
         "icon": "item_1019.png"
     },
@@ -242,9 +264,8 @@
         "price_buy": 10000,
         "price_sell": 1000,
         "effects": [
-            "Revive target from KO (100% HP)",
-            "Instant KO to Reaper target"
-        ],
+            ["Revive target from KO (100% HP)", "Instant KO to Reaper target"
+            ]],
         "effects_raw": [[1, 6, 71, [300570,  1]]],
         "icon": "item_1022.png"
     },
@@ -260,7 +281,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Restore 100% HP and MP to one ally"],
+        "effects": [
+            ["Restore 100% HP and MP to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300580,  1]]],
         "icon": "item_1023.png"
     },
@@ -276,7 +299,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Revive all allies from KO (100% HP)"],
+        "effects": [
+            ["Revive all allies from KO (100% HP)"
+            ]],
         "effects_raw": [[2, 2, 71, [300660,  1]]],
         "icon": "item_1025.png"
     },
@@ -293,9 +318,8 @@
         "price_buy": 10000,
         "price_sell": 1000,
         "effects": [
-            "Revive target from KO (100% HP)",
-            "Instant KO to Reaper target"
-        ],
+            ["Revive target from KO (100% HP)", "Instant KO to Reaper target"
+            ]],
         "effects_raw": [[1, 6, 71, [300670,  1]]],
         "icon": "item_1027.png"
     },
@@ -311,7 +335,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Remove all debuffs from one ally"],
+        "effects": [
+            ["Remove all debuffs from one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300680,  1]]],
         "icon": "item_1026.png"
     },
@@ -327,7 +353,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Restore 100 MP to one ally"],
+        "effects": [
+            ["Restore 100 MP to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300690,  1]]],
         "icon": "item_1028.png"
     },
@@ -343,7 +371,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Reduce damage taken by 10% to all allies for 3 turns"],
+        "effects": [
+            ["Reduce damage taken by 10% to all allies for 3 turns"
+            ]],
         "effects_raw": [[2, 2, 71, [300700,  1]]],
         "icon": "item_1032.png"
     },
@@ -359,7 +389,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Restore 100% HP and MP to one ally"],
+        "effects": [
+            ["Restore 100% HP and MP to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300820,  1]]],
         "icon": "item_1035.png"
     },
@@ -375,7 +407,9 @@
         "stack_size": 999,
         "price_buy": 100,
         "price_sell": 10,
-        "effects": ["Cure Poison for one ally"],
+        "effects": [
+            ["Cure Poison for one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300280,  1]]],
         "icon": "item_1007.png"
     },
@@ -391,7 +425,9 @@
         "stack_size": 999,
         "price_buy": 100,
         "price_sell": 10,
-        "effects": ["Cure Blind for one ally"],
+        "effects": [
+            ["Cure Blind for one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300290,  1]]],
         "icon": "item_1008.png"
     },
@@ -407,7 +443,9 @@
         "stack_size": 999,
         "price_buy": 200,
         "price_sell": 20,
-        "effects": ["Cure Sleep and Confusion for one ally"],
+        "effects": [
+            ["Cure Sleep and Confusion for one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300300,  1]]],
         "icon": "item_1009.png"
     },
@@ -423,7 +461,9 @@
         "stack_size": 999,
         "price_buy": 200,
         "price_sell": 20,
-        "effects": ["Cure Silence for one ally"],
+        "effects": [
+            ["Cure Silence for one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300310,  1]]],
         "icon": "item_1010.png"
     },
@@ -439,7 +479,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Cure Paralyze for one ally"],
+        "effects": [
+            ["Cure Paralyze for one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300320,  1]]],
         "icon": "item_1011.png"
     },
@@ -455,7 +497,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Cure Disease for one ally"],
+        "effects": [
+            ["Cure Disease for one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300330,  1]]],
         "icon": "item_1012.png"
     },
@@ -471,7 +515,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Cure Petrify for one ally"],
+        "effects": [
+            ["Cure Petrify for one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300340,  1]]],
         "icon": "item_1013.png"
     },
@@ -487,7 +533,9 @@
         "stack_size": 999,
         "price_buy": 1000,
         "price_sell": 100,
-        "effects": ["Cure Poison, Blind, Sleep, Silence, Paralyze and Confusion for one ally"],
+        "effects": [
+            ["Cure Poison, Blind, Sleep, Silence, Paralyze and Confusion for one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300350,  1]]],
         "icon": "item_1014.png"
     },
@@ -503,7 +551,9 @@
         "stack_size": 999,
         "price_buy": 1000,
         "price_sell": 100,
-        "effects": ["Increase the limit burst gauge fill rate by 100% for 3 turns to one ally"],
+        "effects": [
+            ["Increase the limit burst gauge fill rate by 100% for 3 turns to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300360,  1]]],
         "icon": "item_2001.png"
     },
@@ -519,7 +569,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Increase DEF by 30% for 3 turns to all allies"],
+        "effects": [
+            ["Increase DEF by 30% for 3 turns to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300370,  1]]],
         "icon": "item_2002.png"
     },
@@ -535,7 +587,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Increase SPR by 30% for 3 turns to all allies"],
+        "effects": [
+            ["Increase SPR by 30% for 3 turns to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300380,  1]]],
         "icon": "item_2003.png"
     },
@@ -551,7 +605,9 @@
         "stack_size": 999,
         "price_buy": 1000,
         "price_sell": 100,
-        "effects": ["Restore 200 (+1.2x, Heal) HP split over 3 turns to one ally"],
+        "effects": [
+            ["Restore 200 (+1.2x, Heal) HP split over 3 turns to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300390,  1]]],
         "icon": "item_2004.png"
     },
@@ -567,7 +623,9 @@
         "stack_size": 999,
         "price_buy": 100,
         "price_sell": 10,
-        "effects": ["Escape Battle"],
+        "effects": [
+            ["Escape Battle"
+            ]],
         "effects_raw": [[1, 2, 71, [300400,  1]]],
         "icon": "item_2005.png"
     },
@@ -583,7 +641,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Increase ATK by 20% for 5 turns to one ally"],
+        "effects": [
+            ["Increase ATK by 20% for 5 turns to one ally"
+            ]],
         "effects_raw": [[1, 3, 71, [300410,  1]]],
         "icon": "item_2008.png"
     },
@@ -599,7 +659,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Increase MAG by 20% for 5 turns to one ally"],
+        "effects": [
+            ["Increase MAG by 20% for 5 turns to one ally"
+            ]],
         "effects_raw": [[1, 3, 71, [300420,  1]]],
         "icon": "item_2009.png"
     },
@@ -615,7 +677,9 @@
         "stack_size": 999,
         "price_buy": 1000,
         "price_sell": 100,
-        "effects": ["Increase DEF by 20% for 3 turns to one ally"],
+        "effects": [
+            ["Increase DEF by 20% for 3 turns to one ally"
+            ]],
         "effects_raw": [[1, 3, 71, [300430,  1]]],
         "icon": "item_2010.png"
     },
@@ -631,7 +695,9 @@
         "stack_size": 999,
         "price_buy": 1000,
         "price_sell": 100,
-        "effects": ["Increase SPR by 20% for 3 turns to one ally"],
+        "effects": [
+            ["Increase SPR by 20% for 3 turns to one ally"
+            ]],
         "effects_raw": [[1, 3, 71, [300440,  1]]],
         "icon": "item_2011.png"
     },
@@ -647,7 +713,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Inflict berserk (+50% ATK) on one ally"],
+        "effects": [
+            ["Inflict berserk (+50% ATK) on one ally"
+            ]],
         "effects_raw": [[1, 3, 71, [300450,  1]]],
         "icon": "item_2012.png"
     },
@@ -663,7 +731,9 @@
         "stack_size": 999,
         "price_buy": 7000,
         "price_sell": 700,
-        "effects": ["Increase ATK, DEF, MAG and SPR by 20% for 3 turns to one ally"],
+        "effects": [
+            ["Increase ATK, DEF, MAG and SPR by 20% for 3 turns to one ally"
+            ]],
         "effects_raw": [[1, 3, 71, [300460,  1]]],
         "icon": "item_2006.png"
     },
@@ -679,7 +749,9 @@
         "stack_size": 999,
         "price_buy": 7000,
         "price_sell": 700,
-        "effects": ["Increase HP by 100% to one ally"],
+        "effects": [
+            ["Increase HP by 100% to one ally"
+            ]],
         "effects_raw": [[1, 3, 71, [300470,  1]]],
         "icon": "item_2007.png"
     },
@@ -695,7 +767,9 @@
         "stack_size": 999,
         "price_buy": 100,
         "price_sell": 10,
-        "effects": ["Fixed* fire damage (200) to one enemy"],
+        "effects": [
+            ["Fixed* fire damage (200) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300010,  1]]],
         "icon": "item_3001.png"
     },
@@ -711,7 +785,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Fixed* fire damage (300) to one enemy"],
+        "effects": [
+            ["Fixed* fire damage (300) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300020,  1]]],
         "icon": "item_3002.png"
     },
@@ -727,7 +803,9 @@
         "stack_size": 999,
         "price_buy": 100,
         "price_sell": 10,
-        "effects": ["Fixed* ice damage (200) to one enemy"],
+        "effects": [
+            ["Fixed* ice damage (200) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300030,  1]]],
         "icon": "item_3004.png"
     },
@@ -743,7 +821,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Fixed* ice damage (300) to one enemy"],
+        "effects": [
+            ["Fixed* ice damage (300) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300040,  1]]],
         "icon": "item_3005.png"
     },
@@ -759,7 +839,9 @@
         "stack_size": 999,
         "price_buy": 100,
         "price_sell": 10,
-        "effects": ["Fixed* lightning damage (200) to one enemy"],
+        "effects": [
+            ["Fixed* lightning damage (200) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300050,  1]]],
         "icon": "item_3007.png"
     },
@@ -775,7 +857,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Fixed* lightning damage (300) to one enemy"],
+        "effects": [
+            ["Fixed* lightning damage (300) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300060,  1]]],
         "icon": "item_3008.png"
     },
@@ -791,7 +875,9 @@
         "stack_size": 999,
         "price_buy": 100,
         "price_sell": 10,
-        "effects": ["Fixed* water damage (200) to one enemy"],
+        "effects": [
+            ["Fixed* water damage (200) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300070,  1]]],
         "icon": "item_3010.png"
     },
@@ -807,7 +893,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Fixed* water damage (300) to one enemy"],
+        "effects": [
+            ["Fixed* water damage (300) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300080,  1]]],
         "icon": "item_3011.png"
     },
@@ -823,7 +911,9 @@
         "stack_size": 999,
         "price_buy": 100,
         "price_sell": 10,
-        "effects": ["Fixed* wind damage (200) to one enemy"],
+        "effects": [
+            ["Fixed* wind damage (200) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300090,  1]]],
         "icon": "item_3013.png"
     },
@@ -839,7 +929,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Fixed* wind damage (300) to one enemy"],
+        "effects": [
+            ["Fixed* wind damage (300) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300100,  1]]],
         "icon": "item_3014.png"
     },
@@ -855,7 +947,9 @@
         "stack_size": 999,
         "price_buy": 100,
         "price_sell": 10,
-        "effects": ["Fixed* earth damage (200) to one enemy"],
+        "effects": [
+            ["Fixed* earth damage (200) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300110,  1]]],
         "icon": "item_3016.png"
     },
@@ -871,7 +965,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Fixed* earth damage (300) to one enemy"],
+        "effects": [
+            ["Fixed* earth damage (300) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300120,  1]]],
         "icon": "item_3017.png"
     },
@@ -887,7 +983,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Fixed* fire damage (400) to all enemies"],
+        "effects": [
+            ["Fixed* fire damage (400) to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300130,  1]]],
         "icon": "item_3019.png"
     },
@@ -903,7 +1001,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Fixed* ice damage (400) to all enemies"],
+        "effects": [
+            ["Fixed* ice damage (400) to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300140,  1]]],
         "icon": "item_3020.png"
     },
@@ -919,7 +1019,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Fixed* lightning damage (400) to all enemies"],
+        "effects": [
+            ["Fixed* lightning damage (400) to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300150,  1]]],
         "icon": "item_3021.png"
     },
@@ -935,7 +1037,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Remove all buffs and debuffs from one enemy"],
+        "effects": [
+            ["Remove all buffs and debuffs from one enemy"
+            ]],
         "effects_raw": [[2, 1, 71, [300480,  1]]],
         "icon": "item_4001.png"
     },
@@ -951,7 +1055,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 1,
-        "effects": ["Fixed damage (5000) to all enemies"],
+        "effects": [
+            ["Fixed damage (5000) to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300160,  1]]],
         "icon": "item_3022.png"
     },
@@ -968,9 +1074,8 @@
         "price_buy": 1000,
         "price_sell": 1,
         "effects": [
-            "Fixed damage (10000) to all enemies",
-            "Reduce DEF by 75% for 3 turns to all enemies"
-        ],
+            ["Reduce DEF by 75% for 3 turns to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300170,  1]]],
         "icon": "item_3023.png"
     },
@@ -986,7 +1091,9 @@
         "stack_size": 999,
         "price_buy": 6000,
         "price_sell": 1,
-        "effects": ["Physical damage (60x, ATK) to one enemy"],
+        "effects": [
+            ["Physical damage (60x, ATK) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300180,  1]]],
         "icon": "item_3024.png"
     },
@@ -1002,7 +1109,9 @@
         "stack_size": 999,
         "price_buy": 24000,
         "price_sell": 1,
-        "effects": ["Physical damage (120x, ATK) to one enemy"],
+        "effects": [
+            ["Physical damage (120x, ATK) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300190,  1]]],
         "icon": "item_3025.png"
     },
@@ -1018,7 +1127,9 @@
         "stack_size": 999,
         "price_buy": 65500,
         "price_sell": 1,
-        "effects": ["Physical damage (210x, ATK) to one enemy"],
+        "effects": [
+            ["Physical damage (210x, ATK) to one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300200,  1]]],
         "icon": "item_3026.png"
     },
@@ -1034,7 +1145,9 @@
         "stack_size": 999,
         "price_buy": 50000,
         "price_sell": 1,
-        "effects": ["Fixed damage (50000) to all enemies"],
+        "effects": [
+            ["Fixed damage (50000) to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300550,  1]]],
         "icon": "item_3027.png"
     },
@@ -1050,7 +1163,9 @@
         "stack_size": 999,
         "price_buy": 200,
         "price_sell": 20,
-        "effects": ["Inflict Sleep (100%) on one enemy"],
+        "effects": [
+            ["Inflict Sleep (100%) on one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300590,  1]]],
         "icon": "item_3030.png"
     },
@@ -1066,7 +1181,9 @@
         "stack_size": 999,
         "price_buy": 200,
         "price_sell": 20,
-        "effects": ["Inflict Silence (100%) on one enemy"],
+        "effects": [
+            ["Inflict Silence (100%) on one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [300600,  1]]],
         "icon": "item_3031.png"
     },
@@ -1082,7 +1199,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Revive all allies from KO (100% HP)"],
+        "effects": [
+            ["Revive all allies from KO (100% HP)"
+            ]],
         "effects_raw": [[2, 2, 71, [300610,  1]]],
         "icon": "item_1024.png"
     },
@@ -1099,9 +1218,8 @@
         "price_buy": 1000,
         "price_sell": 100,
         "effects": [
-            "Increase ATK by 60% for 3 turns to all allies",
-            "Restore 3000 HP split over 3 turns to all allies"
-        ],
+            ["Restore 3000 HP split over 3 turns to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300620,  1]]],
         "icon": "item_50324.png"
     },
@@ -1117,7 +1235,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Reflect 1 spell(s) for one turn to one ally"],
+        "effects": [
+            ["Reflect 1 spell(s) for one turn to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300630,  1]]],
         "icon": "item_2013.png"
     },
@@ -1133,7 +1253,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Increase ATK, DEF, MAG and SPR by 100% for 3 turns to all allies"],
+        "effects": [
+            ["Increase ATK, DEF, MAG and SPR by 100% for 3 turns to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300640,  1]]],
         "icon": "item_2014.png"
     },
@@ -1149,7 +1271,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Reduce ATK by 60% for 3 turns to all enemies"],
+        "effects": [
+            ["Reduce ATK by 60% for 3 turns to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300650,  1]]],
         "icon": "item_2015.png"
     },
@@ -1165,7 +1289,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Reduce DEF by 60% for 3 turns to all enemies"],
+        "effects": [
+            ["Reduce DEF by 60% for 3 turns to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300710,  1]]],
         "icon": "item_2016.png"
     },
@@ -1181,7 +1307,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Increase LB gauge by 5 to one ally"],
+        "effects": [
+            ["Increase LB gauge by 5 to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300720,  1]]],
         "icon": "item_1029.png"
     },
@@ -1197,7 +1325,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Reduce MAG by 60% for 3 turns to all enemies"],
+        "effects": [
+            ["Reduce MAG by 60% for 3 turns to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300730,  1]]],
         "icon": "item_2017.png"
     },
@@ -1213,7 +1343,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Reduce SPR by 60% for 3 turns to all enemies"],
+        "effects": [
+            ["Reduce SPR by 60% for 3 turns to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300740,  1]]],
         "icon": "item_2018.png"
     },
@@ -1229,7 +1361,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Reduce ATK and MAG by 60% for 3 turns to all enemies"],
+        "effects": [
+            ["Reduce ATK and MAG by 60% for 3 turns to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300750,  1]]],
         "icon": "item_2019.png"
     },
@@ -1245,7 +1379,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Increase resistance to Water by 50% for 3 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Water by 50% for 3 turns to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300760,  1]]],
         "icon": "item_2020.png"
     },
@@ -1261,7 +1397,9 @@
         "stack_size": 999,
         "price_buy": 3300,
         "price_sell": 330,
-        "effects": ["Increase MAG and SPR by 50% for 3 turns to all allies"],
+        "effects": [
+            ["Increase MAG and SPR by 50% for 3 turns to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300770,  1]]],
         "icon": "item_3032.png"
     },
@@ -1277,7 +1415,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Increase resistance to Ice by 50% for 3 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Ice by 50% for 3 turns to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300780,  1]]],
         "icon": "item_2021.png"
     },
@@ -1293,7 +1433,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Increase resistance to Earth by 50% for 3 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Earth by 50% for 3 turns to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300790,  1]]],
         "icon": "item_2022.png"
     },
@@ -1309,7 +1451,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Increase resistance to Fire by 50% for 3 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Fire by 50% for 3 turns to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300800,  1]]],
         "icon": "item_2023.png"
     },
@@ -1325,7 +1469,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Increase resistance to Lightning by 50% for 3 turns to all allies"],
+        "effects": [
+            ["Increase resistance to Lightning by 50% for 3 turns to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300810,  1]]],
         "icon": "item_2024.png"
     },
@@ -1341,7 +1487,9 @@
         "stack_size": 999,
         "price_buy": 7000,
         "price_sell": 700,
-        "effects": ["Increase LB gauge by 10 to one ally"],
+        "effects": [
+            ["Increase LB gauge by 10 to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300830,  1]]],
         "icon": "item_1030.png"
     },
@@ -1357,7 +1505,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Increase LB gauge by 20 to one ally"],
+        "effects": [
+            ["Increase LB gauge by 20 to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300840,  1]]],
         "icon": "item_1031.png"
     },
@@ -1373,7 +1523,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Inflict Stop (80%) for 5 turns on all enemies"],
+        "effects": [
+            ["Inflict Stop (80%) for 5 turns on all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300850,  1]]],
         "icon": "item_3033.png"
     },
@@ -1389,7 +1541,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Restore 50% HP and 25% MP to one ally"],
+        "effects": [
+            ["Restore 50% HP and 25% MP to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300860,  1]]],
         "icon": "item_1010000.png"
     },
@@ -1405,7 +1559,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Restore 20 MP to all allies"],
+        "effects": [
+            ["Restore 20 MP to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300870,  1]]],
         "icon": "item_1010001.png"
     },
@@ -1421,7 +1577,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Revive one ally from KO (80% HP)"],
+        "effects": [
+            ["Revive one ally from KO (80% HP)"
+            ]],
         "effects_raw": [[1, 2, 71, [300880,  1]]],
         "icon": "item_1010002.png"
     },
@@ -1437,7 +1595,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Inflict berserk (+100% ATK) on one ally for 3 turns"],
+        "effects": [
+            ["Inflict berserk (+100% ATK) on one ally for 3 turns"
+            ]],
         "effects_raw": [[1, 2, 71, [300890,  1]]],
         "icon": "item_1010005.png"
     },
@@ -1453,7 +1613,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Restore 150 MP split over 3 turns to one ally"],
+        "effects": [
+            ["Restore 150 MP split over 3 turns to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300900,  1]]],
         "icon": "item_1010003.png"
     },
@@ -1469,7 +1631,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Restore 100% HP to one ally"],
+        "effects": [
+            ["Restore 100% HP to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300910,  1]]],
         "icon": "item_1010004.png"
     },
@@ -1486,9 +1650,8 @@
         "price_buy": 4000,
         "price_sell": 400,
         "effects": [
-            "Restore 80% HP to one ally",
-            "Increase LB gauge by 3 to one ally"
-        ],
+            ["Increase LB gauge by 3 to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300928,  1]]],
         "icon": "item_1040074.png"
     },
@@ -1504,7 +1667,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Increase break resistance to ATK, DEF, MAG and SPR by 80% for one turn to one ally"],
+        "effects": [
+            ["Increase break resistance to ATK, DEF, MAG and SPR by 80% for one turn to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [300929,  1]]],
         "icon": "item_1040075.png"
     },
@@ -1520,7 +1685,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Reduce resistance to Fire by 120% for one turn to all enemies"],
+        "effects": [
+            ["Reduce resistance to Fire by 120% for one turn to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300920,  1]]],
         "icon": "item_1010007.png"
     },
@@ -1536,7 +1703,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Reduce resistance to Ice by 120% for one turn to all enemies"],
+        "effects": [
+            ["Reduce resistance to Ice by 120% for one turn to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300921,  1]]],
         "icon": "item_1010008.png"
     },
@@ -1552,7 +1721,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Reduce resistance to Lightning by 120% for one turn to all enemies"],
+        "effects": [
+            ["Reduce resistance to Lightning by 120% for one turn to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300922,  1]]],
         "icon": "item_1010009.png"
     },
@@ -1568,7 +1739,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Reduce resistance to Water by 120% for one turn to all enemies"],
+        "effects": [
+            ["Reduce resistance to Water by 120% for one turn to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300923,  1]]],
         "icon": "item_1010010.png"
     },
@@ -1584,7 +1757,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Reduce resistance to Wind by 120% for one turn to all enemies"],
+        "effects": [
+            ["Reduce resistance to Wind by 120% for one turn to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300924,  1]]],
         "icon": "item_1010011.png"
     },
@@ -1600,7 +1775,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Reduce resistance to Earth by 120% for one turn to all enemies"],
+        "effects": [
+            ["Reduce resistance to Earth by 120% for one turn to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300925,  1]]],
         "icon": "item_1010012.png"
     },
@@ -1616,7 +1793,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Reduce resistance to Light by 120% for one turn to all enemies"],
+        "effects": [
+            ["Reduce resistance to Light by 120% for one turn to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300926,  1]]],
         "icon": "item_1010013.png"
     },
@@ -1632,7 +1811,9 @@
         "stack_size": 999,
         "price_buy": 10000,
         "price_sell": 1000,
-        "effects": ["Reduce resistance to Dark by 120% for one turn to all enemies"],
+        "effects": [
+            ["Reduce resistance to Dark by 120% for one turn to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300927,  1]]],
         "icon": "item_1010014.png"
     },
@@ -1648,7 +1829,9 @@
         "stack_size": 999,
         "price_buy": 3300,
         "price_sell": 330,
-        "effects": ["Increase MAG and SPR by 50% for 3 turns to all allies"],
+        "effects": [
+            ["Increase MAG and SPR by 50% for 3 turns to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300930,  1]]],
         "icon": "item_1010015.png"
     },
@@ -1664,7 +1847,9 @@
         "stack_size": 999,
         "price_buy": 3000000,
         "price_sell": 1,
-        "effects": ["Physical* damage (300x, ATK) to all enemies"],
+        "effects": [
+            ["Physical* damage (300x, ATK) to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300950,  1]]],
         "icon": "item_1050153.png"
     },
@@ -1680,7 +1865,9 @@
         "stack_size": 999,
         "price_buy": 3000000,
         "price_sell": 1,
-        "effects": ["Physical* damage (300x, ATK) to all enemies"],
+        "effects": [
+            ["Physical* damage (300x, ATK) to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300960,  1]]],
         "icon": "item_1050154.png"
     },
@@ -1696,7 +1883,9 @@
         "stack_size": 999,
         "price_buy": 3000000,
         "price_sell": 1,
-        "effects": ["Physical* damage (300x, ATK) to all enemies"],
+        "effects": [
+            ["Physical* damage (300x, ATK) to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300940,  1]]],
         "icon": "item_1050155.png"
     },
@@ -1712,7 +1901,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Add Dark element (100%) to physical attacks for 3 turns to all allies"],
+        "effects": [
+            ["Add Dark element (100%) to physical attacks for 3 turns to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300970,  1]]],
         "icon": "item_1040344.png"
     },
@@ -1728,7 +1919,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Magic dark damage (30x, MAG) to all enemies"],
+        "effects": [
+            ["Magic dark damage (30x, MAG) to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [300980,  1]]],
         "icon": "item_1040345.png"
     },
@@ -1744,7 +1937,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Increase ATK by 230% for 3 turns to all allies"],
+        "effects": [
+            ["Increase ATK by 230% for 3 turns to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [300990,  1]]],
         "icon": "item_1040346.png"
     },
@@ -1760,7 +1955,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Remove buffs to ATK from one enemy"],
+        "effects": [
+            ["Remove buffs to ATK from one enemy"
+            ]],
         "effects_raw": [[1, 1, 71, [301000,  1]]],
         "icon": "item_1040347.png"
     },
@@ -1777,9 +1974,8 @@
         "price_buy": 4000,
         "price_sell": 400,
         "effects": [
-            "Magic wind damage (30x, MAG) to all enemies",
-            "Reduce DEF by 75% for 3 turns to all enemies"
-        ],
+            ["Reduce DEF by 75% for 3 turns to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [301010,  1]]],
         "icon": "item_1040348.png"
     },
@@ -1795,7 +1991,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Reduce SPR by 75% for 3 turns to all enemies"],
+        "effects": [
+            ["Reduce SPR by 75% for 3 turns to all enemies"
+            ]],
         "effects_raw": [[2, 1, 71, [301020,  1]]],
         "icon": "item_1040349.png"
     },
@@ -1811,7 +2009,9 @@
         "stack_size": 999,
         "price_buy": 4000,
         "price_sell": 400,
-        "effects": ["Restore 5000 HP to all allies"],
+        "effects": [
+            ["Restore 5000 HP to all allies"
+            ]],
         "effects_raw": [[2, 2, 71, [301030,  1]]],
         "icon": "item_1040351.png"
     },
@@ -1827,7 +2027,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 50,
-        "effects": ["Restore 100% HP and MP to all allies"],
+        "effects": [
+            ["Restore 100% HP and MP to all allies"
+            ]],
         "effects_raw": [[2, 2, 64, [100,  100]]],
         "icon": "item_5001.png"
     },
@@ -6439,6 +6641,38 @@
         "effects_raw": "",
         "icon": "item_1050163.png"
     },
+    "106216300": {
+        "name": "FFBEスペシャル交換チケット2021/3",
+        "type": "Consumable",
+        "compendium_id": 1980,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1050046.png"
+    },
+    "106216400": {
+        "name": "お宝召喚チケット2021/3",
+        "type": "Consumable",
+        "compendium_id": 1990,
+        "compendium_shown": false,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_9247.png"
+    },
     "106300100": {
         "name": "聖石の欠片",
         "type": "Consumable",
@@ -6835,7 +7069,9 @@
         "stack_size": 999,
         "price_buy": 500,
         "price_sell": 10,
-        "effects": ["Restore 10% HP and 5% MP to target"],
+        "effects": [
+            ["Restore 10% HP and 5% MP to target"
+            ]],
         "effects_raw": [[1, 2, 71, [300560,  1]]],
         "icon": "item_9135.png"
     },
@@ -8550,6 +8786,22 @@
         "effects": null,
         "effects_raw": "",
         "icon": "item_1050166.png"
+    },
+    "106313200": {
+        "name": "「解き放たれし鋭鋒」の討伐証",
+        "type": "Consumable",
+        "compendium_id": 1981,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 500,
+        "price_sell": 10,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1050173.png"
     },
     "107000100": {
         "name": "魔石のカケラ",
@@ -15411,7 +15663,9 @@
         "stack_size": 99999,
         "price_buy": 500,
         "price_sell": 10,
-        "effects": ["Restore 200 HP and 20 MP to target"],
+        "effects": [
+            ["Restore 200 HP and 20 MP to target"
+            ]],
         "effects_raw": [[1, 6, 71, [231290,  1]]],
         "icon": "item_1034.png"
     },
@@ -15427,7 +15681,9 @@
         "stack_size": 999,
         "price_buy": 2000,
         "price_sell": 200,
-        "effects": ["Restore 100% HP and MP to one ally"],
+        "effects": [
+            ["Restore 100% HP and MP to one ally"
+            ]],
         "effects_raw": [[1, 2, 71, [231291,  1]]],
         "icon": "item_1033.png"
     },
@@ -19463,6 +19719,54 @@
         "effects_raw": "",
         "icon": "item_1040350.png"
     },
+    "235036500": {
+        "name": "真雪の尾羽",
+        "type": "Item",
+        "compendium_id": 1982,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 999,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1040365.png"
+    },
+    "235036600": {
+        "name": "昇青石【真・紫電】",
+        "type": "Item",
+        "compendium_id": 1983,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 999,
+        "price_buy": 4000,
+        "price_sell": 400,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1040372.png"
+    },
+    "235036700": {
+        "name": "二闘星のゼノ討伐勲章",
+        "type": "Item",
+        "compendium_id": 1984,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 2000,
+        "price_sell": 200,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1040359.png"
+    },
     "250000010": {
         "name": "クラウド(FFVII REMAKE)の欠片",
         "type": "Awakening",
@@ -20839,6 +21143,54 @@
         "effects_raw": "",
         "icon": "item_1040354.png"
     },
+    "250000890": {
+        "name": "守護の剣シャルロットの欠片",
+        "type": "Awakening",
+        "compendium_id": 1985,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 999,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1040366.png"
+    },
+    "250000900": {
+        "name": "皇帝ヴラドの欠片",
+        "type": "Awakening",
+        "compendium_id": 1986,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 999,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1040367.png"
+    },
+    "250000910": {
+        "name": "ザイルの欠片",
+        "type": "Awakening",
+        "compendium_id": 1987,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 999,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1040368.png"
+    },
     "260000010": {
         "name": "星を護りし者達のブレイブ",
         "type": "Item",
@@ -21286,6 +21638,22 @@
         "effects": null,
         "effects_raw": "",
         "icon": "item_1040363.png"
+    },
+    "260000290": {
+        "name": "FFBE(2nd)のブレイブ",
+        "type": "Item",
+        "compendium_id": 1988,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 99999,
+        "price_buy": 1000,
+        "price_sell": 100,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_1040371.png"
     },
     "270000100": {
         "name": "白の晶石",
@@ -28251,6 +28619,22 @@
         "name": "コンチェの輝源",
         "type": "Awakening",
         "compendium_id": 1961,
+        "compendium_shown": true,
+        "usable_in_combat": false,
+        "usable_in_exploration": false,
+        "flags": [false, false, false, false, false, false],
+        "carry_limit": 0,
+        "stack_size": 999,
+        "price_buy": 0,
+        "price_sell": 0,
+        "effects": null,
+        "effects_raw": "",
+        "icon": "item_8370.png"
+    },
+    "300003500": {
+        "name": "ザイルの輝源",
+        "type": "Awakening",
+        "compendium_id": 1989,
         "compendium_shown": true,
         "usable_in_combat": false,
         "usable_in_exploration": false,

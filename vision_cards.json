@@ -876,7 +876,7 @@
         }
     },
     "100002501": {
-        "name": "今日から親友！",
+        "name": "Friends from Today!",
         "compendium_id": 38,
         "compendium_shown": true,
         "rarity": 1,
@@ -907,10 +907,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "フィーナとデイジーに詰め寄り、みんなで仲良くしようと提案するマズルカ。互いの好きな人を話し合えるくらいまで仲を深めるのが、マズルカの目標だ。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "今日から親友！",
-            "music": "♪Peaceful Village",
+            "desc": "Mazurka approaches Fina and Daisy, suggesting that they all get along. She hopes to someday get close enough that the three of them can even talk about their crushes together.",
+            "info": "Mazurka approaches Fina and Daisy, suggesting that they all get along. She hopes to someday get close enough that the three of them can even talk about their crushes together.",
+            "shop": "Friends from Today!",
+            "music": "Peaceful Village",
             "music_id": "400201"
         }
     },
@@ -1140,6 +1140,45 @@
             "desc": "父の仇であるマジョラを追い、彼女の側近グレイビーと対戦するトモエ。迷いを捨てたトモエは、次期棟梁としてアシュラ一家の威光を取り戻すため、一度敗れた相手に打ち勝つ。",
             "info": "ビジョンカードが経験値を獲得！",
             "shop": "トモエVSグレイビー",
+            "music": "♪Another Tale to Tell",
+            "music_id": "400328"
+        }
+    },
+    "100003401": {
+        "name": "結束の星",
+        "compendium_id": 55,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [40, 100, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [30, 80, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [240860],
+            "7": [240861],
+            "10": [240862]
+        },
+        "restriction": {
+            "240862": [7216, "発動条件：【FFBEユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "ラザロフとの決戦に向かうシャルロットとグランシェルト騎士団。騎士団に所属する者だけでなく、レインとラスウェルが繋いだ絆によって各国から集った仲間たちとともにピンチを切り抜ける。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "結束の星",
             "music": "♪Another Tale to Tell",
             "music_id": "400328"
         }
