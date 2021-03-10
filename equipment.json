@@ -29266,6 +29266,37 @@
         "price_sell": 20000,
         "icon": "item_2130015.png"
     },
+    "315024700": {
+        "name": "鬼女の巻物",
+        "compendium_id": 2148,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 13,
+        "type": "Throwing",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [240971],
+        "effects": ["Grants '鬼女の術式' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 190,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2060035.png"
+    },
     "316000100": {
         "name": "ハープ",
         "compendium_id": 102,
@@ -49364,6 +49395,40 @@
         "price_sell": 1000,
         "icon": "item_2200004.png"
     },
+    "408006700": {
+        "name": "鬼女の着物",
+        "compendium_id": 2152,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 53,
+        "type": "Robe",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [206880, 240975],
+        "effects": ["Grants '魔力+50%' passive.", "Grants '鬼女の衣' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 40,
+            "SPR": 29,
+            "element_resist": {
+                "Lightning": 30,
+                "Dark": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2200007.png"
+    },
     "409000100": {
         "name": "鉄の篭手",
         "compendium_id": 200,
@@ -64678,5 +64743,104 @@
         "price_buy": 20000,
         "price_sell": 2000,
         "icon": "item_50408.png"
+    },
+    "409051200": {
+        "name": "鬼女のかんざし",
+        "compendium_id": 2149,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [240972],
+        "effects": ["Grants '鬼女の怒り' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 28,
+            "SPR": 28,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_2250124.png"
+    },
+    "409051300": {
+        "name": "真・鬼女のかんざし",
+        "compendium_id": 2150,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [240973],
+        "effects": ["Grants '鬼女の怒り+' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 32,
+            "SPR": 32,
+            "element_resist": {
+                "Lightning": 10,
+                "Dark": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2250125.png"
+    },
+    "409051400": {
+        "name": "絶・鬼女のかんざし",
+        "compendium_id": 2151,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [240974],
+        "effects": ["Grants '鬼女の怒り++' passive."],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 40,
+            "SPR": 40,
+            "element_resist": {
+                "Lightning": 20,
+                "Dark": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250126.png"
     }
 }

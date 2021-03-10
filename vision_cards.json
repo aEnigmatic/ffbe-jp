@@ -1144,6 +1144,43 @@
             "music_id": "400328"
         }
     },
+    "100003301": {
+        "name": "命がけの逃避行",
+        "compendium_id": 57,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [20, 30, 0, 0],
+            "DEF": [40, 60, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [240983],
+            "7": [240984],
+            "10": [240985]
+        },
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "スパイとして追われるドミノと、共に逃げるシャタル。迫りくる狼をなぎ倒し、二人は砂漠を突き進む。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "命がけの逃避行",
+            "music": "♪The Emergency",
+            "music_id": "400107"
+        }
+    },
     "100003401": {
         "name": "結束の星",
         "compendium_id": 55,
@@ -1996,6 +2033,45 @@
             "shop": "Virtual Training",
             "music": "MUSASABI",
             "music_id": "400214"
+        }
+    },
+    "401000201": {
+        "name": "Demon Who Learned Humanity",
+        "compendium_id": 56,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [40, 100, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [240980],
+            "7": [240981],
+            "10": [240982]
+        },
+        "restriction": {
+            "240982": [7216, "発動条件：【FFBEユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "Dwelling within a sacred tree, Ibara has received many visitors over the centuries. This has made her more and more curious about humans, sparking within her a desire to understand them. How will she feel, and what will she do, when someone in true need of her power finally appears?",
+            "info": "Dwelling within a sacred tree, Ibara has received many visitors over the centuries. This has made her more and more curious about humans, sparking within her a desire to understand them. How will she feel, and what will she do, when someone in true need of her power finally appears?",
+            "shop": "Demon Who Learned Humanity",
+            "music": "The Oath",
+            "music_id": "400219"
         }
     },
     "401000401": {
