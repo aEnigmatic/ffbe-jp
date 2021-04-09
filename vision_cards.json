@@ -915,7 +915,7 @@
         }
     },
     "100002601": {
-        "name": "これが俺の本気の力",
+        "name": "Face My Full Power!",
         "compendium_id": 42,
         "compendium_shown": true,
         "rarity": 1,
@@ -946,15 +946,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "仲間たちを助けるため、敵に立ち向かうメロイ。「めんどい」という口癖に逃げず、本気の力を出したメロイはモンスターを一掃する。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "これが俺の本気の力",
-            "music": "♪Survivor Syndrome",
+            "desc": "Melo faces enemies to protect his allies. Instead of calling it a pain and running away, he uses his full power to make a clean sweep of the monsters.",
+            "info": "Melo faces enemies to protect his allies. Instead of calling it a pain and running away, he uses his full power to make a clean sweep of the monsters.",
+            "shop": "Face My Full Power!",
+            "music": "Survivor Syndrome",
             "music_id": "400351"
         }
     },
     "100002701": {
-        "name": "竜の封印",
+        "name": "The Dragon's Seal",
         "compendium_id": 39,
         "compendium_shown": true,
         "rarity": 1,
@@ -985,10 +985,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "封印から解き放たれた竜と対峙するデューク。信頼できる里の仲間たちと力を合わせ、無事に竜を封印する。その場に残されたのは初代の「竜封じ」リュナンが使っていたという一振りの槍だった。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "竜の封印",
-            "music": "♪Supreme Mission",
+            "desc": "Duke faces the dragon that was released from the seal. He joins forces with trustworthy friends from his home village, and they manage to safely reseal the dragon. In its place, they find the spear said to have been wielded by Ryunan, the first dragon sealer.",
+            "info": "Duke faces the dragon that was released from the seal. He joins forces with trustworthy friends from his home village, and they manage to safely reseal the dragon. In its place, they find the spear said to have been wielded by Ryunan, the first dragon sealer.",
+            "shop": "The Dragon's Seal",
+            "music": "Supreme Mission",
             "music_id": "400320"
         }
     },
@@ -1218,6 +1218,43 @@
             "shop": "結束の星",
             "music": "♪Another Tale to Tell",
             "music_id": "400328"
+        }
+    },
+    "100003601": {
+        "name": "はじまりの物語",
+        "compendium_id": 63,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [40, 80, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [241353],
+            "7": [241354],
+            "10": [241355]
+        },
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "オーダーズとして民を苦しめた過去を悔やむクローワ。訪れた遺跡でオートマトンのレジーナと出会い、共に旅をすることになる。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "はじまりの物語",
+            "music": "♪Wisdom of the Ages",
+            "music_id": "400324"
         }
     },
     "100003801": {
@@ -1639,6 +1676,43 @@
             "shop": "VSハンドレッドガンナー",
             "music": "♪更に闘う者達",
             "music_id": "400987"
+        }
+    },
+    "207000601": {
+        "name": "感動の再会だ",
+        "compendium_id": 62,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10007,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [125, 125, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [241350, 241351, 241352]
+        },
+        "restriction": {
+            "241352": [4008, "発動条件：【FFVIIユニット】"]
+        },
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "神羅ビルからの脱出を図るクラウドらの前に、突如現れたセフィロス。斬りかかるクラウドだったが、その刃はセフィロスにあっさりと防がれ、下の階へ落とされてしまう。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "感動の再会だ",
+            "music": "♪星に選ばれし者",
+            "music_id": "401051"
         }
     },
     "209000101": {
