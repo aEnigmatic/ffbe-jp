@@ -1220,6 +1220,45 @@
             "music_id": "400328"
         }
     },
+    "100003501": {
+        "name": "泡沫の記憶",
+        "compendium_id": 64,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [400, 800, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [40, 80, 0, 0],
+            "SPR": [40, 80, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [241460],
+            "7": [241461],
+            "10": [241462]
+        },
+        "restriction": {
+            "241462": [7216, "発動条件：【FFBEユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "不思議な泡の中で、エルやルルカと共に水中を眺めるニコル。この幻想的な光景は、三兄弟がかつて見た景色のひとつなのかもしれない。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "泡沫の記憶",
+            "music": "♪Joie de Vivre",
+            "music_id": "400312"
+        }
+    },
     "100003601": {
         "name": "はじまりの物語",
         "compendium_id": 63,
@@ -1909,7 +1948,7 @@
         }
     },
     "215000101": {
-        "name": "王都決戦",
+        "name": "The Cure for Insomnia",
         "compendium_id": 45,
         "compendium_shown": true,
         "rarity": 1,
@@ -1940,10 +1979,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "10年の眠りから目覚めて、ようやく王都インソムニアに帰還したノクティス。真の王として、闇に覆われた世界に光を取り戻すため、アーデンと激しい戦いを繰り広げる。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "王都決戦",
-            "music": "♪Magna Insomnia",
+            "desc": "Noctis, after his long-awaited return to his home kingdom's capital, Insomnia. Taking his place as the True King, he engages in a vicious battle with Ardyn in order to return light back to the ruined world.",
+            "info": "Noctis, after his long-awaited return to his home kingdom's capital, Insomnia. Taking his place as the True King, he engages in a vicious battle with Ardyn in order to return light back to the ruined world.",
+            "shop": "The Cure for Insomnia",
+            "music": "Magna Insomnia",
             "music_id": "400922"
         }
     },
