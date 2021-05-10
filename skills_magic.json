@@ -4775,10 +4775,10 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            ["Magic light damage (12x, SPR) to one enemy"],
-            ["Magic light damage (12x, SPR) per turn to one enemy for 3 turns"]
+            ["Magic light damage (60x, SPR) to one enemy"],
+            ["Magic light damage (40x, SPR) per turn to one enemy for 3 turns"]
         ],
-        "effects_raw": [[1, 1, 103, [100,  99999,  1200]], [1, 1, 139, [4,  1200,  0,  0,  3,  1,  22]]],
+        "effects_raw": [[1, 1, 103, [100,  99999,  6000]], [1, 1, 139, [4,  4000,  0,  0,  3,  1,  22]]],
         "requirements": [["SWITCH",  10391500]]
     },
     "40030": {
@@ -5244,10 +5244,10 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            ["Reduce MAG and SPR by 65% for 3 turns to all enemies"],
+            ["Reduce MAG and SPR by 80% for 3 turns to all enemies"],
             ["Reduce resistance to Wind and Light by 100% for 3 turns to all enemies"]
         ],
-        "effects_raw": [[2, 1, 24, [0,  0,  -65,  -65,  3,  1]], [2, 1, 33, [0,  0,  0,  0,  -100,  0,  -100,  0,  1,  3]]],
+        "effects_raw": [[2, 1, 24, [0,  0,  -80,  -80,  3,  1]], [2, 1, 33, [0,  0,  0,  0,  -100,  0,  -100,  0,  1,  3]]],
         "requirements": [["SWITCH",  10540500]]
     },
     "40240": {
@@ -5293,11 +5293,11 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            ["Increase DEF and SPR by 150% for 3 turns to all allies"],
+            ["Increase DEF and SPR by 250% for 3 turns to all allies"],
             ["Reduce damage taken by 30% to all allies for 3 turns"],
             ["Grant a 5000 HP shield to all allies for 3 turns"]
         ],
-        "effects_raw": [[2, 2, 3, [0,  150,  0,  150,  3,  1,  0]], [2, 2, 101, [30,  3,  1,  1]], [2, 2, 127, [5000,  3,  1]]],
+        "effects_raw": [[2, 2, 3, [0,  250,  0,  250,  3,  1,  0]], [2, 2, 101, [30,  3,  1,  1]], [2, 2, 127, [5000,  3,  1]]],
         "requirements": [["SWITCH",  10770300]]
     },
     "40260": {
@@ -5593,10 +5593,10 @@
         "attack_type": "Magic",
         "element_inflict": ["Light"],
         "effects": [
-            ["Magic light damage (10x, SPR) to all enemies"],
-            ["Magic light damage (7.5x, SPR) per turn to all enemies for 10 turns"]
+            ["Magic light damage (58x, SPR) to all enemies"],
+            ["Magic light damage (35x, SPR) per turn to all enemies for 10 turns"]
         ],
-        "effects_raw": [[2, 1, 103, [100,  99999,  1000]], [2, 1, 139, [4,  750,  0,  0,  10,  1,  32]]],
+        "effects_raw": [[2, 1, 103, [100,  99999,  5800]], [2, 1, 139, [4,  3500,  0,  0,  10,  1,  32]]],
         "requirements": [["SWITCH",  10910005]]
     },
     "40380": {
