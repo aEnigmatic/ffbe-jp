@@ -97,6 +97,48 @@
         ],
         "effects_raw": [[0, 0, 2, [0,  -200,  0,  0,  0,  0,  0,  0]]]
     },
+    "100000014": {
+        "duration": -1,
+        "effects": [
+            ["Reduce resistance to Lightning by 300%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  -300,  0,  0,  0,  0,  0]]]
+    },
+    "100000015": {
+        "duration": -1,
+        "effects": [
+            ["Reduce resistance to Ice by 300%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  -300,  0,  0,  0,  0,  0,  0]]]
+    },
+    "100000016": {
+        "duration": -1,
+        "effects": [
+            ["Reduce resistance to Earth by 200%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, 0, 0, 0, [-200,  -200], 0, 0]]]
+    },
+    "100000017": {
+        "duration": -1,
+        "effects": [
+            ["Reduce resistance to Lightning by 200%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, [-200,  -200], 0, 0, 0, 0, 0]]]
+    },
+    "100000018": {
+        "duration": -1,
+        "effects": [
+            ["Reduce resistance to Ice by 200%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, [-200,  -200], 0, 0, 0, 0, 0, 0]]]
+    },
+    "100000019": {
+        "duration": -1,
+        "effects": [
+            ["Reduce resistance to Dark by 200%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, 0, 0, 0, 0, 0, [-200,  -200]]]]
+    },
     "200000001": {
         "duration": 10,
         "effects": [
@@ -367,5 +409,12 @@
             ["Increase Lightning physical damage by 40%"]
         ],
         "effects_raw": [[0, 0, 11, [0, 0, [40,  40], 0, 0, 0, 0, 0]], [0, 0, 10, [0, 0, [40,  40], 0, 0, 0, 0, 0]]]
+    },
+    "200000038": {
+        "duration": 10,
+        "effects": [
+            ["Reduce resistance to Lightning by 25%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  -25,  0,  0,  0,  0,  0]]]
     }
 }

@@ -993,7 +993,7 @@
         }
     },
     "100002801": {
-        "name": "未来に遺されたもの",
+        "name": "Entrusted for the Future",
         "compendium_id": 43,
         "compendium_shown": true,
         "rarity": 1,
@@ -1024,10 +1024,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "浄化の樹の前に建てた石碑に、友へのメッセージを刻むラグルス。時は流れ、冒険家のヘレナと傭兵のカーミルが、その場所を訪れる。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "未来に遺されたもの",
-            "music": "♪State of Grace",
+            "desc": "Ruggles carves a message to his friend on the stone monument in front of the tree of purification. Time passes, and the adventurer Helena and the mercenary Camille come to visit this same place.",
+            "info": "Ruggles carves a message to his friend on the stone monument in front of the tree of purification. Time passes, and the adventurer Helena and the mercenary Camille come to visit this same place.",
+            "shop": "Entrusted for the Future",
+            "music": "State of Grace",
             "music_id": "400204"
         }
     },
@@ -1368,6 +1368,45 @@
             "shop": "アクスターの記憶",
             "music": "♪Dawn",
             "music_id": "400329"
+        }
+    },
+    "100004001": {
+        "name": "華麗に変身！ 黒衣の二人組",
+        "compendium_id": 68,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [400, 800, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [40, 80, 0, 0],
+            "SPR": [40, 80, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [241710],
+            "7": [241711],
+            "10": [241712]
+        },
+        "restriction": {
+            "241712": [7216, "発動条件：【FFBEユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "立てこもり犯の元にやってきたサクラとニコル。抵抗する犯人たちを捕らえるため、二人はオーダーズの衣装に華麗に変身する！",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "華麗に変身！ 黒衣の二人組",
+            "music": "♪Order without Honor ",
+            "music_id": "400331"
         }
     },
     "202000101": {
@@ -2336,7 +2375,7 @@
         }
     },
     "338000101": {
-        "name": "真理の扉",
+        "name": "The Portal of Truth",
         "compendium_id": 44,
         "compendium_shown": true,
         "rarity": 1,
@@ -2367,10 +2406,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "人体錬成を行い、真っ白な空間で目覚めたエドワード。巨大な扉の向こうには真理があり、禁忌を侵した術者は無数の情報を得られるが、代償として大きな犠牲を払わねばならないという。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "真理の扉",
-            "music": "♪Moment of Recall",
+            "desc": "A scene depicting Edward awakening in a blank space following his attempt at a human transmutation. Truth awaits beyond the great gate, revealing that those who break the taboo will gain infinite knowledge, but only at a very high price.",
+            "info": "A scene depicting Edward awakening in a blank space following his attempt at a human transmutation. Truth awaits beyond the great gate, revealing that those who break the taboo will gain infinite knowledge, but only at a very high price.",
+            "shop": "The Portal of Truth",
+            "music": "Moment of Recall",
             "music_id": "400003"
         }
     },
