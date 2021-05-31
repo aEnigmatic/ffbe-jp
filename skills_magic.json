@@ -2216,9 +2216,9 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            ["Magic damage (2.8x * 1.33 = 3.73x, MAG) to all enemies (ignore reflect)"]
+            ["Magic damage (25x * 2 = 50x, MAG) to all enemies (ignore reflect)"]
         ],
-        "effects_raw": [[2, 1, 70, [0,  0,  280,  25]]],
+        "effects_raw": [[2, 1, 70, [0,  0,  2500,  50]]],
         "requirements": null
     },
     "20450": {
@@ -4683,6 +4683,32 @@
         "effects_raw": [[2, 2, 95, [0,  0,  100,  0,  0,  0,  0,  0,  5,  1]]],
         "requirements": null
     },
+    "30530": {
+        "name": "エンストーン",
+        "icon": "ability_28.png",
+        "compendium_id": 251,
+        "rarity": 7,
+        "cost": {"MP": 32},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[40,  40,  40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Earth"],
+        "effects": [
+            ["Add Earth element (100%) to physical attacks for 5 turns to all allies"],
+            ["Increase Earth physical damage by 15% to all allies for 5 turns"],
+            ["Increase Earth magic damage by 15% to all allies for 5 turns"]
+        ],
+        "effects_raw": [[2, 2, 95, [0,  0,  0,  0,  0,  100,  0,  0,  5,  1]], [2, 2, 149, [0, [0,  0,  0,  0,  0,  15,  0,  0], 1, 5, 1]], [2, 2, 149, [1, [0,  0,  0,  0,  0,  15,  0,  0], 1, 5, 1]]],
+        "requirements": null
+    },
     "30560": {
         "name": "ベール",
         "icon": "ability_19.png",
@@ -6079,9 +6105,9 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            ["Magic damage (2.8x * 1.33 = 3.73x, MAG) to all enemies (ignore reflect)"]
+            ["Magic damage (40x * 2 = 80x, MAG) to all enemies (ignore reflect)"]
         ],
-        "effects_raw": [[2, 1, 70, [0,  0,  280,  25]]],
+        "effects_raw": [[2, 1, 70, [0,  0,  4000,  50]]],
         "requirements": null
     },
     "70140": {
@@ -6103,9 +6129,9 @@
         "attack_type": "Magic",
         "element_inflict": null,
         "effects": [
-            ["Magic damage (2.8x * 2 = 5.6x, MAG) to all enemies (ignore reflect)"]
+            ["Magic damage (60x * 2 = 120x, MAG) to all enemies (ignore reflect)"]
         ],
-        "effects_raw": [[2, 1, 70, [0,  0,  280,  50]]],
+        "effects_raw": [[2, 1, 70, [0,  0,  6000,  50]]],
         "requirements": null
     },
     "70150": {
@@ -7870,6 +7896,54 @@
             ["Magic lightning damage (100x, MAG) to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  10000,  0]]],
+        "requirements": null
+    },
+    "70477": {
+        "name": "ストンガ",
+        "icon": "ability_28.png",
+        "compendium_id": 124,
+        "rarity": 6,
+        "cost": {"MP": 20},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [8],
+        "attack_damage": [[10,  10,  10,  10,  10,  10,  10,  30]],
+        "attack_frames": [[42,  62,  82,  102,  122,  142,  162,  182]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Earth"],
+        "effects": [
+            ["Magic earth damage (30x, MAG) to all enemies"]
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  3000,  0]]],
+        "requirements": null
+    },
+    "70478": {
+        "name": "ストンガ",
+        "icon": "ability_28.png",
+        "compendium_id": 124,
+        "rarity": 6,
+        "cost": {"MP": 20},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [8],
+        "attack_damage": [[10,  10,  10,  10,  10,  10,  10,  30]],
+        "attack_frames": [[42,  62,  82,  102,  122,  142,  162,  182]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Earth"],
+        "effects": [
+            ["Magic earth damage (40x, MAG) to all enemies"]
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  4000,  0]]],
         "requirements": null
     }
 }
