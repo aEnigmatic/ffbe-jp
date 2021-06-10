@@ -1032,7 +1032,7 @@
         }
     },
     "100002901": {
-        "name": "マク爺のお手伝い",
+        "name": "Chores with Grandpa",
         "compendium_id": 49,
         "compendium_shown": true,
         "rarity": 1,
@@ -1061,15 +1061,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "凄腕の銃修理工マクメディと、その仕事を手伝う孫のロッティ。マクメディは無口で偏屈な男だが、唯一の家族であるロッティとの生活をなによりも愛しく思っていた。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "マク爺のお手伝い",
-            "music": "♪Peaceful Village",
+            "desc": "The skilled gunsmith Macmedi, and his grandchild, Lotti, who helps around the shop. Macmedi is an eccentric man of few words, but there's no doubt he cherishes his life with Lotti, his only surviving family.",
+            "info": "The skilled gunsmith Macmedi, and his grandchild, Lotti, who helps around the shop. Macmedi is an eccentric man of few words, but there's no doubt he cherishes his life with Lotti, his only surviving family.",
+            "shop": "Chores with Grandpa",
+            "music": "Peaceful Village",
             "music_id": "400201"
         }
     },
     "100003001": {
-        "name": "愛したのは……",
+        "name": "The One I've Loved...",
         "compendium_id": 52,
         "compendium_shown": true,
         "rarity": 1,
@@ -1100,10 +1100,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "ネリネに想いを伝えるコラール。今までの思い出が蘇り、自分が愛したのは目の前の女性だと確信する。子供たちに祝福された二人は幸せそうに抱きしめあった。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "愛したのは……",
-            "music": "♪Dawn",
+            "desc": "Chorale confesses his feelings to Nerine. As memories of their past together come flooding back, the ever-faithful steward reaffirms that the woman before him is the one he has always loved. Blessed by their two young onlookers, the two share a tender embrace.",
+            "info": "Chorale confesses his feelings to Nerine. As memories of their past together come flooding back, the ever-faithful steward reaffirms that the woman before him is the one he has always loved. Blessed by their two young onlookers, the two share a tender embrace.",
+            "shop": "The One I've Loved...",
+            "music": "Dawn",
             "music_id": "400329"
         }
     },
@@ -1368,6 +1368,43 @@
             "shop": "アクスターの記憶",
             "music": "♪Dawn",
             "music_id": "400329"
+        }
+    },
+    "100003901": {
+        "name": "幸せの記憶",
+        "compendium_id": 71,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [40, 80, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [241953],
+            "7": [241954],
+            "10": [241955]
+        },
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "警護対象のアイン、アルデ親子と川へ遊びに来たロボットのエルナト。『家族』とともに過ごす束の間の休息は、確かな幸せの記憶として彼の中に刻まれたはずだ。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "幸せの記憶",
+            "music": "♪Walkabout",
+            "music_id": "400308"
         }
     },
     "100004001": {
@@ -2253,6 +2290,45 @@
             "shop": "我ら来たれり",
             "music": "♪我ら来たれり",
             "music_id": "400881"
+        }
+    },
+    "306000101": {
+        "name": "アリーナVSベロリンマン",
+        "compendium_id": 70,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20006,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [50, 100, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [50, 100, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [241950],
+            "7": [241951],
+            "10": [241952]
+        },
+        "restriction": {
+            "241952": [7245, "発動条件：【DQMSLユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "エンドール武術大会でベロリンマンと戦うアリーナ姫。分身技を用いる敵が相手でも、アリーナ姫は一歩も引かない。従者のクリフトとブライは、姫の武運を祈りながらその戦いを見守る。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "アリーナVSベロリンマン",
+            "music": "♪Moment of Recall",
+            "music_id": "400003"
         }
     },
     "312000101": {
