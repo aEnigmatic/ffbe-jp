@@ -1982,8 +1982,45 @@
             "music_id": "401029"
         }
     },
+    "210000101": {
+        "name": "異界送り",
+        "compendium_id": 73,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10010,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [125, 125, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [242212, 242213, 242214]
+        },
+        "restriction": {
+            "242214": [7210, "発動条件：【FFXユニット】"]
+        },
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "“シン”の襲撃によって半壊したポルト＝キーリカで、異界送りを行うユウナ。召喚士が異界送りをすることで、亡くなった人々の迷える魂は、魔物になることなく死者の世界へ旅立てるのだという。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "異界送り",
+            "music": "♪異界送り",
+            "music_id": "4000021"
+        }
+    },
     "211000101": {
-        "name": "ラグナロク",
+        "name": "Ragnarok",
         "compendium_id": 58,
         "compendium_shown": true,
         "rarity": 1,
@@ -2012,10 +2049,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "“ラグナロク”を阻止しようとしたものの、アレキサンダーの攻撃に倒れたアフマウ。そしてついに、皇国の守護神と冥路の騎士が対峙してしまう。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "ラグナロク",
-            "music": "♪Ragnarok",
+            "desc": "Aphmau tries to prevent a second Ragnarok, but falls from Alexander's attack. Then, the Empire's Avatar and the Dark Rider face off in an attempt to destroy each other once more.",
+            "info": "Aphmau tries to prevent a second Ragnarok, but falls from Alexander's attack. Then, the Empire's Avatar and the Dark Rider face off in an attempt to destroy each other once more.",
+            "shop": "Ragnarok",
+            "music": "Ragnarok",
             "music_id": "401035"
         }
     },
