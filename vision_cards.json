@@ -1221,7 +1221,7 @@
         }
     },
     "100003501": {
-        "name": "泡沫の記憶",
+        "name": "Memories Below the Surface",
         "compendium_id": 64,
         "compendium_shown": true,
         "rarity": 1,
@@ -1252,10 +1252,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "不思議な泡の中で、エルやルルカと共に水中を眺めるニコル。この幻想的な光景は、三兄弟がかつて見た景色のひとつなのかもしれない。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "泡沫の記憶",
-            "music": "♪Joie de Vivre",
+            "desc": "Nichol gazes out from inside a mysterious bubble together with Elle and Luka. Perhaps the three siblings saw a similar sight once upon a time.",
+            "info": "Nichol gazes out from inside a mysterious bubble together with Elle and Luka. Perhaps the three siblings saw a similar sight once upon a time.",
+            "shop": "Memories Below the Surface",
+            "music": "Joie de Vivre",
             "music_id": "400312"
         }
     },
@@ -1481,6 +1481,45 @@
             "shop": "ロカの成長記",
             "music": "♪Blue Moon",
             "music_id": "400012"
+        }
+    },
+    "100004301": {
+        "name": "最高のバカンス",
+        "compendium_id": 77,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [30, 60, 0, 0],
+            "SPR": [30, 60, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [242384],
+            "7": [242385],
+            "10": [242386]
+        },
+        "restriction": {
+            "242386": [7103, "発動条件：【女性】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "グリとバカンスを楽しむファイサリス。ライフルを水鉄砲に持ち替え、夏を思いっきり堪能する。この風景は、彼女がたどり着くかもしれない安寧のひとときのビジョン。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "最高のバカンス",
+            "music": "♪Thump!",
+            "music_id": "400338"
         }
     },
     "202000101": {
