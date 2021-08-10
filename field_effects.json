@@ -139,6 +139,13 @@
         ],
         "effects_raw": [[0, 0, 2, [0, 0, 0, 0, 0, 0, 0, [-200,  -200]]]]
     },
+    "100000020": {
+        "duration": -1,
+        "effects": [
+            ["Reduce resistance to Earth by 300%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, 0, 0, 0, [-300,  -300], 0, 0]]]
+    },
     "100000021": {
         "duration": -1,
         "effects": [
@@ -220,32 +227,36 @@
         "effects_raw": [[0, 0, 11, [0, 0, 0, 0, 0, 0, [25,  25], 0]]]
     },
     "200000009": {
-        "duration": 3,
+        "duration": 10,
         "effects": [
-            ["Increase Water physical damage by 25%"]
+            ["Increase Water physical damage by 25%"],
+            ["Increase Water magic damage by 25%"]
         ],
-        "effects_raw": [[0, 0, 10, [0, 0, 0, [25,  25], 0, 0, 0, 0]]]
+        "effects_raw": [[0, 0, 10, [0, 0, 0, [25,  25], 0, 0, 0, 0]], [0, 0, 11, [0, 0, 0, [25,  25], 0, 0, 0, 0]]]
     },
     "200000010": {
-        "duration": 3,
+        "duration": 10,
         "effects": [
-            ["Increase Earth physical damage by 25%"]
+            ["Increase Earth physical damage by 25%"],
+            ["Increase Earth magic damage by 25%"]
         ],
-        "effects_raw": [[0, 0, 10, [0, 0, 0, 0, 0, [25,  25], 0, 0]]]
+        "effects_raw": [[0, 0, 10, [0, 0, 0, 0, 0, [25,  25], 0, 0]], [0, 0, 11, [0, 0, 0, 0, 0, [25,  25], 0, 0]]]
     },
     "200000011": {
-        "duration": 3,
+        "duration": 10,
         "effects": [
-            ["Increase Lightning physical damage by 25%"]
+            ["Increase Lightning physical damage by 25%"],
+            ["Increase Lightning magic damage by 25%"]
         ],
-        "effects_raw": [[0, 0, 10, [0, 0, [25,  25], 0, 0, 0, 0, 0]]]
+        "effects_raw": [[0, 0, 10, [0, 0, [25,  25], 0, 0, 0, 0, 0]], [0, 0, 11, [0, 0, [25,  25], 0, 0, 0, 0, 0]]]
     },
     "200000012": {
-        "duration": 3,
+        "duration": 10,
         "effects": [
-            ["Increase Wind physical damage by 25%"]
+            ["Increase Wind physical damage by 35%"],
+            ["Increase Wind magic damage by 35%"]
         ],
-        "effects_raw": [[0, 0, 10, [0, 0, 0, 0, [25,  25], 0, 0, 0]]]
+        "effects_raw": [[0, 0, 10, [0, 0, 0, 0, [35,  35], 0, 0, 0]], [0, 0, 11, [0, 0, 0, 0, [35,  35], 0, 0, 0]]]
     },
     "200000013": {
         "duration": 4,
@@ -466,5 +477,105 @@
             ["Increase resistance to Lightning by 50%"]
         ],
         "effects_raw": [[0, 0, 2, [0, 0, [50,  50], 0, 0, 0, 0, 0]]]
+    },
+    "200000043": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Light by 50%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, 0, 0, 0, 0, [50,  50], 0]]]
+    },
+    "200000044": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Earth by 50%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, 0, 0, 0, [50,  50], 0, 0]]]
+    },
+    "200000045": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Wind by 50%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, 0, 0, [50,  50], 0, 0, 0]]]
+    },
+    "200000046": {
+        "duration": 10,
+        "effects": [
+            ["Increase Water physical damage by 30%"],
+            ["Increase Water magic damage by 30%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0, 0, 0, [30,  30], 0, 0, 0, 0]], [0, 0, 11, [0, 0, 0, [30,  30], 0, 0, 0, 0]]]
+    },
+    "200000047": {
+        "duration": 10,
+        "effects": [
+            ["Increase Earth physical damage by 30%"],
+            ["Increase Earth magic damage by 30%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0, 0, 0, 0, 0, [30,  30], 0, 0]], [0, 0, 11, [0, 0, 0, 0, 0, [30,  30], 0, 0]]]
+    },
+    "200000048": {
+        "duration": 10,
+        "effects": [
+            ["Increase Lightning physical damage by 30%"],
+            ["Increase Lightning magic damage by 30%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0, 0, [30,  30], 0, 0, 0, 0, 0]], [0, 0, 11, [0, 0, [30,  30], 0, 0, 0, 0, 0]]]
+    },
+    "200000049": {
+        "duration": 10,
+        "effects": [
+            ["Increase Water physical damage by 35%"],
+            ["Increase Water magic damage by 35%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0, 0, 0, [35,  35], 0, 0, 0, 0]], [0, 0, 11, [0, 0, 0, [35,  35], 0, 0, 0, 0]]]
+    },
+    "200000050": {
+        "duration": 10,
+        "effects": [
+            ["Increase Earth physical damage by 35%"],
+            ["Increase Earth magic damage by 35%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0, 0, 0, 0, 0, [35,  35], 0, 0]], [0, 0, 11, [0, 0, 0, 0, 0, [35,  35], 0, 0]]]
+    },
+    "200000051": {
+        "duration": 10,
+        "effects": [
+            ["Increase Lightning physical damage by 35%"],
+            ["Increase Lightning magic damage by 35%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0, 0, [35,  35], 0, 0, 0, 0, 0]], [0, 0, 11, [0, 0, [35,  35], 0, 0, 0, 0, 0]]]
+    },
+    "200000052": {
+        "duration": 10,
+        "effects": [
+            ["Increase Water physical damage by 40%"],
+            ["Increase Water magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0, 0, 0, [40,  40], 0, 0, 0, 0]], [0, 0, 11, [0, 0, 0, [40,  40], 0, 0, 0, 0]]]
+    },
+    "200000053": {
+        "duration": 10,
+        "effects": [
+            ["Increase Earth physical damage by 40%"],
+            ["Increase Earth magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0, 0, 0, 0, 0, [40,  40], 0, 0]], [0, 0, 11, [0, 0, 0, 0, 0, [40,  40], 0, 0]]]
+    },
+    "200000054": {
+        "duration": 10,
+        "effects": [
+            ["Increase Lightning physical damage by 40%"],
+            ["Increase Lightning magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0, 0, [40,  40], 0, 0, 0, 0, 0]], [0, 0, 11, [0, 0, [40,  40], 0, 0, 0, 0, 0]]]
+    },
+    "200000055": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Fire by 50%"]
+        ],
+        "effects_raw": [[0, 0, 2, [[50,  50], 0, 0, 0, 0, 0, 0, 0]]]
     }
 }
