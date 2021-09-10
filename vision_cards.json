@@ -1263,7 +1263,7 @@
         }
     },
     "100003601": {
-        "name": "はじまりの物語",
+        "name": "A Story of Beginnings",
         "compendium_id": 63,
         "compendium_shown": true,
         "rarity": 1,
@@ -1294,10 +1294,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "オーダーズとして民を苦しめた過去を悔やむクローワ。訪れた遺跡でオートマトンのレジーナと出会い、共に旅をすることになる。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "はじまりの物語",
-            "music": "♪Wisdom of the Ages",
+            "desc": "Krowa mourns the suffering he caused during his time in the Orders. After he encounters the automaton Regina within ancient ruins, their journey together begins.",
+            "info": "Krowa mourns the suffering he caused during his time in the Orders. After he encounters the automaton Regina within ancient ruins, their journey together begins.",
+            "shop": "A Story of Beginnings",
+            "music": "Wisdom of the Ages",
             "music_id": "400324"
         }
     },
@@ -1716,6 +1716,45 @@
             "shop": "VSバルバリシア",
             "music": "♪ゴルザベーザ四天王とのバトル",
             "music_id": "400808"
+        }
+    },
+    "204000201": {
+        "name": "VSルビカンテ",
+        "compendium_id": 86,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10004,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [35, 70, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [35, 70, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243116],
+            "7": [243117],
+            "10": [243118]
+        },
+        "restriction": {
+            "243117,243118": [7116, "発動条件：【妨害ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "両親を失って慟哭するエッジの前に、ゴルベーザ四天王の最後の1人・ルビカンテが現れる。怒りによって眠っていた力を目覚めさせたエッジは、ルビカンテに挑む。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "VSルビカンテ",
+            "music": "♪黒い甲冑ゴルベーザ",
+            "music_id": "400809"
         }
     },
     "204000301": {

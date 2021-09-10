@@ -2011,16 +2011,16 @@
         "attack_count": [1],
         "attack_damage": [[100]],
         "attack_frames": [[240]],
-        "effect_frames": [[40,  40]],
+        "effect_frames": [[40,  40,  200,  200]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            ["Magic fire damage (2.3x, MAG) to one enemy"],
-            ["Reduce resistance to Water by 30% for 3 turns to one enemy"]
+            ["Magic fire damage (70x, MAG) to one enemy"],
+            ["Reduce resistance to Fire and Water by 100% for 3 turns to one enemy"]
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  230,  0]], [1, 1, 33, [0,  0,  0,  -30,  0,  0,  0,  0,  1,  3]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  7000,  0]], [1, 1, 33, [-100,  0,  0,  -100,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
     },
     "20360": {
@@ -6679,16 +6679,16 @@
         "attack_count": [1],
         "attack_damage": [[100]],
         "attack_frames": [[240]],
-        "effect_frames": [[40,  40]],
+        "effect_frames": [[40,  40,  200,  200]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            ["Magic fire damage (2.6x, MAG) to one enemy"],
-            ["Reduce resistance to Water by 30% for 3 turns to one enemy"]
+            ["Magic fire damage (100x, MAG) to one enemy"],
+            ["Reduce resistance to Fire and Water by 120% for 3 turns to one enemy"]
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  260,  0]], [1, 1, 33, [0,  0,  0,  -30,  0,  0,  0,  0,  1,  3]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  10000,  0]], [1, 1, 33, [-120,  0,  0,  -120,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
     },
     "70360": {
@@ -6704,16 +6704,16 @@
         "attack_count": [1],
         "attack_damage": [[100]],
         "attack_frames": [[240]],
-        "effect_frames": [[40,  40]],
+        "effect_frames": [[40,  40,  200,  200]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            ["Magic fire damage (3x, MAG) to one enemy"],
-            ["Reduce resistance to Fire and Water by 30% for 3 turns to one enemy"]
+            ["Magic fire damage (130x, MAG) to one enemy"],
+            ["Reduce resistance to Fire and Water by 125% for 3 turns to one enemy"]
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  300,  0]], [1, 1, 33, [-30,  0,  0,  -30,  0,  0,  0,  0,  1,  3]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  13000,  0]], [1, 1, 33, [-125,  0,  0,  -125,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
     },
     "70370": {
@@ -8069,6 +8069,55 @@
             ["Magic wind damage (72x, MAG) to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  7200,  0]]],
+        "requirements": null
+    },
+    "70482": {
+        "name": "ファイガ",
+        "icon": "ability_21.png",
+        "compendium_id": 119,
+        "rarity": 6,
+        "cost": {"MP": 20},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [8],
+        "attack_damage": [[10,  10,  10,  10,  10,  10,  10,  30]],
+        "attack_frames": [[42,  62,  82,  102,  122,  142,  162,  182]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Fire"],
+        "effects": [
+            ["Magic fire damage (72x, MAG) to all enemies"]
+        ],
+        "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  7200,  0]]],
+        "requirements": null
+    },
+    "70483": {
+        "name": "フレア",
+        "icon": "ability_30.png",
+        "compendium_id": 134,
+        "rarity": 7,
+        "cost": {"MP": 35},
+        "magic_type": "Black",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[240]],
+        "effect_frames": [[40,  40,  200,  200]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Fire"],
+        "effects": [
+            ["Magic fire damage (200x, MAG) to one enemy"],
+            ["Reduce resistance to Fire and Water by 130% for 3 turns to one enemy"]
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  20000,  0]], [1, 1, 33, [-130,  0,  0,  -130,  0,  0,  0,  0,  1,  3]]],
         "requirements": null
     }
 }
