@@ -483,6 +483,17 @@
         "price_sell": 800,
         "icon": "ability_26.png"
     },
+    "504020470": {
+        "name": "ダーガ",
+        "compendium_id": 1396,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [20470],
+        "effects": ["Grant 'Darkga' magic"],
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_26.png"
+    },
     "504030010": {
         "name": "スリプル",
         "compendium_id": 67,
@@ -1538,6 +1549,17 @@
         "price_buy": 15000,
         "price_sell": 1500,
         "icon": "ability_53.png"
+    },
+    "504200500": {
+        "name": "挑発II",
+        "compendium_id": 1370,
+        "compendium_shown": true,
+        "unit_restriction": [2, 7113],
+        "skills": [200500],
+        "effects": ["Grant '挑発II' ability"],
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_94.png"
     },
     "504200510": {
         "name": "ファイア剣",
@@ -11005,7 +11027,7 @@
         "compendium_shown": true,
         "unit_restriction": null,
         "skills": [241640],
-        "effects": ["Grant '0組を導く者' passive"],
+        "effects": ["Grant 'Leader of Class Zero' passive"],
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_76.png"
@@ -11016,7 +11038,7 @@
         "compendium_shown": true,
         "unit_restriction": [254001805, 254002105, 254001817, 254001827],
         "skills": [241642],
-        "effects": ["Grant '亡失に抗う人ならざる力' passive"],
+        "effects": ["Grant 'Forced to Defy Loss' passive"],
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_79.png"
@@ -11027,7 +11049,7 @@
         "compendium_shown": true,
         "unit_restriction": [254000205, 254000217, 254000227],
         "skills": [241643],
-        "effects": ["Grant '0組が誇る才媛' passive"],
+        "effects": ["Grant 'Genius of Class Zero' passive"],
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_79.png"
@@ -11592,6 +11614,28 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "ability_79.png"
+    },
+    "504243190": {
+        "name": "紅火の波動",
+        "compendium_id": 1395,
+        "compendium_shown": true,
+        "unit_restriction": null,
+        "skills": [243190],
+        "effects": ["Grant '紅火の波動' ability"],
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_21.png"
+    },
+    "504243197": {
+        "name": "ソウルオブタイヴァス+1",
+        "compendium_id": 1397,
+        "compendium_shown": true,
+        "unit_restriction": [2],
+        "skills": [243197],
+        "effects": ["Grant 'ソウルオブタイヴァス+1' ability"],
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "ability_105.png"
     },
     "504400110": {
         "name": "エンカウント率減少",

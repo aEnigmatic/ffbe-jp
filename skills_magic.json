@@ -1176,6 +1176,126 @@
         "effects_raw": [[1, 2, 8, [0,  1,  3500,  -1]]],
         "requirements": null
     },
+    "10406": {
+        "name": "リジェネ",
+        "icon": "ability_4.png",
+        "compendium_id": 14,
+        "rarity": 8,
+        "cost": {},
+        "magic_type": "White",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            ["Restore 1000 HP per turn to one ally"]
+        ],
+        "effects_raw": [[1, 2, 8, [0,  1,  1000,  -1]]],
+        "requirements": null
+    },
+    "10407": {
+        "name": "リジェネ",
+        "icon": "ability_4.png",
+        "compendium_id": 14,
+        "rarity": 8,
+        "cost": {},
+        "magic_type": "White",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            ["Restore 2000 HP per turn to one ally"]
+        ],
+        "effects_raw": [[1, 2, 8, [0,  1,  2000,  -1]]],
+        "requirements": null
+    },
+    "10408": {
+        "name": "リジェネ",
+        "icon": "ability_4.png",
+        "compendium_id": 14,
+        "rarity": 8,
+        "cost": {},
+        "magic_type": "White",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            ["Restore 3000 HP per turn to one ally"]
+        ],
+        "effects_raw": [[1, 2, 8, [0,  1,  3000,  -1]]],
+        "requirements": null
+    },
+    "10409": {
+        "name": "リジェネ",
+        "icon": "ability_4.png",
+        "compendium_id": 14,
+        "rarity": 8,
+        "cost": {},
+        "magic_type": "White",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            ["Restore 4000 HP per turn to one ally"]
+        ],
+        "effects_raw": [[1, 2, 8, [0,  1,  4000,  -1]]],
+        "requirements": null
+    },
+    "10410": {
+        "name": "リジェネ",
+        "icon": "ability_4.png",
+        "compendium_id": 14,
+        "rarity": 8,
+        "cost": {},
+        "magic_type": "White",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            ["Restore 5000 HP per turn to one ally"]
+        ],
+        "effects_raw": [[1, 2, 8, [0,  1,  5000,  -1]]],
+        "requirements": null
+    },
     "20010": {
         "name": "ファイア",
         "icon": "ability_21.png",
@@ -4783,6 +4903,32 @@
         "effects_raw": [[2, 2, 95, [0,  0,  100,  0,  0,  0,  0,  0,  5,  1]], [2, 2, 149, [0, [0,  0,  25,  0,  0,  0,  0,  0], 1, 5, 1]], [2, 2, 149, [1, [0,  0,  25,  0,  0,  0,  0,  0], 1, 5, 1]]],
         "requirements": null
     },
+    "30630": {
+        "name": "エンストーンラ",
+        "icon": "ability_28.png",
+        "compendium_id": 305,
+        "rarity": 8,
+        "cost": {"MP": 40},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[40,  40,  40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Earth"],
+        "effects": [
+            ["Add Earth element (100%) to physical attacks for 5 turns to all allies"],
+            ["Increase Earth physical damage by 25% to all allies for 5 turns"],
+            ["Increase Earth magic damage by 25% to all allies for 5 turns"]
+        ],
+        "effects_raw": [[2, 2, 95, [0,  0,  0,  0,  0,  100,  0,  0,  5,  1]], [2, 2, 149, [0, [0,  0,  0,  0,  0,  25,  0,  0], 1, 5, 1]], [2, 2, 149, [1, [0,  0,  0,  0,  0,  25,  0,  0], 1, 5, 1]]],
+        "requirements": null
+    },
     "30640": {
         "name": "エンライトラ",
         "icon": "ability_5.png",
@@ -4807,6 +4953,32 @@
             ["Increase Light magic damage by 25% to all allies for 5 turns"]
         ],
         "effects_raw": [[2, 2, 95, [0,  0,  0,  0,  0,  0,  100,  0,  5,  1]], [2, 2, 149, [0, [0,  0,  0,  0,  0,  0,  25,  0], 1, 5, 1]], [2, 2, 149, [1, [0,  0,  0,  0,  0,  0,  25,  0], 1, 5, 1]]],
+        "requirements": null
+    },
+    "30650": {
+        "name": "エンダークラ",
+        "icon": "ability_26.png",
+        "compendium_id": 307,
+        "rarity": 8,
+        "cost": {"MP": 40},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[40,  40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Dark"],
+        "effects": [
+            ["Add Dark element (100%) to physical attacks for 5 turns to all allies"],
+            ["Increase Dark physical damage by 25% to all allies for 5 turns"],
+            ["Increase Dark magic damage by 25% to all allies for 5 turns"]
+        ],
+        "effects_raw": [[2, 2, 95, [0,  0,  0,  0,  0,  0,  0,  100,  5,  1]], [2, 2, 149, [0, [0,  0,  0,  0,  0,  0,  0,  25], 1, 5, 1]], [2, 2, 149, [1, [0,  0,  0,  0,  0,  0,  0,  25], 1, 5, 1]]],
         "requirements": null
     },
     "40010": {
