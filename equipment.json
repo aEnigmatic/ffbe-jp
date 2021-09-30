@@ -21116,6 +21116,68 @@
         "price_sell": 32000,
         "icon": "item_11041.png"
     },
+    "308009700": {
+        "name": "エンペラーズグレイブ",
+        "compendium_id": 2574,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 10,
+        "type": "Spear",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": [1, 1.3],
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [227920, 227315, 243283],
+        "effects": ["Grant 'Spirit Killer+' passive", "Grant 'Undead Killer+' passive", "Grant '覇者の魔槍' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 220,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 320000,
+        "price_sell": 32000,
+        "icon": "item_2100027.png"
+    },
+    "308009800": {
+        "name": "旧時代の魔力槍",
+        "compendium_id": 2577,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 10,
+        "type": "Spear",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": [1, 1.3],
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [100120],
+        "effects": ["Grant 'MAG +30%' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 36,
+            "DEF": 0,
+            "MAG": 166,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 80000,
+        "price_sell": 8000,
+        "icon": "item_2100028.png"
+    },
     "309000300": {
         "name": "ミスリルクロー",
         "compendium_id": 274,
@@ -33312,7 +33374,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [233565, 241706],
-        "effects": ["Grant 'Imbued with the Wind Sprite's Might' passive", "Grant '新しい友達Lv1' passive"],
+        "effects": ["Grant 'Imbued with the Wind Sprite's Might' passive", "Grant 'New Friends' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -33343,7 +33405,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [233565, 241707],
-        "effects": ["Grant 'Imbued with the Wind Sprite's Might' passive", "Grant '新しい友達Lv2' passive"],
+        "effects": ["Grant 'Imbued with the Wind Sprite's Might' passive", "Grant 'New Friends+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -47533,6 +47595,37 @@
         "price_sell": 24000,
         "icon": "item_2220009.png"
     },
+    "404006400": {
+        "name": "ライザーの冠",
+        "compendium_id": 2576,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 41,
+        "type": "Helm",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [243286],
+        "effects": ["Grant '不死鳥の如き闘志' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 100,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 240000,
+        "price_sell": 24000,
+        "icon": "item_2220011.png"
+    },
     "405000200": {
         "name": "皮の服",
         "compendium_id": 146,
@@ -52890,7 +52983,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [241701],
-        "effects": ["Grant '老賢の力が宿りし衣' passive"],
+        "effects": ["Grant 'Imbued with the Sage's Might' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -53576,6 +53669,40 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2170071.png"
+    },
+    "405020300": {
+        "name": "大統領の正装",
+        "compendium_id": 2575,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [243284, 243285],
+        "effects": ["Grant '民が主役の国' passive", "Grant '勇壮なる魂' ability"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 72,
+            "DEF": 38,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Ice": 30,
+                "Dark": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2170072.png"
     },
     "406000100": {
         "name": "レザープレート",
@@ -75648,7 +75775,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [241708],
-        "effects": ["Grant '闇の竜の伝承Lv1' passive"],
+        "effects": ["Grant 'Legend of the Dark Dragon' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -78062,5 +78189,38 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_2250166.png"
+    },
+    "409061500": {
+        "name": "パラデイアの国旗",
+        "compendium_id": 2578,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [243288],
+        "effects": ["Grant '新時代の到来' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 33,
+            "MAG": 0,
+            "SPR": 33,
+            "element_resist": {
+                "Dark": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2250167.png"
     }
 }

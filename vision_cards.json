@@ -1413,7 +1413,7 @@
         }
     },
     "100004001": {
-        "name": "華麗に変身！ 黒衣の二人組",
+        "name": "Duo in Disguise",
         "compendium_id": 68,
         "compendium_shown": true,
         "rarity": 1,
@@ -1444,10 +1444,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "立てこもり犯の元にやってきたサクラとニコル。抵抗する犯人たちを捕らえるため、二人はオーダーズの衣装に華麗に変身する！",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "華麗に変身！ 黒衣の二人組",
-            "music": "♪Order without Honor ",
+            "desc": "Sakura and Nichol appear before a group of criminals. In preparation to make their capture, the duo make a splendid transformation into their Orders outfits.",
+            "info": "Sakura and Nichol appear before a group of criminals. In preparation to make their capture, the duo make a splendid transformation into their Orders outfits.",
+            "shop": "Duo in Disguise",
+            "music": "Order without Honor",
             "music_id": "400331"
         }
     },
@@ -1675,6 +1675,119 @@
             "shop": "少女との出会い",
             "music": "♪Peaceful Village",
             "music_id": "400201"
+        }
+    },
+    "100005001": {
+        "name": "強襲！ダークレイン",
+        "compendium_id": 89,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [130, 130, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [243289, 243290, 243291]
+        },
+        "restriction": {
+            "243290,243291": [7111, "発動条件：【魔攻ユニット】"]
+        },
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "パラデイアの大統領就任式に現れた謎の襲撃者。レインそっくりの姿をしたその男は、ヴィセクトラムの市街地に向かって攻撃を始める。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "強襲！ダークレイン",
+            "music": "♪Revival of an Adversary",
+            "music_id": "400344"
+        }
+    },
+    "100005101": {
+        "name": "演説前の一幕",
+        "compendium_id": 90,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [35, 70, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [35, 70, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243292],
+            "7": [243293],
+            "10": [243294]
+        },
+        "restriction": {
+            "243293,243294": [7116, "発動条件：【妨害ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "大統領就任演説を控えたレーゲンのもとに六盟傑が駆けつけた。新生パラデイアの代表として第一歩を踏み出す彼に、戦友たちは応援の言葉をかける。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "演説前の一幕",
+            "music": "♪Once more Dance?",
+            "music_id": "400203"
+        }
+    },
+    "100005201": {
+        "name": "再臨の帝王",
+        "compendium_id": 91,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [30, 60, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [30, 60, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243295],
+            "7": [243296],
+            "10": [243297]
+        },
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "レーゲンの大統領就任式の日。災厄はその男とともに現れた。レインと同じ姿を持つ「帝王」の目的とは何か？パラデイアの命運を懸けた戦いが、今始まる――",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "再臨の帝王",
+            "music": "♪Celestial Battle",
+            "music_id": "400007"
         }
     },
     "202000101": {
