@@ -4981,6 +4981,30 @@
         "effects_raw": [[2, 2, 95, [0,  0,  0,  0,  0,  0,  0,  100,  5,  1]], [2, 2, 149, [0, [0,  0,  0,  0,  0,  0,  0,  25], 1, 5, 1]], [2, 2, 149, [1, [0,  0,  0,  0,  0,  0,  0,  25], 1, 5, 1]]],
         "requirements": null
     },
+    "30740": {
+        "name": "バリア",
+        "icon": "ability_43.png",
+        "compendium_id": 324,
+        "rarity": 6,
+        "cost": {"MP": 40},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[42]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            ["Grant a 4000 HP shield to all allies for 4 turns"]
+        ],
+        "effects_raw": [[2, 2, 127, [4000,  4,  1]]],
+        "requirements": null
+    },
     "40010": {
         "name": "ホワイトウィンド",
         "icon": "ability_4.png",

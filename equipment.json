@@ -29716,6 +29716,37 @@
         "price_sell": 4000,
         "icon": "item_2050023.png"
     },
+    "311008700": {
+        "name": "霊翼の杖",
+        "compendium_id": 2589,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 5,
+        "type": "Staff",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": [1.1, 1.2],
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [108170],
+        "effects": ["Grant 'LB Regen I' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 120,
+            "SPR": 150,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 40000,
+        "price_sell": 4000,
+        "icon": "item_2050024.png"
+    },
     "312000100": {
         "name": "ショートボウ",
         "compendium_id": 79,
@@ -45472,7 +45503,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [241806],
-        "effects": ["Grant '無限の可能性' passive"],
+        "effects": ["Grant 'Infinite Potential' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -45676,6 +45707,39 @@
         "price_buy": 25000,
         "price_sell": 2500,
         "icon": "item_2250164.png"
+    },
+    "403055300": {
+        "name": "清麗の花飾り",
+        "compendium_id": 2588,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [243311],
+        "effects": ["Grant '眩惑の翼光' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 80,
+            "SPR": 100,
+            "element_resist": {
+                "Dark": 50
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2210048.png"
     },
     "404000200": {
         "name": "ブロンズヘルム",
@@ -53016,7 +53080,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [241801],
-        "effects": ["Grant '新たなる冒険' passive"],
+        "effects": ["Grant 'A Girl's Journey' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -53737,6 +53801,40 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2170073.png"
+    },
+    "405020500": {
+        "name": "霊布のドレス",
+        "compendium_id": 2590,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [108161],
+        "effects": ["Grant 'MP Regen II' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 15,
+            "MAG": 40,
+            "SPR": 40,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Silence": 100,
+                "Paralyze": 100
+            },
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2170074.png"
     },
     "406000100": {
         "name": "レザープレート",
@@ -71221,7 +71319,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [234361, 241804],
-        "effects": ["Grant 'Power to Fight the Hollow' passive", "Grant '盾の極意' passive"],
+        "effects": ["Grant 'Power to Fight the Hollow' passive", "Grant 'Shield Mastery' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -71283,7 +71381,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [234363],
-        "effects": ["Grant '剣と盾' ability"],
+        "effects": ["Grant 'Of Swords and Shields' ability"],
         "stats": {
             "HP": 30,
             "MP": 30,
@@ -71731,7 +71829,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [235088],
-        "effects": ["Grant 'アーティストヘドレ' passive"],
+        "effects": ["Grant 'Artist's Headdress' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -75846,7 +75944,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [241805],
-        "effects": ["Grant '青い鱗粉' passive"],
+        "effects": ["Grant 'Blue Scales' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -75877,7 +75975,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [234361, 241804, 241807],
-        "effects": ["Grant 'Power to Fight the Hollow' passive", "Grant '盾の極意' passive", "Grant '舞台に立つ喜びLv1' passive"],
+        "effects": ["Grant 'Power to Fight the Hollow' passive", "Grant 'Shield Mastery' passive", "Grant 'Joy of the Stage' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -75908,7 +76006,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [234361, 241804, 241808],
-        "effects": ["Grant 'Power to Fight the Hollow' passive", "Grant '盾の極意' passive", "Grant '舞台に立つ喜びLv2' passive"],
+        "effects": ["Grant 'Power to Fight the Hollow' passive", "Grant 'Shield Mastery' passive", "Grant 'Joy of the Stage+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -75939,7 +76037,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [234363],
-        "effects": ["Grant '剣と盾' ability"],
+        "effects": ["Grant 'Of Swords and Shields' ability"],
         "stats": {
             "HP": 50,
             "MP": 30,
@@ -75970,7 +76068,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [234363],
-        "effects": ["Grant '剣と盾' ability"],
+        "effects": ["Grant 'Of Swords and Shields' ability"],
         "stats": {
             "HP": 70,
             "MP": 30,
@@ -76001,7 +76099,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [234363, 241811],
-        "effects": ["Grant '剣と盾' ability", "Grant '名台詞の宝庫Lv1' passive"],
+        "effects": ["Grant 'Of Swords and Shields' ability", "Grant 'Treasure Trove of Famous Quotes' passive"],
         "stats": {
             "HP": 100,
             "MP": 30,
@@ -76032,7 +76130,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [235088],
-        "effects": ["Grant 'アーティストヘドレ' passive"],
+        "effects": ["Grant 'Artist's Headdress' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -76063,7 +76161,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [235088],
-        "effects": ["Grant 'アーティストヘドレ' passive"],
+        "effects": ["Grant 'Artist's Headdress' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -76094,7 +76192,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [235088, 241812],
-        "effects": ["Grant 'アーティストヘドレ' passive", "Grant '情熱の画家Lv1' passive"],
+        "effects": ["Grant 'Artist's Headdress' passive", "Grant 'Passionate Painter' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -78506,5 +78604,43 @@
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "item_2250168.png"
+    },
+    "409062400": {
+        "name": "晶玉の指輪",
+        "compendium_id": 2591,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 10,
+            "DEF": 10,
+            "MAG": 10,
+            "SPR": 10,
+            "element_resist": {
+                "Fire": 25,
+                "Ice": 25,
+                "Lightning": 25,
+                "Water": 25,
+                "Wind": 25,
+                "Earth": 25
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250171.png"
     }
 }
