@@ -8633,5 +8633,31 @@
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  12000,  0]], [2, 1, 33, [0,  0,  0,  0,  0,  -135,  0,  0,  1,  5]]],
         "requirements": null
+    },
+    "70498": {
+        "name": "プロテガ",
+        "icon": "ability_77.png",
+        "compendium_id": 233,
+        "rarity": 6,
+        "cost": {"MP": 25},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Light"],
+        "effects": [
+            ["Increase DEF by 300% for 4 turns to all allies"],
+            ["Reduce damage taken from physical attacks taken by 75% to all allies for 4 turns"],
+            ["Reduce damage taken by 50% to all allies for 4 turns"]
+        ],
+        "effects_raw": [[2, 2, 3, [0,  300,  0,  0,  4,  1]], [2, 2, 18, [75,  4,  1,  1]], [2, 2, 101, [50,  4,  1,  1]]],
+        "requirements": null
     }
 }
