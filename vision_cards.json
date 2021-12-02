@@ -1901,6 +1901,84 @@
             "music_id": "400401"
         }
     },
+    "201000101": {
+        "name": "そして……探求の旅は始まった",
+        "compendium_id": 100,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [500, 1000, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [50, 100, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243414],
+            "7": [243415],
+            "10": [243416]
+        },
+        "restriction": {
+            "243415,243416": [7112, "発動条件：【物防ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "コーネリア王の計らいで架けられた橋を渡り、北の大陸へと向かう光の戦士たち。彼らは、クリスタルを携え、再びこの世に光の輝きを取り戻すために旅立った。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "そして……探求の旅は始まった",
+            "music": "♪オープニング・テーマ",
+            "music_id": "4000072"
+        }
+    },
+    "201000201": {
+        "name": "VSマリリス",
+        "compendium_id": 101,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [50, 100, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243417],
+            "7": [243418],
+            "10": [243419]
+        },
+        "restriction": {
+            "243419": [7201, "発動条件：【FFIユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "グルグ火山の深部で、火のカオス・マリリスと戦う光の戦士たち。マリリスの操る無数の剣とすべてを焼きつくす炎が一行を襲う。それでも光の戦士たちは決して勝利をあきらめない！",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "VSマリリス",
+            "music": "♪戦闘シーン",
+            "music_id": "400913"
+        }
+    },
     "202000101": {
         "name": "Battle with the Black Knights",
         "compendium_id": 15,
@@ -2635,7 +2713,7 @@
         }
     },
     "210000101": {
-        "name": "異界送り",
+        "name": "The Sending",
         "compendium_id": 73,
         "compendium_shown": true,
         "rarity": 1,
@@ -2664,15 +2742,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "“シン”の襲撃によって半壊したポルト＝キーリカで、異界送りを行うユウナ。召喚士が異界送りをすることで、亡くなった人々の迷える魂は、魔物になることなく死者の世界へ旅立てるのだという。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "異界送り",
-            "music": "♪異界送り",
+            "desc": "In the half-destroyed ruins of Kilika Port, decimated by Sin's recent assault, Yuna performs a sending. Summoners enact this ritual dance in order to guide lost spirits unto the realm of the dead, lest they become fiends.",
+            "info": "In the half-destroyed ruins of Kilika Port, decimated by Sin's recent assault, Yuna performs a sending. Summoners enact this ritual dance in order to guide lost spirits unto the realm of the dead, lest they become fiends.",
+            "shop": "The Sending",
+            "music": "The Sending",
             "music_id": "4000021"
         }
     },
     "210000201": {
-        "name": "これはおまえの物語だ",
+        "name": "This Is Your Story",
         "compendium_id": 74,
         "compendium_shown": true,
         "rarity": 1,
@@ -2701,15 +2779,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "突如“シン”がザナルカンドに襲来したことにより、上空に巨大な穴が出現。吸い込まれそうになるティーダに、アーロンは「これはおまえの物語だ」と告げる。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "これはおまえの物語だ",
-            "music": "♪これはおまえの物語だ",
+            "desc": "Following Sin's sudden onslaught of Zanarkand, a gaping maw eclipses the sky over the city. As they are about to be drawn in, Auron declares to Tidus, \"This is your story.\"",
+            "info": "Following Sin's sudden onslaught of Zanarkand, a gaping maw eclipses the sky over the city. As they are about to be drawn in, Auron declares to Tidus, \"This is your story.\"",
+            "shop": "This Is Your Story",
+            "music": "This Is Your Story",
             "music_id": "4000022"
         }
     },
     "210000301": {
-        "name": "雷平原",
+        "name": "Thunder Plains",
         "compendium_id": 75,
         "compendium_shown": true,
         "rarity": 1,
@@ -2740,10 +2818,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "昼夜問わず暗雲に覆われ、稲妻が降り注ぐ雷平原を進む召喚士ユウナ一行。雷への恐怖が限界に達したリュックは、休んで行こうとティーダにすがりつく。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "雷平原",
-            "music": "♪雷平原",
+            "desc": "Incessant crashes of lightning welcome the summoner Yuna's party to the unremitting gloom of the Thunder Plains. Clinging to Tidus and on the verge of panic due to her fear of lightning, Rikku begs everyone to stop for a rest.",
+            "info": "Incessant crashes of lightning welcome the summoner Yuna's party to the unremitting gloom of the Thunder Plains. Clinging to Tidus and on the verge of panic due to her fear of lightning, Rikku begs everyone to stop for a rest.",
+            "shop": "Thunder Plains",
+            "music": "Thunder Plains",
             "music_id": "4000024"
         }
     },
@@ -3445,6 +3523,45 @@
             "shop": "ただいま",
             "music": "♪涙色した輝きの…",
             "music_id": "400715"
+        }
+    },
+    "343000101": {
+        "name": "神様の降臨",
+        "compendium_id": 99,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20036,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [40, 80, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [40, 80, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243411],
+            "7": [243412],
+            "10": [243413]
+        },
+        "restriction": {
+            "243413": [7275, "発動条件：【アクトレイザー・ルネサンスユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "かつての人間たちが神の姿を想像し、彫刻した古い石像。今再び目覚めた神様は、この石像に宿ることで地上に降り立ち、地上に蔓延る魔物たちを一掃すべく動き出す。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "神様の降臨",
+            "music": "♪フィルモア",
+            "music_id": "400734"
         }
     },
     "401000101": {
