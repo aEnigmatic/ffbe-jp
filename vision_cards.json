@@ -1489,7 +1489,7 @@
         }
     },
     "100004301": {
-        "name": "最高のバカンス",
+        "name": "Vacation, All I Ever Wanted",
         "compendium_id": 77,
         "compendium_shown": true,
         "rarity": 1,
@@ -1520,10 +1520,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "グリとバカンスを楽しむファイサリス。ライフルを水鉄砲に持ち替え、夏を思いっきり堪能する。この風景は、彼女がたどり着くかもしれない安寧のひとときのビジョン。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "最高のバカンス",
-            "music": "♪Thump!",
+            "desc": "Physalis enjoying her vacation with Moog. Swapping rifle for water gun, she fully intends to make the most of her summer. This vision is a glimpse into a moment of peace she may someday find.",
+            "info": "Physalis enjoying her vacation with Moog. Swapping rifle for water gun, she fully intends to make the most of her summer. This vision is a glimpse into a moment of peace she may someday find.",
+            "shop": "Vacation, All I Ever Wanted",
+            "music": "Thump!",
             "music_id": "400338"
         }
     },
@@ -1899,6 +1899,82 @@
             "shop": "最強の戦士の誕生",
             "music": "♪Forging a Dream",
             "music_id": "400401"
+        }
+    },
+    "100005601": {
+        "name": "傷心のライバル",
+        "compendium_id": 102,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [35, 70, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [35, 70, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243448],
+            "7": [243449],
+            "10": [243450]
+        },
+        "restriction": {
+            "243449,243450": [7116, "発動条件：【妨害ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "イシェが模擬戦を挑もうとした相手は酒場にいた。酒瓶に埋もれ泥酔する、自暴自棄のタイヴァス。イシェはいつの日か、タイヴァスが立ち直ることを信じ、ふたりの決着をつける時が来るのを待ち続けている。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "傷心のライバル",
+            "music": "♪Unfettered Waltz",
+            "music_id": "400212"
+        }
+    },
+    "100005701": {
+        "name": "イシェ隊の名にかけて",
+        "compendium_id": 103,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [40, 80, 0, 0],
+            "DEF": [20, 40, 0, 0],
+            "MAG": [40, 80, 0, 0],
+            "SPR": [20, 40, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243451],
+            "7": [243452],
+            "10": [243453]
+        },
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "カルとエルマティル、性格も戦い方も真逆の二人に共通するものは、イシェ隊長への敬意と部隊に対する誇りだ。イシェ隊の名にかけて任務は必ず遂行する。二人は、見事な連携で敵を追い詰めるのだった。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "イシェ隊の名にかけて",
+            "music": "♪Overcome the Menace ",
+            "music_id": "400315"
         }
     },
     "201000101": {
