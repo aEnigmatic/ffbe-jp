@@ -1977,6 +1977,84 @@
             "music_id": "400315"
         }
     },
+    "100005801": {
+        "name": "騎士団からの贈り物",
+        "compendium_id": 104,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [500, 1000, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [50, 100, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243475],
+            "7": [243476],
+            "10": [243477]
+        },
+        "restriction": {
+            "243476,243477": [7113, "発動条件：【魔防ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "町の子供たちにプレゼントを配ることとなったシャルロットは、フリーゼ、シェパードとともに準備を進める。子供たちはどんな顔をするだろうか。想像を巡らす騎士たちの表情が、思わずほころぶ。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "騎士団からの贈り物",
+            "music": "♪Unfettered Waltz",
+            "music_id": "400212"
+        }
+    },
+    "100005901": {
+        "name": "戦友とのひととき",
+        "compendium_id": 105,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [55, 110, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243478],
+            "7": [243479],
+            "10": [243480]
+        },
+        "restriction": {
+            "243480": [7216, "発動条件：【FFBEユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "一面の雪景色となった大地で戯れるドミノとシャタル。雪明りが照らす中、シャタルはドミノのために特大の雪だるまを作る。戦友のはしゃぐ姿を眺めながら、ドミノは特別な時間を心の底から楽しむのだった。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "戦友とのひととき",
+            "music": "♪Snowdrop",
+            "music_id": "400316"
+        }
+    },
     "201000101": {
         "name": "そして……探求の旅は始まった",
         "compendium_id": 100,
@@ -3212,7 +3290,7 @@
         }
     },
     "306000101": {
-        "name": "アリーナVSベロリンマン",
+        "name": "Alena vs. the Abominable Showmen",
         "compendium_id": 70,
         "compendium_shown": true,
         "rarity": 1,
@@ -3243,10 +3321,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "エンドール武術大会でベロリンマンと戦うアリーナ姫。分身技を用いる敵が相手でも、アリーナ姫は一歩も引かない。従者のクリフトとブライは、姫の武運を祈りながらその戦いを見守る。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "アリーナVSベロリンマン",
-            "music": "♪Moment of Recall",
+            "desc": "Tsarevna Alena faces off against a gang of abominable showmen in the Endor Colosseum. Alena never backs down from a fight, even when facing a crew of dastardly doppelgangers. Loyal retainers Kiryl and Borya cross their fingers for luck as they watch the proceedings.",
+            "info": "Tsarevna Alena faces off against a gang of abominable showmen in the Endor Colosseum. Alena never backs down from a fight, even when facing a crew of dastardly doppelgangers. Loyal retainers Kiryl and Borya cross their fingers for luck as they watch the proceedings.",
+            "shop": "Alena vs. the Abominable Showmen",
+            "music": "Moment of Recall",
             "music_id": "400003"
         }
     },

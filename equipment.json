@@ -7279,7 +7279,7 @@
         "accuracy": 0,
         "requirements": [
             "UNIT_ID",
-            [206001502, 206001602, 206000403, 206000503, 206000303, 206000603, 206000103, 206000113, 206000203, 206001803, 206000703, 206001703, 206000125, 206000804, 206001103, 206001905, 206002005, 206002105, 206002205, 206002405, 206002305, 206002507, 206002517, 206002427, 206002327, 206001005, 206000905, 206002607, 206002617, 206002027, 206001927, 206002705, 206002807, 206002817, 206002907, 206003005, 206003105]
+            [206001502, 206001602, 206000403, 206000503, 206000303, 206000603, 206000103, 206000113, 206000203, 206001803, 206000703, 206001703, 206000125, 206000804, 206001103, 206001905, 206002005, 206002105, 206002205, 206002405, 206002305, 206002507, 206002517, 206002427, 206002327, 206001005, 206000905, 206002607, 206002617, 206002027, 206001927, 206002705, 206002807, 206002817, 206002907, 206002917, 206003005, 206003105]
         ],
         "skills": [241543],
         "effects": ["Grant 'Mystical Shining Blade' passive"],
@@ -7592,7 +7592,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [241935],
-        "effects": ["Grant 'メタルキングの一振り' passive"],
+        "effects": ["Grant 'Metal Thrash' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -7623,7 +7623,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [241936],
-        "effects": ["Grant 'はやぶさ攻撃' passive"],
+        "effects": ["Grant 'Falcon Strike' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -19060,6 +19060,37 @@
         "price_sell": 0,
         "icon": "item_2150019.png"
     },
+    "307004900": {
+        "name": "セレブレイトバトン",
+        "compendium_id": 2673,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 15,
+        "type": "Mace",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": [1.1, 1.2],
+        "accuracy": 0,
+        "requirements": ["RULE", 7113],
+        "skills": [243467, 243468],
+        "effects": ["Grant '聖夜の星の輝き' passive", "Grant '清き夜の祝福' passive"],
+        "stats": {
+            "HP": 800,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 231,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 180000,
+        "price_sell": 18000,
+        "icon": "item_2150020.png"
+    },
     "308000100": {
         "name": "ジャベリン",
         "compendium_id": 47,
@@ -24086,7 +24117,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [241931],
-        "effects": ["Grant '軽快な身のこなし' passive"],
+        "effects": ["Grant 'Light as a Feather' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -24154,7 +24185,7 @@
             [306000603, 306000627]
         ],
         "skills": [241937],
-        "effects": ["Grant 'メタルキングの重爪' passive"],
+        "effects": ["Grant 'Shiny Claws' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -24421,6 +24452,37 @@
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "item_11627.png"
+    },
+    "309008600": {
+        "name": "エレガンスカジェル",
+        "compendium_id": 2674,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 16,
+        "type": "Fist",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.45, 1.65],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [108109, 243470],
+        "effects": ["Grant 'Bug Killer+ I' passive", "Grant '流麗なる格闘術' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 220,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2160030.png"
     },
     "309020200": {
         "name": "ブロンズナックル",
@@ -27944,7 +28006,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [100065, 241940],
-        "effects": ["Grant 'MP +40%' passive", "Grant '悪しき竜の王の杖' passive"],
+        "effects": ["Grant 'MP +40%' passive", "Grant 'Evil Dragonlord's Sceptre' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -40764,7 +40826,7 @@
         "accuracy": 0,
         "requirements": [
             "UNIT_ID",
-            [100004303, 100021705, 100025305, 100027505, 100021727, 100034307, 100034317]
+            [100004303, 100021705, 100025305, 100027505, 100021727, 100034307, 100034317, 100039107, 100039117]
         ],
         "skills": [203400],
         "effects": ["Grant 'Cleansing Light' ability"],
@@ -47078,6 +47140,108 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_30167.png"
+    },
+    "403055900": {
+        "name": "スノウフレークの髪飾り",
+        "compendium_id": 2675,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [243471],
+        "effects": ["Grant '幸福を呼びこむ雪片' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 10,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 35,
+            "element_resist": {
+                "Ice": 10,
+                "Lightning": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 10000,
+        "price_sell": 1000,
+        "icon": "item_2210049.png"
+    },
+    "403056000": {
+        "name": "真・スノウフレークの髪飾り",
+        "compendium_id": 2676,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [243472],
+        "effects": ["Grant '幸福を呼びこむ雪片+' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 15,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 45,
+            "element_resist": {
+                "Ice": 20,
+                "Lightning": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 25000,
+        "price_sell": 2500,
+        "icon": "item_2210049.png"
+    },
+    "403056100": {
+        "name": "絶・スノウフレークの髪飾り",
+        "compendium_id": 2677,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [243473],
+        "effects": ["Grant '幸福を呼びこむ雪片++' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 20,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 60,
+            "element_resist": {
+                "Ice": 20,
+                "Lightning": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2210049.png"
     },
     "404000200": {
         "name": "ブロンズヘルム",
@@ -55329,6 +55493,37 @@
         "price_sell": 10000,
         "icon": "item_2170063.png"
     },
+    "405021000": {
+        "name": "ホーリーナイトドレス",
+        "compendium_id": 2672,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": ["RULE", 7113],
+        "skills": [243465, 243466],
+        "effects": ["Grant '雪の舞う祝祭' passive", "Grant '聖夜の贈りもの' passive"],
+        "stats": {
+            "HP": 400,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 100,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2170080.png"
+    },
     "406000100": {
         "name": "レザープレート",
         "compendium_id": 159,
@@ -61207,7 +61402,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [241932],
-        "effects": ["Grant '滅びの王の法衣' passive"],
+        "effects": ["Grant 'King of Destruction's Vestment' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -77812,7 +78007,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [241934],
-        "effects": ["Grant 'メタスラ並みの速足' passive"],
+        "effects": ["Grant 'Pedal to the Metal' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
