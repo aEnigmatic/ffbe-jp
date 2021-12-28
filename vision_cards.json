@@ -2055,6 +2055,82 @@
             "music_id": "400316"
         }
     },
+    "100006001": {
+        "name": "新年の演武",
+        "compendium_id": 106,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [55, 110, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243491],
+            "7": [243492],
+            "10": [243493]
+        },
+        "restriction": {
+            "243493": [7216, "発動条件：【FFBEユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "とある異界では年明けの宴で、各々が余興を披露する習わしがあるという。お互いに剣を交えることで、皆を楽しませようとするレインとラスウェルのビジョン。二人による勇壮な演武が幕を開ける。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "新年の演武",
+            "music": "♪MUSASABI",
+            "music_id": "400214"
+        }
+    },
+    "100006101": {
+        "name": "蛇と魔人と",
+        "compendium_id": 107,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [1500, 1500, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [100, 100, 0, 0],
+            "SPR": [100, 100, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [243494, 243495, 243496]
+        },
+        "restriction": {
+            "243496": [7402, "発動条件：【魔人フィーナ -武神参詣-】"]
+        },
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "艶やかな着物を纏い、蛇と戯れる魔人フィーナのビジョン。とある異界では、蛇は神なる存在の遣いとして敬われることもあるという。だが、気位の高い聖蛇といえども、彼女に対しては素直に心を開くようだ。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "蛇と魔人と",
+            "music": "♪The Order of Pi",
+            "music_id": "400213"
+        }
+    },
     "201000101": {
         "name": "そして……探求の旅は始まった",
         "compendium_id": 100,
