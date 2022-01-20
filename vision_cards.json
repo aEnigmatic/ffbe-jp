@@ -1565,7 +1565,7 @@
         }
     },
     "100004501": {
-        "name": "ヒーロー参上！",
+        "name": "A Hero Arrives!",
         "compendium_id": 79,
         "compendium_shown": true,
         "rarity": 1,
@@ -1594,10 +1594,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "オメガ種に襲われる少年少女を華麗に助けたものの、少女を追ってきた男タイヴァスには一歩届かなかったトゥーリエン。彼が真のヒーローになれる日は来るのだろうか。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "ヒーロー参上！",
-            "music": "♪Monument Valley",
+            "desc": "Tulien gallantly rescues two youths from an Omega spawn, only to be narrowly bested by Taivas, who was in hot pursuit of the girl. Will the day of Tulien's ascension as a true hero ever come?",
+            "info": "Tulien gallantly rescues two youths from an Omega spawn, only to be narrowly bested by Taivas, who was in hot pursuit of the girl. Will the day of Tulien's ascension as a true hero ever come?",
+            "shop": "A Hero Arrives!",
+            "music": "Monument Valley",
             "music_id": "400325"
         }
     },
@@ -3831,6 +3831,117 @@
             "shop": "神様の降臨",
             "music": "♪フィルモア",
             "music_id": "400734"
+        }
+    },
+    "344000101": {
+        "name": "父子竜出陣！！！",
+        "compendium_id": 110,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20037,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [750, 1500, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [60, 120, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [60, 120, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243532],
+            "7": [243533],
+            "10": [243534]
+        },
+        "restriction": {
+            "243534": [7276, "発動条件：【ドラゴンクエスト ダイの大冒険ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "大魔王バーンとの決戦前、過去のわだかまりから、背中合わせに立つダイとバラン。母がどういう人物だったのかを問うダイに、バランはソアラの人となりを語る。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "父子竜出陣！！！",
+            "music": "♪Moment of Recall",
+            "music_id": "400003"
+        }
+    },
+    "344000201": {
+        "name": "集結！アバンの使徒！",
+        "compendium_id": 111,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20037,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [750, 1500, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [50, 100, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [50, 100, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243535],
+            "7": [243536],
+            "10": [243537]
+        },
+        "restriction": {
+            "243537": [7276, "発動条件：【ドラゴンクエスト ダイの大冒険ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "強大な魔王軍と戦う五人のアバンの使徒。どんな苦境に立たされても絶望しない、強い心を武器とする希望の戦士たちだ！",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "集結！アバンの使徒！",
+            "music": "♪Moment of Recall",
+            "music_id": "400003"
+        }
+    },
+    "344000301": {
+        "name": "一刀両断！！！",
+        "compendium_id": 112,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20037,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [1500, 3000, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [55, 110, 0, 0],
+            "DEF": [55, 110, 0, 0],
+            "MAG": [55, 110, 0, 0],
+            "SPR": [55, 110, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": [],
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "パプニカ大礼拝堂を襲撃する鬼岩城と、それを阻止するダイ。渾身の力で振り抜かれた“ダイの剣”の一刀は、巨大な鬼岩城を真っ二つにするほどの威力だった。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "一刀両断！！！",
+            "music": "♪Moment of Recall",
+            "music_id": "400003"
         }
     },
     "401000101": {
