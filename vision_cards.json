@@ -2483,7 +2483,7 @@
         }
     },
     "205000301": {
-        "name": "レナ、飛竜への想い",
+        "name": "Lenna's Bond with Hiryu",
         "compendium_id": 80,
         "compendium_shown": true,
         "rarity": 1,
@@ -2514,10 +2514,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "北の山の頂上で、傷ついた飛竜を発見した一行。飛竜の傷を癒すためにレナは毒草地帯を進み、その奥に生えていた飛竜草を採取する。危険を顧みないレナの行動は、飛竜に対する強い想いからくるものだ。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "レナ、飛竜への想い",
-            "music": "♪レナのテーマ",
+            "desc": "The party discovers a wounded wind drake at the summit of North Mountain. In order to salve its wounds, Lenna marches through a field of poison grass, picking the dragon grass which grows at the far edge. Lenna's boldness in the face of such danger no doubt springs from her powerful bond with the wind drake.",
+            "info": "The party discovers a wounded wind drake at the summit of North Mountain. In order to salve its wounds, Lenna marches through a field of poison grass, picking the dragon grass which grows at the far edge. Lenna's boldness in the face of such danger no doubt springs from her powerful bond with the wind drake.",
+            "shop": "Lenna's Bond with Hiryu",
+            "music": "Lenna's Theme",
             "music_id": "400902"
         }
     },
@@ -3940,6 +3940,45 @@
             "desc": "パプニカ大礼拝堂を襲撃する鬼岩城と、それを阻止するダイ。渾身の力で振り抜かれた“ダイの剣”の一刀は、巨大な鬼岩城を真っ二つにするほどの威力だった。",
             "info": "ビジョンカードが経験値を獲得！",
             "shop": "一刀両断！！！",
+            "music": "♪Moment of Recall",
+            "music_id": "400003"
+        }
+    },
+    "344000401": {
+        "name": "集結！六大軍団長！",
+        "compendium_id": 113,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20037,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [750, 1500, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [50, 100, 0, 0],
+            "DEF": [50, 100, 0, 0],
+            "MAG": [50, 100, 0, 0],
+            "SPR": [50, 100, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243570],
+            "7": [243571],
+            "10": [243572]
+        },
+        "restriction": {
+            "243572": [7276, "発動条件：【ドラゴンクエスト ダイの大冒険ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "魔王軍の軍団長たち。魔軍司令ハドラーを指揮官に、魔影参謀ミストバーン、竜騎将バラン、魔剣戦士ヒュンケル、獣王クロコダイン、妖魔司教ザボエラ、氷炎将軍フレイザードで構成された最強のメンバーだ！",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "集結！六大軍団長！",
             "music": "♪Moment of Recall",
             "music_id": "400003"
         }
