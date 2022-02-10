@@ -1306,18 +1306,20 @@
         "is_sealable": true,
         "is_reflectable": true,
         "in_exploration": false,
-        "attack_count": [1],
-        "attack_damage": [[100]],
-        "attack_frames": [[80]],
-        "effect_frames": [[40]],
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[80], [80], [42]],
+        "effect_frames": [[40,  40,  40], [40], [40,  40]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Fire"],
         "effects": [
-            ["Magic fire damage (1.2x, MAG) to one enemy"]
+            ["Magic fire damage (1.2x, MAG) to one enemy"],
+            ["Reduce resistance to Fire by 100% for 5 turns to one enemy"],
+            ["Increase LB gauge by 4 to caster"]
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]], [1, 1, 33, [-100,  0,  0,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 125, [400,  400]]],
         "requirements": null
     },
     "20020": {
@@ -1330,18 +1332,20 @@
         "is_sealable": true,
         "is_reflectable": true,
         "in_exploration": false,
-        "attack_count": [1],
-        "attack_damage": [[100]],
-        "attack_frames": [[130]],
-        "effect_frames": [[40]],
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[130], [80], [42]],
+        "effect_frames": [[40,  40,  40], [40], [40,  40]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Ice"],
         "effects": [
-            ["Magic ice damage (1.2x, MAG) to one enemy"]
+            ["Magic ice damage (1.2x, MAG) to one enemy"],
+            ["Reduce resistance to Ice by 100% for 5 turns to one enemy"],
+            ["Increase LB gauge by 4 to caster"]
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]], [1, 1, 33, [0,  -100,  0,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 125, [400,  400]]],
         "requirements": null
     },
     "20030": {
@@ -1354,18 +1358,20 @@
         "is_sealable": true,
         "is_reflectable": true,
         "in_exploration": false,
-        "attack_count": [1],
-        "attack_damage": [[100]],
-        "attack_frames": [[70]],
-        "effect_frames": [[40]],
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[70], [80], [42]],
+        "effect_frames": [[40,  40,  40], [40], [40,  40]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
         "effects": [
-            ["Magic lightning damage (1.2x, MAG) to one enemy"]
+            ["Magic lightning damage (1.2x, MAG) to one enemy"],
+            ["Reduce resistance to Lightning by 100% for 5 turns to one enemy"],
+            ["Increase LB gauge by 4 to caster"]
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]], [1, 1, 33, [0,  0,  -100,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 125, [400,  400]]],
         "requirements": null
     },
     "20040": {
@@ -1378,18 +1384,20 @@
         "is_sealable": true,
         "is_reflectable": true,
         "in_exploration": false,
-        "attack_count": [1],
-        "attack_damage": [[100]],
-        "attack_frames": [[80]],
-        "effect_frames": [[40]],
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[80], [80], [42]],
+        "effect_frames": [[40,  40,  40], [40], [40,  40]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Water"],
         "effects": [
-            ["Magic water damage (1.2x, MAG) to one enemy"]
+            ["Magic water damage (1.2x, MAG) to one enemy"],
+            ["Reduce resistance to Water by 100% for 5 turns to one enemy"],
+            ["Increase LB gauge by 4 to caster"]
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]], [1, 1, 33, [0,  0,  0,  -100,  0,  0,  0,  0,  1,  5]], [0, 3, 125, [400,  400]]],
         "requirements": null
     },
     "20050": {
@@ -1402,18 +1410,20 @@
         "is_sealable": true,
         "is_reflectable": true,
         "in_exploration": false,
-        "attack_count": [1],
-        "attack_damage": [[100]],
-        "attack_frames": [[100]],
-        "effect_frames": [[40]],
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[100], [80], [42]],
+        "effect_frames": [[40,  40,  40], [40], [40,  40]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Wind"],
         "effects": [
-            ["Magic wind damage (1.2x, MAG) to one enemy"]
+            ["Magic wind damage (1.2x, MAG) to one enemy"],
+            ["Reduce resistance to Wind by 100% for 5 turns to one enemy"],
+            ["Increase LB gauge by 4 to caster"]
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]], [1, 1, 33, [0,  0,  0,  0,  -100,  0,  0,  0,  1,  5]], [0, 3, 125, [400,  400]]],
         "requirements": null
     },
     "20060": {
@@ -1426,18 +1436,20 @@
         "is_sealable": true,
         "is_reflectable": true,
         "in_exploration": false,
-        "attack_count": [1],
-        "attack_damage": [[100]],
-        "attack_frames": [[120]],
-        "effect_frames": [[40]],
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[120], [80], [42]],
+        "effect_frames": [[40,  40,  40], [40], [40,  40]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Earth"],
         "effects": [
-            ["Magic earth damage (1.2x, MAG) to one enemy"]
+            ["Magic earth damage (1.2x, MAG) to one enemy"],
+            ["Reduce resistance to Earth by 100% for 5 turns to one enemy"],
+            ["Increase LB gauge by 4 to caster"]
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]], [1, 1, 33, [0,  0,  0,  0,  0,  -100,  0,  0,  1,  5]], [0, 3, 125, [400,  400]]],
         "requirements": null
     },
     "20070": {
@@ -2376,18 +2388,20 @@
         "is_sealable": true,
         "is_reflectable": true,
         "in_exploration": false,
-        "attack_count": [1],
-        "attack_damage": [[100]],
-        "attack_frames": [[160]],
-        "effect_frames": [[40]],
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[160], [80], [42]],
+        "effect_frames": [[40,  40,  40], [40], [40,  40]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Dark"],
         "effects": [
-            ["Magic dark damage (1.2x, MAG) to one enemy"]
+            ["Magic dark damage (1.2x, MAG) to one enemy"],
+            ["Reduce resistance to Dark by 100% for 5 turns to one enemy"],
+            ["Increase LB gauge by 4 to caster"]
         ],
-        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]]],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  120,  0]], [1, 1, 33, [0,  0,  0,  0,  0,  0,  0,  -100,  1,  5]], [0, 3, 125, [400,  400]]],
         "requirements": null
     },
     "20460": {
@@ -3258,6 +3272,31 @@
             ["Magic earth damage (50x, MAG) with consecutive damage increase (max. 17 times, +5x MAG each, 135x total) to all enemies"]
         ],
         "effects_raw": [[2, 1, 72, [0,  0,  4500,  500,  500,  18]]],
+        "requirements": null
+    },
+    "20870": {
+        "name": "カーズ",
+        "icon": "ability_39.png",
+        "compendium_id": 103,
+        "rarity": 8,
+        "cost": {"MP": 64},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40,  110]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            ["Reduce ATK, DEF, MAG and SPR by 83% for 3 turns to all enemies"],
+            ["Inflict Disease (100%) on all enemies"]
+        ],
+        "effects_raw": [[2, 1, 24, [-83,  -83,  -83,  -83,  3,  1]], [2, 1, 6, [0,  0,  0,  0,  0,  0,  100,  0,  1]]],
         "requirements": null
     },
     "30010": {
@@ -9532,6 +9571,162 @@
             ["Magic earth damage (100x, MAG) to all enemies"]
         ],
         "effects_raw": [[2, 1, 15, [0,  0,  0,  0,  0,  10000,  0]]],
+        "requirements": null
+    },
+    "70531": {
+        "name": "ファイア8",
+        "icon": "ability_21.png",
+        "compendium_id": 100,
+        "rarity": 1,
+        "cost": {"MP": 3},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[80], [80], [42]],
+        "effect_frames": [[40,  40,  40], [40], [40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Fire"],
+        "effects": [
+            ["Magic fire damage (80x, MAG) to one enemy"],
+            ["Reduce resistance to Fire by 110% for 5 turns to one enemy"],
+            ["Increase LB gauge by 4 to caster"]
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  8000,  0]], [1, 1, 33, [-110,  0,  0,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 125, [400,  400]]],
+        "requirements": null
+    },
+    "70532": {
+        "name": "ファイア12",
+        "icon": "ability_21.png",
+        "compendium_id": 100,
+        "rarity": 1,
+        "cost": {"MP": 3},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[80], [80], [42]],
+        "effect_frames": [[40,  40,  40], [40], [40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Fire"],
+        "effects": [
+            ["Magic fire damage (120x, MAG) to one enemy"],
+            ["Reduce resistance to Fire by 120% for 5 turns to one enemy"],
+            ["Increase LB gauge by 4 to caster"]
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  12000,  0]], [1, 1, 33, [-120,  0,  0,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 125, [400,  400]]],
+        "requirements": null
+    },
+    "70533": {
+        "name": "ファイア16",
+        "icon": "ability_21.png",
+        "compendium_id": 100,
+        "rarity": 1,
+        "cost": {"MP": 3},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[80], [80], [42]],
+        "effect_frames": [[40,  40,  40], [40], [40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Fire"],
+        "effects": [
+            ["Magic fire damage (200x, MAG) to one enemy"],
+            ["Reduce resistance to Fire by 130% for 5 turns to one enemy"],
+            ["Increase LB gauge by 4 to caster"]
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  20000,  0]], [1, 1, 33, [-130,  0,  0,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 125, [400,  400]]],
+        "requirements": null
+    },
+    "70537": {
+        "name": "サンダー8",
+        "icon": "ability_20.png",
+        "compendium_id": 102,
+        "rarity": 1,
+        "cost": {"MP": 3},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[70], [80], [42]],
+        "effect_frames": [[40,  40,  40], [40], [40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Lightning"],
+        "effects": [
+            ["Magic lightning damage (80x, MAG) to one enemy"],
+            ["Reduce resistance to Lightning by 110% for 5 turns to one enemy"],
+            ["Increase LB gauge by 4 to caster"]
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  8000,  0]], [1, 1, 33, [0,  0,  -110,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 125, [400,  400]]],
+        "requirements": null
+    },
+    "70538": {
+        "name": "サンダー12",
+        "icon": "ability_20.png",
+        "compendium_id": 102,
+        "rarity": 1,
+        "cost": {"MP": 3},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[70], [80], [42]],
+        "effect_frames": [[40,  40,  40], [40], [40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Lightning"],
+        "effects": [
+            ["Magic lightning damage (120x, MAG) to one enemy"],
+            ["Reduce resistance to Lightning by 120% for 5 turns to one enemy"],
+            ["Increase LB gauge by 4 to caster"]
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  12000,  0]], [1, 1, 33, [0,  0,  -120,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 125, [400,  400]]],
+        "requirements": null
+    },
+    "70539": {
+        "name": "サンダー16",
+        "icon": "ability_20.png",
+        "compendium_id": 102,
+        "rarity": 1,
+        "cost": {"MP": 3},
+        "magic_type": "Black",
+        "is_sealable": true,
+        "is_reflectable": true,
+        "in_exploration": false,
+        "attack_count": [1, 1, 1],
+        "attack_damage": [[100], [100], [100]],
+        "attack_frames": [[70], [80], [42]],
+        "effect_frames": [[40,  40,  40], [40], [40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Lightning"],
+        "effects": [
+            ["Magic lightning damage (200x, MAG) to one enemy"],
+            ["Reduce resistance to Lightning by 130% for 5 turns to one enemy"],
+            ["Increase LB gauge by 4 to caster"]
+        ],
+        "effects_raw": [[1, 1, 15, [0,  0,  0,  0,  0,  20000,  0]], [1, 1, 33, [0,  0,  -130,  0,  0,  0,  0,  0,  1,  5]], [0, 3, 125, [400,  400]]],
         "requirements": null
     }
 }
