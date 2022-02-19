@@ -1973,7 +1973,7 @@
             "desc": "カルとエルマティル、性格も戦い方も真逆の二人に共通するものは、イシェ隊長への敬意と部隊に対する誇りだ。イシェ隊の名にかけて任務は必ず遂行する。二人は、見事な連携で敵を追い詰めるのだった。",
             "info": "ビジョンカードが経験値を獲得！",
             "shop": "イシェ隊の名にかけて",
-            "music": "♪Overcome the Menace ",
+            "music": "♪Overcome the Menace",
             "music_id": "400315"
         }
     },
@@ -2168,6 +2168,43 @@
             "shop": "いざ魑魅魍魎退治！",
             "music": "♪Celestial Battle",
             "music_id": "400007"
+        }
+    },
+    "100006401": {
+        "name": "ウィガール承認！",
+        "compendium_id": 116,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [70, 140, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243622],
+            "7": [243623],
+            "10": [243624]
+        },
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "カレドヴルフ第１部隊の切り札、ウィガール。超越の証を原動力とする機械の鎧。その力は絶大であり、多くの被害を出したオメガ種をたやすく制圧することができるという。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "ウィガール承認！",
+            "music": "♪United We Stand",
+            "music_id": "400102"
         }
     },
     "201000101": {
@@ -2403,7 +2440,7 @@
         }
     },
     "204000101": {
-        "name": "VSバルバリシア",
+        "name": "Battle with Barbariccia",
         "compendium_id": 83,
         "compendium_shown": true,
         "rarity": 1,
@@ -2434,10 +2471,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "ゾットの塔で、ゴルベーザ四天王の1人であるバルバリシアと対峙するセシルたち。正気に戻ったカインは、竜巻状態のバルバリシアをジャンプで攻撃する。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "VSバルバリシア",
-            "music": "♪ゴルザベーザ四天王とのバトル",
+            "desc": "Cecil and his party come face-to-face with Barbariccia, one of Golbez's four Archfiends, in the Tower of Zot. Kain, sanity reclaimed, executes a jumping attack on the cyclone-like Empress of the Winds.",
+            "info": "Cecil and his party come face-to-face with Barbariccia, one of Golbez's four Archfiends, in the Tower of Zot. Kain, sanity reclaimed, executes a jumping attack on the cyclone-like Empress of the Winds.",
+            "shop": "Battle with Barbariccia",
+            "music": "Battle with the Four Fiends",
             "music_id": "400808"
         }
     },
@@ -2481,7 +2518,7 @@
         }
     },
     "204000301": {
-        "name": "幻界からの帰還",
+        "name": "Return from the Feymarch",
         "compendium_id": 84,
         "compendium_shown": true,
         "rarity": 1,
@@ -2512,10 +2549,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "ドワーフの城にある闇のクリスタルを守るため、ゴルベーザと戦うセシルたち。絶体絶命の危機に陥った彼らの前に現れたのは、幻界で大きな成長を遂げたリディアだった。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "幻界からの帰還",
-            "music": "♪黒い甲冑ゴルベーザ",
+            "desc": "Cecil and his allies battle with Golbez in a bid to defend the Dark Crystal in the Dwarven Castle. Just as the party is backed into a corner with no way out, Rydia appears before them, now grown from her time in the Feymarch.",
+            "info": "Cecil and his allies battle with Golbez in a bid to defend the Dark Crystal in the Dwarven Castle. Just as the party is backed into a corner with no way out, Rydia appears before them, now grown from her time in the Feymarch.",
+            "shop": "Return from the Feymarch",
+            "music": "Golbez Clad in Darkness",
             "music_id": "400809"
         }
     },
@@ -3559,7 +3596,7 @@
         }
     },
     "331000101": {
-        "name": "それはゼロじゃない",
+        "name": "A Part Is Better than Zero",
         "compendium_id": 82,
         "compendium_shown": true,
         "rarity": 1,
@@ -3590,10 +3627,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "戦艦ゴリアテ墜落の際に仲間たちと離れ、海上を漂流することになったフェイとエリィ。弱音を吐露するフェイを励ますように、エリィはフェイのおかげで自分が変われたのだと打ち明ける。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "それはゼロじゃない",
-            "music": "♪SMALL TWO OF PIECES 〜軋んだ破片（かけら）〜",
+            "desc": "Following the fall of the Goliath, Fei and Elly are separated from their comrades and find themselves adrift at sea. In order to raise the spirits of her despondent raftmate, Elly confesses that it was thanks to Fei that she was able to change.",
+            "info": "Following the fall of the Goliath, Fei and Elly are separated from their comrades and find themselves adrift at sea. In order to raise the spirits of her despondent raftmate, Elly confesses that it was thanks to Fei that she was able to change.",
+            "shop": "A Part Is Better than Zero",
+            "music": "Small Two of Pieces -Screeching Shards-",
             "music_id": "400725"
         }
     },
