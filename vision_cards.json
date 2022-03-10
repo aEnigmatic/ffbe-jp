@@ -1602,7 +1602,7 @@
         }
     },
     "100004801": {
-        "name": "タイヴァス、ありがとう",
+        "name": "Thank You, Taivas",
         "compendium_id": 87,
         "compendium_shown": true,
         "rarity": 1,
@@ -1633,15 +1633,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "鬼さながらに剣を振るい、レフティアを救出したタイヴァス。休息のひととき、助けてくれたことを感謝するレフティアに、彼は自分を苦しめ続けてきた過去について話す。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "タイヴァス、ありがとう",
-            "music": "♪Mystic Ruins",
+            "desc": "Taivas has succeeded in rescuing Lehftia, brandishing his blade like a demon to do so. During a moment of respite, he tells the grateful girl of the past which has long haunted him.",
+            "info": "Taivas has succeeded in rescuing Lehftia, brandishing his blade like a demon to do so. During a moment of respite, he tells the grateful girl of the past which has long haunted him.",
+            "shop": "Thank You, Taivas",
+            "music": "Mystic Ruins",
             "music_id": "400205"
         }
     },
     "100004901": {
-        "name": "少女との出会い",
+        "name": "Meeting with a Girl",
         "compendium_id": 88,
         "compendium_shown": true,
         "rarity": 1,
@@ -1670,10 +1670,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "森の中で出会ったハーヴェとレフティア。彼女は悲しそうな顔で小鳥の亡骸を埋めていた。儚い命に涙を浮かべる少女に、少年は想いを寄せる。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "少女との出会い",
-            "music": "♪Peaceful Village",
+            "desc": "Haveh and Lehftia share their first meeting in the forest, and Lehftia somberly buries a young chick. As the girl sheds tears for a short life now extinguished, Haveh finds himself captivated.",
+            "info": "Haveh and Lehftia share their first meeting in the forest, and Lehftia somberly buries a young chick. As the girl sheds tears for a short life now extinguished, Haveh finds himself captivated.",
+            "shop": "Meeting with a Girl",
+            "music": "Peaceful Village",
             "music_id": "400201"
         }
     },
@@ -2479,7 +2479,7 @@
         }
     },
     "204000201": {
-        "name": "VSルビカンテ",
+        "name": "Battle with Rubicante",
         "compendium_id": 86,
         "compendium_shown": true,
         "rarity": 1,
@@ -2510,10 +2510,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "両親を失って慟哭するエッジの前に、ゴルベーザ四天王の最後の1人・ルビカンテが現れる。怒りによって眠っていた力を目覚めさせたエッジは、ルビカンテに挑む。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "VSルビカンテ",
-            "music": "♪黒い甲冑ゴルベーザ",
+            "desc": "In front of Edge, who despairs at having lost his parents, appears Rubicante, the last of Golbez's four Archfiends. Edge, having awoken to the rage-fueled power which slumbered within him, now stands ready to face his foe.",
+            "info": "In front of Edge, who despairs at having lost his parents, appears Rubicante, the last of Golbez's four Archfiends. Edge, having awoken to the rage-fueled power which slumbered within him, now stands ready to face his foe.",
+            "shop": "Battle with Rubicante",
+            "music": "Golbez Clad in Darkness",
             "music_id": "400809"
         }
     },
@@ -3359,6 +3359,45 @@
             "shop": "古き神との契約",
             "music": "♪アーシェのテーマ (Zodiac Age Version)",
             "music_id": "4000204"
+        }
+    },
+    "212000501": {
+        "name": "初めての空",
+        "compendium_id": 119,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10012,
+        "job_id": 909,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [45, 90, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243661],
+            "7": [243662],
+            "10": [243663]
+        },
+        "restriction": {
+            "243662,243663": [7116, "発動条件：【妨害ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "バルフレアの飛空艇シュトラールに乗り込み、空中都市ビュエルバに飛び立つ一行。ヴァンは初めての飛空艇に心を躍らせつつ、連れ去られたパンネロを助け出すと誓う。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "初めての空",
+            "music": "♪フォーン海岸 (Zodiac Age Version)",
+            "music_id": "400976"
         }
     },
     "213000101": {
