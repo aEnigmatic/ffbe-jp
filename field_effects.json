@@ -678,5 +678,41 @@
             ["Increase resistance to Water by 0%"]
         ],
         "effects_raw": [[0, 0, 2, [0, 0, 0, [0,  -50], 0, 0, 0, 0]]]
+    },
+    "200000068": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Fire by 50%"]
+        ],
+        "effects_raw": [[0, 0, 2, [50,  0,  0,  0,  0,  0,  0,  0]]]
+    },
+    "200000069": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Ice by 50%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  50,  0,  0,  0,  0,  0,  0]]]
+    },
+    "200000070": {
+        "duration": 10,
+        "effects": [
+            ["Increase Dark physical damage by 50%"],
+            ["Increase Dark magic damage by 50%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  0,  50]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  0,  50]]]
+    },
+    "200000071": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Fire by 100%"]
+        ],
+        "effects_raw": [[0, 0, 2, [100,  0,  0,  0,  0,  0,  0,  0]]]
+    },
+    "200000072": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Ice by 100%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  100,  0,  0,  0,  0,  0,  0]]]
     }
 }
