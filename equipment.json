@@ -2453,7 +2453,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [108112, 243364, 243365],
-        "effects": ["Grant 'マンイーター改I' passive", "Grant '俊敏な痩躯' passive", "Grant '加速装置' passive"],
+        "effects": ["Grant 'Maneater+ I' passive", "Grant '俊敏な痩躯' passive", "Grant '加速装置' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -20779,7 +20779,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [107030],
-        "effects": ["Grant 'LBダメージアップ+100%' passive"],
+        "effects": ["Grant 'LB Damage +100%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -22652,7 +22652,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [243321, 107030, 226897],
-        "effects": ["Grant '賢者の雷霆' passive", "Grant 'LBダメージアップ+100%' passive", "Grant 'Demon Killer+' passive"],
+        "effects": ["Grant '賢者の雷霆' passive", "Grant 'LB Damage +100%' passive", "Grant 'Demon Killer+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -25252,7 +25252,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [108115, 243525],
-        "effects": ["Grant 'デーモンキラー改I' passive", "Grant '魔甲拳・鎧化' passive"],
+        "effects": ["Grant 'Demon Killer+ I' passive", "Grant '魔甲拳・鎧化' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -29078,7 +29078,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [243320, 107030, 226897],
-        "effects": ["Grant '流水の鬼謀' passive", "Grant 'LBダメージアップ+100%' passive", "Grant 'Demon Killer+' passive"],
+        "effects": ["Grant '流水の鬼謀' passive", "Grant 'LB Damage +100%' passive", "Grant 'Demon Killer+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -31814,6 +31814,37 @@
         "price_sell": 4000,
         "icon": "item_2050025.png"
     },
+    "311008900": {
+        "name": "シーモアの杖(FFX)",
+        "compendium_id": 2795,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 5,
+        "type": "Staff",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [243712],
+        "effects": ["Grant 'グアド族の叡智' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 180,
+            "SPR": 180,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 160000,
+        "price_sell": 16000,
+        "icon": "item_2050026.png"
+    },
     "312000100": {
         "name": "ショートボウ",
         "compendium_id": 79,
@@ -33353,7 +33384,7 @@
         "accuracy": 70,
         "requirements": null,
         "skills": [243323],
-        "effects": ["Grant '世界のために祈る心' passive"],
+        "effects": ["Grant 'Prayer for the World' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -33384,7 +33415,7 @@
         "accuracy": 70,
         "requirements": null,
         "skills": [243323],
-        "effects": ["Grant '世界のために祈る心' passive"],
+        "effects": ["Grant 'Prayer for the World' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -33415,7 +33446,7 @@
         "accuracy": 70,
         "requirements": null,
         "skills": [243323],
-        "effects": ["Grant '世界のために祈る心' passive"],
+        "effects": ["Grant 'Prayer for the World' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -33446,7 +33477,7 @@
         "accuracy": 70,
         "requirements": null,
         "skills": [243323],
-        "effects": ["Grant '世界のために祈る心' passive"],
+        "effects": ["Grant 'Prayer for the World' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -33477,7 +33508,7 @@
         "accuracy": 70,
         "requirements": null,
         "skills": [243323],
-        "effects": ["Grant '世界のために祈る心' passive"],
+        "effects": ["Grant 'Prayer for the World' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -36247,7 +36278,7 @@
         "accuracy": 70,
         "requirements": null,
         "skills": [107030, 211360, 243361],
-        "effects": ["Grant 'LBダメージアップ+100%' passive", "Grant 'Dragon Killer+' passive", "Grant 'ザ・マン・ウィズ・ザ・マシンガン' passive"],
+        "effects": ["Grant 'LB Damage +100%' passive", "Grant 'Dragon Killer+' passive", "Grant 'ザ・マン・ウィズ・ザ・マシンガン' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -39490,6 +39521,37 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2130017.png"
+    },
+    "315026000": {
+        "name": "リターンマッチ(FFX)",
+        "compendium_id": 2797,
+        "compendium_shown": false,
+        "rarity": 7,
+        "type_id": 13,
+        "type": "Throwing",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.3, 1.7],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [223950, 108205],
+        "effects": ["Grant 'Machine Killer+' passive", "Grant 'Physical Evasion +30%' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 170,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2130020.png"
     },
     "316000100": {
         "name": "ハープ",
@@ -48504,7 +48566,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243311],
-        "effects": ["Grant '眩惑の翼光' passive"],
+        "effects": ["Grant 'Dazzling Wings' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -48599,7 +48661,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [101500, 206170, 243324],
-        "effects": ["Grant 'HP +15%' passive", "Grant 'Crisis Evasion' passive", "Grant '剣客の心眼' passive"],
+        "effects": ["Grant 'HP +15%' passive", "Grant 'Crisis Evasion' passive", "Grant 'Mind's Eye of the Swordsman' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -48630,7 +48692,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [101500, 206170, 243324, 101050],
-        "effects": ["Grant 'HP +15%' passive", "Grant 'Crisis Evasion' passive", "Grant '剣客の心眼' passive", "Grant 'Dragon Killer' passive"],
+        "effects": ["Grant 'HP +15%' passive", "Grant 'Crisis Evasion' passive", "Grant 'Mind's Eye of the Swordsman' passive", "Grant 'Dragon Killer' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -48974,6 +49036,37 @@
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "item_2210052.png"
+    },
+    "403056900": {
+        "name": "ジェクトのバンダナ(FFX)",
+        "compendium_id": 2794,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": ["RULE", 7112],
+        "skills": [243711],
+        "effects": ["Grant '不器用な父親' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 65,
+            "DEF": 100,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2250206.png"
     },
     "404000200": {
         "name": "ブロンズヘルム",
@@ -56569,7 +56662,7 @@
         "accuracy": 0,
         "requirements": [
             "UNIT_ID",
-            [210001005, 210001027]
+            [210001005, 210001027, 210002607, 210002617]
         ],
         "skills": null,
         "effects": null,
@@ -57207,7 +57300,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243301, 243302],
-        "effects": ["Grant '晴雲の構え' passive", "Grant '鉄心の型' ability"],
+        "effects": ["Grant 'Unclouded Stance' passive", "Grant 'Form of Iron Will' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -62907,7 +63000,7 @@
         "icon": "item_20427.png"
     },
     "408002700": {
-        "name": "老師のローブ",
+        "name": "老師のローブ(FFX)",
         "compendium_id": 714,
         "compendium_shown": true,
         "rarity": 5,
@@ -64410,6 +64503,37 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2200014.png"
+    },
+    "408007300": {
+        "name": "老師のローブ(FFX)",
+        "compendium_id": 2796,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 53,
+        "type": "Robe",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [243715],
+        "effects": ["Grant 'グアド族の神秘' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 20,
+            "MAG": 45,
+            "SPR": 40,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_20429.png"
     },
     "409000100": {
         "name": "鉄の篭手",
@@ -83170,7 +83294,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243304],
-        "effects": ["Grant '受け流しの極意' passive"],
+        "effects": ["Grant 'Expert Evasion' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -83294,7 +83418,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243303],
-        "effects": ["Grant '封印魔力解放' passive"],
+        "effects": ["Grant 'Unsealed Magic' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -83365,7 +83489,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243322],
-        "effects": ["Grant '民のため武器を取る者' passive"],
+        "effects": ["Grant 'Weapon for the People' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -83396,7 +83520,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243322],
-        "effects": ["Grant '民のため武器を取る者' passive"],
+        "effects": ["Grant 'Weapon for the People' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -83427,7 +83551,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243322],
-        "effects": ["Grant '民のため武器を取る者' passive"],
+        "effects": ["Grant 'Weapon for the People' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -83458,7 +83582,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243322],
-        "effects": ["Grant '民のため武器を取る者' passive"],
+        "effects": ["Grant 'Weapon for the People' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -83489,7 +83613,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243322],
-        "effects": ["Grant '民のため武器を取る者' passive"],
+        "effects": ["Grant 'Weapon for the People' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -83730,7 +83854,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [215000, 243325],
-        "effects": ["Grant 'True Doublehand' passive", "Grant '帝王に勝利せし者' passive"],
+        "effects": ["Grant 'True Doublehand' passive", "Grant 'Triumph over the Emperor' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -83764,7 +83888,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [215000, 243325],
-        "effects": ["Grant 'True Doublehand' passive", "Grant '帝王に勝利せし者' passive"],
+        "effects": ["Grant 'True Doublehand' passive", "Grant 'Triumph over the Emperor' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -83798,7 +83922,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [215000, 243325],
-        "effects": ["Grant 'True Doublehand' passive", "Grant '帝王に勝利せし者' passive"],
+        "effects": ["Grant 'True Doublehand' passive", "Grant 'Triumph over the Emperor' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -83832,7 +83956,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [215000, 243325],
-        "effects": ["Grant 'True Doublehand' passive", "Grant '帝王に勝利せし者' passive"],
+        "effects": ["Grant 'True Doublehand' passive", "Grant 'Triumph over the Emperor' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -83866,7 +83990,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [215000, 243325],
-        "effects": ["Grant 'True Doublehand' passive", "Grant '帝王に勝利せし者' passive"],
+        "effects": ["Grant 'True Doublehand' passive", "Grant 'Triumph over the Emperor' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -84029,7 +84153,7 @@
         "accuracy": 0,
         "requirements": ["RULE", 7116],
         "skills": [108112, 108205, 243381],
-        "effects": ["Grant 'マンイーター改I' passive", "Grant 'Physical Evasion +30%' passive", "Grant '偽りの夜帳' passive"],
+        "effects": ["Grant 'Maneater+ I' passive", "Grant 'Physical Evasion +30%' passive", "Grant '偽りの夜帳' passive"],
         "stats": {
             "HP": 600,
             "MP": 0,
@@ -84187,7 +84311,7 @@
         "accuracy": 0,
         "requirements": ["RULE", 7114],
         "skills": [30740, 243440, 243441, 243442],
-        "effects": ["Grant 'バリア' magic", "Grant '人のルーンI' ability", "Grant '竜のルーンI' ability", "Grant '虫のルーンI' ability"],
+        "effects": ["Grant 'Barrier' magic", "Grant '人のルーンI' ability", "Grant '竜のルーンI' ability", "Grant '虫のルーンI' ability"],
         "stats": {
             "HP": 0,
             "MP": 55,
@@ -85067,5 +85191,40 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_2250203.png"
+    },
+    "409067700": {
+        "name": "まどわざる指輪(FFX)",
+        "compendium_id": 2798,
+        "compendium_shown": false,
+        "rarity": 7,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [243716],
+        "effects": ["Grant '迷わぬ決意の指輪' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 10,
+            "MAG": 0,
+            "SPR": 40,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Poison": 100,
+                "Silence": 100,
+                "Confusion": 100
+            },
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2250204.png"
     }
 }
