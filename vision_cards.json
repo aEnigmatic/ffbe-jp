@@ -1036,8 +1036,8 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "The skilled gunsmith Macmedi, and his grandchild, Lotti, who helps around the shop. Macmedi is an eccentric man of few words, but there's no doubt he cherishes his life with Lotti, his only surviving family.",
-            "info": "The skilled gunsmith Macmedi, and his grandchild, Lotti, who helps around the shop. Macmedi is an eccentric man of few words, but there's no doubt he cherishes his life with Lotti, his only surviving family.",
+            "desc": "The skilled gunsmith Macmedi and his grandchild, Lotti, who helps around the shop. Macmedi is an eccentric man of few words, but there's no doubt he cherishes his life with Lotti, his only surviving family.",
+            "info": "The skilled gunsmith Macmedi and his grandchild, Lotti, who helps around the shop. Macmedi is an eccentric man of few words, but there's no doubt he cherishes his life with Lotti, his only surviving family.",
             "shop": "Chores with Grandpa",
             "music": "Peaceful Village",
             "music_id": "400201"
@@ -1780,7 +1780,7 @@
         }
     },
     "100005401": {
-        "name": "補佐官たちの手腕",
+        "name": "With a Little Help",
         "compendium_id": 93,
         "compendium_shown": true,
         "rarity": 1,
@@ -1808,10 +1808,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "大統領補佐官の仕事は多岐にわたる。政治日程の調整や情報の収集も重要だが、イメージ戦略も大切だ。新大統領が人々から慕われ信頼されるよう、ニコルとサクラによるレーゲンのコーディネートは続く……。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "補佐官たちの手腕",
-            "music": "♪Chill Out",
+            "desc": "Presidential aides are responsible for all manner of tasks. While assignments such as regulating the political itinerary and gathering intel are vital services, image management is also of the utmost importance. In order for the new president to gain the people's trust and adoration, Nichol and Sakura take ample time to coordinate Raegen's attire.",
+            "info": "Presidential aides are responsible for all manner of tasks. While assignments such as regulating the political itinerary and gathering intel are vital services, image management is also of the utmost importance. In order for the new president to gain the people's trust and adoration, Nichol and Sakura take ample time to coordinate Raegen's attire.",
+            "shop": "With a Little Help",
+            "music": "Chill Out",
             "music_id": "400337"
         }
     },
@@ -3227,6 +3227,42 @@
             "shop": "ジェクトシュート",
             "music": "♪ジェクトのテーマ",
             "music_id": "4000306"
+        }
+    },
+    "210000701": {
+        "name": "キマリは通さない",
+        "compendium_id": 127,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10010,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [55, 110, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [55, 110, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243734],
+            "7": [243735],
+            "10": [243736]
+        },
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "ロンゾ族の霊峰・ガガゼト山を越えようとするユウナ一行の前に、ビランとエンケが立ちふさがる。一族と山を捨てた弱者は通さないと言う彼らに、キマリは単身立ち向かう。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "キマリは通さない",
+            "music": "♪極北の民",
+            "music_id": "400855"
         }
     },
     "211000101": {
