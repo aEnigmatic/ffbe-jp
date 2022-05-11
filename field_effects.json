@@ -729,5 +729,21 @@
             ["Increase Dark magic damage by 30%"]
         ],
         "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  0,  30]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  0,  30]]]
+    },
+    "200000074": {
+        "duration": 10,
+        "effects": [
+            ["Increase Lightning physical damage by 50%"],
+            ["Increase Lightning magic damage by 50%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  50,  0,  0,  0,  0,  0]], [0, 0, 11, [0,  0,  50,  0,  0,  0,  0,  0]]]
+    },
+    "200000075": {
+        "duration": 10,
+        "effects": [
+            ["Increase Light physical damage by 50%"],
+            ["Increase Light magic damage by 50%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  50,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  50,  0]]]
     }
 }
