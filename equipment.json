@@ -8243,7 +8243,7 @@
         "accuracy": 0,
         "requirements": ["RULE", 7112],
         "skills": [243385],
-        "effects": ["Grant '精霊の炎で鍛えた剣' passive"],
+        "effects": ["Grant 'Forged by Fairies' Flames' passive"],
         "stats": {
             "HP": 50,
             "MP": 0,
@@ -8274,7 +8274,7 @@
         "accuracy": 0,
         "requirements": ["RULE", 7112],
         "skills": [103400, 243385],
-        "effects": ["Grant 'DEF +500' passive", "Grant '精霊の炎で鍛えた剣' passive"],
+        "effects": ["Grant 'DEF +500' passive", "Grant 'Forged by Fairies' Flames' passive"],
         "stats": {
             "HP": 200,
             "MP": 0,
@@ -8305,7 +8305,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243410, 243409],
-        "effects": ["Grant 'マリリスの怒り' passive", "Grant '火のカオスの凶刃' passive"],
+        "effects": ["Grant 'Marilith's Wrath' passive", "Grant 'Fiend of Fire's Blade' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -8398,7 +8398,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [206870, 231300, 243422],
-        "effects": ["Grant 'DEF +50%' passive", "Grant 'Guiding Light (FFI)' passive", "Grant '勇者の輝剣Lv1' passive"],
+        "effects": ["Grant 'DEF +50%' passive", "Grant 'Guiding Light (FFI)' passive", "Grant 'Hero's Shining Sword' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -8429,7 +8429,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [206870, 231300, 243422, 243426],
-        "effects": ["Grant 'DEF +50%' passive", "Grant 'Guiding Light (FFI)' passive", "Grant '勇者の輝剣Lv1' passive", "Grant 'ソードディフェンス' passive"],
+        "effects": ["Grant 'DEF +50%' passive", "Grant 'Guiding Light (FFI)' passive", "Grant 'Hero's Shining Sword' passive", "Grant 'Sword Defense' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -8460,7 +8460,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [206870, 231300, 243422, 243427],
-        "effects": ["Grant 'DEF +50%' passive", "Grant 'Guiding Light (FFI)' passive", "Grant '勇者の輝剣Lv1' passive", "Grant '攻防一体' passive"],
+        "effects": ["Grant 'DEF +50%' passive", "Grant 'Guiding Light (FFI)' passive", "Grant 'Hero's Shining Sword' passive", "Grant 'Offense and Defense' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -12428,6 +12428,37 @@
         "price_buy": 300000,
         "price_sell": 30000,
         "icon": "item_10300.png"
+    },
+    "303012600": {
+        "name": "レイジングテンペスト",
+        "compendium_id": 2867,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [108127, 243835],
+        "effects": ["Grant 'Machine Killer+ I' passive", "Grant '守り抜く決意Lv2' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 210,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_2030040.png"
     },
     "304000100": {
         "name": "虎鉄",
@@ -17498,6 +17529,37 @@
         "price_sell": 9000,
         "icon": "item_2080017.png"
     },
+    "305005100": {
+        "name": "ツェアシュトラーズアクスト",
+        "compendium_id": 2860,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 8,
+        "type": "Axe",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.15, 1.95],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 228,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 360000,
+        "price_sell": 36000,
+        "icon": "item_2080018.png"
+    },
     "306000100": {
         "name": "木づち",
         "compendium_id": 36,
@@ -18382,7 +18444,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242678],
-        "effects": ["Grant 'ダークスカッシュ' ability"],
+        "effects": ["Grant 'Dark Smash' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -18413,7 +18475,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242678],
-        "effects": ["Grant 'ダークスカッシュ' ability"],
+        "effects": ["Grant 'Dark Smash' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -18444,7 +18506,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242678],
-        "effects": ["Grant 'ダークスカッシュ' ability"],
+        "effects": ["Grant 'Dark Smash' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -18475,7 +18537,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242678],
-        "effects": ["Grant 'ダークスカッシュ' ability"],
+        "effects": ["Grant 'Dark Smash' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -18506,7 +18568,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242678],
-        "effects": ["Grant 'ダークスカッシュ' ability"],
+        "effects": ["Grant 'Dark Smash' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -19663,7 +19725,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242383],
-        "effects": ["Grant 'ダークパルヴァライズ' ability"],
+        "effects": ["Grant 'Dark Pulverize' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -19694,7 +19756,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242383],
-        "effects": ["Grant 'ダークパルヴァライズ' ability"],
+        "effects": ["Grant 'Dark Pulverize' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -19725,7 +19787,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242383],
-        "effects": ["Grant 'ダークパルヴァライズ' ability"],
+        "effects": ["Grant 'Dark Pulverize' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -19756,7 +19818,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242383],
-        "effects": ["Grant 'ダークパルヴァライズ' ability"],
+        "effects": ["Grant 'Dark Pulverize' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -19787,7 +19849,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242383],
-        "effects": ["Grant 'ダークパルヴァライズ' ability"],
+        "effects": ["Grant 'Dark Pulverize' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -19849,7 +19911,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [243401, 243500],
-        "effects": ["Grant 'HP+100%' passive", "Grant '一筆入魂！！' passive"],
+        "effects": ["Grant 'HP +100%' passive", "Grant '一筆入魂！！' passive"],
         "stats": {
             "HP": 5000,
             "MP": 0,
@@ -38045,7 +38107,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242679],
-        "effects": ["Grant 'ダークミューティレイト' ability"],
+        "effects": ["Grant 'Dark Mutilation' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -38076,7 +38138,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242679],
-        "effects": ["Grant 'ダークミューティレイト' ability"],
+        "effects": ["Grant 'Dark Mutilation' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -38107,7 +38169,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242679],
-        "effects": ["Grant 'ダークミューティレイト' ability"],
+        "effects": ["Grant 'Dark Mutilation' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -38138,7 +38200,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242679],
-        "effects": ["Grant 'ダークミューティレイト' ability"],
+        "effects": ["Grant 'Dark Mutilation' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -38169,7 +38231,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [242679],
-        "effects": ["Grant 'ダークミューティレイト' ability"],
+        "effects": ["Grant 'Dark Mutilation' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -39939,7 +40001,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [243401, 243501],
-        "effects": ["Grant 'HP+100%' passive", "Grant 'オメガ退散祈願' passive"],
+        "effects": ["Grant 'HP +100%' passive", "Grant 'オメガ退散祈願' passive"],
         "stats": {
             "HP": 5000,
             "MP": 0,
@@ -42501,7 +42563,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243421],
-        "effects": ["Grant '災いを避ける水晶盾' passive"],
+        "effects": ["Grant 'Disaster-Warding Shield' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -49290,7 +49352,7 @@
         "accuracy": 0,
         "requirements": ["RULE", 7110],
         "skills": [243481, 243401],
-        "effects": ["Grant '霊虎の守護' passive", "Grant 'HP+100%' passive"],
+        "effects": ["Grant '霊虎の守護' passive", "Grant 'HP +100%' passive"],
         "stats": {
             "HP": 7500,
             "MP": 0,
@@ -49352,7 +49414,7 @@
         "accuracy": 0,
         "requirements": ["RULE", 7111],
         "skills": [243401, 224880],
-        "effects": ["Grant 'HP+100%' passive", "Grant 'Stone Killer+' passive"],
+        "effects": ["Grant 'HP +100%' passive", "Grant 'Stone Killer+' passive"],
         "stats": {
             "HP": 3000,
             "MP": 0,
@@ -58000,7 +58062,7 @@
         "accuracy": 0,
         "requirements": ["RULE", 7110],
         "skills": [224880, 243401],
-        "effects": ["Grant 'Stone Killer+' passive", "Grant 'HP+100%' passive"],
+        "effects": ["Grant 'Stone Killer+' passive", "Grant 'HP +100%' passive"],
         "stats": {
             "HP": 3000,
             "MP": 0,
@@ -58754,6 +58816,108 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_2170026.png"
+    },
+    "405023500": {
+        "name": "ファーシュメルアンツーク",
+        "compendium_id": 2864,
+        "compendium_shown": true,
+        "rarity": 6,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [243813],
+        "effects": ["Grant '魔力回生ユニット' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 46,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 30,
+            "SPR": 39,
+            "element_resist": {
+                "Fire": 10,
+                "Ice": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 20000,
+        "price_sell": 2000,
+        "icon": "item_2170096.png"
+    },
+    "405023600": {
+        "name": "真・ファーシュメルアンツーク",
+        "compendium_id": 2865,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [243814],
+        "effects": ["Grant '魔力回生ユニット+' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 53,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 40,
+            "SPR": 44,
+            "element_resist": {
+                "Fire": 20,
+                "Ice": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2170096.png"
+    },
+    "405023700": {
+        "name": "絶・ファーシュメルアンツーク",
+        "compendium_id": 2866,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [243815],
+        "effects": ["Grant '魔力回生ユニット++' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 58,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 50,
+            "SPR": 54,
+            "element_resist": {
+                "Fire": 20,
+                "Ice": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2170096.png"
     },
     "406000100": {
         "name": "レザープレート",
@@ -62746,7 +62910,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243401, 243400],
-        "effects": ["Grant 'HP+100%' passive", "Grant '邪悪を払う鎧' passive"],
+        "effects": ["Grant 'HP +100%' passive", "Grant 'Evil-Vanquishing Armor' passive"],
         "stats": {
             "HP": 800,
             "MP": 0,
@@ -63025,6 +63189,37 @@
         "price_buy": 150000,
         "price_sell": 15000,
         "icon": "item_2190012.png"
+    },
+    "407006700": {
+        "name": "ツォーンリュストング",
+        "compendium_id": 2859,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 52,
+        "type": "Heavy Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [243800],
+        "effects": ["Grant '憤怒の破壊者' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 60,
+            "DEF": 60,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 150000,
+        "price_sell": 15000,
+        "icon": "item_2190013.png"
     },
     "408000100": {
         "name": "木綿のローブ",
@@ -84955,7 +85150,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243383, 243384],
-        "effects": ["Grant '獅子の激励' ability", "Grant '獅子の義勇' passive"],
+        "effects": ["Grant 'Boon of the Lion' ability", "Grant 'Heroism of the Lion' passive"],
         "stats": {
             "HP": 1000,
             "MP": 0,
@@ -85113,7 +85308,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [231303, 243424],
-        "effects": ["Grant 'Saber' passive", "Grant 'ジャイアントパワーLv1' passive"],
+        "effects": ["Grant 'Saber' passive", "Grant 'Giant's Power' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -85724,7 +85919,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243401, 203260, 243585],
-        "effects": ["Grant 'HP+100%' passive", "Grant 'Man-Eater+' passive", "Grant '大自然の加護' passive"],
+        "effects": ["Grant 'HP +100%' passive", "Grant 'Man-Eater+' passive", "Grant '大自然の加護' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -87092,5 +87287,107 @@
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "item_2250220.png"
+    },
+    "409071100": {
+        "name": "マギ・シルム",
+        "compendium_id": 2861,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": ["RULE", 7114],
+        "skills": [243802, 243803, 243804],
+        "effects": ["Grant '悪魔のルーンI' ability", "Grant '精霊のルーンI' ability", "Grant '死霊のルーンI' ability"],
+        "stats": {
+            "HP": 2500,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 55,
+            "MAG": 0,
+            "SPR": 55,
+            "element_resist": {
+                "Wind": 40,
+                "Earth": 40,
+                "Light": 40,
+                "Dark": 40
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2250221.png"
+    },
+    "409071200": {
+        "name": "不屈の飾り布",
+        "compendium_id": 2862,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [101040, 243811],
+        "effects": ["Grant 'Man-Eater' passive", "Grant '破壊者の信念I' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 42,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Fire": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250222.png"
+    },
+    "409071300": {
+        "name": "不屈の飾り布",
+        "compendium_id": 2863,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [101040, 243811],
+        "effects": ["Grant 'Man-Eater' passive", "Grant '破壊者の信念I' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 60,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Fire": 20
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2250222.png"
     }
 }
