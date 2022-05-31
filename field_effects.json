@@ -210,6 +210,13 @@
         ],
         "effects_raw": [[0, 0, 13, [[200,  200]]]]
     },
+    "100000031": {
+        "duration": -1,
+        "effects": [
+            ["Reduce resistance to Ice and Water by 200%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, [-200,  -200], 0, [-200,  -200], 0, 0, 0, 0]]]
+    },
     "200000001": {
         "duration": 10,
         "effects": [
@@ -766,5 +773,54 @@
             ["Increase resistance to Lightning by 0%"]
         ],
         "effects_raw": [[0, 0, 2, [0, 0, [0,  -50], 0, 0, 0, 0, 0]]]
+    },
+    "200000079": {
+        "duration": 10,
+        "effects": [
+            ["Increase LB damage by 100%"]
+        ],
+        "effects_raw": [[0, 0, 9, [100]]]
+    },
+    "200000080": {
+        "duration": 10,
+        "effects": [
+            ["Increase MAG by 175%"]
+        ],
+        "effects_raw": [[0, 0, 1, [0,  0,  175,  0]]]
+    },
+    "200000081": {
+        "duration": 10,
+        "effects": [
+            ["Increase SPR by 175%"]
+        ],
+        "effects_raw": [[0, 0, 1, [0,  0,  0,  175]]]
+    },
+    "200000082": {
+        "duration": 10,
+        "effects": [
+            ["Increase ATK by 175%"]
+        ],
+        "effects_raw": [[0, 0, 1, [175,  0,  0,  0]]]
+    },
+    "200000083": {
+        "duration": 10,
+        "effects": [
+            ["Increase MAG by 250%"]
+        ],
+        "effects_raw": [[0, 0, 1, [0,  0,  250,  0]]]
+    },
+    "200000084": {
+        "duration": 10,
+        "effects": [
+            ["Increase SPR by 250%"]
+        ],
+        "effects_raw": [[0, 0, 1, [0,  0,  0,  250]]]
+    },
+    "200000085": {
+        "duration": 10,
+        "effects": [
+            ["Increase ATK by 250%"]
+        ],
+        "effects_raw": [[0, 0, 1, [250,  0,  0,  0]]]
     }
 }
