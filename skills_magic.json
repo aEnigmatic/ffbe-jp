@@ -1296,6 +1296,30 @@
         "effects_raw": [[1, 2, 8, [0,  1,  5000,  -1]]],
         "requirements": null
     },
+    "10411": {
+        "name": "リジェネ",
+        "icon": "ability_4.png",
+        "compendium_id": 14,
+        "rarity": 8,
+        "cost": {},
+        "magic_type": "White",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            ["Restore 400 (+3x, Heal) HP per turn to one ally"]
+        ],
+        "effects_raw": [[1, 2, 8, [300,  1,  400,  -1]]],
+        "requirements": null
+    },
     "10500": {
         "name": "アレイズII",
         "icon": "ability_1.png",
