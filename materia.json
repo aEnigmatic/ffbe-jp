@@ -12182,7 +12182,7 @@
         "compendium_shown": true,
         "requirements": [["RULE", 7202]],
         "skills": [243580],
-        "effects": ["Grant '圧倒的な魔力' passive"],
+        "effects": ["Grant 'Overwhelming Magic Power' passive"],
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_79.png"
@@ -12193,7 +12193,7 @@
         "compendium_shown": true,
         "requirements": [["RULE", 7202]],
         "skills": [243583],
-        "effects": ["Grant '帝国への怒り' passive"],
+        "effects": ["Grant 'Fury Towards the Empire' passive"],
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_79.png"
@@ -12204,7 +12204,7 @@
         "compendium_shown": true,
         "requirements": null,
         "skills": [243586],
-        "effects": ["Grant 'ヘルファイヤー' ability"],
+        "effects": ["Grant 'Hellfire (FFII)' ability"],
         "price_buy": 30000,
         "price_sell": 3000,
         "icon": "ability_127.png"
@@ -12672,12 +12672,12 @@
         "icon": "ability_5000001.png"
     },
     "504243866": {
-        "name": "↓フリクション",
+        "name": "【エレメント】↓フリクション",
         "compendium_id": 1496,
         "compendium_shown": true,
         "requirements": ["UNIT_ID", [345000307, 345000317]],
         "skills": [243866],
-        "effects": ["Grant '↓フリクション' passive"],
+        "effects": ["Grant '【エレメント】↓フリクション' passive"],
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_5000005.png"
@@ -12702,6 +12702,39 @@
         "effects": ["Grant '人喰らいの念' passive"],
         "price_buy": 200000,
         "price_sell": 20000,
+        "icon": "ability_79.png"
+    },
+    "504243870": {
+        "name": "クリスタルの導き",
+        "compendium_id": 1499,
+        "compendium_shown": true,
+        "requirements": [["RULE", 7203]],
+        "skills": [243870],
+        "effects": ["Grant 'クリスタルの導き' passive"],
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_79.png"
+    },
+    "504243876": {
+        "name": "封印されし知識",
+        "compendium_id": 1500,
+        "compendium_shown": true,
+        "requirements": null,
+        "skills": [243876],
+        "effects": ["Grant '封印されし知識' passive"],
+        "price_buy": 30000,
+        "price_sell": 3000,
+        "icon": "ability_79.png"
+    },
+    "504243877": {
+        "name": "封印されし秘術",
+        "compendium_id": 1501,
+        "compendium_shown": true,
+        "requirements": null,
+        "skills": [243877],
+        "effects": ["Grant '封印されし秘術' passive"],
+        "price_buy": 30000,
+        "price_sell": 3000,
         "icon": "ability_79.png"
     },
     "504400110": {
