@@ -1852,7 +1852,7 @@
         }
     },
     "100005601": {
-        "name": "傷心のライバル",
+        "name": "The Grief-Stricken Rival",
         "compendium_id": 102,
         "compendium_shown": true,
         "rarity": 1,
@@ -1882,15 +1882,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "イシェが模擬戦を挑もうとした相手は酒場にいた。酒瓶に埋もれ泥酔する、自暴自棄のタイヴァス。イシェはいつの日か、タイヴァスが立ち直ることを信じ、ふたりの決着をつける時が来るのを待ち続けている。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "傷心のライバル",
-            "music": "♪Unfettered Waltz",
+            "desc": "Yshe's would-be sparring partner, Taivas, is at the tavern once more, languishing neck-deep in a bottle. Even so, Yshe holds faith that the man she once knew will return, that the two might settle their score.",
+            "info": "Yshe's would-be sparring partner, Taivas, is at the tavern once more, languishing neck-deep in a bottle. Even so, Yshe holds faith that the man she once knew will return, that the two might settle their score.",
+            "shop": "The Grief-Stricken Rival",
+            "music": "Unfettered Waltz",
             "music_id": "400212"
         }
     },
     "100005701": {
-        "name": "イシェ隊の名にかけて",
+        "name": "In the Name of Yshe's Elites",
         "compendium_id": 103,
         "compendium_shown": true,
         "rarity": 1,
@@ -1918,10 +1918,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "カルとエルマティル、性格も戦い方も真逆の二人に共通するものは、イシェ隊長への敬意と部隊に対する誇りだ。イシェ隊の名にかけて任務は必ず遂行する。二人は、見事な連携で敵を追い詰めるのだった。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "イシェ隊の名にかけて",
-            "music": "♪Overcome the Menace",
+            "desc": "Despite their clashing personalities and fundamentally different fighting styles, Kall and Ilmatalle share a deep respect for Commander Yshe and pride for the unit she leads. The two of them can always be counted on to execute their mission in the name of Yshe's Elites; indeed, they display exemplary cooperation in felling this particular foe.",
+            "info": "Despite their clashing personalities and fundamentally different fighting styles, Kall and Ilmatalle share a deep respect for Commander Yshe and pride for the unit she leads. The two of them can always be counted on to execute their mission in the name of Yshe's Elites; indeed, they display exemplary cooperation in felling this particular foe.",
+            "shop": "In the Name of Yshe's Elites",
+            "music": "Overcome the Menace",
             "music_id": "400315"
         }
     },
@@ -2789,6 +2789,44 @@
             "shop": "A Love for All Time",
             "music": "Aria di Mezzo Carattere",
             "music_id": "4000000"
+        }
+    },
+    "206000401": {
+        "name": "運命のコイン",
+        "compendium_id": 138,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10006,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [65, 130, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243894],
+            "7": [243895],
+            "10": [243896]
+        },
+        "restriction": {
+            "243896": [7206, "発動条件：【FFVIユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "父が亡くなり、フィガロ王国の行く末を託されたエドガーとマッシュ。エドガーは、どちらがフィガロの王位を継承するかを、父の遺品であるコインを使って決めようと提案する。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "運命のコイン",
+            "music": "♪運命のコイン",
+            "music_id": "400893"
         }
     },
     "207000101": {
