@@ -2002,7 +2002,7 @@
         }
     },
     "100006001": {
-        "name": "新年の演武",
+        "name": "A Dynamic Demonstration",
         "compendium_id": 106,
         "compendium_shown": true,
         "rarity": 1,
@@ -2032,15 +2032,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "とある異界では年明けの宴で、各々が余興を披露する習わしがあるという。お互いに剣を交えることで、皆を楽しませようとするレインとラスウェルのビジョン。二人による勇壮な演武が幕を開ける。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "新年の演武",
-            "music": "♪MUSASABI",
+            "desc": "In one particular world, there exists a tradition wherein participants show off their talents at feasts for special occasions. To the delight of the guests, Rain's and Lasswell's visions decide to cross swords for their performance, putting on a bold show in the process.",
+            "info": "In one particular world, there exists a tradition wherein participants show off their talents at feasts for special occasions. To the delight of the guests, Rain's and Lasswell's visions decide to cross swords for their performance, putting on a bold show in the process.",
+            "shop": "A Dynamic Demonstration",
+            "music": "MUSASABI",
             "music_id": "400214"
         }
     },
     "100006101": {
-        "name": "蛇と魔人と",
+        "name": "The Serpent and the Sorceress",
         "compendium_id": 107,
         "compendium_shown": true,
         "rarity": 1,
@@ -2068,10 +2068,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "艶やかな着物を纏い、蛇と戯れる魔人フィーナのビジョン。とある異界では、蛇は神なる存在の遣いとして敬われることもあるという。だが、気位の高い聖蛇といえども、彼女に対しては素直に心を開くようだ。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "蛇と魔人と",
-            "music": "♪The Order of Pi",
+            "desc": "A vision of Dark Fina dressed in a glamorous kimono and holding a snake. In some worlds, snakes are revered as messengers of divine beings. However, even this noble, holy serpent seems to open its heart to her.",
+            "info": "A vision of Dark Fina dressed in a glamorous kimono and holding a snake. In some worlds, snakes are revered as messengers of divine beings. However, even this noble, holy serpent seems to open its heart to her.",
+            "shop": "The Serpent and the Sorceress",
+            "music": "The Order of Pi",
             "music_id": "400213"
         }
     },
@@ -4015,6 +4015,82 @@
             "shop": "A Part Is Better than Zero",
             "music": "Small Two of Pieces -Screeching Shards-",
             "music_id": "400725"
+        }
+    },
+    "331000201": {
+        "name": "魂の記憶",
+        "compendium_id": 139,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20024,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [65, 130, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243910],
+            "7": [243911],
+            "10": [243912]
+        },
+        "restriction": {
+            "243911,243912": [7263, "発動条件：【ゼノギアスユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "フェイが夢の中で見た光景のひとつ。聖母ソフィアと、彼女の肖像画を描く青年ラカンの記憶。昔のように『エリィ』と呼んでほしいと願う彼女を見つめながら、ラカンは肖像画の完成を恐れる自分に気がつく。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "魂の記憶",
+            "music": "♪遠い約束",
+            "music_id": "400750"
+        }
+    },
+    "331000301": {
+        "name": "シタンの覚悟",
+        "compendium_id": 140,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20024,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [65, 130, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243913],
+            "7": [243914],
+            "10": [243915]
+        },
+        "restriction": {
+            "243914,243915": [7263, "発動条件：【ゼノギアスユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "ソラリス潜入作戦前、かつて使っていた剣を、妻のユイから受け取るシタン。あまりにも強力な『ヒトを殺す技』である剣術の封印を解き、シタンはソラリスと戦う覚悟を決める。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "シタンの覚悟",
+            "music": "♪盗めない宝石",
+            "music_id": "400749"
         }
     },
     "335000101": {
