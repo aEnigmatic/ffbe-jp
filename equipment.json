@@ -12894,6 +12894,37 @@
         "price_sell": 7500,
         "icon": "item_2020064.png"
     },
+    "303013300": {
+        "name": "ツヴィリングスヴァード",
+        "compendium_id": 2921,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [243941, 243942],
+        "effects": ["Grant '伝説を呼び覚ます刃' passive", "Grant '剣に込められた想い' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 220,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_2030041.png"
+    },
     "304000100": {
         "name": "虎鉄",
         "compendium_id": 21,
@@ -16399,7 +16430,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [243507],
-        "effects": ["Grant '慶賀の撃剣Lv2' passive"],
+        "effects": ["Grant 'Blade of Celebration+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -20381,7 +20412,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [243401, 243500],
-        "effects": ["Grant 'HP +100%' passive", "Grant '一筆入魂！！' passive"],
+        "effects": ["Grant 'HP +100%' passive", "Grant 'All in one stroke!' passive"],
         "stats": {
             "HP": 5000,
             "MP": 0,
@@ -37664,6 +37695,37 @@
         "price_sell": 24000,
         "icon": "item_11455.png"
     },
+    "313010800": {
+        "name": "ルンドブラスター",
+        "compendium_id": 2922,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 14,
+        "type": "Gun",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": [1.1, 1.2],
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [243943],
+        "effects": ["Grant '対強襲防御フィールド' ability"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 160,
+            "MAG": 0,
+            "SPR": 160,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 60000,
+        "price_sell": 6000,
+        "icon": "item_2140026.png"
+    },
     "314000200": {
         "name": "レザーウィップ",
         "compendium_id": 92,
@@ -40657,7 +40719,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [243401, 243501],
-        "effects": ["Grant 'HP +100%' passive", "Grant 'オメガ退散祈願' passive"],
+        "effects": ["Grant 'HP +100%' passive", "Grant 'Omega Dispersal Prayer' passive"],
         "stats": {
             "HP": 5000,
             "MP": 0,
@@ -59099,7 +59161,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243505],
-        "effects": ["Grant '霊鈴の音色Lv1' passive"],
+        "effects": ["Grant 'Soul Bell's Timbre' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -59130,7 +59192,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243506],
-        "effects": ["Grant '霊鈴の音色Lv2' passive"],
+        "effects": ["Grant 'Soul Bell's Timbre+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -86851,7 +86913,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243503],
-        "effects": ["Grant 'ハッピーなご利益Lv1' passive"],
+        "effects": ["Grant 'A Happy Blessing' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -86882,7 +86944,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243504],
-        "effects": ["Grant 'ハッピーなご利益Lv2' passive"],
+        "effects": ["Grant 'A Happy Blessing+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -86913,7 +86975,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243514],
-        "effects": ["Grant '寝殿を目指す者Lv2' passive"],
+        "effects": ["Grant 'Aiming for the Palace+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
