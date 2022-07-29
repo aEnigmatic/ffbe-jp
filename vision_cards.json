@@ -2114,7 +2114,7 @@
         }
     },
     "100006401": {
-        "name": "ウィガール承認！",
+        "name": "Wygars Approved!",
         "compendium_id": 116,
         "compendium_shown": true,
         "rarity": 1,
@@ -2142,10 +2142,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "カレドヴルフ第１部隊の切り札、ウィガール。超越の証を原動力とする機械の鎧。その力は絶大であり、多くの被害を出したオメガ種をたやすく制圧することができるという。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "ウィガール承認！",
-            "music": "♪United We Stand",
+            "desc": "The trump card of Caledfwlch's Unit 1, the Wygars—mechanical armor powered by the mark of transcendence. Their strength is immense and is said to easily crush destructive Omega spawn.",
+            "info": "The trump card of Caledfwlch's Unit 1, the Wygars—mechanical armor powered by the mark of transcendence. Their strength is immense and is said to easily crush destructive Omega spawn.",
+            "shop": "Wygars Approved!",
+            "music": "United We Stand",
             "music_id": "400102"
         }
     },
@@ -3083,6 +3083,80 @@
             "shop": "A Touching Reunion",
             "music": "Those Chosen by the Planet",
             "music_id": "401051"
+        }
+    },
+    "207001201": {
+        "name": "VSルーファウス神羅",
+        "compendium_id": 142,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10007,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [150, 150, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [243984, 243985, 243986]
+        },
+        "restriction": {
+            "243986": [4008, "発動条件：【FFVIIユニット】"]
+        },
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "神羅ビルの屋上で、ルーファウス神羅と対峙するクラウド。仲間たちを脱出させるため、1人で戦うことを選ぶ。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "VSルーファウス神羅",
+            "music": "♪ルーファウス神羅",
+            "music_id": "400994"
+        }
+    },
+    "207001301": {
+        "name": "アバランチの死闘",
+        "compendium_id": 143,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10007,
+        "unit_type": 0,
+        "stats": {
+            "HP": [500, 1000, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [50, 100, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [243987],
+            "7": [243988],
+            "10": [243989]
+        },
+        "restriction": {
+            "243988,243989": [7112, "発動条件：【物防ユニット】"]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "七番街支柱の最上階で、タークスと戦うバレットたち。プレート解放システムを起動されれば、七番街スラムは落下したプレートによって押しつぶされてしまう。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "アバランチの死闘",
+            "music": "♪機械塔の決戦",
+            "music_id": "4000711"
         }
     },
     "208000101": {
