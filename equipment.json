@@ -8615,7 +8615,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243657],
-        "effects": ["Grant '黒鉄色の剣' passive"],
+        "effects": ["Grant 'Darksteel Blade' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -8708,7 +8708,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [221620, 243658],
-        "effects": ["Grant 'Dagger Cycle' passive", "Grant '主への忠誠Lv1' passive"],
+        "effects": ["Grant 'Dagger Cycle' passive", "Grant 'Loyalty to One's Master' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -8739,7 +8739,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [221620, 243659],
-        "effects": ["Grant 'Dagger Cycle' passive", "Grant '主への忠誠Lv2' passive"],
+        "effects": ["Grant 'Dagger Cycle' passive", "Grant 'Loyalty to One's Master+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -26226,7 +26226,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [108206, 110510],
-        "effects": ["Grant '物理回避アップ：35%' passive", "Grant 'Chain Master' passive"],
+        "effects": ["Grant 'Physical Evasion +35%' passive", "Grant 'Chain Master' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -50638,7 +50638,7 @@
             [100037407, 100037417]
         ],
         "skills": [243594],
-        "effects": ["Grant 'タイヴァス、標的補足！' ability"],
+        "effects": ["Grant 'Acquiring Target, Taivas!' ability"],
         "stats": {
             "HP": 1500,
             "MP": 0,
@@ -50672,7 +50672,7 @@
             [100037407, 100037417]
         ],
         "skills": [243595, 243604, 243605],
-        "effects": ["Grant 'ターゲット解析開始' ability", "Grant '戦闘プラン演算中……' ability", "Grant '演算完了、いくぞタイヴァス！' ability"],
+        "effects": ["Grant 'Commencing Target Analysis...' ability", "Grant 'Formulating Battle Plan...' ability", "Grant 'Strategization Complete. Ready, Taivas!' ability"],
         "stats": {
             "HP": 1500,
             "MP": 0,
@@ -50737,7 +50737,11 @@
             [100037507, 100037517]
         ],
         "skills": [243670, 243671, 151100],
-        "effects": ["Grant 'MPアップ：200%' passive", "Grant 'MP消費軽減50%' passive", "Grant 'F.エレメンタルパワー' ability"],
+        "effects": [
+            "Grant 'MP +200%' passive",
+            "Grant 'Reduce MP Cost: 50%' passive",
+            "Grant 'Elemental Power - Fire' ability"
+        ],
         "stats": {
             "HP": 0,
             "MP": 100,
@@ -59786,7 +59790,7 @@
         "accuracy": 0,
         "requirements": ["RULE", 7116],
         "skills": [243650, 243651],
-        "effects": ["Grant '自由への憧れ' passive", "Grant '旅路で見つけた目標' passive"],
+        "effects": ["Grant 'Aspiration for Freedom' passive", "Grant 'A Goal Found on a Journey' passive"],
         "stats": {
             "HP": 1500,
             "MP": 0,
@@ -59820,7 +59824,7 @@
             [212001204, 212001227]
         ],
         "skills": [243656],
-        "effects": ["Grant '野心家の衣Lv1' passive"],
+        "effects": ["Grant 'High-Flier's Garments' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -59854,7 +59858,7 @@
             [212001204, 212001227]
         ],
         "skills": [243656],
-        "effects": ["Grant '野心家の衣Lv1' passive"],
+        "effects": ["Grant 'High-Flier's Garments' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -59888,7 +59892,7 @@
             [212001204, 212001227]
         ],
         "skills": [243664],
-        "effects": ["Grant '野心家の衣Lv2' passive"],
+        "effects": ["Grant 'High-Flier's Garments+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -60709,6 +60713,37 @@
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "item_2170097.png"
+    },
+    "405024800": {
+        "name": "フィーナの水着2022",
+        "compendium_id": 2958,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": ["SEX", 2],
+        "skills": [227920],
+        "effects": ["Grant 'Spirit Killer+' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 60,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2170111.png"
     },
     "406000100": {
         "name": "レザープレート",
@@ -87934,7 +87969,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243596, 243597],
-        "effects": ["Grant '少女を守る勇気' passive", "Grant '森の精の援護' ability"],
+        "effects": ["Grant 'The Courage to Protect Her' passive", "Grant 'Support of the Forest Spirits' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -88120,7 +88155,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243660],
-        "effects": ["Grant '絆を深める指輪' passive"],
+        "effects": ["Grant 'Ring of Solidarity' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -90221,5 +90256,71 @@
         "price_buy": 50000,
         "price_sell": 5000,
         "icon": "item_2250224.png"
+    },
+    "409074200": {
+        "name": "フィーナのサマーパーカー",
+        "compendium_id": 2959,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [244020, 244021],
+        "effects": ["Grant '夏の必須アイテム' passive", "Grant 'お気に入りの猫耳フード' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 80,
+            "SPR": 0,
+            "element_resist": {
+                "Fire": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2250239.png"
+    },
+    "409074300": {
+        "name": "ルンドサブマリン",
+        "compendium_id": 2960,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [244023, 244024],
+        "effects": ["Grant 'エルムント式アクティビティ' passive", "Grant '水中航行用外部ユニット' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 75,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Water": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2250240.png"
     }
 }
