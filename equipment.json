@@ -9097,6 +9097,37 @@
         "price_sell": 10000,
         "icon": "item_2020066.png"
     },
+    "302020900": {
+        "name": "ギルガメッシュの剣(FFV)",
+        "compendium_id": 2970,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 2,
+        "type": "Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": [1.05, 1.25],
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [101040, 244071],
+        "effects": ["Grant 'Man-Eater' passive", "Grant '漢の豪剣' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 182,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2020067.png"
+    },
     "303000100": {
         "name": "グレートソード",
         "compendium_id": 16,
@@ -16571,6 +16602,37 @@
         "price_sell": 0,
         "icon": "item_2040038.png"
     },
+    "304012000": {
+        "name": "阿修羅(FFV)",
+        "compendium_id": 2974,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 4,
+        "type": "Katana",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [108201],
+        "effects": ["Grant 'Physical Evasion +10%' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 160,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 70000,
+        "price_sell": 7000,
+        "icon": "item_2040039.png"
+    },
     "304020100": {
         "name": "阿修羅",
         "compendium_id": 26,
@@ -22555,7 +22617,7 @@
         "accuracy": 0,
         "requirements": [
             "UNIT_ID",
-            [205000805, 205000827]
+            [205000805, 205000827, 205002007, 205002017]
         ],
         "skills": [239434],
         "effects": ["Grant 'Hero's Spear' passive"],
@@ -22589,7 +22651,7 @@
         "accuracy": 0,
         "requirements": [
             "UNIT_ID",
-            [205000805, 205000827]
+            [205000805, 205000827, 205002007, 205002017]
         ],
         "skills": [239435],
         "effects": ["Grant 'Hero's Spear+' passive"],
@@ -22623,7 +22685,7 @@
         "accuracy": 0,
         "requirements": [
             "UNIT_ID",
-            [205000805, 205000827]
+            [205000805, 205000827, 205002007, 205002017]
         ],
         "skills": [239436, 239439],
         "effects": ["Grant 'Hero's Spear++' passive", "Grant 'Enkidu, let's return the trouble!' ability"],
@@ -23597,7 +23659,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243748],
-        "effects": ["Grant '木星の力+' passive"],
+        "effects": ["Grant 'Power of Saturn+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -23628,7 +23690,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243748, 243750],
-        "effects": ["Grant '木星の力+' passive", "Grant '誇り高き者の剛槍' passive"],
+        "effects": ["Grant 'Power of Saturn+' passive", "Grant 'Proud Ronso's Lance' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -23659,7 +23721,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243749, 243751],
-        "effects": ["Grant '木星の力++' passive", "Grant '誇り高き者の剛槍+' passive"],
+        "effects": ["Grant 'Power of Saturn++' passive", "Grant 'Proud Ronso's Lance+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -23690,7 +23752,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [243749, 243751],
-        "effects": ["Grant '木星の力++' passive", "Grant '誇り高き者の剛槍+' passive"],
+        "effects": ["Grant 'Power of Saturn++' passive", "Grant 'Proud Ronso's Lance+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -23830,6 +23892,37 @@
         "price_buy": 160000,
         "price_sell": 16000,
         "icon": "item_2100015.png"
+    },
+    "308011400": {
+        "name": "エアロピニオン",
+        "compendium_id": 2977,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 10,
+        "type": "Spear",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [108121, 244085],
+        "effects": ["Grant 'Bird Killer+ I' passive", "Grant '疾空の撃槍' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 235,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 320000,
+        "price_sell": 32000,
+        "icon": "item_2100035.png"
     },
     "309000300": {
         "name": "ミスリルクロー",
@@ -33414,7 +33507,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [243712],
-        "effects": ["Grant 'グアド族の叡智' passive"],
+        "effects": ["Grant 'Wisdom of the Guado' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -38816,8 +38909,8 @@
         "dmg_variance": [1.3, 1.7],
         "accuracy": 50,
         "requirements": null,
-        "skills": null,
-        "effects": null,
+        "skills": [244080],
+        "effects": ["Grant 'モルボルとの連携攻撃' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -50927,7 +51020,7 @@
         "accuracy": 0,
         "requirements": ["RULE", 7112],
         "skills": [243711],
-        "effects": ["Grant '不器用な父親' passive"],
+        "effects": ["Grant 'Heavy-Handed Father' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -52104,10 +52197,10 @@
         "stats": {
             "HP": 0,
             "MP": 0,
-            "ATK": 45,
-            "DEF": 15,
+            "ATK": 55,
+            "DEF": 25,
             "MAG": 0,
-            "SPR": 2,
+            "SPR": 12,
             "element_resist": {
                 "Dark": 30
             },
@@ -60140,7 +60233,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243763],
-        "effects": ["Grant '魔力+80%' passive"],
+        "effects": ["Grant 'MAG +80%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -60171,7 +60264,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243753],
-        "effects": ["Grant 'アルベドの泳法' passive"],
+        "effects": ["Grant 'Al Bhed Aquatics' passive"],
         "stats": {
             "HP": 300,
             "MP": 0,
@@ -60202,7 +60295,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243753],
-        "effects": ["Grant 'アルベドの泳法' passive"],
+        "effects": ["Grant 'Al Bhed Aquatics' passive"],
         "stats": {
             "HP": 500,
             "MP": 0,
@@ -60233,7 +60326,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243753],
-        "effects": ["Grant 'アルベドの泳法' passive"],
+        "effects": ["Grant 'Al Bhed Aquatics' passive"],
         "stats": {
             "HP": 700,
             "MP": 0,
@@ -60264,7 +60357,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243753],
-        "effects": ["Grant 'アルベドの泳法' passive"],
+        "effects": ["Grant 'Al Bhed Aquatics' passive"],
         "stats": {
             "HP": 1000,
             "MP": 0,
@@ -60295,7 +60388,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243753],
-        "effects": ["Grant 'アルベドの泳法' passive"],
+        "effects": ["Grant 'Al Bhed Aquatics' passive"],
         "stats": {
             "HP": 1500,
             "MP": 0,
@@ -63322,6 +63415,37 @@
         "price_sell": 6000,
         "icon": "item_2180018.png"
     },
+    "406007500": {
+        "name": "ケルガーの鎧(FFV)",
+        "compendium_id": 2972,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 51,
+        "type": "Light Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [108202],
+        "effects": ["Grant 'Physical Evasion +15%' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 60,
+            "DEF": 28,
+            "MAG": 0,
+            "SPR": 21,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 120000,
+        "price_sell": 12000,
+        "icon": "item_2190016.png"
+    },
     "407000200": {
         "name": "ブロンズアーマー",
         "compendium_id": 166,
@@ -65487,6 +65611,37 @@
         "price_buy": 300000,
         "price_sell": 30000,
         "icon": "item_20337.png"
+    },
+    "407007300": {
+        "name": "嵐竜の鎧",
+        "compendium_id": 2976,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 52,
+        "type": "Heavy Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [101460, 244084],
+        "effects": ["Grant 'High Jump' passive", "Grant '竜騎士の戦技' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 52,
+            "DEF": 37,
+            "MAG": 0,
+            "SPR": 24,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 150000,
+        "price_sell": 15000,
+        "icon": "item_2180022.png"
     },
     "408000100": {
         "name": "木綿のローブ",
@@ -67807,7 +67962,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243715],
-        "effects": ["Grant 'グアド族の神秘' passive"],
+        "effects": ["Grant 'Secret of the Guado' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -67854,6 +68009,37 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_2170109.png"
+    },
+    "408007500": {
+        "name": "大地の衣(FFV)",
+        "compendium_id": 2975,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 53,
+        "type": "Robe",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 24,
+            "MAG": 43,
+            "SPR": 57,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2200016.png"
     },
     "409000100": {
         "name": "鉄の篭手",
@@ -88532,7 +88718,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243716],
-        "effects": ["Grant '迷わぬ決意の指輪' passive"],
+        "effects": ["Grant 'Ring of Unshakeable Will' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -88567,7 +88753,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [101460, 243733],
-        "effects": ["Grant 'High Jump' passive", "Grant 'ロンゾの飛翔技' passive"],
+        "effects": ["Grant 'High Jump' passive", "Grant 'Leap of the Ronso' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -88629,7 +88815,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243747],
-        "effects": ["Grant 'ブリッツボーラーの気勢' passive"],
+        "effects": ["Grant 'Blitzballer's Momentum' passive"],
         "stats": {
             "HP": 300,
             "MP": 0,
@@ -88662,7 +88848,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243747],
-        "effects": ["Grant 'ブリッツボーラーの気勢' passive"],
+        "effects": ["Grant 'Blitzballer's Momentum' passive"],
         "stats": {
             "HP": 700,
             "MP": 0,
@@ -88695,7 +88881,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243747],
-        "effects": ["Grant 'ブリッツボーラーの気勢' passive"],
+        "effects": ["Grant 'Blitzballer's Momentum' passive"],
         "stats": {
             "HP": 1100,
             "MP": 0,
@@ -88728,7 +88914,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243747],
-        "effects": ["Grant 'ブリッツボーラーの気勢' passive"],
+        "effects": ["Grant 'Blitzballer's Momentum' passive"],
         "stats": {
             "HP": 1500,
             "MP": 0,
@@ -88761,7 +88947,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243752],
-        "effects": ["Grant 'ブリッツボーラーの読み' passive"],
+        "effects": ["Grant 'Blitzballer's Deduction' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -88792,7 +88978,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243752],
-        "effects": ["Grant 'ブリッツボーラーの読み' passive"],
+        "effects": ["Grant 'Blitzballer's Deduction' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -88823,7 +89009,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243752],
-        "effects": ["Grant 'ブリッツボーラーの読み' passive"],
+        "effects": ["Grant 'Blitzballer's Deduction' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -88854,7 +89040,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243752],
-        "effects": ["Grant 'ブリッツボーラーの読み' passive"],
+        "effects": ["Grant 'Blitzballer's Deduction' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -88885,7 +89071,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243752],
-        "effects": ["Grant 'ブリッツボーラーの読み' passive"],
+        "effects": ["Grant 'Blitzballer's Deduction' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -88916,7 +89102,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243754],
-        "effects": ["Grant '妖しき魔力放つ指輪' passive"],
+        "effects": ["Grant 'Ring of Mystic Energy' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -88951,7 +89137,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243754],
-        "effects": ["Grant '妖しき魔力放つ指輪' passive"],
+        "effects": ["Grant 'Ring of Mystic Energy' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -88986,7 +89172,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243754],
-        "effects": ["Grant '妖しき魔力放つ指輪' passive"],
+        "effects": ["Grant 'Ring of Mystic Energy' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -89021,7 +89207,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243754],
-        "effects": ["Grant '妖しき魔力放つ指輪' passive"],
+        "effects": ["Grant 'Ring of Mystic Energy' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -89056,7 +89242,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243754],
-        "effects": ["Grant '妖しき魔力放つ指輪' passive"],
+        "effects": ["Grant 'Ring of Mystic Energy' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -89249,7 +89435,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [107010, 243720, 242202],
-        "effects": ["Grant 'LB Damage +50%' passive", "Grant '祈り子の祝福Lv2' ability", "Grant 'Whistle Promise' passive"],
+        "effects": ["Grant 'LB Damage +50%' passive", "Grant 'Hymn of the Fayth+' ability", "Grant 'Whistle Promise' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -89280,7 +89466,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [100030, 100060, 243758, 243759, 243763, 243760, 243761],
-        "effects": ["Grant 'HP +30%' passive", "Grant 'MP +30%' passive", "Grant '攻撃+80%' passive", "Grant '防御+80%' passive", "Grant '魔力+80%' passive", "Grant '精神+80%' passive", "Grant '超越者の英姿' passive"],
+        "effects": ["Grant 'HP +30%' passive", "Grant 'MP +30%' passive", "Grant '攻撃+80%' passive", "Grant '防御+80%' passive", "Grant 'MAG +80%' passive", "Grant '精神+80%' passive", "Grant '超越者の英姿' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -90601,5 +90787,67 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2250240.png"
+    },
+    "409074400": {
+        "name": "ギルガメッシュの頭巾(FFV)",
+        "compendium_id": 2971,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [108112, 244070],
+        "effects": ["Grant 'Maneater+ I' passive", "Grant '親衛隊長の赤頭巾' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 81,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2210056.png"
+    },
+    "409074500": {
+        "name": "ケルガーのマント(FFV)",
+        "compendium_id": 2973,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [244073, 244074],
+        "effects": ["Grant 'ウェアウルフ族長の外套' passive", "Grant '猛々しきウェアウルフ族の力' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 65,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2250238.png"
     }
 }

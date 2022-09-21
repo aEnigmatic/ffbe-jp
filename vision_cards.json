@@ -2262,6 +2262,42 @@
             "music_id": "400312"
         }
     },
+    "100006901": {
+        "name": "私たちは家族に",
+        "compendium_id": 150,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [65, 130, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [244081],
+            "7": [244082],
+            "10": [244083]
+        },
+        "restriction": null,
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "三闘星のイーゴが敗れ、モルボルの体内から生還したミド。彼女は倒れるイーゴに手を差し伸べる。「過去の孤独は消えない。けど癒すことはできる」――ミドたちの言葉に、イーゴは共に歩むことを決意する。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "私たちは家族に",
+            "music": "♪Moment of Recall",
+            "music_id": "400003"
+        }
+    },
     "201000101": {
         "name": "And So Their Quest Began",
         "compendium_id": 100,
@@ -2830,6 +2866,45 @@
             "shop": "この命　燃えつきても！",
             "music": "♪決戦",
             "music_id": "4000803"
+        }
+    },
+    "205000601": {
+        "name": "ビッグブリッジの死闘",
+        "compendium_id": 149,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10005,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [50, 100, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [244075],
+            "7": [244076],
+            "10": [244077]
+        },
+        "restriction": {
+            "244076": [7116],
+            "244077": [7116]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "エクスデス城から脱出したバッツたちを、ビッグブリッジで待ち伏せしていたギルガメッシュ。「来なかったらどうしようかと不安になりながら扉の裏で待っていた」と、ギルガメッシュは心情を吐露する。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "ビッグブリッジの死闘",
+            "music": "♪ビッグブリッヂの死闘",
+            "music_id": "400817"
         }
     },
     "206000101": {
@@ -3684,7 +3759,7 @@
         }
     },
     "210000601": {
-        "name": "ジェクトシュート",
+        "name": "Jecht Shot",
         "compendium_id": 126,
         "compendium_shown": true,
         "rarity": 1,
@@ -3710,15 +3785,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "まだ小さかった頃のティーダと、父親のジェクト。ジェクトシュートを失敗するティーダの前で、ジェクトが成功例を披露する。ティーダにとって、忘れられない『あの日の思い出』だ。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "ジェクトシュート",
-            "music": "♪ジェクトのテーマ",
+            "desc": "After a young Tidus failed at replicating his father's famous Jecht Shot maneuver, Jecht himself shows him how it's done. This is one memory Tidus will never forget.",
+            "info": "After a young Tidus failed at replicating his father's famous Jecht Shot maneuver, Jecht himself shows him how it's done. This is one memory Tidus will never forget.",
+            "shop": "Jecht Shot",
+            "music": "Jecht's Theme",
             "music_id": "4000306"
         }
     },
     "210000701": {
-        "name": "キマリは通さない",
+        "name": "Kimahri not pass!",
         "compendium_id": 127,
         "compendium_shown": true,
         "rarity": 1,
@@ -3746,10 +3821,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "ロンゾ族の霊峰・ガガゼト山を越えようとするユウナ一行の前に、ビランとエンケが立ちふさがる。一族と山を捨てた弱者は通さないと言う彼らに、キマリは単身立ち向かう。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "キマリは通さない",
-            "music": "♪極北の民",
+            "desc": "Biran and Yenke stand between Yuna's party and Mt. Gagazet, the Ronso's sacred mountain. They declare that Kimahri, who abandoned his people and his mountain, is not allowed to pass. Kimahri now faces them alone, that he might reclaim his honor.",
+            "info": "Biran and Yenke stand between Yuna's party and Mt. Gagazet, the Ronso's sacred mountain. They declare that Kimahri, who abandoned his people and his mountain, is not allowed to pass. Kimahri now faces them alone, that he might reclaim his honor.",
+            "shop": "Kimahri not pass!",
+            "music": "Servants of the Mountain",
             "music_id": "400855"
         }
     },
