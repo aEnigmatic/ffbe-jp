@@ -2546,7 +2546,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [243791, 240431],
-        "effects": ["Grant '最強の盗賊刀' passive", "Grant 'Desire to Live+' passive"],
+        "effects": ["Grant 'Strongest Thief Sword' passive", "Grant 'Desire to Live+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -10259,12 +10259,12 @@
         "dmg_variance": [1, 1.3],
         "accuracy": 0,
         "requirements": null,
-        "skills": null,
-        "effects": null,
+        "skills": [1170000],
+        "effects": ["Grant '堂々たる武威' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
-            "ATK": 170,
+            "ATK": 190,
             "DEF": 20,
             "MAG": 0,
             "SPR": 20,
@@ -12722,7 +12722,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [232865, 243771],
-        "effects": ["Grant 'Mysterious Swordswoman' passive", "Grant '過去との対面' passive"],
+        "effects": ["Grant 'Mysterious Swordswoman' passive", "Grant 'Facing Her Past' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -12753,7 +12753,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [232865, 243771],
-        "effects": ["Grant 'Mysterious Swordswoman' passive", "Grant '過去との対面' passive"],
+        "effects": ["Grant 'Mysterious Swordswoman' passive", "Grant 'Facing Her Past' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -13048,6 +13048,37 @@
         "price_buy": 75000,
         "price_sell": 7500,
         "icon": "item_10353.png"
+    },
+    "303013500": {
+        "name": "デナイアル・オブ・ドミナンス",
+        "compendium_id": 2979,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [108112, 244091],
+        "effects": ["Grant 'Maneater+ I' passive", "Grant '限りなき復讐心' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 220,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_2030042.png"
     },
     "304000100": {
         "name": "虎鉄",
@@ -26536,7 +26567,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [227920, 243785],
-        "effects": ["Grant 'Spirit Killer+' passive", "Grant '孤高の拳' passive"],
+        "effects": ["Grant 'Spirit Killer+' passive", "Grant 'Way of the Fist (FFIX)' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -28121,8 +28152,8 @@
         "dmg_variance": [1.1, 1.2],
         "accuracy": 0,
         "requirements": null,
-        "skills": [241702],
-        "effects": ["Grant 'Lunar Ice Magic' passive"],
+        "skills": [241702, 1171000],
+        "effects": ["Grant 'Lunar Ice Magic' passive", "Grant '永遠の魔女の叡智' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -30881,7 +30912,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243790],
-        "effects": ["Grant '破壊の衝動' passive"],
+        "effects": ["Grant 'Destroyer's Impulse' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -30912,7 +30943,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [243790],
-        "effects": ["Grant '破壊の衝動' passive"],
+        "effects": ["Grant 'Destroyer's Impulse' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -38379,6 +38410,37 @@
         "price_buy": 240000,
         "price_sell": 24000,
         "icon": "item_2140030.png"
+    },
+    "313011000": {
+        "name": "ガナー・マニピュレータ",
+        "compendium_id": 2981,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 14,
+        "type": "Gun",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.35, 1.75],
+        "accuracy": 70,
+        "requirements": null,
+        "skills": [244093, 244094],
+        "effects": ["Grant '最新鋭の魔導砲' passive", "Grant '次世代の魔導アーマー' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 242,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 240000,
+        "price_sell": 24000,
+        "icon": "item_2140031.png"
     },
     "314000200": {
         "name": "レザーウィップ",
@@ -47891,9 +47953,9 @@
         "stats": {
             "HP": 0,
             "MP": 0,
-            "ATK": 60,
+            "ATK": 80,
             "DEF": 29,
-            "MAG": 60,
+            "MAG": 80,
             "SPR": 0,
             "element_resist": null,
             "element_inflict": null,
@@ -60459,7 +60521,7 @@
         "accuracy": 0,
         "requirements": ["SEX", 2],
         "skills": [243770],
-        "effects": ["Grant '猛る闘争心' passive"],
+        "effects": ["Grant 'Fierce Fighting Spirit' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -60521,7 +60583,7 @@
         "accuracy": 0,
         "requirements": ["SEX", 1],
         "skills": [243784],
-        "effects": ["Grant '戦乱をもたらす死神' passive"],
+        "effects": ["Grant 'Warbringing Angel of Death' passive"],
         "stats": {
             "HP": 0,
             "MP": 200,
@@ -60552,7 +60614,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243789],
-        "effects": ["Grant 'テラの技術力Lv2' passive"],
+        "effects": ["Grant 'Terra's Technology+' passive"],
         "stats": {
             "HP": 10,
             "MP": 10,
@@ -61085,6 +61147,37 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2170110.png"
+    },
+    "405025100": {
+        "name": "ロカのパイロットスーツ",
+        "compendium_id": 2980,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [241349, 244092],
+        "effects": ["Grant 'Null Stop' passive", "Grant 'テスト用の特別スーツ' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 20,
+            "MAG": 60,
+            "SPR": 33,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2170116.png"
     },
     "406000100": {
         "name": "レザープレート",
@@ -65642,6 +65735,37 @@
         "price_buy": 150000,
         "price_sell": 15000,
         "icon": "item_2180022.png"
+    },
+    "407007400": {
+        "name": "常闇の鎧【戎装】",
+        "compendium_id": 2978,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 52,
+        "type": "Heavy Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [211360],
+        "effects": ["Grant 'Dragon Killer+' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 60,
+            "DEF": 50,
+            "MAG": 0,
+            "SPR": 45,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 150000,
+        "price_sell": 15000,
+        "icon": "item_2190018.png"
     },
     "408000100": {
         "name": "木綿のローブ",
@@ -89280,7 +89404,7 @@
             [100037307, 100037317]
         ],
         "skills": [243756, 243757],
-        "effects": ["Grant 'ヒーローの闘志' passive", "Grant 'ヨルド・スパルキ' ability"],
+        "effects": ["Grant 'Hero's Valor' passive", "Grant 'Jord Kicks' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -89693,7 +89817,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243781, 243782],
-        "effects": ["Grant 'あの日の記憶' passive", "Grant '輝く勇気' passive"],
+        "effects": ["Grant 'Distant Memory' passive", "Grant 'Layers of Harmony' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -89724,7 +89848,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243783],
-        "effects": ["Grant '欲望の足音' passive"],
+        "effects": ["Grant 'Approaching Desire' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -89755,7 +89879,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243788],
-        "effects": ["Grant 'オーディンの加護' passive"],
+        "effects": ["Grant 'Odin's Protection' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
