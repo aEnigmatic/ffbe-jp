@@ -8925,7 +8925,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [100185, 243829],
-        "effects": ["Grant 'SPR +40%' passive", "Grant 'パラディンの聖なる剣Lv1' passive"],
+        "effects": ["Grant 'SPR +40%' passive", "Grant 'Holy Paladin Sword' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -8956,7 +8956,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [206890, 243830],
-        "effects": ["Grant 'SPR +50%' passive", "Grant 'パラディンの聖なる剣Lv2' passive"],
+        "effects": ["Grant 'SPR +50%' passive", "Grant 'Holy Paladin Sword+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -12815,7 +12815,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [108127, 243835],
-        "effects": ["Grant 'Machine Killer+ I' passive", "Grant '守り抜く決意Lv2' passive"],
+        "effects": ["Grant 'Machine Killer+ I' passive", "Grant 'Resolve to Protect+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -12908,7 +12908,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203260, 243827],
-        "effects": ["Grant 'Man-Eater+' passive", "Grant 'ファブールに伝わる暗黒剣Lv1' passive"],
+        "effects": ["Grant 'Man-Eater+' passive", "Grant 'Legendary Dark Sword of Fabul' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -12939,7 +12939,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203260, 243828],
-        "effects": ["Grant 'Man-Eater+' passive", "Grant 'ファブールに伝わる暗黒剣Lv2' passive"],
+        "effects": ["Grant 'Man-Eater+' passive", "Grant 'Legendary Dark Sword of Fabul+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -12970,7 +12970,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [203260, 243828],
-        "effects": ["Grant 'Man-Eater+' passive", "Grant 'ファブールに伝わる暗黒剣Lv2' passive"],
+        "effects": ["Grant 'Man-Eater+' passive", "Grant 'Legendary Dark Sword of Fabul+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -16725,6 +16725,37 @@
         "price_buy": 140000,
         "price_sell": 14000,
         "icon": "item_2040040.png"
+    },
+    "304012200": {
+        "name": "氷刃",
+        "compendium_id": 2990,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 4,
+        "type": "Katana",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": [1.05, 1.25],
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [244121, 244122],
+        "effects": ["Grant '冷たき闘気の魔刀' passive", "Grant 'ヴェリアスの刀術' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 240,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 280000,
+        "price_sell": 28000,
+        "icon": "item_2040041.png"
     },
     "304020100": {
         "name": "阿修羅",
@@ -24016,6 +24047,37 @@
         "price_buy": 320000,
         "price_sell": 32000,
         "icon": "item_2100035.png"
+    },
+    "308011500": {
+        "name": "トランスリーパー",
+        "compendium_id": 2991,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 10,
+        "type": "Spear",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": [1, 1.3],
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [244123],
+        "effects": ["Grant '魔力フィードバックシステム' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 78,
+            "DEF": 0,
+            "MAG": 170,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 160000,
+        "price_sell": 16000,
+        "icon": "item_2100036.png"
     },
     "309000300": {
         "name": "ミスリルクロー",
@@ -35514,6 +35576,37 @@
         "price_sell": 26000,
         "icon": "item_2070020.png"
     },
+    "312006600": {
+        "name": "迅雷",
+        "compendium_id": 2992,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 7,
+        "type": "Bow",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.35, 1.85],
+        "accuracy": 70,
+        "requirements": null,
+        "skills": [244124, 244125],
+        "effects": ["Grant '魔を滅する一矢' passive", "Grant 'ヴェリアスの弓術' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 106,
+            "DEF": 0,
+            "MAG": 220,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 260000,
+        "price_sell": 26000,
+        "icon": "item_2070021.png"
+    },
     "313000400": {
         "name": "アルタイル",
         "compendium_id": 85,
@@ -38329,7 +38422,7 @@
         "accuracy": 70,
         "requirements": null,
         "skills": [243730],
-        "effects": ["Grant '超火力の必殺武器' passive"],
+        "effects": ["Grant 'An Explosive Secret Weapon' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -60831,7 +60924,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243813],
-        "effects": ["Grant '魔力回生ユニット' passive"],
+        "effects": ["Grant 'Magic Regenerator' passive"],
         "stats": {
             "HP": 0,
             "MP": 46,
@@ -60865,7 +60958,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243814],
-        "effects": ["Grant '魔力回生ユニット+' passive"],
+        "effects": ["Grant 'Magic Regenerator+' passive"],
         "stats": {
             "HP": 0,
             "MP": 53,
@@ -60899,7 +60992,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243815],
-        "effects": ["Grant '魔力回生ユニット++' passive"],
+        "effects": ["Grant 'Magic Regenerator++' passive"],
         "stats": {
             "HP": 0,
             "MP": 58,
@@ -60933,7 +61026,7 @@
         "accuracy": 0,
         "requirements": ["RULE", 7114],
         "skills": [243687],
-        "effects": ["Grant 'MP消費軽減30%' passive"],
+        "effects": ["Grant 'Reduce MP Cost: 30%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -65736,7 +65829,11 @@
         "accuracy": 0,
         "requirements": ["RULE", 7111],
         "skills": [107010, 243687, 243673],
-        "effects": ["Grant 'LB Damage +50%' passive", "Grant 'MP消費軽減30%' passive", "Grant '魔工学のスーツ' passive"],
+        "effects": [
+            "Grant 'LB Damage +50%' passive",
+            "Grant 'Reduce MP Cost: 30%' passive",
+            "Grant '魔工学のスーツ' passive"
+        ],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -65776,7 +65873,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243800],
-        "effects": ["Grant '憤怒の破壊者' passive"],
+        "effects": ["Grant 'Resentful Destroyer' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -65807,7 +65904,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243820, 243821],
-        "effects": ["Grant '暗黒の波動' ability", "Grant '暗黒剣を極めし者' passive"],
+        "effects": ["Grant 'Dark Wave (Cecil)' ability", "Grant 'Dark Sword Master' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -65872,7 +65969,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243825],
-        "effects": ["Grant '漆黒の戦意' ability"],
+        "effects": ["Grant 'Jet-Black Spirit' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -65905,7 +66002,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243826],
-        "effects": ["Grant '漆黒の呪縛' ability"],
+        "effects": ["Grant 'Jet-Black Curse' ability"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -89127,7 +89224,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243731],
-        "effects": ["Grant 'クローワに聞かせた物語' passive"],
+        "effects": ["Grant 'A Tale Told to Krowa' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -90129,7 +90226,7 @@
         "accuracy": 0,
         "requirements": ["RULE", 7114],
         "skills": [243802, 243803, 243804],
-        "effects": ["Grant '悪魔のルーンI' ability", "Grant '精霊のルーンI' ability", "Grant '死霊のルーンI' ability"],
+        "effects": ["Grant 'Demon Rune I' ability", "Grant 'Fairy Rune I' ability", "Grant 'Reaper Rune I' ability"],
         "stats": {
             "HP": 2500,
             "MP": 0,
@@ -90165,7 +90262,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [101040, 243811],
-        "effects": ["Grant 'Man-Eater' passive", "Grant '破壊者の信念I' passive"],
+        "effects": ["Grant 'Man-Eater' passive", "Grant 'Destroyer's Conviction' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -90198,7 +90295,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [101040, 243811],
-        "effects": ["Grant 'Man-Eater' passive", "Grant '破壊者の信念I' passive"],
+        "effects": ["Grant 'Man-Eater' passive", "Grant 'Destroyer's Conviction' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
