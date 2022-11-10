@@ -2784,7 +2784,7 @@
         }
     },
     "203000201": {
-        "name": "バハムートから逃げろ！",
+        "name": "Bahamut! Run Away! Run Away!",
         "compendium_id": 137,
         "compendium_shown": true,
         "rarity": 1,
@@ -2814,10 +2814,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "竜王バハムートの巣に連れ去られてしまったルーネス、アルクゥ、レフィア、そしてイングズ。そこで出会ったデッシュとともに、戻ってきたバハムートから慌てて逃げることに。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "バハムートから逃げろ！",
-            "music": "♪バトル2",
+            "desc": "Luneth, Arc, Refia, and Ingus have been dropped into Bahamut's nest. Soon after encountering Desch, they flee in a panic upon Bahamut's return.",
+            "info": "Luneth, Arc, Refia, and Ingus have been dropped into Bahamut's nest. Soon after encountering Desch, they flee in a panic upon Bahamut's return.",
+            "shop": "Bahamut! Run Away! Run Away!",
+            "music": "Battle 2",
             "music_id": "401004"
         }
     },
@@ -4122,6 +4122,44 @@
             "music_id": "401035"
         }
     },
+    "211000201": {
+        "name": "淑女たちの饗宴",
+        "compendium_id": 158,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10011,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [55, 110, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [55, 110, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [244166],
+            "7": [244167],
+            "10": [244168]
+        },
+        "restriction": {
+            "244168": [7211]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "レコ率いるウィンダスのミスラ傭兵部隊が獣人血盟軍を迎え撃っていたところ、国外追放され軍事権を剥奪されたはずのシャントットが突如乱入。屈強な獣人たちを魔法で圧倒する。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "淑女たちの饗宴",
+            "music": "♪Iron Colossus",
+            "music_id": "401036"
+        }
+    },
     "212000101": {
         "name": "Judge Magister",
         "compendium_id": 14,
@@ -5183,7 +5221,7 @@
         }
     },
     "345000101": {
-        "name": "はるか時の呼び声",
+        "name": "A Calling From Beyond Time",
         "compendium_id": 134,
         "compendium_shown": true,
         "rarity": 1,
@@ -5213,15 +5251,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "オパーサの浜へやってきたセルジュとレナ。自分の名前を呼ぶ声が聞こえた次の瞬間、セルジュは不思議な力によって別の世界へと移動する。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "はるか時の呼び声",
-            "music": "♪Walkabout",
+            "desc": "While visiting Opassa Beach with Leena, Serge hears a voice call his name. A moment later, a mysterious force whisks him away to another world.",
+            "info": "While visiting Opassa Beach with Leena, Serge hears a voice call his name. A moment later, a mysterious force whisks him away to another world.",
+            "shop": "A Calling From Beyond Time",
+            "music": "Walkabout",
             "music_id": "400308"
         }
     },
     "345000201": {
-        "name": "キッド参上！",
+        "name": "Kid Makes Her Entrance!",
         "compendium_id": 135,
         "compendium_shown": true,
         "rarity": 1,
@@ -5252,15 +5290,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "セルジュとアカシア龍騎士団の間に割って入るキッド。セルジュの捕縛を任務とする三人を、セルジュとキッドは力を合わせて撃退する。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "キッド参上！",
-            "music": "♪The Emergency",
+            "desc": "Serge's standoff with the Acacia Dragoons is interrupted by the arrival of Kid. The two join forces to fend off Serge's would-be captors.",
+            "info": "Serge's standoff with the Acacia Dragoons is interrupted by the arrival of Kid. The two join forces to fend off Serge's would-be captors.",
+            "shop": "Kid Makes Her Entrance!",
+            "music": "The Emergency",
             "music_id": "400107"
         }
     },
     "345000301": {
-        "name": "龍の涙",
+        "name": "Dragon Tear",
         "compendium_id": 136,
         "compendium_shown": true,
         "rarity": 1,
@@ -5290,10 +5328,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "龍の涙を囲み、それぞれの目的を持った面々がそろう。龍の涙によって、一瞬、意識を手放したセルジュが次に見たのは、自分ではない何者かが“セルジュ”として行動する光景だった。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "龍の涙",
-            "music": "♪Misgivings",
+            "desc": "Dreams, hopes, and ambitions converge around the Dragon Tear. When Serge comes to after the gem overwhelms his consciousness, he sees his body being controlled by a will not his own.",
+            "info": "Dreams, hopes, and ambitions converge around the Dragon Tear. When Serge comes to after the gem overwhelms his consciousness, he sees his body being controlled by a will not his own.",
+            "shop": "Dragon Tear",
+            "music": "Misgivings",
             "music_id": "400104"
         }
     },
