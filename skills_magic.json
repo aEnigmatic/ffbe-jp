@@ -1368,6 +1368,30 @@
         "effects_raw": [[2, 2, 27, [100,  4,  0]]],
         "requirements": null
     },
+    "10530": {
+        "name": "ヒーリング効果",
+        "icon": "ability_4.png",
+        "compendium_id": 45,
+        "rarity": 8,
+        "cost": {},
+        "magic_type": "White",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [1],
+        "attack_damage": [[100]],
+        "attack_frames": [[120]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": null,
+        "effects": [
+            ["Restore 400 (+3x, Heal) HP per turn to caster"]
+        ],
+        "effects_raw": [[0, 3, 8, [300,  1,  400,  -1]]],
+        "requirements": null
+    },
     "20010": {
         "name": "ファイア",
         "icon": "ability_21.png",
