@@ -241,6 +241,14 @@
         ],
         "effects_raw": [[0, 0, 11, [[100,  100], 0, 0, 0, 0, 0, 0, 0]], [0, 0, 10, [[100,  100], 0, 0, 0, 0, 0, 0, 0]]]
     },
+    "100000037": {
+        "duration": -1,
+        "effects": [
+            ["Increase Lightning magic damage by 100%"],
+            ["Increase Lightning physical damage by 100%"]
+        ],
+        "effects_raw": [[0, 0, 11, [0, 0, [100,  100], 0, 0, 0, 0, 0]], [0, 0, 10, [0, 0, [100,  100], 0, 0, 0, 0, 0]]]
+    },
     "100000038": {
         "duration": 5,
         "effects": [
@@ -1188,6 +1196,14 @@
             ["Increase resistance to Lightning by 0%"]
         ],
         "effects_raw": [[0, 0, 2, [0, 0, [0,  -50], 0, 0, 0, 0, 0]]]
+    },
+    "200000123": {
+        "duration": 10,
+        "effects": [
+            ["Increase Fire physical damage by 35%"],
+            ["Increase Fire magic damage by 35%"]
+        ],
+        "effects_raw": [[0, 0, 10, [[35,  0], 0, 0, 0, 0, 0, 0, 0]], [0, 0, 11, [[35,  0], 0, 0, 0, 0, 0, 0, 0]]]
     },
     "200000124": {
         "duration": 5,
