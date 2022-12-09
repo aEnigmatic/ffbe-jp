@@ -9593,6 +9593,37 @@
         "price_sell": 10000,
         "icon": "item_10271.png"
     },
+    "302022400": {
+        "name": "ジェネシスの剣",
+        "compendium_id": 3033,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 2,
+        "type": "Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [244239, 244240],
+        "effects": ["Grant '紅きソルジャーの細剣' passive", "Grant '魔力を纏う剣の力' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 140,
+            "DEF": 0,
+            "MAG": 234,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2020071.png"
+    },
     "303000100": {
         "name": "グレートソード",
         "compendium_id": 16,
@@ -13435,7 +13466,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [243929],
-        "effects": ["Grant '高速振動する刃' passive"],
+        "effects": ["Grant 'High-Speed Oscillation' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -13466,7 +13497,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [243941, 243942],
-        "effects": ["Grant '伝説を呼び覚ます刃' passive", "Grant '剣に込められた想い' passive"],
+        "effects": ["Grant 'Blades Evocative of Legend' passive", "Grant 'Swords Imparted with Hope' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -17221,6 +17252,37 @@
         "price_buy": 280000,
         "price_sell": 28000,
         "icon": "item_2040041.png"
+    },
+    "304012300": {
+        "name": "正宗(FFVII REMAKE)",
+        "compendium_id": 3036,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 4,
+        "type": "Katana",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [244292],
+        "effects": ["Grant '英雄にふさわしい一振+' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 190,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 280000,
+        "price_sell": 28000,
+        "icon": "item_2040030.png"
     },
     "304012400": {
         "name": "春風",
@@ -42351,6 +42413,37 @@
         "price_sell": 20000,
         "icon": "item_2130021.png"
     },
+    "315026200": {
+        "name": "シスネの手裏剣",
+        "compendium_id": 3035,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 13,
+        "type": "Throwing",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.3, 1.7],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [244226, 244227],
+        "effects": ["Grant '赤い刃の十字手裏剣' passive", "Grant 'タークスの精鋭' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 144,
+            "DEF": 0,
+            "MAG": 212,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2130022.png"
+    },
     "316000100": {
         "name": "ハープ",
         "compendium_id": 102,
@@ -54369,7 +54462,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243927],
-        "effects": ["Grant '暗黒の力を宿した兜' passive"],
+        "effects": ["Grant 'Shadow-Harboring Helmet' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -61711,7 +61804,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243920],
-        "effects": ["Grant 'ソラリス軍人の技能' passive"],
+        "effects": ["Grant 'Solaris Soldier Skills' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -61742,7 +61835,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243923],
-        "effects": ["Grant '天帝の密命' passive"],
+        "effects": ["Grant 'Emperor's Secret Orders' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -61773,7 +61866,7 @@
         "accuracy": 0,
         "requirements": ["SEX", 2],
         "skills": [243926],
-        "effects": ["Grant '守護天使の陰謀' passive"],
+        "effects": ["Grant 'Scheme of the Angel' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -62263,6 +62356,148 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2170117.png"
+    },
+    "405026000": {
+        "name": "ジェネシスのコート",
+        "compendium_id": 3030,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [244290],
+        "effects": ["Grant '紅きソルジャーの革コート' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 16,
+            "MAG": 30,
+            "SPR": 12,
+            "element_resist": {
+                "Fire": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2170118.png"
+    },
+    "405026100": {
+        "name": "ジェネシスのコート",
+        "compendium_id": 3031,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [244290],
+        "effects": ["Grant '紅きソルジャーの革コート' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 26,
+            "MAG": 50,
+            "SPR": 22,
+            "element_resist": {
+                "Fire": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2170118.png"
+    },
+    "405026200": {
+        "name": "ジェネシスのコート",
+        "compendium_id": 3032,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [244290, 244291],
+        "effects": ["Grant '紅きソルジャーの革コート' passive", "Grant '「LOVELESS」を愛する青年' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 41,
+            "MAG": 80,
+            "SPR": 37,
+            "element_resist": {
+                "Fire": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2170118.png"
+    },
+    "405026300": {
+        "name": "タークスの服(シスネ)",
+        "compendium_id": 3034,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": [
+            "UNIT_ID",
+            [207003307, 207003317]
+        ],
+        "skills": [244225],
+        "effects": ["Grant 'タークスの黒スーツ' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 24,
+            "MAG": 55,
+            "SPR": 38,
+            "element_resist": {
+                "Fire": 30,
+                "Ice": 30,
+                "Lightning": 30,
+                "Water": 30,
+                "Wind": 30,
+                "Earth": 30,
+                "Light": 30,
+                "Dark": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2170119.png"
     },
     "406000100": {
         "name": "レザープレート",
@@ -64576,7 +64811,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243928],
-        "effects": ["Grant '暗黒の力を宿した鎧' passive"],
+        "effects": ["Grant 'Shadow-Harboring Armor' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -91457,7 +91692,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243922, 243921],
-        "effects": ["Grant 'ゲブラーの戦闘知識' passive", "Grant 'エーテル能力上昇' passive"],
+        "effects": ["Grant 'Gebler Combat Knowledge' passive", "Grant 'Rising Ether Ability' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -91488,7 +91723,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [243925, 243924],
-        "effects": ["Grant '決意の刀気' passive", "Grant '解き放たれた剣術' passive"],
+        "effects": ["Grant 'Unwavering Katana' passive", "Grant 'Liberated Sword Techniques' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,

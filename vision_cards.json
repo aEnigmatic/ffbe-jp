@@ -2191,7 +2191,7 @@
         }
     },
     "100006701": {
-        "name": "オムニブス発動！",
+        "name": "Omnibus Unleashed!",
         "compendium_id": 141,
         "compendium_shown": true,
         "rarity": 1,
@@ -2219,10 +2219,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "破壊の衝動を克服したタイヴァスとイシェ。新たな剣を手に、二人はオメガに立ち向かう。スネフリンガの軍記に残された伝説の剣技「オムニブス」が、エルムント最強の戦士たちによって再び放たれる！",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "オムニブス発動！",
-            "music": "♪Ω",
+            "desc": "Having conquered the urge to destroy, Taivas and Yshe face Omega with new blades in hand. The legendary technique Omnibus described in Snovlinka's legend is once again given life by Elmont's mightiest warriors!",
+            "info": "Having conquered the urge to destroy, Taivas and Yshe face Omega with new blades in hand. The legendary technique Omnibus described in Snovlinka's legend is once again given life by Elmont's mightiest warriors!",
+            "shop": "Omnibus Unleashed!",
+            "music": "Ω",
             "music_id": "5000002"
         }
     },
@@ -3613,6 +3613,44 @@
             "music_id": "4001005"
         }
     },
+    "207000901": {
+        "name": "俺も英雄になるんだ",
+        "compendium_id": 163,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10007,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [65, 130, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [244241],
+            "7": [244242],
+            "10": [244243]
+        },
+        "restriction": {
+            "244243": [7907]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "トレーニングルームで設定した砲塔上で戦うセフィロスとジェネシス。並の戦士では近づくことさえできないソルジャー・クラス1st同士の凄まじい戦いが繰り広げられる。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "俺も英雄になるんだ",
+            "music": "♪世に仇なす者",
+            "music_id": "4001009"
+        }
+    },
     "207001001": {
         "name": "ユフィ参上！",
         "compendium_id": 144,
@@ -4768,7 +4806,7 @@
         }
     },
     "331000201": {
-        "name": "魂の記憶",
+        "name": "Memories of the Soul",
         "compendium_id": 139,
         "compendium_shown": true,
         "rarity": 1,
@@ -4799,15 +4837,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "フェイが夢の中で見た光景のひとつ。聖母ソフィアと、彼女の肖像画を描く青年ラカンの記憶。昔のように『エリィ』と呼んでほしいと願う彼女を見つめながら、ラカンは肖像画の完成を恐れる自分に気がつく。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "魂の記憶",
-            "music": "♪遠い約束",
+            "desc": "A young man named Lacan appears in Fei's dreams, painting a portrait of Mother Sophia. When his subject implores him to call her Elly as he once did, Lacan realizes that there is nothing he fears more than completing his piece.",
+            "info": "A young man named Lacan appears in Fei's dreams, painting a portrait of Mother Sophia. When his subject implores him to call her Elly as he once did, Lacan realizes that there is nothing he fears more than completing his piece.",
+            "shop": "Memories of the Soul",
+            "music": "A Distant Promise",
             "music_id": "400750"
         }
     },
     "331000301": {
-        "name": "シタンの覚悟",
+        "name": "Citan's Resolve",
         "compendium_id": 140,
         "compendium_shown": true,
         "rarity": 1,
@@ -4838,10 +4876,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "ソラリス潜入作戦前、かつて使っていた剣を、妻のユイから受け取るシタン。あまりにも強力な『ヒトを殺す技』である剣術の封印を解き、シタンはソラリスと戦う覚悟を決める。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "シタンの覚悟",
-            "music": "♪盗めない宝石",
+            "desc": "On the eve of infiltrating Solaris, Citan retrieves his old sword from his wife, Yui. Though he once swore it would never again claim a life, he now prepares to break that vow in the name of defeating the empire.",
+            "info": "On the eve of infiltrating Solaris, Citan retrieves his old sword from his wife, Yui. Though he once swore it would never again claim a life, he now prepares to break that vow in the name of defeating the empire.",
+            "shop": "Citan's Resolve",
+            "music": "Intangible Treasure",
             "music_id": "400749"
         }
     },
