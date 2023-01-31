@@ -1458,6 +1458,42 @@
         ],
         "effects_raw": [[0, 0, 2, [0,  -30,  0,  0,  0,  0,  0,  -30]]]
     },
+    "200000159": {
+        "duration": 3,
+        "effects": [
+            ["Increase ATK, DEF, MAG and SPR by 100%"]
+        ],
+        "effects_raw": [[0, 0, 1, [100,  100,  100,  100]]]
+    },
+    "200000160": {
+        "duration": 3,
+        "effects": [
+            ["Increase LB damage by 100%"]
+        ],
+        "effects_raw": [[0, 0, 9, [100]]]
+    },
+    "200000161": {
+        "duration": 3,
+        "effects": [
+            ["Increase Fire, Ice, Wind and Light physical damage by 35%"],
+            ["Increase Fire, Ice, Wind and Light magic damage by 35%"]
+        ],
+        "effects_raw": [[0, 0, 10, [35,  35,  0,  0,  35,  0,  35,  0]], [0, 0, 11, [35,  35,  0,  0,  35,  0,  35,  0]]]
+    },
+    "200000162": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Fire, Water, Wind and Earth by 15%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-15,  0,  0,  -15,  -15,  -15,  0,  0]]]
+    },
+    "200000163": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Fire, Water, Wind and Earth by 30%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-30,  0,  0,  -30,  -30,  -30,  0,  0]]]
+    },
     "200000164": {
         "duration": 10,
         "effects": [

@@ -3170,7 +3170,7 @@
         }
     },
     "205000401": {
-        "name": "新たな旅の予感",
+        "name": "The Cusp of a New Journey",
         "compendium_id": 147,
         "compendium_shown": true,
         "rarity": 1,
@@ -3201,15 +3201,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "父の遺言に従い、相棒であるチョコボのボコに乗って旅をつづけるバッツ。世界に異変が迫るなか、「クリスタルを守る」という新たな旅が始まろうとしていた……。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "新たな旅の予感",
-            "music": "♪4つの心",
+            "desc": "Bartz, following his late father's wish, travels the world with Boko, his trusty chocobo. A new journey lies on the horizon—a journey to defend the crystals as the world descends into chaos.",
+            "info": "Bartz, following his late father's wish, travels the world with Boko, his trusty chocobo. A new journey lies on the horizon—a journey to defend the crystals as the world descends into chaos.",
+            "shop": "The Cusp of a New Journey",
+            "music": "Four Hearts",
             "music_id": "4000130"
         }
     },
     "205000501": {
-        "name": "この命　燃えつきても！",
+        "name": "A Vow of Destruction",
         "compendium_id": 148,
         "compendium_shown": true,
         "rarity": 1,
@@ -3240,10 +3240,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "ムーアの大森林にある長老の木へ、バッツたちを助けに来たものの、エクスデスに追い詰められるクルル。孫娘の危機に立ち上がったガラフは、エクスデスとの一騎打ちに挑む。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "この命　燃えつきても！",
-            "music": "♪決戦",
+            "desc": "Krile, having rushed to the Great Forest of Moore's Guardian Tree to aid Bartz and his party, now finds herself beset by Exdeath's mighty magics. Seeing his granddaughter's peril, Galuf rises to face the warlock in a duel for all he holds dear.",
+            "info": "Krile, having rushed to the Great Forest of Moore's Guardian Tree to aid Bartz and his party, now finds herself beset by Exdeath's mighty magics. Seeing his granddaughter's peril, Galuf rises to face the warlock in a duel for all he holds dear.",
+            "shop": "A Vow of Destruction",
+            "music": "The Final Battle",
             "music_id": "4000803"
         }
     },
@@ -4956,7 +4956,7 @@
             "10": [241652]
         },
         "restriction": {
-            "241652": [7218]
+            "241652": [7933]
         },
         "max_level": 10,
         "exp_pattern": 110,
@@ -4969,6 +4969,45 @@
             "shop": "We Have Arrived",
             "music": "We Have Arrived",
             "music_id": "400881"
+        }
+    },
+    "254000201": {
+        "name": "あなたの言　まずは聞きましょう",
+        "compendium_id": 169,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11003,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [65, 130, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [244381],
+            "7": [244382],
+            "10": [244383]
+        },
+        "restriction": {
+            "244383": [7933]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "０組の前に立ちふさがった蒼龍最強の戦士ホシヒメ。０組がコンコルディア女王の仇であるという誤解をとくために、デュースは命を懸けて身の潔白を証明する。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "あなたの言　まずは聞きましょう",
+            "music": "♪寂しき心",
+            "music_id": "4001205"
         }
     },
     "306000101": {
