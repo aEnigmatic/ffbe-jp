@@ -1573,8 +1573,8 @@
         "dmg_variance": [1.1, 1.2],
         "accuracy": 0,
         "requirements": null,
-        "skills": [234843],
-        "effects": ["Grant 'Love's Edge' passive"],
+        "skills": [234843, 244427],
+        "effects": ["Grant 'Love's Edge' passive", "Grant 'ダガーに込めた決意' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -9173,7 +9173,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [101040, 244071],
-        "effects": ["Grant 'Man-Eater' passive", "Grant '漢の豪剣' passive"],
+        "effects": ["Grant 'Man-Eater' passive", "Grant 'A Man's Manly Sword' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -17563,6 +17563,37 @@
         "price_sell": 28000,
         "icon": "item_2040043.png"
     },
+    "304012500": {
+        "name": "カトルの刀",
+        "compendium_id": 3112,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 4,
+        "type": "Katana",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": false,
+        "dmg_variance": [1.05, 1.25],
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [244407, 244408],
+        "effects": ["Grant '名門バシュタール家出身' passive", "Grant 'ガブリエルを駆る者' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 217,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 280000,
+        "price_sell": 28000,
+        "icon": "item_2040042.png"
+    },
     "304020100": {
         "name": "阿修羅",
         "compendium_id": 26,
@@ -18075,7 +18106,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203250],
-        "effects": ["Grant 'HP + 5%' passive"],
+        "effects": ["Grant 'HP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -21962,7 +21993,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -25399,7 +25430,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203250],
-        "effects": ["Grant 'HP + 5%' passive"],
+        "effects": ["Grant 'HP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -28928,7 +28959,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [20240, 203250],
-        "effects": ["Grant 'Aeroga' magic", "Grant 'HP + 5%' passive"],
+        "effects": ["Grant 'Aeroga' magic", "Grant 'HP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -32435,7 +32466,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -32938,7 +32969,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203250],
-        "effects": ["Grant 'HP + 5%' passive"],
+        "effects": ["Grant 'HP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -33093,7 +33124,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [101500, 203240],
-        "effects": ["Grant 'HP +15%' passive", "Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'HP +15%' passive", "Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -36661,6 +36692,37 @@
         "price_sell": 26000,
         "icon": "item_2070022.png"
     },
+    "312006800": {
+        "name": "ケイロンの弓(FF零式)",
+        "compendium_id": 3110,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 7,
+        "type": "Bow",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.35, 1.85],
+        "accuracy": 70,
+        "requirements": null,
+        "skills": [244422, 244423],
+        "effects": ["Grant '弱点を射抜く力' passive", "Grant '一発必中の技量' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 218,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 260000,
+        "price_sell": 26000,
+        "icon": "item_2070023.png"
+    },
     "313000400": {
         "name": "アルタイル",
         "compendium_id": 85,
@@ -36892,7 +36954,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -39805,6 +39867,37 @@
         "price_buy": 240000,
         "price_sell": 24000,
         "icon": "item_2140033.png"
+    },
+    "313011600": {
+        "name": "グローリアス(FF零式)",
+        "compendium_id": 3115,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 14,
+        "type": "Gun",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.35, 1.75],
+        "accuracy": 70,
+        "requirements": null,
+        "skills": [244416, 244417],
+        "effects": ["Grant '弾切れ知らずの銃' passive", "Grant '魔法弾を使いこなす者' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 183,
+            "DEF": 0,
+            "MAG": 226,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 240000,
+        "price_sell": 24000,
+        "icon": "item_2140035.png"
     },
     "314000200": {
         "name": "レザーウィップ",
@@ -43394,7 +43487,7 @@
         "accuracy": 70,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -44787,7 +44880,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203250, 206910],
-        "effects": ["Grant 'HP + 5%' passive", "Grant 'MP +5%' passive"],
+        "effects": ["Grant 'HP +5%' passive", "Grant 'MP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -48197,7 +48290,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -48387,7 +48480,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -48451,7 +48544,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -48745,7 +48838,7 @@
         "accuracy": 0,
         "requirements": ["UNIT_ID", 214000404],
         "skills": [203250, 206910],
-        "effects": ["Grant 'HP + 5%' passive", "Grant 'MP +5%' passive"],
+        "effects": ["Grant 'HP +5%' passive", "Grant 'MP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -53345,7 +53438,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240, 244390],
-        "effects": ["Grant 'MP + 15%' passive", "Grant 'メイドの心構え' passive"],
+        "effects": ["Grant 'MP +15%' passive", "Grant 'メイドの心構え' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -53763,7 +53856,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203250],
-        "effects": ["Grant 'HP + 5%' passive"],
+        "effects": ["Grant 'HP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -56661,7 +56754,7 @@
         "accuracy": 0,
         "requirements": ["UNIT_ID", 214000404],
         "skills": [101500, 203240],
-        "effects": ["Grant 'HP +15%' passive", "Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'HP +15%' passive", "Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -56851,7 +56944,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -64104,6 +64197,170 @@
         "price_sell": 10000,
         "icon": "item_2170124.png"
     },
+    "405028500": {
+        "name": "カトルの服",
+        "compendium_id": 3111,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [244406],
+        "effects": ["Grant '隻眼の将校' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 42,
+            "DEF": 31,
+            "MAG": 39,
+            "SPR": 24,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2170126.png"
+    },
+    "405028600": {
+        "name": "０組冬制服Bタイプ",
+        "compendium_id": 3116,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 22,
+            "DEF": 23,
+            "MAG": 22,
+            "SPR": 32,
+            "element_resist": {
+                "Ice": 30,
+                "Wind": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2170127.png"
+    },
+    "405028700": {
+        "name": "０組冬制服Bタイプ",
+        "compendium_id": 3117,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": null,
+        "effects": null,
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 47,
+            "DEF": 28,
+            "MAG": 47,
+            "SPR": 42,
+            "element_resist": {
+                "Ice": 30,
+                "Wind": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2170127.png"
+    },
+    "405028800": {
+        "name": "０組冬制服Bタイプ",
+        "compendium_id": 3118,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [244430],
+        "effects": ["Grant '第1種軍装B' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 69,
+            "DEF": 38,
+            "MAG": 69,
+            "SPR": 52,
+            "element_resist": {
+                "Ice": 30,
+                "Wind": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2170127.png"
+    },
+    "405028900": {
+        "name": "朱雀の胸当て",
+        "compendium_id": 3109,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [244420],
+        "effects": ["Grant '射手の精神力' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 52,
+            "DEF": 28,
+            "MAG": 0,
+            "SPR": 33,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2170125.png"
+    },
     "406000100": {
         "name": "レザープレート",
         "compendium_id": 159,
@@ -64970,7 +65227,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203250],
-        "effects": ["Grant 'HP + 5%' passive"],
+        "effects": ["Grant 'HP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -69512,7 +69769,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -69640,7 +69897,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -69735,7 +69992,7 @@
         "accuracy": 0,
         "requirements": ["UNIT_ID", 214000504],
         "skills": [101500, 203240],
-        "effects": ["Grant 'HP +15%' passive", "Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'HP +15%' passive", "Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -73254,7 +73511,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203250],
-        "effects": ["Grant 'HP + 5%' passive"],
+        "effects": ["Grant 'HP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -73566,7 +73823,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [206910, 203250, 101600, 101700],
-        "effects": ["Grant 'MP +5%' passive", "Grant 'HP + 5%' passive", "Grant 'ATK +15%' passive", "Grant 'MAG +15%' passive"],
+        "effects": ["Grant 'MP +5%' passive", "Grant 'HP +5%' passive", "Grant 'ATK +15%' passive", "Grant 'MAG +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -73728,7 +73985,7 @@
             [214000105, 214000605]
         ],
         "skills": [203250, 206910],
-        "effects": ["Grant 'HP + 5%' passive", "Grant 'MP +5%' passive"],
+        "effects": ["Grant 'HP +5%' passive", "Grant 'MP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -73759,7 +74016,7 @@
         "accuracy": 0,
         "requirements": ["UNIT_ID", 214000304],
         "skills": [203250, 206910],
-        "effects": ["Grant 'HP + 5%' passive", "Grant 'MP +5%' passive"],
+        "effects": ["Grant 'HP +5%' passive", "Grant 'MP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -73790,7 +74047,7 @@
         "accuracy": 0,
         "requirements": ["UNIT_ID", 214000203],
         "skills": [203250],
-        "effects": ["Grant 'HP + 5%' passive"],
+        "effects": ["Grant 'HP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -74105,7 +74362,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240, 210280],
-        "effects": ["Grant 'MP + 15%' passive", "Grant 'Eternal Bloom' passive"],
+        "effects": ["Grant 'MP +15%' passive", "Grant 'Eternal Bloom' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -74267,7 +74524,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203250, 206910],
-        "effects": ["Grant 'HP + 5%' passive", "Grant 'MP +5%' passive"],
+        "effects": ["Grant 'HP +5%' passive", "Grant 'MP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -74393,7 +74650,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240, 101700],
-        "effects": ["Grant 'MP + 15%' passive", "Grant 'MAG +15%' passive"],
+        "effects": ["Grant 'MP +15%' passive", "Grant 'MAG +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -75105,7 +75362,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203250],
-        "effects": ["Grant 'HP + 5%' passive"],
+        "effects": ["Grant 'HP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -75293,7 +75550,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [101500, 203240, 100160],
-        "effects": ["Grant 'HP +15%' passive", "Grant 'MP + 15%' passive", "Grant 'SPR +10%' passive"],
+        "effects": ["Grant 'HP +15%' passive", "Grant 'MP +15%' passive", "Grant 'SPR +10%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -75324,7 +75581,7 @@
         "accuracy": 0,
         "requirements": ["UNIT_ID", 214000504],
         "skills": [203250, 206910],
-        "effects": ["Grant 'HP + 5%' passive", "Grant 'MP +5%' passive"],
+        "effects": ["Grant 'HP +5%' passive", "Grant 'MP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -75984,7 +76241,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203250],
-        "effects": ["Grant 'HP + 5%' passive"],
+        "effects": ["Grant 'HP +5%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -79334,7 +79591,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -79429,7 +79686,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203250, 206910, 210290],
-        "effects": ["Grant 'HP + 5%' passive", "Grant 'MP +5%' passive", "Grant 'EXP x1.3' passive"],
+        "effects": ["Grant 'HP +5%' passive", "Grant 'MP +5%' passive", "Grant 'EXP x1.3' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -80574,7 +80831,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -82461,7 +82718,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203250, 206910, 210290],
-        "effects": ["Grant 'HP + 5%' passive", "Grant 'MP +5%' passive", "Grant 'EXP x1.3' passive"],
+        "effects": ["Grant 'HP +5%' passive", "Grant 'MP +5%' passive", "Grant 'EXP x1.3' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -83420,7 +83677,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [101500, 203240, 235086],
-        "effects": ["Grant 'HP +15%' passive", "Grant 'MP + 15%' passive", "Grant '真・虹色の絵の具' passive"],
+        "effects": ["Grant 'HP +15%' passive", "Grant 'MP +15%' passive", "Grant '真・虹色の絵の具' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -92620,7 +92877,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -92651,7 +92908,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -92682,7 +92939,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240],
-        "effects": ["Grant 'MP + 15%' passive"],
+        "effects": ["Grant 'MP +15%' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -92713,7 +92970,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [203240, 243762],
-        "effects": ["Grant 'MP + 15%' passive", "Grant '元オーダーズの本領' passive"],
+        "effects": ["Grant 'MP +15%' passive", "Grant '元オーダーズの本領' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -94045,7 +94302,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244020, 244021],
-        "effects": ["Grant '夏の必須アイテム' passive", "Grant 'お気に入りの猫耳フード' passive"],
+        "effects": ["Grant 'Must-Have Summer Item' passive", "Grant 'Favorite Cat-Ear Hood' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -94078,7 +94335,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244023, 244024],
-        "effects": ["Grant 'エルムント式アクティビティ' passive", "Grant '水中航行用外部ユニット' passive"],
+        "effects": ["Grant 'Elmont-Style Fun' passive", "Grant 'Underwater Navigation Unit' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -94111,7 +94368,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [108112, 244070],
-        "effects": ["Grant 'Maneater+ I' passive", "Grant '親衛隊長の赤頭巾' passive"],
+        "effects": ["Grant 'Maneater+ I' passive", "Grant 'Hood of the Head of Exdeath's Guard' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -94142,7 +94399,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244073, 244074],
-        "effects": ["Grant 'ウェアウルフ族長の外套' passive", "Grant '猛々しきウェアウルフ族の力' passive"],
+        "effects": ["Grant 'Mantle of the Head of the Werewolves' passive", "Grant 'Ferocious Werewolf Power' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -94780,5 +95037,36 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2250251.png"
+    },
+    "409076900": {
+        "name": "軍用ランドセル(FF零式)",
+        "compendium_id": 3114,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [244415],
+        "effects": ["Grant '俊敏な立ち回り' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 42,
+            "DEF": 16,
+            "MAG": 51,
+            "SPR": 35,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250249.png"
     }
 }

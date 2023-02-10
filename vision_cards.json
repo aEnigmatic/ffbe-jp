@@ -2287,7 +2287,7 @@
         }
     },
     "100006801": {
-        "name": "珊瑚の森の休日",
+        "name": "Coral Forest Getaway",
         "compendium_id": 146,
         "compendium_shown": true,
         "rarity": 1,
@@ -2316,10 +2316,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "海中遊泳を楽しむフィーナとルンド。海面からの陽光が照らす珊瑚の森。色とりどりの魚たちの群れが、陸からの来訪者を迎え入れてくれる。二人がそれぞれたどり着くかもしれない安寧のひとときのビジョン。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "珊瑚の森の休日",
-            "music": "♪Joie de Vivre",
+            "desc": "Fina and Runda, enjoying a dip under the sea. Light gently filters down to an underwater forest of coral as diverse schools of colorful fish welcome their terrestrial visitors. This vision is a glimpse into a moment of peace the two may someday find.",
+            "info": "Fina and Runda, enjoying a dip under the sea. Light gently filters down to an underwater forest of coral as diverse schools of colorful fish welcome their terrestrial visitors. This vision is a glimpse into a moment of peace the two may someday find.",
+            "shop": "Coral Forest Getaway",
+            "music": "Joie de Vivre",
             "music_id": "400312"
         }
     },
@@ -3248,7 +3248,7 @@
         }
     },
     "205000601": {
-        "name": "ビッグブリッジの死闘",
+        "name": "Battle at the Big Bridge",
         "compendium_id": 149,
         "compendium_shown": true,
         "rarity": 1,
@@ -3280,10 +3280,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "エクスデス城から脱出したバッツたちを、ビッグブリッジで待ち伏せしていたギルガメッシュ。「来なかったらどうしようかと不安になりながら扉の裏で待っていた」と、ギルガメッシュは心情を吐露する。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "ビッグブリッジの死闘",
-            "music": "♪ビッグブリッヂの死闘",
+            "desc": "Gilgamesh waits at the Big Bridge to ambush Bartz and his party, who have just escaped from Castle Exdeath. When discovered at last, he is surprisingly forthcoming, stating, \"Guess who's been waiting behind this door the whole time? I was getting worried you might have gotten lost!\"",
+            "info": "Gilgamesh waits at the Big Bridge to ambush Bartz and his party, who have just escaped from Castle Exdeath. When discovered at last, he is surprisingly forthcoming, stating, \"Guess who's been waiting behind this door the whole time? I was getting worried you might have gotten lost!\"",
+            "shop": "Battle at the Big Bridge",
+            "music": "Battle at the Big Bridge",
             "music_id": "400817"
         }
     },
@@ -5008,6 +5008,45 @@
             "shop": "あなたの言　まずは聞きましょう",
             "music": "♪寂しき心",
             "music_id": "4001205"
+        }
+    },
+    "254000301": {
+        "name": "VSカトル・バシュタール",
+        "compendium_id": 170,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11003,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [65, 130, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [244424],
+            "7": [244425],
+            "10": [244426]
+        },
+        "restriction": {
+            "244426": [7933]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "コンコルディア王国に勝利し、オリエンス統一への最後の障害となるミリテス皇国首都を攻略すべく、作戦を開始した０組。その前に、皇国最強の魔導アーマー乗り・カトルが立ちはだかる。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "VSカトル・バシュタール",
+            "music": "♪戦-白の兵器",
+            "music_id": "4001206"
         }
     },
     "306000101": {
