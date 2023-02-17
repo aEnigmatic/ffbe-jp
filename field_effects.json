@@ -1500,5 +1500,34 @@
             ["Increase LB damage by 100%"]
         ],
         "effects_raw": [[0, 0, 9, [100]]]
+    },
+    "200000165": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Earth by 35%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  -35,  0,  0]]]
+    },
+    "200000166": {
+        "duration": 5,
+        "effects": [
+            ["Increase Earth physical damage by 35%"],
+            ["Increase Earth magic damage by 35%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  35,  0,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  35,  0,  0]]]
+    },
+    "200000176": {
+        "duration": 10,
+        "effects": [
+            ["Reduce resistance to Earth by 20%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  -20,  0,  0]]]
+    },
+    "200000177": {
+        "duration": 10,
+        "effects": [
+            ["Reduce resistance to Earth by 30%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  -30,  0,  0]]]
     }
 }
