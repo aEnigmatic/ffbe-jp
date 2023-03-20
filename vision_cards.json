@@ -2743,6 +2743,41 @@
             "music_id": "400106"
         }
     },
+    "100008201": {
+        "name": "春のおでかけ",
+        "compendium_id": 177,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [100, 100, 0, 0],
+            "DEF": [100, 100, 0, 0],
+            "MAG": [100, 100, 0, 0],
+            "SPR": [100, 100, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [244504, 244505, 244506]
+        },
+        "restriction": null,
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "桜が見ごろを迎えたシアンの町を歩くアヤカ。暖かな日差しの中、向かう先はサクラ師匠の待つ茶店。お土産の飴玉を詰めた巾着は、もちろん忘れずに。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "春のおでかけ",
+            "music": "♪MUSASABI",
+            "music_id": "400214"
+        }
+    },
     "201000101": {
         "name": "And So Their Quest Began",
         "compendium_id": 100,
@@ -5681,6 +5716,45 @@
             "music_id": "400733"
         }
     },
+    "339000201": {
+        "name": "出でよ、光輝！",
+        "compendium_id": 176,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11010,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [65, 130, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [65, 130, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [244510],
+            "7": [244511],
+            "10": [244512]
+        },
+        "restriction": {
+            "244512": [7952]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "アボットの砲撃に対し、ジェーダンが指輪の力を使う。ジェーダンが呼び出したビジョンは八盟傑のひとり「光輝のヴェリアス」だった。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "出でよ、光輝！",
+            "music": "♪Collided Armies",
+            "music_id": "400756"
+        }
+    },
     "342000101": {
         "name": "I'm Back!!",
         "compendium_id": 72,
@@ -6279,7 +6353,7 @@
             "10": [243391]
         },
         "restriction": {
-            "243391": [7225]
+            "243391": [7952]
         },
         "max_level": 10,
         "exp_pattern": 110,
