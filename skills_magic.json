@@ -5039,6 +5039,54 @@
         "effects_raw": [[2, 1, 33, [-120,  -120,  -120,  -120,  -120,  -120,  -120,  -120,  1,  4]]],
         "requirements": null
     },
+    "30480": {
+        "name": "エンファイ",
+        "icon": "ability_21.png",
+        "compendium_id": 246,
+        "rarity": 7,
+        "cost": {"MP": 32},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Fire"],
+        "effects": [
+            ["Add Fire element (100%) to physical attacks for 5 turns to one ally"]
+        ],
+        "effects_raw": [[1, 2, 95, [100,  0,  0,  0,  0,  0,  0,  0,  5,  1]]],
+        "requirements": null
+    },
+    "30490": {
+        "name": "エンブリザ",
+        "icon": "ability_22.png",
+        "compendium_id": 247,
+        "rarity": 7,
+        "cost": {"MP": 32},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Ice"],
+        "effects": [
+            ["Add Ice element (100%) to physical attacks for 5 turns to one ally"]
+        ],
+        "effects_raw": [[1, 2, 95, [0,  100,  0,  0,  0,  0,  0,  0,  5,  1]]],
+        "requirements": null
+    },
     "30500": {
         "name": "エンサンダ",
         "icon": "ability_20.png",
@@ -5049,18 +5097,42 @@
         "is_sealable": true,
         "is_reflectable": false,
         "in_exploration": false,
-        "attack_count": [1],
-        "attack_damage": [[100]],
-        "attack_frames": [[120]],
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
         "effect_frames": [[40]],
         "move_type": 0,
         "effect_type": "Default",
         "attack_type": "Magic",
         "element_inflict": ["Lightning"],
         "effects": [
-            ["Add Lightning element (100%) to physical attacks for 5 turns to all allies"]
+            ["Add Lightning element (100%) to physical attacks for 5 turns to one ally"]
         ],
-        "effects_raw": [[2, 2, 95, [0,  0,  100,  0,  0,  0,  0,  0,  5,  1]]],
+        "effects_raw": [[1, 2, 95, [0,  0,  100,  0,  0,  0,  0,  0,  5,  1]]],
+        "requirements": null
+    },
+    "30510": {
+        "name": "エンウォタ",
+        "icon": "ability_23.png",
+        "compendium_id": 249,
+        "rarity": 7,
+        "cost": {"MP": 32},
+        "magic_type": "Green",
+        "is_sealable": true,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [0],
+        "attack_damage": [[]],
+        "attack_frames": [[]],
+        "effect_frames": [[40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Magic",
+        "element_inflict": ["Water"],
+        "effects": [
+            ["Add Water element (100%) to physical attacks for 5 turns to one ally"]
+        ],
+        "effects_raw": [[1, 2, 95, [0,  0,  0,  100,  0,  0,  0,  0,  5,  1]]],
         "requirements": null
     },
     "30530": {
