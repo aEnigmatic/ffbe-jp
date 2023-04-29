@@ -1613,9 +1613,9 @@
             "HP": [400, 800, 0, 0],
             "MP": [0, 0, 0, 0],
             "ATK": [0, 0, 0, 0],
-            "DEF": [40, 80, 0, 0],
+            "DEF": [60, 120, 0, 0],
             "MAG": [0, 0, 0, 0],
-            "SPR": [40, 80, 0, 0],
+            "SPR": [60, 120, 0, 0],
             "element_resist": null,
             "status_resist": null
         },
@@ -1955,10 +1955,10 @@
         "stats": {
             "HP": [0, 0, 0, 0],
             "MP": [0, 0, 0, 0],
-            "ATK": [40, 80, 0, 0],
-            "DEF": [20, 40, 0, 0],
-            "MAG": [40, 80, 0, 0],
-            "SPR": [20, 40, 0, 0],
+            "ATK": [60, 120, 0, 0],
+            "DEF": [30, 60, 0, 0],
+            "MAG": [60, 120, 0, 0],
+            "SPR": [30, 60, 0, 0],
             "element_resist": null,
             "status_resist": null
         },
@@ -2815,6 +2815,82 @@
             "shop": "春のおでかけ",
             "music": "♪MUSASABI",
             "music_id": "400214"
+        }
+    },
+    "100008401": {
+        "name": "融合せし英雄たち",
+        "compendium_id": 186,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [170, 170, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [170, 170, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [244620, 244621, 244622]
+        },
+        "restriction": null,
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "タイヴァスとマディーン、英雄として名を馳せた両者のビジョンの激突。刃を交えるごとに、彼らは互いに理解を深め、認め合う。やがて二つの闘志は融合し、新たな力を持つ戦士が誕生した。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "融合せし英雄たち",
+            "music": "♪Celestial Battle",
+            "music_id": "400007"
+        }
+    },
+    "100008501": {
+        "name": "幻獣と気高き槍",
+        "compendium_id": 187,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [85, 170, 0, 0],
+            "SPR": [85, 170, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [244623],
+            "7": [244624],
+            "10": [244625]
+        },
+        "restriction": {
+            "244623": [7702],
+            "244624": [7702],
+            "244625": [7702]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "槍術の研鑽に努めるイシェのビジョンと、その向上心に興味を抱き、力を貸すことにしたセイレーンのビジョン。融合した両者は、獲得した能力を限界まで磨くべく、さらなる高みを目指す。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "幻獣と気高き槍",
+            "music": "♪Celestial Battle",
+            "music_id": "400007"
         }
     },
     "100008601": {
@@ -3983,7 +4059,7 @@
         }
     },
     "207000901": {
-        "name": "俺も英雄になるんだ",
+        "name": "The World Needs a New Hero",
         "compendium_id": 163,
         "compendium_shown": true,
         "rarity": 1,
@@ -4014,10 +4090,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "トレーニングルームで設定した砲塔上で戦うセフィロスとジェネシス。並の戦士では近づくことさえできないソルジャー・クラス1st同士の凄まじい戦いが繰り広げられる。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "俺も英雄になるんだ",
-            "music": "♪世に仇なす者",
+            "desc": "Sephiroth and Genesis hold nothing back as they spar atop a cannon digitally recreated in the company's training room. The battle between these two SOLDIER 1st Classes soon reaches a fever pitch, which few would dare to interrupt.",
+            "info": "Sephiroth and Genesis hold nothing back as they spar atop a cannon digitally recreated in the company's training room. The battle between these two SOLDIER 1st Classes soon reaches a fever pitch, which few would dare to interrupt.",
+            "shop": "The World Needs a New Hero",
+            "music": "Vengeance on the World",
             "music_id": "4001009"
         }
     },

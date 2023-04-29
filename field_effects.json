@@ -504,6 +504,13 @@
         ],
         "effects_raw": [[0, 0, 2, [-50,  0,  -50,  0,  0,  0,  0,  0]]]
     },
+    "100000072": {
+        "duration": 5,
+        "effects": [
+            ["Error: unexpected value"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, [-75,  0], 0, 0, 0, 0, 0, 0]]]
+    },
     "200000001": {
         "duration": 10,
         "effects": [
@@ -2022,6 +2029,48 @@
             ["Increase ATK, DEF, MAG and SPR by 100%"]
         ],
         "effects_raw": [[0, 0, 1, [100,  100,  100,  100]]]
+    },
+    "200000206": {
+        "duration": 10,
+        "effects": [
+            ["Increase ATK, DEF, MAG and SPR by 100 / 0%"]
+        ],
+        "effects_raw": [[0, 0, 1, [[100,  0], [100,  0], [100,  0], [100,  0]]]]
+    },
+    "200000207": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Fire, Ice and Lightning by 50%"]
+        ],
+        "effects_raw": [[0, 0, 2, [[50,  0], [50,  0], [50,  0], 0, 0, 0, 0, 0]]]
+    },
+    "200000208": {
+        "duration": 5,
+        "effects": [
+            ["Increase LB damage by 100%"]
+        ],
+        "effects_raw": [[0, 0, 9, [100]]]
+    },
+    "200000209": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Ice by 30%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  -30,  0,  0,  0,  0,  0,  0]]]
+    },
+    "200000210": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Ice by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  -40,  0,  0,  0,  0,  0,  0]]]
+    },
+    "200000211": {
+        "duration": 10,
+        "effects": [
+            ["Increase LB damage by 100%"]
+        ],
+        "effects_raw": [[0, 0, 9, [100]]]
     },
     "200000214": {
         "duration": 10,
