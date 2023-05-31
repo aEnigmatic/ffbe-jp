@@ -4521,7 +4521,7 @@
         }
     },
     "208000501": {
-        "name": "狙撃手の葛藤",
+        "name": "Sniper's Block",
         "compendium_id": 167,
         "compendium_shown": true,
         "rarity": 1,
@@ -4552,10 +4552,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "デリングシティで魔女イデアの暗殺作戦を実行するアーヴァインとスコール。狙撃直前に極度の緊張に襲われるアーヴァインだが、スコールの励ましを受けて、ついに引き金を引く。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "狙撃手の葛藤",
-            "music": "♪FITHOS LUSEC WECOS VINOSEC",
+            "desc": "Irvine and Squall lie in wait as they prepare to assassinate the sorceress Edea in Deling City. Intense anxiety petrifies Irvine at the most critical moment, but with Squall's encouragement, he finds the nerve to pull the trigger.",
+            "info": "Irvine and Squall lie in wait as they prepare to assassinate the sorceress Edea in Deling City. Intense anxiety petrifies Irvine at the most critical moment, but with Squall's encouragement, he finds the nerve to pull the trigger.",
+            "shop": "Sniper's Block",
+            "music": "FITHOS LUSEC WECOS VINOSEC",
             "music_id": "4001102"
         }
     },
@@ -6486,6 +6486,86 @@
             "desc": "大魔王バーンに挑むアバン、ラーハルト、ヒム。攻撃・防御・呪文の三動作を一瞬で行う奥義“天地魔闘の構え”は歴戦の戦士たちの必殺技をもってしても破ることはできなかった。",
             "info": "ビジョンカードが経験値を獲得！",
             "shop": "奥義・天地魔闘の構え",
+            "music": "♪Moment of Recall",
+            "music_id": "400003"
+        }
+    },
+    "344000601": {
+        "name": "ドルオーラ連発！！",
+        "compendium_id": 192,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20037,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [70, 140, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [70, 140, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [244689],
+            "7": [244690],
+            "10": [244691]
+        },
+        "restriction": {
+            "244690": [7953],
+            "244691": [7953]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "光魔の杖によってドルオーラを防ぐ大魔王バーンに、ある策を仕掛けるダイ。レオナが放ったシルバーフェザーによって回復したダイは、二発目のドルオーラを放つ。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "ドルオーラ連発！！",
+            "music": "♪Moment of Recall",
+            "music_id": "400003"
+        }
+    },
+    "344000701": {
+        "name": "竜魔人VS鬼眼王",
+        "compendium_id": 193,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20037,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [75, 150, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [244692],
+            "7": [244693],
+            "10": [244694]
+        },
+        "restriction": {
+            "244693": [7953],
+            "244694": [7953]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "竜（ドラゴン）の紋章の力を全開にして竜魔人化したダイと、第三の眼“鬼眼”を解放して魔獣となったバーンが戦う。死力を尽くした両者の戦いは、ついに最終局面を迎えようとしていた。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "竜魔人VS鬼眼王",
             "music": "♪Moment of Recall",
             "music_id": "400003"
         }
