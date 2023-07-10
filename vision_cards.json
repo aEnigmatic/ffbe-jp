@@ -2663,7 +2663,7 @@
         }
     },
     "100007901": {
-        "name": "雨の結婚式前夜",
+        "name": "Rain Before a Wedding",
         "compendium_id": 171,
         "compendium_shown": true,
         "rarity": 1,
@@ -2695,10 +2695,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "結婚式を控えた雨の夜。スネフリンガの元にリダルが現れた。彼はスネフリンガを連れて逃げ出すつもりだったが、王女としての責務を全うしようとする彼女の覚悟を知り、一言「おめでとう」とだけ伝える。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "雨の結婚式前夜",
-            "music": "♪Mystic Ruins",
+            "desc": "A steady rain falls the night before Snovlinka's wedding as Riddar clambers up the castle wall. Though he came planning to abscond with Snovlinka, he hears the princess's dedication to her duty, and merely congratulates her instead.",
+            "info": "A steady rain falls the night before Snovlinka's wedding as Riddar clambers up the castle wall. Though he came planning to abscond with Snovlinka, he hears the princess's dedication to her duty, and merely congratulates her instead.",
+            "shop": "Rain Before a Wedding",
+            "music": "Mystic Ruins",
             "music_id": "400205"
         }
     },
@@ -5785,11 +5785,46 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "躯旅団との戦いのさなか、身分の違いという現実を突きつけられたラムザとディリータ。無力感に苛まれるディリータは複雑な胸中を明かす。二人は、バルバネスに教わった草笛を吹き、無聊を慰める。",
+            "desc": "骸旅団との戦いのさなか、身分の違いという現実を突きつけられたラムザとディリータ。無力感に苛まれるディリータは複雑な胸中を明かす。二人は、バルバネスに教わった草笛を吹き、無聊を慰める。",
             "info": "ビジョンカードが経験値を獲得！",
             "shop": "亡き父の草笛",
             "music": "♪思い出",
             "music_id": "400765"
+        }
+    },
+    "253000201": {
+        "name": "雷神シドの猛攻",
+        "compendium_id": 201,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11002,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [170, 170, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [170, 170, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [244752, 244753, 244754]
+        },
+        "restriction": null,
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "南天騎士団長オルランドゥの本領発揮。次々と強力な剣技を繰り出し、瞬く間に眼前の敵を斬り伏せていく。電光石火の戦いぶりは、まさしく「雷神」の二つ名にふさわしい。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "雷神シドの猛攻",
+            "music": "♪Desert Land",
+            "music_id": "400762"
         }
     },
     "253000301": {
