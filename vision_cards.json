@@ -4874,7 +4874,7 @@
         }
     },
     "209000501": {
-        "name": "テラホーミングを唱えるクポ！",
+        "name": "Use Terra Homing, Kupo!",
         "compendium_id": 173,
         "compendium_shown": true,
         "rarity": 1,
@@ -4905,10 +4905,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "ゾーンとソーンからエーコを守るため、モグはエーコにテラホーミングを唱えるよう語りかける。エーコの詠唱でモグは本来の姿である召喚獣・マディーンとなって眼前の敵を撃退した。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "テラホーミングを唱えるクポ！",
-            "music": "♪バトル1",
+            "desc": "In order to protect Eiko from Zorn and Thorn, Mog urges Eiko to use Terra Homing. Through Eiko's incantation, Mog assumes her true form, the eidolon Madeen, and soundly defeats the meddlesome twins.",
+            "info": "In order to protect Eiko from Zorn and Thorn, Mog urges Eiko to use Terra Homing. Through Eiko's incantation, Mog assumes her true form, the eidolon Madeen, and soundly defeats the meddlesome twins.",
+            "shop": "Use Terra Homing, Kupo!",
+            "music": "Battle 1",
             "music_id": "400852"
         }
     },
@@ -5983,6 +5983,46 @@
             "music_id": "4001206"
         }
     },
+    "304000101": {
+        "name": "聖剣の伝説が始まる",
+        "compendium_id": 202,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20005,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [75, 150, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [244915],
+            "7": [244916],
+            "10": [244917]
+        },
+        "restriction": {
+            "244916": [8020],
+            "244917": [8020]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "地震でできた穴からポトス村の地下へ落下したランディとボブ。突如目の前に現れたマンティスアントに、ランディは聖剣を構えて立ち向かう。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "聖剣の伝説が始まる",
+            "music": "♪危機",
+            "music_id": "400531"
+        }
+    },
     "306000101": {
         "name": "Alena vs. the Abominable Showmen",
         "compendium_id": 70,
@@ -6033,7 +6073,7 @@
         "stats": {
             "HP": [0, 0, 0, 0],
             "MP": [0, 0, 0, 0],
-            "ATK": [40, 110, 0, 0],
+            "ATK": [65, 130, 0, 0],
             "DEF": [0, 0, 0, 0],
             "MAG": [0, 0, 0, 0],
             "SPR": [0, 0, 0, 0],
@@ -6504,9 +6544,9 @@
         "stats": {
             "HP": [0, 0, 0, 0],
             "MP": [0, 0, 0, 0],
-            "ATK": [65, 130, 0, 0],
+            "ATK": [70, 140, 0, 0],
             "DEF": [0, 0, 0, 0],
-            "MAG": [65, 130, 0, 0],
+            "MAG": [70, 140, 0, 0],
             "SPR": [0, 0, 0, 0],
             "element_resist": null,
             "status_resist": null

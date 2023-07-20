@@ -2217,5 +2217,53 @@
             ["Reduce resistance to Lightning and Earth by 30%"]
         ],
         "effects_raw": [[0, 0, 2, [0,  0,  -30,  0,  0,  -30,  0,  0]]]
+    },
+    "200000245": {
+        "duration": 3,
+        "effects": [
+            ["Reduce resistance to Fire by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-40,  0,  0,  0,  0,  0,  0,  0]]]
+    },
+    "200000246": {
+        "duration": 3,
+        "effects": [
+            ["Reduce resistance to Ice and Water by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  -40,  0,  -40,  0,  0,  0,  0]]]
+    },
+    "200000247": {
+        "duration": 3,
+        "effects": [
+            ["Reduce resistance to Earth by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  -40,  0,  0]]]
+    },
+    "200000248": {
+        "duration": 5,
+        "effects": [
+            ["Increase Ice and Water physical damage by 40%"],
+            ["Increase Ice and Water magic damage by 40%"],
+            ["Increase resistance to Ice and Water by 50%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  40,  0,  40,  0,  0,  0,  0]], [0, 0, 11, [0,  40,  0,  40,  0,  0,  0,  0]], [0, 0, 2, [0,  50,  0,  50,  0,  0,  0,  0]]]
+    },
+    "200000249": {
+        "duration": 5,
+        "effects": [
+            ["Increase Lightning and Wind physical damage by 40%"],
+            ["Increase Lightning and Wind magic damage by 40%"],
+            ["Increase resistance to Lightning and Wind by 50%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  40,  0,  40,  0,  0,  0]], [0, 0, 11, [0,  0,  40,  0,  40,  0,  0,  0]], [0, 0, 2, [0,  0,  50,  0,  50,  0,  0,  0]]]
+    },
+    "200000250": {
+        "duration": 5,
+        "effects": [
+            ["Increase Light physical damage by 40%"],
+            ["Increase Light magic damage by 40%"],
+            ["Increase resistance to Light by 50%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  40,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  40,  0]], [0, 0, 2, [0,  0,  0,  0,  0,  0,  50,  0]]]
     }
 }
