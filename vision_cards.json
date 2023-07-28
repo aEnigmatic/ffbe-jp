@@ -4835,7 +4835,7 @@
         }
     },
     "209000401": {
-        "name": "守るべきもの",
+        "name": "Something to Protect",
         "compendium_id": 175,
         "compendium_shown": true,
         "rarity": 1,
@@ -4866,10 +4866,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "クジャによる襲撃を受けたアレクサンドリアの城下町で戦うスタイナーとベアトリクス。2人は決死の覚悟で、次から次へと現れる霧の魔獣を討伐する。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "守るべきもの",
-            "music": "♪守るべきもの",
+            "desc": "Steiner and Beatrix fight valiantly as Kuja's monsters flood the streets of Alexandria. Mistodon after mistodon falls to their blades as the two press on, resolved to defend the capital to their deaths.",
+            "info": "Steiner and Beatrix fight valiantly as Kuja's monsters flood the streets of Alexandria. Mistodon after mistodon falls to their blades as the two press on, resolved to defend the capital to their deaths.",
+            "shop": "Something to Protect",
+            "music": "Something to Protect",
             "music_id": "401031"
         }
     },
@@ -5690,7 +5690,7 @@
             "MP": [0, 0, 0, 0],
             "ATK": [0, 0, 0, 0],
             "DEF": [0, 0, 0, 0],
-            "MAG": [50, 100, 0, 0],
+            "MAG": [65, 130, 0, 0],
             "SPR": [0, 0, 0, 0],
             "element_resist": null,
             "status_resist": null
@@ -5701,7 +5701,7 @@
             "10": [240222]
         },
         "restriction": {
-            "240222": [7103]
+            "240221": [7915]
         },
         "max_level": 10,
         "exp_pattern": 110,
@@ -5714,6 +5714,84 @@
             "shop": "Duty as the Oracle",
             "music": "LUNA",
             "music_id": "401026"
+        }
+    },
+    "215000401": {
+        "name": "常に胸を張れ",
+        "compendium_id": 203,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10015,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [170, 170, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [170, 170, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "1": [244803, 244804, 244805]
+        },
+        "restriction": {
+            "244803": [8019],
+            "244804": [8019],
+            "244805": [8019]
+        },
+        "max_level": 1,
+        "exp_pattern": 1,
+        "stat_pattern": 1,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "帝国との停戦調印式を控え、結婚のためにノクティスが王都を旅立つ日。レギスは王として、父としての言葉とともに、息子を送り出す。それが、二人の今生の別れとなった……。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "常に胸を張れ",
+            "music": "♪Departure",
+            "music_id": "4001704"
+        }
+    },
+    "215000501": {
+        "name": "剣神と炎神の攻防",
+        "compendium_id": 204,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10015,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [65, 130, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [244815],
+            "7": [244816],
+            "10": [244817]
+        },
+        "restriction": {
+            "244817": [7915]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "炎神イフリートと死闘を繰り広げるノクティスに、剣神バハムートが加勢する。アルテマソードを放ち高高度から攻撃するバハムート。イフリートはそれを次々とかわして応戦する。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "剣神と炎神の攻防",
+            "music": "♪NOX DIVINA",
+            "music_id": "4001708"
         }
     },
     "249000101": {
