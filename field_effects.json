@@ -563,6 +563,20 @@
         ],
         "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  0,  0,  -50]]]
     },
+    "100000080": {
+        "duration": -1,
+        "effects": [
+            ["Increase ATK, DEF, MAG and SPR by 0 / 5%"]
+        ],
+        "effects_raw": [[0, 0, 1, [[0,  5], [0,  5], [0,  5], [0,  5]]]]
+    },
+    "100000081": {
+        "duration": -1,
+        "effects": [
+            ["Reduce ATK, DEF, MAG and SPR by 100%"]
+        ],
+        "effects_raw": [[0, 0, 1, [-100,  -100,  -100,  -100]]]
+    },
     "200000001": {
         "duration": 10,
         "effects": [
@@ -2368,5 +2382,27 @@
             ["Increase resistance to Light by 50%"]
         ],
         "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  40,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  40,  0]], [0, 0, 2, [0,  0,  0,  0,  0,  0,  50,  0]]]
+    },
+    "200000252": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Ice, Lightning and Water by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  -40,  -40,  -40,  0,  0,  0,  0]]]
+    },
+    "200000257": {
+        "duration": -1,
+        "effects": [
+            ["Increase Ice and Earth physical damage by 30%"],
+            ["Increase Ice and Earth magic damage by 30%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  30,  0,  0,  0,  30,  0,  0]], [0, 0, 11, [0,  30,  0,  0,  0,  30,  0,  0]]]
+    },
+    "200000259": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Water by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  -40,  0,  0,  0,  0]]]
     }
 }
