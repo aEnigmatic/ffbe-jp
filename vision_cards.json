@@ -6504,9 +6504,9 @@
         "stats": {
             "HP": [0, 0, 0, 0],
             "MP": [0, 0, 0, 0],
-            "ATK": [50, 100, 0, 0],
+            "ATK": [65, 130, 0, 0],
             "DEF": [0, 0, 0, 0],
-            "MAG": [0, 0, 0, 0],
+            "MAG": [65, 130, 0, 0],
             "SPR": [0, 0, 0, 0],
             "element_resist": null,
             "status_resist": null
@@ -6517,7 +6517,8 @@
             "10": [239702]
         },
         "restriction": {
-            "239702": [7271]
+            "239701": [8021],
+            "239702": [8021]
         },
         "max_level": 10,
         "exp_pattern": 110,
@@ -6529,6 +6530,46 @@
             "info": "A scene depicting Edward awakening in a blank space following his attempt at a human transmutation. Truth awaits beyond the great gate, revealing that those who break the taboo will gain infinite knowledge, but only at a very high price.",
             "shop": "The Portal of Truth",
             "music": "Moment of Recall",
+            "music_id": "400003"
+        }
+    },
+    "338000401": {
+        "name": "傷の男VS紅蓮の錬金術師",
+        "compendium_id": 208,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20032,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [70, 140, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [70, 140, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [244993],
+            "7": [244994],
+            "10": [244995]
+        },
+        "restriction": {
+            "244994": [8021],
+            "244995": [8021]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "列車上で戦う傷の男スカーと紅蓮の錬金術師キンブリー。イシュヴァールの内乱の際、スカーの兄や同胞を手にかけたキンブリーに、スカーは復讐心を燃やす。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "傷の男VS紅蓮の錬金術師",
+            "music": "♪Moment of Recall",
             "music_id": "400003"
         }
     },
