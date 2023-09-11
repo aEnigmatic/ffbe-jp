@@ -2744,7 +2744,7 @@
         }
     },
     "100008101": {
-        "name": "ドレスでお散歩",
+        "name": "Dressed for a Stroll",
         "compendium_id": 181,
         "compendium_shown": true,
         "rarity": 1,
@@ -2775,10 +2775,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "完成したドレスを受け取るためグランシェルトを訪れたアヤカ。自分のために仕立てられた特別な一着に心弾んだ彼女は、ドレス姿で城下をお散歩。春の陽気も、着飾ったアヤカを祝福してくれているようだ。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "ドレスでお散歩",
-            "music": "♪Once more Dance?",
+            "desc": "Ayaka arrives in Grandshelt to pick up a dress that is finally finished. Heart sent aflutter at the gorgeous garment specially made for her, Ayaka dons it for a stroll in the castle town. Dressed to the nines, even the brisk spring weather seems to offer its tidings to her.",
+            "info": "Ayaka arrives in Grandshelt to pick up a dress that is finally finished. Heart sent aflutter at the gorgeous garment specially made for her, Ayaka dons it for a stroll in the castle town. Dressed to the nines, even the brisk spring weather seems to offer its tidings to her.",
+            "shop": "Dressed for a Stroll",
+            "music": "Once more Dance?",
             "music_id": "400203"
         }
     },
@@ -6530,6 +6530,46 @@
             "info": "A scene depicting Edward awakening in a blank space following his attempt at a human transmutation. Truth awaits beyond the great gate, revealing that those who break the taboo will gain infinite knowledge, but only at a very high price.",
             "shop": "The Portal of Truth",
             "music": "Moment of Recall",
+            "music_id": "400003"
+        }
+    },
+    "338000301": {
+        "name": "ブリッグズの北壁",
+        "compendium_id": 207,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20032,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [75, 150, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [244980],
+            "7": [244981],
+            "10": [244982]
+        },
+        "restriction": {
+            "244981": [8021],
+            "244982": [8021]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "ブリッグズの要塞を訪れたエルリック兄弟の前に姿を現したオリヴィエ少将。氷の女王と呼ばれる女将軍は、アームストロング少佐の紹介状をその場で破り捨てるのだった。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "ブリッグズの北壁",
+            "music": "♪Moment of Recall",
             "music_id": "400003"
         }
     },
