@@ -5600,7 +5600,7 @@
         }
     },
     "213000501": {
-        "name": "自然保護区サンレス水郷",
+        "name": "The Sunleth Waterscape Reserve",
         "compendium_id": 182,
         "compendium_shown": true,
         "rarity": 1,
@@ -5631,10 +5631,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "夢の街ノーチラスへ向かう途中、自然保護区サンレス水郷の一角で休憩を取るサッズとヴァニラ。ルシやドッジのことで、二人はそれぞれの悩みを抱えていた。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "自然保護区サンレス水郷",
-            "music": "♪サンレス水郷",
+            "desc": "Sazh and Vanille rest in a corner of the Sunleth Waterscape while on their way to Nautilus, the City of Dreams. Yet even among nature's bounty, their minds are troubled by thoughts of l'Cie and Dajh.",
+            "info": "Sazh and Vanille rest in a corner of the Sunleth Waterscape while on their way to Nautilus, the City of Dreams. Yet even among nature's bounty, their minds are troubled by thoughts of l'Cie and Dajh.",
+            "shop": "The Sunleth Waterscape Reserve",
+            "music": "The Sunleth Waterscape",
             "music_id": "4001405"
         }
     },
@@ -7493,6 +7493,46 @@
             "shop": "By Lord Dario's Side",
             "music": "Shadow of Doubt",
             "music_id": "400206"
+        }
+    },
+    "401002101": {
+        "name": "私が生んだ最強の敵",
+        "compendium_id": 209,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [65, 130, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [65, 130, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [245046],
+            "7": [245047],
+            "10": [245048]
+        },
+        "restriction": {
+            "245047": [7216],
+            "245048": [7216]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "「最強の英雄になる」という願いを卵にかけたエスターは、これまでで最も恐ろしい敵である自分自身と戦うことに。己と同じ姿をした者を相手に、エスターは光の如き高速の一撃を見舞うのだった。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "私が生んだ最強の敵",
+            "music": "♪Another Tale to Tell",
+            "music_id": "400328"
         }
     },
     "401002201": {
