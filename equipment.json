@@ -10300,7 +10300,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244484, 244485],
-        "effects": ["Grant '暗く冷徹なる闘志' passive", "Grant '闇龍宿りし刃' passive"],
+        "effects": ["Grant 'Cold, Dark Spirit' passive", "Grant 'Imbued with the Dark Dragon's Might' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -10393,7 +10393,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244644],
-        "effects": ["Grant '絶・剣神との呼応' passive"],
+        "effects": ["Grant 'Harmony with the Knight Rider++' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -15301,6 +15301,37 @@
         "price_sell": 30000,
         "icon": "item_2030041.png"
     },
+    "303014500": {
+        "name": "シアノアセイバー",
+        "compendium_id": 3390,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [245004, 245005],
+        "effects": ["Grant '水神の加護を受けし大剣' passive", "Grant '大海を割る剣撃' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 242,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_2030046.png"
+    },
     "303014600": {
         "name": "ティターニアディバイダー(FFXIV)",
         "compendium_id": 3425,
@@ -19256,6 +19287,37 @@
         "price_buy": 280000,
         "price_sell": 28000,
         "icon": "item_2040045.png"
+    },
+    "304012900": {
+        "name": "蒼波の竜刀",
+        "compendium_id": 3391,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 4,
+        "type": "Katana",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [244967, 244968],
+        "effects": ["Grant '水神の加護を受けし銘刀' passive", "Grant '波濤切り裂く剣閃' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 188,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 140000,
+        "price_sell": 14000,
+        "icon": "item_2020099.png"
     },
     "304020100": {
         "name": "阿修羅",
@@ -30307,7 +30369,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244594, 244595],
-        "effects": ["Grant '呪鬼の力が宿りし武具' passive", "Grant '幻獣と共鳴せし猛拳' passive"],
+        "effects": ["Grant 'Imbued with the Cursed Being's Might' passive", "Grant 'Esper-Bonded Punches' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -34714,7 +34776,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [244640],
-        "effects": ["Grant '虚魔の力が宿りしロッド' passive"],
+        "effects": ["Grant 'Void Demon's Rod' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -34745,7 +34807,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [244640, 244641],
-        "effects": ["Grant '虚魔の力が宿りしロッド' passive", "Grant '幻獣と共鳴せし才覚' passive"],
+        "effects": ["Grant 'Void Demon's Rod' passive", "Grant 'Esper-Bonded Faculty' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -39720,6 +39782,37 @@
         "price_buy": 260000,
         "price_sell": 26000,
         "icon": "item_2140039.png"
+    },
+    "312007000": {
+        "name": "マーレヴィータ",
+        "compendium_id": 3394,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 7,
+        "type": "Bow",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.35, 1.85],
+        "accuracy": 70,
+        "requirements": null,
+        "skills": [245001, 245002],
+        "effects": ["Grant '水神の加護を受けし弓' passive", "Grant '海原を穿つ一矢' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 127,
+            "DEF": 0,
+            "MAG": 232,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 260000,
+        "price_sell": 26000,
+        "icon": "item_2020100.png"
     },
     "312007100": {
         "name": "エルフィンボウ(FFXIV)",
@@ -69242,7 +69335,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244597, 244598],
-        "effects": ["Grant '虚魔の力が宿りし装束' passive", "Grant '幻獣と共鳴せし魔力' passive"],
+        "effects": ["Grant 'Imbued with the Void Demon's Might' passive", "Grant 'Esper-Bonded Magic' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -70961,6 +71054,37 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2170165.png"
+    },
+    "405037300": {
+        "name": "溟海の護装",
+        "compendium_id": 3392,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 51,
+        "type": "Light Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [120810],
+        "effects": ["Grant 'Preemptive LB Boost (ATK)' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 150,
+            "DEF": 53,
+            "MAG": 0,
+            "SPR": 46,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 240000,
+        "price_sell": 24000,
+        "icon": "item_2170162.png"
     },
     "406000100": {
         "name": "レザープレート",
@@ -77109,8 +77233,8 @@
         "dmg_variance": null,
         "accuracy": 0,
         "requirements": ["SEX", 2],
-        "skills": [100060, 100740],
-        "effects": ["Grant 'MP +30%' passive", "Grant 'Auto-Refresh' passive"],
+        "skills": [100060, 100740, 244943],
+        "effects": ["Grant 'MP +30%' passive", "Grant 'Auto-Refresh' passive", "Grant '魔人の外套' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -103084,7 +103208,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244642],
-        "effects": ["Grant '召喚士のための装身具' passive"],
+        "effects": ["Grant 'Summoner's Accessory' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -103115,7 +103239,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244642],
-        "effects": ["Grant '召喚士のための装身具' passive"],
+        "effects": ["Grant 'Summoner's Accessory' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -103146,7 +103270,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244643],
-        "effects": ["Grant '召喚士のための装身具II' passive"],
+        "effects": ["Grant 'Summoner's Accessory+' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,

@@ -2469,6 +2469,35 @@
         ],
         "effects_raw": [[0, 0, 2, [0,  -40,  -40,  -40,  0,  0,  0,  0]]]
     },
+    "200000253": {
+        "duration": 5,
+        "effects": [
+            ["Increase ATK, DEF, MAG and SPR by 100%"]
+        ],
+        "effects_raw": [[0, 0, 1, [100,  100,  100,  100]]]
+    },
+    "200000254": {
+        "duration": 5,
+        "effects": [
+            ["Increase LB damage by 100%"]
+        ],
+        "effects_raw": [[0, 0, 9, [100]]]
+    },
+    "200000255": {
+        "duration": 5,
+        "effects": [
+            ["Increase all physical elemental damage physical damage by 20%"],
+            ["Increase all magic elemental damage magic damage by 20%"]
+        ],
+        "effects_raw": [[0, 0, 10, [20,  20,  20,  20,  20,  20,  20,  20]], [0, 0, 11, [20,  20,  20,  20,  20,  20,  20,  20]]]
+    },
+    "200000256": {
+        "duration": 5,
+        "effects": [
+            ["Increase resistance to all elements by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [40,  40,  40,  40,  40,  40,  40,  40]]]
+    },
     "200000257": {
         "duration": -1,
         "effects": [
