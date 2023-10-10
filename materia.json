@@ -544,7 +544,7 @@
         "compendium_shown": true,
         "requirements": null,
         "skills": [30050],
-        "effects": ["Grant 'Barthunder' magic"],
+        "effects": ["Grant 'Barthund' magic"],
         "price_buy": 1000,
         "price_sell": 100,
         "icon": "ability_13.png"
@@ -13249,7 +13249,7 @@
         "compendium_shown": true,
         "requirements": null,
         "skills": [244616],
-        "effects": ["Grant 'マディーンシナジー' passive"],
+        "effects": ["Grant 'Madeen Synergy' passive"],
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_77.png"
@@ -13260,7 +13260,7 @@
         "compendium_shown": true,
         "requirements": null,
         "skills": [244631],
-        "effects": ["Grant 'カーバンクルシナジー' passive"],
+        "effects": ["Grant 'Carbuncle Synergy' passive"],
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "ability_76.png"
@@ -13650,6 +13650,17 @@
         "price_sell": 10000,
         "icon": "ability_9.png"
     },
+    "504245083": {
+        "name": "護りの操剣",
+        "compendium_id": 1591,
+        "compendium_shown": true,
+        "requirements": null,
+        "skills": [245083],
+        "effects": ["Grant '護りの操剣' passive"],
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_6000200.png"
+    },
     "504245086": {
         "name": "攻魔+40%",
         "compendium_id": 1586,
@@ -13671,6 +13682,28 @@
         "price_buy": 400000,
         "price_sell": 40000,
         "icon": "ability_77.png"
+    },
+    "504245088": {
+        "name": "魔人がもたらす魔力",
+        "compendium_id": 1589,
+        "compendium_shown": true,
+        "requirements": ["RULE", [8012]],
+        "skills": [245088],
+        "effects": ["Grant '魔人がもたらす魔力' passive"],
+        "price_buy": 400000,
+        "price_sell": 40000,
+        "icon": "ability_77.png"
+    },
+    "504245089": {
+        "name": "破滅の幻獣の力",
+        "compendium_id": 1590,
+        "compendium_shown": true,
+        "requirements": null,
+        "skills": [245089],
+        "effects": ["Grant '破滅の幻獣の力' passive"],
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "ability_19.png"
     },
     "504400110": {
         "name": "エンカウント率減少",
