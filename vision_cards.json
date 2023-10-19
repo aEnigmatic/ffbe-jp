@@ -3147,13 +3147,26 @@
             "element_resist": null,
             "status_resist": null
         },
-        "skills": [],
-        "restriction": null,
+        "skills": {
+            "4": [245058],
+            "7": [245059],
+            "10": [245060]
+        },
+        "restriction": {
+            "245060": [7216]
+        },
         "max_level": 10,
         "exp_pattern": 110,
         "stat_pattern": 100,
         "merge_exp": 400,
-        "merge_stats": [0, 0, 0, 0, 0, 0]
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "窮地に陥ったレインたちを救うべく現れた魔人フィーナのビジョン。破滅の力にも匹敵する強大な力を放ち、カオス＝ビスマルクに立ち向かう！",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "窮地に現れしビジョン",
+            "music": "♪Chaotic Waves",
+            "music_id": "400416"
+        }
     },
     "201000101": {
         "name": "And So Their Quest Began",
