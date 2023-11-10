@@ -16930,6 +16930,17 @@
             "8997903": "砂に潜む巨蟲・覚醒級"
         }
     },
+    "90101": {
+        "names": ["十二武具の間へ移動"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "901",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "9010101": "十二武具の間へ移動"
+        }
+    },
     "90201": {
         "names": ["挑戦の間"],
         "world_id": 2,
@@ -18307,7 +18318,7 @@
         "names": ["王家の誇りにかけて"],
         "world_id": 2,
         "region_id": "21",
-        "subregion_id": "6353",
+        "subregion_id": "912",
         "position": [0, 0],
         "icon": "spd_20230821_bn_list_vlad.png",
         "missions": {
@@ -18320,9 +18331,9 @@
         "names": ["黒きクリスタルに魅せられし竜王"],
         "world_id": 2,
         "region_id": "21",
-        "subregion_id": "6363",
+        "subregion_id": "912",
         "position": [0, 0],
-        "icon": "spd_20230821_bn_list_vlad.png",
+        "icon": "spd_20230911_bn_list_dbahamut.png",
         "missions": {
             "9120201": "黒きクリスタルに魅せられし竜王・EASY",
             "9120202": "黒きクリスタルに魅せられし竜王・HARD",
@@ -18333,9 +18344,9 @@
         "names": ["深淵より現れし混沌"],
         "world_id": 2,
         "region_id": "21",
-        "subregion_id": "6373",
+        "subregion_id": "912",
         "position": [0, 0],
-        "icon": null,
+        "icon": "spd_20231010_bn_list_8th.png",
         "missions": {
             "9120301": "ダークニーケー",
             "9120302": "ダークアーテー",
@@ -18346,15 +18357,39 @@
             "9120307": "深淵より現れし混沌連戦"
         }
     },
+    "91204": {
+        "names": ["強兵が挑みし戦雲の城"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "4443",
+        "position": [0, 0],
+        "icon": "spd_20231110_bn_list_odin.png",
+        "missions": {
+            "9120401": "強兵が挑みし戦雲の城・EASY",
+            "9120402": "強兵が挑みし戦雲の城・HARD",
+            "9120403": "強兵が挑みし戦雲の城・EX"
+        }
+    },
     "91801": {
         "names": ["マディーンの間に移動"],
         "world_id": 2,
         "region_id": "21",
-        "subregion_id": "918",
+        "subregion_id": "912",
+        "position": [0, 0],
+        "icon": "spd_20230421_bn_list_ikai.png",
+        "missions": {
+            "9180101": "マディーンの間へ移動"
+        }
+    },
+    "91901": {
+        "names": ["裏十二武具の間に遷移"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "919",
         "position": [0, 0],
         "icon": null,
         "missions": {
-            "9180101": "マディーンの間へ移動"
+            "9190101": "裏十二武具の間へ移動"
         }
     },
     "92001": {
@@ -30453,6 +30488,28 @@
             "20020201": "闇に咆哮せし双頭竜"
         }
     },
+    "200301": {
+        "names": ["勝利者たちの戦域"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "2003",
+        "position": [410, 575],
+        "icon": "map_icon_200301.png",
+        "missions": {
+            "20030101": "闇を統べし再臨の帝王"
+        }
+    },
+    "200302": {
+        "names": ["闘争者たちの戦域"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "2003",
+        "position": [140, 440],
+        "icon": "map_icon_200302.png",
+        "missions": {
+            "20030201": "闇を操りし孤高の魔将"
+        }
+    },
     "210101": {
         "names": ["封印されし塔"],
         "world_id": 5,
@@ -38896,6 +38953,47 @@
             "44310102": "法則の破壊者Lv2",
             "44310103": "法則の破壊者Lv3",
             "44310104": "法則の破壊者Lv4"
+        }
+    },
+    "444001": {
+        "names": ["喰らわれゆく魂たち"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "4440",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "44400101": "喰らわれゆく魂たちLv1",
+            "44400102": "喰らわれゆく魂たちLv2",
+            "44400103": "喰らわれゆく魂たちLv3",
+            "44400104": "喰らわれゆく魂たちLv4",
+            "44400105": "喰らわれゆく魂たちLv5"
+        }
+    },
+    "444101": {
+        "names": ["アードラの災厄"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "4441",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "44410101": "アードラの災厄Lv1",
+            "44410102": "アードラの災厄Lv2"
+        }
+    },
+    "444201": {
+        "names": ["この一瞬のために"],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "4442",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "44420101": "この一瞬のためにLv1",
+            "44420102": "この一瞬のためにLv2",
+            "44420103": "この一瞬のためにLv3",
+            "44420104": "この一瞬のためにLv4"
         }
     },
     "500001": {
