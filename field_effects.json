@@ -2604,5 +2604,61 @@
             ["Reduce resistance to Fire, Wind, Earth, Light and Dark by 50%"]
         ],
         "effects_raw": [[0, 0, 2, [-50,  0,  0,  0,  -50,  -50,  -50,  -50]]]
+    },
+    "200000269": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Fire by 0%"]
+        ],
+        "effects_raw": [[0, 0, 2, [[0,  -30], 0, 0, 0, 0, 0, 0, 0]]]
+    },
+    "200000270": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Ice by 0%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, [0,  -30], 0, 0, 0, 0, 0, 0]]]
+    },
+    "200000271": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Light by 0%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, 0, 0, 0, 0, [0,  -30], 0]]]
+    },
+    "200000272": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Dark by 0%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, 0, 0, 0, 0, 0, [0,  -30]]]]
+    },
+    "200000273": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Fire by 50%"]
+        ],
+        "effects_raw": [[0, 0, 2, [50,  0,  0,  0,  0,  0,  0,  0]]]
+    },
+    "200000274": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Ice by 50%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  50,  0,  0,  0,  0,  0,  0]]]
+    },
+    "200000275": {
+        "duration": 10,
+        "effects": [
+            ["Increase ATK, DEF, MAG and SPR by 100%"]
+        ],
+        "effects_raw": [[0, 0, 1, [100,  100,  100,  100]]]
+    },
+    "200000277": {
+        "duration": 10,
+        "effects": [
+            ["Increase resistance to Lightning by 50%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  50,  0,  0,  0,  0,  0]]]
     }
 }

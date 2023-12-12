@@ -10610,7 +10610,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [227315, 226897, 244747, 244748],
-        "effects": ["Grant 'Undead Killer+' passive", "Grant 'Demon Killer+' passive", "Grant '古代文字が刻まれた剣' passive", "Grant '見習い戦士の愛剣' passive"],
+        "effects": ["Grant 'Undead Killer+' passive", "Grant 'Demon Killer+' passive", "Grant 'Sword Inscribed with Ancient Runes' passive", "Grant 'Squire's Beloved Sword' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -15641,6 +15641,37 @@
         "price_buy": 300000,
         "price_sell": 30000,
         "icon": "item_2030047.png"
+    },
+    "303015200": {
+        "name": "真・ジェクトソード",
+        "compendium_id": 3507,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [245205, 245206],
+        "effects": ["Grant '王者の風格' passive", "Grant 'ガードの自覚' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 242,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_2030050.png"
     },
     "304000100": {
         "name": "虎鉄",
@@ -21211,6 +21242,37 @@
         "price_buy": 360000,
         "price_sell": 36000,
         "icon": "item_2080019.png"
+    },
+    "305005700": {
+        "name": "始祖竜の斧",
+        "compendium_id": 3509,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 8,
+        "type": "Axe",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.15, 1.95],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [245236, 245237],
+        "effects": ["Grant '竜の一族の戦斧' passive", "Grant '呼応する竜の力' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 223,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 360000,
+        "price_sell": 36000,
+        "icon": "item_2080021.png"
     },
     "306000100": {
         "name": "木づち",
@@ -38072,6 +38134,37 @@
         "price_sell": 8000,
         "icon": "item_2050034.png"
     },
+    "311009500": {
+        "name": "真・ニルヴァーナ(FFX)",
+        "compendium_id": 3515,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 5,
+        "type": "Staff",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [245226, 245227],
+        "effects": ["Grant '月輪の加護' passive", "Grant '召喚士が背負う宿命' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 28,
+            "DEF": 0,
+            "MAG": 227,
+            "SPR": 174,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 160000,
+        "price_sell": 16000,
+        "icon": "item_2050036.png"
+    },
     "312000100": {
         "name": "ショートボウ",
         "compendium_id": 79,
@@ -49652,8 +49745,8 @@
         "dmg_variance": null,
         "accuracy": 0,
         "requirements": null,
-        "skills": [232793],
-        "effects": ["Grant 'Mog Shield' passive"],
+        "skills": [101410],
+        "effects": ["Grant 'HP Stroll' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -56490,7 +56583,10 @@
         "is_twohanded": false,
         "dmg_variance": null,
         "accuracy": 0,
-        "requirements": ["UNIT_ID", 210001105],
+        "requirements": [
+            "UNIT_ID",
+            [210001105, 210001127]
+        ],
         "skills": null,
         "effects": null,
         "stats": {
@@ -70305,7 +70401,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244756],
-        "effects": ["Grant '白銀に輝く甲冑' passive"],
+        "effects": ["Grant 'Shimmering Armor' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -70336,7 +70432,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [244822, 244823],
-        "effects": ["Grant '終焉を詠った伝承の剣' passive", "Grant 'ホーリーナイトの騎士剣' passive"],
+        "effects": ["Grant 'Tales About the End' passive", "Grant 'Holy Knight's Sword' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -70528,7 +70624,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244797],
-        "effects": ["Grant '名門子弟の装束' passive"],
+        "effects": ["Grant 'Noble Attire' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -70559,7 +70655,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244797, 244798],
-        "effects": ["Grant '名門子弟の装束' passive", "Grant 'ベオルブ家の名誉' passive"],
+        "effects": ["Grant 'Noble Attire' passive", "Grant 'Beoulve's Honor' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -71860,6 +71956,37 @@
         "price_buy": 120000,
         "price_sell": 12000,
         "icon": "item_2170168.png"
+    },
+    "405038700": {
+        "name": "竜鱗の衣",
+        "compendium_id": 3508,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [245235],
+        "effects": ["Grant '竜の護力' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 64,
+            "DEF": 18,
+            "MAG": 0,
+            "SPR": 32,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2170173.png"
     },
     "406000100": {
         "name": "レザープレート",
@@ -96356,8 +96483,8 @@
             "MP": 0,
             "ATK": 0,
             "DEF": 0,
-            "MAG": 0,
-            "SPR": 30,
+            "MAG": 45,
+            "SPR": 45,
             "element_resist": null,
             "element_inflict": null,
             "status_resist": null,
@@ -106230,5 +106357,36 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2250299.png"
+    },
+    "409088700": {
+        "name": "ソロモンの指輪(FFX)",
+        "compendium_id": 3514,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [245225],
+        "effects": ["Grant '祈り子との交感' passive"],
+        "stats": {
+            "HP": 500,
+            "MP": 50,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 68,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250305.png"
     }
 }
