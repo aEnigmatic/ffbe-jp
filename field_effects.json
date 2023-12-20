@@ -2654,11 +2654,69 @@
         ],
         "effects_raw": [[0, 0, 1, [100,  100,  100,  100]]]
     },
+    "200000276": {
+        "duration": 5,
+        "effects": [
+            ["Increase Dark physical damage by 70%"],
+            ["Increase Dark magic damage by 70%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  0,  70]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  0,  70]]]
+    },
     "200000277": {
         "duration": 10,
         "effects": [
             ["Increase resistance to Lightning by 50%"]
         ],
         "effects_raw": [[0, 0, 2, [0,  0,  50,  0,  0,  0,  0,  0]]]
+    },
+    "200000278": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Water, Light and Dark by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  -40,  0,  0,  -40,  -40]]]
+    },
+    "200000281": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Water, Light and Dark by 20%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  -20,  0,  0,  -20,  -20]]]
+    },
+    "200000282": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Water, Light and Dark by 25%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  -25,  0,  0,  -25,  -25]]]
+    },
+    "200000283": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Water, Light and Dark by 30%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  -30,  0,  0,  -30,  -30]]]
+    },
+    "200000284": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Water, Light and Dark by 35%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  -35,  0,  0,  -35,  -35]]]
+    },
+    "200000285": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Water, Light and Dark by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  -40,  0,  0,  -40,  -40]]]
+    },
+    "200000286": {
+        "duration": 5,
+        "effects": [
+            ["Increase Water and Light physical damage by 40%"],
+            ["Increase Water and Light magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  40,  0,  0,  40,  0]], [0, 0, 11, [0,  0,  0,  40,  0,  0,  40,  0]]]
     }
 }
