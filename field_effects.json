@@ -2683,6 +2683,14 @@
         ],
         "effects_raw": [[0, 0, 2, [0,  0,  0,  -40,  0,  0,  -40,  -40]]]
     },
+    "200000280": {
+        "duration": 5,
+        "effects": [
+            ["Increase Light physical damage by 70%"],
+            ["Increase Light magic damage by 70%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  70,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  70,  0]]]
+    },
     "200000281": {
         "duration": 5,
         "effects": [
@@ -2725,5 +2733,13 @@
             ["Increase Water and Light magic damage by 40%"]
         ],
         "effects_raw": [[0, 0, 10, [0,  0,  0,  40,  0,  0,  40,  0]], [0, 0, 11, [0,  0,  0,  40,  0,  0,  40,  0]]]
+    },
+    "200000287": {
+        "duration": 5,
+        "effects": [
+            ["Increase Earth physical damage by 70%"],
+            ["Increase Earth magic damage by 70%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  70,  0,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  70,  0,  0]]]
     }
 }
