@@ -2732,7 +2732,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244807, 244808],
-        "effects": ["Grant '急所を貫く鋭刃' passive", "Grant '王の軍師の短剣技' passive"],
+        "effects": ["Grant 'Piercing the Weak Spot' passive", "Grant 'Knifeplay of the King's Tactician' passive"],
         "stats": {
             "HP": 0,
             "MP": 25,
@@ -11194,6 +11194,37 @@
         "price_sell": 20000,
         "icon": "item_2020117.png"
     },
+    "302026200": {
+        "name": "幻魔",
+        "compendium_id": 3538,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 2,
+        "type": "Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [245268, 245269],
+        "effects": ["Grant '妖魔にのみ伝わりし技法' passive", "Grant '生命で購われし剣' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 228,
+            "DEF": 0,
+            "MAG": 235,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2020108.png"
+    },
     "302026300": {
         "name": "レフトハンドソード",
         "compendium_id": 3525,
@@ -15408,7 +15439,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [108130, 244820],
-        "effects": ["Grant 'Undead Killer+ I' passive", "Grant '王の盾の大剣技' passive"],
+        "effects": ["Grant 'Undead Killer+ I' passive", "Grant 'Swordplay of the King's Shield' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -15734,6 +15765,46 @@
         "price_buy": 300000,
         "price_sell": 30000,
         "icon": "item_2030050.png"
+    },
+    "303015300": {
+        "name": "ギュスターヴの剣",
+        "compendium_id": 3539,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [245331, 245332],
+        "effects": ["Grant 'アニマ阻害' passive", "Grant '鋼の13世' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 238,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": {
+                "Fire": 10,
+                "Ice": 10,
+                "Lightning": 10,
+                "Water": 10,
+                "Wind": 10,
+                "Earth": 10,
+                "Light": 10,
+                "Dark": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_2020109.png"
     },
     "304000100": {
         "name": "虎鉄",
@@ -27523,7 +27594,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [221540, 244889],
-        "effects": ["Grant 'Critical +10%' passive", "Grant '急所を穿つ槍' passive"],
+        "effects": ["Grant 'Critical +10%' passive", "Grant 'Weakness-Seeking Spear' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -27554,7 +27625,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [221540, 244890],
-        "effects": ["Grant 'Critical +10%' passive", "Grant '急所を穿つ槍II' passive"],
+        "effects": ["Grant 'Critical +10%' passive", "Grant 'Weakness-Seeking Spear II' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -27585,7 +27656,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [221540, 244891],
-        "effects": ["Grant 'Critical +10%' passive", "Grant '急所を穿つ槍III' passive"],
+        "effects": ["Grant 'Critical +10%' passive", "Grant 'Weakness-Seeking Spear III' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -27616,7 +27687,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [221540, 244892, 244893],
-        "effects": ["Grant 'Critical +10%' passive", "Grant '急所を穿つ槍IV' passive", "Grant 'ハイジャンプ' passive"],
+        "effects": ["Grant 'Critical +10%' passive", "Grant 'Weakness-Seeking Spear IV' passive", "Grant 'High Jump (FFXV)' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -43934,7 +44005,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244813, 244814],
-        "effects": ["Grant '白銀に輝く銃身' passive", "Grant '王の友の射撃術' passive"],
+        "effects": ["Grant 'Argentate Gun' passive", "Grant 'Gunplay of the King's Friend' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -43996,7 +44067,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [100060, 244894],
-        "effects": ["Grant 'MP +30%' passive", "Grant '改造された短銃' passive"],
+        "effects": ["Grant 'MP +30%' passive", "Grant 'Remodeled Handgun' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -44027,7 +44098,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [100060, 244895],
-        "effects": ["Grant 'MP +30%' passive", "Grant '改造された短銃II' passive"],
+        "effects": ["Grant 'MP +30%' passive", "Grant 'Remodeled Handgun II' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -44058,7 +44129,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [100060, 244895],
-        "effects": ["Grant 'MP +30%' passive", "Grant '改造された短銃II' passive"],
+        "effects": ["Grant 'MP +30%' passive", "Grant 'Remodeled Handgun II' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -44089,7 +44160,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [100060, 244896, 244897],
-        "effects": ["Grant 'MP +30%' passive", "Grant '改造された短銃III' passive", "Grant '王の背を守る銃口' passive"],
+        "effects": ["Grant 'MP +30%' passive", "Grant 'Remodeled Handgun III' passive", "Grant 'Gun that Guards the King' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -71445,7 +71516,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244885],
-        "effects": ["Grant '帝国製の防弾装備' passive"],
+        "effects": ["Grant 'Niflheim Bulletproof Tech' passive"],
         "stats": {
             "HP": 600,
             "MP": 0,
@@ -71478,7 +71549,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244886],
-        "effects": ["Grant '帝国製の防弾装備II' passive"],
+        "effects": ["Grant 'Niflheim Bulletproof Tech II' passive"],
         "stats": {
             "HP": 900,
             "MP": 0,
@@ -71511,7 +71582,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244887],
-        "effects": ["Grant '帝国製の防弾装備III' passive"],
+        "effects": ["Grant 'Niflheim Bulletproof Tech III' passive"],
         "stats": {
             "HP": 1200,
             "MP": 0,
@@ -71544,7 +71615,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244888],
-        "effects": ["Grant '帝国製の防弾装備IV' passive"],
+        "effects": ["Grant 'Niflheim Bulletproof Tech IV' passive"],
         "stats": {
             "HP": 1500,
             "MP": 0,
@@ -71608,7 +71679,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244902],
-        "effects": ["Grant '王の側近たちの装い' passive"],
+        "effects": ["Grant 'Garb of the King's Closest' passive"],
         "stats": {
             "HP": 400,
             "MP": 20,
@@ -71639,7 +71710,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244903],
-        "effects": ["Grant '王の側近たちの装いII' passive"],
+        "effects": ["Grant 'Garb of the King's Closest II' passive"],
         "stats": {
             "HP": 600,
             "MP": 30,
@@ -71670,7 +71741,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244904],
-        "effects": ["Grant '王の側近たちの装いIII' passive"],
+        "effects": ["Grant 'Garb of the King's Closest III' passive"],
         "stats": {
             "HP": 800,
             "MP": 40,
@@ -71701,7 +71772,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244904, 244905],
-        "effects": ["Grant '王の側近たちの装いIII' passive", "Grant '10年越しの正装' passive"],
+        "effects": ["Grant 'Garb of the King's Closest III' passive", "Grant 'Well-Preserved Raiment' passive"],
         "stats": {
             "HP": 1000,
             "MP": 50,
@@ -71763,7 +71834,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244920],
-        "effects": ["Grant '鬼王の護符' passive"],
+        "effects": ["Grant 'The Fierce's Talisman' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -71794,7 +71865,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244920, 244921],
-        "effects": ["Grant '鬼王の護符' passive", "Grant '王の盾を護る歴代王' passive"],
+        "effects": ["Grant 'The Fierce's Talisman' passive", "Grant 'Ruler of Yore, Protector of the Shield' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -71856,7 +71927,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244922],
-        "effects": ["Grant '夜叉王の護符' passive"],
+        "effects": ["Grant 'The Mystic's Talisman' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -71887,7 +71958,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244922],
-        "effects": ["Grant '夜叉王の護符' passive"],
+        "effects": ["Grant 'The Mystic's Talisman' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -71918,7 +71989,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244923],
-        "effects": ["Grant '夜叉王の護符II' passive"],
+        "effects": ["Grant 'The Mystic's Talisman II' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -71949,7 +72020,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244923, 244924],
-        "effects": ["Grant '夜叉王の護符II' passive", "Grant '王の軍師を護る歴代王' passive"],
+        "effects": ["Grant 'The Mystic's Talisman II' passive", "Grant 'Ruler of Yore, Protector of the Hand' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -75242,6 +75313,39 @@
         "price_buy": 120000,
         "price_sell": 12000,
         "icon": "item_2180028.png"
+    },
+    "406009500": {
+        "name": "冥帝の鎧(サガフロ)",
+        "compendium_id": 3543,
+        "compendium_shown": true,
+        "rarity": 7,
+        "type_id": 51,
+        "type": "Light Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [245340],
+        "effects": ["Grant '冥界の帝王の伝説' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 72,
+            "DEF": 36,
+            "MAG": 72,
+            "SPR": 53,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": {
+                "Paralyze": 100
+            },
+            "status_inflict": null
+        },
+        "price_buy": 60000,
+        "price_sell": 6000,
+        "icon": "item_2180029.png"
     },
     "407000200": {
         "name": "ブロンズアーマー",
@@ -83531,9 +83635,9 @@
             "HP": 0,
             "MP": 0,
             "ATK": 0,
-            "DEF": 0,
+            "DEF": 30,
             "MAG": 0,
-            "SPR": 10,
+            "SPR": 30,
             "element_resist": null,
             "element_inflict": null,
             "status_resist": {
@@ -105505,7 +105609,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [100010, 244898],
-        "effects": ["Grant 'HP +10%' passive", "Grant '帝国軍士官の盾' passive"],
+        "effects": ["Grant 'HP +10%' passive", "Grant 'Commodore's Shield' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -105536,7 +105640,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [100010, 244899],
-        "effects": ["Grant 'HP +10%' passive", "Grant '帝国軍士官の盾II' passive"],
+        "effects": ["Grant 'HP +10%' passive", "Grant 'Commodore's Shield II' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -105567,7 +105671,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [100010, 244900],
-        "effects": ["Grant 'HP +10%' passive", "Grant '帝国軍士官の盾III' passive"],
+        "effects": ["Grant 'HP +10%' passive", "Grant 'Commodore's Shield III' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -105598,7 +105702,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [100010, 244901],
-        "effects": ["Grant 'HP +10%' passive", "Grant '帝国軍士官の盾IV' passive"],
+        "effects": ["Grant 'HP +10%' passive", "Grant 'Commodore's Shield IV' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,

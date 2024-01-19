@@ -6253,7 +6253,7 @@
         }
     },
     "215000501": {
-        "name": "剣神と炎神の攻防",
+        "name": "Fight of the Draconian and the Infernian",
         "compendium_id": 204,
         "compendium_shown": true,
         "rarity": 1,
@@ -6284,10 +6284,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "炎神イフリートと死闘を繰り広げるノクティスに、剣神バハムートが加勢する。アルテマソードを放ち高高度から攻撃するバハムート。イフリートはそれを次々とかわして応戦する。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "剣神と炎神の攻防",
-            "music": "♪NOX DIVINA",
+            "desc": "The Infernian, Ifrit, is locked in a dead heat with Noctis when the Draconian, Bahamut, joins the battle. Bahamut unleashes Ultima Sword from high above, but Ifrit dodges each attack and returns fire.",
+            "info": "The Infernian, Ifrit, is locked in a dead heat with Noctis when the Draconian, Bahamut, joins the battle. Bahamut unleashes Ultima Sword from high above, but Ifrit dodges each attack and returns fire.",
+            "shop": "Fight of the Draconian and the Infernian",
+            "music": "NOX DIVINA",
             "music_id": "4001708"
         }
     },
@@ -7952,6 +7952,86 @@
             "shop": "VSロックブーケ",
             "music": "♪七英雄バトル",
             "music_id": "4002007"
+        }
+    },
+    "352000101": {
+        "name": "オルロワージュとの対峙",
+        "compendium_id": 228,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20045,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [70, 140, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [70, 140, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [245304],
+            "7": [245305],
+            "10": [245306]
+        },
+        "restriction": {
+            "245305": [7955],
+            "245306": [7955]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "一度は逃げたファシナトゥールの針の城へ戻ってきたアセルス。圧倒的な力を持つ妖魔の君オルロワージュに、強い意志で立ち向かう。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "オルロワージュとの対峙",
+            "music": "♪Last Battle -Asellus-",
+            "music_id": "4002013"
+        }
+    },
+    "353000101": {
+        "name": "南の砦の死闘",
+        "compendium_id": 229,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20046,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [75, 150, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [245307],
+            "7": [245308],
+            "10": [245309]
+        },
+        "restriction": {
+            "245308": [7955],
+            "245309": [7955]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "メルツィヒの砦に駐留中、モンスターの襲撃を受けたギュスターヴたち。毒に蝕まれるヨハンは、最後の力をふり絞ってギュスターヴを守るべく戦う。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "南の砦の死闘",
+            "music": "♪Feldschlacht II",
+            "music_id": "4002018"
         }
     },
     "354000101": {

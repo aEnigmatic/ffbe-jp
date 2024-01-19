@@ -629,6 +629,13 @@
         ],
         "effects_raw": [[0, 0, 1, [[100,  0], [100,  0], [100,  0], [100,  0]]]]
     },
+    "100000089": {
+        "duration": -1,
+        "effects": [
+            ["Reduce resistance to Fire and Ice by 50%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-50,  -50,  0,  0,  0,  0,  0,  0]]]
+    },
     "200000001": {
         "duration": 10,
         "effects": [
@@ -2741,5 +2748,12 @@
             ["Increase Earth magic damage by 70%"]
         ],
         "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  70,  0,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  70,  0,  0]]]
+    },
+    "200000288": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Fire and Earth by 30%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-30,  0,  0,  0,  0,  -30,  0,  0]]]
     }
 }
