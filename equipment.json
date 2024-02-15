@@ -621,8 +621,8 @@
         "stats": {
             "HP": 0,
             "MP": 0,
-            "ATK": 72,
-            "DEF": 38,
+            "ATK": 172,
+            "DEF": 138,
             "MAG": 0,
             "SPR": 0,
             "element_resist": null,
@@ -10734,7 +10734,7 @@
         "accuracy": 50,
         "requirements": null,
         "skills": [244936, 244937],
-        "effects": ["Grant 'ゴード流の剣術' passive", "Grant '幼き頃の誓い' passive"],
+        "effects": ["Grant 'Gordian Swordplay' passive", "Grant 'Childhood Oath' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -15805,6 +15805,37 @@
         "price_buy": 300000,
         "price_sell": 30000,
         "icon": "item_2020109.png"
+    },
+    "303015400": {
+        "name": "契約の剣(FFXII TZA)",
+        "compendium_id": 3552,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 3,
+        "type": "Great Sword",
+        "slot_id": 1,
+        "slot": "Weapon",
+        "is_twohanded": true,
+        "dmg_variance": [1.25, 1.75],
+        "accuracy": 50,
+        "requirements": null,
+        "skills": [245361, 245362],
+        "effects": ["Grant 'ゲルン王との契約' passive", "Grant '祖国解放の悲願' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 212,
+            "DEF": 0,
+            "MAG": 237,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_2030052.png"
     },
     "304000100": {
         "name": "虎鉄",
@@ -44253,7 +44284,7 @@
         "accuracy": 70,
         "requirements": null,
         "skills": [244939, 244940],
-        "effects": ["Grant '騎士の愛銃' passive", "Grant '平和を守る射撃' passive"],
+        "effects": ["Grant 'A Knight's Trusty Rifle' passive", "Grant 'Keeping the Peace' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -64729,7 +64760,7 @@
             "MP": 0,
             "ATK": 0,
             "DEF": 22,
-            "MAG": 33,
+            "MAG": 67,
             "SPR": 24,
             "element_resist": {
                 "Fire": 15,
@@ -71043,7 +71074,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244795, 244796],
-        "effects": ["Grant 'Aim Assist' passive", "Grant 'ギャンブラーの先見' passive"],
+        "effects": ["Grant 'Aim Assist' passive", "Grant 'Gambler's Foresight' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -72175,7 +72206,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244935],
-        "effects": ["Grant '冒険者の胸甲' passive"],
+        "effects": ["Grant 'Adventurer's Breastplate' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -72237,7 +72268,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244947],
-        "effects": ["Grant '銃士のドレス' passive"],
+        "effects": ["Grant 'Markswoman's Dress' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -72268,7 +72299,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244947, 244948],
-        "effects": ["Grant '銃士のドレス' passive", "Grant '騎士の新たな装束' passive"],
+        "effects": ["Grant 'Markswoman's Dress' passive", "Grant 'Knight's New Attire' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -75504,6 +75535,37 @@
         "price_sell": 6000,
         "icon": "item_2180029.png"
     },
+    "406009600": {
+        "name": "光のスティフォス(FFXII TZA)",
+        "compendium_id": 3551,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 53,
+        "type": "Robe",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [245360],
+        "effects": ["Grant '聖なる装束' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 23,
+            "MAG": 58,
+            "SPR": 42,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2180030.png"
+    },
     "407000200": {
         "name": "ブロンズアーマー",
         "compendium_id": 166,
@@ -77830,6 +77892,37 @@
         "price_buy": 75000,
         "price_sell": 7500,
         "icon": "item_2180025.png"
+    },
+    "407007800": {
+        "name": "ダイヤアーマー(FFXII TZA)",
+        "compendium_id": 3553,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 52,
+        "type": "Heavy Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [107010, 245314],
+        "effects": ["Grant 'LB Damage +50%' passive", "Grant '名誉より大切なもの' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 143,
+            "DEF": 88,
+            "MAG": 0,
+            "SPR": 0,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_2190022.png"
     },
     "408000100": {
         "name": "木綿のローブ",
@@ -92751,7 +92844,7 @@
             "MP": 0,
             "ATK": 0,
             "DEF": 8,
-            "MAG": 25,
+            "MAG": 58,
             "SPR": 14,
             "element_resist": {
                 "Fire": 10,
@@ -105504,7 +105597,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [244773, 244774, 244777],
-        "effects": ["Grant '心技体を極めた証' passive", "Grant '武道の極致' passive", "Grant '命を賭けた真剣勝負' passive"],
+        "effects": ["Grant 'Heart, Technique, and Strength' passive", "Grant 'Height of Martial Arts' passive", "Grant 'Life on the Line' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
