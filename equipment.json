@@ -108051,6 +108051,39 @@
         "price_sell": 10000,
         "icon": "item_2250329.png"
     },
+    "409090200": {
+        "name": "闇のオーブ(ロトの紋章)",
+        "compendium_id": 3572,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [245431, 245432],
+        "effects": ["Grant '闇のオーロラ' passive", "Grant '生命体を喰らう触手' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "MAG": 86,
+            "SPR": 0,
+            "element_resist": {
+                "Dark": 30
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2250332.png"
+    },
     "409090300": {
         "name": "ロトの紋章【アステア】",
         "compendium_id": 3555,
@@ -108084,5 +108117,39 @@
         "price_buy": 100000,
         "price_sell": 10000,
         "icon": "item_2250330.png"
+    },
+    "409090400": {
+        "name": "ロトの紋章【アルス】",
+        "compendium_id": 3573,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [245418, 245494],
+        "effects": ["Grant '分かたれた紋章・下' passive", "Grant '次兄カーメンの遺志' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 72,
+            "DEF": 21,
+            "MAG": 68,
+            "SPR": 0,
+            "element_resist": {
+                "Lightning": 10,
+                "Dark": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250333.png"
     }
 }
