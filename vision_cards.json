@@ -3052,7 +3052,7 @@
         }
     },
     "100009001": {
-        "name": "幻獣VS幻獣",
+        "name": "Esper Against Esper",
         "compendium_id": 211,
         "compendium_shown": true,
         "rarity": 1,
@@ -3083,10 +3083,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "ラピスに現れた破滅の幻獣ビスマルク。それを止めようとする水神リヴァイアサン。2体の幻獣の正面対決。強大な力がぶつかり合い、水中楼閣を舞台に死闘が繰り広げられる！",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "幻獣VS幻獣",
-            "music": "♪Immense Danger",
+            "desc": "Bismarck, the Esper of Destruction, arrives in Lapis. Leviathan, the Water God, moves to stop it. These titanic mights go head to head in combat, and with the Water Temple as their stage, the two espers clash in a battle to the death beneath the crashing waves!",
+            "info": "Bismarck, the Esper of Destruction, arrives in Lapis. Leviathan, the Water God, moves to stop it. These titanic mights go head to head in combat, and with the Water Temple as their stage, the two espers clash in a battle to the death beneath the crashing waves!",
+            "shop": "Esper Against Esper",
+            "music": "Immense Danger",
             "music_id": "400414"
         }
     },
@@ -4937,6 +4937,45 @@
             "shop": "Avalanche's Fight for Survival",
             "music": "Rematch atop the Pillar",
             "music_id": "4000711"
+        }
+    },
+    "207001401": {
+        "name": "ブーゲンハーゲンの天文台",
+        "compendium_id": 233,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10007,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [65, 130, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [245495],
+            "7": [245496],
+            "10": [245497]
+        },
+        "restriction": {
+            "245497": [7907]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "ブーゲンハーゲンの天文台に招かれたクラウドたち。宇宙の仕組みがインプットされた立体ホログラフィは、誰もが驚くほど精巧に作られている。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "ブーゲンハーゲンの天文台",
+            "music": "♪コスモ天文台",
+            "music_id": "4002201"
         }
     },
     "208000101": {
