@@ -3169,7 +3169,7 @@
         }
     },
     "100009301": {
-        "name": "「想い」を司る幻獣",
+        "name": "Esper of Hope",
         "compendium_id": 215,
         "compendium_shown": true,
         "rarity": 1,
@@ -3200,10 +3200,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "魔人フィーナのビジョンが託した「永遠」が、ソフィの真の力を解放する。まばゆい光に包まれたソフィは、神々しい幻獣の姿へと変身。全てのものが想いに還元される空間を作りだし、決戦に挑む！",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "「想い」を司る幻獣",
-            "music": "♪Chaotic Waves",
+            "desc": "Sophie’s true power is unleashed by the Permanence bequeathed to her by the vision of Dark Fina, and she transforms into an empyreal esper wreathed in refulgent light. Creating a space where everything is reduced to thoughts and emotions, she stands as the last bastion of hope for the world.",
+            "info": "Sophie’s true power is unleashed by the Permanence bequeathed to her by the vision of Dark Fina, and she transforms into an empyreal esper wreathed in refulgent light. Creating a space where everything is reduced to thoughts and emotions, she stands as the last bastion of hope for the world.",
+            "shop": "Esper of Hope",
+            "music": "Chaotic Waves",
             "music_id": "400416"
         }
     },
@@ -6367,6 +6367,84 @@
             "shop": "Fight of the Draconian and the Infernian",
             "music": "NOX DIVINA",
             "music_id": "4001708"
+        }
+    },
+    "216000101": {
+        "name": "イフリートVS炎影のイフリート",
+        "compendium_id": 234,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10016,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [65, 130, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [245498],
+            "7": [245499],
+            "10": [245500]
+        },
+        "restriction": {
+            "245500": [8024]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "イフリートに顕現して戦うクライヴ。かつてフェニックスゲートで起きた惨劇と向き合い、己の正体を受け入れて前に進む。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "イフリートVS炎影のイフリート",
+            "music": "♪Find the Flame",
+            "music_id": "4002304"
+        }
+    },
+    "216000201": {
+        "name": "シヴァVSタイタン",
+        "compendium_id": 235,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10016,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [65, 130, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [245501],
+            "7": [245502],
+            "10": [245503]
+        },
+        "restriction": {
+            "245503": [8024]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "ニサ峡谷にて、鉄王国の擁する召喚獣シヴァと、ダルメキア共和国の擁する召喚獣タイタンの戦闘が勃発。大地を揺るがすほどの巨体を持つタイタンに対し、シヴァは氷の魔法を巧みに操って攻撃する。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "シヴァVSタイタン",
+            "music": "♪Shattered",
+            "music_id": "4002310"
         }
     },
     "249000101": {
