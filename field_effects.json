@@ -680,6 +680,21 @@
         ],
         "effects_raw": [[0, 0, 10, [0, 0, 0, 0, 0, 0, 0, [0,  50]]], [0, 0, 11, [0, 0, 0, 0, 0, 0, 0, [0,  50]]]]
     },
+    "100000097": {
+        "duration": 3,
+        "effects": [
+            ["Increase Fire, Ice and Lightning physical damage by 0 / 50%"],
+            ["Increase Fire, Ice and Lightning magic damage by 0 / 50%"]
+        ],
+        "effects_raw": [[0, 0, 10, [[0,  50], [0,  50], [0,  50], 0, 0, 0, 0, 0]], [0, 0, 11, [[0,  50], [0,  50], [0,  50], 0, 0, 0, 0, 0]]]
+    },
+    "100000098": {
+        "duration": 4,
+        "effects": [
+            ["Error: unexpected value"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, 0, 0, [-100,  0], 0, [-100,  0], 0]]]
+    },
     "200000001": {
         "duration": 10,
         "effects": [
@@ -3330,6 +3345,21 @@
         ],
         "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  -40,  0,  0,  0]]]
     },
+    "200000371": {
+        "duration": 5,
+        "effects": [
+            ["Increase Dark physical damage by 40%"],
+            ["Increase Dark magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  0,  40]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  0,  40]]]
+    },
+    "200000372": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Dark by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  0,  0,  -40]]]
+    },
     "200000373": {
         "duration": 5,
         "effects": [
@@ -3459,5 +3489,45 @@
             ["Increase Water and Earth magic damage by 70%"]
         ],
         "effects_raw": [[0, 0, 10, [0,  0,  0,  70,  0,  70,  0,  0]], [0, 0, 11, [0,  0,  0,  70,  0,  70,  0,  0]]]
+    },
+    "200000412": {
+        "duration": 5,
+        "effects": [
+            ["Increase Ice, Lightning, Wind and Light physical damage by 10%"],
+            ["Increase Ice, Lightning, Wind and Light magic damage by 10%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  10,  10,  0,  10,  0,  10,  0]], [0, 0, 11, [0,  10,  10,  0,  10,  0,  10,  0]]]
+    },
+    "200000413": {
+        "duration": 5,
+        "effects": [
+            ["Increase Ice, Lightning, Wind and Light physical damage by 20%"],
+            ["Increase Ice, Lightning, Wind and Light magic damage by 20%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  20,  20,  0,  20,  0,  20,  0]], [0, 0, 11, [0,  20,  20,  0,  20,  0,  20,  0]]]
+    },
+    "200000414": {
+        "duration": 5,
+        "effects": [
+            ["Increase Ice, Lightning, Wind and Light physical damage by 30%"],
+            ["Increase Ice, Lightning, Wind and Light magic damage by 30%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  30,  30,  0,  30,  0,  30,  0]], [0, 0, 11, [0,  30,  30,  0,  30,  0,  30,  0]]]
+    },
+    "200000415": {
+        "duration": 5,
+        "effects": [
+            ["Increase Ice, Lightning, Wind and Light physical damage by 40%"],
+            ["Increase Ice, Lightning, Wind and Light magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  40,  40,  0,  40,  0,  40,  0]], [0, 0, 11, [0,  40,  40,  0,  40,  0,  40,  0]]]
+    },
+    "200000416": {
+        "duration": 5,
+        "effects": [
+            ["Increase Ice, Lightning, Wind and Light physical damage by 50%"],
+            ["Increase Ice, Lightning, Wind and Light magic damage by 50%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  50,  50,  0,  50,  0,  50,  0]], [0, 0, 11, [0,  50,  50,  0,  50,  0,  50,  0]]]
     }
 }

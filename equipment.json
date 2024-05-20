@@ -1044,7 +1044,7 @@
         "stats": {
             "HP": 0,
             "MP": 0,
-            "ATK": 68,
+            "ATK": 173,
             "DEF": 0,
             "MAG": 0,
             "SPR": 0,
@@ -5875,7 +5875,7 @@
         "stats": {
             "HP": 0,
             "MP": 0,
-            "ATK": 95,
+            "ATK": 195,
             "DEF": 0,
             "MAG": 0,
             "SPR": 0,
@@ -79755,6 +79755,46 @@
         "price_sell": 30000,
         "icon": "item_2190023.png"
     },
+    "407008600": {
+        "name": "ナイトの鎧(FFIII)",
+        "compendium_id": 3657,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 52,
+        "type": "Heavy Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [245647, 245648],
+        "effects": ["Grant 'ドワーフの宝物庫の鎧' passive", "Grant '堅固なるナイト' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 37,
+            "DEF": 133,
+            "MAG": 0,
+            "SPR": 78,
+            "element_resist": {
+                "Fire": 10,
+                "Ice": 10,
+                "Lightning": 10,
+                "Water": 10,
+                "Wind": 10,
+                "Earth": 10,
+                "Light": 10,
+                "Dark": 10
+            },
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 300000,
+        "price_sell": 30000,
+        "icon": "item_2180033.png"
+    },
     "408000100": {
         "name": "木綿のローブ",
         "compendium_id": 175,
@@ -108417,7 +108457,7 @@
         "accuracy": 0,
         "requirements": null,
         "skills": [245137, 245138],
-        "effects": ["Grant '大人になった少女の外套' passive", "Grant 'キムの愛娘' passive"],
+        "effects": ["Grant 'Cloak of a Girl Grown' passive", "Grant 'Kim's Beloved Daughter' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -110670,6 +110710,40 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2250335.png"
+    },
+    "409093800": {
+        "name": "くらやみのくもの触手",
+        "compendium_id": 3658,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": [
+            "UNIT_ID",
+            [203004707, 203004717]
+        ],
+        "skills": [245562],
+        "effects": ["Grant '魔力を宿す触手' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 36,
+            "MAG": 87,
+            "SPR": 44,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2250336.png"
     },
     "409093900": {
         "name": "超克の指輪",
