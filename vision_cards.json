@@ -1349,7 +1349,7 @@
         "stats": {
             "HP": [0, 0, 0, 0],
             "MP": [0, 0, 0, 0],
-            "ATK": [100, 100, 0, 0],
+            "ATK": [130, 130, 0, 0],
             "DEF": [0, 0, 0, 0],
             "MAG": [0, 0, 0, 0],
             "SPR": [0, 0, 0, 0],
@@ -4523,6 +4523,45 @@
             "music_id": "4001613"
         }
     },
+    "206000701": {
+        "name": "三闘神の像",
+        "compendium_id": 239,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 10006,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [0, 0, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [65, 130, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [245612],
+            "7": [245613],
+            "10": [245614]
+        },
+        "restriction": {
+            "245614": [7906]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "互いに向き合っていた三闘神の像を動かして力の均衡を崩し、世界崩壊の引き金を引くケフカ。シャドウは身を挺して、仲間たちが逃げる時間を稼ぐ。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "三闘神の像",
+            "music": "♪大破壊",
+            "music_id": "4002501"
+        }
+    },
     "207000101": {
         "name": "Mad Dash",
         "compendium_id": 1,
@@ -5708,7 +5747,7 @@
         }
     },
     "210000801": {
-        "name": "ジェクトの旅の始まり",
+        "name": "The Start of Jecht's Journey",
         "compendium_id": 220,
         "compendium_shown": true,
         "rarity": 1,
@@ -5739,10 +5778,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "異世界からスピラに飛ばされた後、エボン寺院に怪しまれて投獄されていたジェクト。彼は召喚士のブラスカから、ザナルカンドへの旅に同行してほしいと頼まれる。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "ジェクトの旅の始まり",
-            "music": "♪ジェクトのテーマ",
+            "desc": "After being teleported to Spira, Jecht was imprisoned by the Temple of Yevon due to suspicious activity. It is then that the summoner Braska requests his aid on a pilgrimage to Zanarkand.",
+            "info": "After being teleported to Spira, Jecht was imprisoned by the Temple of Yevon due to suspicious activity. It is then that the summoner Braska requests his aid on a pilgrimage to Zanarkand.",
+            "shop": "The Start of Jecht's Journey",
+            "music": "Jecht's Theme",
             "music_id": "4000306"
         }
     },
@@ -6019,7 +6058,7 @@
         }
     },
     "212000601": {
-        "name": "砕かれた天陽の繭",
+        "name": "Destruction of the Sun-Cryst",
         "compendium_id": 230,
         "compendium_shown": true,
         "rarity": 1,
@@ -6050,10 +6089,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "リドルアナ大灯台の最上部で、暴走した天陽の繭を破壊しようとするアーシェたち。荒れ狂うミストに阻まれて中々近づけないなか、レダスが決死の攻撃を仕掛ける。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "砕かれた天陽の繭",
-            "music": "♪ソーヘン地下宮殿 (Zodiac Age Version)",
+            "desc": "Ashe and the others venture to the top of the Pharos at Ridorana to destroy the Sun-Cryst. The Mist overflowing from it prevents them from approaching, but Reddas successfully attacks the Sun-Cryst at the cost of his own life.",
+            "info": "Ashe and the others venture to the top of the Pharos at Ridorana to destroy the Sun-Cryst. The Mist overflowing from it prevents them from approaching, but Reddas successfully attacks the Sun-Cryst at the cost of his own life.",
+            "shop": "Destruction of the Sun-Cryst",
+            "music": "The Sochen Cave Palace (Zodiac Age Version)",
             "music_id": "4002106"
         }
     },
