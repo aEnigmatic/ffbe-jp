@@ -695,6 +695,13 @@
         ],
         "effects_raw": [[0, 0, 2, [0, 0, 0, 0, [-100,  0], 0, [-100,  0], 0]]]
     },
+    "100000099": {
+        "duration": -1,
+        "effects": [
+            ["-100% chance of evading physical attacks"]
+        ],
+        "effects_raw": [[0, 0, 5, [[-100,  -100]]]]
+    },
     "200000001": {
         "duration": 10,
         "effects": [
@@ -3553,5 +3560,45 @@
             ["Increase Ice, Lightning, Wind and Light magic damage by 50%"]
         ],
         "effects_raw": [[0, 0, 10, [0,  50,  50,  0,  50,  0,  50,  0]], [0, 0, 11, [0,  50,  50,  0,  50,  0,  50,  0]]]
+    },
+    "200000427": {
+        "duration": 5,
+        "effects": [
+            ["Increase Dark physical damage by 30%"],
+            ["Increase Dark magic damage by 30%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  0,  30]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  0,  30]]]
+    },
+    "200000428": {
+        "duration": 5,
+        "effects": [
+            ["Increase Dark physical damage by 40%"],
+            ["Increase Dark magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  0,  40]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  0,  40]]]
+    },
+    "200000429": {
+        "duration": 5,
+        "effects": [
+            ["Increase Dark physical damage by 50%"],
+            ["Increase Dark magic damage by 50%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  0,  50]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  0,  50]]]
+    },
+    "200000430": {
+        "duration": 5,
+        "effects": [
+            ["Increase Dark physical damage by 60%"],
+            ["Increase Dark magic damage by 60%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  0,  60]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  0,  60]]]
+    },
+    "200000431": {
+        "duration": 5,
+        "effects": [
+            ["Increase Dark physical damage by 70%"],
+            ["Increase Dark magic damage by 70%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  0,  70]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  0,  70]]]
     }
 }

@@ -60520,6 +60520,40 @@
         "price_sell": 10000,
         "icon": "item_2210077.png"
     },
+    "403062900": {
+        "name": "ケフカの羽飾り",
+        "compendium_id": 3667,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 40,
+        "type": "Hat",
+        "slot_id": 3,
+        "slot": "Headgear",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": [
+            "UNIT_ID",
+            [206003807, 206003817]
+        ],
+        "skills": [245660, 245661],
+        "effects": ["Grant '人造魔導士の羽飾り' passive", "Grant '狂気の魔導士' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 0,
+            "DEF": 22,
+            "MAG": 86,
+            "SPR": 44,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 50000,
+        "price_sell": 5000,
+        "icon": "item_2210078.png"
+    },
     "404000200": {
         "name": "ブロンズヘルム",
         "compendium_id": 140,
@@ -110992,5 +111026,36 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2250347.png"
+    },
+    "409094000": {
+        "name": "セリスのマント",
+        "compendium_id": 3666,
+        "compendium_shown": true,
+        "rarity": 9,
+        "type_id": 60,
+        "type": "Accessory",
+        "slot_id": 5,
+        "slot": "Accessory",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [245616, 245617],
+        "effects": ["Grant '魔導戦士のマント' passive", "Grant '帝国の英才教育' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 88,
+            "DEF": 0,
+            "MAG": 0,
+            "SPR": 24,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 200000,
+        "price_sell": 20000,
+        "icon": "item_2250337.png"
     }
 }
