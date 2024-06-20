@@ -702,6 +702,20 @@
         ],
         "effects_raw": [[0, 0, 5, [[-100,  -100]]]]
     },
+    "100000100": {
+        "duration": 5,
+        "effects": [
+            ["Error: unexpected value"]
+        ],
+        "effects_raw": [[0, 0, 2, [[-100,  0], 0, 0, 0, 0, 0, 0, 0]]]
+    },
+    "100000101": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to all elements by 200%"]
+        ],
+        "effects_raw": [[0, 0, 2, [[-200,  0], [-200,  0], [-200,  0], [-200,  0], [-200,  0], [-200,  0], [-200,  0], [-200,  0]]]]
+    },
     "200000001": {
         "duration": 10,
         "effects": [
@@ -3480,6 +3494,96 @@
             ["Increase Light magic damage by 30 / 0%"]
         ],
         "effects_raw": [[0, 0, 10, [0, 0, 0, 0, 0, 0, [30,  0], 0]], [0, 0, 11, [0, 0, 0, 0, 0, 0, [30,  0], 0]]]
+    },
+    "200000395": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire, Ice and Light physical damage by 30%"],
+            ["Increase Fire, Ice and Light magic damage by 30%"]
+        ],
+        "effects_raw": [[0, 0, 10, [30,  30,  0,  0,  0,  0,  30,  0]], [0, 0, 11, [30,  30,  0,  0,  0,  0,  30,  0]]]
+    },
+    "200000396": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Fire, Ice and Light by 20%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-20,  -20,  0,  0,  0,  0,  -20,  0]]]
+    },
+    "200000397": {
+        "duration": 5,
+        "effects": [
+            ["Increase Earth and Light physical damage by 30%"],
+            ["Increase Earth and Light magic damage by 30%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  30,  30,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  30,  30,  0]]]
+    },
+    "200000398": {
+        "duration": 5,
+        "effects": [
+            ["Increase Earth and Light physical damage by 40%"],
+            ["Increase Earth and Light magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  40,  40,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  40,  40,  0]]]
+    },
+    "200000399": {
+        "duration": 5,
+        "effects": [
+            ["Increase Earth and Light physical damage by 50%"],
+            ["Increase Earth and Light magic damage by 50%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  50,  50,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  50,  50,  0]]]
+    },
+    "200000400": {
+        "duration": 5,
+        "effects": [
+            ["Increase Earth and Light physical damage by 60%"],
+            ["Increase Earth and Light magic damage by 60%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  60,  60,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  60,  60,  0]]]
+    },
+    "200000401": {
+        "duration": 5,
+        "effects": [
+            ["Increase Earth and Light physical damage by 70%"],
+            ["Increase Earth and Light magic damage by 70%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  70,  70,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  70,  70,  0]]]
+    },
+    "200000402": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Earth and Light by 20%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  -20,  -20,  0]]]
+    },
+    "200000403": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Earth and Light by 25%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  -25,  -25,  0]]]
+    },
+    "200000404": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Earth and Light by 30%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  -30,  -30,  0]]]
+    },
+    "200000405": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Earth and Light by 35%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  -35,  -35,  0]]]
+    },
+    "200000406": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Earth and Light by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  -40,  -40,  0]]]
     },
     "200000407": {
         "duration": 5,
