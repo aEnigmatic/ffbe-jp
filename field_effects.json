@@ -716,6 +716,20 @@
         ],
         "effects_raw": [[0, 0, 2, [[-200,  0], [-200,  0], [-200,  0], [-200,  0], [-200,  0], [-200,  0], [-200,  0], [-200,  0]]]]
     },
+    "100000102": {
+        "duration": 10,
+        "effects": [
+            ["Physical fire damage (1.8x, ATK) to one enemy"]
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  180,  0]]]
+    },
+    "100000103": {
+        "duration": -1,
+        "effects": [
+            ["Physical fire damage (2x, ATK) to one enemy"]
+        ],
+        "effects_raw": [[1, 1, 1, [0,  0,  0,  0,  0,  0,  200,  0]]]
+    },
     "200000001": {
         "duration": 10,
         "effects": [
@@ -3471,6 +3485,13 @@
         ],
         "effects_raw": [[0, 0, 2, [0,  0,  -25,  0,  0,  0,  0,  0]]]
     },
+    "200000387": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Water by 25%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  -25,  0,  0,  0,  0]]]
+    },
     "200000392": {
         "duration": 10,
         "effects": [
@@ -3664,6 +3685,81 @@
             ["Increase Ice, Lightning, Wind and Light magic damage by 50%"]
         ],
         "effects_raw": [[0, 0, 10, [0,  50,  50,  0,  50,  0,  50,  0]], [0, 0, 11, [0,  50,  50,  0,  50,  0,  50,  0]]]
+    },
+    "200000417": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Ice, Lightning, Water and Light by 20%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  -20,  -20,  -20,  0,  0,  -20,  0]]]
+    },
+    "200000418": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Ice, Lightning, Water and Light by 25%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  -25,  -25,  -25,  0,  0,  -25,  0]]]
+    },
+    "200000419": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Ice, Lightning, Water and Light by 30%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  -30,  -30,  -30,  0,  0,  -30,  0]]]
+    },
+    "200000420": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Ice, Lightning, Water and Light by 35%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  -35,  -35,  -35,  0,  0,  -35,  0]]]
+    },
+    "200000421": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Ice, Lightning, Water and Light by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  -40,  -40,  -40,  0,  0,  -40,  0]]]
+    },
+    "200000422": {
+        "duration": 5,
+        "effects": [
+            ["Increase Lightning, Water and Light physical damage by 30%"],
+            ["Increase Lightning, Water and Light magic damage by 30%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  30,  30,  0,  0,  30,  0]], [0, 0, 11, [0,  0,  30,  30,  0,  0,  30,  0]]]
+    },
+    "200000423": {
+        "duration": 5,
+        "effects": [
+            ["Increase Lightning, Water and Light physical damage by 40%"],
+            ["Increase Lightning, Water and Light magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  40,  40,  0,  0,  40,  0]], [0, 0, 11, [0,  0,  40,  40,  0,  0,  40,  0]]]
+    },
+    "200000424": {
+        "duration": 5,
+        "effects": [
+            ["Increase Lightning, Water and Light physical damage by 50%"],
+            ["Increase Lightning, Water and Light magic damage by 50%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  50,  50,  0,  0,  50,  0]], [0, 0, 11, [0,  0,  50,  50,  0,  0,  50,  0]]]
+    },
+    "200000425": {
+        "duration": 5,
+        "effects": [
+            ["Increase Lightning, Water and Light physical damage by 60%"],
+            ["Increase Lightning, Water and Light magic damage by 60%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  60,  60,  0,  0,  60,  0]], [0, 0, 11, [0,  0,  60,  60,  0,  0,  60,  0]]]
+    },
+    "200000426": {
+        "duration": 5,
+        "effects": [
+            ["Increase Lightning, Water and Light physical damage by 70%"],
+            ["Increase Lightning, Water and Light magic damage by 70%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  70,  70,  0,  0,  70,  0]], [0, 0, 11, [0,  0,  70,  70,  0,  0,  70,  0]]]
     },
     "200000427": {
         "duration": 5,
