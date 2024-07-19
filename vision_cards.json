@@ -6526,7 +6526,7 @@
         }
     },
     "216000101": {
-        "name": "イフリートVS炎影のイフリート",
+        "name": "Beyond a Shadow of the Self",
         "compendium_id": 234,
         "compendium_shown": true,
         "rarity": 1,
@@ -6557,15 +6557,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "イフリートに顕現して戦うクライヴ。かつてフェニックスゲートで起きた惨劇と向き合い、己の正体を受け入れて前に進む。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "イフリートVS炎影のイフリート",
-            "music": "♪Find the Flame",
+            "desc": "Ifrit primed, Clive faces off with an infernal Eikon. He comes to terms with that fateful night at Phoenix Gate and, in accepting the truth about himself, begins to move forward.",
+            "info": "Ifrit primed, Clive faces off with an infernal Eikon. He comes to terms with that fateful night at Phoenix Gate and, in accepting the truth about himself, begins to move forward.",
+            "shop": "Beyond a Shadow of the Self",
+            "music": "Find the Flame",
             "music_id": "4002304"
         }
     },
     "216000201": {
-        "name": "シヴァVSタイタン",
+        "name": "Shiva vs. Titan",
         "compendium_id": 235,
         "compendium_shown": true,
         "rarity": 1,
@@ -6596,15 +6596,15 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "ニサ峡谷にて、鉄王国の擁する召喚獣シヴァと、ダルメキア共和国の擁する召喚獣タイタンの戦闘が勃発。大地を揺るがすほどの巨体を持つタイタンに対し、シヴァは氷の魔法を巧みに操って攻撃する。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "シヴァVSタイタン",
-            "music": "♪Shattered",
+            "desc": "Shiva, an Eikon commanded by the Iron Kingdom, and Titan, likewise fielded by Dhalmekia, engage in battle at the Nysa Defile. Shiva deftly unleashes a barrage of ice magic at Titan, whose gargantuan form rocks the very land.",
+            "info": "Shiva, an Eikon commanded by the Iron Kingdom, and Titan, likewise fielded by Dhalmekia, engage in battle at the Nysa Defile. Shiva deftly unleashes a barrage of ice magic at Titan, whose gargantuan form rocks the very land.",
+            "shop": "Shiva vs. Titan",
+            "music": "Shattered",
             "music_id": "4002310"
         }
     },
     "216000301": {
-        "name": "シドVSベネディクタ",
+        "name": "Roaring Thunder, Howling Wind",
         "compendium_id": 236,
         "compendium_shown": true,
         "rarity": 1,
@@ -6635,10 +6635,10 @@
         "merge_exp": 400,
         "merge_stats": [0, 0, 0, 0, 0, 0],
         "details": {
-            "desc": "ノルヴァーン砦で、ベアラーと火のドミナントを巡って対立した２人。人の姿のまま召喚獣の力の一部を行使する半顕現状態になって戦う。",
-            "info": "ビジョンカードが経験値を獲得！",
-            "shop": "シドVSベネディクタ",
-            "music": "♪Thunderstorm",
+            "desc": "A storm rages in Caer Norvent as the Dominants of Ramuh and Garuda vie for custody of the Dominant of Fire and several captive Bearers. Each channel Eikonic power into their bodies as they battle, entering a semi-primed state even as they retain their human forms.",
+            "info": "A storm rages in Caer Norvent as the Dominants of Ramuh and Garuda vie for custody of the Dominant of Fire and several captive Bearers. Each channel Eikonic power into their bodies as they battle, entering a semi-primed state even as they retain their human forms.",
+            "shop": "Roaring Thunder, Howling Wind",
+            "music": "Thunderstorm",
             "music_id": "4002313"
         }
     },
@@ -7575,6 +7575,45 @@
             "shop": "I summon thee, Veritas of the Light!",
             "music": "Collided Armies",
             "music_id": "400756"
+        }
+    },
+    "339000301": {
+        "name": "世界を繋ぎ止めるために",
+        "compendium_id": 242,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11010,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [75, 150, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [75, 150, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [245700],
+            "7": [245701],
+            "10": [245702]
+        },
+        "restriction": {
+            "245702": [7952]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "コアクリスタルによって無限にも等しい魔力を操る灰王に対抗すべく、自身の内に眠る力を目覚めさせたルシオ。光のクリスタルの戦士として覚醒を遂げたルシオは、灰王の野望を阻止するために戦う。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "世界を繋ぎ止めるために",
+            "music": "♪For Honor",
+            "music_id": "400789"
         }
     },
     "342000101": {
