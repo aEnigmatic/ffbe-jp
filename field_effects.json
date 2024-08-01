@@ -737,6 +737,13 @@
         ],
         "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  220,  0]]]
     },
+    "100000105": {
+        "duration": -1,
+        "effects": [
+            ["Physical fire damage (2.4x, ATK) to all enemies"]
+        ],
+        "effects_raw": [[2, 1, 1, [0,  0,  0,  0,  0,  0,  240,  0]]]
+    },
     "200000001": {
         "duration": 10,
         "effects": [
@@ -3952,5 +3959,80 @@
             ["Reduce resistance to Fire, Ice and Dark by 40%"]
         ],
         "effects_raw": [[0, 0, 2, [-40,  -40,  0,  0,  0,  0,  0,  -40]]]
+    },
+    "200000452": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Light by 10%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  0,  -10,  0]]]
+    },
+    "200000453": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Light by 20%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  0,  -20,  0]]]
+    },
+    "200000454": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Light by 30%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  0,  -30,  0]]]
+    },
+    "200000455": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Light by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  0,  -40,  0]]]
+    },
+    "200000456": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Light by 50%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  0,  -50,  0]]]
+    },
+    "200000463": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire, Ice and Dark physical damage by 30%"],
+            ["Increase Fire, Ice and Dark magic damage by 30%"]
+        ],
+        "effects_raw": [[0, 0, 10, [30,  30,  0,  0,  0,  0,  0,  30]], [0, 0, 11, [30,  30,  0,  0,  0,  0,  0,  30]]]
+    },
+    "200000464": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire, Ice and Dark physical damage by 40%"],
+            ["Increase Fire, Ice and Dark magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [40,  40,  0,  0,  0,  0,  0,  40]], [0, 0, 11, [40,  40,  0,  0,  0,  0,  0,  40]]]
+    },
+    "200000465": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire, Ice and Dark physical damage by 50%"],
+            ["Increase Fire, Ice and Dark magic damage by 50%"]
+        ],
+        "effects_raw": [[0, 0, 10, [50,  50,  0,  0,  0,  0,  0,  50]], [0, 0, 11, [50,  50,  0,  0,  0,  0,  0,  50]]]
+    },
+    "200000466": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire, Ice and Dark physical damage by 60%"],
+            ["Increase Fire, Ice and Dark magic damage by 60%"]
+        ],
+        "effects_raw": [[0, 0, 10, [60,  60,  0,  0,  0,  0,  0,  60]], [0, 0, 11, [60,  60,  0,  0,  0,  0,  0,  60]]]
+    },
+    "200000467": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire, Ice and Dark physical damage by 70%"],
+            ["Increase Fire, Ice and Dark magic damage by 70%"]
+        ],
+        "effects_raw": [[0, 0, 10, [70,  70,  0,  0,  0,  0,  0,  70]], [0, 0, 11, [70,  70,  0,  0,  0,  0,  0,  70]]]
     }
 }
