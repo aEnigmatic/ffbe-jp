@@ -4871,8 +4871,8 @@
             "MP": [0, 0, 0, 0],
             "ATK": [0, 0, 0, 0],
             "DEF": [0, 0, 0, 0],
-            "MAG": [40, 65, 0, 0],
-            "SPR": [40, 65, 0, 0],
+            "MAG": [65, 130, 0, 0],
+            "SPR": [65, 130, 0, 0],
             "element_resist": null,
             "status_resist": null
         },
@@ -8872,6 +8872,86 @@
             "music_id": "400003"
         }
     },
+    "355000101": {
+        "name": "火の村のお祭り",
+        "compendium_id": 255,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20049,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [75, 150, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [75, 150, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [245910],
+            "7": [245911],
+            "10": [245912]
+        },
+        "restriction": {
+            "245912": [8020]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "御子に選ばれることは最高の栄誉である。ティアナの住民もまた、我こそは御子にと意気込みフェアリーの指名に臨んでいた。やがて篝火に導かれるようにフェアリーが現れ、ヒナが今回の火の御子に選ばれる。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "火の村のお祭り",
+            "music": "♪楽園の絆",
+            "music_id": "400797"
+        }
+    },
+    "356000101": {
+        "name": "パプワくんの宴会芸",
+        "compendium_id": 257,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 20050,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [85, 170, 0, 0],
+            "DEF": [85, 170, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [245990],
+            "7": [245991],
+            "10": [245992]
+        },
+        "restriction": {
+            "245990": [8018],
+            "245991": [8018],
+            "245992": [8018]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "花見の宴で宴会芸を披露し、水鉄砲でクボタくんを撃ち落としたパプワくん。パプワ島では年に1度、海の守り神・ヨッパライダーがやってきて、島のみんなとドンチャン騒ぎをするという。",
+            "info": "ビジョンカードが経験値を獲得！",
+            "shop": "パプワくんの宴会芸",
+            "music": "♪Moment of Recall",
+            "music_id": "400003"
+        }
+    },
     "401000101": {
         "name": "Virtual Training",
         "compendium_id": 48,
@@ -9214,6 +9294,45 @@
             "shop": "Heart Stronger than Darkness",
             "music": "The Oath",
             "music_id": "400106"
+        }
+    },
+    "401008701": {
+        "name": "Battle Against Veritas of the Frost",
+        "compendium_id": 256,
+        "compendium_shown": true,
+        "rarity": 1,
+        "game_id": 11001,
+        "job_id": 0,
+        "unit_type": 0,
+        "stats": {
+            "HP": [0, 0, 0, 0],
+            "MP": [0, 0, 0, 0],
+            "ATK": [75, 150, 0, 0],
+            "DEF": [0, 0, 0, 0],
+            "MAG": [0, 0, 0, 0],
+            "SPR": [0, 0, 0, 0],
+            "element_resist": null,
+            "status_resist": null
+        },
+        "skills": {
+            "4": [245951],
+            "7": [245952],
+            "10": [245953]
+        },
+        "restriction": {
+            "245953": [7216]
+        },
+        "max_level": 10,
+        "exp_pattern": 110,
+        "stat_pattern": 100,
+        "merge_exp": 400,
+        "merge_stats": [0, 0, 0, 0, 0, 0],
+        "details": {
+            "desc": "By fusing with Panthera Ultimus, Hyoh is able to use Ultima Weapon to its max potential. Wielding the ultimate power in hand, Hyoh faces a mighty foe–Veritas of the Frost.",
+            "info": "By fusing with Panthera Ultimus, Hyoh is able to use Ultima Weapon to its max potential. Wielding the ultimate power in hand, Hyoh faces a mighty foe–Veritas of the Frost.",
+            "shop": "Battle Against Veritas of the Frost",
+            "music": "Overcome the Menace",
+            "music_id": "400315"
         }
     },
     "900020101": {
