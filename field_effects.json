@@ -824,6 +824,27 @@
         ],
         "effects_raw": [[0, 0, 5, [[-75,  -75]]]]
     },
+    "100000121": {
+        "duration": 5,
+        "effects": [
+            ["Error: unexpected value"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, [-50,  0], 0, 0, 0, 0, [-50,  0]]]]
+    },
+    "100000122": {
+        "duration": 5,
+        "effects": [
+            ["Error: unexpected value"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, 0, [-50,  0], 0, 0, 0, 0]]]
+    },
+    "100000123": {
+        "duration": 5,
+        "effects": [
+            ["Error: unexpected value"]
+        ],
+        "effects_raw": [[0, 0, 2, [0, 0, [-50,  0], 0, [-50,  0], 0, 0, 0]]]
+    },
     "200000001": {
         "duration": 10,
         "effects": [
@@ -5536,6 +5557,104 @@
         ],
         "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  100,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  100,  0]]]
     },
+    "200000694": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire, Earth and Light physical damage by 30%"],
+            ["Increase Fire, Earth and Light magic damage by 30%"]
+        ],
+        "effects_raw": [[0, 0, 10, [30,  0,  0,  0,  0,  30,  30,  0]], [0, 0, 11, [30,  0,  0,  0,  0,  30,  30,  0]]]
+    },
+    "200000695": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire, Earth and Light physical damage by 40%"],
+            ["Increase Fire, Earth and Light magic damage by 40%"]
+        ],
+        "effects_raw": [[0, 0, 10, [40,  0,  0,  0,  0,  40,  40,  0]], [0, 0, 11, [40,  0,  0,  0,  0,  40,  40,  0]]]
+    },
+    "200000696": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire, Earth and Light physical damage by 50%"],
+            ["Increase Fire, Earth and Light magic damage by 50%"]
+        ],
+        "effects_raw": [[0, 0, 10, [50,  0,  0,  0,  0,  50,  50,  0]], [0, 0, 11, [50,  0,  0,  0,  0,  50,  50,  0]]]
+    },
+    "200000697": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire, Earth and Light physical damage by 60%"],
+            ["Increase Fire, Earth and Light magic damage by 60%"]
+        ],
+        "effects_raw": [[0, 0, 10, [60,  0,  0,  0,  0,  60,  60,  0]], [0, 0, 11, [60,  0,  0,  0,  0,  60,  60,  0]]]
+    },
+    "200000698": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire, Earth and Light physical damage by 70%"],
+            ["Increase Fire, Earth and Light magic damage by 70%"]
+        ],
+        "effects_raw": [[0, 0, 10, [70,  0,  0,  0,  0,  70,  70,  0]], [0, 0, 11, [70,  0,  0,  0,  0,  70,  70,  0]]]
+    },
+    "200000706": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Fire, Ice, Lightning and Dark by 10%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-10,  -10,  -10,  0,  0,  0,  0,  -10]]]
+    },
+    "200000707": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Fire, Ice, Lightning and Dark by 20%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-20,  -20,  -20,  0,  0,  0,  0,  -20]]]
+    },
+    "200000708": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Fire, Ice, Lightning and Dark by 30%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-30,  -30,  -30,  0,  0,  0,  0,  -30]]]
+    },
+    "200000709": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Fire, Ice, Lightning and Dark by 40%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-40,  -40,  -40,  0,  0,  0,  0,  -40]]]
+    },
+    "200000710": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Fire, Ice, Lightning and Dark by 50%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-50,  -50,  -50,  0,  0,  0,  0,  -50]]]
+    },
+    "200000711": {
+        "duration": 10,
+        "effects": [
+            ["Increase Dark physical damage by 50 / 0%"],
+            ["Increase Dark magic damage by 50 / 0%"],
+            ["Increase resistance to Dark by 50%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0, 0, 0, 0, 0, 0, 0, [50,  0]]], [0, 0, 11, [0, 0, 0, 0, 0, 0, 0, [50,  0]]], [0, 0, 2, [0, 0, 0, 0, 0, 0, 0, [50,  0]]]]
+    },
+    "200000712": {
+        "duration": 2,
+        "effects": [
+            ["Unknown active effect type '14': [30]"]
+        ],
+        "effects_raw": [[0, 0, 14, [30]]]
+    },
+    "200000713": {
+        "duration": 2,
+        "effects": [
+            ["Unknown active effect type '14': [50]"]
+        ],
+        "effects_raw": [[0, 0, 14, [50]]]
+    },
     "200000714": {
         "duration": 2,
         "effects": [
@@ -5549,5 +5668,93 @@
             ["Unknown active effect type '14': [50]"]
         ],
         "effects_raw": [[0, 0, 14, [50]]]
+    },
+    "200000718": {
+        "duration": 5,
+        "effects": [
+            ["Increase Dark physical damage by 60%"],
+            ["Increase Dark magic damage by 60%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  0,  60]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  0,  60]]]
+    },
+    "200000719": {
+        "duration": 5,
+        "effects": [
+            ["Increase Dark physical damage by 70%"],
+            ["Increase Dark magic damage by 70%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  0,  70]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  0,  70]]]
+    },
+    "200000720": {
+        "duration": 5,
+        "effects": [
+            ["Increase Dark physical damage by 80%"],
+            ["Increase Dark magic damage by 80%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  0,  80]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  0,  80]]]
+    },
+    "200000721": {
+        "duration": 5,
+        "effects": [
+            ["Increase Dark physical damage by 90%"],
+            ["Increase Dark magic damage by 90%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  0,  90]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  0,  90]]]
+    },
+    "200000722": {
+        "duration": 5,
+        "effects": [
+            ["Increase Dark physical damage by 100%"],
+            ["Increase Dark magic damage by 100%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  0,  0,  100]], [0, 0, 11, [0,  0,  0,  0,  0,  0,  0,  100]]]
+    },
+    "200000723": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire physical damage by 60%"],
+            ["Increase Fire magic damage by 60%"]
+        ],
+        "effects_raw": [[0, 0, 10, [60,  0,  0,  0,  0,  0,  0,  0]], [0, 0, 11, [60,  0,  0,  0,  0,  0,  0,  0]]]
+    },
+    "200000724": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire physical damage by 70%"],
+            ["Increase Fire magic damage by 70%"]
+        ],
+        "effects_raw": [[0, 0, 10, [70,  0,  0,  0,  0,  0,  0,  0]], [0, 0, 11, [70,  0,  0,  0,  0,  0,  0,  0]]]
+    },
+    "200000725": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire physical damage by 80%"],
+            ["Increase Fire magic damage by 80%"]
+        ],
+        "effects_raw": [[0, 0, 10, [80,  0,  0,  0,  0,  0,  0,  0]], [0, 0, 11, [80,  0,  0,  0,  0,  0,  0,  0]]]
+    },
+    "200000726": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire physical damage by 90%"],
+            ["Increase Fire magic damage by 90%"]
+        ],
+        "effects_raw": [[0, 0, 10, [90,  0,  0,  0,  0,  0,  0,  0]], [0, 0, 11, [90,  0,  0,  0,  0,  0,  0,  0]]]
+    },
+    "200000727": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire physical damage by 100%"],
+            ["Increase Fire magic damage by 100%"]
+        ],
+        "effects_raw": [[0, 0, 10, [100,  0,  0,  0,  0,  0,  0,  0]], [0, 0, 11, [100,  0,  0,  0,  0,  0,  0,  0]]]
+    },
+    "200000728": {
+        "duration": 5,
+        "effects": [
+            ["Increase Fire and Ice physical damage by 70%"],
+            ["Increase Fire and Ice magic damage by 70%"]
+        ],
+        "effects_raw": [[0, 0, 10, [70,  70,  0,  0,  0,  0,  0,  0]], [0, 0, 11, [70,  70,  0,  0,  0,  0,  0,  0]]]
     }
 }
