@@ -11312,5 +11312,29 @@
         ],
         "effects_raw": [[2, 1, 33, [-130,  -130,  -130,  -130,  -130,  -130,  -130,  -130,  1,  4]]],
         "requirements": null
+    },
+    "70560": {
+        "name": "メテオ",
+        "icon": "ability_29.png",
+        "compendium_id": 142,
+        "rarity": 8,
+        "cost": {},
+        "magic_type": "Black",
+        "is_sealable": false,
+        "is_reflectable": false,
+        "in_exploration": false,
+        "attack_count": [32],
+        "attack_damage": [[2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  3,  3,  3,  3,  3,  12,  12,  13]],
+        "attack_frames": [[42,  62,  82,  95,  102,  115,  122,  135,  142,  148,  155,  162,  168,  175,  182,  188,  195,  201,  208,  215,  221,  228,  235,  241,  248,  261,  268,  281,  288,  301,  321,  341]],
+        "effect_frames": [[40,  40]],
+        "move_type": 0,
+        "effect_type": "Default",
+        "attack_type": "Physical",
+        "element_inflict": null,
+        "effects": [
+            ["Consume all MP to deal magic* damage (1x, MAG) with (1x, consumed MP) bonus damage to all enemies"]
+        ],
+        "effects_raw": [[2, 1, 169, [3,  100,  2,  100]]],
+        "requirements": null
     }
 }
