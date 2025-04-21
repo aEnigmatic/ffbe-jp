@@ -77051,8 +77051,8 @@
         "dmg_variance": null,
         "accuracy": 0,
         "requirements": ["UNIT_ID", 353000107],
-        "skills": [246014, 246015],
-        "effects": ["Grant '南国育ち' passive", "Grant '友達思い' passive"],
+        "skills": [246015, 246014],
+        "effects": ["Grant '友達思い' passive", "Grant '南国育ち' passive"],
         "stats": {
             "HP": 0,
             "MP": 0,
@@ -77223,6 +77223,37 @@
         "price_buy": 200000,
         "price_sell": 20000,
         "icon": "item_2170187.png"
+    },
+    "405042300": {
+        "name": "ブレイブ・オブ・アジュール",
+        "compendium_id": 3869,
+        "compendium_shown": true,
+        "rarity": 8,
+        "type_id": 50,
+        "type": "Cloth Armor",
+        "slot_id": 4,
+        "slot": "Chest",
+        "is_twohanded": false,
+        "dmg_variance": null,
+        "accuracy": 0,
+        "requirements": null,
+        "skills": [246235, 246236],
+        "effects": ["Grant '平和をもたらした剣士・蒼' passive", "Grant '蒼き英雄騎士' passive"],
+        "stats": {
+            "HP": 0,
+            "MP": 0,
+            "ATK": 127,
+            "DEF": 33,
+            "MAG": 0,
+            "SPR": 51,
+            "element_resist": null,
+            "element_inflict": null,
+            "status_resist": null,
+            "status_inflict": null
+        },
+        "price_buy": 100000,
+        "price_sell": 10000,
+        "icon": "item_2170188.png"
     },
     "406000100": {
         "name": "レザープレート",
