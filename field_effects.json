@@ -845,6 +845,14 @@
         ],
         "effects_raw": [[0, 0, 2, [0, 0, [-50,  0], 0, [-50,  0], 0, 0, 0]]]
     },
+    "100000126": {
+        "duration": -1,
+        "effects": [
+            ["Increase Earth physical damage by 100%"],
+            ["Increase Earth magic damage by 100%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0, 0, 0, 0, 0, [100,  100], 0, 0]], [0, 0, 11, [0, 0, 0, 0, 0, [100,  100], 0, 0]]]
+    },
     "200000001": {
         "duration": 10,
         "effects": [
@@ -6979,6 +6987,137 @@
         "effects_raw": [[0, 0, 14, [50]]]
     },
     "200000904": {
+        "duration": 2,
+        "effects": [
+            ["Unknown active effect type '14': [100]"]
+        ],
+        "effects_raw": [[0, 0, 14, [100]]]
+    },
+    "200000907": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Light by 100%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  0,  -100,  0]]]
+    },
+    "200000908": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Light by 125%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  0,  -125,  0]]]
+    },
+    "200000909": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Light by 150%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  0,  -150,  0]]]
+    },
+    "200000910": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Light by 175%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  0,  -175,  0]]]
+    },
+    "200000911": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Light by 200%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  0,  0,  0,  -200,  0]]]
+    },
+    "200000912": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Water by 100%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  -100,  0,  0,  0,  0]]]
+    },
+    "200000913": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Water by 125%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  -125,  0,  0,  0,  0]]]
+    },
+    "200000914": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Water by 150%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  -150,  0,  0,  0,  0]]]
+    },
+    "200000915": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Water by 175%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  -175,  0,  0,  0,  0]]]
+    },
+    "200000916": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Water by 200%"]
+        ],
+        "effects_raw": [[0, 0, 2, [0,  0,  0,  -200,  0,  0,  0,  0]]]
+    },
+    "200000917": {
+        "duration": 5,
+        "effects": [
+            ["Increase Earth and Light physical damage by 100%"],
+            ["Increase Earth and Light magic damage by 100%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  100,  100,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  100,  100,  0]]]
+    },
+    "200000918": {
+        "duration": 5,
+        "effects": [
+            ["Increase Earth and Light physical damage by 125%"],
+            ["Increase Earth and Light magic damage by 125%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  125,  125,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  125,  125,  0]]]
+    },
+    "200000919": {
+        "duration": 5,
+        "effects": [
+            ["Increase Earth and Light physical damage by 150%"],
+            ["Increase Earth and Light magic damage by 150%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  150,  150,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  150,  150,  0]]]
+    },
+    "200000920": {
+        "duration": 5,
+        "effects": [
+            ["Increase Earth and Light physical damage by 175%"],
+            ["Increase Earth and Light magic damage by 175%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  175,  175,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  175,  175,  0]]]
+    },
+    "200000921": {
+        "duration": 5,
+        "effects": [
+            ["Increase Earth and Light physical damage by 200%"],
+            ["Increase Earth and Light magic damage by 200%"]
+        ],
+        "effects_raw": [[0, 0, 10, [0,  0,  0,  0,  0,  200,  200,  0]], [0, 0, 11, [0,  0,  0,  0,  0,  200,  200,  0]]]
+    },
+    "200000922": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to Fire, Lightning and Light by 75%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-75,  0,  -75,  0,  0,  0,  -75,  0]]]
+    },
+    "200000923": {
+        "duration": 2,
+        "effects": [
+            ["Unknown active effect type '14': [50]"]
+        ],
+        "effects_raw": [[0, 0, 14, [50]]]
+    },
+    "200000924": {
         "duration": 2,
         "effects": [
             ["Unknown active effect type '14': [100]"]
