@@ -7347,5 +7347,20 @@
             ["Reduce resistance to Fire, Water, Wind and Earth by 100%"]
         ],
         "effects_raw": [[0, 0, 2, [-100,  0,  0,  -100,  -100,  -100,  0,  0]]]
+    },
+    "200000963": {
+        "duration": 5,
+        "effects": [
+            ["Reduce resistance to all elements by -100%"]
+        ],
+        "effects_raw": [[0, 0, 2, [-100,  -100,  -100,  -100,  -100,  -100,  -100,  -100]]]
+    },
+    "200000964": {
+        "duration": 5,
+        "effects": [
+            ["Increase all physical elemental damage physical damage by 100%"],
+            ["Increase all magic elemental damage magic damage by 100%"]
+        ],
+        "effects_raw": [[0, 0, 10, [100,  100,  100,  100,  100,  100,  100,  100]], [0, 0, 11, [100,  100,  100,  100,  100,  100,  100,  100]]]
     }
 }
